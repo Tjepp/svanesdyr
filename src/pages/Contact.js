@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import { Page } from '../components';
 
 class Contact extends Component {
   render() {
-    return <h3>Hello Contact! </h3>;
+    return (
+      <Page>
+        <h3>Hello Contact</h3>
+      </Page>
+    );
   }
 }
 

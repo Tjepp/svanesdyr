@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import { Page } from '../components';
 
 class DogCourse extends Component {
   render() {
-    return <h3>Hello world! </h3>;
+    return (
+      <Page>
+        <h3>Hello DogCourse</h3>
+      </Page>
+    );
   }
 }
 

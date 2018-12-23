@@ -1,13 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import About from './pages/About';
-import Cat from './pages/Cat';
-import Contact from './pages/Contact';
-import Dog from './pages/Dog';
-import DogCourse from './pages/DogCourse';
-import Home from './pages/Home';
-import Horse from './pages/Horse';
-import MyMethods from './pages/MyMethods';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope, faPhone, faBars } from '@fortawesome/free-solid-svg-icons';
+import {
+  faFacebookF,
+  faLinkedinIn,
+  faApple,
+  faGoogle,
+  faMicrosoft
+} from '@fortawesome/free-brands-svg-icons';
+import { About, Cat, Contact, Dog, DogCourse, Home, Horse, Lecture, MyMethods } from './pages';
+
+library.add(faEnvelope, faPhone, faBars, faLinkedinIn, faFacebookF, faApple, faGoogle, faMicrosoft);
 
 const App = () => (
   <Router>
@@ -19,6 +23,7 @@ const App = () => (
       <Route path="/dogcourse" exact component={DogCourse} />
       <Route path="/" exact component={Home} />
       <Route path="/horse" exact component={Horse} />
+      <Route path="/lecture" exact component={Lecture} />
       <Route path="/mymethods" exact component={MyMethods} />
     </Switch>
   </Router>
