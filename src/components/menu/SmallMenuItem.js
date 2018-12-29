@@ -13,9 +13,9 @@ export default SmallMenuItem;
 
 const Item = styled.a`
 display: flex;
-justify-content: center;
 height: 40px;
 width: 100%;
+padding-left: 15px;
 border-width: 0 0 3px 0;
 border-style: solid;
 border-color: transparent

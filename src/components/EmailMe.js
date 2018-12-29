@@ -19,6 +19,7 @@ const IconContainer = styled.div`
 const Text = styled.a`
   margin-left: 0.5rem;
   color: #fff;
+  text-decoration: none;
 `;
 
 export default EmailMe;

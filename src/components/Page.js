@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
-import TopBar from './TopBar';
+import Header from './Header';
 import Menu from './menu/Menu';
 import FooterBottom from './FooterBottom';
+import FooterTop from './FooterTop';
 
 const Page = ({ children }) => (
   <Container>
-    <TopBar />
+    <Header />
     <Menu />
     {children}
+    <FooterTop />
     <FooterBottom />
   </Container>
 );

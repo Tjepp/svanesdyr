@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelope, faPhone, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faBars, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebookF,
   faLinkedinIn,
@@ -11,7 +11,17 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { About, Cat, Contact, Dog, DogCourse, Home, Horse, Lecture, MyMethods } from './pages';
 
-library.add(faEnvelope, faPhone, faBars, faLinkedinIn, faFacebookF, faApple, faGoogle, faMicrosoft);
+library.add(
+  faEnvelope,
+  faPhone,
+  faBars,
+  faMapMarkerAlt,
+  faLinkedinIn,
+  faFacebookF,
+  faApple,
+  faGoogle,
+  faMicrosoft
+);
 
 const App = () => (
   <Router>

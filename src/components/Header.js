@@ -5,8 +5,6 @@ import CallMe from './CallMe';
 import EmailMe from './EmailMe';
 import media from './Media';
 
-// <FontAwesomeIcon color="#fff" icon={['fab', 'linkedin-in']} style={{ padding: '6 12' }} />
-
 function navigateTo(url) {
   window.open(url, '_blank');
 }
@@ -44,7 +42,7 @@ const Button = styled.button` {
   `;
 
 const Background = styled.div`
-  height: 2rem;
+  height: 3rem;
   background: #25292c;
   border-bottom: 1px solid #414f5a;
   display: flex;
