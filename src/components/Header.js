@@ -3,7 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CallMe from './CallMe';
 import EmailMe from './EmailMe';
-import media from './Media';
+import Responsive from './Responsive';
 
 function navigateTo(url) {
   window.open(url, '_blank');
@@ -47,7 +47,7 @@ const Background = styled.div`
   border-bottom: 1px solid #414f5a;
   display: flex;
   justify-content: center;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     height: 0.75rem;
   `}
 `;
@@ -63,7 +63,7 @@ const Bar = styled.div`
 const Column = styled.div`
   display: flex;
   flex-direction: row;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     display: none;
   `}
 `;

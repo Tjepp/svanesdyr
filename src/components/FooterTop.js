@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import media from './Media';
+import Responsive from './Responsive';
 import { contactMap } from '../assets';
 import FacebookColumn from './FacebookColumn';
 
@@ -65,7 +65,7 @@ const Background = styled.div`
   border-bottom: 1px solid #414f5a;
   color: #a1a1a1;
   padding: 50px 0;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     padding: 0;
   `}
 `;
@@ -75,7 +75,7 @@ const Container = styled.div`
   flex-direction: row;
   max-width: 1200px;
   justify-content: space-evenly;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     flex-direction: column;
     align-items: center;
     padding: 15px;
@@ -97,7 +97,7 @@ const SubTitle = styled.p`
 const ColumnContainer = styled.div`
   flex-direction: column;
   width: 25%;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     width: 100%;
     align-self: end;
   `}

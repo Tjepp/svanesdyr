@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
-import media, { sizes } from '../Media';
+import Responsive from '../Responsive';
 import { logo } from '../../assets';
 import LargeMenu from './LargeMenu';
 import SmallMenu from './SmallMenu';
@@ -26,7 +26,7 @@ class Menu extends Component {
             <Img src={logo} alt="logo" />
           </CenteredA>
           <MenuItemContainer>
-            <MediaQuery minWidth={sizes.tablet}>
+            <MediaQuery minWidth={Responsive.sizes.tablet}>
               {matches =>
                 matches ? (
                   <LargeMenu />
@@ -60,7 +60,7 @@ const Bar = styled.div`
   max-width: 1200px;
   width: 100%;
   margin: 0 0.5rem;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     flex-direction: column;
     margin: 0; 
   `}
@@ -71,7 +71,7 @@ const MenuItemContainer = styled.div`
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     flex-direction: column;
   `}
 `;
@@ -81,13 +81,13 @@ const Img = styled.img`
   border: 0;
   width: 285px;
   height: 90px;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     align-self: center;
   `}
 `;
 
 const CenteredA = styled.a`
-  ${media.tablet`
+  ${Responsive.media.tablet`
     align-self: center;
   `}
 `;

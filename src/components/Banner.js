@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
-import media from './Media';
+import Responsive from './Responsive';
 
 const Banner = ({ children, text }) => (
   <Background>
@@ -28,7 +28,7 @@ const Background = styled.div`
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-  ${media.tablet`
+  ${Responsive.media.tablet`
     padding: 0;
   `}
 `;
@@ -42,8 +42,9 @@ const Container = styled.div`
   padding: 0.5rem;
   justify-content: space-between;
   align-items: center;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     justify-content: center;
+    flex-direction: column;
   `}
 `;
 

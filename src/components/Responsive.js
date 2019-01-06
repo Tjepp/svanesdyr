@@ -1,6 +1,6 @@
 import { css } from 'styled-components';
 
-export const sizes = {
+const sizes = {
   desktop: 992,
   tablet: 768,
   phone: 576
@@ -16,4 +16,7 @@ const media = Object.keys(sizes).reduce((acc, label) => {
   return acc;
 }, {});
 
-export default media;
+export default {
+  media,
+  sizes
+};

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
-import media from './Media';
+import Responsive from './Responsive';
 
 const FooterBottom = () => (
   <Background>
@@ -28,7 +28,7 @@ const TextContainer = styled.div`
   max-width: 1200px;
   flex-direction: row;
   padding: 0.5rem;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     justify-content: center;
   `}
 `;

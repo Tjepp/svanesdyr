@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import React, { PureComponent } from 'react';
-import media from './Media';
+import Responsive from './Responsive';
 
 class FacebookColumn extends PureComponent {
   state = {
@@ -71,7 +71,7 @@ const MarginBottom = styled.div`
 const ColumnContainer = styled.div`
   flex-direction: column;
   width: 25%;
-  ${media.tablet`
+  ${Responsive.media.tablet`
     width: 100%;
     align-self: end;
   `}
