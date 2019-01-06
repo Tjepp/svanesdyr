@@ -6,5 +6,9 @@ export const foredragHundensSprog = require('./foredragHundensSprog.jpg');
 export const foredragSlapAfFido = require('./foredragSlapAfFido.jpg');
 export const logoLightGrey = require('./logoLightGrey.png');
 export const logo = require('./logo.jpg');
+export const sabrinaWithPuppy = require('./SabrinaWithPuppyFull.jpg');
+export const sabrinaWithPuppyCropped = require('./SabrinaWithPuppyCropped.jpg');
+export const sabrinaAndBarney = require('./SabrinaAndBarney.jpg');
+export const labradors = require('./Labradors.jpg');
 
 /* eslint-enable global-require */
