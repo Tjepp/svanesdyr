@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import MetaTags from 'react-meta-tags';
 import { Page, Banner, Button, Image } from '../components';
 import ReactRouterPropTypes from '../ReactRouterPropTypes';
 import Responsive from '../components/Responsive';
@@ -15,6 +16,33 @@ class Home extends Component {
   render() {
     return (
       <Page>
+        <MetaTags>
+          <title>
+            Hundetræning | Kattetræning | Hestetræning | Hundehold Horsens | Hundetræning
+            Midtjylland | Klikkertræning | Foredrag hundeadfærd | Foredrag kat |
+            Dyreadfærdskonsulent | Svanes dyr
+          </title>
+          <link rel="canonical" href="https://www.svanesdyr.dk/" />
+          <meta property="og:locale" content="da_DK" />
+          <meta property="og:type" content="website" />
+          <meta
+            name="og:title"
+            content=" Hundetræning | Kattetræning | Hestetræning | Hundehold Horsens | Hundetræning Midtjylland | Klikkertræning | Foredrag hundeadfærd | Foredrag kat | Dyreadfærdskonsulent | Svanes dyr "
+          />
+          <meta property="og:site_name" content="Svanes dyr" />
+          <meta
+            name="keywords"
+            content="Hundehold Horsens, Hundetræning Midtjylland, Kattetræning, klikkertræning, hestetræning Midtjylland, Svanes dyr, positiv hundetræning, 
+                     klikkertræning hest, klikkertræning kat, klikkertræning hund, adfærdsbehandler Midtjylland, adfærdsbehandler Horsens, hundeadfærd, 
+                     katteadfærd, hesteadfærd, adfærdsterapeut hund, adfærdsterapeut hest, adfærdsterapeut kat, hundehvisker, hestehvisker, kattehvisker, 
+                     rådgivning hund, hjælp hund, hjælp kat, hjælp hest, rådgivning kat, rådgivning hund, Sabrina Svane, svane hundetræning, foredrag hundeadfærd, 
+                     foredrag kat, foredrag katteadfærd, foredrag svane, konsulet adfærd, adfærdskonsulent"
+          />
+          <meta name="description" content="Svanes dyr - Certificeret Dyreadfærdskonsulent" />
+          <meta name="og:description" content="Svanes dyr - Certificeret Dyreadfærdskonsulent" />
+          <meta property="og:url" content="https://www.svanesdyr.dk/" />
+          <meta property="og:site_name" content="Svanes dyr" />
+        </MetaTags>
         <Banner text="For information om kommende hundehold, se her:">
           <Button text="HUNDEHOLD" onClick={() => this.onClick('dogcourse')} />
         </Banner>
