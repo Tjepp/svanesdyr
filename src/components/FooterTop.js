@@ -64,7 +64,7 @@ const Background = styled.div`
   justify-content: center;
   border-bottom: 1px solid #414f5a;
   color: #a1a1a1;
-  padding: 50px 0;
+  padding-bottom: 25px;
   ${Responsive.media.tablet`
     padding: 0;
   `}
@@ -74,7 +74,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   max-width: 1200px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   ${Responsive.media.tablet`
     flex-direction: column;
     align-items: center;
@@ -96,7 +96,7 @@ const SubTitle = styled.p`
 
 const ColumnContainer = styled.div`
   flex-direction: column;
-  width: 25%;
+  width: 32%;
   ${Responsive.media.tablet`
     width: 100%;
     align-self: end;

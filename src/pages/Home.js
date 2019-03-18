@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { Page, Banner, Button } from '../components';
+import { Page, Banner, Button, Image } from '../components';
 import ReactRouterPropTypes from '../ReactRouterPropTypes';
 import Responsive from '../components/Responsive';
+import { sabrinaWithPuppy, sabrinaAndBarney, labradors } from '../assets';
 
 class Home extends Component {
   onClick = path => {
@@ -24,6 +25,7 @@ class Home extends Component {
               text="Professionel rådgivning og vejledning til almen træning eller løsning af adfærdsproblemer til
                     din hund, hest eller kat. Klik ind i menuen for oven for at læse mere om hvad jeg kan tilbyde
                     til netop dig og dit kæledyr!"
+              picture={sabrinaWithPuppy}
               onClick={() => {
                 this.onClick('about');
               }}
@@ -33,6 +35,7 @@ class Home extends Component {
               text="Jeg benytter mig af belønningsbaserede træningsmetoder fra de indlæringspsykologiske
                     principper. Jeg vægter gensidig samarbejde og glæde højt og jeg tager hensyn til den enkelte i
                     træningen."
+              picture={labradors}
               onClick={() => {
                 this.onClick('mymethods');
               }}
@@ -42,6 +45,7 @@ class Home extends Component {
               text="Jeg er certificeret Dyreadfærdskonsulent (BSc ABT) og har udover denne uddannelse
                     specialiseret mig i katte og katteadfærd. Oplever du et adfærdsproblem i din kat, kan du få
                     rådgivning og hjælp til dette hos mig."
+              picture={sabrinaAndBarney}
               onClick={() => {
                 this.onClick('cat');
               }}
@@ -63,8 +67,9 @@ Home.defaultProps = {
 
 export default Home;
 
-const Column = ({ title, text, onClick }) => (
+const Column = ({ title, text, onClick, picture }) => (
   <ColumnContainer>
+    <Image src={picture} />
     <Title>{title}</Title>
     <Text onClick={onClick}>{text}</Text>
   </ColumnContainer>
@@ -73,7 +78,8 @@ const Column = ({ title, text, onClick }) => (
 Column.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired
+  onClick: PropTypes.func.isRequired,
+  picture: PropTypes.string.isRequired
 };
 
 const Background = styled.div`
@@ -90,7 +96,7 @@ const Container = styled.div`
   flex-direction: row;
   width: 100%;
   max-width: 1200px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   ${Responsive.media.tablet`
     flex-direction: column;
     align-items: center;
@@ -100,11 +106,12 @@ const Container = styled.div`
 
 const ColumnContainer = styled.div`
   flex-direction: column;
-  margin: 20px 0;
-  width: 25%;
+  margin: 20px 0px;
+  width: 32%;
   ${Responsive.media.tablet`
     width: 100%;
     align-self: end;
+    margin: 20px 0px;
   `}
 `;
 

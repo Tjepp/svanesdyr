@@ -70,7 +70,7 @@ const MarginBottom = styled.div`
 
 const ColumnContainer = styled.div`
   flex-direction: column;
-  width: 25%;
+  width: 32%;
   ${Responsive.media.tablet`
     width: 100%;
     align-self: end;
