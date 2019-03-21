@@ -6,3 +6,4 @@ export { default as Page } from './Page';
 export { default as Header } from './Header';
 export { default as Banner } from './Banner';
 export { default as Image } from './Image';
+export { default as Meta } from './Meta';

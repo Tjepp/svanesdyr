@@ -47,6 +47,7 @@ class FacebookColumn extends PureComponent {
         <div>Følg mig på facebook, hvor jeg løbende opdaterer med relevante nyheder.</div>
         <MarginBottom>Tilfreds med mit besøg? Smid gerne en bedømmelse. </MarginBottom>
         <div
+          style={{ height: '214px' }}
           className="fb-page"
           data-href="https://www.facebook.com/SvanesDyr/"
           data-hide-cover="false"
