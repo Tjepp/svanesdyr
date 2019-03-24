@@ -1,4 +1,5 @@
 export { default as Button } from './Button';
+export { default as Column } from './Column';
 export { default as FooterBottom } from './FooterBottom';
 export { default as FooterTop } from './FooterTop';
 export { default as Menu } from './menu/Menu';
@@ -7,3 +8,5 @@ export { default as Header } from './Header';
 export { default as Banner } from './Banner';
 export { default as Image } from './Image';
 export { default as Meta } from './Meta';
+export { default as Text } from './Text';
+export { default as Title } from './Title';

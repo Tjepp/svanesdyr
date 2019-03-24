@@ -10,5 +10,8 @@ export const sabrinaWithPuppy = require('./SabrinaWithPuppyFull.jpg');
 export const sabrinaWithPuppyCropped = require('./SabrinaWithPuppyCropped.jpg');
 export const sabrinaAndBarney = require('./SabrinaAndBarney.jpg');
 export const labradors = require('./Labradors.jpg');
+export const puppyCourse = require('./holdHvalpehold.jpg');
+export const coolCourse = require('./holdHeltCool.jpg');
+export const recall = require('./holdIndkald.jpg');
 
 /* eslint-enable global-require */
