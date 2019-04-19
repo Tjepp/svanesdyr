@@ -22,7 +22,6 @@ export default Banner;
 const Background = styled.div`
   display: flex;
   justify-content: center;
-  height: 80px;
   background: #fafafa;
   width: 100%;
   border-top: 1px solid #ddd;
