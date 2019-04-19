@@ -8,7 +8,7 @@ const StyledTitle = styled.h4`
   color: ${props => props.color};
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
   font-size: 22px;
-  margin: 0 0 25px;
+  margin: 10px 0 10px 0;
 `;
 
 Title.propTypes = {

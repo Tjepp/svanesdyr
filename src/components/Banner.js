@@ -22,7 +22,7 @@ export default Banner;
 const Background = styled.div`
   display: flex;
   justify-content: center;
-  min-height: 100px;
+  height: 80px;
   background: #fafafa;
   width: 100%;
   border-top: 1px solid #ddd;
@@ -30,6 +30,7 @@ const Background = styled.div`
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   ${Responsive.media.tablet`
     padding: 0;
+    min-height: 100px;
   `}
 `;
 
@@ -48,8 +49,9 @@ const Container = styled.div`
   `}
 `;
 
-const Title = styled.h2`
+const Title = styled.h1`
   font-weight: normal;
   color: #666;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
+  margin: 10px 0 10px 0;
 `;
