@@ -3,14 +3,14 @@ import LargeMenuItem from './LargeMenuItem';
 
 const LargeMenu = () => (
   <Fragment>
-    <LargeMenuItem url="/dogcourse" text="Hundehold" />
-    <LargeMenuItem url="/dog" text="Hund" />
-    <LargeMenuItem url="/horse" text="Hest" />
-    <LargeMenuItem url="/cat" text="Kat" />
-    <LargeMenuItem url="/lecture" text="Foredrag" />
-    <LargeMenuItem url="/about" text="Om Mig " />
-    <LargeMenuItem url="/mymethods" text="Mine metoder" />
-    <LargeMenuItem url="/contact" text="Kontakt" />
+    <LargeMenuItem url="/hundehold" text="Hundehold" />
+    <LargeMenuItem url="/hundetraening" text="Hund" />
+    <LargeMenuItem url="/hestetraening" text="Hest" />
+    <LargeMenuItem url="/kattetraening" text="Kat" />
+    <LargeMenuItem url="/foredrag" text="Foredrag" />
+    <LargeMenuItem url="/dyreadfaerdskonsulent" text="Om Mig " />
+    <LargeMenuItem url="/minemetoder" text="Mine metoder" />
+    <LargeMenuItem url="/kontakt" text="Kontakt" />
   </Fragment>
 );
 

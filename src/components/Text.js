@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const Text = ({ text, onClick, color, bold }) => (
-  <StyledText bold={bold} color={color} onClick={onClick}>
-    {text}
-  </StyledText>
-);
+class Text extends PureComponent {
+  render() {
+    const { bold, color, onClick, text } = this.props;
+    // TODO: https://stackoverflow.com/questions/33235890/react-replace-links-in-a-text
+    return (
+      <StyledText bold={bold} color={color} onClick={onClick}>
+        {text}
+      </StyledText>
+    );
+  }
+}
 
 const StyledText = styled.p`
   color: ${props => props.color};

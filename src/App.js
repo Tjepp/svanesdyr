@@ -26,15 +26,15 @@ library.add(
 const App = () => (
   <Router>
     <Switch>
-      <Route path="/about" exact component={About} />
-      <Route path="/cat" exact component={Cat} />
-      <Route path="/contact" exact component={Contact} />
-      <Route path="/dog" exact component={Dog} />
-      <Route path="/dogcourse" exact component={DogCourse} />
+      <Route path="/dyreadfaerdskonsulent" exact component={About} />
+      <Route path="/kattetraening" exact component={Cat} />
+      <Route path="/kontakt" exact component={Contact} />
+      <Route path="/hundetraening" exact component={Dog} />
+      <Route path="/hundehold" exact component={DogCourse} />
       <Route path="/" exact component={Home} />
-      <Route path="/horse" exact component={Horse} />
-      <Route path="/lecture" exact component={Lecture} />
-      <Route path="/mymethods" exact component={MyMethods} />
+      <Route path="/hestetraening" exact component={Horse} />
+      <Route path="/foredrag" exact component={Lecture} />
+      <Route path="/minemetoder" exact component={MyMethods} />
     </Switch>
   </Router>
 );

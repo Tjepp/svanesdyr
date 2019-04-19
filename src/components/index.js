@@ -12,3 +12,4 @@ export { default as Text } from './Text';
 export { default as Title } from './Title';
 export { default as BreadCrumps } from './BreadCrumps';
 export { default as TableHead } from './table/TableHead';
+export { default as TextList } from './TextList';
