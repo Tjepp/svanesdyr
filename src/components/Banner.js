@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
-import Responsive from './Responsive';
+import Responsive from './layout/Responsive';
 
 const Banner = ({ children, text }) => (
   <Background>

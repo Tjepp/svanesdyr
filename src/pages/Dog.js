@@ -10,11 +10,12 @@ import {
   Text,
   Image,
   BreadCrumps,
-  TextList
+  TextList,
+  Row
 } from '../components';
-import Responsive from '../components/Responsive';
+import Responsive from '../components/layout/Responsive';
 import { puppyCourse, coolCourse, recall } from '../assets';
-import '../components/TableCss.css';
+import '../components/table/TableCss.css';
 
 const privateHour = [
   'Hunden kommer ikke når man kalder.',
@@ -39,6 +40,14 @@ const puppyVisitTexts = [
   'Optimal aktivering i hverdagen.',
   'Renlighed, alene hjemme og hvalpebideri.',
   'Miljøtræning og socialisering.'
+];
+
+const texts = [
+  'Belønningsbaseret hundetræning er til gavn for alle hunde, uanset alder og race, og styrker relationen mellem hund og ejer. Træning med din hund byder på kvalitetstid hvor samarbejde, tillid og succes styrkes, hvilket skaber en hund i balance med sig selv og sine omgivelser. Mange adfærdsproblemer, som angst og aggression, kan forebygges igennem belønningsbaseret træning og forståelse for hundens adfærd. Ønsker du vejledning i positiv, effektiv hundeopdragelse til hverdagen eller har du brug for gode råd til træning af hunden, så kan du ',
+  '<a href=/kontakt>bestille en privattime </a>',
+  'ved at kontakte Sabrina Svane eller tilmelde dig et',
+  '<a href=/hundehold>hundehold</a>',
+  '.'
 ];
 
 const Dog = () => (
@@ -133,19 +142,6 @@ const Background = styled.div`
   justify-content: center;
   flex-direction: column;
   ${Responsive.media.tablet`
-  padding: 15px;
-  `}
-`;
-
-const Row = styled.div`
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 1200px;
-  justify-content: space-between;
-  align-self: center;
-  ${Responsive.media.tablet`
-    flex-direction: column;
-    align-items: center;
+    padding: 15px;
   `}
 `;

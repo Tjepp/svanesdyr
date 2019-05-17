@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Responsive from './Responsive';
+import Responsive from './layout/Responsive';
 import { contactMap } from '../assets';
 import FacebookColumn from './FacebookColumn';
 

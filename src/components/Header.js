@@ -3,7 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CallMe from './CallMe';
 import EmailMe from './EmailMe';
-import Responsive from './Responsive';
+import Responsive from './layout/Responsive';
 
 function navigateTo(url) {
   window.open(url, '_blank');

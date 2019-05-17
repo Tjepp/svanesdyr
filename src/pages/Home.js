@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 import { Page, Banner, Button, Meta, Column, Title, Text, Image } from '../components';
 import ReactRouterPropTypes from '../ReactRouterPropTypes';
-import Responsive from '../components/Responsive';
+import Responsive from '../components/layout/Responsive';
 import { sabrinaWithPuppy, sabrinaAndBarney, labradors } from '../assets';
 
 class Home extends PureComponent {
@@ -28,7 +28,7 @@ class Home extends PureComponent {
                     din hund, hest eller kat. Klik ind i menuen for oven for at læse mere om hvad jeg kan tilbyde
                     til netop dig og dit kæledyr!"
                 onClick={() => {
-                  this.onClick('about');
+                  this.onClick('dyreadfaerdskonsulent');
                 }}
                 color="#008080"
               />
@@ -41,7 +41,7 @@ class Home extends PureComponent {
                 principper. Jeg vægter gensidig samarbejde og glæde højt og jeg tager hensyn til den enkelte i
                 træningen."
                 onClick={() => {
-                  this.onClick('mymethods');
+                  this.onClick('minemetoder');
                 }}
                 color="#008080"
               />
@@ -54,7 +54,7 @@ class Home extends PureComponent {
                 specialiseret mig i katte og katteadfærd. Oplever du et adfærdsproblem i din kat, kan du få
                 rådgivning og hjælp til dette hos mig."
                 onClick={() => {
-                  this.onClick('cat');
+                  this.onClick('kattetraening');
                 }}
                 color="#008080"
               />

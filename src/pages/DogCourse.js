@@ -11,11 +11,12 @@ import {
   Text,
   Image,
   BreadCrumps,
-  TableHead
+  TableHead,
+  Row
 } from '../components';
-import Responsive from '../components/Responsive';
+import Responsive from '../components/layout/Responsive';
 import { puppyCourse, coolCourse, recall } from '../assets';
-import '../components/TableCss.css';
+import '../components/table/TableCss.css';
 
 const DogCourse = () => (
   <Page>
@@ -182,18 +183,5 @@ const Background = styled.div`
   flex-direction: column;
   ${Responsive.media.tablet`
   padding: 15px;
-  `}
-`;
-
-const Row = styled.div`
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 1200px;
-  justify-content: space-between;
-  align-self: center;
-  ${Responsive.media.tablet`
-    flex-direction: column;
-    align-items: center;
   `}
 `;

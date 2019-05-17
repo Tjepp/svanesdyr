@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import React, { PureComponent } from 'react';
-import Responsive from './Responsive';
+import Responsive from './layout/Responsive';
 
 class FacebookColumn extends PureComponent {
   state = {

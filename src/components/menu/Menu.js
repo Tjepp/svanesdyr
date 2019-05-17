@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
-import Responsive from '../Responsive';
+import Responsive from '../layout/Responsive';
 import { logo } from '../../assets';
 import LargeMenu from './LargeMenu';
 import SmallMenu from './SmallMenu';

@@ -10,14 +10,14 @@ const SmallMenu = ({ onClick, showSidebar }) => (
       <FontAwesomeIcon icon="bars" color="#fff" size="1x" />
     </MenuButton>
     <CollapsibleMenu showSidebar={showSidebar}>
-      <SmallMenuItem url="/dogcourse" text="Hundehold" />
-      <SmallMenuItem url="/dog" text="Hund" />
-      <SmallMenuItem url="/horse" text="Hest" />
-      <SmallMenuItem url="/cat" text="Kat" />
-      <SmallMenuItem url="/lecture" text="Foredrag" />
-      <SmallMenuItem url="/about" text="Om Mig " />
-      <SmallMenuItem url="/mymethods" text="Mine metoder" />
-      <SmallMenuItem url="/contact" text="Kontakt" />
+      <SmallMenuItem url="/hundehold" text="Hundehold" />
+      <SmallMenuItem url="/hundetraening" text="Hund" />
+      <SmallMenuItem url="/hestetraening" text="Hest" />
+      <SmallMenuItem url="/kattetraening" text="Kat" />
+      <SmallMenuItem url="/foredrag" text="Foredrag" />
+      <SmallMenuItem url="/dyreadfaerdskonsulent" text="Om Mig " />
+      <SmallMenuItem url="/minemetoder" text="Mine metoder" />
+      <SmallMenuItem url="/kontakt" text="Kontakt" />
     </CollapsibleMenu>
   </Fragment>
 );

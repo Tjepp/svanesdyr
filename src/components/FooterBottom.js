@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import React from 'react';
-import Responsive from './Responsive';
+import Responsive from './layout/Responsive';
 
 const FooterBottom = () => (
   <Background>
