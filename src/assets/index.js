@@ -13,5 +13,6 @@ export const labradors = require('./Labradors.jpg');
 export const puppyCourse = require('./holdHvalpehold.jpg');
 export const coolCourse = require('./holdHeltCool.jpg');
 export const recall = require('./holdIndkald.jpg');
+export const titleHr = require('./bg_off.png');
 
 /* eslint-enable global-require */
