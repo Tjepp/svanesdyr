@@ -36,7 +36,7 @@ const ContactMe = () => (
       <IconContainer>
         <FontAwesomeIcon icon="phone" color="#666" size="1x" />
         <SubTitle>Telefon: </SubTitle>
-        <div>93 960 500</div>
+        <StyledA href="tel: 93960500">93 960 500</StyledA>
       </IconContainer>
       <IconContainer>
         <FontAwesomeIcon icon="envelope" color="#666" size="1x" />
@@ -56,6 +56,11 @@ const ContactMe = () => (
     </ContactInfoContainer>
   </ColumnContainer>
 );
+
+const StyledA = styled.a`
+  text-decoration: none;
+  color: #fff;
+`;
 
 const Background = styled.div`
   min-height: 90px;

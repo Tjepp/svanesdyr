@@ -100,14 +100,14 @@ const Dog = () => (
       <Row>
         <Column>
           <Image src={puppyCourse} />
-          <Title text="Privattime" />
+          <Title text="Privattime" columnTitle />
           <Text text="En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hund." />
           <Text bold text="Eksempler på træning til en privattime:" />
           <TextList texts={privateHour} />
         </Column>
         <Column>
           <Image src={coolCourse} />
-          <Title text="Konsultation ved problemadfærd" />
+          <Title text="Konsultation ved problemadfærd" columnTitle />
           <Text
             text="En konsultation varer op til 2 timer hjemme hos jer. 
           Her vil vi snakke adfærdsproblemet igennem, så jeg kan foretage en grundig analyse. 
@@ -121,7 +121,7 @@ const Dog = () => (
         </Column>
         <Column>
           <Image src={recall} />
-          <Title text="Hvalpevisit" />
+          <Title text="Hvalpevisit" columnTitle />
           <Text
             text="Har du netop fået hvalp og ønsker at få den bedste start på jeres fremtidige liv sammen, kan du bestille et hvalpevisit.
              Et hvalpevisit varer op til 1½ time hjemme hos jer og giver jer konkrete tiltag til at få en harmonisk hverdag."

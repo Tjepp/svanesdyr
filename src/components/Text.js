@@ -5,8 +5,7 @@ import PropTypes from 'prop-types';
 
 class Text extends PureComponent {
   render() {
-    const { bold, color, onClick, text, whiteSpace, italic } = this.props;
-    // TODO: https://stackoverflow.com/questions/33235890/react-replace-links-in-a-text
+    const { bold, color, onClick, children, whiteSpace, italic } = this.props;
     return (
       <StyledText
         bold={bold}
@@ -15,7 +14,7 @@ class Text extends PureComponent {
         whiteSpace={whiteSpace}
         italic={italic}
       >
-        {text}
+        {children}
       </StyledText>
     );
   }
@@ -35,7 +34,7 @@ const StyledText = styled.p`
 `;
 
 Text.propTypes = {
-  text: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
   onClick: PropTypes.func,
   color: PropTypes.string,
   bold: PropTypes.bool,

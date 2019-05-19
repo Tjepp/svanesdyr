@@ -10,7 +10,8 @@ import {
   Text,
   BreadCrumps,
   Row,
-  ContactForm
+  ContactForm,
+  StyledA
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -25,44 +26,45 @@ const Contact = () => (
       <Row>
         <Column widthPercentage="62%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
-          <Text text="Har du spørgsmål vedrørende din hund, kat eller hest og ønsker at høre om jeg kan hjælpe?" />
+          <Text>
+            Har du spørgsmål vedrørende din hund, kat eller hest og ønsker at høre om jeg kan
+            hjælpe?
+          </Text>
           <FlexRow>
-            <Text whiteSpace text="Så send mig en mail på: " />
-            <Text bold text="info@svanesdyr.dk" />
+            <Text whiteSpace>Så send mig en mail på: </Text>
+            <StyledA href="mailto:info@svanesdyr.dk">info@svanesdyr.dk</StyledA>
           </FlexRow>
-          <Text text="Jeg svarer normaltvist indenfor 24 timer." />
+          <Text>Jeg svarer normaltvist indenfor 24 timer.</Text>
           <FlexRow>
-            <Text whiteSpace text="Du kan sende en sms eller giv mig et kald på: " />
-            <Text bold text="tlf. 93960500" />
+            <Text whiteSpace>Du kan sende en sms eller giv mig et kald på: </Text>
+            <StyledA href="tel: 93960500"> 93 960 500</StyledA>
           </FlexRow>
-          <Text text="Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket." />
-          <Text
-            text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!"
-            color="#33CCCC"
-            bold
-          />
+          <Text> Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket. </Text>
+          <Text text="" color="#33CCCC" bold>
+            Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!
+          </Text>
         </Column>
         <Column>
           <Title text="Firma informationer" showHorizontalRuler />
           <FlexRow>
-            <Text bold whiteSpace text="Firmaadresse: " />
-            <Text text="8740 Brædstrup" />
+            <Text bold>Firmaadresse:</Text>
+            <Text whiteSpace> 8740 Brædstrup</Text>
           </FlexRow>
           <FlexRow>
-            <Text bold whiteSpace text="Træningsbane adresse: " />
-            <Text text="8700 Horsens" />
+            <Text bold>Træningsbane adresse:</Text>
+            <Text whiteSpace> 8700 Horsens</Text>
           </FlexRow>
           <FlexRow>
-            <Text bold whiteSpace text="Telefon: " />
-            <Text text="93 960 500" />
+            <Text bold>Telefon:</Text>
+            <Text whiteSpace> 93 960 500</Text>
           </FlexRow>
           <FlexRow>
-            <Text bold whiteSpace text="Email: " />
-            <Text text="info@svanesdyr.dk" />
+            <Text bold>Email:</Text>
+            <Text whiteSpace> info@svanesdyr.dk</Text>
           </FlexRow>
           <FlexRow>
-            <Text bold whiteSpace text="CVR-nr.: " />
-            <Text text="35903100" />
+            <Text bold>CVR-nr.:</Text>
+            <Text whiteSpace> 35903100</Text>
           </FlexRow>
         </Column>
       </Row>

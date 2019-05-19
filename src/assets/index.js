@@ -1,9 +1,9 @@
 /* eslint-disable global-require */
 
 export const contactMap = require('./contactMap.png');
-export const foredragAngstAggression = require('./foredragAngstAggression.jpg');
-export const foredragHundensSprog = require('./foredragHundensSprog.jpg');
-export const foredragSlapAfFido = require('./foredragSlapAfFido.jpg');
+export const lectureFearAndAgression = require('./foredragAngstAggression.jpg');
+export const lectureDogLanguage = require('./foredragHundensSprog.jpg');
+export const lectureCalmDownFido = require('./foredragSlapAfFido.jpg');
 export const logoLightGrey = require('./logoLightGrey.png');
 export const logo = require('./logo.jpg');
 export const sabrinaWithPuppy = require('./SabrinaWithPuppyFull.jpg');

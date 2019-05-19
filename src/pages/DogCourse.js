@@ -11,7 +11,7 @@ import {
   Text,
   Image,
   BreadCrumps,
-  TableHead,
+  DogCourseTableHead,
   Row
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -65,10 +65,10 @@ const DogCourse = () => (
       </Row>
       <Row>
         <Column widthPercentage="100%">
-          <Title text="Skema for kommende holdstart - MAJ 2019" />
+          <Title text="Skema for kommende holdstart - MAJ 2019" showHorizontalRuler />
           <Text text="Søndage" color="#33CCCC" bold />
           <Table>
-            <TableHead />
+            <DogCourseTableHead />
             <Tbody>
               <Tr>
                 <Td>Hvalp Fortsætter</Td>
@@ -145,7 +145,7 @@ const DogCourse = () => (
       <Row>
         <Column>
           <Image src={puppyCourse} />
-          <Title text="Hvalpehold (3-6 mdr.)" />
+          <Title text="Hvalpehold (3-6 mdr.)" columnTitle />
           <Text bold text="Max 6 deltagere" />
           <Text
             text="Jeg benytter mig af belønningsbaserede træningsmetoder fra de indlæringspsykologiske
@@ -155,7 +155,7 @@ const DogCourse = () => (
         </Column>
         <Column>
           <Image src={coolCourse} />
-          <Title text="Helt-cool kursus (alle aldre)" />
+          <Title text="Helt-cool kursus (alle aldre)" columnTitle />
           <Text bold text="Max 5 deltagere" />
           <Text
             text="Jeg benytter mig af belønningsbaserede træningsmetoder fra de indlæringspsykologiske
@@ -165,7 +165,7 @@ const DogCourse = () => (
         </Column>
         <Column>
           <Image src={recall} />
-          <Title text="Indkaldskursus (alle aldre)" />
+          <Title text="Indkaldskursus (alle aldre)" columnTitle />
           <Text bold text="Max 4 deltagere" />
           <Text text="Ønsker du et indkald med fart og glæde? Hvor hunden vælger dig fremfor alt andet? Så er dette kursus til jer! Vi vil have fokus på motivation, belønningsteknikker, kontakt, stop-signal og forventningsopbygning." />
         </Column>

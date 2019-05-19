@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const CallMe = () => (
   <IconContainer>
     <FontAwesomeIcon icon="phone" color="#fff" size="1x" />
-    <Text> Ring til mig : 93 960 500</Text>
+    <Text href="tel: 93960500"> Ring til mig : 93 960 500</Text>
   </IconContainer>
 );
 
@@ -19,6 +19,7 @@ const IconContainer = styled.div`
 const Text = styled.a`
   margin-left: 0.5rem;
   color: #fff;
+  text-decoration: none;
 `;
 
 export default CallMe;
