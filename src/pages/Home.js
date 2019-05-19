@@ -16,7 +16,7 @@ class Home extends PureComponent {
       <Page>
         <Meta />
         <Banner text="For information om kommende hundehold, se her:">
-          <Button text="HUNDEHOLD" onClick={() => this.onClick('dogcourse')} />
+          <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
         </Banner>
         <Background>
           <Container>

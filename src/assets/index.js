@@ -14,5 +14,7 @@ export const puppyCourse = require('./holdHvalpehold.jpg');
 export const coolCourse = require('./holdHeltCool.jpg');
 export const recall = require('./holdIndkald.jpg');
 export const titleHr = require('./bg_off.png');
+export const methodOne = require('./metode1.png');
+export const methodTwo = require('./metode2.jpg');
 
 /* eslint-enable global-require */

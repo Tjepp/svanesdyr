@@ -1,7 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 import { withRouter } from 'react-router-dom';
-import { Page, Banner, Column, Meta, Title, Text, BreadCrumps, Row } from '../components';
+import {
+  Page,
+  Banner,
+  Column,
+  Meta,
+  Title,
+  Text,
+  BreadCrumps,
+  Row,
+  ContactForm
+} from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 
@@ -54,6 +64,12 @@ const Contact = () => (
             <Text bold whiteSpace text="CVR-nr.: " />
             <Text text="35903100" />
           </FlexRow>
+        </Column>
+      </Row>
+      <Row>
+        <Column widthPercentage="100%">
+          <Title text="Kontakt formular" showHorizontalRuler />
+          <ContactForm />
         </Column>
       </Row>
     </Background>

@@ -14,3 +14,4 @@ export { default as BreadCrumps } from './BreadCrumps';
 export { default as TableHead } from './table/TableHead';
 export { default as TextList } from './TextList';
 export { default as Row } from './layout/Row';
+export { default as ContactForm } from './ContactForm';

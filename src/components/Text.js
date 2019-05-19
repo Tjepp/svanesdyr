@@ -5,10 +5,16 @@ import PropTypes from 'prop-types';
 
 class Text extends PureComponent {
   render() {
-    const { bold, color, onClick, text, whiteSpace } = this.props;
+    const { bold, color, onClick, text, whiteSpace, italic } = this.props;
     // TODO: https://stackoverflow.com/questions/33235890/react-replace-links-in-a-text
     return (
-      <StyledText bold={bold} color={color} onClick={onClick} whiteSpace={whiteSpace}>
+      <StyledText
+        bold={bold}
+        color={color}
+        onClick={onClick}
+        whiteSpace={whiteSpace}
+        italic={italic}
+      >
         {text}
       </StyledText>
     );
@@ -20,6 +26,7 @@ const StyledText = styled.p`
   text-decoration: none;
   cursor: ${props => (props.onClick ? 'pointer' : 'auto')};
   font-weight: ${props => (props.bold ? 'bold' : 'normal')};
+  font-style: ${props => (props.italic ? 'italic' : 'normal')};
   white-space: ${props => (props.whiteSpace ? 'pre' : 'initial')};
   margin: 0 0 10px;
   &:hover {
@@ -32,9 +39,16 @@ Text.propTypes = {
   onClick: PropTypes.func,
   color: PropTypes.string,
   bold: PropTypes.bool,
-  whiteSpace: PropTypes.bool
+  whiteSpace: PropTypes.bool,
+  italic: PropTypes.bool
 };
 
-Text.defaultProps = { onClick: null, color: '#727272', bold: false, whiteSpace: false };
+Text.defaultProps = {
+  onClick: null,
+  color: '#727272',
+  bold: false,
+  whiteSpace: false,
+  italic: false
+};
 
 export default Text;

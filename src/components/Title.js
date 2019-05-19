@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { titleHr } from '../assets';
+import Responsive from './layout/Responsive';
 
 const Title = ({ text, color, showHorizontalRuler }) => (
   <StyledTitle color={color} showHorizontalRuler={showHorizontalRuler}>
@@ -16,6 +17,10 @@ const StyledTitle = styled.h4`
   font-size: 22px;
   margin: 10px 0 10px 0;
   white-space: nowrap;
+  width: -webkit-fill-available;
+  ${Responsive.media.phone`
+    white-space: initial;
+  `}
   &:after {
     background: url(${titleHr}) repeat;
     height: 5px;
