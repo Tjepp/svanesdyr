@@ -25,7 +25,7 @@ const About = () => (
     </Banner>
     <Background>
       <Row>
-        <Column widthPercentage="62%">
+        <Column widthPercentage="65%">
           <Title text="Om Sabrina Svane" showHorizontalRuler />
           <FlexRow>
             <Image src={sabrinaNew} width="210px" height="270px" />
@@ -67,7 +67,7 @@ const About = () => (
         </Column>
       </Row>
       <Row>
-        <Column widthPercentage="62%">
+        <Column widthPercentage="65%">
           <Title text="Mine uddannelser" showHorizontalRuler />
           <Text bold>Certificeret Dyreadfærdskonsulent siden den 30. maj 2014</Text>
           <Text>

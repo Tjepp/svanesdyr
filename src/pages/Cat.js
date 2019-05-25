@@ -45,7 +45,7 @@ const Cat = () => (
     </Banner>
     <Background>
       <Row>
-        <Column widthPercentage="62%">
+        <Column widthPercentage="65%">
           <Title text="Konsultation ved katteadfærdsspecialist" showHorizontalRuler />
           <Text>
             Katte er et af de få dyr, som frigiver endorfiner i kroppen ved problemløsning. Dvs. de

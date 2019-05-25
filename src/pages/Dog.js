@@ -52,7 +52,7 @@ const Dog = () => (
     </Banner>
     <Background>
       <Row>
-        <Column widthPercentage="62%">
+        <Column widthPercentage="65%">
           <Title text="Konsultation ved hundeadfærdsbehandler" showHorizontalRuler />
           <Text>
             Belønningsbaseret hundetræning er til gavn for alle hunde, uanset alder og race, og

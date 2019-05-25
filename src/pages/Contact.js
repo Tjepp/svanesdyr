@@ -24,7 +24,7 @@ const Contact = () => (
     </Banner>
     <Background>
       <Row>
-        <Column widthPercentage="62%">
+        <Column widthPercentage="65%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
           <Text>
             Har du spørgsmål vedrørende din hund, kat eller hest og ønsker at høre om jeg kan

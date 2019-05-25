@@ -14,7 +14,8 @@ import {
   LectureTableHead,
   Row,
   StyledLink,
-  StyledA
+  StyledA,
+  Prices
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { lectureFearAndAgression, lectureDogLanguage, lectureCalmDownFido } from '../assets';
@@ -28,7 +29,7 @@ const Lecture = () => (
     </Banner>
     <Background>
       <Row>
-        <Column widthPercentage="62%">
+        <Column widthPercentage="65%">
           <Title text="Foredrag ved Sabrina Svane" showHorizontalRuler />
           <Text>
             Jeg underviser i de indlæringspsykologiske principper med udgangspunkt i
@@ -55,22 +56,7 @@ const Lecture = () => (
         </Column>
         <Column>
           <Title text="Priser for foredrag" showHorizontalRuler />
-          <Text color="#33CCCC" bold>
-            Alle priser er inkl. moms
-          </Text>
-          <Text bold>Timepris</Text>
-          <Text>Bestilling af foredrag ved Sabrina Svane:</Text>
-          <FlexRow>
-            <Text whiteSpace>Hverdage mandag-fredag: </Text>
-            <Text bold>600,- kr/time.</Text>
-          </FlexRow>
-          <FlexRow>
-            <Text whiteSpace>Weekend lørdag-søndag: </Text>
-            <Text bold>700,- kr/time.</Text>
-          </FlexRow>
-          <Text>Derudover et forberedelsestillæg på én timetakst.</Text>
-          <Text bold> Kørsel </Text>
-          <Text>Tillæg efter statens takster 3,56 kr/km begge veje.</Text>
+          <Prices />
         </Column>
       </Row>
       <Row>

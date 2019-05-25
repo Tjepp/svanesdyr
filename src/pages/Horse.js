@@ -44,7 +44,7 @@ const Horse = () => (
     </Banner>
     <Background>
       <Row>
-        <Column widthPercentage="62%">
+        <Column widthPercentage="65%">
           <Title text="Konsultation ved hesteadfærdsterapeut" showHorizontalRuler />
           <Text>
             Belønningsbaseret hestetræning er til gavn for alle heste, uanset alder og race, og

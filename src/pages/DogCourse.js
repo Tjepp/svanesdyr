@@ -26,7 +26,7 @@ const DogCourse = () => (
     </Banner>
     <Background>
       <Row>
-        <Column widthPercentage="62%">
+        <Column widthPercentage="65%">
           <Title text="Hundetræning i Horsens" showHorizontalRuler />
           <Text>
             Jeg benytter mig af belønningsbaserede træningsmetoder fra de indlæringspsykologiske
