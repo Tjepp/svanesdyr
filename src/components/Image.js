@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import LazyLoad from 'react-lazyload';
 import Responsive from './layout/Responsive';
@@ -23,9 +23,9 @@ export default class Image extends React.Component {
     const { isOpen } = this.state;
 
     return (
-      <div>
+      <Fragment>
         <LazyLoad height="250">
-          <ImageContainer>
+          <ImageContainer src={src} width={width}>
             <StyledImage src={src} width={width} height={height} onClick={this.handleShowDialog} />
           </ImageContainer>
         </LazyLoad>
@@ -36,7 +36,7 @@ export default class Image extends React.Component {
             </ImageContainer>
           </StyledModal>
         )}
-      </div>
+      </Fragment>
     );
   }
 }
@@ -57,6 +57,8 @@ const ImageContainer = styled.div`
   border: 1px solid #ddd;
   border-radius: 2px;
   padding: 4px 4px 0px 4px;
+  height: ${props => props.height};
+  width: ${props => props.width};
 `;
 
 const StyledImage = styled.img`

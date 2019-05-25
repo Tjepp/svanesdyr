@@ -24,40 +24,43 @@ class Home extends PureComponent {
               <Image src={sabrinaWithPuppy} />
               <Title text="Kort om mig" />
               <Text
-                text="Professionel rådgivning og vejledning til almen træning eller løsning af adfærdsproblemer til
-                    din hund, hest eller kat. Klik ind i menuen for oven for at læse mere om hvad jeg kan tilbyde
-                    til netop dig og dit kæledyr!"
                 onClick={() => {
                   this.onClick('dyreadfaerdskonsulent');
                 }}
                 color="#008080"
-              />
+              >
+                Professionel rådgivning og vejledning til almen træning eller løsning af
+                adfærdsproblemer til din hund, hest eller kat. Klik ind i menuen for oven for at
+                læse mere om hvad jeg kan tilbyde til netop dig og dit kæledyr!
+              </Text>
             </Column>
             <Column>
               <Image src={labradors} />
               <Title text="Positive træningsmetoder" />
               <Text
-                text="Jeg benytter mig af belønningsbaserede træningsmetoder fra de indlæringspsykologiske
-                principper. Jeg vægter gensidig samarbejde og glæde højt og jeg tager hensyn til den enkelte i
-                træningen."
                 onClick={() => {
                   this.onClick('minemetoder');
                 }}
                 color="#008080"
-              />
+              >
+                Jeg benytter mig af belønningsbaserede træningsmetoder fra de indlæringspsykologiske
+                principper. Jeg vægter gensidig samarbejde og glæde højt og jeg tager hensyn til den
+                enkelte i træningen.
+              </Text>
             </Column>
             <Column>
               <Image src={sabrinaAndBarney} />
               <Title text="Katteadfærdsspecialist" />
               <Text
-                text="Jeg er certificeret Dyreadfærdskonsulent (BSc ABT) og har udover denne uddannelse
-                specialiseret mig i katte og katteadfærd. Oplever du et adfærdsproblem i din kat, kan du få
-                rådgivning og hjælp til dette hos mig."
                 onClick={() => {
                   this.onClick('kattetraening');
                 }}
                 color="#008080"
-              />
+              >
+                Jeg er certificeret Dyreadfærdskonsulent (BSc ABT) og har udover denne uddannelse
+                specialiseret mig i katte og katteadfærd. Oplever du et adfærdsproblem i din kat,
+                kan du få rådgivning og hjælp til dette hos mig.
+              </Text>
             </Column>
           </Container>
         </Background>

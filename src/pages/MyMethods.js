@@ -29,21 +29,40 @@ const MyMethods = () => (
         <Column widthPercentage="62%">
           <Title text="Belønningsbaserede træningsteknikker" showHorizontalRuler />
           <Text>
-            Har du spørgsmål vedrørende din hund, kat eller hest og ønsker at høre om jeg kan
-            hjælpe?
+            Jeg benytter mig af belønningsbaserede træningsmetoder fra de indlæringspsykologiske
+            principper, også kaldet
+            <b> positiv forstærkning. </b>
+            Hos mig foregår træningen helt på dyrets præmisser, hvor fokus er at opnå gensidigt
+            samarbejde og tillid. Der tages hensyn til alder, race, tidligere træning mv., da ingen
+            er ens. Jeg tager altid udgangspunkt i hvad du som ejer ønsker at opnå i træningen med
+            dit kæledyr.
           </Text>
-          <FlexRow>
-            <Text whiteSpace> Så send mig en mail på: </Text>
-            <Text bold> info@svanesdyr.dk </Text>
-          </FlexRow>
-          <Text>Jeg svarer normaltvist indenfor 24 timer.</Text>
-          <FlexRow>
-            <Text whiteSpace>Du kan sende en sms eller giv mig et kald på: </Text>
-            <Text bold>tlf. 93960500</Text>
-          </FlexRow>
-          <Text>Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket.</Text>
-          <Text color="#33CCCC" bold>
-            Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!
+          <Text>
+            I træningen af dyr lægger jeg fokus på at belønne korrekt adfærd og motivere kæledyret
+            til at arbejde sammen med mig. Dette gøres ved at belønne hvert eneste rigtige "gæt",
+            som kæledyret tilbyder. Vores dyr ved ikke automatisk hvad vi forventer af dem, derfor
+            er det vigtigt at rose dem, når de gætter rigtigt. Så ved de hvilken adfærd de skal
+            fortsætte med at tilbyde.
+          </Text>
+          <Text>
+            Efterhånden som kæledyret er med på hvad jeg ønsker, øger jeg gradvist mit kriterie for,
+            hvor meget jeg ønsker den skal udføre ad gangen. Denne teknik kaldes shaping og sørger
+            for, at kæledyret er med på hvad jeg mener og føler fremgang i træningen. Dette
+            forebygger eventuel forvirring. Forvirring kan skabe frustration og stress, hvilket gør
+            træningsoplevelsen negativ. Derfor er det vigtigt at gøre træningen så let som muligt,
+            indtil kæledyret er med på hvad den skal.
+          </Text>
+          <Text>
+            Gætter kæledyret på noget tidspunkt forkert, så straffer jeg den ikke for dette. Jeg
+            guider derimod mod det jeg ønsker. Dette kan gøres ved blot at vise hvad jeg forventer
+            og belønne derefter.
+          </Text>
+          <Text>
+            Fokus på samarbejde og succes gør træningen
+            <b> succesfuld, motiverende </b>
+            og ikke mindst
+            <b> sjov </b>
+            for begge parter!
           </Text>
         </Column>
         <Column>
@@ -101,7 +120,7 @@ const MyMethods = () => (
       <Row>
         <Column>
           <Image src={methodOne} />
-          <Title text="Indlæringsmetoder" columnTitle />
+          <Title text="Indlæringsmetoder" smallTitle />
           <Text>
             Billedet ovenfor viser de fem forskellige konsekvenser, som efterfølges af et dyrs
             adfærd (her vist med hund). I den daglige omgang og træning af dyr er det vigtigt at
@@ -128,7 +147,7 @@ const MyMethods = () => (
         </Column>
         <Column>
           <Image src={methodTwo} />
-          <Title text="Shaping" columnTitle />
+          <Title text="Shaping" smallTitle />
           <Text>
             Shaping er formning af adfærd via trinvise tilnærmelser til denne adfærd. Man kan
             betragte det lidt som at gå op ad en trappe: For enden af trappen er dit mål og for
@@ -144,7 +163,7 @@ const MyMethods = () => (
         </Column>
         <Column>
           <Image src={sabrinaAndBarney} />
-          <Title text="Markér korrekt adfærd!" columnTitle />
+          <Title text="Markér korrekt adfærd!" smallTitle />
           <Text>
             For at træningessessionerne skal være succesrige og give fremskridt, så er det vigtig at
             tage en markør i brug. En markør kan være et rosende ord som f.eks. "dygtig" eller en

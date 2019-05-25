@@ -11,7 +11,9 @@ import {
   Image,
   BreadCrumps,
   TextList,
-  Row
+  Row,
+  StyledLink,
+  Prices
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { puppyCourse, coolCourse, recall } from '../assets';
@@ -42,14 +44,6 @@ const puppyVisitTexts = [
   'Miljøtræning og socialisering.'
 ];
 
-const texts = [
-  'Belønningsbaseret hundetræning er til gavn for alle hunde, uanset alder og race, og styrker relationen mellem hund og ejer. Træning med din hund byder på kvalitetstid hvor samarbejde, tillid og succes styrkes, hvilket skaber en hund i balance med sig selv og sine omgivelser. Mange adfærdsproblemer, som angst og aggression, kan forebygges igennem belønningsbaseret træning og forståelse for hundens adfærd. Ønsker du vejledning i positiv, effektiv hundeopdragelse til hverdagen eller har du brug for gode råd til træning af hunden, så kan du ',
-  '<a href=/kontakt>bestille en privattime </a>',
-  'ved at kontakte Sabrina Svane eller tilmelde dig et',
-  '<a href=/hundehold>hundehold</a>',
-  '.'
-];
-
 const Dog = () => (
   <Page>
     <Meta />
@@ -59,73 +53,72 @@ const Dog = () => (
     <Background>
       <Row>
         <Column widthPercentage="62%">
-          <Title text="Konsultation ved hundeadfærdsbehandler" />
-          <Text
-            text="Belønningsbaseret hundetræning er til gavn for alle hunde, uanset alder og race, og styrker relationen mellem hund og ejer. 
-            Træning med din hund byder på kvalitetstid hvor samarbejde, tillid og succes styrkes, 
-            hvilket skaber en hund i balance med sig selv og sine omgivelser. 
-            Mange adfærdsproblemer, som angst og aggression, kan forebygges igennem belønningsbaseret træning og forståelse for hundens adfærd. 
-            Ønsker du vejledning i positiv, effektiv hundeopdragelse til hverdagen eller har du brug for gode råd til træning af hunden, 
-            så kan du <a href='/kontakt'>bestille en privattime</a> ved at kontakte Sabrina Svane eller tilmelde dig et <a href='/hundehold'>hundehold</a>."
-          />
-          <Text
-            text="Nogle hunde udvikler problemadfærd, som kan skabe utryghed og stress i hverdagen, både for hund og for ejer. 
-            Det er individuelt hvad der opfattes som et problem hos den enkelte ejer, 
-            men uanset hvad du har af ønsker for din hund og jeres fælles hverdag, 
-            så kan du få hjælp til dette, ved at bestille en konsultation hos Sabrina Svane."
-          />
-          <Text
-            text="Kontakt mig gerne og hør nærmere om din problemstilling kræver en privattime eller en konsultation."
-            color="#33CCCC"
-            bold
-          />
+          <Title text="Konsultation ved hundeadfærdsbehandler" showHorizontalRuler />
+          <Text>
+            Belønningsbaseret hundetræning er til gavn for alle hunde, uanset alder og race, og
+            styrker relationen mellem hund og ejer. Træning med din hund byder på kvalitetstid hvor
+            samarbejde, tillid og succes styrkes, hvilket skaber en hund i balance med sig selv og
+            sine omgivelser. Mange adfærdsproblemer, som angst og aggression, kan forebygges igennem
+            belønningsbaseret træning og forståelse for hundens adfærd. Ønsker du vejledning i
+            positiv, effektiv hundeopdragelse til hverdagen eller har du brug for gode råd til
+            træning af hunden, så kan du
+            <StyledLink to="/kontakt"> bestille en privattime </StyledLink>
+            ved at kontakte Sabrina Svane eller tilmelde dig et
+            <StyledLink to="/hundehold"> hundehold </StyledLink>
+          </Text>
+          <Text>
+            Nogle hunde udvikler problemadfærd, som kan skabe utryghed og stress i hverdagen, både
+            for hund og for ejer. Det er individuelt hvad der opfattes som et problem hos den
+            enkelte ejer, men uanset hvad du har af ønsker for din hund og jeres fælles hverdag, så
+            kan du få hjælp til dette, ved at bestille en konsultation hos Sabrina Svane.
+          </Text>
+          <Text color="#33CCCC" bold>
+            Kontakt mig gerne og hør nærmere om din problemstilling kræver en privattime eller en
+            konsultation.
+          </Text>
         </Column>
         <Column>
-          <Title text="Priser for hundetræning" />
-          <Text text="Alle priser er inkl. moms" color="#33CCCC" />
-          <Text text="Timepris" bold />
-          <Text text="Hverdage man-fre før kl. 18.00: 600,- kr/time." />
-          <Text text="Hverdage man-fre efter kl. 18.00: 700,- kr/time." />
-          <Text text="Lørdage, samt søndage og helligdage: Lukket" />
-          <Text text="Prisen inkluderer" bold />
-          <Text text="Fri opfølgning på telefon eller mail." />
-          <Text text="Skriftlig guide på gennemgåede tiltag tilsendes." />
-          <Text text="Kørsel" bold />
-          <Text text="Efter statens takster 3,56 kr/km begge veje." />
+          <Title text="Priser for hundetræning" showHorizontalRuler />
+          <Prices />
         </Column>
       </Row>
       <Row>
-        <Title text="Udbud af hundetræning i Midtjylland" />
+        <Title text="Udbud af hundetræning i Midtjylland" showHorizontalRuler />
       </Row>
       <Row>
         <Column>
           <Image src={puppyCourse} />
-          <Title text="Privattime" columnTitle />
-          <Text text="En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hund." />
-          <Text bold text="Eksempler på træning til en privattime:" />
+          <Title text="Privattime" smallTitle />
+          <Text>En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hund.</Text>
+          <Text bold>
+            Eksempler på træning til en privattime:
+          </Text>
           <TextList texts={privateHour} />
         </Column>
         <Column>
           <Image src={coolCourse} />
-          <Title text="Konsultation ved problemadfærd" columnTitle />
-          <Text
-            text="En konsultation varer op til 2 timer hjemme hos jer. 
-          Her vil vi snakke adfærdsproblemet igennem, så jeg kan foretage en grundig analyse. 
-          Derefter gennemgår vi de tiltag der skal til, for at skabe en mere harmonisk hverdag for jer begge. 
-          Tiltagene består af øvelser og enkle hverdagsrutiner der skal ændres, for at opnå det ønskede resultat."
-          />
-          <Text text="Eksempler på problemadfærd:" bold />
+          <Title text="Konsultation ved problemadfærd" smallTitle />
+          <Text>
+            En konsultation varer op til 2 timer hjemme hos jer. Her vil vi snakke adfærdsproblemet
+            igennem, så jeg kan foretage en grundig analyse. Derefter gennemgår vi de tiltag der
+            skal til, for at skabe en mere harmonisk hverdag for jer begge. Tiltagene består af
+            øvelser og enkle hverdagsrutiner der skal ændres, for at opnå det ønskede resultat.
+          </Text>
+          <Text bold>Eksempler på problemadfærd:</Text>
           <TextList texts={consultation} />
-          <Text text="Praktisk information:" bold />
-          <Text text="Efter mit besøg snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag." />
+          <Text bold>Praktisk information:</Text>
+          <Text>
+            Efter mit besøg snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag.
+          </Text>
         </Column>
         <Column>
           <Image src={recall} />
-          <Title text="Hvalpevisit" columnTitle />
-          <Text
-            text="Har du netop fået hvalp og ønsker at få den bedste start på jeres fremtidige liv sammen, kan du bestille et hvalpevisit.
-             Et hvalpevisit varer op til 1½ time hjemme hos jer og giver jer konkrete tiltag til at få en harmonisk hverdag."
-          />
+          <Title text="Hvalpevisit" smallTitle />
+          <Text>
+            Har du netop fået hvalp og ønsker at få den bedste start på jeres fremtidige liv sammen,
+            kan du bestille et hvalpevisit. Et hvalpevisit varer op til 1½ time hjemme hos jer og
+            giver jer konkrete tiltag til at få en harmonisk hverdag.
+          </Text>
           <Text bold text="Vi gennemgår følgende ved hvalpevisit:" />
           <TextList texts={puppyVisitTexts} />
         </Column>

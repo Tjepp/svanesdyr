@@ -104,7 +104,7 @@ const Lecture = () => (
       <Row>
         <Column>
           <Image src={lectureDogLanguage} />
-          <Title text="Hundens sprog - hvad fortæller de os?" columnTitle />
+          <Title text="Hundens sprog - hvad fortæller de os?" smallTitle />
           <Text bold>Kursus på min. 3 timer</Text>
           <Text>
             Foredraget indeholder bl.a. hundens udvikling fra deres forfader ulven og frem til i
@@ -115,7 +115,7 @@ const Lecture = () => (
         </Column>
         <Column>
           <Image src={lectureFearAndAgression} />
-          <Title text="Angst og aggression: Forebyggelse og behandling" columnTitle />
+          <Title text="Angst og aggression: Forebyggelse og behandling" smallTitle />
           <Text bold>Kursus på min. 5 timer</Text>
           <Text>
             Reagerer din hund på andre hunde på gåturen? Snerrer den af gæsterne? Er den skrækslagen
@@ -126,7 +126,7 @@ const Lecture = () => (
         </Column>
         <Column>
           <Image src={lectureCalmDownFido} />
-          <Title text="Slap af Fido!" columnTitle />
+          <Title text="Slap af Fido!" smallTitle />
           <Text bold>Kursus på min. 5 timer</Text>
           <Text>
             Føler du din hund er lidt af et damp barn? Bliver den hyper når der sker noget, er svær

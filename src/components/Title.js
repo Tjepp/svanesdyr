@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { titleHr } from '../assets';
 import Responsive from './layout/Responsive';
 
-const Title = ({ text, color, showHorizontalRuler, columnTitle }) => (
-  <StyledTitle color={color} showHorizontalRuler={showHorizontalRuler} columnTitle={columnTitle}>
+const Title = ({ text, color, showHorizontalRuler, smallTitle }) => (
+  <StyledTitle color={color} showHorizontalRuler={showHorizontalRuler} smallTitle={smallTitle}>
     {text}
   </StyledTitle>
 );
@@ -14,7 +14,7 @@ const StyledTitle = styled.h4`
   display: flex;
   color: ${props => props.color};
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
-  font-size: ${props => (props.columnTitle ? '18px' : '22px')};
+  font-size: ${props => (props.smallTitle ? '18px' : '22px')};
   margin: 10px 0 10px 0;
   white-space: ${props => (props.showHorizontalRuler ? 'nowrap' : 'initial')};
   width: -webkit-fill-available;
@@ -36,13 +36,13 @@ Title.propTypes = {
   text: PropTypes.string.isRequired,
   color: PropTypes.string,
   showHorizontalRuler: PropTypes.bool,
-  columnTitle: PropTypes.bool
+  smallTitle: PropTypes.bool
 };
 
 Title.defaultProps = {
   color: '#666',
   showHorizontalRuler: false,
-  columnTitle: false
+  smallTitle: false
 };
 
 export default Title;

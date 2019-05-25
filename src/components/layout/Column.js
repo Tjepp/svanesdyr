@@ -18,7 +18,7 @@ Column.defaultProps = {
 
 const ColumnContainer = styled.div`
   flex-direction: column;
-  margin: 20px 0px;
+  margin: 10px 0px;
   width: ${props => props.width};
   ${Responsive.media.tablet`
    width: 100%;

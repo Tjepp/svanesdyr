@@ -40,7 +40,7 @@ const Contact = () => (
             <StyledA href="tel: 93960500"> 93 960 500</StyledA>
           </FlexRow>
           <Text> Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket. </Text>
-          <Text text="" color="#33CCCC" bold>
+          <Text color="#33CCCC" bold>
             Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!
           </Text>
         </Column>
