@@ -14,8 +14,7 @@ import {
   LectureTableHead,
   Row,
   StyledLink,
-  StyledA,
-  Prices
+  StyledA
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { lectureFearAndAgression, lectureDogLanguage, lectureCalmDownFido } from '../assets';
@@ -56,7 +55,24 @@ const Lecture = () => (
         </Column>
         <Column>
           <Title text="Priser for foredrag" showHorizontalRuler />
-          <Prices />
+          <Text color="#33CCCC" bold>
+            Alle priser er inkl. moms
+          </Text>
+          <Text bold>Timepris</Text>
+          <Text>
+            Hverdage man-fre før kl. 18.00:
+            <b> 600,- kr/time.</b>
+            <br />
+            Hverdage man-fre efter kl. 18.00:
+            <b> 700,- kr/time. </b>
+            <br />
+            Lørdage, samt søndage og helligdage:
+            <b> Lukket </b>
+            <br />
+            Derudover et forberedelsestillæg på én timetakst.
+          </Text>
+          <Text bold> Kørsel </Text>
+          <Text>Tillæg efter statens takster 3,56 kr/km begge veje.</Text>
         </Column>
       </Row>
       <Row>
