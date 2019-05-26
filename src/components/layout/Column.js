@@ -23,7 +23,7 @@ const ColumnContainer = styled.div`
   ${Responsive.media.tablet`
    width: 100%;
    align-self: end;
-   margin: 20px 0px;
+   margin: 5px 0px;
  `}
 `;
 

@@ -1,14 +1,29 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/label-has-for */
-import React from 'react';
+import React, { Fragment } from 'react';
 import axios from 'axios'; // For making client request.
 import styled from 'styled-components';
 import Responsive from './layout/Responsive';
+import Text from './Text';
+import StyledA from './links/StyledA';
 
 class ContactForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { name: '', phoneNo: '', email: '', message: '' };
+    this.state = {
+      name: '',
+      phoneNo: '',
+      email: '',
+      message: '',
+      touched: {
+        name: false,
+        phoneNo: false,
+        email: false,
+        message: false
+      },
+      sent: false,
+      sendError: false
+    };
   }
 
   handleForm = e => {
@@ -17,21 +32,40 @@ class ContactForm extends React.Component {
       return;
     }
 
-    // axios
-    //   .post('https://formcarry.com/s/WFZnCcWzbDe', this.state, {
-    //     headers: { Accept: 'application/json' }
-    //   })
-    //   .then(response => {
-    //     console.log(response);
-    //   })
-    //   .catch(error => {
-    //     console.log(error);
-    //   });
-    // e.preventDefault();
-    console.log('Hello World');
+    const { name, phoneNo, email, message } = this.state;
+
+    axios
+      .post(
+        'https://formcarry.com/s/WFZnCcWzbDe',
+        { name, phoneNo, email, message },
+        {
+          headers: { Accept: 'application/json' }
+        }
+      )
+      .then(response => {
+        this.setState({ sent: true });
+      })
+      .catch(error => {
+        this.setState({ sendError: true });
+      });
+    e.preventDefault();
   };
 
   handleFields = e => this.setState({ [e.target.name]: e.target.value });
+
+  handleBlur = field => evt => {
+    const { touched } = this.state;
+
+    this.setState({
+      touched: { ...touched, [field]: true }
+    });
+  };
+
+  canBeSubmitted() {
+    const errors = this.validate();
+    const isDisabled = Object.keys(errors).some(x => errors[x]);
+    return !isDisabled;
+  }
 
   validate() {
     const { name, phoneNo, email, message } = this.state;
@@ -44,82 +78,94 @@ class ContactForm extends React.Component {
     };
   }
 
-  canBeSubmitted() {
-    const errors = this.validate();
-    const isDisabled = Object.keys(errors).some(x => errors[x]);
-    console.log(isDisabled);
-    return !isDisabled;
-  }
-
   render() {
-    // https://goshakkk.name/instant-form-fields-validation-react/
     const errors = this.validate();
-    console.log(errors);
-
     const isDisabled = Object.keys(errors).some(x => errors[x]);
-    console.log(isDisabled);
+    const { touched, sent, name, sendError, message } = this.state;
 
     const shouldMarkError = field => {
-      console.log(field);
       const hasError = errors[field];
-      // const shouldShow = this.state.touched[field];
+      const shouldShow = touched[field];
 
-      return hasError; // ? shouldShow : false;
+      return hasError ? shouldShow : false;
     };
 
-    console.log(shouldMarkError());
-
     return (
-      <Form onSubmit={this.handleForm}>
-        <Row>
-          <Column>
-            <Label>Navn</Label>
-            <Input
-              type="text"
-              id="name"
-              name="name"
-              onChange={this.handleFields}
-              placeholder="Dit navn"
-            />
-          </Column>
-          <Column>
-            <Label htmlFor="phoneNo">Telefonnummer</Label>
-            <Input
-              type="text"
-              id="phoneNo"
-              name="phoneNo"
-              placeholder="Dit telefonnummer"
-              onChange={this.handleFields}
-            />
-          </Column>
-          <Column>
-            <Label htmlFor="email">E-mail</Label>
-            <Input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Din e-mail"
-              onChange={this.handleFields}
-            />
-          </Column>
-        </Row>
-        <Row>
-          <FullWidthColumn>
-            <Label htmlFor="message">Besked</Label>
-            <TextArea
-              name="message"
-              id="message"
-              placeholder="Hvad kan jeg hjælpe med?"
-              onChange={this.handleFields}
-            />
-          </FullWidthColumn>
-        </Row>
-        <Row>
-          <Button disabled={isDisabled} type="submit">
-            Send
-          </Button>
-        </Row>
-      </Form>
+      <Fragment>
+        {sendError ? (
+          <Text whiteSpace>
+            Der skete desværre en fejl.
+            <br />
+            <StyledA href={`mailto:info@svanesdyr.dk?body=${message}`}>
+              Send mig en mail istedet
+            </StyledA>
+          </Text>
+        ) : null}
+        {sent ? (
+          <MessageSentContainer>
+            <Text>{`Tak for din besked ${name}, jeg vender hurtigst muligt tilbage.`}</Text>
+          </MessageSentContainer>
+        ) : (
+          <Form onSubmit={this.handleForm}>
+            <Row>
+              <Column>
+                <Label>Navn</Label>
+                <Input
+                  error={shouldMarkError('name')}
+                  onBlur={this.handleBlur('name')}
+                  type="text"
+                  id="name"
+                  name="name"
+                  onChange={this.handleFields}
+                  placeholder="Dit navn"
+                />
+              </Column>
+              <Column>
+                <Label htmlFor="phoneNo">Telefonnummer</Label>
+                <Input
+                  error={shouldMarkError('phoneNo')}
+                  onBlur={this.handleBlur('phoneNo')}
+                  type="text"
+                  id="phoneNo"
+                  name="phoneNo"
+                  placeholder="Dit telefonnummer"
+                  onChange={this.handleFields}
+                />
+              </Column>
+              <Column>
+                <Label htmlFor="email">E-mail</Label>
+                <Input
+                  error={shouldMarkError('email')}
+                  onBlur={this.handleBlur('email')}
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Din e-mail"
+                  onChange={this.handleFields}
+                />
+              </Column>
+            </Row>
+            <Row>
+              <FullWidthColumn>
+                <Label htmlFor="message">Besked</Label>
+                <TextArea
+                  error={shouldMarkError('message')}
+                  onBlur={this.handleBlur('message')}
+                  name="message"
+                  id="message"
+                  placeholder="Hvad kan jeg hjælpe med?"
+                  onChange={this.handleFields}
+                />
+              </FullWidthColumn>
+            </Row>
+            <Row>
+              <Button disabled={isDisabled} type="submit">
+                Send
+              </Button>
+            </Row>
+          </Form>
+        )}
+      </Fragment>
     );
   }
 }
@@ -127,6 +173,8 @@ class ContactForm extends React.Component {
 const Form = styled.form`
   display: flex;
   flex-direction: column;
+  min-height: 450px;
+  justify-content: space-evenly;
 `;
 
 const Row = styled.div`
@@ -161,7 +209,7 @@ const Label = styled.label`
 `;
 
 const Input = styled.input`
-  border: solid 1px #ccc;
+  border: ${props => (props.error ? 'solid 1px #F00' : 'solid 1px #CCC')};
   background: #fff;
   box-shadow: none;
   height: 40px;
@@ -174,7 +222,7 @@ const Input = styled.input`
 `;
 
 const TextArea = styled.textarea`
-  border: solid 1px #ccc;
+  border: ${props => (props.error ? 'solid 1px #F00' : 'solid 1px #CCC')};
   background: #fff !important;
   box-shadow: none !important;
   height: 100%;
@@ -199,6 +247,10 @@ const Button = styled.button`
   &:hover {
     background: #008080;
   }
+`;
+
+const MessageSentContainer = styled.div`
+  min-height: 450px;
 `;
 
 export default ContactForm;
