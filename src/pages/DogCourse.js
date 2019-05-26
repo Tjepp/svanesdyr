@@ -65,10 +65,15 @@ const DogCourse = () => (
           <Text color="#33CCCC" bold>
             Pris for deltagelse i Horsens:
           </Text>
-          <Text>Hvalpehold: 755 kr. </Text>
-          <Text>Helt-Cool kursus: 895 kr </Text>
-          <Text>Indkaldskursus: 910 kr. </Text>
-          <Text>Uanset antal gange man deltager. </Text>
+          <Text>
+            Hvalpehold: 755 kr.
+            <br />
+            Helt-Cool kursus: 895 kr
+            <br />
+            Indkaldskursus: 910 kr.
+            <br />
+            Uanset antal gange man deltager.
+          </Text>
           <Text bold>Træningsbane: </Text>
           <Text>
             Træningen foregår på en indhegnet udebane på adressen: Sorthøjvej 40, 8700 Horsens.

@@ -19,7 +19,6 @@ import {
   Education2017,
   Education2018
 } from '../components';
-
 import Responsive from '../components/layout/Responsive';
 import { sabrinaNew, petbc } from '../assets';
 import '../components/table/TableCss.css';
@@ -64,11 +63,17 @@ const About = () => (
           </Text>
           <Text>Officielle titel: "Bachelor of Sciences in Animal Behavior Therapy" (BSc ABT)</Text>
           <Text bold>Træner og adfærdsbehandler</Text>
-          <Text>Af alle slags dyr.</Text>
-          <Text>Speciale i hunde, heste og katte.</Text>
+          <Text>
+            Af alle slags dyr.
+            <br />
+            Speciale i hunde, heste og katte.
+          </Text>
           <Text bold>Træningsmetoder</Text>
-          <Text>Jeg benytter belønningsbaserede træningsmetoder.</Text>
-          <Text>Baseret på indlæringspsykologiske principper.</Text>
+          <Text>
+            Jeg benytter belønningsbaserede træningsmetoder.
+            <br />
+            Baseret på indlæringspsykologiske principper.
+          </Text>
           <Text bold>Up-to-date rådgivning</Text>
           <Text>Jeg deltager på kurser flere gange årligt.</Text>
         </Column>
