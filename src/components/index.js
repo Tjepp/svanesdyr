@@ -19,3 +19,4 @@ export { default as ContactForm } from './ContactForm';
 export { default as StyledLink } from './links/StyledLink';
 export { default as StyledA } from './links/StyledA';
 export { default as Prices } from './Prices';
+export * from './education';

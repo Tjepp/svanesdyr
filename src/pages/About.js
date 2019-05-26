@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { withRouter } from 'react-router-dom';
 import {
@@ -11,8 +11,15 @@ import {
   BreadCrumps,
   Row,
   Image,
-  TextList
+  Education2012,
+  Education2013,
+  Education2014,
+  Education2015,
+  Education2016,
+  Education2017,
+  Education2018
 } from '../components';
+
 import Responsive from '../components/layout/Responsive';
 import { sabrinaNew, petbc } from '../assets';
 import '../components/table/TableCss.css';
@@ -63,7 +70,7 @@ const About = () => (
           <Text>Jeg benytter belønningsbaserede træningsmetoder.</Text>
           <Text>Baseret på indlæringspsykologiske principper.</Text>
           <Text bold>Up-to-date rådgivning</Text>
-          <Text>Jeg deltager på kursuser flere gange årligt.</Text>
+          <Text>Jeg deltager på kurser flere gange årligt.</Text>
         </Column>
       </Row>
       <Row>
@@ -76,7 +83,7 @@ const About = () => (
             dyrearter. Fokus har primært været hunde og heste, men det videnskabelige og teoretiske
             udgangspunkt har været for alle arter i dyreriget.
           </Text>
-          <Text bold>Kursuser i katteadfærd siden den 26. januar 2014.</Text>
+          <Text bold>Kurser i katteadfærd siden den 26. januar 2014.</Text>
           <Text>
             Udannelsen har haft fokus på kattens adfærd og natur og lagt meget vægt på menneskers
             hold af katte i dag. Under forløbet har jeg modtaget undervisning i sædvanlige
@@ -118,7 +125,7 @@ const About = () => (
         <Column widthPercentage="100%">
           <Title text="Andre kursusforløb" showHorizontalRuler />
           <Text>
-            Udover mine uddannelser er jeg løbende på kursuser, for at sikre mig, at jeg er helt
+            Udover mine uddannelser er jeg løbende på kurser, for at sikre mig, at jeg er helt
             opdateret på det nyeste indenfor adfærds- og træningsverdenen.
           </Text>
           <Text>Du kan se nedenfor hvad jeg har deltaget i.</Text>
@@ -133,118 +140,6 @@ const About = () => (
       </Row>
     </Background>
   </Page>
-);
-
-const Education2018 = () => (
-  <Fragment>
-    <Title text="Kursuser 2018" smallTitle color="#33CCCC" />
-    <Text bold>Christina Ingerslev</Text>
-    <Text bold>Chirag Patel</Text>
-    <Text bold>Lise Bang Hansen</Text>
-  </Fragment>
-);
-
-const Education2017 = () => (
-  <Fragment>
-    <Title text="Kursuser 2017" smallTitle color="#33CCCC" />
-    <Text bold>Karen Frost</Text>
-    <Text bold>Nordsøen Oceanarium - Praktik</Text>
-    <Text bold>Jan Østergaard</Text>
-  </Fragment>
-);
-
-const Education2016 = () => (
-  <Fragment>
-    <Title text="Kursuser 2016" smallTitle color="#33CCCC" />
-    <Text bold>Magtor</Text>
-    <Text bold>Jan Østergaard</Text>
-    <Text bold>ClickerExpo DK - 2016</Text>
-    <Text bold>Dr. Susan Friedman</Text>
-  </Fragment>
-);
-
-const Education2015 = () => (
-  <Fragment>
-    <Title text="Kursuser 2015" smallTitle color="#33CCCC" />
-    <Text bold>Ádám Miklósi</Text>
-    <Text>Weekendkursus den 17.-18. oktober 2015, omhandlende: ”The Family Dog Project”</Text>
-    <Text>
-      Miklósi er medstifter af ”The Family Dog Project” i Budapest, Ungarn. Projektet har til formål
-      at undersøge det evolutionære og etologiske fundament for hund-menneske relationen. Interessen
-      ligger ikke kun i at undersøge hundens mentale formåen, men i alle aspekter af hundes og
-      menneskers adfærd der har styrket båndet mellem de to arter.
-    </Text>
-  </Fragment>
-);
-
-const expo2014One = [
-  'Ken Ramirez med "Big and Tall, Round or Small? Modifier Cues & How To Teach Them!" ',
-  'Kay Laurence med "Do you see what I see? The Benefits of Keen Behavioral Observation" ',
-  'Karen Pryor med "Hidden Aversives - Drawbacks of Negative Reinforcement and Extinction"'
-];
-
-const expo2014Two = [
-  'Michele Pouliot med "Better, Faster, Smarter - Competition Training with Platforms" ',
-  'Michele Pouliot med "Pace, Place & More - Strategic Reinforcement Delivery" ',
-  'Eva Bertilsson og Emelie Johnson-Vegh med "Rewards Ends, Then What?"'
-];
-
-const expo2014Three = [
-  `Eva Bertilsson og Emelie Johnson-Vegh med "Let's Make some Noise! Techniques to Build Your Dog's Confidence" `,
-  'Michele Pouliot med "Hold it, Get it, Bring it, Give it! The Multi-Purpose Clicked Retrieve" ',
-  'Ken Ramirez med "Aggression Treatment & Context"'
-];
-
-const Education2014 = () => (
-  <Fragment>
-    <Title text="Kursuser 2014" smallTitle color="#33CCCC" />
-    <Text bold>ClickerExpo UK - Europe 2014</Text>
-    <i>Konference den 17. oktober:</i>
-    <br />
-    <TextList texts={expo2014One} />
-    <i>Konference den 18. oktober:</i>
-    <br />
-    <TextList texts={expo2014Two} />
-
-    <i>Konference den 19. oktober:</i>
-    <br />
-    <TextList texts={expo2014Three} />
-
-    <Text bold>Anders Hallgren</Text>
-    <Text>Seminar den 28. september 2014: "Stress hos hunde".</Text>
-  </Fragment>
-);
-
-const Education2013 = () => (
-  <Fragment>
-    <Title text="Kursuser 2013" smallTitle color="#33CCCC" />
-    <Text bold>Ken Ramirez</Text>
-    <Text>Weekendkursus den 23.-24. november 2013, med emnerne:</Text>
-    <Text>
-      "Non-Food Reinforcers" og "Concept Training" (Modifier Cues, Adduction, and Mimicry), "Common
-      Trainer Mistakes and Errors", "Non-formal Interactions", "Social Animals - Working with more
-      than One Animal" og "Handling Animal Mistakes".
-    </Text>
-    <Text>
-      Seminar den 22. november 2013: "How Exotic Animals Taught me to be a Better Dog Trainer".
-    </Text>
-  </Fragment>
-);
-
-const Education2012 = () => (
-  <Fragment>
-    <Title text="Kursuser 2012" smallTitle color="#33CCCC" />
-    <Text bold>Ray Coppinger</Text>
-    <Text>
-      Weekendkursus den 8.-9. september 2012: "The evolution of dogs and behavior of the dogs".
-    </Text>
-    <Text bold>Christa fra Tellington TTouch</Text>
-    <Text>Weekendkursus den 31. august-1. september 2012: "TTouch training and massage".</Text>
-    <Text bold>Kathy Sdao</Text>
-    <Text>Weekendkursus den 4.-5. juli 2012: "Cues and behavior chains".</Text>
-    <Text bold>Marc Pierard</Text>
-    <Text>Seminar den 23. marts 2012: "Nøglen til succesfuld træning" af heste.</Text>
-  </Fragment>
 );
 
 export default withRouter(About);
