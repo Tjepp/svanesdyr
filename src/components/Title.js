@@ -14,6 +14,7 @@ const StyledTitle = styled.h4`
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
   font-size: ${props => (props.smallTitle ? '18px' : '22px')};
   margin: 10px 0 10px 0;
+  width: 100%;
   &:after {
     background: url(${titleHr}) repeat;
     height: 5px;
