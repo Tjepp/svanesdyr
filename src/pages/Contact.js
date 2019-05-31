@@ -80,7 +80,7 @@ const Contact = () => (
         </Column>
       </Row>
       <Row>
-        <LoadScript id="script-loader" googleMapsApiKey={process.env.GoogleMapsApiKey}>
+        <LoadScript id="script-loader" googleMapsApiKey={process.env.REACT_APP_GMAP_API_KEY}>
           <GoogleMap
             id="circle-example"
             mapContainerStyle={{
