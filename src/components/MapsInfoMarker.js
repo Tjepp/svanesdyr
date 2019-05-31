@@ -15,7 +15,8 @@ class MapsInfoMarker extends PureComponent {
   render() {
     const { position, text } = this.props;
     const { isOpen } = this.state;
-
+    console.log(process.env);
+    console.log(process.env.GoogleMapsApiKey);
     return (
       <Marker position={position} onClick={this.toggleIsOpen}>
         {isOpen && (
