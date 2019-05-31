@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { withRouter } from 'react-router-dom';
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
 import {
   Page,
   Banner,
@@ -11,10 +12,14 @@ import {
   BreadCrumps,
   Row,
   ContactForm,
-  StyledA
+  StyledA,
+  MapsInfoMarker
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
+
+const SvanesDyrLocation = { lat: 55.980569, lng: 9.613036 };
+const SvanesDyrTrainingCourseLocation = { lat: 55.890248, lng: 9.813864 };
 
 const Contact = () => (
   <Page>
@@ -73,6 +78,29 @@ const Contact = () => (
           <Title text="Kontakt formular" showHorizontalRuler />
           <ContactForm />
         </Column>
+      </Row>
+      <Row>
+        <LoadScript id="script-loader" googleMapsApiKey="AIzaSyCniObIpoozbQOIzlMkum40Gp4S93_Htss">
+          <GoogleMap
+            id="circle-example"
+            mapContainerStyle={{
+              height: '300px',
+              width: '100%',
+              marginBottom: '20px'
+            }}
+            zoom={9}
+            center={{
+              lat: 55.931853,
+              lng: 9.681581
+            }}
+          >
+            <MapsInfoMarker position={SvanesDyrLocation} text="Svanes dyr" />
+            <MapsInfoMarker
+              position={SvanesDyrTrainingCourseLocation}
+              text="Svanes Dyr - Træningsbane"
+            />
+          </GoogleMap>
+        </LoadScript>
       </Row>
     </Background>
   </Page>
