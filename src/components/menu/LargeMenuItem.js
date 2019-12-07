@@ -24,7 +24,6 @@ font-weight: 400;
 font-size: 14px;
 line-height: 18px;
 align-items: center;
-padding: 0 0.5rem;
 text-decoration:none;
   &:hover {
     border-style: solid;

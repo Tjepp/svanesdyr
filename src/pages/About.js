@@ -30,7 +30,7 @@ const About = () => (
       <BreadCrumps currentPage="Om mig" />
     </Banner>
     <Background>
-      <Row>
+      <Row marginTop={"25px"}>
         <Column widthPercentage="65%">
           <Title text="Om Sabrina Svane" showHorizontalRuler />
           <FlexRow>
@@ -126,7 +126,7 @@ const About = () => (
           <Image src={petbc} width="100px" height="78px" />
         </Column>
       </Row>
-      <Row>
+      <Row marginBottom={"25px"}>
         <Column widthPercentage="100%">
           <Title text="Andre kursusforløb" showHorizontalRuler />
           <Text>

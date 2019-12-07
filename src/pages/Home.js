@@ -4,6 +4,7 @@ import { Page, Banner, Button, Meta, Column, Title, Text, Image } from '../compo
 import ReactRouterPropTypes from '../ReactRouterPropTypes';
 import Responsive from '../components/layout/Responsive';
 import { sabrinaWithPuppy, sabrinaAndBarney, labradors } from '../assets';
+import MediaQuery from 'react-responsive';
 
 class Home extends PureComponent {
   onClick = path => {
@@ -15,9 +16,17 @@ class Home extends PureComponent {
     return (
       <Page>
         <Meta />
-        <Banner text="For information om kommende hundehold, se her:">
-          <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
-        </Banner>
+        <MediaQuery minWidth={Responsive.sizes.tablet}>
+              {matches =>
+                matches ? (
+                <Banner text="Info om kommende hundehold, se her:">
+                  <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
+                </Banner>) : 
+                (<ButtonContainer>
+                  <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
+                </ButtonContainer>)
+              }
+            </MediaQuery>
         <Background>
           <Container>
             <Column>
@@ -98,5 +107,15 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 15px;
+    margin-top: 10px;
   `}
+  margin-top: 50px;
+  margin-bottom: 25px
+`;
+
+const ButtonContainer = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 25px;
 `;

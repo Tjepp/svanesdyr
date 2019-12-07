@@ -51,7 +51,7 @@ const Dog = () => (
       <BreadCrumps currentPage="Hund" />
     </Banner>
     <Background>
-      <Row>
+      <Row marginTop={"25px"}>
         <Column widthPercentage="65%">
           <Title text="Konsultation ved hundeadfærdsbehandler" showHorizontalRuler />
           <Text>
@@ -85,7 +85,7 @@ const Dog = () => (
       <Row>
         <Title text="Udbud af hundetræning i Midtjylland" showHorizontalRuler />
       </Row>
-      <Row>
+      <Row marginBottom={"25px"}>
         <Column>
           <Image src={puppyCourse} />
           <Title text="Privattime" smallTitle />

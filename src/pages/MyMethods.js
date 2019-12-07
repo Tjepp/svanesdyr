@@ -25,7 +25,7 @@ const MyMethods = () => (
       <BreadCrumps currentPage="Mine Metoder" />
     </Banner>
     <Background>
-      <Row>
+    <Row marginTop={"25px"}>
         <Column widthPercentage="65%">
           <Title text="Belønningsbaserede træningsteknikker" showHorizontalRuler />
           <Text>
@@ -117,7 +117,7 @@ const MyMethods = () => (
       <Row>
         <Title text="Træningsteknikker" showHorizontalRuler />
       </Row>
-      <Row>
+      <Row marginBottom={"25px"}>
         <Column>
           <Image src={methodOne} />
           <Title text="Indlæringsmetoder" smallTitle />

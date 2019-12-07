@@ -25,7 +25,7 @@ const DogCourse = () => (
       <BreadCrumps currentPage="Hundehold" />
     </Banner>
     <Background>
-      <Row>
+      <Row marginTop={"25px"}>
         <Column widthPercentage="65%">
           <Title text="Hundetræning i Horsens" showHorizontalRuler />
           <Text>
@@ -164,9 +164,9 @@ const DogCourse = () => (
         </Column>
       </Row>
       <Row>
-        <Title text="Udbud af hundehold i Horsens" />
+        <Title text="Udbud af hundehold i Horsens" showHorizontalRuler/>
       </Row>
-      <Row>
+      <Row marginBottom={"25px"}>
         <Column>
           <Image src={puppyCourse} />
           <Title text="Hvalpehold (3-6 mdr.)" smallTitle />
@@ -210,6 +210,6 @@ const Background = styled.div`
   justify-content: center;
   flex-direction: column;
   ${Responsive.media.tablet`
-  padding: 15px;
+    padding: 15px;
   `}
 `;

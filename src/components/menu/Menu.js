@@ -59,7 +59,6 @@ const Bar = styled.div`
   justify-content: space-between;
   max-width: 1200px;
   width: 100%;
-  margin: 0 0.5rem;
   ${Responsive.media.tablet`
     flex-direction: column;
     margin: 0; 

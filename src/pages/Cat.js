@@ -44,7 +44,7 @@ const Cat = () => (
       <BreadCrumps currentPage="Kat" />
     </Banner>
     <Background>
-      <Row>
+    <Row marginTop={"25px"}>
         <Column widthPercentage="65%">
           <Title text="Konsultation ved katteadfærdsspecialist" showHorizontalRuler />
           <Text>
@@ -77,7 +77,7 @@ const Cat = () => (
       <Row>
         <Title text="Udbud af hestetræning i Midtjylland" showHorizontalRuler />
       </Row>
-      <Row>
+      <Row marginBottom={"25px"}>
         <Column>
           <Image src={catOne} />
           <Title text="Privattime" smallTitle />

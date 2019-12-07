@@ -43,7 +43,7 @@ const Horse = () => (
       <BreadCrumps currentPage="Hest" />
     </Banner>
     <Background>
-      <Row>
+      <Row marginTop={"25px"}>
         <Column widthPercentage="65%">
           <Title text="Konsultation ved hesteadfærdsterapeut" showHorizontalRuler />
           <Text>
@@ -78,7 +78,7 @@ const Horse = () => (
       <Row>
         <Title text="Udbud af hestetræning i Midtjylland" showHorizontalRuler />
       </Row>
-      <Row>
+      <Row marginBottom={"25px"}>
         <Column>
           <Image src={horseTwo} />
           <Title text="Privattime" smallTitle />

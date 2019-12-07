@@ -27,7 +27,7 @@ const Lecture = () => (
       <BreadCrumps currentPage="Foredrag" />
     </Banner>
     <Background>
-      <Row>
+    <Row marginTop={"25px"}>
         <Column widthPercentage="65%">
           <Title text="Foredrag ved Sabrina Svane" showHorizontalRuler />
           <Text>
@@ -103,7 +103,7 @@ const Lecture = () => (
       <Row>
         <Title text="Udbud af foredrag om hund" showHorizontalRuler />
       </Row>
-      <Row>
+      <Row marginBottom={"25px"}>
         <Column>
           <Image src={lectureDogLanguage} />
           <Title text="Hundens sprog - hvad fortæller de os?" smallTitle />

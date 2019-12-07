@@ -23,6 +23,7 @@ const StyledTitle = styled.h4`
     content: '';
     display: ${props => (props.showHorizontalRuler ? 'block' : 'none')};
   }
+  font-weight: normal;
 `;
 
 Title.propTypes = {

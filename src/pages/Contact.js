@@ -28,7 +28,7 @@ const Contact = () => (
       <BreadCrumps currentPage="Kontakt" />
     </Banner>
     <Background>
-      <Row>
+      <Row marginTop={"25px"}>
         <Column widthPercentage="65%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
           <Text>
@@ -79,7 +79,7 @@ const Contact = () => (
           <ContactForm />
         </Column>
       </Row>
-      <Row>
+      <Row marginBottom={"25px"}>
         <LoadScript id="script-loader" googleMapsApiKey={process.env.REACT_APP_GMAP_API_KEY}>
           <GoogleMap
             id="circle-example"
