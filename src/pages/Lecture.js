@@ -153,11 +153,3 @@ const Background = styled.div`
     padding: 15px;
   `}
 `;
-
-const FlexRow = styled.div`
-  display: flex;
-  flex-direction: row;
-  ${Responsive.media.tablet`
-    flex-direction: column;
-  `}
-`;
