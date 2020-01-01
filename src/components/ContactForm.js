@@ -5,7 +5,7 @@ import axios from 'axios'; // For making client request.
 import styled from 'styled-components';
 import Responsive from './layout/Responsive';
 import Text from './Text';
-import StyledA from './links/StyledA';
+import StyledA from './links/StyledExternal';
 
 class ContactForm extends React.Component {
   constructor(props) {

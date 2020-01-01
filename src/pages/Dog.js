@@ -16,7 +16,7 @@ import {
   Prices
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { puppyCourse, coolCourse, recall } from '../assets';
+import { dogOne, dogTwo, dogThree } from '../assets';
 import '../components/table/TableCss.css';
 
 const privateHour = [
@@ -59,18 +59,21 @@ const Dog = () => (
             styrker relationen mellem hund og ejer. Træning med din hund byder på kvalitetstid hvor
             samarbejde, tillid og succes styrkes, hvilket skaber en hund i balance med sig selv og
             sine omgivelser. Mange adfærdsproblemer, som angst og aggression, kan forebygges igennem
-            belønningsbaseret træning og forståelse for hundens adfærd. Ønsker du vejledning i
+            belønningsbaseret træning og forståelse for hundens adfærd.<br />
+            Ønsker du vejledning i
             positiv, effektiv hundeopdragelse til hverdagen eller har du brug for gode råd til
             træning af hunden, så kan du
             <StyledLink to="/kontakt"> bestille en privattime </StyledLink>
             ved at kontakte Sabrina Svane eller tilmelde dig et
-            <StyledLink to="/hundehold"> hundehold </StyledLink>
+            <StyledLink to="/hundehold"> hundehold</StyledLink>.
           </Text>
           <Text>
             Nogle hunde udvikler problemadfærd, som kan skabe utryghed og stress i hverdagen, både
             for hund og for ejer. Det er individuelt hvad der opfattes som et problem hos den
             enkelte ejer, men uanset hvad du har af ønsker for din hund og jeres fælles hverdag, så
-            kan du få hjælp til dette, ved at bestille en konsultation hos Sabrina Svane.
+            kan du få hjælp til dette, ved at
+            <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
+            hos Sabrina Svane.
           </Text>
           <Text color="#33CCCC" bold>
             Kontakt mig gerne og hør nærmere om din problemstilling kræver en privattime eller en
@@ -87,7 +90,7 @@ const Dog = () => (
       </Row>
       <Row marginBottom={"25px"}>
         <Column>
-          <Image src={puppyCourse} />
+          <Image src={dogOne} />
           <Title text="Privattime" smallTitle />
           <Text>En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hund.</Text>
           <Text bold>
@@ -96,7 +99,7 @@ const Dog = () => (
           <TextList texts={privateHour} />
         </Column>
         <Column>
-          <Image src={coolCourse} />
+          <Image src={dogTwo} />
           <Title text="Konsultation ved problemadfærd" smallTitle />
           <Text>
             En konsultation varer op til 2 timer hjemme hos jer. Her vil vi snakke adfærdsproblemet
@@ -112,14 +115,14 @@ const Dog = () => (
           </Text>
         </Column>
         <Column>
-          <Image src={recall} />
+          <Image src={dogThree} />
           <Title text="Hvalpevisit" smallTitle />
           <Text>
             Har du netop fået hvalp og ønsker at få den bedste start på jeres fremtidige liv sammen,
             kan du bestille et hvalpevisit. Et hvalpevisit varer op til 1½ time hjemme hos jer og
             giver jer konkrete tiltag til at få en harmonisk hverdag.
           </Text>
-          <Text bold text="Vi gennemgår følgende ved hvalpevisit:" />
+          <Text bold>Vi gennemgår følgende ved hvalpevisit:</Text>
           <TextList texts={puppyVisitTexts} />
         </Column>
       </Row>

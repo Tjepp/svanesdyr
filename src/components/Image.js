@@ -58,6 +58,7 @@ const ImageContainer = styled.div`
   border-radius: 2px;
   padding: 4px 4px 0px 4px;
   height: ${props => props.height};
+  width: ${props => props.width};
 `;
 
 const StyledImage = styled.img`

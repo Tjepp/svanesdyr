@@ -36,8 +36,8 @@ const Education2014 = () => (
     <br />
     <TextList texts={expo2014Three} />
 
-    <Text bold>Anders Hallgren</Text>
-    <Text>Seminar den 28. september 2014: "Stress hos hunde".</Text>
+    <Text><b>Anders Hallgren</b><br />
+    Seminar den 28. september 2014: "Stress hos hunde".</Text>
   </Fragment>
 );
 

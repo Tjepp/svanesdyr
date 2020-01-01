@@ -53,16 +53,21 @@ const Cat = () => (
             løse opgaver. Uanset om det er i træningen sammen med deres ejer eller igennem
             aktivering med deres daglige foder. Derfor kan træning med katten og/eller optimal
             foderaktivering bidrage til en velstimuleret, veltilpas kat, som bliver mindre
-            tilbøjelig til at finde på narrestreger. Søger du mere viden omkring træning af katte og
-            positiv, effektiv hverdagsopdragelse,
-            <StyledLink to="/kontakt"> bestille en privattime. </StyledLink>
+            tilbøjelig til at finde på narrestreger.
+          </Text>
+          <Text>         
+            Søger du mere viden omkring træning af katte og
+            positiv, effektiv hverdagsopdragelse, kan du
+            <StyledLink to="/kontakt"> bestille en privattime </StyledLink>
+            hos Sabrina Svane.
           </Text>
           <Text>
             Mange katte bliver desværre overset når det kommer til behandling af problemadfærd. Men
             ligesom med alle andre kæledyr, så er det muligt at ændre sin kat adfærd, hvis man
             oplever en uhensigtsmæssig opførsel i hverdagen. Ønsker du råd og vejledning til
-            problemadfærd,
-            <StyledLink to="/kontakt"> bestille en konsultation. </StyledLink>
+            problemadfærd, kan du
+            <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
+            hos Sabrina Svane.
           </Text>
           <Text color="#33CCCC" bold>
             Kontakt mig gerne og hør nærmere om din problemstilling kræver en privattime eller en
@@ -75,7 +80,7 @@ const Cat = () => (
         </Column>
       </Row>
       <Row>
-        <Title text="Udbud af hestetræning i Midtjylland" showHorizontalRuler />
+        <Title text="Udbud af kattetræning i Midtjylland" showHorizontalRuler />
       </Row>
       <Row marginBottom={"25px"}>
         <Column>
@@ -112,7 +117,9 @@ const Cat = () => (
             og hvornår. Udover at du kan lære din kat en masse nyt, så styrker træningen båndet
             mellem jer og giver dig en velstimuleret kat i hverdagen. En veltilpas kat er mindre
             tilbøjelig til at finde på narrestreger. Ønsker du at vide mere omkring effektiv træning
-            af din kat, kan du kontakte Sabrina Svane og bestille en privattime til gennemgang af
+            af din kat, kan du
+            <StyledLink to="/kontakt"> kontakte Sabrina Svane </StyledLink>
+            og bestille en privattime til gennemgang af
             klikkertræning.
           </Text>
         </Column>

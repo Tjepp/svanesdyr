@@ -63,7 +63,8 @@ const Horse = () => (
             for hest og for ejer. Det er individuelt hvad der opfattes som et problem hos den
             enkelte ejer, men uanset hvad du har af ønsker for din hest og jeres fælles hverdag, så
             kan du få hjælp til dette, ved at
-            <StyledLink to="/kontakt"> bestille en konsultation. </StyledLink>
+            <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
+            hos Sabrina Svane.
           </Text>
           <Text color="#33CCCC" bold>
             Kontakt mig gerne og hør nærmere om din problemstilling kræver en privattime eller en

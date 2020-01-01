@@ -28,6 +28,8 @@ const StyledText = styled.p`
   font-style: ${props => (props.italic ? 'italic' : 'normal')};
   white-space: ${props => (props.whiteSpace ? 'pre' : 'initial')};
   margin: 0 0 10px;
+  font-size: 15px;
+  line-height: 22px;
   &:hover {
     color: ${props => (props.onClick ? '#727272' : props.color)};
   }

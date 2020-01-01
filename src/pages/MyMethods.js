@@ -12,7 +12,8 @@ import {
   BreadCrumps,
   Row,
   Image,
-  StyledLink
+  StyledLink,
+  StyledExternal
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -68,49 +69,31 @@ const MyMethods = () => (
         <Column>
           <Title text="Vil du vide mere?" showHorizontalRuler />
           <Text>Gode bøger omhandlende de belønningsbaserede træningsmetoder:</Text>
-          <Text color="#33CCCC" bold>
-            Til hundeejere:
-          </Text>
-          <FlexRow>
-            <Text bold whiteSpace>
-              "Don't shoot the dog!"
-            </Text>
-            <Text bold italic>
-              af Karen Pryor
-            </Text>
-          </FlexRow>
-          <FlexRow>
-            <Text whiteSpace>"Stress, angst og aggression"</Text>
-            <Text italic>af Anders Hallgren</Text>
-          </FlexRow>
-          <Text color="#33CCCC" bold>
-            Til hesteejere:
-          </Text>
-          <FlexColumn>
-            <Text whiteSpace>"Indlæringspsykologi for hest og rytter"</Text>
-            <Text italic>af Bettina Hvidemose</Text>
-          </FlexColumn>
-          <FlexRow>
-            <Text whiteSpace>"Clicker Training for your Horse"</Text>
-            <Text italic>af Alexandra Kurland</Text>
-          </FlexRow>
-          <Text color="#33CCCC" bold>
-            Til katteejere:
-          </Text>
-          <FlexRow>
-            <Text whiteSpace>"The Domestic Cat"</Text>
-            <Text italic>af Turner and Bateson</Text>
-          </FlexRow>
-          <FlexRow>
-            <Text whiteSpace>"Alt om Katte"</Text>
-            <Text italic>af Candida Frith-MacDonald</Text>
-          </FlexRow>
-          <Text color="#33CCCC" bold>
-            Rejse med kæledyr?
+          <Text>
+            <b>
+              <font color="#33CCCC">Til hundeejere:</font><br />
+              "Don't shoot the dog!"<i> af Karen Pryor</i>
+            </b>
+            <br />
+            "Stress, angst og aggression" <i>af Anders Hallgren</i>
           </Text>
           <Text>
+            <b><font color="#33CCCC">Til hesteejere:</font></b><br />
+            "Indlæringspsykologi for hest og rytter" <i>af Bettina Hvidemose</i><br />
+            "Clicker Training for your Horse" <i>af Alexandra Kurland</i>
+          </Text>
+          <Text>
+            <b><font color="#33CCCC">Til katteejere:</font></b><br />
+            "The Domestic Cat" <i>af Turner and Bateson</i><br />
+            "Alt om Katte" <i>af Candida Frith-MacDonald</i>
+          </Text>
+          <Text>
+            <b><font color="#33CCCC">Rejse med kæledyr?</font></b><br />
             <StyledLink to="/kontakt">Kontakt mig </StyledLink>
-            for gode råd
+            for gode råd eller se mere på
+            <StyledExternal href="https://www.stenaline.dk/dyr">
+              {" Stenalines hjemmeside"}
+            </StyledExternal>.
           </Text>
         </Column>
       </Row>
@@ -193,17 +176,4 @@ const Background = styled.div`
   ${Responsive.media.tablet`
     padding: 15px;
   `}
-`;
-
-const FlexRow = styled.div`
-  display: flex;
-  flex-direction: row;
-  ${Responsive.media.tablet`
-    flex-direction: column;
-  `}
-`;
-
-const FlexColumn = styled.div`
-  display: flex;
-  flex-direction: column;
 `;

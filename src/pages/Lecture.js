@@ -14,7 +14,7 @@ import {
   LectureTableHead,
   Row,
   StyledLink,
-  StyledA
+  StyledExternal
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { lectureFearAndAgression, lectureDogLanguage, lectureCalmDownFido } from '../assets';
@@ -47,9 +47,9 @@ const Lecture = () => (
           <Text>
             Jeg har indgået et samarbejde med FOF i Horsens og udbyder løbende foredrag hos dem. Se
             kommende foredrag længere nede på siden eller klik ind på
-            <StyledA href="http://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hundetraening-sejlads-kaeledyr/Hundetraening%20-%20foredrag">
+            <StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag">
               {" FOF's hjemmeside "}
-            </StyledA>
+            </StyledExternal>
             for at læse mere og se priser.
           </Text>
         </Column>
@@ -58,21 +58,18 @@ const Lecture = () => (
           <Text color="#33CCCC" bold>
             Alle priser er inkl. moms
           </Text>
-          <Text bold>Timepris</Text>
-          <Text>
-            Hverdage man-fre før kl. 18.00:
-            <b> 600,- kr/time.</b>
+          <Text><b>Timepris</b><br />
+            Hverdage man-fre:
+            <b> 1.250,- kr/time</b>
             <br />
-            Hverdage man-fre efter kl. 18.00:
-            <b> 700,- kr/time. </b>
-            <br />
-            Lørdage, samt søndage og helligdage:
-            <b> Lukket </b>
-            <br />
-            Derudover et forberedelsestillæg på én timetakst.
+            Weekend lør-søn:
+            <b> 1.450,- kr/time</b>
           </Text>
-          <Text bold> Kørsel </Text>
-          <Text>Tillæg efter statens takster 3,56 kr/km begge veje.</Text>
+          <Text>
+            Inklusiv forberedelsestillæg og udprint.
+          </Text>
+          <Text><b>Kørsel</b><br />
+          Tillæg efter statens takster 3,56 kr/km begge veje.</Text>
         </Column>
       </Row>
       <Row>
@@ -107,8 +104,7 @@ const Lecture = () => (
         <Column>
           <Image src={lectureDogLanguage} />
           <Title text="Hundens sprog - hvad fortæller de os?" smallTitle />
-          <Text bold>Kursus på min. 3 timer</Text>
-          <Text>
+          <Text><b>Kursus på min. 3 timer</b><br />
             Foredraget indeholder bl.a. hundens udvikling fra deres forfader ulven og frem til i
             dag, samt masser af billeder og videoer, som giver dig et godt indblik i de forskellige
             signaler. Du lære at aflæse disse signaler og undgå stressede situationer, således angst
@@ -118,8 +114,7 @@ const Lecture = () => (
         <Column>
           <Image src={lectureFearAndAgression} />
           <Title text="Angst og aggression: Forebyggelse og behandling" smallTitle />
-          <Text bold>Kursus på min. 5 timer</Text>
-          <Text>
+          <Text><b>Kursus på min. 5 timer</b><br />
             Reagerer din hund på andre hunde på gåturen? Snerrer den af gæsterne? Er den skrækslagen
             for dyrlægen? Foredraget omhandler bl.a. hundens indlæringsevner, hundens sprog, samt
             stress og dens negative indflydelse. Du får indsigt i, hvad der spiller en rolle for din
@@ -128,9 +123,8 @@ const Lecture = () => (
         </Column>
         <Column>
           <Image src={lectureCalmDownFido} />
-          <Title text="Slap af Fido!" smallTitle />
-          <Text bold>Kursus på min. 5 timer</Text>
-          <Text>
+          <Title text="Slap af Fido! - få ro på hverdagen" smallTitle />
+          <Text><b>Kursus på min. 5 timer</b><br />
             Føler du din hund er lidt af et damp barn? Bliver den hyper når der sker noget, er svær
             at få ro på hjemme? Foredraget omhandler bl.a. hundens indlæringsevner, stress og dens
             negative indflydelse, samt hvilke faktorer i hverdagen, der spiller en rolle for din

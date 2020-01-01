@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Page, Banner, Button, Meta, Column, Title, Text, Image } from '../components';
 import ReactRouterPropTypes from '../ReactRouterPropTypes';
 import Responsive from '../components/layout/Responsive';
-import { sabrinaWithPuppy, sabrinaAndBarney, labradors } from '../assets';
+import { FrontNoTwo, sabrinaAndBarney, FrontNoOne } from '../assets';
 import MediaQuery from 'react-responsive';
 
 class Home extends PureComponent {
@@ -19,7 +19,7 @@ class Home extends PureComponent {
         <MediaQuery minWidth={Responsive.sizes.tablet}>
               {matches =>
                 matches ? (
-                <Banner text="Info om kommende hundehold, se her:">
+                <Banner text="Information om kommende hundehold, se her:">
                   <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
                 </Banner>) : 
                 (<ButtonContainer>
@@ -30,21 +30,21 @@ class Home extends PureComponent {
         <Background>
           <Container>
             <Column>
-              <Image src={sabrinaWithPuppy} />
-              <Title text="Kort om mig" />
+              <Image src={FrontNoOne} />
+              <Title text="Om Svanes Dyr" />
               <Text
                 onClick={() => {
                   this.onClick('dyreadfaerdskonsulent');
                 }}
                 color="#008080"
               >
-                Professionel rådgivning og vejledning til almen træning eller løsning af
-                adfærdsproblemer til din hund, hest eller kat. Klik ind i menuen for oven for at
-                læse mere om hvad jeg kan tilbyde til netop dig og dit kæledyr!
+                Professionel rådgivning til træning eller løsning af
+                problemadfærd hos din hund, hest eller kat. Klik i menuen for oven for at
+                læse mere om hvad jeg kan tilbyde dig!
               </Text>
             </Column>
             <Column>
-              <Image src={labradors} />
+              <Image src={FrontNoTwo} />
               <Title text="Positive træningsmetoder" />
               <Text
                 onClick={() => {
@@ -52,9 +52,8 @@ class Home extends PureComponent {
                 }}
                 color="#008080"
               >
-                Jeg benytter mig af belønningsbaserede træningsmetoder fra de indlæringspsykologiske
-                principper. Jeg vægter gensidig samarbejde og glæde højt og jeg tager hensyn til den
-                enkelte i træningen.
+                Jeg anvender belønningsbaserede træningsmetoder fra de indlæringspsykologiske
+                principper. Mine nøgleord i al omgang med dyr er gensidigt samarbejde, tillid og succes.
               </Text>
             </Column>
             <Column>
@@ -66,9 +65,8 @@ class Home extends PureComponent {
                 }}
                 color="#008080"
               >
-                Jeg er certificeret Dyreadfærdskonsulent (BSc ABT) og har udover denne uddannelse
-                specialiseret mig i katte og katteadfærd. Oplever du et adfærdsproblem i din kat,
-                kan du få rådgivning og hjælp til dette hos mig.
+                Jeg har specialiseret mig i katte og katteadfærd. Oplever du problemadfærd hos din kat,
+                kan du få professionel rådgivning og hjælp til dette hos mig.
               </Text>
             </Column>
           </Container>
@@ -110,7 +108,8 @@ const Container = styled.div`
     margin-top: 10px;
   `}
   margin-top: 50px;
-  margin-bottom: 25px
+  margin-bottom: 25px;
+  flex-grow: 1; 
 `;
 
 const ButtonContainer = styled.div`

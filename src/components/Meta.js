@@ -30,7 +30,7 @@ const defaultKeywords = `Hundehold Horsens, Hundetræning Midtjylland, Kattetræ
 klikkertræning hest, klikkertræning kat, klikkertræning hund, adfærdsbehandler Midtjylland, adfærdsbehandler Horsens, hundeadfærd, 
 katteadfærd, hesteadfærd, adfærdsterapeut hund, adfærdsterapeut hest, adfærdsterapeut kat, hundehvisker, hestehvisker, kattehvisker, 
 rådgivning hund, hjælp hund, hjælp kat, hjælp hest, rådgivning kat, rådgivning hund, Sabrina Svane, svane hundetræning, foredrag hundeadfærd, 
-foredrag kat, foredrag katteadfærd, foredrag svane, konsulet adfærd, adfærdskonsulent`;
+foredrag kat, foredrag katteadfærd, foredrag svane, konsulent adfærd, adfærdskonsulent`;
 
 Meta.propTypes = {
   title: PropTypes.string,

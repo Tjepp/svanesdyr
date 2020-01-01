@@ -68,8 +68,8 @@ const Bar = styled.div`
 const MenuItemContainer = styled.div`
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
   align-items: center;
+  justify-items: flex-end;
   ${Responsive.media.tablet`
     flex-direction: column;
   `}

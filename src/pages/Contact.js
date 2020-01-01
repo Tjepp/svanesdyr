@@ -12,7 +12,7 @@ import {
   BreadCrumps,
   Row,
   ContactForm,
-  StyledA,
+  StyledExternal,
   MapsInfoMarker
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -29,27 +29,34 @@ const Contact = () => (
     </Banner>
     <Background>
       <Row marginTop={"25px"}>
-        <Column widthPercentage="65%">
+        <Column widthPercentage="100%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
           <Text>
             Har du spørgsmål vedrørende din hund, kat eller hest og ønsker at høre om jeg kan
             hjælpe?
           </Text>
           <FlexRow>
-            <Text whiteSpace>Så send mig en mail på: </Text>
-            <StyledA href="mailto:info@svanesdyr.dk">info@svanesdyr.dk</StyledA>
+            <Text>Så send mig en mail på: 
+            <StyledExternal href="mailto:info@svanesdyr.dk"> info@svanesdyr.dk</StyledExternal>
+          <br />
+            Jeg svarer normaltvist indenfor 24 timer.
+          </Text>
           </FlexRow>
-          <Text>Jeg svarer normaltvist indenfor 24 timer.</Text>
           <FlexRow>
-            <Text whiteSpace>Du kan sende en sms eller giv mig et kald på: </Text>
-            <StyledA href="tel: 93960500"> 93 960 500</StyledA>
+            <Text>Du kan sende en sms eller giv mig et kald på:<br />
+            <StyledExternal href="tel: 93960500"> 93 960 500</StyledExternal>
+          <br />
+            Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket.
+          </Text>
           </FlexRow>
-          <Text> Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket. </Text>
-          <Text color="#33CCCC" bold>
-            Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!
+            <br />
+          <Title color="#33CCCC" text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!" />
+          <Text>
+            Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.<br />
+            Ved forgæves kørsel afregnes kørselstillæg efter statens takster på 3,52 kr./km.
           </Text>
         </Column>
-        <Column>
+        {/* <Column>
           <Title text="Firma informationer" showHorizontalRuler />
           <FlexRow>
             <Text bold>Firmaadresse:</Text>
@@ -71,7 +78,7 @@ const Contact = () => (
             <Text bold>CVR-nr.:</Text>
             <Text whiteSpace> 35903100</Text>
           </FlexRow>
-        </Column>
+        </Column> */}
       </Row>
       <Row>
         <Column widthPercentage="100%">

@@ -31,10 +31,9 @@ const susanFriedman = [
 const Education2016 = () => (
   <Fragment>
     <Title text="Kurser 2016" smallTitle color="#33CCCC" />
-    <Text bold>Magtor</Text>
-    <Text>Den 7. december foredrag: "Hundens Ernæring".</Text>
-    <Text bold>Jan Østergaard</Text>
-    <Text>
+    <Text><b>Magtor</b><br />
+    Den 7. december foredrag: "Hundens Ernæring".</Text>
+    <Text><b>Jan Østergaard</b><br />
       Weekendkursus den 12.-13. november: "Klikkertræning, shaping, target, platform og
       bagpartskontrol".
     </Text>
@@ -48,10 +47,9 @@ const Education2016 = () => (
     <i>Konference den 30. oktober:</i>
     <br />
     <TextList texts={expoThree} />
-    <Text bold>Dr. Susan Friedman</Text>
-    <Text>
+    <Text><b>Dr. Susan Friedman</b><br />
       Kursusforløb den 17.-19. juni 2016, omhandlende: ”Living and Learning with Animals: The
-      Science & Technology of Behavior Change”
+      Science and Technology of Behavior Change”
       <br />
       Gennemgåede emner for dagene:
     </Text>

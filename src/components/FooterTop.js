@@ -9,8 +9,8 @@ const FooterTop = () => (
   <Background>
     <Container>
       <ShortAboutMe />
-      <FacebookColumn />
       <ContactMe />
+      <FacebookColumn />
     </Container>
   </Background>
 );
@@ -52,6 +52,11 @@ const ContactMe = () => (
         <FontAwesomeIcon icon="map-marker-alt" color="#666" size="1x" />
         <SubTitle>Træningsbane: </SubTitle>
         <div>8700 Horsens</div>
+      </IconContainer>
+      <IconContainer>
+        <FontAwesomeIcon icon="info-circle" color="#666" size="1x" />
+        <SubTitle>CVR-nr.: </SubTitle>
+        <div>35903100</div>
       </IconContainer>
     </ContactInfoContainer>
   </ColumnContainer>

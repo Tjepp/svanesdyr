@@ -5,14 +5,13 @@ import Title from '../Title';
 const Education2018 = () => (
   <Fragment>
     <Title text="Kurser 2018" smallTitle color="#33CCCC" />
-    <Text bold>Christina Ingerslev</Text>
-    <Text>Weekendkursus den 9. september: "Problemadfærd på træningsbanen."</Text>
-    <Text bold>Chirag Patel</Text>
-    <Text>
+    <Text><b>Christina Ingerslev</b><br />
+    Weekendkursus den 9. september: "Problemadfærd på træningsbanen."</Text>
+    <Text><b>Chirag Patel</b><br />
       Weekendkursus den 26.-27. maj: "Hvalpetræning og socialisering. Frivillig håndtering."
     </Text>
-    <Text bold>Lise Bang Hansen</Text>
-    <Text>Aftenseminar den 22. marts: "Vaccination af hunde."</Text>
+    <Text><b>Lise Bang Hansen</b><br />
+    Aftenseminar den 22. marts: "Vaccination af hunde."</Text>
   </Fragment>
 );
 

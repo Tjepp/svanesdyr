@@ -11,13 +11,17 @@ import {
   BreadCrumps,
   Row,
   Image,
+  StyledExternal,
+  FlexedRow,
+  TextContainer,
   Education2012,
   Education2013,
   Education2014,
   Education2015,
   Education2016,
   Education2017,
-  Education2018
+  Education2018,
+  Education2019
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { sabrinaNew, petbc } from '../assets';
@@ -33,7 +37,7 @@ const About = () => (
       <Row marginTop={"25px"}>
         <Column widthPercentage="65%">
           <Title text="Om Sabrina Svane" showHorizontalRuler />
-          <FlexRow>
+          <FlexedRow>
             <Image src={sabrinaNew} width="210px" height="270px" />
             <TextContainer>
               <Text>
@@ -46,7 +50,7 @@ const About = () => (
                 Jeg er opvokset på en gård udenfor Horsens by og har hele livet været omgivet af
                 dyr, både igennem naturen og mit eget hold af kæledyr. Min største interesse har
                 altid lagt i dyreriget og min hverdag med dyrene inspirerede mig til at uddanne mig
-                og få større forståelse for deres adfærd, såvel som velfærd.
+                og få større forståelse for deres adfærd.
               </Text>
               <Text>
                 Min passion er at formidle min viden videre til andre og bidrage til større
@@ -54,7 +58,7 @@ const About = () => (
                 liv i harmoni mellem ejere og deres kæledyr.
               </Text>
             </TextContainer>
-          </FlexRow>
+          </FlexedRow>
         </Column>
         <Column>
           <Title text="Hurtige facts om mig" showHorizontalRuler />
@@ -62,20 +66,18 @@ const About = () => (
             Certificeret Dyreadfærdskonsulent
           </Text>
           <Text>Officielle titel: "Bachelor of Sciences in Animal Behavior Therapy" (BSc ABT)</Text>
-          <Text bold>Træner og adfærdsbehandler</Text>
-          <Text>
+          <Text><b>Træner og adfærdsbehandler</b><br />
             Af alle slags dyr.
             <br />
             Speciale i hunde, heste og katte.
           </Text>
-          <Text bold>Træningsmetoder</Text>
-          <Text>
+          <Text><b>Træningsmetoder</b><br />
             Jeg benytter belønningsbaserede træningsmetoder.
             <br />
             Baseret på indlæringspsykologiske principper.
           </Text>
-          <Text bold>Up-to-date rådgivning</Text>
-          <Text>Jeg deltager på kurser flere gange årligt.</Text>
+          <Text><b>Up-to-date rådgivning</b><br />
+          Jeg deltager på kurser flere gange årligt.</Text>
         </Column>
       </Row>
       <Row>
@@ -112,6 +114,9 @@ const About = () => (
           <Text>
             Mine uddannelser er taget ved Center for Dyreterapi i Hirtshals, som er den eneste i
             Danmark der er godkendt af den fælles europæiske organisation
+            <StyledExternal href="https://www.petbc.org.uk/">
+              {" PetBc (Pet Education, Training and Behaviour Council."}
+            </StyledExternal>
           </Text>
           <Text>
             Organisationen er dannet af eksperter, som kun godkender uddannelser, der har et højt
@@ -131,9 +136,10 @@ const About = () => (
           <Title text="Andre kursusforløb" showHorizontalRuler />
           <Text>
             Udover mine uddannelser er jeg løbende på kurser, for at sikre mig, at jeg er helt
-            opdateret på det nyeste indenfor adfærds- og træningsverdenen.
+            opdateret på det nyeste indenfor adfærds- og træningsverdenen.<br />
+            Du kan se nedenfor hvad jeg har deltaget i.
           </Text>
-          <Text>Du kan se nedenfor hvad jeg har deltaget i.</Text>
+          <Education2019 />
           <Education2018 />
           <Education2017 />
           <Education2016 />
@@ -156,22 +162,5 @@ const Background = styled.div`
   flex-direction: column;
   ${Responsive.media.tablet`
     padding: 15px;
-  `}
-`;
-
-const FlexRow = styled.div`
-  display: flex;
-  flex-direction: row;
-  ${Responsive.media.tablet`
-    flex-direction: column;
-  `}
-`;
-
-const TextContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-left: 40px;
-  ${Responsive.media.tablet`
-    margin-left: 0px;
   `}
 `;

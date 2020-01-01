@@ -17,7 +17,7 @@ const TextList = ({ texts }) => (
 );
 
 const StyledList = styled.ul`
-  list-style-type: circle;
+  list-style-type: dot;
   padding-left: 20px;
 `;
 
