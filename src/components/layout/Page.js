@@ -29,4 +29,6 @@ const Container = styled.div`
   flex-direction: column;
   align: center;
   justify-content: center;
+  height:100%;
+  width: 100%;
 `;
