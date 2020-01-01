@@ -11,11 +11,15 @@ import {
   Text,
   BreadCrumps,
   Row,
-  StyledB
+  StyledA,
+  StyledB,
+  StyledOnline,
+  Image
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 import OnlineMenu from '../components/menu/OnlineMenu';
+import { OnlinePlayMaster } from '../assets';
 
 const OnlineCat = () => (
   <Page>
@@ -33,9 +37,30 @@ const OnlineCat = () => (
           <Title text="Online kattekurser" showHorizontalRuler />
           <Text>
             Fordi katte også fortjener en indholdsrig hverdag, med sjov og succes i samvær med deres mennesker!<br />
-            Klik ind på det enkelte hundekursus for at læse mere via <StyledB href="https://www.dittraeningsunivers.dk/"> Dit TræningsUnivers</StyledB>.
+            Klik ind på det enkelte hundekursus for at læse mere via <StyledA href="https://www.dittraeningsunivers.dk/"> Dit TræningsUnivers</StyledA>.
           </Text>
+          <Row>
+          <Column widthPercentage="45%">
+                <Image src={OnlinePlayMaster}/>
+                <br />
+              <StyledOnline href="https://www.dittraeningsunivers.dk/play_master">
+                Play Master
+              </StyledOnline>
 
+                <Text color="#000000">
+                  Får din kat nok med udfordringer i hverdagen?
+                  Manglende aktivering kan resultere i en plagende, pågående, angribende eller uartig kat, som generer dig.
+                  DU kan blive mester i at finde på sjove aktiviteter med din kat!
+                </Text>
+                <Title color="#000000" text="Din investering DKK 879,00 inkl. moms" smallTitle />
+
+              <StyledB href="https://www.dittraeningsunivers.dk/play_master">
+                  Lær mere om Play Master...
+              </StyledB>
+
+          </Column>
+
+          </Row>
         </Column>
       </Row>
     </Background>

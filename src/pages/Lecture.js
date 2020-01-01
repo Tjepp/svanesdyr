@@ -69,7 +69,7 @@ const Lecture = () => (
             Inklusiv forberedelsestillæg og udprint.
           </Text>
           <Text><b>Kørsel</b><br />
-          Tillæg efter statens takster 3,56 kr/km begge veje.</Text>
+          Tillæg efter statens takster 3,52 kr/km begge veje.</Text>
         </Column>
       </Row>
       <Row>
@@ -82,16 +82,52 @@ const Lecture = () => (
             <LectureTableHead />
             <Tbody>
               <Tr>
+                <Td>18. marts </Td>
                 <Td>Hundens sprog - hvad fortæller de os? </Td>
                 <Td>
-                  <a href="http://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hundetraening-sejlads-kaeledyr/Hundetraening%20-%20foredrag/hundens-sprog-hvad-fortaeller-de-os?id=190824">
+                  <StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/hundens-sprog-hvad-fortaeller-de-os?id=200826">
                     Klik her
-                  </a>
+                  </StyledExternal>
                 </Td>
-                <Td>29. maj </Td>
                 <Td>18.30 - 21.30 </Td>
-                <Td>165 kr. </Td>
-                <Td>Ledige pladser</Td>
+                <Td>170 kr. </Td>
+                <Td><font color="#D60E0E">10 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>18. april </Td>
+                <Td>Angst og Aggression - forebyggelse og behandling </Td>
+                <Td>
+                  <StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/angst-og-aggression-i-hunde-forebyggelse-og-behandling?id=200828">
+                    Klik her
+                  </StyledExternal>
+                </Td>
+                <Td>10.00 - 15.30 </Td>
+                <Td>315 kr. </Td>
+                <Td><font color="#D60E0E">10 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>16. maj </Td>
+                <Td>Slap af Fido! - få ro på hverdagen </Td>
+                <Td>
+                  <StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/slap-af-fido-faa-en-rolig-og-afslappet-hund?id=200829">
+                    Klik her
+                  </StyledExternal>
+                </Td>
+                <Td>10.00 - 15.30 </Td>
+                <Td>315 kr. </Td>
+                <Td><font color="#D60E0E">10 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>10. juni </Td>
+                <Td>Hundens sprog - hvad fortæller de os? </Td>
+                <Td>
+                  <StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/hundens-sprog-hvad-fortaeller-de-os?id=200827">
+                    Klik her
+                  </StyledExternal>
+                </Td>
+                <Td>18.30 - 21.30 </Td>
+                <Td>170 kr. </Td>
+                <Td><font color="#D60E0E">10 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>

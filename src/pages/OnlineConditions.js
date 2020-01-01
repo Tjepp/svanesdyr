@@ -11,8 +11,9 @@ import {
   Text,
   BreadCrumps,
   Row,
-  StyledB,
-  StyledExternal
+  StyledOnline,
+  StyledExternal,
+  StyledA
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -34,7 +35,7 @@ const OnlineConditions = () => (
           <Title text="Handelsbetingelser ved køb af onlinekursus" showHorizontalRuler />
           <Text bold>Virksomhedsoplysninger</Text>
           <Text>
-            <StyledB href="https://www.dittraeningsunivers.dk/"> Dit TræningsUnivers </StyledB>
+            <StyledOnline href="https://www.dittraeningsunivers.dk/"> Dit TræningsUnivers </StyledOnline>
             administreres og ejes af Svanes Dyr og Dyrecoach
           </Text>
           <Text>
@@ -122,7 +123,7 @@ const OnlineConditions = () => (
           <br />
           <Text bold>Lov</Text>
           <Text>
-            Der anvendes den danske lovgivning i forbindelse med salg i webshoppen på <StyledB href="https://www.dittraeningsunivers.dk/"> Dit TræningsUnivers</StyledB>.
+            Der anvendes den danske lovgivning i forbindelse med salg i webshoppen på <StyledA href="https://www.dittraeningsunivers.dk/"> Dit TræningsUnivers</StyledA>.
           </Text>
           <br />
           <Text bold>Ændringer</Text>

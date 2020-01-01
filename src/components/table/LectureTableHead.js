@@ -4,9 +4,9 @@ import { Thead, Tr, Th } from 'react-super-responsive-table';
 const LectureTableHead = () => (
   <Thead>
     <Tr>
-      <Th>Foredrag</Th>
-      <Th>Tilmelding og læs mere </Th>
       <Th>Dato</Th>
+      <Th>Foredrag</Th>
+      <Th>Tilmelding</Th>
       <Th>Tidspunkt</Th>
       <Th>Pris</Th>
       <Th>Status</Th>

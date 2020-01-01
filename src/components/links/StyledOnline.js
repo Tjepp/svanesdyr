@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-const StyledB = styled.a`
-  color: #008080;
+const StyledOnline = styled.a`
+  color: #996699;
   font-family: inherit;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 26px
 `;
 
-export default StyledB;
+export default StyledOnline;

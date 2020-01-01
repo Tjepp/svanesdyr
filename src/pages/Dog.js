@@ -109,7 +109,6 @@ const Dog = () => (
           </Text>
           <Text bold>Eksempler på problemadfærd:</Text>
           <TextList texts={consultation} />
-          <Text bold>Praktisk information:</Text>
           <Text>
             Efter mit besøg snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag.
           </Text>

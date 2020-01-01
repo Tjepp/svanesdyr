@@ -22,7 +22,7 @@ import { sabrinaAndBarney, methodOne, methodTwo } from '../assets';
 const MyMethods = () => (
   <Page>
     <Meta />
-    <Banner text="Træningsmetoder Svanes Dyr">
+    <Banner text="Træningsmetoder ved Svanes Dyr">
       <BreadCrumps currentPage="Mine Metoder" />
     </Banner>
     <Background>
@@ -122,10 +122,10 @@ const MyMethods = () => (
             også lede til stress og frustration, da kæledyret ikke føler ubehaget kan undgås.
           </Text>
           <Text>
-            Benytter man en god blanding af at belønne og straffe, vil straffen altid bære overvægt.
+            Benytter man en blanding af at belønne og straffe, vil straffen altid bære overvægt.
             Dyr er kodet til at overleve, derfor vil ubehag altid prioriteres at undgås, fremfor at
-            få mad. Hvis straf derfor er en del af hverdagen, vil kæledyret blot tænke "phew" når
-            den får ros og ikke blive yderligere motiveret på rosen.
+            få mad. Hvis straf derfor er en del af hverdagen, vil kæledyret betragte ros, som at den blot undgår straf 
+            og ikke blive yderligere motiveret på at opnå ros.
           </Text>
         </Column>
         <Column>

@@ -84,7 +84,7 @@ const Cat = () => (
       </Row>
       <Row marginBottom={"25px"}>
         <Column>
-          <Image src={catOne} />
+          <Image src={catThree} />
           <Title text="Privattime" smallTitle />
           <Text>
             En privattime er til dig der ønsker at skabe en tryg hverdag for din kat og forebygge
@@ -104,23 +104,22 @@ const Cat = () => (
           </Text>
           <Text bold>Eksempler på problemadfærd:</Text>
           <TextList texts={consultation} />
-          <Text bold>Praktisk information:</Text>
           <Text>
             Efter mit besøg snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag.
           </Text>
         </Column>
         <Column>
-          <Image src={catThree} />
-          <Title text="Klikkertræning af katte" smallTitle />
+          <Image src={catOne} />
+          <Title text="Skype-Konsultation" smallTitle />
           <Text>
-            Klikkertræning er et effektivt kommunikationsmiddel til din kat om hvad du ønsker af den
-            og hvornår. Udover at du kan lære din kat en masse nyt, så styrker træningen båndet
-            mellem jer og giver dig en velstimuleret kat i hverdagen. En veltilpas kat er mindre
-            tilbøjelig til at finde på narrestreger. Ønsker du at vide mere omkring effektiv træning
-            af din kat, kan du
-            <StyledLink to="/kontakt"> kontakte Sabrina Svane </StyledLink>
-            og bestille en privattime til gennemgang af
-            klikkertræning.
+            En Skype-Konsultation foregår over Messenger/Skype opkald, så du kan få råd og vejledning til
+            problemadfærd hos din kat, uanset hvor du befinder dig i landet.
+            Ligesom til en almindelig konsultation i hjemmet starter vi med at snakke adfærdsproblemet igennem
+            og bagefter gennemgår vi de tiltag der skal til, for at skabe en mere harmonisk hverdag for jer.
+            Tiltagene består af øvelser og enkle hverdagsrutiner der skal ændres, for at opnå det ønskede resultat.
+          </Text>
+          <Text>
+            Efter vores samtale snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag.
           </Text>
         </Column>
       </Row>

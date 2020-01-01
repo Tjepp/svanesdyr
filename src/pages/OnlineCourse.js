@@ -13,7 +13,7 @@ import {
   Row,
   TextList,
   Image,
-  StyledB
+  StyledA
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -43,7 +43,7 @@ const OnlineCourse = () => (
         <Column widthPercentage="75%">
           <Title text="Onlinekurser" showHorizontalRuler />
           <Text>
-            Her på siden kan du finde et udbud af onlinekurser som udbydes på medlemssiden <StyledB href="https://www.dittraeningsunivers.dk/"> Dit TræningsUnivers</StyledB>.
+            Her på siden kan du finde et udbud af onlinekurser som udbydes på medlemssiden <StyledA href="https://www.dittraeningsunivers.dk/"> Dit TræningsUnivers</StyledA>.
           </Text>
           <Text bold>
             Onlinekurser er til dig, som bl.a. ønsker at:

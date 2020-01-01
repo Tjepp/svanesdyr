@@ -53,7 +53,7 @@ class Home extends PureComponent {
                 color="#008080"
               >
                 Jeg anvender belønningsbaserede træningsmetoder fra de indlæringspsykologiske
-                principper. Mine nøgleord i al omgang med dyr er gensidigt samarbejde, tillid og succes.
+                principper. Mine nøgleord i al omgang med dyr er samarbejde, succes og tillid.
               </Text>
             </Column>
             <Column>
@@ -65,8 +65,8 @@ class Home extends PureComponent {
                 }}
                 color="#008080"
               >
-                Jeg har specialiseret mig i katte og katteadfærd. Oplever du problemadfærd hos din kat,
-                kan du få professionel rådgivning og hjælp til dette hos mig.
+                Jeg har specialiseret mig i katteadfærd og kan tilbyde dig
+                professionel rådgivning og hjælp, hvis du oplever problemadfærd hos din kat.
               </Text>
             </Column>
           </Container>
