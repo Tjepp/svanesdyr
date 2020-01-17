@@ -26,7 +26,6 @@ export { default as StyledMenuLinkWithIcon } from './links/StyledMenuLinkWithIco
 export { default as StyledExternal } from './links/StyledExternal';
 export { default as StyledA } from './links/StyledA';
 export { default as StyledB } from './links/StyledB';
-export { default as StyledOnline } from './links/StyledOnline';
 export { default as Prices } from './Prices';
 export { default as MapsInfoMarker } from './MapsInfoMarker';
 export * from './education';

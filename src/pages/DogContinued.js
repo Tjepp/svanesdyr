@@ -82,7 +82,7 @@ const DogContinued = () => (
                 <Td>1. marts</Td>
                 <Td>19. april</Td>
                 <Td>12. april (påske)</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
               <Tr>
                 <Td>Fortsætter2</Td>

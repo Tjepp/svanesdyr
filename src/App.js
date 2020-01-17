@@ -18,8 +18,7 @@ import {
   Home, 
   Horse, 
   Lecture, 
-  MyMethods, 
-  OnlineCourse, OnlineCat, OnlineConditions, OnlineDog, OnlinePartner 
+  MyMethods
 } from './pages';
 
 
@@ -62,19 +61,6 @@ const App = () => (
       <Route path="/hestetraening" exact component={Horse} />
       <Route path="/foredrag" exact component={Lecture} />
       <Route path="/minemetoder" exact component={MyMethods} />
-      <Route path="/onlinekurser" exact component={OnlineCourse} />
-      <Route
-        path="/onlinekurser"
-        render={({ match: { url } }) => (
-          <>
-            <Route path={`${url}/`} component={OnlineCourse} exact />
-            <Route path={`${url}/hundekurser`} component={OnlineDog} />
-            <Route path={`${url}/kattekurser`} component={OnlineCat} />
-            <Route path={`${url}/samarbejdspartner`} component={OnlinePartner} />
-            <Route path={`${url}/handelsbetingelser`} component={OnlineConditions} />
-          </>
-        )}
-        />
     </Switch>
   </Router>
 );

@@ -15,7 +15,6 @@ const SmallMenu = ({ onClick, showSidebar }) => (
       <SmallMenuItem url="/hestetraening" text="Hest" />
       <SmallMenuItem url="/kattetraening" text="Kat" />
       <SmallMenuItem url="/foredrag" text="Foredrag" />
-      <SmallMenuItem url="/onlinekurser" text="Onlinekurser" />
       <SmallMenuItem url="/dyreadfaerdskonsulent" text="Om Mig " />
       <SmallMenuItem url="/minemetoder" text="Mine metoder" />
       <SmallMenuItem url="/kontakt" text="Kontakt" />

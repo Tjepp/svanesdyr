@@ -12,8 +12,3 @@ export { default as Home } from './Home';
 export { default as Horse } from './Horse';
 export { default as Lecture } from './Lecture';
 export { default as MyMethods } from './MyMethods';
-export { default as OnlineCourse } from './OnlineCourse';
-export { default as OnlineDog } from './OnlineDog';
-export { default as OnlineCat } from './OnlineCat';
-export { default as OnlinePartner } from './OnlinePartner';
-export { default as OnlineConditions } from './OnlineConditions';
