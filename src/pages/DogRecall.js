@@ -15,7 +15,8 @@ import {
   DogCourseSimple,
   TextList,
   Image,
-  StyledExternal
+  StyledExternal,
+  StyledLink
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -96,6 +97,16 @@ const DogRecall = () => (
                 <Td>3. marts</Td>
                 <Td>7. april</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Indkald3</Td>
+                <Td>Onsdag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                  <Td>17.30 - 18.15</Td>
+                <Td>25. marts</Td>
+                <Td>29. april</Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
