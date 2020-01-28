@@ -12,7 +12,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseTheory,
+  DogCourseTheory, DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -119,6 +119,29 @@ const DogCool = () => (
                 <Td>Ons 11. marts</Td>
                 <Td>13. april</Td>
                 <Td><font color="#D60E0E">1 plads</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+          
+        
+          <Title text="Fortat Helt-Cool" showHorizontalRuler />
+          <Text>
+            Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere cool-hold.<br />
+            Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de rolige gåture praktiseres i stor stil.
+          </Text>
+          <Table>
+            <DogCourseTableHead />
+            <Tbody>
+              <Tr>
+                <Td>Fortat Helt-Cool</Td>
+                <Td>Søndag</Td>
+                <Td>Hal</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>13.00 - 13.45</Td>
+                <Td>1. marts</Td>
+                <Td>19. april</Td>
+                <Td>12. april</Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
