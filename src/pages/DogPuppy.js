@@ -94,7 +94,7 @@ const DogPuppy = () => (
                 <Td>19. april</Td>
                 <Td>Ons 4. marts</Td>
                 <Td>12. april</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
               <Tr>
                 <Td>Hvalp2</Td>
@@ -108,7 +108,7 @@ const DogPuppy = () => (
                 <Td>19. april</Td>
                 <Td>Ons 4. marts</Td>
                 <Td>12. april</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
               <Tr>
                 <Td>Hvalp3</Td>
