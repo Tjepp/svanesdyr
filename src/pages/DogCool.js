@@ -125,6 +125,7 @@ const DogCool = () => (
           
         
           <Title text="Fortat Helt-Cool" showHorizontalRuler />
+          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere cool-hold.<br />
             Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de rolige gåture praktiseres i stor stil.
