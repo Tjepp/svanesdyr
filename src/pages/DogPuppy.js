@@ -94,7 +94,7 @@ const DogPuppy = () => (
                 <Td>19. april</Td>
                 <Td>Ons 4. marts</Td>
                 <Td>12. april</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
                 <Td>Hvalp2</Td>
@@ -108,35 +108,7 @@ const DogPuppy = () => (
                 <Td>19. april</Td>
                 <Td>Ons 4. marts</Td>
                 <Td>12. april</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp3</Td>
-                <Td>Mandag</Td>
-                <Td>Hal</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=202819">
-                  {"Klik her"}
-                  </StyledExternal></Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>2. marts</Td>
-                <Td>20. april</Td>
-                <Td>Tors 5. marts</Td>
-                <Td>13. april</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp4</Td>
-                <Td>Mandag</Td>
-                <Td>Hal</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=202820">
-                  {"Klik her"}
-                  </StyledExternal></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>2. marts</Td>
-                <Td>20. april</Td>
-                <Td>Tors 5. marts</Td>
-                <Td>13. april</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
             </Tbody>
           </Table>
