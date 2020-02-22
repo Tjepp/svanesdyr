@@ -98,15 +98,28 @@ const DogRecall = () => (
                 <Td>7. april</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
+            </Tbody>
+          </Table>
+          <br />
+
+          <Title text="Indkald Trin2" showHorizontalRuler />
+          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
+          <Text>
+            Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere indkaldshold.<br />
+            Det primære fokus på Trin 2 holdet er at skabe det sikre indkald, uanset hvilke spændende forstyrrelser der måtte friste.
+          </Text>
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
               <Tr>
-                <Td>Indkald3</Td>
-                <Td>Onsdag</Td>
-                <Td>Ude</Td>
+                <Td>Indkald Trin2</Td>
+                <Td>Mandag</Td>
+                <Td>Hal</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                  <Td>17.30 - 18.15</Td>
-                <Td>25. marts</Td>
-                <Td>29. april</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>2. marts</Td>
+                <Td>6. april</Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
             </Tbody>
           </Table>

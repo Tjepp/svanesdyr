@@ -12,7 +12,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseTheory, DogCourseTableHead,
+  DogCourseTheory,
   TextList,
   Image,
   StyledLink,
@@ -30,7 +30,7 @@ const CoolProgram = [
   'Pauseknappen, så hunden kan falde til ro, når du er i ro',
   'Træning af rolige gåture omkring andre hunde og mennesker',
   'God impulskontrol så dagligdagens små glæder bliver lettere med en hund, der har lært at have ro'
-  
+
 ];
 
 const DogCool = () => (
@@ -54,7 +54,7 @@ const DogCool = () => (
           <Text>
             Helt-Cool kurset henvender sig til alle hunde i alle aldre, som har tendens til at stresse.
             Mit fokus med dette kursus er at give dig redskaberne til at skabe en afbalanceret og rolig hund, gennem forskellige øvelser,
-            der også vil styrke jeres fælles samarbejde. 
+            der også vil styrke jeres fælles samarbejde.
           </Text>
           <Text>
             Al træning foregår med <b><font color="#33CCCC">belønningsbaserede metoder</font></b>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
@@ -122,15 +122,15 @@ const DogCool = () => (
               </Tr>
             </Tbody>
           </Table>
-          
-        
+
+
           <Title text="Fortat Helt-Cool" showHorizontalRuler />
           <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere cool-hold.<br />
             Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de rolige gåture praktiseres i stor stil.
           </Text>
-          <Table>
+          {/* <Table>
             <DogCourseTableHead />
             <Tbody>
               <Tr>
@@ -145,9 +145,9 @@ const DogCool = () => (
                 <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
-      
+
         <Title text="Billeder fra Helt-Cool kursus" showHorizontalRuler />
         <Row>
         <Column>
