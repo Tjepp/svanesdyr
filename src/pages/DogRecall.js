@@ -12,11 +12,10 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseSimple,
+  DogCourseTableHead,
   TextList,
   Image,
-  StyledExternal,
-  StyledLink
+  StyledExternal
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -72,31 +71,33 @@ const DogRecall = () => (
             Materialegebyr på 40 kr. betales første mødegang.
           </Text>
           <Table>
-            <DogCourseSimple />
+            <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Indkald1</Td>
-                <Td>Tirsdag</Td>
-                <Td>Hal</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/indkaldskursus-alle-aldre?id=202824">
+                <Td>Indkald2</Td>
+                <Td>Mandag</Td>
+                <Td>Ude</Td>
+                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/indkaldskursus-alle-aldre?id=200824">
                   {"Klik her"}
                   </StyledExternal></Td>
                 <Td>16.30 - 17.15</Td>
-                <Td>3. marts</Td>
-                <Td>7. april</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td>4. maj</Td>
+                <Td>15. juni</Td>
+                <Td>1. juni (pinse) </Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
               <Tr>
-                <Td>Indkald2</Td>
-                <Td>Tirsdag</Td>
-                <Td>Hal</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/indkaldskursus-alle-aldre?id=202825">
+                <Td>Indkald3</Td>
+                <Td>Mandag</Td>
+                <Td>Ude</Td>
+                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/indkaldskursus-alle-aldre?id=200825">
                   {"Klik her"}
                   </StyledExternal></Td>
-                  <Td>17.30 - 18.15</Td>
-                <Td>3. marts</Td>
-                <Td>7. april</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>4. maj</Td>
+                <Td>15. juni</Td>
+                <Td>1. juni (pinse) </Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
@@ -108,7 +109,7 @@ const DogRecall = () => (
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere indkaldshold.<br />
             Det primære fokus på Trin 2 holdet er at skabe det sikre indkald, uanset hvilke spændende forstyrrelser der måtte friste.
           </Text>
-          <Table>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -122,7 +123,7 @@ const DogRecall = () => (
                 <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
       
         <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />

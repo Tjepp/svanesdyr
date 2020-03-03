@@ -76,20 +76,8 @@ const DogTricks = () => (
             <Tbody>
               <Tr>
                 <Td>Tricks1</Td>
-                <Td>Mandag</Td>
-                <Td>Hal</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/tricks-og-motorik-alle-hunde?id=202823">
-                  {"Klik her"}
-                  </StyledExternal></Td>
-                <Td>16.30 - 17.15</Td>
-                <Td>2. marts</Td>
-                <Td>6. april</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Tricks2</Td>
                 <Td>Tirsdag</Td>
-                <Td>Hal</Td>
+                <Td>Ude</Td>
                 <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/tricks-og-motorik-alle-hunde?id=200823">
                   {"Klik her"}
                   </StyledExternal></Td>

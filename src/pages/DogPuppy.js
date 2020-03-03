@@ -83,32 +83,60 @@ const DogPuppy = () => (
             <DogCourseTheory />
             <Tbody>
               <Tr>
-                <Td>Hvalp1</Td>
+                <Td>Hvalp3</Td>
                 <Td>Søndag</Td>
-                <Td>Hal</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=202817">
+                <Td>Ude</Td>
+                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=200817">
                   {"Klik her"}
                   </StyledExternal></Td>
                 <Td>10.00 - 10.45</Td>
-                <Td>1. marts</Td>
-                <Td>19. april</Td>
-                <Td>Ons 4. marts</Td>
-                <Td>12. april</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>3. maj</Td>
+                <Td>21. juni</Td>
+                <Td>Ons 6. maj</Td>
+                <Td>31. maj </Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
               <Tr>
-                <Td>Hvalp2</Td>
+                <Td>Hvalp4</Td>
                 <Td>Søndag</Td>
-                <Td>Hal</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=202818">
+                <Td>Ude</Td>
+                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=200819">
                   {"Klik her"}
                   </StyledExternal></Td>
                 <Td>11.00 - 11.45</Td>
-                <Td>1. marts</Td>
-                <Td>19. april</Td>
-                <Td>Ons 4. marts</Td>
-                <Td>12. april</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>3. maj</Td>
+                <Td>21. juni</Td>
+                <Td>Ons 6. maj</Td>
+                <Td>31. maj </Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp5</Td>
+                <Td>Tirsdag</Td>
+                <Td>Ude</Td>
+                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=200820">
+                  {"Klik her"}
+                  </StyledExternal></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>5. maj</Td>
+                <Td>23. juni</Td>
+                <Td>Tors 7. maj</Td>
+                <Td>2. juni </Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp6</Td>
+                <Td>Tirsdag</Td>
+                <Td>Ude</Td>
+                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=200818">
+                  {"Klik her"}
+                  </StyledExternal></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>5. maj</Td>
+                <Td>23. juni</Td>
+                <Td>Tors 7. maj</Td>
+                <Td>2. juni </Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>

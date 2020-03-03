@@ -74,26 +74,26 @@ const DogContinued = () => (
             <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Fortsætter1</Td>
+                <Td>Fortsætter3</Td>
                 <Td>Søndag</Td>
-                <Td>Hal</Td>
+                <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>09.00 - 09.45</Td>
-                <Td>1. marts</Td>
-                <Td>19. april</Td>
-                <Td>12. april (påske)</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td>3. maj</Td>
+                <Td>21. juni</Td>
+                <Td>31. maj (pinse)</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
               <Tr>
-                <Td>Fortsætter2</Td>
-                <Td>Tirsdag</Td>
-                <Td>Hal</Td>
+                <Td>Fortsætter4</Td>
+                <Td>Mandag</Td>
+                <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
-                <Td>3. marts</Td>
-                <Td>21. april</Td>
-                <Td>14. april (påske)</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>4. maj</Td>
+                <Td>22. juni</Td>
+                <Td>1. juni (pinse) </Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
@@ -110,14 +110,14 @@ const DogContinued = () => (
             <Tbody>
               <Tr>
                 <Td>Fortsætter Trin2</Td>
-                <Td>Tirsdag</Td>
-                <Td>Hal</Td>
+                <Td>Mandag</Td>
+                <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>19.30 - 20.15</Td>
-                <Td>3. marts</Td>
-                <Td>21. april</Td>
-                <Td>14. april (påske)</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>4. maj</Td>
+                <Td>22. juni</Td>
+                <Td>1. juni (pinse) </Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>

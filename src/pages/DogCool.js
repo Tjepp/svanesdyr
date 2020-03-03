@@ -93,32 +93,32 @@ const DogCool = () => (
             <DogCourseTheory />
             <Tbody>
               <Tr>
-                <Td>Cool1</Td>
+                <Td>Cool3</Td>
                 <Td>Søndag</Td>
-                <Td>Hal</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/heltcool-kursus-alle-aldre?id=202821">
+                <Td>Ude</Td>
+                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/heltcool-kursus-alle-aldre?id=200821">
                   {"Klik her"}
                   </StyledExternal></Td>
                 <Td>12.00 - 12.45</Td>
-                <Td>1. marts</Td>
-                <Td>19. april</Td>
-                <Td>Ons 11. marts</Td>
-                <Td>12. april</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>3. maj</Td>
+                <Td>21. juni</Td>
+                <Td>Ons 13. maj</Td>
+                <Td>31. maj </Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
               <Tr>
-                <Td>Cool2</Td>
-                <Td>Mandag</Td>
-                <Td>Hal</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/heltcool-kursus-alle-aldre?id=202822">
+                <Td>Cool4</Td>
+                <Td>Tirsdag</Td>
+                <Td>Ude</Td>
+                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/heltcool-kursus-alle-aldre?id=200822">
                   {"Klik her"}
                   </StyledExternal></Td>
                 <Td>19.30 - 20.15</Td>
-                <Td>2. marts</Td>
-                <Td>20. april</Td>
-                <Td>Ons 11. marts</Td>
-                <Td>13. april</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>5. maj</Td>
+                <Td>23. juni</Td>
+                <Td>Ons 13. maj</Td>
+                <Td>2. juni </Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
