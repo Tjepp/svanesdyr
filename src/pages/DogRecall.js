@@ -97,7 +97,7 @@ const DogRecall = () => (
                 <Td>4. maj</Td>
                 <Td>15. juni</Td>
                 <Td>1. juni (pinse) </Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
             </Tbody>
           </Table>
