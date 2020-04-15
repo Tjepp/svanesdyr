@@ -12,10 +12,11 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseTableHead,
+  // DogCourseTableHead,
   TextList,
   Image,
-  StyledLink
+  StyledLink,
+  DogCourseSimple
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -71,28 +72,16 @@ const DogContinued = () => (
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
           <Table>
-            <DogCourseTableHead />
+            <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortsætter3</Td>
-                <Td>Søndag</Td>
-                <Td>Ude</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>09.00 - 09.45</Td>
-                <Td>3. maj</Td>
-                <Td>21. juni</Td>
-                <Td>31. maj (pinse)</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Fortsætter4</Td>
-                <Td>Mandag</Td>
+                <Td>Fortsætter D</Td>
+                <Td>Tirsdag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
-                <Td>4. maj</Td>
-                <Td>22. juni</Td>
-                <Td>1. juni (pinse) </Td>
+                <Td>19. maj</Td>
+                <Td>30. juni</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
@@ -106,17 +95,16 @@ const DogContinued = () => (
             Disse hold har intet fastlagt program og er derfor åbent for forslag til ønskede øvelser. Holdopstart annonceres her på siden.
           </Text>
           <Table>
-            <DogCourseTableHead />
+            <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortsætter Trin2</Td>
-                <Td>Mandag</Td>
+                <Td>Fortsat Trin2B</Td>
+                <Td>Tirsdag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>19.30 - 20.15</Td>
-                <Td>4. maj</Td>
-                <Td>22. juni</Td>
-                <Td>1. juni (pinse) </Td>
+                <Td>19. maj</Td>
+                <Td>30. juni</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>

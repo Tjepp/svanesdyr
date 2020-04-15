@@ -15,7 +15,7 @@ import {
   DogCourseTableHead,
   TextList,
   Image,
-  StyledExternal
+  StyledLink
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -66,36 +66,35 @@ const DogRecall = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Pris for deltagelse: 860 kr."/>
-          <Text>
+          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
+          {/* <Text>
             Materialegebyr på 40 kr. betales første mødegang.
-          </Text>
+          </Text> */}
           <Table>
             <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Indkald2</Td>
+                <Td>Indkald B</Td>
                 <Td>Mandag</Td>
                 <Td>Ude</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/indkaldskursus-alle-aldre?id=200824">
-                  {"Klik her"}
-                  </StyledExternal></Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>16.30 - 17.15</Td>
-                <Td>4. maj</Td>
-                <Td>15. juni</Td>
+                <Td>11. maj</Td>
+                <Td>22. juni</Td>
                 <Td>1. juni (pinse) </Td>
                 <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
               <Tr>
-                <Td>Indkald3</Td>
+                <Td>Indkald C</Td>
                 <Td>Mandag</Td>
                 <Td>Ude</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/indkaldskursus-alle-aldre?id=200825">
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                {/* <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/indkaldskursus-alle-aldre?id=200825">
                   {"Klik her"}
-                  </StyledExternal></Td>
+                  </StyledExternal></Td> */}
                 <Td>17.30 - 18.15</Td>
-                <Td>4. maj</Td>
-                <Td>15. juni</Td>
+                <Td>11. maj</Td>
+                <Td>22. juni</Td>
                 <Td>1. juni (pinse) </Td>
                 <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
@@ -103,27 +102,28 @@ const DogRecall = () => (
           </Table>
           <br />
 
-          <Title text="Indkald Trin2" showHorizontalRuler />
-          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
+          {/* <Title text="Indkald Trin2" showHorizontalRuler />
+          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/> */}
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere indkaldshold.<br />
             Det primære fokus på Trin 2 holdet er at skabe det sikre indkald, uanset hvilke spændende forstyrrelser der måtte friste.
           </Text>
-          {/* <Table>
-            <DogCourseSimple />
+          <Table>
+            <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Indkald Trin2</Td>
+                <Td>Indkald 2B</Td>
                 <Td>Mandag</Td>
-                <Td>Hal</Td>
+                <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
-                <Td>2. marts</Td>
-                <Td>6. april</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td>11. maj</Td>
+                <Td>22. juni</Td>
+                <Td>1. juni (pinse) </Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
       
         <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />

@@ -12,10 +12,12 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseTheory,
+  // DogCourseTheory,
   TextList,
   Image,
-  StyledExternal
+  // StyledExternal,
+  DogCourseSimple,
+  StyledLink
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -57,74 +59,63 @@ const DogPuppy = () => (
             Al træning foregår med <b><font color="#33CCCC">belønningsbaserede metoder</font></b>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hvalpen med mad og leg.
             Hvis din hvalp laver fejl hjælper vi den ved at gøre opgaven nemmere og mere letforståelig. Alle bliver sat op til succes.
           </Text>
-          <Text>
+          {/* <Text>
             <b>Teoriaften uden hvalp</b><br />
             Der afholdes 1,5 times teoriaften i starten, hvor vi vil snakke om almindelige problemstillinger med hvalpene, såsom hvalpebideri, renlighed og alene hjemme.
             Du vil også få indsigt i belønningskonceptet med at bruge mad, leg og ros til hverdagens opdragelse.
-          </Text>
+          </Text> */}
           <Text>
             <b>Træningsprogram for holdet</b><br />
-            I løbet af vores 8 uger sammen vil vi komme igennem følgende:
+            I løbet af vores 7 uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={PuppyProgram} />
           <Text>
           <b>Leg og socialisering</b><br />
-            Hvalpeholdene er koordineret således, at to hold altid har mulighed for at socialisere med hinanden i mellem træningstimerne.
-            Derudover er der afsat tid til <b><font color="#33CCCC">kontrolleret leg</font></b> i selve timen.
+            {/* Hvalpeholdene er koordineret således, at to hold altid har mulighed for at socialisere med hinanden i mellem træningstimerne.
+            Derudover er der */}
+            Der er afsat tid til <b><font color="#33CCCC">kontrolleret leg</font></b> i selve timen.
           </Text>
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Pris for deltagelse: 965 kr."/>
-          <Text>
+          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
+          {/* <Text>
             Materialegebyr på 40 kr. betales første mødegang.
-          </Text>
+          </Text> */}
           <Table>
-            <DogCourseTheory />
+            <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Hvalp3</Td>
+                <Td>Hvalp C</Td>
                 <Td>Søndag</Td>
                 <Td>Ude</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=200817">
-                  {"Klik her"}
-                  </StyledExternal></Td>
-                <Td>10.00 - 10.45</Td>
-                <Td>3. maj</Td>
-                <Td>21. juni</Td>
-                <Td>Ons 6. maj</Td>
-                <Td>31. maj </Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>09.00 - 09.45</Td>
+                <Td>17. maj</Td>
+                <Td>28. juni</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
               <Tr>
-                <Td>Hvalp4</Td>
-                <Td>Søndag</Td>
-                <Td>Ude</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=200819">
-                  {"Klik her"}
-                  </StyledExternal></Td>
-                <Td>11.00 - 11.45</Td>
-                <Td>3. maj</Td>
-                <Td>21. juni</Td>
-                <Td>Ons 6. maj</Td>
-                <Td>31. maj </Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp5</Td>
+                <Td>Hvalp D</Td>
                 <Td>Tirsdag</Td>
                 <Td>Ude</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=200820">
-                  {"Klik her"}
-                  </StyledExternal></Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>17.30 - 18.15</Td>
-                <Td>5. maj</Td>
-                <Td>23. juni</Td>
-                <Td>Tors 7. maj</Td>
-                <Td>2. juni </Td>
+                <Td>19. maj</Td>
+                <Td>30. juni</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
               <Tr>
+                <Td>Hvalp E</Td>
+                <Td>Søndag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>08.00 - 08.45</Td>
+                <Td>7. juni</Td>
+                <Td>26. juli</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              {/* <Tr>
                 <Td>Hvalp6</Td>
                 <Td>Tirsdag</Td>
                 <Td>Ude</Td>
@@ -137,7 +128,7 @@ const DogPuppy = () => (
                 <Td>Tors 7. maj</Td>
                 <Td>2. juni </Td>
                 <Td><font color="#D60E0E">2 pladser</font></Td>
-              </Tr>
+              </Tr> */}
             </Tbody>
           </Table>
           <br />

@@ -70,9 +70,8 @@ const DogCourse = () => (
           </Text>
           <Text>
             <b>Træningsbaner</b><br />
-            Jeg afholder træning inde eller ude alt efter årstiden og holder til på følgende adresser:<br />
+            Jeg afholder træning udenfor uanset årstiden og holder til på følgende adresse:<br />
             <u>Ude</u>bane: Sorthøjvej 40, 8700 Horsens<br />
-            <u>Hal</u> (inde): Bjerrevej 300, 8783 Hornsyld
           </Text>
           <Text>
             <b>Bemærk!</b><br />
@@ -83,7 +82,8 @@ const DogCourse = () => (
           
           <Title text="Pris for deltagelse" showHorizontalRuler />
           <Text>  
-            Jeg har indgået et samarbejde med FOF Horsens, derfor foregår tilmelding og betaling oftest igennem dem.
+            Jeg har indgået et samarbejde med FOF Horsens, derfor foregår tilmelding og betaling oftest igennem dem.<br />
+            Priser gennem FOF:
           </Text>
           <Text>
             Hvalpehold: 965 kr. <i>inkl. teoriaften</i><br />
@@ -95,7 +95,7 @@ const DogCourse = () => (
             <b><font color="#33CCCC">Bemærk: Max 4 hunde pr. hold.</font></b>
           </Text>
           <Text><b>Materialegebyr på 40 kr.</b><br />
-            Alle holdpriser tillægges materialegebyr. Beløbet dækker materialebrug og halleje under forløbet.
+            Alle holdpriser tillægges materialegebyr.
           </Text>
         </Column>
       </Row>

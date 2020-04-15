@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -12,11 +12,11 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseTheory,
+  // DogCourseTheory,
   TextList,
   Image,
   StyledLink,
-  StyledExternal
+  // StyledExternal
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -86,10 +86,10 @@ const DogCool = () => (
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <Title color="#33CCCC" text="Pris for deltagelse: 965 kr."/>
-          <Text>
+          {/* <Text>
             Materialegebyr på 40 kr. betales første mødegang.
-          </Text>
-          <Table>
+          </Text> */}
+          {/* <Table>
             <DogCourseTheory />
             <Tbody>
               <Tr>
@@ -121,11 +121,11 @@ const DogCool = () => (
                 <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */} <br />
 
 
           <Title text="Fortat Helt-Cool" showHorizontalRuler />
-          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
+          {/* <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/> */}
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere cool-hold.<br />
             Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de rolige gåture praktiseres i stor stil.

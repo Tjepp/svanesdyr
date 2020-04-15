@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -11,7 +11,7 @@ import {
   Text,
   Image,
   BreadCrumps,
-  LectureTableHead,
+  // LectureTableHead,
   Row,
   StyledLink,
   StyledExternal
@@ -78,33 +78,10 @@ const Lecture = () => (
           <Text color="#33CCCC" bold>
             Hos FOF - Ane Staunings Vej 21, 8700 Horsens:
           </Text>
-          <Table>
+          <Text italic>Ingen kommende foredrag i øjeblikket grundet Covid-19.</Text>
+          {/* <Table>
             <LectureTableHead />
             <Tbody>
-              <Tr>
-                <Td>18. marts </Td>
-                <Td>Hundens sprog - hvad fortæller de os? </Td>
-                <Td>
-                  <StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/hundens-sprog-hvad-fortaeller-de-os?id=200826">
-                    Klik her
-                  </StyledExternal>
-                </Td>
-                <Td>18.30 - 21.30 </Td>
-                <Td>170 kr. </Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
-              </Tr>
-              <Tr>
-                <Td>18. april </Td>
-                <Td>Angst og Aggression - forebyggelse og behandling </Td>
-                <Td>
-                  <StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/angst-og-aggression-i-hunde-forebyggelse-og-behandling?id=200828">
-                    Klik her
-                  </StyledExternal>
-                </Td>
-                <Td>10.00 - 15.30 </Td>
-                <Td>315 kr. </Td>
-                <Td><font color="#D60E0E">10 pladser</font></Td>
-              </Tr>
               <Tr>
                 <Td>16. maj </Td>
                 <Td>Slap af Fido! - få ro på hverdagen </Td>
@@ -130,7 +107,7 @@ const Lecture = () => (
                 <Td><font color="#D60E0E">10 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
         </Column>
       </Row>
       <Row>
