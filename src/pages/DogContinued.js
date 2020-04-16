@@ -71,7 +71,7 @@ const DogContinued = () => (
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
-          <Table>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -85,7 +85,7 @@ const DogContinued = () => (
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Fortsætterhold Trin2+" showHorizontalRuler />

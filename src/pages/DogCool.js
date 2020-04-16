@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -12,7 +12,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // DogCourseTheory,
+  DogCourseSimple,
   TextList,
   Image,
   StyledLink,
@@ -85,28 +85,34 @@ const DogCool = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Pris for deltagelse: 965 kr."/>
+          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
           {/* <Text>
             Materialegebyr på 40 kr. betales første mødegang.
           </Text> */}
-          {/* <Table>
-            <DogCourseTheory />
+          <Table>
+            <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Cool3</Td>
+                <Td>Cool C</Td>
                 <Td>Søndag</Td>
                 <Td>Ude</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/heltcool-kursus-alle-aldre?id=200821">
-                  {"Klik her"}
-                  </StyledExternal></Td>
-                <Td>12.00 - 12.45</Td>
-                <Td>3. maj</Td>
-                <Td>21. juni</Td>
-                <Td>Ons 13. maj</Td>
-                <Td>31. maj </Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>10.00 - 10.45</Td>
+                <Td>17. maj</Td>
+                <Td>28. juni</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
               <Tr>
+                <Td>Cool D</Td>
+                <Td>Tirsdag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>19. maj</Td>
+                <Td>30. juni</Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
+              </Tr>
+              {/* <Tr>
                 <Td>Cool4</Td>
                 <Td>Tirsdag</Td>
                 <Td>Ude</Td>
@@ -119,9 +125,9 @@ const DogCool = () => (
                 <Td>Ons 13. maj</Td>
                 <Td>2. juni </Td>
                 <Td><font color="#D60E0E">2 pladser</font></Td>
-              </Tr>
+              </Tr> */}
             </Tbody>
-          </Table> */} <br />
+          </Table>
 
 
           <Title text="Fortat Helt-Cool" showHorizontalRuler />
