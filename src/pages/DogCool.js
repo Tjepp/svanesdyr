@@ -71,15 +71,15 @@ const DogCool = () => (
             hvor du kan få personlig vejledning og redskaber til at hjælpe din hund.
             <StyledLink to="/kontakt"> Kontakt mig </StyledLink> endelig hvis du er i tvivl.
           </Text>
-          <Text>
+          {/* <Text>
             <b>Teoriaften uden hund</b><br />
             Der afholdes 1,5 times teoriaften i løbet af kurset, hvor vi vil snakke om løsning til almindelige problemstillinger med hundene,
             såsom at gå pænt i snor, ikke hoppe op og falde til ro i hjemmet.
             Du vil også få indsigt i hvad stress gør ved din hund og belønningskonceptet med at bruge mad, leg og ros til hverdagens opdragelse.
-          </Text>
+          </Text> */}
           <Text>
             <b>Træningsprogram for holdet</b><br />
-            I løbet af vores 8 uger sammen vil vi komme igennem følgende:
+            I løbet af vores 7 uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={CoolProgram} />
           <br />
