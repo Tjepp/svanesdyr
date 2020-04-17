@@ -82,7 +82,7 @@ const DogRecall = () => (
                 <Td>11. maj</Td>
                 <Td>22. juni</Td>
                 <Td>1. juni (pinse) </Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
               <Tr>
                 <Td>Indkald C</Td>
@@ -98,6 +98,17 @@ const DogRecall = () => (
                 <Td>1. juni (pinse) </Td>
                 <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
+              <Tr>
+                <Td>Indkald D</Td>
+                <Td>Tirsdag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>19. maj</Td>
+                <Td>23. juni</Td>
+                <Td>-- </Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
+              </Tr>
             </Tbody>
           </Table>
           <br />
@@ -108,7 +119,7 @@ const DogRecall = () => (
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere indkaldshold.<br />
             Det primære fokus på Trin 2 holdet er at skabe det sikre indkald, uanset hvilke spændende forstyrrelser der måtte friste.
           </Text>
-          <Table>
+          {/* <Table>
             <DogCourseTableHead />
             <Tbody>
               <Tr>
@@ -123,7 +134,7 @@ const DogRecall = () => (
                 <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
       
         <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -15,8 +15,8 @@ import {
   // DogCourseTableHead,
   TextList,
   Image,
-  StyledLink,
-  DogCourseSimple
+  // StyledLink,
+  // DogCourseSimple
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -94,21 +94,21 @@ const DogContinued = () => (
             Trin 2 +mere bygger videre på tidligere indlærte øvelser og giver mere udfordring til både hund og ejer i shaping, kropskontrol og tricks.
             Disse hold har intet fastlagt program og er derfor åbent for forslag til ønskede øvelser. Holdopstart annonceres her på siden.
           </Text>
-          <Table>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
                 <Td>Fortsat Trin2B</Td>
-                <Td>Tirsdag</Td>
+                <Td>Mandag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>19.30 - 20.15</Td>
-                <Td>19. maj</Td>
-                <Td>30. juni</Td>
+                <Td>18. maj</Td>
+                <Td>29. juni</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
       
         <Title text="Billeder fra fortsætterhold" showHorizontalRuler />
