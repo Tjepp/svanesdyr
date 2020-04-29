@@ -103,7 +103,7 @@ const DogPuppy = () => (
                 <Td>17.30 - 18.15</Td>
                 <Td>19. maj</Td>
                 <Td>30. juni</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
                 <Td>Hvalp E</Td>
