@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -15,8 +15,8 @@ import {
   // DogCourseTableHead,
   TextList,
   Image,
-  // StyledLink,
-  // DogCourseSimple
+  StyledLink,
+  DogCourseSimple
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -71,21 +71,21 @@ const DogContinued = () => (
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
-          {/* <Table>
+          <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortsætter D</Td>
-                <Td>Tirsdag</Td>
+                <Td>Fortsætter C</Td>
+                <Td>Søndag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>19. maj</Td>
-                <Td>30. juni</Td>
+                <Td>10.00 - 10.45</Td>
+                <Td>31. maj</Td>
+                <Td>12. juli</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Fortsætterhold Trin2+" showHorizontalRuler />
