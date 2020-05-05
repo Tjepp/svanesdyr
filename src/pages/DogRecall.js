@@ -78,17 +78,6 @@ const DogRecall = () => (
                 <Td>Mandag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>16.30 - 17.15</Td>
-                <Td>11. maj</Td>
-                <Td>22. juni</Td>
-                <Td>1. juni (pinse) </Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Indkald C</Td>
-                <Td>Mandag</Td>
-                <Td>Ude</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 {/* <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/indkaldskursus-alle-aldre?id=200825">
                   {"Klik her"}
                   </StyledExternal></Td> */}
@@ -96,10 +85,10 @@ const DogRecall = () => (
                 <Td>11. maj</Td>
                 <Td>22. juni</Td>
                 <Td>1. juni (pinse) </Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
-                <Td>Indkald D</Td>
+                <Td>Indkald C</Td>
                 <Td>Tirsdag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
@@ -108,6 +97,17 @@ const DogRecall = () => (
                 <Td>23. juni</Td>
                 <Td>-- </Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Indkald D</Td>
+                <Td>Mandag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>16.30 - 17.15</Td>
+                <Td>8. juni</Td>
+                <Td>13. juli</Td>
+                <Td>-- </Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
