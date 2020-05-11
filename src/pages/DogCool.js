@@ -92,25 +92,25 @@ const DogCool = () => (
           <Table>
             <DogCourseSimple />
             <Tbody>
-            <Tr>
-                <Td>Cool C </Td>
+              <Tr>
+                <Td>Cool C</Td>
+                <Td>Mandag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>25. maj</Td>
+                <Td>6. juli</Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Cool D</Td>
                 <Td>Tirsdag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
                 <Td>26. maj</Td>
                 <Td>7. juli</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Cool D</Td>
-                <Td>Søndag</Td>
-                <Td>Ude</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>11.00 - 11.45</Td>
-                <Td>31. maj</Td>
-                <Td>12. juli</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               {/* <Tr>
                 <Td>Cool4</Td>

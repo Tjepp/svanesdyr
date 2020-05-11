@@ -70,7 +70,7 @@ const DogContinued = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
+          <Title color="#33CCCC" text="Din investering: 900 kr."/>
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -79,10 +79,10 @@ const DogContinued = () => (
                 <Td>Søndag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>08.00 - 08.45</Td>
+                <Td>11.00 - 11.45</Td>
                 <Td>31. maj</Td>
                 <Td>12. juli</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
@@ -94,21 +94,21 @@ const DogContinued = () => (
             Trin 2 +mere bygger videre på tidligere indlærte øvelser og giver mere udfordring til både hund og ejer i shaping, kropskontrol og tricks.
             Disse hold har intet fastlagt program og er derfor åbent for forslag til ønskede øvelser. Holdopstart annonceres her på siden.
           </Text>
-          {/* <Table>
+          <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortsat Trin2B</Td>
-                <Td>Mandag</Td>
+                <Td>Fortsat Trin2 B</Td>
+                <Td>Søndag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>18. maj</Td>
-                <Td>29. juni</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
+                <Td>08.00 - 08.45</Td>
+                <Td>31. maj</Td>
+                <Td>12. juli</Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
       
         <Title text="Billeder fra fortsætterhold" showHorizontalRuler />
