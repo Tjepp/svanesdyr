@@ -17,7 +17,8 @@ import {
   Image,
   // StyledExternal,
   DogCourseSimple,
-  StyledLink
+  StyledLink,
+  DogCourseTableHead
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -78,23 +79,13 @@ const DogPuppy = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
+          <Title color="#33CCCC" text="Din investering: 900 kr."/>
           {/* <Text>
             Materialegebyr på 40 kr. betales første mødegang.
           </Text> */}
           <Table>
             <DogCourseSimple />
             <Tbody>
-              <Tr>
-                <Td>Hvalp C</Td>
-                <Td>Søndag</Td>
-                <Td>Ude</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>09.00 - 09.45</Td>
-                <Td>17. maj</Td>
-                <Td>28. juni</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
               <Tr>
                 <Td>Hvalp D</Td>
                 <Td>Tirsdag</Td>
@@ -112,7 +103,7 @@ const DogPuppy = () => (
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>10.00 - 10.45</Td>
                 <Td>7. juni</Td>
-                <Td>26. juli</Td>
+                <Td>19. juli</Td>
                 <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
               <Tr>
@@ -122,8 +113,28 @@ const DogPuppy = () => (
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
                 <Td>8. juni</Td>
-                <Td>27. juli</Td>
+                <Td>20. juli</Td>
                 <Td><font color="#D60E0E">1 plads</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp G</Td>
+                <Td>Søndag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>09.00 - 09.45</Td>
+                <Td>5. juli</Td>
+                <Td>16. august</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp H</Td>
+                <Td>Mandag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>6. juli</Td>
+                <Td>17. august</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
               {/* <Tr>
                 <Td>Hvalp6</Td>
@@ -139,6 +150,37 @@ const DogPuppy = () => (
                 <Td>2. juni </Td>
                 <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr> */}
+            </Tbody>
+          </Table>
+          <br />
+          <Text>
+            Efter sommerferien:
+          </Text>
+          <Table>
+            <DogCourseTableHead />
+            <Tbody>
+              <Tr>
+                <Td>Hvalp I</Td>
+                <Td>Søndag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>10.00 - 10.45</Td>
+                <Td>26. juli</Td>
+                <Td>20. september</Td>
+                <Td>Uge 35 + 36</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp J</Td>
+                <Td>Mandag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>27. juli</Td>
+                <Td>21. september</Td>
+                <Td>Uge 35 + 36</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
             </Tbody>
           </Table>
           <br />

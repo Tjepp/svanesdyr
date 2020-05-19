@@ -85,7 +85,7 @@ const DogCool = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
+          <Title color="#33CCCC" text="Din investering: 900 kr."/>
           {/* <Text>
             Materialegebyr på 40 kr. betales første mødegang.
           </Text> */}
@@ -111,6 +111,26 @@ const DogCool = () => (
                 <Td>26. maj</Td>
                 <Td>7. juli</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Cool E</Td>
+                <Td>Tirsdag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>7. juli</Td>
+                <Td>18. august</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Cool F</Td>
+                <Td>Tirsdag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>7. juli</Td>
+                <Td>18. august</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
               {/* <Tr>
                 <Td>Cool4</Td>

@@ -12,7 +12,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseTableHead,
+  DogCourseSimple,
   TextList,
   Image,
   StyledLink
@@ -66,27 +66,13 @@ const DogRecall = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/>
+          <Title color="#33CCCC" text="Din investering: 900 kr."/>
           {/* <Text>
             Materialegebyr på 40 kr. betales første mødegang.
           </Text> */}
           <Table>
-            <DogCourseTableHead />
+            <DogCourseSimple />
             <Tbody>
-              <Tr>
-                <Td>Indkald B</Td>
-                <Td>Mandag</Td>
-                <Td>Ude</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                {/* <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/indkaldskursus-alle-aldre?id=200825">
-                  {"Klik her"}
-                  </StyledExternal></Td> */}
-                <Td>17.30 - 18.15</Td>
-                <Td>11. maj</Td>
-                <Td>22. juni</Td>
-                <Td>1. juni (pinse) </Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
               <Tr>
                 <Td>Indkald C</Td>
                 <Td>Tirsdag</Td>
@@ -95,7 +81,6 @@ const DogRecall = () => (
                 <Td>19.30 - 20.15</Td>
                 <Td>19. maj</Td>
                 <Td>23. juni</Td>
-                <Td>-- </Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
@@ -103,10 +88,19 @@ const DogRecall = () => (
                 <Td>Mandag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>16.30 - 17.15</Td>
-                <Td>8. juni</Td>
+                <Td>19.30 - 20.15</Td>
                 <Td>13. juli</Td>
-                <Td>-- </Td>
+                <Td>17. august</Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Indkald E</Td>
+                <Td>Tirsdag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>14. juli</Td>
+                <Td>18. august</Td>
                 <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>

@@ -14,7 +14,7 @@ import {
   Cat, 
   Contact, 
   Dog, 
-  DogCourse, DogPuppy, DogContinued, DogCool, DogRecall, DogTricks,
+  DogCourse, DogPuppy, DogContinued, DogCool, DogRecall, DogTricks, DogSummer,
   Home, 
   Horse, 
   Lecture, 
@@ -54,6 +54,7 @@ const App = () => (
             <Route path={`${url}/hvalpfortsat`} component={DogContinued} />
             <Route path={`${url}/coolhold`} component={DogCool} />
             <Route path={`${url}/indkald`} component={DogRecall} />
+            <Route path={`${url}/sommerhund`} component={DogSummer} />
             <Route path={`${url}/tricks`} component={DogTricks} />
           </>
         )}

@@ -75,8 +75,7 @@ const DogCourse = () => (
           </Text>
           <Text>
             <b>Bemærk!</b><br />
-            Det er påkrævet at hunden har basisvaccine og der er tegnet udvidet hundeforsikring før
-            deltagelse.
+            Det er påkrævet at hunden har basisvaccine og der er tegnet udvidet hundeforsikring før deltagelse.
           </Text>
           <br />
           

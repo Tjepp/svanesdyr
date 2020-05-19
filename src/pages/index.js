@@ -7,6 +7,7 @@ export { default as DogPuppy } from './DogPuppy';
 export { default as DogContinued } from './DogContinued';
 export { default as DogCool } from './DogCool';
 export { default as DogRecall } from './DogRecall';
+export { default as DogSummer } from './DogSummer';
 export { default as DogTricks } from './DogTricks';
 export { default as Home } from './Home';
 export { default as Horse } from './Horse';

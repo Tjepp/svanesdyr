@@ -67,7 +67,7 @@ const DogTricks = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Pris for deltagelse: 860 kr."/>
+          <Title color="#33CCCC" text="Din investering: 860 kr."/>
           <Text>
             Materialegebyr på 40 kr. betales første mødegang.
           </Text>

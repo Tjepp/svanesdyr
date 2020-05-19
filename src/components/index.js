@@ -14,6 +14,7 @@ export { default as InfoDogCourses } from './InfoDogCourses';
 export { default as BreadCrumps } from './BreadCrumps';
 export { default as DogCourseTableHead } from './table/DogCourseTableHead';
 export { default as DogCourseTheory } from './table/DogCourseTheory';
+export { default as DogCourseSummer } from './table/DogCourseSummer';
 export { default as DogCourseSimple } from './table/DogCourseSimple';
 export { default as LectureTableHead } from './table/LectureTableHead';
 export { default as TextList } from './TextList';
