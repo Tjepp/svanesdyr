@@ -71,7 +71,10 @@ const DogContinued = () => (
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <Title color="#33CCCC" text="Din investering: 900 kr."/>
-          <Table>
+          <Text>
+            <i>Nye fortsætterhold planlægges til juli - nærmere info kommer senere.</i>
+          </Text>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -85,7 +88,7 @@ const DogContinued = () => (
                 <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Fortsætterhold Trin2+" showHorizontalRuler />
@@ -104,8 +107,8 @@ const DogContinued = () => (
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>08.00 - 08.45</Td>
                 <Td>31. maj</Td>
-                <Td>12. juli</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td>5. juli</Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
             </Tbody>
           </Table>
