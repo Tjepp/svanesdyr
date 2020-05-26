@@ -79,7 +79,7 @@ const DogCourse = () => (
           </Text>
           <br />
           
-          <Title text="Pris for deltagelse" showHorizontalRuler />
+          {/* <Title text="Pris for deltagelse" showHorizontalRuler />
           <Text>  
             Jeg har indgået et samarbejde med FOF Horsens, derfor foregår tilmelding og betaling oftest igennem dem.<br />
             Priser gennem FOF:
@@ -95,7 +95,7 @@ const DogCourse = () => (
           </Text>
           <Text><b>Materialegebyr på 40 kr.</b><br />
             Alle holdpriser tillægges materialegebyr.
-          </Text>
+          </Text> */}
         </Column>
       </Row>
     </Background>
