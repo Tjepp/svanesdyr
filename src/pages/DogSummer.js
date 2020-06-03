@@ -30,7 +30,7 @@ const SummerProgram = [
   
 ];
 
-const DogPuppy = () => (
+const DogSummer = () => (
   <Page>
     <Meta />
     <Banner text="Hundehold i Horsens">
@@ -70,10 +70,10 @@ const DogPuppy = () => (
             Følgende sommersjov er planlagt:
           </Text>
           <TextList texts={SummerProgram} />
-          <Text>
+          {/* <Text>
             Tilmelding foregår igennem facebook-begivenheden, som du kan finde link til under det enkelte holds faktaboks forneden.
             Har du ikke en facebookprofil kan du til gengæld <StyledLink to="/kontakt">kontakte mig</StyledLink> for at reservere en plads.
-          </Text>
+          </Text> */}
           <br />
 
           <Title text="Skema for uge 29" showHorizontalRuler />
@@ -203,7 +203,7 @@ const DogPuppy = () => (
   </Page>
 );
 
-export default withRouter(DogPuppy);
+export default withRouter(DogSummer);
 
 const Background = styled.div`
   background: #fff;
