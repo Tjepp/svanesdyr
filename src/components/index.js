@@ -1,6 +1,7 @@
 export { default as Button } from './Button';
 export { default as Column } from './layout/Column';
 export { default as FooterBottom } from './FooterBottom';
+export { default as FooterLandingpage } from './FooterLandingpage';
 export { default as FooterTop } from './FooterTop';
 export { default as Menu } from './menu/Menu';
 export { default as Page } from './layout/Page';
@@ -21,6 +22,7 @@ export { default as TextList } from './TextList';
 export { default as Row } from './layout/Row';
 export { default as FlexedRow } from './layout/FlexedRow';
 export { default as TextContainer } from './layout/TextContainer';
+export { default as Landingpage } from './layout/Landingpage';
 export { default as ContactForm } from './ContactForm';
 export { default as StyledLink } from './links/StyledLink';
 export { default as StyledMenuLinkWithIcon } from './links/StyledMenuLinkWithIcon';

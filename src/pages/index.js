@@ -13,3 +13,4 @@ export { default as Home } from './Home';
 export { default as Horse } from './Horse';
 export { default as Lecture } from './Lecture';
 export { default as MyMethods } from './MyMethods';
+export { default as Salespage } from './Salespage';

@@ -18,7 +18,8 @@ import {
   Home, 
   Horse, 
   Lecture, 
-  MyMethods
+  MyMethods,
+  Salespage
 } from './pages';
 
 
@@ -62,6 +63,7 @@ const App = () => (
       <Route path="/hestetraening" exact component={Horse} />
       <Route path="/foredrag" exact component={Lecture} />
       <Route path="/minemetoder" exact component={MyMethods} />
+      <Route path="/salgsside" exact component={Salespage} />
     </Switch>
   </Router>
 );
