@@ -14,7 +14,7 @@ export default FooterBottom;
 
 const Background = styled.div`
   min-height: 3.75rem;
-  background: #008080;
+  background: #25292c;
   display: flex;
   justify-content: space-evenly;
   align-items: center;

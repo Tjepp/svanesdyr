@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import React from 'react';
 import Responsive from './layout/Responsive';
 
-const FooterBottom = () => (
+const FooterLandingpage = () => (
   <Background>
     <TextContainer>
       <Text>© Copyright 2018 by SvanesDyr. All Rights Reserved.</Text>
@@ -10,7 +10,7 @@ const FooterBottom = () => (
   </Background>
 );
 
-export default FooterBottom;
+export default FooterLandingpage;
 
 const Background = styled.div`
   min-height: 3.75rem;
@@ -34,5 +34,5 @@ const TextContainer = styled.div`
 
 const Text = styled.div`
   word-wrap: break-word;
-  color: #666;
+  color: #000;
 `;

@@ -32,8 +32,7 @@ class Menu extends Component {
                   <LargeMenu />
                 ) : (
                   <SmallMenu onClick={this.toggleShowSideBar} showSidebar={showSidebar} />
-                )
-              }
+                )}
             </MediaQuery>
           </MenuItemContainer>
         </Bar>

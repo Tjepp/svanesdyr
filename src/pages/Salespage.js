@@ -1,85 +1,87 @@
-import React, { PureComponent } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import { 
-        Landingpage,
-        Banner,
-        Button,
-        Meta,
-        Text 
-      } from '../components';
+import { Landingpage, Meta, Text, Button } from '../components';
 import Responsive from '../components/layout/Responsive';
-import LandingpageMenu from '../components/menu/LandingpageMenu'
-import MediaQuery from 'react-responsive';
+import LandingpageMenu from '../components/menu/LandingpageMenu';
+import ContactForm from '../components/ContactForm';
 
-class Salespage extends PureComponent {
-  onClick = path => {
-    const { history } = this.props;
-    history.push(`/${path}`);
+const Salespage = () => {
+  const [showContactForm, setShowContactForm] = useState(false);
+
+  const toggleContactForm = () => {
+    setShowContactForm(!showContactForm);
   };
 
-  render() {
-    return (
-      <Landingpage>
-        <LandingpageMenu>
-          <Text>
-            Skriv titel her
+  return (
+    <Landingpage>
+      <LandingpageMenu />
+      <Meta />
+      <WhiteBlock>
+        <Content>
+          <Text font color="#33CCCC">
+            Skriv endnu flere ting her
           </Text>
-        </LandingpageMenu>
-        <Meta />
-        <MediaQuery minWidth={Responsive.sizes.tablet}>
-              {matches =>
-                matches ? (
-                <Banner text="Information om kommende hundehold, se her:">
-                  <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
-                </Banner>) : 
-                (<ButtonContainer>
-                  <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
-                </ButtonContainer>)
-              }
-            </MediaQuery>
-        <Background>
-              <Text>
-                Skriv interessante sager her
-              </Text>
-        </Background>
-        <BackgroundColor>
-              <Text font color="#33CCCC"> 
-                Skriv endnu flere ting her
-              </Text>
-        </BackgroundColor>
-      </Landingpage>
-    );
-  }
-}
+          <Button text="Hello World" onClick={toggleContactForm} />
+        </Content>
+      </WhiteBlock>
+      <BlackBlock>
+        <Content>
+          <Text font color="#33CCCC">
+            Skriv endnu flere ting her
+          </Text>
+        </Content>
+      </BlackBlock>
+      <BlackBlock>
+        <Content>
+          <Text font color="#33CCCC">
+            Skriv endnu flere ting her
+          </Text>
+        </Content>
+      </BlackBlock>
+      {showContactForm && <ContactFormModal onClick={toggleContactForm} />}
+    </Landingpage>
+  );
+};
 
+const ContactFormModal = ({ onClick }) => {
+  return (
+    <StyledModal className="modal" onClick={onClick}>
+      <ContactForm />
+    </StyledModal>
+  );
+};
+
+const StyledModal = styled.div`
+  position: absolute;
+  width: 600px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  border: 1px solid #ccc;
+  transition: 1.1s ease-out;
+`;
 
 export default Salespage;
 
-const Background = styled.div`
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  ${Responsive.media.tablet`
-    padding: 0;
-  `}
-  margin-top: 25px;
-  margin-bottom: 25px;
-`;
-
-const BackgroundColor = styled.div`
-  background: #666;
-  display: flex;
-  justify-content: center;
-  ${Responsive.media.tablet`
-    padding: 0;
-  `}
-  margin-top: 25px;
-  margin-bottom: 25px;
-`;
-
-const ButtonContainer = styled.div`
-  display: flex;
+const Block = styled.div`
   width: 100%;
+  display: flex;
   justify-content: center;
-  margin-top: 25px;
+  ${Responsive.media.tablet`
+    padding: 0;
+  `}
+`;
+
+const WhiteBlock = styled(Block)`
+  background: #fff;
+`;
+
+const BlackBlock = styled(Block)`
+  background: #000;
+`;
+
+const Content = styled.div`
+  max-width: 1200px;
 `;

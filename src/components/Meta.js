@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import MetaTags from 'react-meta-tags';
 
 const Meta = ({ title, description, keywords }) => (
-  <React.Fragment>
+  <>
     <MetaTags>
       <title>{title}</title>
       <meta name="og:title" content={title} />
@@ -18,7 +18,7 @@ const Meta = ({ title, description, keywords }) => (
       <meta name="description" content={description} />
       <meta name="og:description" content={description} />
     </MetaTags>
-  </React.Fragment>
+  </>
 );
 
 const defaultTitle =

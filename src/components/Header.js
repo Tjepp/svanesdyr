@@ -42,6 +42,7 @@ const Button = styled.button` {
   `;
 
 const Background = styled.div`
+  width: 100%;
   height: 3rem;
   background: #25292c;
   border-bottom: 1px solid #414f5a;

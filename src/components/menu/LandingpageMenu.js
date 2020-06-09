@@ -1,22 +1,18 @@
 import styled from 'styled-components';
-import React, { Component } from 'react';
+import React from 'react';
 import Responsive from '../layout/Responsive';
 import { logoLightGrey } from '../../assets';
 
-class LandingpageMenu extends Component {
-  render() {
-    
-    return (
-      <Background>
-        <Bar>
-          <CenteredA href="/">
-            <Img src={logoLightGrey} alt="logo" />
-          </CenteredA>
-        </Bar>
-      </Background>
-    );
-  }
-}
+const LandingpageMenu = () => (
+  <Background>
+    <Bar>
+      <CenteredA href="/">
+        <Img src={logoLightGrey} alt="logo" />
+      </CenteredA>
+      <Title> Hello World </Title>
+    </Bar>
+  </Background>
+);
 
 export default LandingpageMenu;
 
@@ -25,6 +21,7 @@ const Background = styled.div`
   background: #1cb8b8;
   display: flex;
   justify-content: center;
+  width: 100%;
 `;
 
 const Bar = styled.div`
@@ -32,7 +29,8 @@ const Bar = styled.div`
   z-index: 9999;
   position: relative;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   max-width: 1200px;
   width: 100%;
   ${Responsive.media.tablet`
@@ -54,7 +52,16 @@ const Img = styled.img`
 `;
 
 const CenteredA = styled.a`
+  position: absolute;
+  top: 0;
+  left: 0;
   ${Responsive.media.tablet`
     align-self: center;
+    position: unset;
   `}
+`;
+
+const Title = styled.h1`
+  width: 100%;
+  text-align: center;
 `;

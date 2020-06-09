@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/label-has-for */
-import React, { Fragment } from 'react';
+import React from 'react';
 import axios from 'axios'; // For making client request.
 import styled from 'styled-components';
 import Responsive from './layout/Responsive';
@@ -91,7 +91,7 @@ class ContactForm extends React.Component {
     };
 
     return (
-      <Fragment>
+      <>
         {sendError ? (
           <Text whiteSpace>
             Der skete desværre en fejl.
@@ -165,7 +165,7 @@ class ContactForm extends React.Component {
             </Row>
           </Form>
         )}
-      </Fragment>
+      </>
     );
   }
 }
