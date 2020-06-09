@@ -66,9 +66,12 @@ const DogCool = () => (
             Kurset henvender sig <b>ikke</b> til hunde der er bange for andre hunde eller reagerer aggressivt ved synet af andre.
             Står du med denne problemstilling anbefaler jeg at
             <StyledLink to="/kontakt"> booke tid </StyledLink>
-            til en
+            til en konsultation
             <StyledLink to="/hundetraening"> konsultation</StyledLink>,
             hvor du kan få personlig vejledning og redskaber til at hjælpe din hund.
+            Eller tjek om <StyledLink to="/hundehold/venligvovse"> Venlig-Vovse </StyledLink> holdet er noget for jer.
+          </Text>
+          <Text>
             <StyledLink to="/kontakt"> Kontakt mig </StyledLink> endelig hvis du er i tvivl.
           </Text>
           {/* <Text>
