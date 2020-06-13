@@ -114,7 +114,7 @@ const DogPuppy = () => (
                 <Td>09.00 - 09.45</Td>
                 <Td>5. juli</Td>
                 <Td>16. august</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
                 <Td>Hvalp H</Td>
@@ -126,20 +126,6 @@ const DogPuppy = () => (
                 <Td>17. august</Td>
                 <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
-              {/* <Tr>
-                <Td>Hvalp6</Td>
-                <Td>Tirsdag</Td>
-                <Td>Ude</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/hvalpehold-36-mdr?id=200818">
-                  {"Klik her"}
-                  </StyledExternal></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>5. maj</Td>
-                <Td>23. juni</Td>
-                <Td>Tors 7. maj</Td>
-                <Td>2. juni </Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
-              </Tr> */}
             </Tbody>
           </Table>
           <br />

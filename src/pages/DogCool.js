@@ -120,16 +120,6 @@ const DogCool = () => (
                 <Td>Tirsdag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>7. juli</Td>
-                <Td>18. august</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Cool F</Td>
-                <Td>Tirsdag</Td>
-                <Td>Ude</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>19.30 - 20.15</Td>
                 <Td>7. juli</Td>
                 <Td>18. august</Td>
