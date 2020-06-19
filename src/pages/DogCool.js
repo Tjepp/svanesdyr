@@ -89,16 +89,13 @@ const DogCool = () => (
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <Title color="#33CCCC" text="Din investering: 900 kr."/>
-          {/* <Text>
-            Materialegebyr på 40 kr. betales første mødegang.
-          </Text> */}
           <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
                 <Td>Cool C</Td>
                 <Td>Mandag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>19.30 - 20.15</Td>
                 <Td>25. maj</Td>
@@ -108,7 +105,7 @@ const DogCool = () => (
               <Tr>
                 <Td>Cool D</Td>
                 <Td>Tirsdag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
                 <Td>26. maj</Td>
@@ -118,33 +115,18 @@ const DogCool = () => (
               <Tr>
                 <Td>Cool E</Td>
                 <Td>Tirsdag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>19.30 - 20.15</Td>
                 <Td>7. juli</Td>
                 <Td>18. august</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
-              {/* <Tr>
-                <Td>Cool4</Td>
-                <Td>Tirsdag</Td>
-                <Td>Ude</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/heltcool-kursus-alle-aldre?id=200822">
-                  {"Klik her"}
-                  </StyledExternal></Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>5. maj</Td>
-                <Td>23. juni</Td>
-                <Td>Ons 13. maj</Td>
-                <Td>2. juni </Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
-              </Tr> */}
             </Tbody>
           </Table>
 
 
           <Title text="Fortat Helt-Cool" showHorizontalRuler />
-          {/* <Title color="#33CCCC" text="Pris for deltagelse: 900 kr."/> */}
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere cool-hold.<br />
             Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de rolige gåture praktiseres i stor stil.
@@ -155,7 +137,7 @@ const DogCool = () => (
               <Tr>
                 <Td>Fortat Helt-Cool</Td>
                 <Td>Søndag</Td>
-                <Td>Hal</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>13.00 - 13.45</Td>
                 <Td>1. marts</Td>

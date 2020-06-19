@@ -67,16 +67,13 @@ const DogRecall = () => (
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <Title color="#33CCCC" text="Din investering: 900 kr."/>
-          {/* <Text>
-            Materialegebyr på 40 kr. betales første mødegang.
-          </Text> */}
           <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
                 <Td>Indkald C</Td>
                 <Td>Tirsdag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>19.30 - 20.15</Td>
                 <Td>19. maj</Td>
@@ -86,7 +83,7 @@ const DogRecall = () => (
               <Tr>
                 <Td>Indkald D</Td>
                 <Td>Tirsdag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
                 <Td>14. juli</Td>
@@ -108,7 +105,7 @@ const DogRecall = () => (
               <Tr>
                 <Td>Indkald 2B</Td>
                 <Td>Mandag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>19.30 - 20.15</Td>
                 <Td>13. juli</Td>

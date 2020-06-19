@@ -80,7 +80,7 @@ const DogCoolFriend = () => (
               <Tr>
                 <Td>Venlig-Vovse A</Td>
                 <Td>Søndag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>11.15 - 12.00</Td>
                 <Td>5. juli</Td>

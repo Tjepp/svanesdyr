@@ -80,16 +80,13 @@ const DogPuppy = () => (
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <Title color="#33CCCC" text="Din investering: 900 kr."/>
-          {/* <Text>
-            Materialegebyr på 40 kr. betales første mødegang.
-          </Text> */}
           <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
                 <Td>Hvalp E</Td>
                 <Td>Søndag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>10.00 - 10.45</Td>
                 <Td>7. juni</Td>
@@ -99,7 +96,7 @@ const DogPuppy = () => (
               <Tr>
                 <Td>Hvalp F</Td>
                 <Td>Mandag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
                 <Td>8. juni</Td>
@@ -109,7 +106,7 @@ const DogPuppy = () => (
               <Tr>
                 <Td>Hvalp G</Td>
                 <Td>Søndag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>09.00 - 09.45</Td>
                 <Td>5. juli</Td>
@@ -119,7 +116,7 @@ const DogPuppy = () => (
               <Tr>
                 <Td>Hvalp H</Td>
                 <Td>Mandag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>17.30 - 18.15</Td>
                 <Td>6. juli</Td>
@@ -138,7 +135,7 @@ const DogPuppy = () => (
               <Tr>
                 <Td>Hvalp I</Td>
                 <Td>Søndag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>10.00 - 10.45</Td>
                 <Td>26. juli</Td>
@@ -149,7 +146,7 @@ const DogPuppy = () => (
               <Tr>
                 <Td>Hvalp J</Td>
                 <Td>Mandag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
                 <Td>27. juli</Td>

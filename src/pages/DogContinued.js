@@ -77,7 +77,7 @@ const DogContinued = () => (
               <Tr>
                 <Td>Fortsætter C</Td>
                 <Td>Tirsdag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>17.30 - 18.15</Td>
                 <Td>7. juli</Td>
