@@ -84,26 +84,6 @@ const DogPuppy = () => (
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Hvalp E</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>10.00 - 10.45</Td>
-                <Td>7. juni</Td>
-                <Td>19. juli</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp F</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>8. juni</Td>
-                <Td>20. juli</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
                 <Td>Hvalp G</Td>
                 <Td>Søndag</Td>
                 <Td>8700</Td>

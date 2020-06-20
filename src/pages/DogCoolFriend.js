@@ -74,7 +74,10 @@ const DogCoolFriend = () => (
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <Title color="#33CCCC" text="Din investering: 950 kr."/>
-          <Table>
+          <Text>
+            Nye hold planlægges til september.
+          </Text>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -88,7 +91,7 @@ const DogCoolFriend = () => (
                 <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
         {/* <Title text="Billeder fra Helt-Cool kursus" showHorizontalRuler />

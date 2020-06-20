@@ -71,16 +71,6 @@ const DogRecall = () => (
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Indkald C</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>19. maj</Td>
-                <Td>23. juni</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
                 <Td>Indkald D</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
