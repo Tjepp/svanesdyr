@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -12,7 +12,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseSimple,
+  // DogCourseSimple,
   // Image,
   StyledLink
 } from '../components';

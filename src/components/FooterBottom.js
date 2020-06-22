@@ -14,7 +14,7 @@ export default FooterBottom;
 
 const Background = styled.div`
   min-height: 3.75rem;
-  background: #25292c;
+  background: #379683;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -35,5 +35,5 @@ const TextContainer = styled.div`
 
 const Text = styled.div`
   word-wrap: break-word;
-  color: #888;
+  color: #000;
 `;

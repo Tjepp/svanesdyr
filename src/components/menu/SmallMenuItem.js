@@ -27,7 +27,7 @@ align-items: center;
 text-decoration:none;
   &:hover {
     border-style: solid;
-    border-color: #008080;
-    background-color: #252c34;
+    border-color: #0F292F;
+    background-color: #379683;
    }
 `;

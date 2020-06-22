@@ -31,12 +31,12 @@ class Home extends PureComponent {
           <Container>
             <Column>
               <Image src={FrontNoOne} />
-              <Title text="Om Svanes Dyr" />
+              <Title color="000" text="Om Svanes Dyr" />
               <Text
                 onClick={() => {
                   this.onClick('dyreadfaerdskonsulent');
                 }}
-                color="#008080"
+                color="#000"
               >
                 Professionel rådgivning til træning eller løsning af
                 problemadfærd hos din hund, hest eller kat. Klik i menuen for oven for at
@@ -45,12 +45,12 @@ class Home extends PureComponent {
             </Column>
             <Column>
               <Image src={FrontNoTwo} />
-              <Title text="Positive træningsmetoder" />
+              <Title color="000" text="Positive træningsmetoder" />
               <Text
                 onClick={() => {
                   this.onClick('minemetoder');
                 }}
-                color="#008080"
+                color="#000"
               >
                 Jeg anvender belønningsbaserede træningsmetoder fra de indlæringspsykologiske
                 principper. Mine nøgleord i al omgang med dyr er samarbejde, succes og tillid.
@@ -58,12 +58,12 @@ class Home extends PureComponent {
             </Column>
             <Column>
               <Image src={sabrinaAndBarney} />
-              <Title text="Katteadfærdsspecialist" />
+              <Title color="000" text="Katteadfærdsspecialist" />
               <Text
                 onClick={() => {
                   this.onClick('kattetraening');
                 }}
-                color="#008080"
+                color="#000"
               >
                 Jeg har specialiseret mig i katteadfærd og kan tilbyde dig
                 professionel rådgivning og hjælp, hvis du oplever problemadfærd hos din kat.

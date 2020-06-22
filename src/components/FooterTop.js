@@ -33,27 +33,27 @@ const ContactMe = () => (
     <Title> Kontakt Mig </Title>
     <ContactInfoContainer>
       <IconContainer>
-        <FontAwesomeIcon icon="phone" color="#666" size="1x" />
+        <FontAwesomeIcon icon="phone" color="#379683" size="1x" />
         <SubTitle>Telefon: </SubTitle>
         <StyledA href="tel: 93960500">93 960 500</StyledA>
       </IconContainer>
       <IconContainer>
-        <FontAwesomeIcon icon="envelope" color="#666" size="1x" />
+        <FontAwesomeIcon icon="envelope" color="#379683" size="1x" />
         <SubTitle>Email: </SubTitle>
         <EmailText href="mailto:info@svanesdyr.dk">info@svanesdyr.dk</EmailText>
       </IconContainer>
       <IconContainer>
-        <FontAwesomeIcon icon="map-marker-alt" color="#666" size="1x" />
+        <FontAwesomeIcon icon="map-marker-alt" color="#379683" size="1x" />
         <SubTitle>Adresse: </SubTitle>
         <div>8740 Brædstrup</div>
       </IconContainer>
       <IconContainer>
-        <FontAwesomeIcon icon="map-marker-alt" color="#666" size="1x" />
+        <FontAwesomeIcon icon="map-marker-alt" color="#379683" size="1x" />
         <SubTitle>Træningsbane: </SubTitle>
         <div>8700 Horsens</div>
       </IconContainer>
       <IconContainer>
-        <FontAwesomeIcon icon="info-circle" color="#666" size="1x" />
+        <FontAwesomeIcon icon="info-circle" color="#379683" size="1x" />
         <SubTitle>CVR-nr.: </SubTitle>
         <div>35903100</div>
       </IconContainer>
@@ -68,11 +68,12 @@ const StyledA = styled.a`
 
 const Background = styled.div`
   min-height: 90px;
-  background: #333d46;
+  background: #0F292F;
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid #414f5a;
-  color: #a1a1a1;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  color: #fff;
   padding-bottom: 25px;
   ${Responsive.media.tablet`
     padding: 0;
@@ -97,7 +98,7 @@ const Title = styled.h3`
 
 const SubTitle = styled.p`
   font-weight: 600;
-  color: #727272;
+  color: #379683;
   margin: 0;
   margin-left: 0.5rem;
   margin-right: 0.5rem;

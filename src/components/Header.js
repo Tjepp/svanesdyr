@@ -43,8 +43,8 @@ const Button = styled.button` {
 
 const Background = styled.div`
   height: 3rem;
-  background: #25292c;
-  border-bottom: 1px solid #414f5a;
+  background: #379683;
+  border-bottom: 1px solid #000;
   display: flex;
   justify-content: center;
   ${Responsive.media.tablet`

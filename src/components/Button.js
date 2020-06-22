@@ -16,8 +16,8 @@ Button.propTypes = {
 export default Button;
 
 const StyledButton = styled.a`
-  background: linear-gradient(#008080, #1cb8b8);
-  border: 1px solid #2d7272;
+  background: linear-gradient(#379683, #1cb8b8);
+  border: 1px solid #0F292F;
   box-shadow: inset 0 1px 1px 0 #99dede, 0 2px 0 -1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   font-weight: bold;
