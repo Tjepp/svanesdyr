@@ -25,16 +25,17 @@ import DogMenu from '../components/menu/DogMenu';
 const SummerInfo = [
   'Afholdes i sommerferiens uge 29 og 30',
   'Plads til max 6 snuder pr. hold',
+  'Foregår på Sorthøjvej 40, 8700 Horsens',
   '3 dages træning i alt: Starter onsdag og slutter fredag i den respektive uge',
   'Lørdag formiddag er der fælles afslutning for alle med hyggetimen',
   'Der serveres kaffe og te hver dag'
 ];
 
 const SummerProgram = [
-  'Hvalpestue: Med fokus på socialisering, miljøtræning og ro omkring andre',
-  'Hverdagssjov: Hjernegymnastik til hverdagen med targettræning, motoriklege og tricks',
+  'Hvalpelegestue: Med fokus på socialisering, miljøtræning og ro omkring andre',
+  // 'Hverdagssjov: Hjernegymnastik til hverdagen med targettræning, motoriklege og tricks',
   'Rolige gåture uden trækkeri: Lær kontaktlege der giver dig fornøjelige gåture uden trækken i snoren',
-  'Det sorte bælte i selvkontrol: Til hunden der skal mestrer ro omkring spændende fristelser',  
+  // 'Det sorte bælte i selvkontrol: Til hunden der skal mestrer ro omkring spændende fristelser',  
   'Nose Work: Sjov og stimulerende aktiviteter hvor hunden skal bruge sin næse', 
   'Hyggetimen: Leg, gåture og hygge i samlet flok'
   
@@ -44,7 +45,7 @@ const DogSummer = () => (
   <Page>
     <Meta />
     <Banner text="Hundehold i Horsens">
-      <BreadCrumps currentPage="Sommerferiesjov" />
+      <BreadCrumps currentPage="Sommerferietræning" />
     </Banner>
     <Background>
     <Row marginTop={"25px"} marginBottom={"45px"}>
@@ -53,28 +54,28 @@ const DogSummer = () => (
           <DogMenu/>
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Sommerferiesjov med hund i Horsens" showHorizontalRuler />
+          <Title text="Sommerferietræning med hund i Horsens" showHorizontalRuler />
           <Text>
             Sommerferie sammen med hunden?<br />
             Tid til ekstra sjov og gode stunder med din bedste ven - hvor hele familien kan være med?
           </Text>
           <Text>
-            Så kom med til årets <b><font color="#33CCCC">Sommerferiesjov med hunden</font></b> i sommerferieugerne 29 og 30!
+            Så kom med til årets <b><font color="#33CCCC">Sommerferietræning med hunden</font></b> i sommerferieugerne 29 og 30!
           </Text>
           <Text>
-            <b>Praktisk info om Sommerferiesjov</b><br />
+            <b>Praktisk info om Sommerferietræning</b><br />
             Træningen er familievenlig, så tag gerne børn og den bedre halvdel med til nogle hyggelige sommerdage.<br />
             Lidt info om hvert enkelt hold:
           </Text>
           <TextList texts={SummerInfo} />
           <Text>
-            <b>Træningsprincipper til Sommerferiesjov</b><br />
+            <b>Træningsprincipper til Sommerferietræning</b><br />
             Al træning foregår med belønningsbaserede metoder,
             hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
             Nøgleord for træningen er samarbejde, tillid og succes.
           </Text>
           <Text>
-            <b>Sommerferiesjov holdinformation</b><br />
+            <b>Sommerferietræning holdinformation</b><br />
             Følgende sommersjove hundehold er planlagt:
           </Text>
           <TextList texts={SummerProgram} />
@@ -100,7 +101,7 @@ const DogSummer = () => (
                 <Td><font color="#D60E0E">4 ledige</font></Td>
                 <Td>
                   <StyledExternal href="https://www.facebook.com/events/253142612415825/">
-                  {"Facebook-begivenhed"}
+                  {"Facebook-tilmelding"}
                   </StyledExternal>
                   </Td>
               </Tr>
@@ -111,23 +112,31 @@ const DogSummer = () => (
                 <Td><font color="#D60E0E">6 ledige</font></Td>
                 <Td>
                   <StyledExternal href="https://www.facebook.com/events/1976440025826246/">
-                  {"Facebook-begivenhed"}
+                  {"Facebook-tilmelding"}
                   </StyledExternal>
-                  </Td>
+                </Td>
               </Tr>
               <Tr>
-                <Td>Hvalpestue små racer</Td>
-                <Td>17.30 - 19.00</Td>
+                <Td>Hvalpelegestue</Td>
+                <Td>17.00 - 18.30</Td>
                 <Td>6 pladser</Td>
                 <Td><font color="#D60E0E">6 ledige</font></Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>
+                  <StyledExternal href="https://www.facebook.com/events/1276822452669753/">
+                  {"Facebook-tilmelding"}
+                  </StyledExternal>
+                </Td>
               </Tr>
               <Tr>
-                <Td>Hvalpestue store racer</Td>
-                <Td>19.05 - 20.35</Td>
+                <Td>Rolige gåture</Td>
+                <Td>18.45 - 20.15</Td>
                 <Td>6 pladser</Td>
                 <Td><font color="#D60E0E">6 ledige</font></Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>
+                  <StyledExternal href="https://www.facebook.com/events/606308353653979/">
+                  {"Facebook-tilmelding"}
+                  </StyledExternal>
+                </Td>
               </Tr>
             </Tbody>
           </Table>
