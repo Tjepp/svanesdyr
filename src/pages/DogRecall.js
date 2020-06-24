@@ -89,7 +89,7 @@ const DogRecall = () => (
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere indkaldshold.<br />
             Det primære fokus på Trin 2 holdet er at skabe det sikre indkald, uanset hvilke spændende forstyrrelser der måtte friste.
           </Text>
-          <Table>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -103,7 +103,7 @@ const DogRecall = () => (
                 <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
       
         <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />

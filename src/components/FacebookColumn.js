@@ -44,8 +44,8 @@ class FacebookColumn extends PureComponent {
     return (
       <ColumnContainer ref={this.myContainer}>
         <Title> Facebook </Title>
-        <div>Følg mig på facebook, hvor jeg løbende opdaterer med relevante nyheder.</div>
-        <MarginBottom>Tilfreds med mit besøg? Smid gerne en bedømmelse. </MarginBottom>
+        <div>Følg mig på facebook, hvis du ønsker at få søde hvalpebilleder, gode artikler og træningsinput i din nyhedsstrøm.</div>
+        <MarginBottom> </MarginBottom>
         <div
           style={{ height: '214px' }}
           className="fb-page"
