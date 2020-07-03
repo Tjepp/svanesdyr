@@ -3,7 +3,6 @@ export { default as Cat } from './Cat';
 export { default as Contact } from './Contact';
 export { default as Dog } from './Dog';
 export { default as DogCourse } from './DogCourse';
-export { default as DogPlay } from './DogPlay';
 export { default as DogPuppy } from './DogPuppy';
 export { default as DogContinued } from './DogContinued';
 export { default as DogCool } from './DogCool';
