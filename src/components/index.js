@@ -12,7 +12,6 @@ export { default as Text } from './Text';
 export { default as Title } from './Title';
 export { default as TitleColor } from './TitleColor';
 export { default as InfoDogCourses } from './InfoDogCourses';
-export { default as LandingpageHeadline } from './LandingpageHeadline';
 export { default as BreadCrumps } from './BreadCrumps';
 export { default as DogCourseTableHead } from './table/DogCourseTableHead';
 export { default as DogCourseTheory } from './table/DogCourseTheory';
