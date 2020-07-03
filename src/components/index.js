@@ -24,7 +24,6 @@ export { default as Row } from './layout/Row';
 export { default as FlexedRow } from './layout/FlexedRow';
 export { default as TextContainer } from './layout/TextContainer';
 export { default as ContactForm } from './ContactForm';
-export { default as ContactPopUp } from './ContactPopUp';
 export { default as StyledLink } from './links/StyledLink';
 export { default as StyledMenuLinkWithIcon } from './links/StyledMenuLinkWithIcon';
 export { default as StyledExternal } from './links/StyledExternal';
