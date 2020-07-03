@@ -2,7 +2,6 @@ export { default as About } from './About';
 export { default as Cat } from './Cat';
 export { default as Contact } from './Contact';
 export { default as Dog } from './Dog';
-export { default as DogConsultPuppy } from './DogConsultPuppy';
 export { default as DogCourse } from './DogCourse';
 export { default as DogPlay } from './DogPlay';
 export { default as DogPuppy } from './DogPuppy';
