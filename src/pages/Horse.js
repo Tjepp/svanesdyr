@@ -7,6 +7,7 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
   Image,
   BreadCrumps,
@@ -20,20 +21,20 @@ import { horseOne, horseTwo, horseThree } from '../assets';
 import '../components/table/TableCss.css';
 
 const privateHour = [
-  'Hesten skal lære at stå roligt i spildtov.',
+  'Hesten skal lære at stå roligt i spildtov',
   'Hesten skal miljøtrænes med biler, lyde mv.',
-  'Hesten skal lære at følge pænt med i trækketorv.',
-  'Hesten virker døv overfor signaler der gives.',
-  'Mental stimulering ved nødsaget ro ved fx skade.'
+  'Hesten skal lære at følge pænt med i trækketorv',
+  'Hesten virker døv overfor signaler der gives',
+  'Mental stimulering ved nødsaget ro ved fx skade'
 ];
 
 const consultation = [
-  'Hesten er svær at få i trailer.',
-  'Hesten er bange for lyde.',
-  'Hesten sparker, bider eller stejler.',
-  'Hesten vil stikke af når den er i træktorv.',
-  'Hesten udviser vævning eller krybbebideri.',
-  'Hesten kan ikke være alene i stalden.'
+  'Hesten er svær at få i trailer',
+  'Hesten er bange for lyde',
+  'Hesten sparker, bider eller stejler',
+  'Hesten vil stikke af når den er i træktorv',
+  'Hesten udviser vævning eller krybbebideri',
+  'Hesten kan ikke være alene i stalden'
 ];
 
 const Horse = () => (
@@ -66,10 +67,7 @@ const Horse = () => (
             <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
             hos Sabrina Svane.
           </Text>
-          <Text color="#33CCCC" bold>
-            Kontakt mig gerne og hør nærmere om din problemstilling kræver en privattime eller en
-            konsultation.
-          </Text>
+          <TitleColor text="Kontakt mig gerne og hør om din problemstilling kræver en privattime eller en konsultation." smallTitle />
         </Column>
         <Column>
           <Title text="Priser for hestetræning" showHorizontalRuler />
@@ -80,18 +78,9 @@ const Horse = () => (
         <Title text="Udbud af hestetræning i Midtjylland" showHorizontalRuler />
       </Row>
       <Row marginBottom={"25px"}>
-        <Column>
-          <Image src={horseTwo} />
-          <Title text="Privattime" smallTitle />
-          <Text>En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hest.</Text>
-          <Text bold>
-            Eksempler på træning til en privattime:
-          </Text>
-          <TextList texts={privateHour} />
-        </Column>
-        <Column>
+      <Column>
           <Image src={horseThree} />
-          <Title text="Konsultation ved problemadfærd" smallTitle />
+          <TitleColor text="Konsultation ved problemadfærd" smallTitle />
           <Text>
             En konsultation varer op til 2 timer hjemme hos jer. Her vil vi snakke adfærdsproblemet
             igennem, så jeg kan foretage en grundig analyse. Derefter gennemgår vi de tiltag der
@@ -102,11 +91,12 @@ const Horse = () => (
           <TextList texts={consultation} />
           <Text>
             Efter mit besøg snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag.
+            Der er fri opfølgning på mail og telefon, hvis der opstår spørgsmål efter mit besøg.
           </Text>
         </Column>
         <Column>
           <Image src={horseOne} />
-          <Title text="Tilridning" smallTitle />
+          <TitleColor text="Tilridning" smallTitle />
           <Text>
             Jeg tilbyder gode råd og vejledning til en afslappet og succesfuld tilridning af din
             hest. Heste er fra naturens side flugtdyr og er tilbøjelig til at flygte ved stress og
@@ -115,6 +105,15 @@ const Horse = () => (
             indlæringsevner og sind kan du skabe et tillidsfuldt samarbejde til jeres fælles
             fremtid.
           </Text>
+        </Column>
+        <Column>
+          <Image src={horseTwo} />
+          <TitleColor text="Privattime" smallTitle />
+          <Text>En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hest.</Text>
+          <Text bold>
+            Eksempler på træning til en privattime:
+          </Text>
+          <TextList texts={privateHour} />
         </Column>
       </Row>
     </Background>

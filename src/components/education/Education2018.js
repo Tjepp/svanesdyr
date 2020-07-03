@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import Text from '../Text';
-import Title from '../Title';
+import { TitleColor } from '..';
 
 const Education2018 = () => (
   <Fragment>
-    <Title text="Kurser 2018" smallTitle color="#33CCCC" />
+    <TitleColor text="Kurser 2018" smallTitle />
     <Text><b>Christina Ingerslev</b><br />
     Weekendkursus den 9. september: "Problemadfærd på træningsbanen."</Text>
     <Text><b>Chirag Patel</b><br />

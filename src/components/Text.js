@@ -46,7 +46,7 @@ Text.propTypes = {
 
 Text.defaultProps = {
   onClick: null,
-  color: '#727272',
+  color: '#000',
   bold: false,
   whiteSpace: false,
   italic: false

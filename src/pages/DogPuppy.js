@@ -9,13 +9,12 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
   BreadCrumps,
   Row,
-  // DogCourseTheory,
   TextList,
   Image,
-  // StyledExternal,
   DogCourseSimple,
   StyledLink,
   DogCourseTableHead
@@ -32,7 +31,15 @@ const PuppyProgram = [
   'Basisøvelser sit, dæk og kontaktøvelser, som sikrer dig, at DU altid er interessant',
   'Frivillig håndtering, hvor du gør det til en leg at få tjekket tænder, ører, klippet negle m.v.',
   'God impulskontrol så dagligdagens små glæder bliver lettere med en hvalp, der har lært at have ro'
-  
+];
+
+const PuppyBenefits = [
+  'Gode muligheder for socialisering og leg under kontrollerede forhold',
+  'Personlig sparring omkring din hvalp og jeres hverdag sammen',
+  'Gode råd og tips til optimal aktivering af hvalpen',
+  'Hele 7 ugers træning med ugentligt møde',
+  'Skriftlige trin-for-trin guides tilsendt hver uge på mail så du kan øve derhjemme',  
+  'Udleveret en klikker til valgfrit brug i træningen'
 ];
 
 const DogPuppy = () => (
@@ -57,74 +64,32 @@ const DogPuppy = () => (
             Jeg lægger stort fokus på miljøtræning, håndtering og sociliasering af din hvalp og kommer også omkring basisøvelser som kontakt, sit og dæk.
           </Text>
           <Text>
-            Al træning foregår med <b><font color="#33CCCC">belønningsbaserede metoder</font></b>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hvalpen med mad og leg.
+            Al træning foregår med <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hvalpen med mad og leg.
             Hvis din hvalp laver fejl hjælper vi den ved at gøre opgaven nemmere og mere letforståelig. Alle bliver sat op til succes.
           </Text>
-          {/* <Text>
-            <b>Teoriaften uden hvalp</b><br />
-            Der afholdes 1,5 times teoriaften i starten, hvor vi vil snakke om almindelige problemstillinger med hvalpene, såsom hvalpebideri, renlighed og alene hjemme.
-            Du vil også få indsigt i belønningskonceptet med at bruge mad, leg og ros til hverdagens opdragelse.
-          </Text> */}
           <Text>
             <b>Træningsprogram for holdet</b><br />
             I løbet af vores 7 uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={PuppyProgram} />
           <Text>
-          <b>Leg og socialisering</b><br />
-            {/* Hvalpeholdene er koordineret således, at to hold altid har mulighed for at socialisere med hinanden i mellem træningstimerne.
-            Derudover er der */}
-            Der er afsat tid til <b><font color="#33CCCC">kontrolleret leg</font></b> i selve timen.
+            <b>Dit udbytte</b><br />
+            Ved deltagelse på Hvalpeholdet får du:
+          </Text>
+          <TextList texts={PuppyBenefits} />
+          <Text>
+            Der er afsat tid til <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> til timerne.
           </Text>
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Din investering: 900 kr."/>
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Hvalp G</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>09.00 - 09.45</Td>
-                <Td>5. juli</Td>
-                <Td>16. august</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp H</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>6. juli</Td>
-                <Td>17. august</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <br />
-          <Text>
-            Efter sommerferien:
-          </Text>
+          <TitleColor text="Din investering: 950 kr."/>
+          <Title text="August start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
               <Tr>
                 <Td>Hvalp I</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>27. juli</Td>
-                <Td>21. september</Td>
-                <Td>Uge 35 + 36</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp J</Td>
                 <Td>Søndag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
@@ -132,6 +97,71 @@ const DogPuppy = () => (
                 <Td>2. august</Td>
                 <Td>27. september</Td>
                 <Td>Uge 34 + 35</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp J</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>3. august</Td>
+                <Td>28. september</Td>
+                <Td>Uge 35 + 36</Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="September start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Hvalp K</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>09.00 - 09.45</Td>
+                <Td>6. september</Td>
+                <Td>18. oktober</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp L</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>8. september</Td>
+                <Td>20. oktober</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="Oktober start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Hvalp M</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>10.00 - 10.45</Td>
+                <Td>4. oktober</Td>
+                <Td>15. november</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp N</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>12. oktober</Td>
+                <Td>23. november</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>

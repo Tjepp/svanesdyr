@@ -37,7 +37,7 @@ const CollapsibleMenu = styled.div`
 `;
 
 const MenuButton = styled.button`
-  background-color: #008080;
+  background-color: #379683;
   padding: 0.625rem 0.75rem;
   border-radius: 3px;
   margin-bottom: 1rem;

@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import Text from '../Text';
-import Title from '../Title';
+import { TitleColor } from '..';
 
 const Education2019 = () => (
   <Fragment>
-    <Title text="Kurser 2019" smallTitle color="#33CCCC" />
+    <TitleColor text="Kurser 2019" smallTitle />
     <Text><b>ClickerExpo Luminos</b><br />
     Konference den 25.-27. oktober: "Aggression i hunde: Adfærdsanalyse og behandlingsprotokoller."
     </Text>

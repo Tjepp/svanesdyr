@@ -10,12 +10,14 @@ import {
   Title,
   Text,
   BreadCrumps,
-  Row
+  Row,
+  StyledLink,
+  Image
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 import DogMenu from '../components/menu/DogMenu';
-
+import { PlayOne, PlayTwo, PlayThree, PlayFour, PlayFive, PlaySix } from '../assets';
 
 const DogCourse = () => (
   <Page>
@@ -33,15 +35,15 @@ const DogCourse = () => (
           <Title text="Hundetræning i Horsens" showHorizontalRuler />
           <Text>
           Ønsker du en stærk relation mellem dig og din hund, gennem sjov, leg og succes, så er du kommet til rette sted!
-          Træningen hos mig foregår på hundens præmisser hvor vi anvender <b>belønningsbaserede træningsmetoder</b> fra de indlæringspsykologiske principper.
+          Træningen hos mig foregår på hundens præmisser hvor vi anvender <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink> fra de indlæringspsykologiske principper.
           Mit fokus er at skabe succes for dig og din hund, så i styrker jeres fælles samarbejde.
           </Text>
           <Text>
-            Nøgleord for træningen er derfor <b><font color="#33CCCC">samarbejde, tillid og succes</font></b>.
+            Nøgleord for træningen er derfor <StyledLink to="/minemetoder"> samarbejde, tillid og succes</StyledLink>.
           </Text>
           <Text>
             <b>Små hold med tid til dig og din hund</b><br />
-            Jeg afholder intime hold med <b><font color="#33CCCC">max 4 hunde</font></b>, da jeg værdsætter tid til en individuel snak med dig omkring samarbejdet og træningen med din hund.
+            Jeg afholder intime hold med <b>max 4 hunde</b>, da jeg værdsætter tid til en individuel snak med dig omkring samarbejdet og træningen med din hund.
             Målet er, at uanset niveau og alder så skal alle deltagere have udbytte af timen.
             Træningen er familievenlig, så tag gerne børn og den bedre halvdel med til en hyggelig time.
           </Text>
@@ -52,7 +54,17 @@ const DogCourse = () => (
             Du vil blive introduceret til klikkertræning og konceptet med at bruge mad, leg og ros til hverdagens opdragelse.
           </Text>
           <Text>
-          <b>Kontrolleret leg og socialisering</b><br />
+            <b>Træningsbane</b><br />
+            Jeg afholder træning udenfor uanset årstiden og holder til på følgende adresse:<br />
+            <u>Ude</u>bane: Sorthøjvej 40, 8700 Horsens<br />
+          </Text>
+          <Text>
+            <b>Bemærk!</b><br />
+            Der kræves at hunden har basisvaccine og der er tegnet en hundeforsikring der dækker holddeltagelse, før vi mødes til første lektion.
+          </Text>
+          <br />
+          <Title text="Kontrolleret leg og socialisering" showHorizontalRuler />
+          <Text>
             Kontrolleret leg indebærer et mål om at alle får en god oplevelse med hjem, så der vil altid tages hensyn til den enkelte hund.
             Oftest startes legetiden ud med at to hunde lukkes sammen ad gangen, således de kan få lov til at se hinanden an.
             Dette gør det nemt at afbryde legen, hvis det bliver for meget for den ene hund, eller de har brug for en pause.
@@ -68,17 +80,31 @@ const DogCourse = () => (
           <Text>
             Hvalpeholdene inkluderer tid til leg, og der er mulighed for leg og socialisering på alle andre holdtyper efter ønske.
           </Text>
-          <Text>
-            <b>Træningsbaner</b><br />
-            Jeg afholder træning udenfor uanset årstiden og holder til på følgende adresse:<br />
-            <u>Ude</u>bane: Sorthøjvej 40, 8700 Horsens<br />
-          </Text>
-          <Text>
-            <b>Bemærk!</b><br />
-            Det er påkrævet at hunden har basisvaccine og der er tegnet udvidet hundeforsikring før deltagelse.
-          </Text>
           <br />
-          
+          <Title text="Billeder fra leg på holdene" showHorizontalRuler />
+        <Row>
+        <Column>
+          <Image src={PlayOne}/>
+        </Column>
+        <Column>
+          <Image src={PlayTwo}/>
+        </Column>
+        <Column>
+          <Image src={PlayThree}/>
+        </Column>
+        </Row>
+        <Row>
+        <Column>
+          <Image src={PlayFour}/>
+        </Column>
+        <Column>
+          <Image src={PlayFive}/>
+        </Column>
+        <Column>
+          <Image src={PlaySix}/>
+        </Column>
+        </Row>
+
           {/* <Title text="Pris for deltagelse" showHorizontalRuler />
           <Text>  
             Jeg har indgået et samarbejde med FOF Horsens, derfor foregår tilmelding og betaling oftest igennem dem.<br />

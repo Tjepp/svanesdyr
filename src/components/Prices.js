@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
 import Text from './Text';
+import { TitleColor } from '.';
 
 const Prices = () => (
   <Fragment>
-    <Text bold color="#33CCCC">Alle priser er inkl. moms </Text>
+    <TitleColor text="Alle priser er inkl. moms" />
     <Text><b>Timepris</b><br />
       Hverdage man-fre før kl. 18.00:
       <b> 700,- kr/time</b>

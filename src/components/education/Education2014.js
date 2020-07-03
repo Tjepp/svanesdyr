@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Text from '../Text';
-import Title from '../Title';
 import TextList from '../TextList';
+import { TitleColor } from '..';
 
 const expo2014One = [
   'Ken Ramirez med "Big and Tall, Round or Small? Modifier Cues & How To Teach Them!" ',
@@ -23,7 +23,7 @@ const expo2014Three = [
 
 const Education2014 = () => (
   <Fragment>
-    <Title text="Kurser 2014" smallTitle color="#33CCCC" />
+    <TitleColor text="Kurser 2014" smallTitle />
     <Text bold>ClickerExpo UK - Europe 2014</Text>
     <i>Konference den 17. oktober:</i>
     <br />

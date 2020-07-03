@@ -9,7 +9,9 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
+  TextList,
   BreadCrumps,
   Row,
   // DogCourseSimple,
@@ -19,6 +21,13 @@ import {
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
 // import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolFive, CoolSix } from '../assets';
+
+const CoolBenefits = [
+  'Personlig sparring omkring din hund og jeres hverdag sammen',
+  'Hele 6 ugers træning med ugentligt møde',
+  'Skriftlige trin-for-trin guides tilsendt på mail så du kan øve derhjemme',  
+  'Udleveret en klikker til valgfrit brug i træningen'
+];
 
 const DogCoolFriend = () => (
   <Page>
@@ -43,7 +52,7 @@ const DogCoolFriend = () => (
             Du vil få redskaberne til at håndtere hverdagens gåture, så i fremadrettet kan nyde turene i stedet for at stresse over dem.
           </Text>
           <Text>
-            Al træning foregår med <b><font color="#33CCCC">belønningsbaserede metoder</font></b>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
+            Al træning foregår med <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
             Der tages hensyn til den enkelte hunds personlighed og tolerancetærskel.
             Målet er at ingen af hundene skal føle sig nødsaget til at reagere, men derimod finder ud af at andre hundes tilstedeværelse er positivt.
           </Text>
@@ -67,13 +76,18 @@ const DogCoolFriend = () => (
             Kurset varer 6 uger, hvor vi mødes én gang ugentligt.<br />
             Første gang vi mødes er der afsat 60 min., for at jeg kan få et godt indtryk af den enkelte hund.
             Derefter mødes vi 45 min. pr. gang over de sidste 5 lektioner.
-            I vil være <b><font color="#33CCCC">max 3 hunde</font></b> på holdet, hvor hundene vil være ude én ad gangen til at starte med.
+            I vil være <b>max 3 hunde</b> på holdet, hvor hundene vil være ude én ad gangen til at starte med.
             Derfor er det vigtigt, at din hund kan sidde trygt i bilen og vente på sin tur.
           </Text>
+          <Text>
+            <b>Dit udbytte</b><br />
+            Ved deltagelse på Venlig-Vovse får du:
+          </Text>
+          <TextList texts={CoolBenefits} />
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Din investering: 950 kr."/>
+          <TitleColor text="Din investering: 950 kr."/>
           <Text>
             Nye hold planlægges til september.
           </Text>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -8,10 +8,11 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
   Image,
   BreadCrumps,
-  // LectureTableHead,
+  LectureTableHead,
   Row,
   StyledLink,
   StyledExternal
@@ -55,9 +56,7 @@ const Lecture = () => (
         </Column>
         <Column>
           <Title text="Priser for foredrag" showHorizontalRuler />
-          <Text color="#33CCCC" bold>
-            Alle priser er inkl. moms
-          </Text>
+          <TitleColor text="Alle priser er inkl. moms" />
           <Text><b>Timepris</b><br />
             Hverdage man-fre:
             <b> 1.250,- kr/time</b>
@@ -74,49 +73,70 @@ const Lecture = () => (
       </Row>
       <Row>
         <Column widthPercentage="100%">
-          <Title text="Kommende foredrag om hundeadfærd 2019" showHorizontalRuler />
-          <Text color="#33CCCC" bold>
-            Hos FOF - Ane Staunings Vej 21, 8700 Horsens:
-          </Text>
-          <Text italic>Ingen kommende foredrag i øjeblikket grundet Covid-19.</Text>
-          {/* <Table>
+          <Title text="Kommende foredrag og workshops om hundeadfærd 2020" showHorizontalRuler />
+          <TitleColor text="Hos FOF - Ane Staunings Vej 21, 8700 Horsens:" smallTitle />
+          <Table>
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>16. maj </Td>
-                <Td>Slap af Fido! - få ro på hverdagen </Td>
+                <Td>12. september </Td>
+                <Td>Angst og Aggression - Forebyggelse og behandling</Td>
                 <Td>
-                  <StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/slap-af-fido-faa-en-rolig-og-afslappet-hund?id=200829">
+                  <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/angst-og-aggression-i-hunde-forebyggelse-og-behandling?id=205828">
                     Klik her
                   </StyledExternal>
                 </Td>
-                <Td>10.00 - 15.30 </Td>
-                <Td>315 kr. </Td>
+                <Td>10.00 - 15.45 </Td>
+                <Td>340 kr. </Td>
+                <Td><font color="#D60E0E">7 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>30. september </Td>
+                <Td>Hundens sprog - hvad fortæller den dig? </Td>
+                <Td>
+                  <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/hundens-sprog-hvad-fortaeller-de-os?id=205821">
+                    Klik her
+                  </StyledExternal>
+                </Td>
+                <Td>18.00 - 21.00 </Td>
+                <Td>200 kr. </Td>
                 <Td><font color="#D60E0E">10 pladser</font></Td>
               </Tr>
               <Tr>
-                <Td>10. juni </Td>
-                <Td>Hundens sprog - hvad fortæller de os? </Td>
+                <Td>24. oktober </Td>
+                <Td>Slap af Fido! - få ro på hverdagen </Td>
                 <Td>
-                  <StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/hundens-sprog-hvad-fortaeller-de-os?id=200827">
+                  <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/slap-af-fido-faa-en-rolig-og-afslappet-hund?id=205831">
                     Klik her
                   </StyledExternal>
                 </Td>
-                <Td>18.30 - 21.30 </Td>
-                <Td>170 kr. </Td>
+                <Td>10.00 - 15.45 </Td>
+                <Td>335 kr. </Td>
+                <Td><font color="#D60E0E">10 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>7. november </Td>
+                <Td>Det gøende mareridt </Td>
+                <Td>
+                  <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/det-goeende-mareridt?id=205829">
+                    Klik her
+                  </StyledExternal>
+                </Td>
+                <Td>10.00 - 15.45 </Td>
+                <Td>395 kr. </Td>
                 <Td><font color="#D60E0E">10 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
         </Column>
       </Row>
       <Row>
-        <Title text="Udbud af foredrag om hund" showHorizontalRuler />
+        <Title text="Udbud af foredrag om hundeadfærd" showHorizontalRuler />
       </Row>
       <Row marginBottom={"25px"}>
         <Column>
           <Image src={lectureDogLanguage} />
-          <Title text="Hundens sprog - hvad fortæller de os?" smallTitle />
+          <TitleColor text="Hundens sprog - hvad fortæller den dig?" smallTitle />
           <Text><b>Kursus på min. 3 timer</b><br />
             Foredraget indeholder bl.a. hundens udvikling fra deres forfader ulven og frem til i
             dag, samt masser af billeder og videoer, som giver dig et godt indblik i de forskellige
@@ -126,7 +146,7 @@ const Lecture = () => (
         </Column>
         <Column>
           <Image src={lectureFearAndAgression} />
-          <Title text="Angst og aggression: Forebyggelse og behandling" smallTitle />
+          <TitleColor text="Angst og aggression: Forebyggelse og behandling" smallTitle />
           <Text><b>Kursus på min. 5 timer</b><br />
             Reagerer din hund på andre hunde på gåturen? Snerrer den af gæsterne? Er den skrækslagen
             for dyrlægen? Foredraget omhandler bl.a. hundens indlæringsevner, hundens sprog, samt
@@ -136,7 +156,7 @@ const Lecture = () => (
         </Column>
         <Column>
           <Image src={lectureCalmDownFido} />
-          <Title text="Slap af Fido! - få ro på hverdagen" smallTitle />
+          <TitleColor text="Slap af Fido! - få ro på hverdagen" smallTitle />
           <Text><b>Kursus på min. 5 timer</b><br />
             Føler du din hund er lidt af et damp barn? Bliver den hyper når der sker noget, er svær
             at få ro på hjemme? Foredraget omhandler bl.a. hundens indlæringsevner, stress og dens

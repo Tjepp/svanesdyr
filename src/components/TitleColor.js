@@ -34,9 +34,10 @@ Title.propTypes = {
 };
 
 Title.defaultProps = {
-  color: '#000',
+  color: '#1cb8b8',
   showHorizontalRuler: false,
-  smallTitle: false
+  smallTitle: false,
+  bold: true
 };
 
 export default Title;

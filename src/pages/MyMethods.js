@@ -8,6 +8,7 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
   BreadCrumps,
   Row,
@@ -69,26 +70,26 @@ const MyMethods = () => (
         <Column>
           <Title text="Vil du vide mere?" showHorizontalRuler />
           <Text>Gode bøger omhandlende de belønningsbaserede træningsmetoder:</Text>
+          <TitleColor text="Til hundeejere:" smallTitle />
           <Text>
             <b>
-              <font color="#33CCCC">Til hundeejere:</font><br />
               "Don't shoot the dog!"<i> af Karen Pryor</i>
             </b>
             <br />
             "Stress, angst og aggression" <i>af Anders Hallgren</i>
           </Text>
+          <TitleColor text="Til hesteejere:" smallTitle />
           <Text>
-            <b><font color="#33CCCC">Til hesteejere:</font></b><br />
             "Indlæringspsykologi for hest og rytter" <i>af Bettina Hvidemose</i><br />
             "Clicker Training for your Horse" <i>af Alexandra Kurland</i>
           </Text>
+          <TitleColor text="Til katteejere:" smallTitle />
           <Text>
-            <b><font color="#33CCCC">Til katteejere:</font></b><br />
             "The Domestic Cat" <i>af Turner and Bateson</i><br />
             "Alt om Katte" <i>af Candida Frith-MacDonald</i>
           </Text>
+          <TitleColor text="Rejse med kæledyr?" smallTitle />
           <Text>
-            <b><font color="#33CCCC">Rejse med kæledyr?</font></b><br />
             <StyledLink to="/kontakt">Kontakt mig </StyledLink>
             for gode råd eller se mere på
             <StyledExternal href="https://www.stenaline.dk/dyr">
@@ -103,7 +104,7 @@ const MyMethods = () => (
       <Row marginBottom={"25px"}>
         <Column>
           <Image src={methodOne} />
-          <Title text="Indlæringsmetoder" smallTitle />
+          <TitleColor text="Indlæringsmetoder" smallTitle />
           <Text>
             Billedet ovenfor viser de fem forskellige konsekvenser, som efterfølges af et dyrs
             adfærd (her vist med hund). I den daglige omgang og træning af dyr er det vigtigt at
@@ -130,7 +131,7 @@ const MyMethods = () => (
         </Column>
         <Column>
           <Image src={methodTwo} />
-          <Title text="Shaping" smallTitle />
+          <TitleColor text="Shaping" smallTitle />
           <Text>
             Shaping er formning af adfærd via trinvise tilnærmelser til denne adfærd. Man kan
             betragte det lidt som at gå op ad en trappe: For enden af trappen er dit mål og for
@@ -146,7 +147,7 @@ const MyMethods = () => (
         </Column>
         <Column>
           <Image src={sabrinaAndBarney} />
-          <Title text="Markér korrekt adfærd!" smallTitle />
+          <TitleColor text="Markér korrekt adfærd!" smallTitle />
           <Text>
             For at træningessessionerne skal være succesrige og give fremskridt, så er det vigtig at
             tage en markør i brug. En markør kan være et rosende ord som f.eks. "dygtig" eller en

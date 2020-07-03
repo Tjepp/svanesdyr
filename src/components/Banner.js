@@ -24,8 +24,8 @@ const Background = styled.div`
   justify-content: center;
   background: #fafafa;
   width: 100%;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   ${Responsive.media.tablet`
     padding: 0;
@@ -50,7 +50,7 @@ const Container = styled.div`
 
 const Title = styled.h1`
   font-weight: normal;
-  color: #666;
+  color: #000;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
   margin: 10px 0 10px 0;
   ${Responsive.media.tablet`

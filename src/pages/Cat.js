@@ -7,6 +7,7 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
   Image,
   BreadCrumps,
@@ -20,21 +21,23 @@ import { catOne, catTwo, catThree } from '../assets';
 import '../components/table/TableCss.css';
 
 const privateHour = [
-  'Lære katten at være tryg i transportkasse.',
+  'Lære katten at være tryg i transportkasse',
   'Gøre katten tryg ved negleklip, tandtjek mv.',
-  'Gøre katten tryg ved dyrlægebesøg.',
-  'Gøre katten tryg ved at køre i bil.',
-  'Lære katten at gå i snor.',
-  'Gode råd til optimal aktivering i hverdagen.'
+  'Gøre katten tryg ved dyrlægebesøg',
+  'Gøre katten tryg ved at køre i bil',
+  'Lære katten at gå i snor',
+  'Gode råd til optimal aktivering i hverdagen',
+  'Ny kat eller hund skal introduceres'
 ];
 
 const consultation = [
-  'Katten kradser på forbudte overflader.',
-  'Katten plager/miaver hele tiden.',
-  'Katten er urenlig.',
-  'Katten flygter ved besøg fra gæster.',
-  'Katten bider og kradser mennesker.',
-  'Flere katte i husstanden kan ikke enes.'
+  'Katten kradser på forbudte overflader',
+  'Katten plager/miaver hele tiden',
+  'Katten er urenlig',
+  'Katten flygter ved besøg fra gæster',
+  'Katten bider og kradser mennesker',
+  'Flere katte i husstanden kan ikke enes',
+  'Hund og kat i husstanden kan ikke enes'
 ];
 
 const Cat = () => (
@@ -69,10 +72,7 @@ const Cat = () => (
             <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
             hos Sabrina Svane.
           </Text>
-          <Text color="#33CCCC" bold>
-            Kontakt mig gerne og hør nærmere om din problemstilling kræver en privattime eller en
-            konsultation.
-          </Text>
+          <TitleColor text="Kontakt mig gerne og hør om din problemstilling kræver en privattime eller en konsultation." smallTitle />
         </Column>
         <Column>
           <Title text="Priser for kattetræning" showHorizontalRuler />
@@ -84,18 +84,8 @@ const Cat = () => (
       </Row>
       <Row marginBottom={"25px"}>
         <Column>
-          <Image src={catThree} />
-          <Title text="Privattime" smallTitle />
-          <Text>
-            En privattime er til dig der ønsker at skabe en tryg hverdag for din kat og forebygge
-            problemadfærd.
-          </Text>
-          <Text bold> Eksempler på træning til en privattime: </Text>
-          <TextList texts={privateHour} />
-        </Column>
-        <Column>
           <Image src={catTwo} />
-          <Title text="Konsultation ved problemadfærd" smallTitle />
+          <TitleColor text="Konsultation ved problemadfærd" smallTitle />
           <Text>
             En konsultation varer op til 2 timer hjemme hos jer. Her vil vi snakke adfærdsproblemet
             igennem, så jeg kan foretage en grundig analyse. Derefter gennemgår vi de tiltag der
@@ -106,11 +96,22 @@ const Cat = () => (
           <TextList texts={consultation} />
           <Text>
             Efter mit besøg snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag.
+            Der er fri opfølgning på mail og telefon, hvis der opstår spørgsmål efter mit besøg.
           </Text>
         </Column>
         <Column>
+          <Image src={catThree} />
+          <TitleColor text="Privattime" smallTitle />
+          <Text>
+            En privattime er til dig der ønsker at skabe en tryg hverdag for din kat og forebygge
+            problemadfærd. Du vil blive introduceret til konceptet med at bruge mad, leg og ros til hverdagens opdragelse.
+          </Text>
+          <Text bold> Eksempler på træning til en privattime: </Text>
+          <TextList texts={privateHour} />
+        </Column>
+        <Column>
           <Image src={catOne} />
-          <Title text="Skype-Konsultation" smallTitle />
+          <TitleColor text="Skype-Konsultation" smallTitle />
           <Text>
             En Skype-Konsultation foregår over Messenger/Skype opkald, så du kan få råd og vejledning til
             problemadfærd hos din kat, uanset hvor du befinder dig i landet.

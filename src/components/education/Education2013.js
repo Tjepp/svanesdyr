@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import Text from '../Text';
-import Title from '../Title';
+import { TitleColor } from '..';
 
 const Education2013 = () => (
   <Fragment>
-    <Title text="Kurser 2013" smallTitle color="#33CCCC" />
+    <TitleColor text="Kurser 2013" smallTitle />
     <Text><b>Ken Ramirez</b><br />
     Weekendkursus den 23.-24. november 2013, med emnerne:<br />
       "Non-Food Reinforcers" og "Concept Training" (Modifier Cues, Adduction, and Mimicry), "Common

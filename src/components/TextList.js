@@ -22,7 +22,9 @@ const StyledList = styled.ul`
 `;
 
 const ListItem = styled.li`
-  color: #727272;
+  color: #000;
+  font-size: 15px;
+  line-height: 22px;
 `;
 
 TextList.propTypes = {

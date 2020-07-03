@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import Text from '../Text';
-import Title from '../Title';
+import { TitleColor } from '..';
 
 const Education2015 = () => (
   <Fragment>
-    <Title text="Kurser 2015" smallTitle color="#33CCCC" />
+    <TitleColor text="Kurser 2015" smallTitle />
     <Text><b>Ádám Miklósi</b><br />
     Weekendkursus den 17.-18. oktober 2015, omhandlende: ”The Family Dog Project”<br />
       Miklósi er medstifter af ”The Family Dog Project” i Budapest, Ungarn. Projektet har til formål

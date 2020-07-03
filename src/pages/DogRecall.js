@@ -9,6 +9,7 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
   BreadCrumps,
   Row,
@@ -27,6 +28,13 @@ const RecallProgram = [
   'Stop-and-go, lær din hund at stoppe på signal, selvom den er på vej væk',
   'God impulskontrol så dagligdagens spændende sager sagtens kan ignoreres',
   'Belønningsteknikker der lærer dig at finde den helt rigtige "godbid" til din hund'
+];
+
+const RecallBenefits = [
+  'Personlig sparring omkring din hund og jeres hverdag sammen',
+  'Hele 7 ugers træning med ugentligt møde',
+  'Skriftlige trin-for-trin guides tilsendt på mail så du kan øve derhjemme',  
+  'Udleveret en klikker til valgfrit brug i træningen'
 ];
 
 const DogRecall = () => (
@@ -52,21 +60,23 @@ const DogRecall = () => (
             Du vil lære at skabe stor motivation i din hund ved at bruge effektive belønningsteknikker, så din hund får en høj forventning til det fantastiske indkald.
           </Text>
           <Text>
-            Al træning foregår med <b><font color="#33CCCC">belønningsbaserede metoder</font></b>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
+            Al træning foregår med <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
             Hvis din hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere letforståelig. Alle bliver sat op til succes.
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b><br />
-            I løbet af vores 6 uger sammen vil vi komme igennem følgende:
+            I løbet af vores 7 uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={RecallProgram} />
           <Text>
-            Kurset er et intimtkursus <b><font color="#33CCCC">med max 3 deltagere</font></b>.
+            <b>Dit udbytte</b><br />
+            Ved deltagelse på Indkaldskurset får du:
           </Text>
+          <TextList texts={RecallBenefits} />
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Din investering: 900 kr."/>
+          <TitleColor text="Din investering: 950 kr."/>
           <Table>
             <DogCourseSimple />
             <Tbody>

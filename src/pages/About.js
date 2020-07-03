@@ -7,6 +7,7 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
   BreadCrumps,
   Row,
@@ -21,7 +22,8 @@ import {
   Education2016,
   Education2017,
   Education2018,
-  Education2019
+  Education2019,
+  Education2020
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { sabrinaNew, petbc } from '../assets';
@@ -62,9 +64,7 @@ const About = () => (
         </Column>
         <Column>
           <Title text="Hurtige facts om mig" showHorizontalRuler />
-          <Text color="#33CCCC" bold>
-            Certificeret Dyreadfærdskonsulent
-          </Text>
+          <TitleColor text="Certificeret Dyreadfærdskonsulent" />
           <Text>Officielle titel: "Bachelor of Sciences in Animal Behavior Therapy" (BSc ABT)</Text>
           <Text><b>Træner og adfærdsbehandler</b><br />
             Af alle slags dyr.
@@ -139,6 +139,7 @@ const About = () => (
             opdateret på det nyeste indenfor adfærds- og træningsverdenen.<br />
             Du kan se nedenfor hvad jeg har deltaget i.
           </Text>
+          <Education2020 />
           <Education2019 />
           <Education2018 />
           <Education2017 />

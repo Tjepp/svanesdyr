@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Text from '../Text';
-import Title from '../Title';
 import TextList from '../TextList';
+import { TitleColor } from '..';
 
 const expoOne = [
   'Chirag Patel med "Give training back to the Animals - Husbandry is my agility" ',
@@ -30,7 +30,7 @@ const susanFriedman = [
 
 const Education2016 = () => (
   <Fragment>
-    <Title text="Kurser 2016" smallTitle color="#33CCCC" />
+    <TitleColor text="Kurser 2016" smallTitle />
     <Text><b>Magtor</b><br />
     Den 7. december foredrag: "Hundens Ernæring".</Text>
     <Text><b>Jan Østergaard</b><br />

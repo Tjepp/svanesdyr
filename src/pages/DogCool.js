@@ -9,14 +9,14 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
   BreadCrumps,
   Row,
   DogCourseSimple,
   TextList,
   Image,
-  StyledLink,
-  // StyledExternal
+  StyledLink
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -30,7 +30,14 @@ const CoolProgram = [
   'Pauseknappen, så hunden kan falde til ro, når du er i ro',
   'Træning af rolige gåture omkring andre hunde og mennesker',
   'God impulskontrol så dagligdagens små glæder bliver lettere med en hund, der har lært at have ro'
+];
 
+const CoolBenefits = [
+  'Personlig sparring omkring din hund og jeres hverdag sammen',
+  'Gode råd og tips til optimal aktivering af hunden',
+  'Hele 7 ugers træning med ugentligt møde',
+  'Skriftlige trin-for-trin guides tilsendt hver uge på mail så du kan øve derhjemme',  
+  'Udleveret en klikker til valgfrit brug i træningen'
 ];
 
 const DogCool = () => (
@@ -57,7 +64,7 @@ const DogCool = () => (
             der også vil styrke jeres fælles samarbejde.
           </Text>
           <Text>
-            Al træning foregår med <b><font color="#33CCCC">belønningsbaserede metoder</font></b>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
+            Al træning foregår med <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
             Hvis din hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere letforståelig. Alle bliver sat op til succes.
           </Text>
           <Text>
@@ -74,59 +81,70 @@ const DogCool = () => (
           <Text>
             <StyledLink to="/kontakt"> Kontakt mig </StyledLink> endelig hvis du er i tvivl.
           </Text>
-          {/* <Text>
-            <b>Teoriaften uden hund</b><br />
-            Der afholdes 1,5 times teoriaften i løbet af kurset, hvor vi vil snakke om løsning til almindelige problemstillinger med hundene,
-            såsom at gå pænt i snor, ikke hoppe op og falde til ro i hjemmet.
-            Du vil også få indsigt i hvad stress gør ved din hund og belønningskonceptet med at bruge mad, leg og ros til hverdagens opdragelse.
-          </Text> */}
           <Text>
             <b>Træningsprogram for holdet</b><br />
             I løbet af vores 7 uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={CoolProgram} />
+          <Text>
+            <b>Dit udbytte</b><br />
+            Ved deltagelse på Helt-Cool kurset får du:
+          </Text>
+          <TextList texts={CoolBenefits} />
+          <Text>
+            Der tages hensyn til sensitive hunde og praktiseres god afstand før, under og efter timerne.
+            Til de legeglade hunde er der mulighed for lidt <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> efter timen.
+          </Text>
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Din investering: 900 kr."/>
+          <TitleColor text="Din investering: 950 kr."/>
           <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Cool E</Td>
-                <Td>Tirsdag</Td>
+                <Td>Cool F</Td>
+                <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>7. juli</Td>
-                <Td>18. august</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>7. september</Td>
+                <Td>19. oktober</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
-
 
           <Title text="Fortat Helt-Cool" showHorizontalRuler />
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere cool-hold.<br />
             Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de rolige gåture praktiseres i stor stil.
           </Text>
-          {/* <Table>
-            <DogCourseTableHead />
+          <Table>
+            <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortat Helt-Cool</Td>
-                <Td>Søndag</Td>
+                <Td>Fortsat Cool A</Td>
+                <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>13.00 - 13.45</Td>
-                <Td>1. marts</Td>
-                <Td>19. april</Td>
-                <Td>12. april</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>14. juli</Td>
+                <Td>18. august</Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsat Cool B</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>8. september</Td>
+                <Td>20. oktober</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
         <Title text="Billeder fra Helt-Cool kursus" showHorizontalRuler />

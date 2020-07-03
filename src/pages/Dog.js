@@ -7,6 +7,7 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
   Image,
   BreadCrumps,
@@ -20,28 +21,28 @@ import { dogOne, dogTwo, dogThree } from '../assets';
 import '../components/table/TableCss.css';
 
 const privateHour = [
-  'Hunden kommer ikke når man kalder.',
-  'Hunden trækker i snoren.',
-  'Hunden stjæler ting/mad fra bordet.',
-  'Hunden hilser uhensigtsmæssigt på gæster.',
-  'Lydighed med fx fri ved fod, plads, apport mv.',
-  'Gængse træningsøvelser som sit, dæk, kontakt mv.'
+  'Hunden kommer ikke når man kalder',
+  'Hunden trækker i snoren',
+  'Hunden stjæler ting/mad fra bordet',
+  'Hunden hopper op ad gæster',
+  'Hunden napper i bukseben eller lignende'
 ];
 
 const consultation = [
-  'Hunden er generelt svær at få ro på.',
-  'Hunden gør hele tiden.',
-  'Hunden hyler/gør/ødelægger ting når den er alene.',
-  'Hunden knurrer af dig, andre mennesker eller dyr.',
-  'Hunden er bange for lyde.',
-  'Hunden er urenlig.'
+  'Hunden reagerer aggressivt på andre hunde',
+  'Hunden virker stresset og er svær at få ro på',
+  'Hunden hyler/gør/ødelægger ting når den er alene',
+  'Hunden knurrer når den har ben eller mad',
+  'Hunden er bange for fyrværkeri/torden/andre lyde',
+  'Hunden gør hele tiden ude i haven',
+  'Hunden er urenlig'
 ];
 
 const puppyVisitTexts = [
-  'Hvalpens sprog og fysiske udvikling.',
-  'Optimal aktivering i hverdagen.',
-  'Renlighed, alene hjemme og hvalpebideri.',
-  'Miljøtræning og socialisering.'
+  'Hvalpens sprog og fysiske udvikling',
+  'Optimal aktivering i hverdagen',
+  'Renlighed, alene hjemme og hvalpebideri',
+  'Miljøtræning og socialisering'
 ];
 
 const Dog = () => (
@@ -75,10 +76,7 @@ const Dog = () => (
             <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
             hos Sabrina Svane.
           </Text>
-          <Text color="#33CCCC" bold>
-            Kontakt mig gerne og hør nærmere om din problemstilling kræver en privattime eller en
-            konsultation.
-          </Text>
+          <TitleColor text="Kontakt mig gerne og hør om din problemstilling kræver en privattime eller en konsultation." smallTitle />
         </Column>
         <Column>
           <Title text="Priser for hundetræning" showHorizontalRuler />
@@ -90,17 +88,8 @@ const Dog = () => (
       </Row>
       <Row marginBottom={"25px"}>
         <Column>
-          <Image src={dogOne} />
-          <Title text="Privattime" smallTitle />
-          <Text>En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hund.</Text>
-          <Text bold>
-            Eksempler på træning til en privattime:
-          </Text>
-          <TextList texts={privateHour} />
-        </Column>
-        <Column>
           <Image src={dogTwo} />
-          <Title text="Konsultation ved problemadfærd" smallTitle />
+          <TitleColor text="Konsultation ved problemadfærd" smallTitle />
           <Text>
             En konsultation varer op til 2 timer hjemme hos jer. Her vil vi snakke adfærdsproblemet
             igennem, så jeg kan foretage en grundig analyse. Derefter gennemgår vi de tiltag der
@@ -111,18 +100,32 @@ const Dog = () => (
           <TextList texts={consultation} />
           <Text>
             Efter mit besøg snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag.
+            Der er fri opfølgning på mail og telefon, hvis der opstår spørgsmål efter mit besøg.
           </Text>
         </Column>
         <Column>
           <Image src={dogThree} />
-          <Title text="Hvalpevisit" smallTitle />
+          <TitleColor text="Hvalpevisit" smallTitle />
           <Text>
             Har du netop fået hvalp og ønsker at få den bedste start på jeres fremtidige liv sammen,
             kan du bestille et hvalpevisit. Et hvalpevisit varer op til 1½ time hjemme hos jer og
             giver jer konkrete tiltag til at få en harmonisk hverdag.
+            Du vil blive introduceret til konceptet med at bruge mad, leg og ros til hverdagens opdragelse.
           </Text>
           <Text bold>Vi gennemgår følgende ved hvalpevisit:</Text>
           <TextList texts={puppyVisitTexts} />
+        </Column>
+        <Column>
+          <Image src={dogOne} />
+          <TitleColor text="Privattime" smallTitle />
+          <Text>
+            En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hund.
+            Du vil lære at bruge mad, leg og ros til at skabe den lydige hund du ønsker dig.
+          </Text>
+          <Text bold>
+            Eksempler på træning til en privattime:
+          </Text>
+          <TextList texts={privateHour} />
         </Column>
       </Row>
     </Background>

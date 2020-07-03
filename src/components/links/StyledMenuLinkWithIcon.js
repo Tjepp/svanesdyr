@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const StyledMenuLinkWithIcon = ({link, text}) => (
   <StyledMenuItem>
-    <FontAwesomeIcon icon="chevron-right" color="#666" size="1x" />
+    <FontAwesomeIcon icon="chevron-right" color="#000" size="1x" />
     <StyledMenuLink to={link}> {text}</StyledMenuLink>
   </StyledMenuItem>
 )
@@ -16,7 +16,7 @@ const StyledMenuLink = styled(Link)`
   cursor: pointer;
   font-size: 1em;
   margin-left: 10px;
-  color: rgb(102, 102, 102);
+  color: #000;
   font-weight: bold; 
 `;
 
