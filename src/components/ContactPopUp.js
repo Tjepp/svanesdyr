@@ -1,6 +1,7 @@
 import styled from 'styled-components';
-import React from 'react';
+import React, {useState} from 'react';
 import PropTypes from 'prop-types';
+import ContactForm from './ContactForm'
 
 const ContactPopUp = ({ text }) => {
   const [showContactForm, setShowContactForm] = useState(false);
@@ -46,8 +47,8 @@ const StyledModal = styled.div`
 export default ContactPopUp;
 
 const StyledButton = styled.a`
-  background: linear-gradient(#008080, #1cb8b8);
-  border: 1px solid #2d7272;
+  background: linear-gradient(#379683, #1cb8b8);
+  border: 1px solid #0F292F;
   box-shadow: inset 0 1px 1px 0 #99dede, 0 2px 0 -1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   font-weight: bold;
