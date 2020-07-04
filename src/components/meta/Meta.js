@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MetaTags from 'react-meta-tags';
-import { FrontNoOne } from '../../assets';
 
 const Meta = ({ title, description, keywords }) => (
   <>
