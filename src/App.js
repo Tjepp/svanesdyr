@@ -13,7 +13,7 @@ import {
   About, 
   Cat, 
   Contact, 
-  Dog, 
+  Dog, DogConsultPuppy,
   DogCourse, DogPuppy, DogContinued, DogCool, DogRecall, DogTricks, DogSummer, DogCoolFriend,
   Home, 
   Horse, 
@@ -44,6 +44,7 @@ const App = () => (
       <Route path="/kattetraening" exact component={Cat} />
       <Route path="/kontakt" exact component={Contact} />
       <Route path="/hundetraening" exact component={Dog} />
+      <Route path="/hvalpevisit" exact component={DogConsultPuppy} />
       <Route path="/hundehold" exact component={DogCourse} />
       <Route
         path="/hundehold"

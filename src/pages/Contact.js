@@ -8,6 +8,7 @@ import {
   Column,
   Meta,
   Title,
+  TitleColor,
   Text,
   BreadCrumps,
   Row,
@@ -50,7 +51,7 @@ const Contact = () => (
           </Text>
           </FlexRow>
             <br />
-          <Title color="#33CCCC" text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!" />
+          <TitleColor text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!" />
           <Text>
             Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.<br />
             Ved forgæves kørsel afregnes kørselstillæg efter statens takster på 3,52 kr./km.
