@@ -11,7 +11,7 @@ const Meta = ({ title, description, keywords }) => (
       <meta property="og:url" content="https://www.svanesdyr.dk/" />
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
-      <meta property="og:image:secure" content="https://www.svanesdyr.dk/Forside1.JPG" />
+      <meta property="og:image:secure_url" content="https://www.svanesdyr.dk/Forside1.JPG" />
       <meta property="og:site_name" content="Svanes dyr" />
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
