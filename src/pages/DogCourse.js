@@ -6,7 +6,7 @@ import {
   Page,
   Banner,
   Column,
-  Meta,
+  MetaDogCourse,
   Title,
   Text,
   BreadCrumps,
@@ -21,7 +21,7 @@ import { PlayOne, PlayTwo, PlayThree, PlayFour, PlayFive, PlaySix } from '../ass
 
 const DogCourse = () => (
   <Page>
-    <Meta />
+    <MetaDogCourse />
     <Banner text="Hundehold i Horsens">
       <BreadCrumps currentPage="Hundehold" />
     </Banner>
@@ -105,23 +105,6 @@ const DogCourse = () => (
         </Column>
         </Row>
 
-          {/* <Title text="Pris for deltagelse" showHorizontalRuler />
-          <Text>  
-            Jeg har indgået et samarbejde med FOF Horsens, derfor foregår tilmelding og betaling oftest igennem dem.<br />
-            Priser gennem FOF:
-          </Text>
-          <Text>
-            Hvalpehold: 965 kr. <i>inkl. teoriaften</i><br />
-            Helt-Cool kursus: 965 kr. <i>inkl. teoriaften</i><br />
-            Alle andre holdtyper: 860 kr.<br />
-          </Text>
-          <Text>
-            Uanset antal gange man deltager.<br />
-            <b><font color="#33CCCC">Bemærk: Max 4 hunde pr. hold.</font></b>
-          </Text>
-          <Text><b>Materialegebyr på 40 kr.</b><br />
-            Alle holdpriser tillægges materialegebyr.
-          </Text> */}
         </Column>
       </Row>
     </Background>

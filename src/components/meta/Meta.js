@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MetaTags from 'react-meta-tags';
+import { FrontNoOne } from '../../assets';
 
 const Meta = ({ title, description, keywords }) => (
   <React.Fragment>
@@ -12,6 +13,7 @@ const Meta = ({ title, description, keywords }) => (
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
+      <meta property="og:image" content={FrontNoOne} />
 
       <meta property="og:site_name" content="Svanes dyr" />
       <meta name="keywords" content={keywords} />
@@ -22,9 +24,9 @@ const Meta = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hundetræning | Kattetræning | Hestetræning | Hundehold Horsens | Hundetræning Midtjylland | Klikkertræning | Foredrag hundeadfærd | Foredrag kat | Dyreadfærdskonsulent | Svanes dyr ';
+  'Hundetræning | Kattetræning | Hestetræning | Hundehold Horsens | Hundetræning Midtjylland | Klikkertræning | Foredrag hundeadfærd | Foredrag kat | Dyreadfærdskonsulent | Svanes Dyr ';
 
-const defaultDescription = 'Svanes dyr - Certificeret Dyreadfærdskonsulent';
+const defaultDescription = 'Svanes Dyr - Certificeret Dyreadfærdskonsulent';
 
 const defaultKeywords = `Hundehold Horsens, Hundetræning Midtjylland, Kattetræning, klikkertræning, hestetræning Midtjylland, Svanes dyr, positiv hundetræning, 
 klikkertræning hest, klikkertræning kat, klikkertræning hund, adfærdsbehandler Midtjylland, adfærdsbehandler Horsens, hundeadfærd, 
