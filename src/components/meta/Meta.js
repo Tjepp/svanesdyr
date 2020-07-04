@@ -12,7 +12,7 @@ const Meta = ({ title, description, keywords }) => (
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="%PUBLIC_URL%/Forside1.JPG" />
+      <meta property="og:image" content="/Forside1.JPG" />
 
       <meta property="og:site_name" content="Svanes dyr" />
       <meta name="keywords" content={keywords} />
