@@ -7,7 +7,7 @@ const MetaDogCourse = ({ title, description, keywords }) => (
   <React.Fragment>
     <MetaTags>
       <title>{title}</title>
-      <meta name="og:title" content={title} />
+      <meta property="og:title" content={title} />
       <link rel="canonical" href="https://www.svanesdyr.dk/" />
       <meta property="og:url" content="https://www.svanesdyr.dk/" />
 
@@ -18,7 +18,7 @@ const MetaDogCourse = ({ title, description, keywords }) => (
       <meta property="og:site_name" content="Svanes dyr" />
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
-      <meta name="og:description" content={description} />
+      <meta property="og:description" content={description} />
     </MetaTags>
   </React.Fragment>
 );
