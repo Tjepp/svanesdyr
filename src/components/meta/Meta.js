@@ -1,26 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MetaTags from 'react-meta-tags';
-import { FrontNoOne } from '../../assets';
 
 const Meta = ({ title, description, keywords }) => (
-  <React.Fragment>
+  <>
     <MetaTags>
       <title>{title}</title>
       <meta property="og:title" content={title} />
       <link rel="canonical" href="https://www.svanesdyr.dk/" />
       <meta property="og:url" content="https://www.svanesdyr.dk/" />
-
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content={FrontNoOne} />
-
+      <meta property="og:image" content="https://www.svanesdyr.dk/Forside1.jpg" />
       <meta property="og:site_name" content="Svanes dyr" />
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta property="og:description" content={description} />
     </MetaTags>
-  </React.Fragment>
+  </>
 );
 
 const defaultTitle =
@@ -37,13 +34,13 @@ foredrag kat, foredrag katteadfærd, foredrag svane, konsulent adfærd, adfærds
 Meta.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
-  keywords: PropTypes.string
+  keywords: PropTypes.string,
 };
 
 Meta.defaultProps = {
   title: defaultTitle,
   description: defaultDescription,
-  keywords: defaultKeywords
+  keywords: defaultKeywords,
 };
 
 export default Meta;
