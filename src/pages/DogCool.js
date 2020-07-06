@@ -145,7 +145,7 @@ const DogCool = () => (
                 <Td>17.30 - 18.15</Td>
                 <Td>14. juli</Td>
                 <Td>18. august</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
                 <Td>Fortsat Cool B</Td>

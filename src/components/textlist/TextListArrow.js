@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 // The items in the list have no ids;
 // The list is never reordered or filtered.
 
-const TextList = ({ texts }) => (
+const TextListArrow = ({ texts }) => (
   <StyledList>
     {texts.map((text, key) => (
       // eslint-disable-next-line react/no-array-index-key
@@ -17,8 +17,10 @@ const TextList = ({ texts }) => (
 );
 
 const StyledList = styled.ul`
-  list-style-type: dot;
+  list-style-type: '» ';
   padding-left: 20px;
+  color: #000;
+  font-size: 20px;
 `;
 
 const ListItem = styled.li`
@@ -27,8 +29,8 @@ const ListItem = styled.li`
   line-height: 22px;
 `;
 
-TextList.propTypes = {
+TextListArrow.propTypes = {
   texts: PropTypes.arrayOf(String).isRequired
 };
 
-export default TextList;
+export default TextListArrow;

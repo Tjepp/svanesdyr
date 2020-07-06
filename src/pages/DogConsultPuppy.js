@@ -4,120 +4,163 @@ import { withRouter } from 'react-router-dom';
 import {
   Landingpage,
   Column,
-  Meta,
-  Title,
-  Text,
+  MetaConsultPuppy,
+  TitleCenter,
+  Text, TextCenter,
+  TextContainer,
   Image,
-  TextList,
-  Row,
-  StyledLink,
-  LandingpageHeadline
+  Row, 
+  FlexedRow,
+  LandingpageHeadline,
+  TextList, TextListMark, TextListArrow
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { dogOne, dogTwo, dogThree } from '../assets';
+import { ConsultPupOne, ConsultPupTwo } from '../assets';
 import '../components/table/TableCss.css';
 
-const privateHour = [
-  'Hunden kommer ikke når man kalder.',
-  'Hunden trækker i snoren.',
-  'Hunden stjæler ting/mad fra bordet.',
-  'Hunden hilser uhensigtsmæssigt på gæster.',
-  'Lydighed med fx fri ved fod, plads, apport mv.',
-  'Gængse træningsøvelser som sit, dæk, kontakt mv.'
+const ConsultPupAnnoyance = [
+  'Du nyder at koble fra på sofaen om aftenen, men i stedet for afslapning og mig-tid, er det blevet til en kamp med hvalpen om ikke at gø ad dig, nappe eller være ustyrlig',
+  'Du eller dine børn kan ikke gå rundt i huset uden at have en krævende hvalp siddende i buksebenet af og til',
+  'Du forsøger at fortælle din hvalp hvad den må og ikke må, men i stedet for at stoppe når du beder om det, så er det som om det bliver værre'
 ];
 
-const consultation = [
-  'Hunden er generelt svær at få ro på.',
-  'Hunden gør hele tiden.',
-  'Hunden hyler/gør/ødelægger ting når den er alene.',
-  'Hunden knurrer af dig, andre mennesker eller dyr.',
-  'Hunden er bange for lyde.',
-  'Hunden er urenlig.'
+const ConsultPupHour = [
+  'At forstå din hvalps adfærd og årsagen til at den opfører sig som den gør',
+  'At sætte rammer for hverdagen, så du helt undgår dårlig opførsel - også langt ude i fremtiden',
+  'At få din hvalp til at gøre det du beder om',
+  'At kunne få ro på din hvalp og dermed mere overskud til jer begge i hverdagen'
 ];
 
-const puppyVisitTexts = [
-  'Hvalpens sprog og fysiske udvikling.',
-  'Optimal aktivering i hverdagen.',
-  'Renlighed, alene hjemme og hvalpebideri.',
-  'Miljøtræning og socialisering.'
+const ConsultPupForYou = [
+  'dig, der ønsker at hjælpe din hvalp med at få mere ro på i hverdagen',
+  'dig, der vil slippe for huller i huden efter knivskarpe hvalpetænder',
+  'dig, der er førstegangs-hundeejer og savner konkrete værktøjer til hverdagens opdragelse',
+  'eller dig, der allerede har god succes med din hvalp, men kunne tænke dig endnu flere input!'
 ];
 
 const DogConsultPuppy = () => (
   <Landingpage>
-    <Meta />
-    <LandingpageHeadline text="Hvalpevisit">
+    <MetaConsultPuppy />
+    <LandingpageHeadline text="Hvalpevisit af hundeadfærdsbehandler">
     </LandingpageHeadline>
     <Background>
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Få en rolig og lydig hund med redskaberne til nem og positiv opdragelse" showHorizontalRuler />
+          <TextCenter>
+            Har du en hvalp der ynder at sætte sine sylespidse tænder i dig?<br />
+            Ødelægger den ting i hjemmet?<br />
+            Måske opfører den sig til tider ustyrligt og lytter ikke til dig?<br />
+            Eller ønsker du blot at få god vejledning fra start med den lille ny, så du helt undgår problemer som dette?
+          </TextCenter>
+          <TextCenter>
+            Så bestil en tid til et hvalpevisit, hvor du får de redskaber du skal bruge for at skabe en
+            lydig, kontaktsøgende hund, som let kan finde ro af sig selv og dermed gør jeres hverdag sammen mere overskuelig og hyggelig.
+          </TextCenter>
+          <br /><br />
+            Jeg ønsker at bestille en tid nu
+        </Column>
+      </Row>
+
       <Row marginTop={"25px"}>
         <Column widthPercentage="100%">
-          <Title text="Hvalpevisit af hundeadfærdsbehandler" showHorizontalRuler />
-          <Text>
-            Belønningsbaseret hundetræning er til gavn for alle hunde, uanset alder og race, og
-            styrker relationen mellem hund og ejer. Træning med din hund byder på kvalitetstid hvor
-            samarbejde, tillid og succes styrkes, hvilket skaber en hund i balance med sig selv og
-            sine omgivelser. Mange adfærdsproblemer, som angst og aggression, kan forebygges igennem
-            belønningsbaseret træning og forståelse for hundens adfærd.<br />
-            Ønsker du vejledning i
-            positiv, effektiv hundeopdragelse til hverdagen eller har du brug for gode råd til
-            træning af hunden, så kan du
-            <StyledLink to="/kontakt"> bestille en privattime </StyledLink>
-            ved at kontakte Sabrina Svane eller tilmelde dig et
-            <StyledLink to="/hundehold"> hundehold</StyledLink>.
-          </Text>
-          <Text>
-            Nogle hunde udvikler problemadfærd, som kan skabe utryghed og stress i hverdagen, både
-            for hund og for ejer. Det er individuelt hvad der opfattes som et problem hos den
-            enkelte ejer, men uanset hvad du har af ønsker for din hund og jeres fælles hverdag, så
-            kan du få hjælp til dette, ved at
-            <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
-            hos Sabrina Svane.
-          </Text>
-          <Text color="#33CCCC" bold>
-            Kontakt mig gerne og hør nærmere om din problemstilling kræver en privattime eller en
-            konsultation.
-          </Text>
+          <TitleCenter text="Genkender du bare én af følgende oplevelser:" />
+          <TextListArrow texts={ConsultPupAnnoyance} />
         </Column>
       </Row>
+
       <Row>
-        <Title text="Udbud af hundetræning i Midtjylland" showHorizontalRuler />
+        <Column widthPercentage="100%">
+          <TitleCenter color="#1cb8b8" text="Hvis du kan nikke genkendende til bare ét af disse udsagn, så har jeg både en god og en dårlig nyhed til dig" />
+          <TextCenter>
+            Den dårlige nyhed er, at dårlig opførsel fra hvalpen skyldes manglende klarhed om ønsker fra dig
+            og mangel på faste rutiner - og altså ikke en indre trodsighed eller stædighed hos hvalpen.<br />
+            Det er desværre et smertefuldt faktum, at mange hvalpe får dårlige vaner, fordi de ikke bliver ordentligt vejledt fra start og hjulpet til hverdag.
+          </TextCenter>
+          <TextCenter>
+            Den gode nyhed er, at <b>DU</b> kan lære at blive klar og tydelig overfor din hvalp, hvor du viser hvad du forventer af den på en god og rolig måde,
+            så du kan få den lydige og dejlige hund du ved du har!
+          </TextCenter>
+          <TextCenter>
+            Til et hvalpevisit får du metoderne til hvordan du kan sætte faste rammer og rutiner for din hvalp, gennem leg, ros og en <i>hulens masse godbidder</i>,
+            så du helt kan undgå de førnævnte (meget) irriterende situationer.
+          </TextCenter>
+          <br /><br />
+            Ja tak, giv mig metoderne til at få succes
+          {/* <Text>
+            Opdragelse handler ikke om hvor højt du kan råbe eller hvor hård du skal være, men blot om at have faste rutiner og guide din hvalp igennem
+            jeres fælles hverdag, hvilket kan gøres med en positiv og legene tilgang, hvor både du og hvalpen oplever masser af succes og samtidig knytter bånd.
+          </Text> */}
+        </Column>
       </Row>
+
       <Row marginBottom={"25px"}>
-        <Column>
-          <Image src={dogOne} />
-          <Title text="Privattime" smallTitle />
-          <Text>En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hund.</Text>
-          <Text bold>
-            Eksempler på træning til en privattime:
-          </Text>
-          <TextList texts={privateHour} />
-        </Column>
-        <Column>
-          <Image src={dogTwo} />
-          <Title text="Konsultation ved problemadfærd" smallTitle />
-          <Text>
-            En konsultation varer op til 2 timer hjemme hos jer. Her vil vi snakke adfærdsproblemet
-            igennem, så jeg kan foretage en grundig analyse. Derefter gennemgår vi de tiltag der
-            skal til, for at skabe en mere harmonisk hverdag for jer begge. Tiltagene består af
-            øvelser og enkle hverdagsrutiner der skal ændres, for at opnå det ønskede resultat.
-          </Text>
-          <Text bold>Eksempler på problemadfærd:</Text>
-          <TextList texts={consultation} />
-          <Text>
-            Efter mit besøg snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag.
-          </Text>
-        </Column>
-        <Column>
-          <Image src={dogThree} />
-          <Title text="Hvalpevisit" smallTitle />
-          <Text>
-            Har du netop fået hvalp og ønsker at få den bedste start på jeres fremtidige liv sammen,
-            kan du bestille et hvalpevisit. Et hvalpevisit varer op til 1½ time hjemme hos jer og
-            giver jer konkrete tiltag til at få en harmonisk hverdag.
-          </Text>
-          <Text bold>Vi gennemgår følgende ved hvalpevisit:</Text>
-          <TextList texts={puppyVisitTexts} />
+        <Column widthPercentage="48%">
+            <TitleCenter text="Nu ved vi hvordan vi skal klare hverdagen" showHorizontalRuler />
+            <FlexedRow>
+              <Image src={ConsultPupOne}  />
+              <TextContainer>
+                <Text>
+                  Vi takker og nejer for et fantastisk besøg!
+                  Vi har simpelthen fået så mange værktøjer til hvordan vi får den bedste tid med Harry.
+                </Text>
+                <Text>
+                  Det var virkelig rart at få nogle gode værktøjer, øvelser og lege.
+                </Text>
+                <Text>
+                  Når vi lige er kommet i gang med træningen vil vi benytte os af dig igen senere!
+                </Text>
+                <Text>
+                  Mvh Sheila og Daniel
+                </Text>
+              </TextContainer> 
+            </FlexedRow>
+          </Column>
+        <Column widthPercentage="48%">
+            <TitleCenter text="Vores hvalp har lært at slappe af på signal" showHorizontalRuler />
+            <FlexedRow>
+              <Image src={ConsultPupTwo}  />
+              <TextContainer>
+                <Text>
+                  Den største forandring for os var at få større viden omkring ro / søvns vigtighed for en hvalp.
+                  Det var noget af en aha-oplevelse at lære hvalpens behov for at ”øve” sig i ro, da man ellers får et ”damp barn”.
+                </Text>
+                <Text>
+                  Vi har set hvor lærenem han er og har lært at bruge et ”slap-af”-tæppe. Han søger i dag selv tæppet når han ved det er slap-af tid.
+                </Text>
+                <Text>
+                  Freja og Polle
+                </Text>
+              </TextContainer> 
+            </FlexedRow>
+          </Column>
+      </Row>
+
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter color="#1cb8b8" text="Et hvalpevisit er altså til:" />
+          <TextList texts={ConsultPupForYou} />
+          <TextCenter>
+            og selvfølgelig dig, der ønsker at få svar på alle dine spørgsmål du måtte have omkring hvalpebideri, miljøtræning, socialisering,
+            alene hjemme træning, renlighed og hvad du ellers går og tænker på!
+          </TextCenter>
         </Column>
       </Row>
+      
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Jeg kan med glæde fortælle dig, at efter et hvalpevisit på 1,5 time, vil du være i stand til:" />
+          <TextListMark texts={ConsultPupHour} />
+          <TextCenter>
+            Det tager kun halvanden time af din tid at sikre dig en mere overskuelig hverdag og en mere rolig, fælles fremtid!
+          </TextCenter>
+          <br /><br />
+            Ja tak, giv mig overskud igen!
+        </Column>
+      </Row>
+
+
+
     </Background>
   </Landingpage>
 );

@@ -46,8 +46,8 @@ const Title = styled.h1`
   color: #fff;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
   margin: 10px 0 10px 0;
-  text-align: center
+  text-align: center;
   ${Responsive.media.tablet`
-    text-align: center
+    text-align: center;
   `}
 `;

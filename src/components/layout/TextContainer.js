@@ -13,6 +13,8 @@ const TextContained = styled.div`
   margin-left: 25px;
   ${Responsive.media.tablet`
     margin-left: 0px;
+    margin-top: 25px;
+    text-align: center;
   `}
 `;
 

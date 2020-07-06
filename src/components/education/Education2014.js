@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Text from '../Text';
-import TextList from '../TextList';
 import { TitleColor } from '..';
+import TextList from '../textlist/TextList';
 
 const expo2014One = [
   'Ken Ramirez med "Big and Tall, Round or Small? Modifier Cues & How To Teach Them!" ',

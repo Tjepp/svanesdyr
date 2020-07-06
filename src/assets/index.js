@@ -53,11 +53,8 @@ export const logoLightGrey = require('./logoLightGrey.png');
 export const methodOne = require('./metode1.png');
 export const methodTwo = require('./metode2.jpg');
 export const sabrinaNew = require('./migNY.jpg');
-export const OnlineLeash = require('./OnlineFinSnor.JPG');
-export const OnlineRecall = require('./OnlineIndkald.jpg');
-export const OnlinePlayMaster = require('./OnlinePlayMaster.jpg');
 export const petbc = require('./petbc.jpg');
 export const sabrinaAndBarney = require('./SabrinaAndBarney.jpg');
-export const SandCNoOne = require('./SogC.JPG');
-export const SandCNoTwo = require('./SogC2.JPG');
+export const ConsultPupOne = require('./SalgssideHvalp1.jpg');
+export const ConsultPupTwo = require('./SalgssideHvalp2.jpg');
 /* eslint-enable global-require */

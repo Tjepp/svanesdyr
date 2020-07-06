@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Text from '../Text';
-import TextList from '../TextList';
+import TextList from '../textlist/TextList';
 import { TitleColor } from '..';
 
 const expoOne = [
