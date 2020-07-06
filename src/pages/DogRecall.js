@@ -33,6 +33,7 @@ const RecallProgram = [
 const RecallBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen',
   'Hele 7 ugers træning med ugentligt møde',
+  'Max 3 andre holdkammerater, så der er god tid til dig',
   'Skriftlige trin-for-trin guides tilsendt på mail så du kan øve derhjemme',  
   'Udleveret en klikker til valgfrit brug i træningen'
 ];
@@ -69,7 +70,7 @@ const DogRecall = () => (
           </Text>
           <TextList texts={RecallProgram} />
           <Text>
-            <b>Dit udbytte</b><br />
+            <b>Hvad kan du forvente at få med?</b><br />
             Ved deltagelse på Indkaldskurset får du:
           </Text>
           <TextList texts={RecallBenefits} />

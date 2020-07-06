@@ -36,8 +36,18 @@ const CoolBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen',
   'Gode råd og tips til optimal aktivering af hunden',
   'Hele 7 ugers træning med ugentligt møde',
+  'Max 3 andre holdkammerater, så der er god tid til dig',
   'Skriftlige trin-for-trin guides tilsendt hver uge på mail så du kan øve derhjemme',  
   'Udleveret en klikker til valgfrit brug i træningen'
+];
+
+const ContinuedCoolProgram = [
+  'Rolige gåture: Øvelse i at gå væk fra andre hunde',
+  'Rolige gåture: Øvelse i fortovspassager med andre hunde',
+  'Rolige gåture: Øvelse i stop-op og hilsemøder med andre',
+  'Hverdagsgåture med kontakt og ro i nye miljøer',
+  'Større udfordring med flere selvkontrols-lege',
+  'Sit og dæk bliv-træning'
 ];
 
 const DogCool = () => (
@@ -73,7 +83,7 @@ const DogCool = () => (
             Kurset henvender sig <b>ikke</b> til hunde der er bange for andre hunde eller reagerer aggressivt ved synet af andre.
             Står du med denne problemstilling anbefaler jeg at
             <StyledLink to="/kontakt"> booke tid </StyledLink>
-            til en konsultation
+            til en
             <StyledLink to="/hundetraening"> konsultation</StyledLink>,
             hvor du kan få personlig vejledning og redskaber til at hjælpe din hund.
             Eller tjek om <StyledLink to="/hundehold/venligvovse"> Venlig-Vovse </StyledLink> holdet er noget for jer.
@@ -87,7 +97,7 @@ const DogCool = () => (
           </Text>
           <TextList texts={CoolProgram} />
           <Text>
-            <b>Dit udbytte</b><br />
+            <b>Hvad kan du forvente at få med?</b><br />
             Ved deltagelse på Helt-Cool kurset får du:
           </Text>
           <TextList texts={CoolBenefits} />
@@ -120,6 +130,10 @@ const DogCool = () => (
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere cool-hold.<br />
             Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de rolige gåture praktiseres i stor stil.
           </Text>
+          <Text>
+            <b>Træningsprogram for Fortsat-holdet</b>
+          </Text>
+          <TextList texts={ContinuedCoolProgram} />
           <Table>
             <DogCourseSimple />
             <Tbody>

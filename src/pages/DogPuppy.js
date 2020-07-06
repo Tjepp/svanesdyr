@@ -38,6 +38,7 @@ const PuppyBenefits = [
   'Personlig sparring omkring din hvalp og jeres hverdag sammen',
   'Gode råd og tips til optimal aktivering af hvalpen',
   'Hele 7 ugers træning med ugentligt møde',
+  'Max 3 andre holdkammerater, så der er god tid til dig',
   'Skriftlige trin-for-trin guides tilsendt hver uge på mail så du kan øve derhjemme',  
   'Udleveret en klikker til valgfrit brug i træningen'
 ];
@@ -73,7 +74,7 @@ const DogPuppy = () => (
           </Text>
           <TextList texts={PuppyProgram} />
           <Text>
-            <b>Dit udbytte</b><br />
+            <b>Hvad kan du forvente at få med?</b><br />
             Ved deltagelse på Hvalpeholdet får du:
           </Text>
           <TextList texts={PuppyBenefits} />

@@ -25,8 +25,10 @@ import DogMenu from '../components/menu/DogMenu';
 const CoolBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen',
   'Hele 6 ugers træning med ugentligt møde',
+  'Max 2 andre holdkammerater, så der er god tid til dig',
   'Skriftlige trin-for-trin guides tilsendt på mail så du kan øve derhjemme',  
-  'Udleveret en klikker til valgfrit brug i træningen'
+  'Udleveret en klikker til valgfrit brug i træningen',
+  'Mere ro og klare instrukser til hverdagens gåture'
 ];
 
 const DogCoolFriend = () => (
@@ -80,7 +82,7 @@ const DogCoolFriend = () => (
             Derfor er det vigtigt, at din hund kan sidde trygt i bilen og vente på sin tur.
           </Text>
           <Text>
-            <b>Dit udbytte</b><br />
+            <b>Hvad kan du forvente at få med?</b><br />
             Ved deltagelse på Venlig-Vovse får du:
           </Text>
           <TextList texts={CoolBenefits} />
