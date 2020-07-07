@@ -10,9 +10,9 @@ import {
   MetaDogCool,
   Title,
   TitleColor,
-  Text,
+  Text, TextContainer,
   BreadCrumps,
-  Row,
+  Row, FlexedRow,
   DogCourseSimple,
   TextList,
   Image,
@@ -20,7 +20,7 @@ import {
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolFive, CoolSix } from '../assets';
+import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolFive, CoolSix, TestiCoolOne, TestiCoolTwo } from '../assets';
 
 const CoolProgram = [
   'Fornøjelige gåture, uden at trække i snoren',
@@ -124,6 +124,46 @@ const DogCool = () => (
               </Tr>
             </Tbody>
           </Table>
+          <br />
+
+          <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler /> 
+          <FlexedRow>
+            <Image src={TestiCoolOne} width="200px" height="250px" />
+            <TextContainer>
+              <TitleColor text="Vi var bekymret for om vores hund kunne lærer det vi ønskede, men vi blev overrasket" />  
+              <Text>
+                Det mest fantastiske ved at deltage på helt cool har været den effektive hjælp til håndtering af problematikker.
+                Vi har fået roligere gåture, en rolig hund ved gæster i hjemmet og en bedre relation til hunden. 
+              </Text>
+              <Text>
+                Det har været helt fantastisk at deltage og vi glæder os til at forsætte på nyt hold.
+              </Text>
+              <Text>
+                Sarah og Kasper (Molly)
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+
+          <FlexedRow>
+            <Image src={TestiCoolTwo} width="200px" height="250px" />
+            <TextContainer>
+              <TitleColor text="Vi fik øjnene op for at selv angste hunde godt kan med andre" />
+              <Text>
+                Inden start var jeg bekymret for at passe ind.
+                Da jeg har angst selv, var det en stor fordel at blive bekræftiget i at det jeg gør er rigtigt.
+                Og at se uanset str på hunden så rammer stort set alle ejere samme problematikker.
+              </Text>
+              <Text>
+                Der er sket meget udviklingsmæssigt med vores lille bandit, den største forandring er bedre samværd mellem os og andre.
+                Vi har nydt at komme til træning og prøve noget nyt.
+              </Text>
+              <Text>
+                Jette Nancke og Dion
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
 
           <Title text="Fortat Helt-Cool" showHorizontalRuler />
           <Text>
@@ -161,29 +201,29 @@ const DogCool = () => (
           </Table>
           <br />
 
-        <Title text="Billeder fra Helt-Cool kursus" showHorizontalRuler />
-        <Row>
-        <Column>
-          <Image src={CoolOne}/>
-        </Column>
-        <Column>
-          <Image src={CoolTwo}/>
-        </Column>
-        <Column>
-          <Image src={CoolThree}/>
-        </Column>
-        </Row>
-        <Row>
-        <Column>
-          <Image src={CoolFour}/>
-        </Column>
-        <Column>
-          <Image src={CoolFive}/>
-        </Column>
-        <Column>
-          <Image src={CoolSix}/>
-        </Column>
-        </Row>
+          <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />
+          <Row>
+          <Column>
+            <Image src={CoolOne}/>
+          </Column>
+          <Column>
+            <Image src={CoolTwo}/>
+          </Column>
+          <Column>
+            <Image src={CoolThree}/>
+          </Column>
+          </Row>
+          <Row>
+          <Column>
+            <Image src={CoolFour}/>
+          </Column>
+          <Column>
+            <Image src={CoolFive}/>
+          </Column>
+          <Column>
+            <Image src={CoolSix}/>
+          </Column>
+          </Row>
 
 
         </Column>

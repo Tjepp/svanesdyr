@@ -69,7 +69,7 @@ const DogConsultPuppy = () => (
         </Column>
       </Row>
 
-      <Row>
+      <Row marginBottom={"25px"}>
         <Column widthPercentage="100%">
           <TitleCenter color="#1cb8b8" text="Hvis du kan nikke genkendende til bare ét af disse udsagn, så har jeg både en god og en dårlig nyhed til dig" />
           <TextCenter>
@@ -91,15 +91,20 @@ const DogConsultPuppy = () => (
             Opdragelse handler ikke om hvor højt du kan råbe eller hvor hård du skal være, men blot om at have faste rutiner og guide din hvalp igennem
             jeres fælles hverdag, hvilket kan gøres med en positiv og legene tilgang, hvor både du og hvalpen oplever masser af succes og samtidig knytter bånd.
           </Text> */}
+          <br />
         </Column>
       </Row>
 
+      <Row>
+        <TitleCenter text="I tvivl om det er noget for dig? Hør hvad andre har oplevet:" showHorizontalRuler />
+      </Row>
+      
       <Row marginBottom={"25px"}>
         <Column widthPercentage="48%">
-            <TitleCenter text="Nu ved vi hvordan vi skal klare hverdagen" showHorizontalRuler />
             <FlexedRow>
-              <Image src={ConsultPupOne}  />
+              <Image src={ConsultPupOne} width="200px" height="300px"  />
               <TextContainer>
+              <TitleCenter text="Nu kan vi komme nemmere gennem hverdagen" />
                 <Text>
                   Vi takker og nejer for et fantastisk besøg!
                   Vi har simpelthen fået så mange værktøjer til hvordan vi får den bedste tid med Harry.
@@ -117,10 +122,10 @@ const DogConsultPuppy = () => (
             </FlexedRow>
           </Column>
         <Column widthPercentage="48%">
-            <TitleCenter text="Vores hvalp har lært at slappe af på signal" showHorizontalRuler />
             <FlexedRow>
-              <Image src={ConsultPupTwo}  />
+              <Image src={ConsultPupTwo} width="200px" height="300px"  />
               <TextContainer>
+              <TitleCenter text="Vores hvalp har lært at slappe af på signal" />
                 <Text>
                   Den største forandring for os var at få større viden omkring ro / søvns vigtighed for en hvalp.
                   Det var noget af en aha-oplevelse at lære hvalpens behov for at ”øve” sig i ro, da man ellers får et ”damp barn”.
