@@ -7,7 +7,7 @@ import {
   Page,
   Banner,
   Column,
-  Meta,
+  MetaDogPuppy,
   Title,
   TitleColor,
   Text,
@@ -45,7 +45,7 @@ const PuppyBenefits = [
 
 const DogPuppy = () => (
   <Page>
-    <Meta />
+    <MetaDogPuppy />
     <Banner text="Hundehold i Horsens">
       <BreadCrumps currentPage="Hvalpehold" />
     </Banner>

@@ -7,7 +7,7 @@ import {
   Page,
   Banner,
   Column,
-  Meta,
+  MetaDogRecall,
   Title,
   TitleColor,
   Text,
@@ -40,7 +40,7 @@ const RecallBenefits = [
 
 const DogRecall = () => (
   <Page>
-    <Meta />
+    <MetaDogRecall />
     <Banner text="Hundehold i Horsens">
       <BreadCrumps currentPage="Indkaldskursus" />
     </Banner>

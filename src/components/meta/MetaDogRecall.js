@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import MetaTags from 'react-meta-tags';
 
-const MetaConsultPuppy = ({ title, description, keywords }) => (
+const MetaDogRecall = ({ title, description, keywords }) => (
   <>
     <MetaTags>
       <title>{title}</title>
@@ -12,7 +12,7 @@ const MetaConsultPuppy = ({ title, description, keywords }) => (
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://www.svanesdyr.dk/hund3.jpg" />
+      <meta property="og:image" content="https://www.svanesdyr.dk/HoldIndkald1.jpg" />
       <meta property="og:site_name" content="Svanes Dyr" />
 
       <meta name="keywords" content={keywords} />
@@ -23,31 +23,28 @@ const MetaConsultPuppy = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hvalpevisit | Ny hvalp | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr '
+  'Sikkert indkald til din hund | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr '
   ;
 
 const defaultDescription = 
-  'Svanes Dyr - Hvalpevisit: Få den bedste start sammen'
+  'Svanes Dyr - Indkaldskursus i Horsens'
   ;
 
 const defaultKeywords = 
-  `Hvalpetræning Horsens, hvalpetræning Midtjylland, klikkertræning, Svanes dyr, positiv hundetræning, 
-  Sabrina Svane, indkald hvalp, rådgivning hvalp, hvalpevisit, hvalpevisit Horsens, socialisering hvalp, miljøtræning hvalp,
-  hvalp trækker, hvalp gå pænt, hvalp hopper op, hvalp hopper gæster, hvalp gæster, hundeadfærdsbehandler, hvalp behandler,
-  hvalpemotivation, hvalp motivation, hvalp gør, ny hvalp, hvalp træning, hjælp hvalp, hvalpetræning, hvalpebideri, hvalp bider,
-  renlig hvalp, alene hjemme hvalp, alene hvalp`
+  `Hundehold indkald Horsens, Hundetræning indkald Horsens, klikkertræning, Svanes dyr, positiv hundetræning, sikkert indkald, frihed gåtur, 
+  indkald hund, indkald hvalp, hund stikker af, indkaldskursus, indkalder kursus, indkald hundehold, indkald Horsens, indkald forstyrrelser`
   ;
 
-MetaConsultPuppy.propTypes = {
+MetaDogRecall.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string
 };
 
-MetaConsultPuppy.defaultProps = {
+MetaDogRecall.defaultProps = {
   title: defaultTitle,
   description: defaultDescription,
   keywords: defaultKeywords
 };
 
-export default MetaConsultPuppy;
+export default MetaDogRecall;

@@ -7,7 +7,7 @@ import {
   Page,
   Banner,
   Column,
-  Meta,
+  MetaDogCool,
   Title,
   TitleColor,
   Text,
@@ -52,7 +52,7 @@ const ContinuedCoolProgram = [
 
 const DogCool = () => (
   <Page>
-    <Meta />
+    <MetaDogCool />
     <Banner text="Hundehold i Horsens">
       <BreadCrumps currentPage="Helt-Cool" />
     </Banner>
