@@ -1,21 +1,22 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
   Banner,
   Column,
-  Meta,
+  MetaDogTricks,
   Title,
+  TitleColor,
   Text,
   BreadCrumps,
   Row,
-  DogCourseSimple,
+  // DogCourseSimple,
   TextList,
   Image,
-  StyledExternal
+  StyledLink
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -29,9 +30,17 @@ const TricksProgram = [
   'Targettræning der lærer din hund at søge ”mål” med snude eller pote, til sjove lege i hverdagen'
 ];
 
+const TricksBenefits = [
+  'Personlig sparring omkring din hund og hjælp til øvelser',
+  'Mulighed for at træne tricks du ønsker at lære din hund',
+  'Hele 7 ugers træning med ugentligt møde',
+  'Max 3 andre holdkammerater, så der er god tid til dig', 
+  'Udleveret en klikker til valgfrit brug i træningen'
+];
+
 const DogTricks = () => (
   <Page>
-    <Meta />
+    <MetaDogTricks />
     <Banner text="Hundehold i Horsens">
       <BreadCrumps currentPage="Tricks og Motorik" />
     </Banner>
@@ -53,41 +62,41 @@ const DogTricks = () => (
             Jeg lægger vægt på at i skal have det sjovt sammen og fremfor alt samarbejde om nye opgaver!
           </Text>
           <Text>
-            Al træning foregår med <b><font color="#33CCCC">belønningsbaserede metoder</font></b>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
+            Al træning foregår med <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
             Hvis din hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere letforståelig. Alle bliver sat op til succes.
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b><br />
-            I løbet af vores 6 uger sammen vil vi komme igennem følgende:
+            I løbet af vores 7 uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={TricksProgram} />
           <Text>
-            Kurset er et intimtkursus <b><font color="#33CCCC">med max 3 deltagere</font></b>.
+            <b>Hvad kan du forvente at få med?</b><br />
+            Ved deltagelse på Tricks og Motorik får du:
           </Text>
+          <TextList texts={TricksBenefits} />
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <Title color="#33CCCC" text="Din investering: 860 kr."/>
-          <Text>
-            Materialegebyr på 40 kr. betales første mødegang.
+          <TitleColor text="Din investering: 950 kr."/>
+          <Text italic>
+            Ingen nye hold på programmet.
           </Text>
-          <Table>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
                 <Td>Tricks1</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
-                <Td><StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening/tricks-og-motorik-alle-hunde?id=200823">
-                  {"Klik her"}
-                  </StyledExternal></Td>
-                  <Td>16.30 - 17.15</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>16.30 - 17.15</Td>
                 <Td>5. maj</Td>
                 <Td>16. juni</Td>
                 <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
       
         <Title text="Billeder fra Tricks og Motorik" showHorizontalRuler />

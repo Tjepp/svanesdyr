@@ -16,6 +16,7 @@ export { default as MetaDogCourse } from './meta/MetaDogCourse';
 export { default as MetaDogPuppy } from './meta/MetaDogPuppy';
 export { default as MetaDogRecall } from './meta/MetaDogRecall';
 export { default as MetaDogSummer } from './meta/MetaDogSummer';
+export { default as MetaDogTricks } from './meta/MetaDogTricks';
 export { default as Text } from './Text';
 export { default as TextCenter } from './TextCenter';
 export { default as Title } from './Title';

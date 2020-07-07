@@ -33,10 +33,10 @@ const defaultDescription =
 const defaultKeywords = 
   `hund rolig gåtur, hund gåtur, hund gør andre hunde, hunde gør, hund aggressiv, hund knurrer, hund bange andre hunde,
   hund trækker andre hunde, hund trækker gåtur, hund ikke gø, venlig vovse, negativ reaktion hund, problem hund, problemhund, positiv oplevelse hund,
-  frygter andre hunde, frygt hund`
+  frygter andre hunde, frygt hund, selvtillid hund`
   ;
 
-  MetaDogCoolFriend.propTypes = {
+MetaDogCoolFriend.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
