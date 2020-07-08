@@ -92,7 +92,7 @@ const DogContinued = () => (
             <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Fortsætter D</Td>
+                <Td>Fortsætter C</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
@@ -110,7 +110,7 @@ const DogContinued = () => (
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortsætter E</Td>
+                <Td>Fortsætter D</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>

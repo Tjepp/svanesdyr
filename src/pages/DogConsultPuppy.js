@@ -96,24 +96,26 @@ const DogConsultPuppy = () => (
       </Row>
 
       <Row>
-        <TitleCenter text="I tvivl om det er noget for dig? Hør hvad andre har oplevet:" showHorizontalRuler />
+        <TitleCenter text="Hør hvad andre siger om et besøg fra mig:" showHorizontalRuler />
       </Row>
       
-      <Row marginBottom={"25px"}>
+      <Row>
         <Column widthPercentage="48%">
             <FlexedRow>
-              <Image src={ConsultPupOne} width="200px" height="300px"  />
+              <Image src={ConsultPupOne} width="200px" height="375px"  />
               <TextContainer>
-              <TitleCenter text="Nu kan vi komme nemmere gennem hverdagen" />
+              <TitleCenter text=" ”Vi troede ikke et hvalpevisit ville være pengene værd. Vi tog fejl.” " />
                 <Text>
-                  Vi takker og nejer for et fantastisk besøg!
-                  Vi har simpelthen fået så mange værktøjer til hvordan vi får den bedste tid med Harry.
+                  Dit besøg har givet os mere ro og selvtillid.
+                  Vi er som førstegangsejere meget mere selvsikre og rolige i vores rolle som hundeejere, og det er rart.
+                  Derudover har det været rart bare at kunne spørge løs og fjerne nogle af de bekymringer man kan have som førstegangs hundeejere.
                 </Text>
                 <Text>
-                  Det var virkelig rart at få nogle gode værktøjer, øvelser og lege.
+                  Vi har fået en meget bedre forståelse af vores hund, hans race, personlighed og hvorfor han gør som han gør.
+                  Og derved også hvordan vi samarbejder med ham. 
                 </Text>
                 <Text>
-                  Når vi lige er kommet i gang med træningen vil vi benytte os af dig igen senere!
+                  Det giver ro i maven at vide man er på rette vej.
                 </Text>
                 <Text>
                   Mvh Sheila og Daniel
@@ -125,7 +127,7 @@ const DogConsultPuppy = () => (
             <FlexedRow>
               <Image src={ConsultPupTwo} width="200px" height="300px"  />
               <TextContainer>
-              <TitleCenter text="Vores hvalp har lært at slappe af på signal" />
+              <TitleCenter text=" ”Vores hvalp har lært at slappe af på signal” " />
                 <Text>
                   Den største forandring for os var at få større viden omkring ro / søvns vigtighed for en hvalp.
                   Det var noget af en aha-oplevelse at lære hvalpens behov for at ”øve” sig i ro, da man ellers får et ”damp barn”.
@@ -139,6 +141,10 @@ const DogConsultPuppy = () => (
               </TextContainer> 
             </FlexedRow>
           </Column>
+      </Row>
+
+      <Row>
+        <TitleCenter text="" showHorizontalRuler />
       </Row>
 
       <Row>
