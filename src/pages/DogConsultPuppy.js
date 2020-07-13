@@ -19,7 +19,7 @@ import {
   ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { ConsultPupOne, ConsultPupTwo } from '../assets';
+import { ConsultPupOne, ConsultPupTwo, ConsultPupThree } from '../assets';
 import '../components/table/TableCss.css';
 
 const ConsultPupAnnoyance = [
@@ -40,6 +40,12 @@ const ConsultPupForYou = [
   'dig, der vil slippe for huller i huden efter knivskarpe hvalpetænder',
   'dig, der er førstegangs-hundeejer og savner konkrete værktøjer til hverdagens opdragelse',
   'eller dig, der allerede har god succes med din hvalp, men kunne tænke dig endnu flere input!',
+];
+
+const ConsultPupDoubts = [
+  'DERFOR #1 For kun halvanden time af din tid og få tusinde kroner kommer du til både at forstå og bruge de enkle metoder, der skal til for at skabe den hverdag DU ønsker sammen med din hvalp - og det virker ikke kun nu og her, men resten af din hvalps OG din næste hvalps levetid!',
+  'DERFOR #2 Du får trin-for-trin vejledende hjælp til lige det du ønsker af en professionel uddannet hundetræner, så du sparer timevis af din tid på at google dig frem til (knap så) gode råd, som alligevel ikke helt har den ønskede effekt..',
+  'DERFOR #3 Din investering strækker sig udover den halvanden time i hjemmet! Da jeg går meget op i at du får vedvarende succes med din hvalp, får du fri opfølgning på telefon og mail efter mit besøg, så du kan få et kompetent og fagligt svar på alle de spørgsmål, du ikke nåede at stille under besøget!',
 ];
 
 const DogConsultPuppy = () => (
@@ -69,8 +75,7 @@ const DogConsultPuppy = () => (
             hverdag sammen mere overskuelig og hyggelig.
           </TextCenter>
           <br />
-          <br />
-          <ContactPopUp text="Jeg ønsker at bestille tid nu" />
+          <ContactPopUp text="Smid en mail og få tid til et besøg" />
         </Column>
       </Row>
 
@@ -99,7 +104,7 @@ const DogConsultPuppy = () => (
             Den gode nyhed er, at
             <b> DU </b>
             kan lære at blive klar og tydelig overfor din hvalp, hvor du viser hvad du forventer af
-            den på en god og rolig måde, så du kan få den lydige og dejlige hund du ved du har!
+            den på en god og rolig måde, så du kan få den lydige og dejlige hund du <b>ved</b> du har!
           </TextCenter>
           <TextCenter>
             Til et hvalpevisit får du metoderne til hvordan du kan sætte faste rammer og rutiner for
@@ -107,28 +112,22 @@ const DogConsultPuppy = () => (
             <i> hulens masse godbidder</i>, så du helt kan undgå de førnævnte (meget) irriterende
             situationer.
           </TextCenter>
-          <br />
+
           <br />
           <ContactPopUp text="Ja tak, giv mig metoderne til at få succes" />
-
-          {/* <Text>
-            Opdragelse handler ikke om hvor højt du kan råbe eller hvor hård du skal være, men blot om at have faste rutiner og guide din hvalp igennem
-            jeres fælles hverdag, hvilket kan gøres med en positiv og legene tilgang, hvor både du og hvalpen oplever masser af succes og samtidig knytter bånd.
-          </Text> */}
-          <br />
         </Column>
       </Row>
 
       <Row>
-        <TitleCenter text="Hør hvad andre siger om et besøg fra mig:" showHorizontalRuler />
+        <TitleCenter text="Dét har andre fået ud af et besøg fra mig:" showHorizontalRuler />
       </Row>
 
       <Row>
         <Column widthPercentage="80%">
+          <TitleCenter text=" ”Vi troede ikke et hvalpevisit ville være pengene værd. Vi tog fejl.” " />
           <FlexedRow>
             <Image src={ConsultPupOne} width="200px" height="300px" />
             <TextContainer>
-              <TitleCenter text=" ”Vi troede ikke et hvalpevisit ville være pengene værd. Vi tog fejl.” " />
               <Text>
                 Dit besøg har givet os mere ro og selvtillid. Vi er som førstegangsejere meget mere
                 selvsikre og rolige i vores rolle som hundeejere, og det er rart. Derudover har det
@@ -147,10 +146,10 @@ const DogConsultPuppy = () => (
       </Row>
       <Row>
         <Column widthPercentage="80%">
+          <TitleCenter text=" ”Vores hvalp har lært at slappe af på signal” " />
           <FlexedRow>
             <Image src={ConsultPupTwo} width="200px" height="300px" />
             <TextContainer>
-              <TitleCenter text=" ”Vores hvalp har lært at slappe af på signal” " />
               <Text>
                 Den største forandring for os var at få større viden omkring ro / søvns vigtighed
                 for en hvalp. Det var noget af en aha-oplevelse at lære hvalpens behov for at ”øve”
@@ -190,11 +189,70 @@ const DogConsultPuppy = () => (
             Det tager kun halvanden time af din tid at sikre dig en mere overskuelig hverdag og en
             mere rolig, fælles fremtid!
           </TextCenter>
-          Ja tak, giv mig overskud igen!
           <br />
-          <br />
+          <ContactPopUp text="Ja tak, giv mig overskud igen!" />
         </Column>
       </Row>
+
+      <Row marginTop="25px">
+        <Column widthPercentage="80%">
+        <TitleCenter text="Du får professionel rådgivning og en skræddersyet handlingsplan til dig og din hvalp" />
+          <FlexedRow>
+            <Image src={ConsultPupThree} width="200px" height="200px" />
+            <TextContainer>
+              <Text>
+                Jeg hedder Sabrina Svane har siden 2012 haft ugentlige hvalpehold og hundredvis af hvalpeejere under vingerne,
+                både på træningsbanen og i hjemmet ved privatbesøg. Jeg har gennem tiden haft mange forskellige racer mellem hænderne,
+                og møder altid hvalpene hvor de er, da hver hvalp har deres egen personlighed at tage hensyn til.
+              </Text>
+              <Text>
+                Du får altså besøg af en uddannet Hundeadfærdskonsulent, der har reel, praktisk erfaring med at
+                hjælpe hvalpe godt fra start og kan hurtigt sætte dig ind i hvad der virker og ikke virker, når hvalpen skal lære nyt.
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+        </Column>
+      </Row>
+
+      <Row marginTop="25px">
+        <Column widthPercentage="100%">
+          <TitleCenter text="Din investering i din helt egen garanti for en mindre stressfyldt og langt mere afslappet hverdag med din hvalp, er:" />
+          <ContactPopUp text="Kun 1.050 kr. + kørsel" />
+          <br />
+          <TextCenter>
+            Det svarer nogenlunde til prisen på et par robuste hvalpebøger, som kan give en overflod af information uden at du får konkrete værktøjer til lige dét du søger hjælp til.
+          </TextCenter>
+        </Column>
+      </Row>
+
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter color="#1cb8b8" text="Smid en mail afsted nu og få svar indenfor 24 timer om tid til et hvalpevisit" />
+          <TextCenter>
+            Et hvalpevisit foregår i hjemmet hos dig og din hvalp og gerne med familien samlet til deltagelse.
+          </TextCenter>
+          <TextCenter>
+            Du skal forvente at bruge 1,5 time på besøget, hvor du får mulighed for at stille alle de spørgsmål du har brug for at få besvaret.
+            Jeg vil også stille spørgsmål ind til jeres hverdag sammen, for at blive klogere på jeres indbyrdes forhold og eventuelle problemstillinger i oplever.
+          </TextCenter>
+          <TextCenter>
+            Jeg gennemgår forskellige øvelser, der vil styrke dig og din hvalps samarbejde og øge tilliden imellem jer.
+            Øvelserne vil jeg først vise med hvalpen, så du ser det i aktion, og bagefter lader jeg dig om at udføre dem.
+            Du får også redskaberne til hvordan du får hverdagens rutiner til at køre som smurt, med en lille hvalp i hjemmet.
+          </TextCenter>
+          <TextCenter>
+            Efter mit besøg har du mulighed for at ringe og skrive ved spørgsmål. Jeg vil også følge op via mail et par uger efter mit besøg.
+          </TextCenter>
+        </Column>
+      </Row>
+
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Stadig i tvivl om du skal bestille tid? Her er 3 argumenter for hvorfor du kan få gavn af et hvalpevisit:" />
+          <TextListArrow texts={ConsultPupDoubts} />
+        </Column>
+      </Row>
+
     </Background>
   </Landingpage>
 );

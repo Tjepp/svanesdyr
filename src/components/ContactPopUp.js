@@ -67,6 +67,7 @@ const StyledButton = styled.a`
   outline: none;
   padding: 15px 30px;
   border-radius: 4px;
+  text-align: center;
 `;
 
 const ButtonContainer = styled.div`

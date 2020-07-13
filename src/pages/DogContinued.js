@@ -100,7 +100,7 @@ const DogContinued = () => (
                 <Td>10. august</Td>
                 <Td>5. oktober</Td>
                 <Td>Uge 35 + 36</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>

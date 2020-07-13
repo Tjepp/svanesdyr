@@ -19,7 +19,7 @@ const Landingpage = ({ children }) => (
     {children}
     <Background>
       <Bar>
-        <ContactPopUp text="Book din tid nu" />
+        <ContactPopUp text="Smid en mail og få straks tid til et besøg" />
       </Bar>
     </Background>
     <FooterBottom />

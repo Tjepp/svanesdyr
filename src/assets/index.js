@@ -57,6 +57,7 @@ export const petbc = require('./petbc.jpg');
 export const sabrinaAndBarney = require('./SabrinaAndBarney.jpg');
 export const ConsultPupOne = require('./SalgssideHvalp1.jpg');
 export const ConsultPupTwo = require('./SalgssideHvalp2.jpg');
+export const ConsultPupThree = require('./SalgssideHvalp3.jpg');
 export const TestiCoolOne = require('./TestiCool1.jpg');
 export const TestiCoolTwo = require('./TestiCool2.JPG');
 /* eslint-enable global-require */

@@ -36,9 +36,10 @@ const SummerInfo = [
 const SummerProgram = [
   'Nose Work: Sjov og stimulerende aktiviteter hvor hunden skal bruge sin næse', 
   'Hvalpelegestue: Med fokus på socialisering, miljøtræning og ro omkring andre',
-  'Rolige gåture uden trækkeri: Lær kontaktlege der giver dig fornøjelige gåture uden trækken i snoren',
-  'Doggie-Zen Master: Til hunden der skal mestrer ro omkring spændende fristelser',  
-  'Hyggetimen: Leg, gåture og hygge i samlet flok'
+  'Rolige gåture: Lær kontaktlege der giver dig fornøjelige gåture uden trækken i snoren',
+  'Barn & Hund: Sjove lege og øvelser, som styrker barn og hunds fælles bånd',
+  'Tricks & Leg: Hygge med kropskontrol, tricks og masser af god leg med andre hunde',
+  'Doggie-Zen Master: Til hunden der skal mestrer ro omkring spændende fristelser'
   
 ];
 
@@ -94,7 +95,7 @@ const DogSummer = () => (
                 <Td>Nose Work Begynder</Td>
                 <Td>09.30 - 11.00</Td>
                 <Td>6 pladser</Td>
-                <Td><font color="#D60E0E">3 ledige</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
                 <Td>
                   <StyledExternal href="https://www.facebook.com/events/253142612415825/">
                   {"Facebook-tilmelding"}
@@ -105,7 +106,7 @@ const DogSummer = () => (
                 <Td>Nose Work letøvet / øvet</Td>
                 <Td>11.30 - 13.00</Td>
                 <Td>6 pladser</Td>
-                <Td><font color="#D60E0E">6 ledige</font></Td>
+                <Td><font color="#D60E0E">4 ledige</font></Td>
                 <Td>
                   <StyledExternal href="https://www.facebook.com/events/1976440025826246/">
                   {"Facebook-tilmelding"}
@@ -146,6 +147,28 @@ const DogSummer = () => (
           <Table>
             <DogCourseSummer />
             <Tbody>
+              <Tr>
+                <Td>Barn og Hund</Td>
+                <Td>09.30 - 11.00</Td>
+                <Td>6 pladser</Td>
+                <Td><font color="#D60E0E">6 ledige</font></Td>
+                <Td>
+                  <StyledExternal href="https://www.facebook.com/events/3177385885691447/">
+                  {"Facebook-tilmelding"}
+                  </StyledExternal>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td>Tricks og Leg</Td>
+                <Td>11.30 - 13.00</Td>
+                <Td>6 pladser</Td>
+                <Td><font color="#D60E0E">6 ledige</font></Td>
+                <Td>
+                  <StyledExternal href="https://www.facebook.com/events/1005969476508351/">
+                  {"Facebook-tilmelding"}
+                  </StyledExternal>
+                </Td>
+              </Tr>
               <Tr>
                 <Td>Rolige gåture</Td>
                 <Td>17.00 - 18.30</Td>
