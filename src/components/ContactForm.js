@@ -19,14 +19,14 @@ class ContactForm extends React.Component {
         name: false,
         phoneNo: false,
         email: false,
-        message: false
+        message: false,
       },
       sent: false,
-      sendError: false
+      sendError: false,
     };
   }
 
-  handleForm = e => {
+  handleForm = (e) => {
     if (!this.canBeSubmitted()) {
       e.preventDefault();
       return;
@@ -39,31 +39,31 @@ class ContactForm extends React.Component {
         'https://formcarry.com/s/WFZnCcWzbDe',
         { name, phoneNo, email, message },
         {
-          headers: { Accept: 'application/json' }
+          headers: { Accept: 'application/json' },
         }
       )
-      .then(response => {
+      .then((response) => {
         this.setState({ sent: true });
       })
-      .catch(error => {
+      .catch((error) => {
         this.setState({ sendError: true });
       });
     e.preventDefault();
   };
 
-  handleFields = e => this.setState({ [e.target.name]: e.target.value });
+  handleFields = (e) => this.setState({ [e.target.name]: e.target.value });
 
-  handleBlur = field => evt => {
+  handleBlur = (field) => (evt) => {
     const { touched } = this.state;
 
     this.setState({
-      touched: { ...touched, [field]: true }
+      touched: { ...touched, [field]: true },
     });
   };
 
   canBeSubmitted() {
     const errors = this.validate();
-    const isDisabled = Object.keys(errors).some(x => errors[x]);
+    const isDisabled = Object.keys(errors).some((x) => errors[x]);
     return !isDisabled;
   }
 
@@ -74,16 +74,16 @@ class ContactForm extends React.Component {
       name: name.length === 0,
       phoneNo: phoneNo.length === 0,
       email: email.length === 0,
-      message: message.length === 0
+      message: message.length === 0,
     };
   }
 
   render() {
     const errors = this.validate();
-    const isDisabled = Object.keys(errors).some(x => errors[x]);
+    const isDisabled = Object.keys(errors).some((x) => errors[x]);
     const { touched, sent, name, sendError, message } = this.state;
 
-    const shouldMarkError = field => {
+    const shouldMarkError = (field) => {
       const hasError = errors[field];
       const shouldShow = touched[field];
 
@@ -91,7 +91,7 @@ class ContactForm extends React.Component {
     };
 
     return (
-      <Fragment>
+      <>
         {sendError ? (
           <Text whiteSpace>
             Der skete desværre en fejl.
@@ -165,7 +165,7 @@ class ContactForm extends React.Component {
             </Row>
           </Form>
         )}
-      </Fragment>
+      </>
     );
   }
 }
@@ -193,6 +193,7 @@ const Column = styled.div`
   width: 33%;
   ${Responsive.media.tablet`
     width: 100%;
+    padding-bottom: 1rem;
   `}
 `;
 
@@ -209,7 +210,7 @@ const Label = styled.label`
 `;
 
 const Input = styled.input`
-  border: ${props => (props.error ? 'solid 1px #F00' : 'solid 1px #CCC')};
+  border: ${(props) => (props.error ? 'solid 1px #F00' : 'solid 1px #CCC')};
   background: #fff;
   box-shadow: none;
   height: 40px;
@@ -222,7 +223,7 @@ const Input = styled.input`
 `;
 
 const TextArea = styled.textarea`
-  border: ${props => (props.error ? 'solid 1px #F00' : 'solid 1px #CCC')};
+  border: ${(props) => (props.error ? 'solid 1px #F00' : 'solid 1px #CCC')};
   background: #fff !important;
   box-shadow: none !important;
   height: 100%;

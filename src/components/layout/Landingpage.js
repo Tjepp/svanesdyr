@@ -2,12 +2,11 @@ import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
 import CookieConsent from 'react-cookie-consent';
-import Responsive from '../layout/Responsive';
+import Responsive from './Responsive';
 import { logoLightGrey } from '../../assets';
 import Header from '../Header';
 import FooterBottom from '../FooterBottom';
 import ContactPopUp from '../ContactPopUp';
-
 
 const Landingpage = ({ children }) => (
   <Container>
@@ -20,7 +19,7 @@ const Landingpage = ({ children }) => (
     {children}
     <Background>
       <Bar>
-        <ContactPopUp text="Book din tid nu"/>
+        <ContactPopUp text="Book din tid nu" />
       </Bar>
     </Background>
     <FooterBottom />
@@ -29,7 +28,7 @@ const Landingpage = ({ children }) => (
 );
 
 Landingpage.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Landingpage;
@@ -39,13 +38,13 @@ const Container = styled.div`
   flex-direction: column;
   align: center;
   justify-content: center;
-  height:100%;
+  height: 100%;
   width: 100%;
 `;
 
 const Background = styled.div`
   min-height: 90px;
-  background: #0F292F;
+  background: #0f292f;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #000;
@@ -57,6 +56,7 @@ const Bar = styled.div`
   position: relative;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   max-width: 1200px;
   width: 100%;
   ${Responsive.media.tablet`

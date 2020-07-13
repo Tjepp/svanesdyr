@@ -1,26 +1,41 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelope, faPhone, faBars, faMapMarkerAlt, faInfoCircle, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import {
+  faEnvelope,
+  faPhone,
+  faBars,
+  faMapMarkerAlt,
+  faInfoCircle,
+  faChevronRight,
+  faTimes,
+} from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebookF,
   faLinkedinIn,
   faApple,
   faGoogle,
-  faMicrosoft
+  faMicrosoft,
 } from '@fortawesome/free-brands-svg-icons';
 import {
-  About, 
-  Cat, 
-  Contact, 
-  Dog, DogConsultPuppy,
-  DogCourse, DogPuppy, DogContinued, DogCool, DogRecall, DogTricks, DogSummer, DogCoolFriend,
-  Home, 
-  Horse, 
-  Lecture, 
-  MyMethods
+  About,
+  Cat,
+  Contact,
+  Dog,
+  DogConsultPuppy,
+  DogCourse,
+  DogPuppy,
+  DogContinued,
+  DogCool,
+  DogRecall,
+  DogTricks,
+  DogSummer,
+  DogCoolFriend,
+  Home,
+  Horse,
+  Lecture,
+  MyMethods,
 } from './pages';
-
 
 library.add(
   faEnvelope,
@@ -33,7 +48,8 @@ library.add(
   faGoogle,
   faMicrosoft,
   faInfoCircle,
-  faChevronRight
+  faChevronRight,
+  faTimes
 );
 
 const App = () => (

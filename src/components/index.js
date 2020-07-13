@@ -46,4 +46,5 @@ export { default as StyledA } from './links/StyledA';
 export { default as StyledB } from './links/StyledB';
 export { default as Prices } from './Prices';
 export { default as MapsInfoMarker } from './MapsInfoMarker';
+export { default as ContactPopUp } from './ContactPopUp';
 export * from './education';
