@@ -202,7 +202,7 @@ const DogConsultPuppy = () => (
             <TextContainer>
               <Text>
                 Jeg hedder Sabrina Svane har siden 2012 haft ugentlige hvalpehold og hundredvis af hvalpeejere under vingerne,
-                både på træningsbanen og i hjemmet ved privatbesøg. Jeg har gennem tiden haft mange forskellige racer mellem hænderne,
+                både på træningsbanen i Horsens og i hjemmet ved privatbesøg. Jeg har gennem tiden haft mange forskellige racer mellem hænderne,
                 og møder altid hvalpene hvor de er, da hver hvalp har deres egen personlighed at tage hensyn til.
               </Text>
               <Text>
@@ -225,7 +225,7 @@ const DogConsultPuppy = () => (
         </Column>
       </Row>
 
-      <Row>
+      <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter color="#1cb8b8" text="Smid en mail afsted nu og få svar indenfor 24 timer om tid til et hvalpevisit" />
           <TextCenter>
@@ -246,7 +246,7 @@ const DogConsultPuppy = () => (
         </Column>
       </Row>
 
-      <Row>
+      <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter text="Stadig i tvivl om du skal bestille tid? Her er 3 argumenter for hvorfor du kan få gavn af et hvalpevisit:" />
           <TextListArrow texts={ConsultPupDoubts} />
