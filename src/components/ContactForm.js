@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/label-has-for */
-import React, { Fragment } from 'react';
+import React from 'react';
 import axios from 'axios'; // For making client request.
 import styled from 'styled-components';
 import Responsive from './layout/Responsive';

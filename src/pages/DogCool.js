@@ -128,7 +128,7 @@ const DogCool = () => (
 
           <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler /> 
           <FlexedRow>
-            <Image src={TestiCoolOne} width="200px" height="250px" />
+            <Image src={TestiCoolOne} width="200px" height="300px" />
             <TextContainer>
               <TitleColor text="Vi var bekymret for om vores hund kunne lærer det vi ønskede, men vi blev overrasket" />  
               <Text>
@@ -146,7 +146,7 @@ const DogCool = () => (
           <br />
 
           <FlexedRow>
-            <Image src={TestiCoolTwo} width="200px" height="250px" />
+            <Image src={TestiCoolTwo} width="200px" height="300px" />
             <TextContainer>
               <TitleColor text="Vi fik øjnene op for at selv angste hunde godt kan med andre" />
               <Text>
