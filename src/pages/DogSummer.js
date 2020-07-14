@@ -28,9 +28,10 @@ const SummerInfo = [
   'Plads til max 6 snuder pr. hold',
   'Foregår på Sorthøjvej 40, 8700 Horsens',
   '3 dages træning i alt: Starter onsdag og slutter fredag i den respektive uge',
+  'Vi mødes 1,5 time hver dag, med hhv. 60 min. træning og 30 min. leg og hygge',
   'Lørdag formiddag er der fælles afslutning for alle med hyggetimen',
   'Der serveres kaffe og te hver dag',
-  'God tid til en ekstra sludder og hygge med holdkammeraterne'
+  'Der er god tid til en ekstra sludder og hygge med holdkammeraterne'
 ];
 
 const SummerProgram = [
@@ -39,7 +40,7 @@ const SummerProgram = [
   'Rolige gåture: Lær kontaktlege der giver dig fornøjelige gåture uden trækken i snoren',
   'Barn & Hund: Sjove lege og øvelser, som styrker barn og hunds fælles bånd',
   'Tricks & Leg: Hygge med kropskontrol, tricks og masser af god leg med andre hunde',
-  'Doggie-Zen Master: Til hunden der skal mestrer ro omkring spændende fristelser'
+  'Sorte bælte i selvkontrol: Til hunden der skal mestrer ro omkring spændende fristelser'
   
 ];
 
@@ -181,7 +182,7 @@ const DogSummer = () => (
                 </Td>
               </Tr>
               <Tr>
-                <Td>Doggie-Zen Master</Td>
+                <Td>Sorte bælte i selvkontrol</Td>
                 <Td>18.45 - 20.15</Td>
                 <Td>6 pladser</Td>
                 <Td><font color="#D60E0E">6 ledige</font></Td>
