@@ -107,7 +107,7 @@ const DogSummer = () => (
                 <Td>Nose Work letøvet / øvet</Td>
                 <Td>11.30 - 13.00</Td>
                 <Td>6 pladser</Td>
-                <Td><font color="#D60E0E">4 ledige</font></Td>
+                <Td><font color="#D60E0E">2 ledige</font></Td>
                 <Td>
                   <StyledExternal href="https://www.facebook.com/events/1976440025826246/">
                   {"Facebook-tilmelding"}
@@ -121,17 +121,6 @@ const DogSummer = () => (
                 <Td><font color="#D60E0E">1 ledig</font></Td>
                 <Td>
                   <StyledExternal href="https://www.facebook.com/events/1276822452669753/">
-                  {"Facebook-tilmelding"}
-                  </StyledExternal>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Rolige gåture</Td>
-                <Td>18.45 - 20.15</Td>
-                <Td>6 pladser</Td>
-                <Td><font color="#D60E0E">5 ledige</font></Td>
-                <Td>
-                  <StyledExternal href="https://www.facebook.com/events/606308353653979/">
                   {"Facebook-tilmelding"}
                   </StyledExternal>
                 </Td>
