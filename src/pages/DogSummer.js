@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -14,9 +14,9 @@ import {
   BreadCrumps,
   Row,
   // Image,
-  DogCourseSummer,
+  // DogCourseSummer,
   StyledLink,
-  StyledExternal,
+  // StyledExternal,
   TextList
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -83,13 +83,12 @@ const DogSummer = () => (
           </Text>
           <br />
 
-          <Title text="Skema for uge 30" showHorizontalRuler />
+          <Title text="Udbud af sommerkurser" showHorizontalRuler />
           <TitleColor text="Din investering pr. hold: 625 kr."/>
           <Text>
-            Følgende hold starter <b>onsdag den 22. juli</b> og varer tre dage til og med fredag den 24. juli.<br />
-            Lørdag den 25. juli mødes vi fra kl. 10.00 - 12.00 til fælles hyggetime.
+            Nye hold planlægges til sommeren 2021 og annonceres maj 2021
           </Text>
-          <Table>
+          {/* <Table>
             <DogCourseSummer />
             <Tbody>
               <Tr>
@@ -126,63 +125,9 @@ const DogSummer = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
-          <Title text="Skema for uge 31" showHorizontalRuler />
-          <TitleColor text="Din investering pr. hold: 625 kr."/>
-          <Text>
-            Følgende hold starter <b>onsdag den 29. juli</b> og varer tre dage til og med fredag den 31. juli.<br />
-            Lørdag den 1. august mødes vi fra kl. 10.00 - 12.00 til fælles hyggetime.
-          </Text>
-          <Table>
-            <DogCourseSummer />
-            <Tbody>
-              <Tr>
-                <Td>Barn og Hund</Td>
-                <Td>09.30 - 11.00</Td>
-                <Td>6 pladser</Td>
-                <Td><font color="#D60E0E">6 ledige</font></Td>
-                <Td>
-                  <StyledExternal href="https://www.facebook.com/events/3177385885691447/">
-                  {"Facebook-tilmelding"}
-                  </StyledExternal>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Tricks og Leg</Td>
-                <Td>11.30 - 13.00</Td>
-                <Td>6 pladser</Td>
-                <Td><font color="#D60E0E">6 ledige</font></Td>
-                <Td>
-                  <StyledExternal href="https://www.facebook.com/events/1005969476508351/">
-                  {"Facebook-tilmelding"}
-                  </StyledExternal>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Rolige gåture</Td>
-                <Td>17.00 - 18.30</Td>
-                <Td>6 pladser</Td>
-                <Td><font color="#D60E0E">6 ledige</font></Td>
-                <Td>
-                  <StyledExternal href="https://www.facebook.com/events/272411560857298/">
-                  {"Facebook-tilmelding"}
-                  </StyledExternal>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Sorte bælte i selvkontrol</Td>
-                <Td>18.45 - 20.15</Td>
-                <Td>6 pladser</Td>
-                <Td><font color="#D60E0E">6 ledige</font></Td>
-                <Td>
-                  <StyledExternal href="https://www.facebook.com/events/909248736261221/">
-                  {"Facebook-tilmelding"}
-                  </StyledExternal>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
+
 
         {/* <Title text="Billeder fra sommerhold Horsens" showHorizontalRuler />
         <Row>

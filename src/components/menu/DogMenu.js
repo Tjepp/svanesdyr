@@ -10,7 +10,7 @@ const DogMenu = () => (
   <StyledMenuLinkWithIcon link={"/hundehold/coolhold"}  text={"Helt-Cool"}/>
   <StyledMenuLinkWithIcon link={"/hundehold/venligvovse"}  text={"Venlig-Vovse"}/>
   <StyledMenuLinkWithIcon link={"/hundehold/indkald"}  text={"Indkaldskursus"}/>
-  <StyledMenuLinkWithIcon link={"/hundehold/sommerhund"}  text={"Sommerferietræning"}/>
+  {/* <StyledMenuLinkWithIcon link={"/hundehold/sommerhund"}  text={"Sommerferietræning"}/> */}
   {/* <StyledMenuLinkWithIcon link={"/hundehold/tricks"}  text={"Tricks & Motorik"}/> */}
 </MenuContainer>
 )
