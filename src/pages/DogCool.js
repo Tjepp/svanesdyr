@@ -130,7 +130,7 @@ const DogCool = () => (
           <FlexedRow>
             <Image src={TestiCoolOne} width="200px" height="300px" />
             <TextContainer>
-              <TitleColor text="Vi var bekymret for om vores hund kunne lærer det vi ønskede, men vi blev overrasket" />  
+              <TitleColor text=" ”Vi var bekymret for om vores hund kunne lærer det vi ønskede, men vi blev overrasket” " />  
               <Text>
                 Det mest fantastiske ved at deltage på helt cool har været den effektive hjælp til håndtering af problematikker.
                 Vi har fået roligere gåture, en rolig hund ved gæster i hjemmet og en bedre relation til hunden. 
@@ -148,7 +148,7 @@ const DogCool = () => (
           <FlexedRow>
             <Image src={TestiCoolTwo} width="200px" height="300px" />
             <TextContainer>
-              <TitleColor text="Vi fik øjnene op for at selv angste hunde godt kan med andre" />
+              <TitleColor text=" ”Vi fik øjnene op for at selv angste hunde godt kan med andre” " />
               <Text>
                 Inden start var jeg bekymret for at passe ind.
                 Da jeg har angst selv, var det en stor fordel at blive bekræftiget i at det jeg gør er rigtigt.
@@ -165,7 +165,7 @@ const DogCool = () => (
           </FlexedRow>
           <br />
 
-          <Title text="Fortat Helt-Cool" showHorizontalRuler />
+          <Title text="Fortsat Helt-Cool" showHorizontalRuler />
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere cool-hold.<br />
             Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de rolige gåture praktiseres i stor stil.
@@ -195,7 +195,7 @@ const DogCool = () => (
                 <Td>19.30 - 20.15</Td>
                 <Td>8. september</Td>
                 <Td>20. oktober</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>

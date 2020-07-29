@@ -17,11 +17,13 @@ import {
   Image,
   DogCourseSimple,
   StyledLink,
-  DogCourseTableHead
+  DogCourseTableHead,
+  FlexedRow,
+  TextContainer
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { PuppyOne, PuppyTwo, PuppyThree, PuppyFour, PuppyFive, PuppySix } from '../assets';
+import { PuppyOne, PuppyTwo, PuppyThree, PuppyFour, PuppyFive, PuppySix, ConsultPupTwo } from '../assets';
 
 const PuppyProgram = [
   'Fornøjelige gåture, uden at trække i snoren',
@@ -126,7 +128,7 @@ const DogPuppy = () => (
                 <Td>09.00 - 09.45</Td>
                 <Td>6. september</Td>
                 <Td>18. oktober</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
               <Tr>
                 <Td>Hvalp L</Td>
@@ -136,7 +138,7 @@ const DogPuppy = () => (
                 <Td>17.30 - 18.15</Td>
                 <Td>8. september</Td>
                 <Td>20. oktober</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
@@ -168,7 +170,26 @@ const DogPuppy = () => (
             </Tbody>
           </Table>
           <br />
-      
+
+        <Title text="Dette siger kursisterne efter deltagelse på Hvalpehold" showHorizontalRuler /> 
+        <FlexedRow>
+          <Image src={ConsultPupTwo} width="200px" height="300px" />
+          <TextContainer>
+            <TitleColor text=" ”Vores hvalp har lært at slappe af på signal” " />  
+            <Text>
+                Den største forandring for os var at få større viden omkring ro / søvns vigtighed
+                for en hvalp. Det var noget af en aha-oplevelse at lære hvalpens behov for at ”øve”
+                sig i ro, da man ellers får et ”damp barn”.
+              </Text>
+              <Text>
+                Vi har set hvor lærenem han er og har lært at bruge et ”slap-af”-tæppe. Han søger i
+                dag selv tæppet når han ved det er tid til ro.
+              </Text>
+              <Text>Freja og Polle</Text>
+          </TextContainer>
+        </FlexedRow>
+        <br />
+
         <Title text="Billeder fra hvalpehold Horsens" showHorizontalRuler />
         <Row>
         <Column>
