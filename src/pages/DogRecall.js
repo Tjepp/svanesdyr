@@ -86,7 +86,7 @@ const DogRecall = () => (
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>17.30 - 18.15</Td>
+                <Td>16.30 - 17.15</Td>
                 <Td>7. september</Td>
                 <Td>19. oktober</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
@@ -98,9 +98,9 @@ const DogRecall = () => (
           <Title text="Indkald Trin2" showHorizontalRuler />
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere indkaldshold.<br />
-            Det primære fokus på Trin 2 holdet er at skabe det sikre indkald, uanset hvilke spændende forstyrrelser der måtte friste.
+            Det primære fokus på Trin 2 holdet er at generalisere det sikre indkald, ved at tage træningen ud i nye varierende situationer.
           </Text>
-          {/* <Table>
+          <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -108,13 +108,13 @@ const DogRecall = () => (
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>13. juli</Td>
-                <Td>17. august</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>7. september</Td>
+                <Td>19. oktober</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
       
         <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />

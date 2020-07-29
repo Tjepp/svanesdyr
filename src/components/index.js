@@ -13,6 +13,7 @@ export { default as MetaDogContinued } from './meta/MetaDogContinued';
 export { default as MetaDogCool } from './meta/MetaDogCool';
 export { default as MetaDogCoolFriend } from './meta/MetaDogCoolFriend';
 export { default as MetaDogCourse } from './meta/MetaDogCourse';
+export { default as MetaDogNailClip } from './meta/MetaDogNailClip';
 export { default as MetaDogPuppy } from './meta/MetaDogPuppy';
 export { default as MetaDogRecall } from './meta/MetaDogRecall';
 export { default as MetaDogSummer } from './meta/MetaDogSummer';

@@ -49,7 +49,7 @@ const DogCourse = () => (
           </Text>
           <Text>
             <b>Vi ses én gang om ugen</b><br />
-            Hvert hold varer 6 - 7 uger, hvor vi mødes til træning i <b>45 min. per uge</b>.
+            Hvert hold varer 7 uger, hvor vi mødes til træning i <b>45 min. per uge</b>.
             Der tilsendes skriftlige guides på kursets øvelser, så det er let at træne videre hjemme.
             Du vil blive introduceret til klikkertræning og konceptet med at bruge mad, leg og ros til hverdagens opdragelse.
           </Text>
