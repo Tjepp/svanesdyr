@@ -120,7 +120,7 @@ const DogCool = () => (
                 <Td>12.00 - 12.45</Td>
                 <Td>6. september</Td>
                 <Td>18. oktober</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
