@@ -7,7 +7,7 @@ const MetaDogPuppy = ({ title, description, keywords }) => (
     <MetaTags>
       <title>{title}</title>
       <meta property="og:title" content={title} />
-      <link rel="canonical" href="https://www.svanesdyr.dk/" />
+      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/hvalpehold" />
       <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/hvalpehold" />
 
       <meta property="og:locale" content="da_DK" />
