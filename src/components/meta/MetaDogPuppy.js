@@ -23,7 +23,7 @@ const MetaDogPuppy = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hvalpehold Horsens | God socialisering | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr '
+  'Hvalpehold Horsens | Kontrolleret socialisering | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr '
   ;
 
 const defaultDescription = 
