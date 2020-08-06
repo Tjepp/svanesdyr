@@ -103,7 +103,7 @@ const DogContinued = () => (
                 <Td>18.30 - 19.15</Td>
                 <Td>10. september</Td>
                 <Td>15. oktober</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
                 <Td>Negleklip B</Td>
