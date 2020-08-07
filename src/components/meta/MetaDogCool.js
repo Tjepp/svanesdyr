@@ -7,12 +7,12 @@ const MetaDogCool = ({ title, description, keywords }) => (
     <MetaTags>
       <title>{title}</title>
       <meta property="og:title" content={title} />
-      <link rel="canonical" href="https://www.svanesdyr.dk/" />
-      <meta property="og:url" content="https://www.svanesdyr.dk/" />
+      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/coolhold" />
+      <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/coolhold" />
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://www.svanesdyr.dk/HoldCool3.png" />
+      <meta property="og:image" content="https://www.svanesdyr.dk/MetaDogCool3.png" />
       <meta property="og:site_name" content="Svanes Dyr" />
 
       <meta name="keywords" content={keywords} />
