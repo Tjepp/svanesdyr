@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MetaTags from 'react-meta-tags';
-import { PuppyTwo } from '../../assets';
 
 const MetaDogPuppy = ({ title, description, keywords }) => (
   <>
