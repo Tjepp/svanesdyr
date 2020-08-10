@@ -117,7 +117,7 @@ const DogCool = () => (
                 <Td>Søndag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>12.00 - 12.45</Td>
+                <Td>12.15 - 13.00</Td>
                 <Td>6. september</Td>
                 <Td>18. oktober</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
