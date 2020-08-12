@@ -17,6 +17,7 @@ import {
   TextListMark,
   TextListArrow,
   ContactPopUp,
+  LandingpageCallMe
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { ConsultPupOne, ConsultPupTwo, ConsultPupThree } from '../assets';
@@ -74,11 +75,31 @@ const DogConsultPuppy = () => (
             en lydig, kontaktsøgende hund, som let kan finde ro af sig selv og dermed gør jeres
             hverdag sammen mere overskuelig og hyggelig.
           </TextCenter>
-          <br />
-          <ContactPopUp text="Smid en mail og få tid til et besøg" />
+          <LandingpageCallMe />
         </Column>
       </Row>
 
+      <Row>
+        <Column widthPercentage="80%">
+        <TitleCenter text="Du får professionel rådgivning og en skræddersyet handlingsplan til dig og din hvalp" />
+          <FlexedRow>
+            <Image src={ConsultPupThree} width="200px" height="200px" />
+            <TextContainer>
+              <Text>
+                Jeg hedder Sabrina Svane har siden 2012 haft ugentlige hvalpehold og hundredvis af hvalpeejere under vingerne,
+                både på træningsbanen i Horsens og i hjemmet ved privatbesøg. Jeg har gennem tiden haft mange forskellige racer mellem hænderne,
+                og møder altid hvalpene hvor de er, da hver hvalp har deres egen personlighed at tage hensyn til.
+              </Text>
+              <Text>
+                Du får altså besøg af en uddannet Hundeadfærdskonsulent, der har reel, praktisk erfaring med at
+                hjælpe hvalpe godt fra start og kan hurtigt sætte dig ind i hvad der virker og ikke virker, når hvalpen skal lære nyt.
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+        </Column>
+      </Row>
+      <ContactPopUp text="Smid en mail og få tid til et besøg" />
+      
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter text="Genkender du bare én af følgende oplevelser:" />
@@ -114,7 +135,7 @@ const DogConsultPuppy = () => (
           </TextCenter>
 
           <br />
-          <ContactPopUp text="Ja tak, giv mig metoderne til at få succes" />
+          <ContactPopUp text="Book et hvalpevisit og få metoderne til succes" />
         </Column>
       </Row>
 
@@ -178,6 +199,7 @@ const DogConsultPuppy = () => (
             hvalpebideri, miljøtræning, socialisering, alene hjemme træning, renlighed og hvad du
             ellers går og tænker på!
           </TextCenter>
+          <LandingpageCallMe />
         </Column>
       </Row>
 
@@ -189,45 +211,24 @@ const DogConsultPuppy = () => (
             Det tager kun halvanden time af din tid at sikre dig en mere overskuelig hverdag og en
             mere rolig, fælles fremtid!
           </TextCenter>
-          <br />
-          <ContactPopUp text="Ja tak, giv mig overskud igen!" />
-        </Column>
-      </Row>
-
-      <Row marginTop="25px">
-        <Column widthPercentage="80%">
-        <TitleCenter text="Du får professionel rådgivning og en skræddersyet handlingsplan til dig og din hvalp" />
-          <FlexedRow>
-            <Image src={ConsultPupThree} width="200px" height="200px" />
-            <TextContainer>
-              <Text>
-                Jeg hedder Sabrina Svane har siden 2012 haft ugentlige hvalpehold og hundredvis af hvalpeejere under vingerne,
-                både på træningsbanen i Horsens og i hjemmet ved privatbesøg. Jeg har gennem tiden haft mange forskellige racer mellem hænderne,
-                og møder altid hvalpene hvor de er, da hver hvalp har deres egen personlighed at tage hensyn til.
-              </Text>
-              <Text>
-                Du får altså besøg af en uddannet Hundeadfærdskonsulent, der har reel, praktisk erfaring med at
-                hjælpe hvalpe godt fra start og kan hurtigt sætte dig ind i hvad der virker og ikke virker, når hvalpen skal lære nyt.
-              </Text>
-            </TextContainer>
-          </FlexedRow>
         </Column>
       </Row>
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter text="Din investering i din helt egen garanti for en mindre stressfyldt og langt mere afslappet hverdag med din hvalp, er:" />
-          <ContactPopUp text="Kun 1.050 kr. + kørsel" />
-          <br />
+          <TitleCenter bold color="#1cb8b8" text="Kun 1.050 kr. + kørsel" />
           <TextCenter>
             Det svarer nogenlunde til prisen på et par robuste hvalpebøger, som kan give en overflod af information uden at du får konkrete værktøjer til lige dét du søger hjælp til.
           </TextCenter>
+          <br />
+          <ContactPopUp text="Send en mail og få en tid til et værdifuldt besøg" />
         </Column>
       </Row>
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TitleCenter color="#1cb8b8" text="Smid en mail afsted nu og få svar indenfor 24 timer om tid til et hvalpevisit" />
+          <TitleCenter color="#1cb8b8" text="Du får svar indenfor 24 timer om tid til et hvalpevisit" />
           <TextCenter>
             Et hvalpevisit foregår i hjemmet hos dig og din hvalp og gerne med familien samlet til deltagelse.
           </TextCenter>

@@ -1,4 +1,5 @@
 export { default as Button } from './Button';
+export { default as CallMe } from './CallMe';
 export { default as Column } from './layout/Column';
 export { default as FooterBottom } from './FooterBottom';
 export { default as FooterTop } from './FooterTop';
@@ -24,6 +25,7 @@ export { default as Title } from './Title';
 export { default as TitleCenter } from './TitleCenter';
 export { default as TitleColor } from './TitleColor';
 export { default as InfoDogCourses } from './InfoDogCourses';
+export { default as LandingpageCallMe } from './LandingpageCallMe';
 export { default as LandingpageHeadline } from './LandingpageHeadline';
 export { default as BreadCrumps } from './BreadCrumps';
 export { default as DogCourseTableHead } from './table/DogCourseTableHead';

@@ -38,6 +38,12 @@ const RecallBenefits = [
   'Udleveret en klikker til valgfrit brug i træningen'
 ];
 
+const ContinuedRecallProgram = [
+  'Forstyrrelseslegen; Det stærke indkald omkring fristelser',
+  'Træning af indkald under leg med andre hunde',
+  'Fra kravlegård til kørebane: Succesfulde indkald i nye omgivelser'
+];
+
 const DogRecall = () => (
   <Page>
     <MetaDogRecall />
@@ -100,18 +106,22 @@ const DogRecall = () => (
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på tidligere indkaldshold.<br />
             Det primære fokus på Trin 2 holdet er at generalisere det sikre indkald, ved at tage træningen ud i nye varierende situationer.
           </Text>
+          <Text>
+            <b>Træningsprogram for Trin2-holdet</b>
+          </Text>
+          <TextList texts={ContinuedRecallProgram} />
           <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
                 <Td>Indkald 2B</Td>
-                <Td>Mandag</Td>
+                <Td>Torsdag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>17.30 - 18.15</Td>
-                <Td>7. september</Td>
-                <Td>19. oktober</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td>10. september</Td>
+                <Td>22. oktober</Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
             </Tbody>
           </Table>
