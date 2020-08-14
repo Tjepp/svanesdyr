@@ -122,6 +122,33 @@ const DogCool = () => (
                 <Td>18. oktober</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
+              <Tr>
+                <Td>Cool G</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>27. oktober</Td>
+                <Td>8. december</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="November start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Cool H</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>12.15 - 13.00</Td>
+                <Td>1. november</Td>
+                <Td>13. december</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
             </Tbody>
           </Table>
           <br />

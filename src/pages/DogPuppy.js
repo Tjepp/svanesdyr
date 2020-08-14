@@ -17,7 +17,6 @@ import {
   Image,
   DogCourseSimple,
   StyledLink,
-  DogCourseTableHead,
   FlexedRow,
   TextContainer
 } from '../components';
@@ -87,34 +86,6 @@ const DogPuppy = () => (
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 950 kr."/>
-          <Title text="August start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Hvalp I</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>10.00 - 10.45</Td>
-                <Td>2. august</Td>
-                <Td>27. september</Td>
-                <Td>Uge 34 + 35</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp J</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>3. august</Td>
-                <Td>28. september</Td>
-                <Td>Uge 35 + 36</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
 
           <Title text="September start:" />
           <Table>
@@ -165,6 +136,33 @@ const DogPuppy = () => (
                 <Td>19.30 - 20.15</Td>
                 <Td>12. oktober</Td>
                 <Td>23. november</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp O</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>27. oktober</Td>
+                <Td>8. december</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="November start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Hvalp P</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>11.00 - 11.45</Td>
+                <Td>1. november</Td>
+                <Td>13. december</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>

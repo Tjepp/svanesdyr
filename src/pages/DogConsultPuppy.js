@@ -117,7 +117,6 @@ const DogConsultPuppy = () => (
             Den dårlige nyhed er, at dårlig opførsel fra hvalpen skyldes manglende klarhed om ønsker
             fra dig og mangel på faste rutiner - og altså ikke en indre trodsighed eller stædighed
             hos hvalpen.
-            <br />
             Det er desværre et smertefuldt faktum, at mange hvalpe får dårlige vaner, fordi de ikke
             bliver ordentligt vejledt fra start og hjulpet til hverdag.
           </TextCenter>

@@ -38,12 +38,12 @@ const consultation = [
   'Hunden er urenlig'
 ];
 
-const puppyVisitTexts = [
-  'Hvalpens sprog og fysiske udvikling',
-  'Optimal aktivering i hverdagen',
-  'Renlighed, alene hjemme og hvalpebideri',
-  'Miljøtræning og socialisering'
-];
+// const puppyVisitTexts = [
+//   'Hvalpens sprog og fysiske udvikling',
+//   'Optimal aktivering i hverdagen',
+//   'Renlighed, alene hjemme og hvalpebideri',
+//   'Miljøtræning og socialisering'
+// ];
 
 const Dog = () => (
   <Page>
@@ -112,8 +112,9 @@ const Dog = () => (
             giver jer konkrete tiltag til at få en harmonisk hverdag.
             Du vil blive introduceret til konceptet med at bruge mad, leg og ros til hverdagens opdragelse.
           </Text>
-          <Text bold>Vi gennemgår følgende ved hvalpevisit:</Text>
-          <TextList texts={puppyVisitTexts} />
+          <Text><StyledLink to="/hvalpevisit"> Læs mere her </StyledLink></Text>
+          {/* <Text bold>Vi gennemgår følgende ved hvalpevisit:</Text>
+          <TextList texts={puppyVisitTexts} /> */}
         </Column>
         <Column>
           <Image src={dogOne} />

@@ -16,8 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple,
-  DogCourseTableHead
+  DogCourseSimple
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -86,24 +85,6 @@ const DogContinued = () => (
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 950 kr."/>
-         
-          <Title text="August start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter C</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>10. august</Td>
-                <Td>5. oktober</Td>
-                <Td>Uge 35 + 36</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
 
           <Title text="September start:" />
           <Table>
@@ -128,6 +109,33 @@ const DogContinued = () => (
                 <Td>8. september</Td>
                 <Td>20. oktober</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="Oktober start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Fortsætter F</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>5. oktober</Td>
+                <Td>16. november</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsætter G</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>09.00 - 09.45</Td>
+                <Td>25. oktober</Td>
+                <Td>5. december</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
