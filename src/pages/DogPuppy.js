@@ -102,6 +102,16 @@ const DogPuppy = () => (
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
+                <Td>Hvalp Xtra</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>7. september</Td>
+                <Td>19. oktober</Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
+              </Tr>
+              <Tr>
                 <Td>Hvalp L</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>

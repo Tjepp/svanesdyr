@@ -113,22 +113,12 @@ const DogRecall = () => (
           <Table>
             <DogCourseSimple />
             <Tbody>
-            <Tr>
-                <Td>Indkald 2B</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>7. september</Td>
-                <Td>19. oktober</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
-              </Tr>
               <Tr>
-                <Td>Indkald 2C</Td>
+                <Td>Indkald 2B</Td>
                 <Td>Torsdag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>17.30 - 18.15</Td>
+                <Td>17.30 - 18.25</Td>
                 <Td>10. september</Td>
                 <Td>22. oktober</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
