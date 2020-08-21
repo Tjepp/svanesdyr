@@ -16,11 +16,13 @@ import {
   DogCourseSimple,
   TextList,
   Image,
-  StyledLink
+  StyledLink,
+  FlexedRow,
+  TextContainer
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { RecallOne, RecallTwo, RecallThree, RecallFour, RecallFive, RecallSix } from '../assets';
+import { RecallOne, RecallTwo, RecallThree, RecallFour, RecallFive, RecallSix, TestiRecallOne } from '../assets';
 
 const RecallProgram = [
   'Kontaktøvelser, som sikrer dig, at DU altid er interessant',
@@ -99,6 +101,29 @@ const DogRecall = () => (
               </Tr>
             </Tbody>
           </Table>
+          <br />
+
+          <Title text="Dette siger kursisterne efter deltagelse på Indkaldskurset" showHorizontalRuler /> 
+          <FlexedRow>
+            <Image src={TestiRecallOne} width="200px" height="300px" />
+            <TextContainer>
+              <TitleColor text=" ”Sabrina er en dygtig og rar underviser” " />  
+              <Text>
+                Inden start var vi bekymret for at vores hund ikke var dygtig nok, haha. Men vi fandt ud af at hun faktisk er utroligt lærenem.
+              </Text>
+              <Text>
+                Selvfølgelig har det været fantastisk at vi har fået et endnu bedre samarbejde med vores hund.
+                Men det har også været rigtig dejligt at have en træner som Sabrina.
+                Fordi hun gør undervisningen let forståeligt og hun går ind for at hunden skal lærer ved positiv træning.
+              </Text>
+              <Text>
+                Vi har anbefalet kurset til det par som har Ayas bror. Fordi vi er tryg til træning og vi har lært en masse.
+              </Text>
+              <Text>
+                Nina Guldbrand og Tim Jansen - rottweiler Aya
+              </Text>
+            </TextContainer>
+          </FlexedRow>
           <br />
 
           <Title text="Indkald Trin2" showHorizontalRuler />

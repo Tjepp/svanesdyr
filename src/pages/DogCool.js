@@ -20,7 +20,7 @@ import {
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolFive, CoolSix, TestiCoolOne, TestiCoolTwo } from '../assets';
+import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolFive, CoolSix, TestiCoolOne, TestiCoolTwo, TestiCoolThree, TestiCoolFour } from '../assets';
 
 const CoolProgram = [
   'Fornøjelige gåture, uden at trække i snoren',
@@ -171,6 +171,27 @@ const DogCool = () => (
             </TextContainer>
           </FlexedRow>
           <br />
+          
+          <FlexedRow>
+            <Image src={TestiCoolThree} width="200px" height="300px" />
+            <TextContainer>
+              <TitleColor text=" ”Jeg var lidt imod at vi skulle bruge klikker. Men for pokker hvor det virker!” " />  
+              <Text>
+                Jeg er blevet mere sikker og tydelig når jeg går tur og møder andre hunde,
+                jeg har fået nogle gode redskaber til at holde Kenzos opmærksomhed på mig.
+                Det var en overraskelse hvor stor effekt klikkeren har.
+                Jeg har fået øjnene op for hvor meget min hund faktisk elsker at arbejde og træne med mig.
+              </Text>
+              <Text>
+                Alle der har en glad, social hund, som mener den skal snakke med alle, synes jeg skal tage kurset.
+                Da Sabrina er god til at formidle enkelte øvelser, som rent faktisk virker. Og som de fleste kan være med på. 
+              </Text>
+              <Text>
+                Jeanette Schouborg og Kenzo
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
 
           <FlexedRow>
             <Image src={TestiCoolTwo} width="200px" height="300px" />
@@ -187,6 +208,29 @@ const DogCool = () => (
               </Text>
               <Text>
                 Jette Nancke og Dion
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+
+          <FlexedRow>
+            <Image src={TestiCoolFour} width="200px" height="300px" />
+            <TextContainer>
+              <TitleColor text=" ”Vi frygtede vi ikke ville lære noget nyt, men vi tog fejl ” " />  
+              <Text>
+                Vi vidste ikke om det passede til vores hund da han ikke var decideret overgearet/glad og stresset.
+                Men vi har lært hvordan han motiveres på gåture, hvordan vi undgår overstimulering (og klappen går ned) 
+                og ikke mindst hvordan vi møder fremmede mere hensigtsmæssigt.
+              </Text>
+              <Text>
+                Da vi prøvede Sidde eller gå-legen gik det op for mig at min hund holder bedre kontakt når der er fart over feltet end at vi sidder og kigger.
+                Harry kan bedre lige når vi løber/leger/larmer. 
+              </Text>
+              <Text>
+                Jeg ved nu hvordan jeg kan gøre gåturen bedre for alle fordi jeg kender min hund bedre, og dét er en stor forandring.
+              </Text>
+              <Text>
+                - HarryBerryyy!
               </Text>
             </TextContainer>
           </FlexedRow>

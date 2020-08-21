@@ -22,7 +22,7 @@ import {
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { PuppyOne, PuppyTwo, PuppyThree, PuppyFour, PuppyFive, PuppySix, ConsultPupTwo } from '../assets';
+import { PuppyOne, PuppyTwo, PuppyThree, PuppyFour, PuppyFive, PuppySix, ConsultPupTwo, TestiPupOne, TestiPupTwo } from '../assets';
 
 const PuppyProgram = [
   'Fornøjelige gåture, uden at trække i snoren',
@@ -181,10 +181,46 @@ const DogPuppy = () => (
 
         <Title text="Dette siger kursisterne efter deltagelse på Hvalpehold" showHorizontalRuler /> 
         <FlexedRow>
+          <Image src={TestiPupOne} width="200px" height="300px" />
+          <TextContainer>
+            <TitleColor text=" ”Vi har fået virkelig gode øvelser som vi kan bruge i hverdagen” " />  
+              <Text>
+                Vi vil anbefale alle der skal have hvalp at deltage på Sabrinas hold, ikke bare for at lærer øvelserne
+                men at prøve at arbejde sammen med sin hund er en super følelse! 
+              </Text>
+              <Text>
+                Vi har fået bedre indsigt i hvordan en hund lærer så man kan bruge det på de udfordringer man har.
+                Vi blev overrasket over hvor mange trin der skal til for at opbygge en øvelse og hvor mange godbidder der skal bruges, 
+                men vi har fået en hund som gerne vil lytte og lære, et godt samarbejde med ham og værktøjerer til at arbejde videre selv.
+              </Text>
+              <Text>
+                Det har været en mega god oplevelse!
+              </Text>
+              <Text>Ellen, Thomas og Njord</Text>
+          </TextContainer>
+        </FlexedRow>
+        <br />
+        <FlexedRow>
+          <Image src={TestiPupTwo} width="200px" height="300px" />
+          <TextContainer>
+            <TitleColor text=" ”Det mest fantastiske var at der var tid til leg med andre hvalpe” " />  
+              <Text>
+                Det bedste ved hvalpeholdet er at der ikke var mange på holdet og tid og guidning i leg med andre hvalpe. 
+              </Text>
+              <Text>
+                Jeg har fået bevidsthed om mit eget kropssprog i forhold til hunden og ikke mindst viden om hundenes indbyrdes sprog.
+                Jeg vil anbefale alle der kunne have brug for træning at deltage på hvalpeholdet.
+                Vi blev selv anbefalet Sabrina fremfor andre.
+              </Text>
+              <Text>Rikke og Santa’s</Text>
+          </TextContainer>
+        </FlexedRow>
+        <br />
+        <FlexedRow>
           <Image src={ConsultPupTwo} width="200px" height="300px" />
           <TextContainer>
             <TitleColor text=" ”Vores hvalp har lært at slappe af på signal” " />  
-            <Text>
+              <Text>
                 Den største forandring for os var at få større viden omkring ro / søvns vigtighed
                 for en hvalp. Det var noget af en aha-oplevelse at lære hvalpens behov for at ”øve”
                 sig i ro, da man ellers får et ”damp barn”.
