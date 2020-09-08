@@ -156,7 +156,7 @@ const DogPuppy = () => (
                 <Td>17.30 - 18.15</Td>
                 <Td>27. oktober</Td>
                 <Td>8. december</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
             </Tbody>
           </Table>
@@ -173,7 +173,7 @@ const DogPuppy = () => (
                 <Td>11.00 - 11.45</Td>
                 <Td>1. november</Td>
                 <Td>13. december</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
