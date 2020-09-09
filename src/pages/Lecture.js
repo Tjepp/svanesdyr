@@ -79,18 +79,6 @@ const Lecture = () => (
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>12. september </Td>
-                <Td>Angst og Aggression - Forebyggelse og behandling</Td>
-                <Td>
-                  <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/angst-og-aggression-i-hunde-forebyggelse-og-behandling?id=205828">
-                    Klik her
-                  </StyledExternal>
-                </Td>
-                <Td>10.00 - 15.45 </Td>
-                <Td>340 kr. </Td>
-                <Td><font color="#D60E0E">7 pladser</font></Td>
-              </Tr>
-              <Tr>
                 <Td>30. september </Td>
                 <Td>Hundens sprog - hvad fortæller den dig? </Td>
                 <Td>
@@ -124,6 +112,18 @@ const Lecture = () => (
                 </Td>
                 <Td>10.00 - 15.45 </Td>
                 <Td>395 kr. </Td>
+                <Td><font color="#D60E0E">10 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>21. november </Td>
+                <Td>Angst og Aggression - Forebyggelse og behandling</Td>
+                <Td>
+                  <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/angst-og-aggression-i-hunde-forebyggelse-og-behandling?id=205832">
+                    Klik her
+                  </StyledExternal>
+                </Td>
+                <Td>10.00 - 15.45 </Td>
+                <Td>340 kr. </Td>
                 <Td><font color="#D60E0E">10 pladser</font></Td>
               </Tr>
             </Tbody>
