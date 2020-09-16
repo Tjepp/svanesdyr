@@ -86,33 +86,6 @@ const DogContinued = () => (
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 950 kr."/>
 
-          <Title text="September start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter D</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>11.00 - 11.45</Td>
-                <Td>6. september</Td>
-                <Td>18. oktober</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Fortsætter E</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>8. september</Td>
-                <Td>20. oktober</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
           <Title text="Oktober start:" />
           <Table>
             <DogCourseSimple />
@@ -137,7 +110,7 @@ const DogContinued = () => (
                 <Td>5. december</Td>
                 <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
-              <Tr>
+              {/* <Tr>
                 <Td>Fortsætter H</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
@@ -146,7 +119,7 @@ const DogContinued = () => (
                 <Td>27. oktober</Td>
                 <Td>8. december</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
-              </Tr>
+              </Tr> */}
             </Tbody>
           </Table>
           <br />

@@ -87,43 +87,6 @@ const DogPuppy = () => (
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 950 kr."/>
 
-          <Title text="September start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Hvalp K</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>09.00 - 09.45</Td>
-                <Td>6. september</Td>
-                <Td>18. oktober</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp Xtra</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>7. september</Td>
-                <Td>19. oktober</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp L</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>8. september</Td>
-                <Td>20. oktober</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
           <Title text="Oktober start:" />
           <Table>
             <DogCourseSimple />
@@ -156,7 +119,7 @@ const DogPuppy = () => (
                 <Td>17.30 - 18.15</Td>
                 <Td>27. oktober</Td>
                 <Td>8. december</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
             </Tbody>
           </Table>
