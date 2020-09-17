@@ -79,18 +79,6 @@ const Lecture = () => (
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>30. september </Td>
-                <Td>Hundens sprog - hvad fortæller den dig? </Td>
-                <Td>
-                  <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/hundens-sprog-hvad-fortaeller-de-os?id=205821">
-                    Klik her
-                  </StyledExternal>
-                </Td>
-                <Td>18.00 - 21.00 </Td>
-                <Td>200 kr. </Td>
-                <Td><font color="#D60E0E">10 pladser</font></Td>
-              </Tr>
-              <Tr>
                 <Td>24. oktober </Td>
                 <Td>Slap af Fido! - få ro på hverdagen </Td>
                 <Td>
@@ -124,7 +112,7 @@ const Lecture = () => (
                 </Td>
                 <Td>10.00 - 15.45 </Td>
                 <Td>340 kr. </Td>
-                <Td><font color="#D60E0E">10 pladser</font></Td>
+                <Td><font color="#D60E0E">7 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
