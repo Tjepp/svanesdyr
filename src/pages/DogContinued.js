@@ -109,7 +109,7 @@ const DogContinued = () => (
                 <Td>09.00 - 09.45</Td>
                 <Td>25. oktober</Td>
                 <Td>5. december</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
               <Tr>
                 <Td>Fortsætter H</Td>
@@ -119,7 +119,7 @@ const DogContinued = () => (
                 <Td>17.30 - 18.15</Td>
                 <Td>26. oktober</Td>
                 <Td>7. december</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
