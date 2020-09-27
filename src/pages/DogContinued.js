@@ -16,7 +16,8 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple
+  DogCourseSimple,
+  DogCourseYearShift
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -108,20 +109,42 @@ const DogContinued = () => (
                 <Td>09.00 - 09.45</Td>
                 <Td>25. oktober</Td>
                 <Td>5. december</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
-              {/* <Tr>
+              <Tr>
                 <Td>Fortsætter H</Td>
-                <Td>Tirsdag</Td>
+                <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>27. oktober</Td>
-                <Td>8. december</Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>26. oktober</Td>
+                <Td>7. december</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
-              </Tr> */}
+              </Tr>
             </Tbody>
           </Table>
+          <Text>Bemærk: Træning <b>lørdag</b> den 5. dec, ikke søndag den 6. for Hold G og H.</Text>
+          <br />
+
+          <Title text="Træning Nov 2020 / Jan 2021:" />
+          <Table>
+            <DogCourseYearShift />
+            <Tbody>
+              <Tr>
+                <Td>Fortsætter I</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>10.00 - 10.45</Td>
+                <Td>22. nov</Td>
+                <Td>13. dec</Td>
+                <Td>10. jan</Td>
+                <Td>31. jan</Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+          <Text>Bemærk: Træning <b>lørdag</b> den 5. dec, ikke søndag den 6. Ingen træning søndag den 24. januar.</Text>
           <br />
 
           <Title text="Fortsætterhold Trin2+" showHorizontalRuler />

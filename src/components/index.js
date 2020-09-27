@@ -30,6 +30,7 @@ export { default as LandingpageHeadline } from './LandingpageHeadline';
 export { default as BreadCrumps } from './BreadCrumps';
 export { default as DogCourseTableHead } from './table/DogCourseTableHead';
 export { default as DogCourseTheory } from './table/DogCourseTheory';
+export { default as DogCourseYearShift } from './table/DogCourseYearShift';
 export { default as DogCourseSummer } from './table/DogCourseSummer';
 export { default as DogCourseSimple } from './table/DogCourseSimple';
 export { default as LectureTableHead } from './table/LectureTableHead';

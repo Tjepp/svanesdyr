@@ -1,7 +1,7 @@
 import React from 'react';
 import { Thead, Tr, Th } from 'react-super-responsive-table';
 
-const DogCourseSimple = () => (
+const DogCourseYearShift = () => (
   <Thead>
     <Tr>
       <Th>Holdnavn</Th>
@@ -9,11 +9,13 @@ const DogCourseSimple = () => (
       <Th>Sted</Th>
       <Th>Tilmelding</Th>
       <Th>Tidspunkt</Th>
-      <Th>Dato start</Th>
-      <Th>Dato slut</Th>
+      <Th>Start</Th>
+      <Th>Slut 2020</Th>
+      <Th>Start 2021</Th>
+      <Th>Slut</Th>
       <Th>Holdstatus</Th>
     </Tr>
   </Thead>
 );
 
-export default DogCourseSimple;
+export default DogCourseYearShift;

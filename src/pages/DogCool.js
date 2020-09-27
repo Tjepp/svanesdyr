@@ -112,16 +112,6 @@ const DogCool = () => (
           <Table>
             <DogCourseSimple />
             <Tbody>
-            <Tr>
-                <Td>Cool F</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>12.15 - 13.00</Td>
-                <Td>6. september</Td>
-                <Td>18. oktober</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
               <Tr>
                 <Td>Cool G</Td>
                 <Td>Tirsdag</Td>

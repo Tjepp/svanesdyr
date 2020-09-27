@@ -1,7 +1,7 @@
 import React from 'react';
 import { Thead, Tr, Th } from 'react-super-responsive-table';
 
-const DogCourseTableHead = () => (
+const DogCourseSummer = () => (
   <Thead>
     <Tr>
       <Th>Holdnavn</Th>
@@ -13,4 +13,4 @@ const DogCourseTableHead = () => (
   </Thead>
 );
 
-export default DogCourseTableHead;
+export default DogCourseSummer;
