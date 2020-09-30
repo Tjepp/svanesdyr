@@ -244,8 +244,8 @@ const DogCool = () => (
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
-                <Td>27. oktober</Td>
-                <Td>8. december</Td>
+                <Td>3. november</Td>
+                <Td>12. december</Td>
                 <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
             </Tbody>
