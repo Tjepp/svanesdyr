@@ -15,7 +15,7 @@ import {
   Row,
   TextList,
   Image,
-  DogCourseSimple,
+  DogCourseSimple, DogCourseYearShift,
   StyledLink,
   FlexedRow,
   TextContainer
@@ -137,6 +137,27 @@ const DogPuppy = () => (
                 <Td>1. november</Td>
                 <Td>13. december</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+          <Text>Bemærk: Træning <b>lørdag</b> den 5. dec, ikke søndag den 6.</Text>
+          <br />
+
+          <Title text="Træning Nov 2020 / Jan 2021:" />
+          <Table>
+            <DogCourseYearShift />
+            <Tbody>
+              <Tr>
+                <Td>Hvalp Q</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>30. nov</Td>
+                <Td>14. dec</Td>
+                <Td>11. jan</Td>
+                <Td>01. feb</Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
