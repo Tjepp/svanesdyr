@@ -152,12 +152,24 @@ const DogPuppy = () => (
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>23. nov</Td>
+                <Td>14. dec</Td>
+                <Td>11. jan</Td>
+                <Td>25. jan</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp R</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>19.30 - 20.15</Td>
                 <Td>30. nov</Td>
                 <Td>14. dec</Td>
                 <Td>11. jan</Td>
                 <Td>01. feb</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
             </Tbody>
           </Table>
