@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple,
+  // DogCourseSimple,
   DogCourseYearShift
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -90,35 +90,6 @@ const DogContinued = () => (
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
 
-          <Title text="Oktober start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter F</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>5. oktober</Td>
-                <Td>16. november</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Fortsætter G</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>09.00 - 09.45</Td>
-                <Td>25. oktober</Td>
-                <Td>5. december</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <Text>Bemærk: Træning <b>lørdag</b> den 5. dec, ikke søndag den 6. for Hold G og H.</Text>
-          <br />
-
           <Title text="Træning Nov 2020 / Jan 2021:" />
           <Table>
             <DogCourseYearShift />
@@ -138,6 +109,8 @@ const DogContinued = () => (
             </Tbody>
           </Table>
           <Text>Bemærk: Træning <b>lørdag</b> den 5. dec, ikke søndag den 6. Ingen træning søndag den 24. januar.</Text>
+          
+          <br /><TitleColor text="2021 hold er under planlægning."/>
           <br />
 
           <Title text="Fortsætterhold Trin2+" showHorizontalRuler />
@@ -146,6 +119,8 @@ const DogContinued = () => (
             Trin 2 +mere bygger videre på tidligere indlærte øvelser og giver mere udfordring til både hund og ejer i shaping, kropskontrol og tricks.
             Disse hold har intet fastlagt program og er derfor åbent for forslag til ønskede øvelser. Holdopstart annonceres her på siden.
           </Text>
+
+          <br /><TitleColor text="2021 hold er under planlægning."/>
           {/* <Table>
             <DogCourseSimple />
             <Tbody>

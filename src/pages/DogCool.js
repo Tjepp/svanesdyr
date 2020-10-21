@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text, TextContainer,
   BreadCrumps,
   Row, FlexedRow,
-  DogCourseSimple,
+  // DogCourseSimple,
   TextList,
   Image,
   StyledLink
@@ -113,23 +113,8 @@ const DogCool = () => (
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
           
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Cool G</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>27. oktober</Td>
-                <Td>8. december</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
-          <Title text="November start:" />
+          <br /><TitleColor text="2021 hold er under planlægning."/>
+          {/* <Title text="November start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -144,7 +129,7 @@ const DogCool = () => (
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler /> 
@@ -239,7 +224,9 @@ const DogCool = () => (
             <b>Træningsprogram for Fortsat-holdet</b>
           </Text>
           <TextList texts={ContinuedCoolProgram} />
-          <Table>
+          
+          <br /><TitleColor text="2021 hold er under planlægning."/>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -253,7 +240,7 @@ const DogCool = () => (
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />

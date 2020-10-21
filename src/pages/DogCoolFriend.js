@@ -94,9 +94,7 @@ const DogCoolFriend = () => (
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
           
-          <Text>
-            Ingen kommende opstart for øjeblikket.
-          </Text>
+          <br /><TitleColor text="2021 hold er under planlægning."/>
           {/* <Table>
             <DogCourseSimple />
             <Tbody>

@@ -15,7 +15,8 @@ import {
   Row,
   TextList,
   Image,
-  DogCourseSimple, DogCourseYearShift,
+  // DogCourseSimple,
+  DogCourseYearShift,
   StyledLink,
   FlexedRow,
   TextContainer
@@ -90,62 +91,6 @@ const DogPuppy = () => (
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
 
-          <Title text="Oktober start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Hvalp M</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>10.00 - 10.45</Td>
-                <Td>4. oktober</Td>
-                <Td>15. november</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp N</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>12. oktober</Td>
-                <Td>23. november</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp O</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>27. oktober</Td>
-                <Td>8. december</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
-          <Title text="November start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Hvalp P</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>11.00 - 11.45</Td>
-                <Td>1. november</Td>
-                <Td>13. december</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <Text>Bemærk: Træning <b>lørdag</b> den 5. dec, ikke søndag den 6.</Text>
-          <br />
-
           <Title text="Træning Nov 2020 / Jan 2021:" />
           <Table>
             <DogCourseYearShift />
@@ -176,6 +121,8 @@ const DogPuppy = () => (
               </Tr>
             </Tbody>
           </Table>
+
+          <br /><TitleColor text="2021 hold er under planlægning."/>
           <br />
 
         <Title text="Dette siger kursisterne efter deltagelse på Hvalpehold" showHorizontalRuler /> 
@@ -245,6 +192,7 @@ const DogPuppy = () => (
           <Image src={PuppyThree}/>
         </Column>
         </Row>
+
         <Row>
         <Column>
           <Image src={PuppyFour}/>
@@ -256,7 +204,6 @@ const DogPuppy = () => (
           <Image src={PuppySix}/>
         </Column>
         </Row>
-
 
         </Column>
       </Row>

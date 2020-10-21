@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseSimple,
+  // DogCourseSimple,
   TextList,
   Image,
   StyledLink,
@@ -90,7 +90,8 @@ const DogRecall = () => (
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
           
-          <Table>
+          <br /><TitleColor text="2021 hold er under planlægning."/>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -104,7 +105,7 @@ const DogRecall = () => (
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Dette siger kursisterne efter deltagelse på Indkaldskurset" showHorizontalRuler /> 
@@ -139,7 +140,9 @@ const DogRecall = () => (
             <b>Træningsprogram for Trin2-holdet</b>
           </Text>
           <TextList texts={ContinuedRecallProgram} />
-          <Table>
+          
+          <br /><TitleColor text="2021 hold er under planlægning."/>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -153,7 +156,7 @@ const DogRecall = () => (
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
       
         <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />

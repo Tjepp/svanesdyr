@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -16,11 +16,11 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple
+  // DogCourseSimple
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { NailClipOne, NailClipTwo, NailClipThree } from '../assets';
+import { NailClipOne, NailClipTwo, NailClipThree, NailClipFour, NailClipFive, NailClipSix } from '../assets';
 
 const NailClipProgram = [
   'Chirag Patels "The Bucket Game"',
@@ -94,7 +94,8 @@ const DogContinued = () => (
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
 
-          <Title text="September start:" />
+          <br /><TitleColor text="2021 hold er under planlægning."/>
+          {/* <Title text="September start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -109,7 +110,7 @@ const DogContinued = () => (
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
       
         <Title text="Billeder af neglekliplegen i aktion" showHorizontalRuler />
@@ -122,6 +123,18 @@ const DogContinued = () => (
         </Column>
         <Column>
           <Image src={NailClipThree}/>
+        </Column>
+        </Row>
+
+        <Row>
+        <Column>
+          <Image src={NailClipFour}/>
+        </Column>
+        <Column>
+          <Image src={NailClipFive}/>
+        </Column>
+        <Column>
+          <Image src={NailClipSix}/>
         </Column>
         </Row>
 
