@@ -85,6 +85,10 @@ const DogSummer = () => (
 
           <Title text="Udbud af sommerkurser" showHorizontalRuler />
           <TitleColor text="Din investering pr. hold: 625 kr."/>
+          <Text italic>
+            Bemærk betaling er bindende og beløb refunderes ikke.
+          </Text>
+          
           <Text>
             Nye hold planlægges til sommeren 2021 og annonceres maj 2021
           </Text>

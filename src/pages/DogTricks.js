@@ -80,6 +80,10 @@ const DogTricks = () => (
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 950 kr."/>
           <Text italic>
+            Bemærk betaling er bindende og beløb refunderes ikke.
+          </Text><br />
+
+          <Text italic>
             Ingen nye hold på programmet.
           </Text>
           {/* <Table>
