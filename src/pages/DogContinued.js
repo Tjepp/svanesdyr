@@ -108,7 +108,7 @@ const DogContinued = () => (
               </Tr>
             </Tbody>
           </Table>
-          <Text>Bemærk: Træning <b>lørdag</b> den 5. dec, ikke søndag den 6. Ingen træning søndag den 24. januar.</Text>
+          <Text>Bemærk: Træning <b>lørdag</b> den 5. dec, ikke søndag den 6.</Text>
           
           <br /><TitleColor text="2021 hold er under planlægning."/>
           <br />
