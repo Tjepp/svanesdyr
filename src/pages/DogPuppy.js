@@ -95,8 +95,18 @@ const DogPuppy = () => (
           <Table>
             <DogCourseSimple />
             <Tbody>
-              <Tr>
+            <Tr>
                 <Td>Hvalp Q</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>16.30 - 17.15</Td>
+                <Td>9. nov</Td>
+                <Td>15. dec</Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp R</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
@@ -107,14 +117,14 @@ const DogPuppy = () => (
               </Tr>
             </Tbody>
           </Table>
-          <Text>Bemærk: Hvalpehold Q sidste time afholdes <b>tirsdag</b> den 15. dec</Text><br />
+          <Text>Bemærk: Hvalpehold R sidste time afholdes <b>tirsdag</b> den 15. dec kl. 18.30</Text><br />
 
           <Title text="Træning Nov 2020 / Jan 2021:" />
           <Table>
             <DogCourseYearShift />
             <Tbody>
               <Tr>
-                <Td>Hvalp R</Td>
+                <Td>Hvalp S</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
@@ -126,7 +136,7 @@ const DogPuppy = () => (
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
-                <Td>Hvalp S</Td>
+                <Td>Hvalp T</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
