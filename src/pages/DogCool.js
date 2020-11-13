@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text, TextContainer,
   BreadCrumps,
   Row, FlexedRow,
-  // DogCourseSimple,
+  DogCourseSimple,
   TextList,
   Image,
   StyledLink
@@ -108,28 +108,28 @@ const DogCool = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 950 kr."/>
-          <Text italic>
+          <TitleColor text="Din investering: 995 kr."/>
+          <Text>i at kunne nyde jeres daglige gåture og få gæster på besøg, med en hund der er helt-cool omkring andre.</Text>
+          <br /><Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
           
-          <br /><TitleColor text="2021 hold er under planlægning."/>
-          {/* <Title text="November start:" />
+          <Title text="Januar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Cool H</Td>
-                <Td>Søndag</Td>
+                <Td>Cool A</Td>
+                <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>12.15 - 13.00</Td>
-                <Td>1. november</Td>
-                <Td>13. december</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>12. jan</Td>
+                <Td>23. feb</Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler /> 
@@ -225,22 +225,31 @@ const DogCool = () => (
           </Text>
           <TextList texts={ContinuedCoolProgram} />
           
-          <br /><TitleColor text="2021 hold er under planlægning."/>
-          {/* <Table>
+          <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortsat Cool C</Td>
+                <Td>Fortsat Cool A</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>11.00 - 11.45</Td>
+                <Td>10. jan</Td>
+                <Td>21. feb</Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsat Cool B</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>3. november</Td>
-                <Td>12. december</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>12. jan</Td>
+                <Td>23. feb</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />

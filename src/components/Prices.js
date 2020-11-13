@@ -7,10 +7,10 @@ const Prices = () => (
     <TitleColor text="Alle priser er inkl. moms" />
     <Text><b>Timepris</b><br />
       Hverdage man-fre før kl. 18.00:
-      <b> 700,- kr/time</b>
+      <b> 800,- kr/time</b>
       <br />
       Hverdage man-fre efter kl. 18.00:
-      <b> 800,- kr/time</b>
+      <b> 950,- kr/time</b>
       <br />
       Lørdage, samt søndage og helligdage:
       <b> Lukket </b>

@@ -5,7 +5,7 @@ export const contactMap = require('./contactMap.png');
 export const lectureFearAndAgression = require('./foredragAngstAggression.jpg');
 export const lectureDogLanguage = require('./foredragHundensSprog.jpg');
 export const lectureCalmDownFido = require('./foredragSlapAfFido.jpg');
-export const FrontNoOne = require('./Forside1.JPG');
+export const FrontNoOne = require('./Forside1.jpg');
 export const FrontNoTwo = require('./Forside2.JPG');
 export const horseOne = require('./hest.jpg');
 export const horseTwo = require('./hest1.jpg');
@@ -70,5 +70,6 @@ export const TestiCoolThree = require('./TestiCool3.jpg');
 export const TestiCoolFour = require('./TestiCool4.png');
 export const TestiPupOne = require('./TestiPup1.jpg');
 export const TestiPupTwo = require('./TestiPup2.jpg');
+export const TestiPupThree = require('./TestiPup3.jpg');
 export const TestiRecallOne = require('./TestiRecall1.jpg');
 /* eslint-enable global-require */

@@ -78,7 +78,7 @@ const DogTricks = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 950 kr."/>
+          <TitleColor text="Din investering: 995 kr."/>
           <Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text><br />

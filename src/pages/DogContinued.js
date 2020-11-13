@@ -16,8 +16,8 @@ import {
   TextList,
   Image,
   StyledLink,
-  // DogCourseSimple,
-  DogCourseYearShift
+  DogCourseSimple
+  // DogCourseYearShift
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -85,32 +85,56 @@ const DogContinued = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 950 kr."/>
-          <Text italic>
+          <TitleColor text="Din investering: 995 kr."/>
+          <Text>i at få en lydig og opmærksom unghund, der kan holde fokus, selv med teenagehjernen i spil.</Text>
+          <br /><Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
 
-          <Title text="Træning Nov 2020 / Jan 2021:" />
+          <Title text="Januar start:" />
           <Table>
-            <DogCourseYearShift />
+            <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortsætter I</Td>
-                <Td>Søndag</Td>
+                <Td>Fortsætter A</Td>
+                <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>10.00 - 10.45</Td>
-                <Td>22. nov</Td>
-                <Td>13. dec</Td>
-                <Td>10. jan</Td>
-                <Td>31. jan</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>11. jan</Td>
+                <Td>22. feb</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsætter B</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>12. jan</Td>
+                <Td>23. feb</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
-          <Text>Bemærk: Træning <b>lørdag</b> den 5. dec, ikke søndag den 6.</Text>
+          <Title text="Februar start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Fortsætter C</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>8. feb</Td>
+                <Td>22. marts</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
           
-          <br /><TitleColor text="2021 hold er under planlægning."/>
+          {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
           <br />
 
           <Title text="Fortsætterhold Trin2+" showHorizontalRuler />
@@ -120,22 +144,21 @@ const DogContinued = () => (
             Disse hold har intet fastlagt program og er derfor åbent for forslag til ønskede øvelser. Holdopstart annonceres her på siden.
           </Text>
 
-          <br /><TitleColor text="2021 hold er under planlægning."/>
-          {/* <Table>
+          <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortsat Trin2 B</Td>
+                <Td>Fortsat 2A</Td>
                 <Td>Søndag</Td>
                 <Td>Ude</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>08.00 - 08.45</Td>
-                <Td>31. maj</Td>
-                <Td>5. juli</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>09.00 - 09.45</Td>
+                <Td>10. jan</Td>
+                <Td>21. feb</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
       
         <Title text="Billeder fra fortsætterhold" showHorizontalRuler />

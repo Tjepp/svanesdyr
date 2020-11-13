@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // DogCourseSimple,
+  DogCourseSimple,
   TextList,
   Image,
   StyledLink,
@@ -85,27 +85,27 @@ const DogRecall = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 950 kr."/>
-          <Text italic>
+          <TitleColor text="Din investering: 995 kr."/>
+          <Text>i at få et indkald der virker, så i ubekymret kan nyde jeres ture ude.</Text>
+          <br /><Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
           
-          <br /><TitleColor text="2021 hold er under planlægning."/>
-          {/* <Table>
+          <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Indkald E</Td>
+                <Td>Indkald A</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>16.30 - 17.15</Td>
-                <Td>7. september</Td>
-                <Td>19. oktober</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>1. marts</Td>
+                <Td>12. april</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Dette siger kursisterne efter deltagelse på Indkaldskurset" showHorizontalRuler /> 
@@ -141,22 +141,22 @@ const DogRecall = () => (
           </Text>
           <TextList texts={ContinuedRecallProgram} />
           
-          <br /><TitleColor text="2021 hold er under planlægning."/>
-          {/* <Table>
+          <Title text="Marts start:" />
+          <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Indkald 2B</Td>
-                <Td>Torsdag</Td>
+                <Td>Indkald 2A</Td>
+                <Td>Søndag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>17.30 - 18.25</Td>
-                <Td>10. september</Td>
-                <Td>22. oktober</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>12.15 - 13.00</Td>
+                <Td>10. jan</Td>
+                <Td>21. feb</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
       
         <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />

@@ -24,7 +24,7 @@ import DogMenu from '../components/menu/DogMenu';
 
 const CoolBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen',
-  'Hele 6 ugers træning med ugentligt møde',
+  'Hele 7 ugers træning med ugentligt møde',
   'Max 2 andre holdkammerater, så der er god tid til dig',
   'Skriftlige trin-for-trin guides tilsendt på mail så du kan øve derhjemme',  
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -75,9 +75,9 @@ const DogCoolFriend = () => (
           </Text>
           <Text>
             <b>Kursets forløb</b><br />
-            Kurset varer 6 uger, hvor vi mødes én gang ugentligt.<br />
+            Kurset varer 7 uger, hvor vi mødes én gang ugentligt.<br />
             Første gang vi mødes er der afsat 60 min., for at jeg kan få et godt indtryk af den enkelte hund.
-            Derefter mødes vi 45 min. pr. gang over de sidste 5 lektioner.
+            Derefter mødes vi 45 min. pr. gang over de sidste 6 lektioner.
             I vil være <b>max 3 hunde</b> på holdet, hvor hundene vil være ude én ad gangen til at starte med.
             Derfor er det vigtigt, at din hund kan sidde trygt i bilen og vente på sin tur.
           </Text>
@@ -89,12 +89,14 @@ const DogCoolFriend = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 950 kr."/>
-          <Text italic>
+          <TitleColor text="Din investering: 1295 kr."/>
+          <Text>i at kunne nyde jeres daglige gåture uden bekymring, med en hund der er tryg omkring andre.</Text>
+          <br /><Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
           
-          <br /><TitleColor text="2021 hold er under planlægning."/>
+          <br /><TitleColor text="Holdet startes op på efterspørgsel."/>
+          <Text><StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink></Text>
           {/* <Table>
             <DogCourseSimple />
             <Tbody>

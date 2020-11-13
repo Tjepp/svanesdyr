@@ -57,6 +57,7 @@ const DogCourse = () => (
             <b>Træningsbane</b><br />
             Jeg afholder træning udenfor uanset årstiden og holder til på følgende adresse:<br />
             <u>Ude</u>bane: Sorthøjvej 40, 8700 Horsens<br />
+            <i>Der er for hvalpeholdene mulighed for at søge i læ for regn og vind.</i>
           </Text>
           <Text>
             <b>Bemærk!</b><br />

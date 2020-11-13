@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  // DogCourseSimple
+  DogCourseSimple
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -30,12 +30,13 @@ const NailClipProgram = [
   'Undervisning i neglens struktur og hvordan blødning undgås',
   'Undervisning i blid og korrekt vinkling under negleklipning',
   'Undervisning i hvordan lange negle gøres kortere (for at undgå klik på gulve)',
-  'Introduktion til brug af neglefil'
+  'Introduktion til brug af neglefil',
+  'Indlæring af brug af "kradsebræt" til negleslibning'
 ];
 
 const NailClipBenefits = [
   'Personlig sparring omkring din hund og jeres samarbejde',
-  'Hele 6 ugers træning med ugentligt møde',
+  'Hele 7 ugers træning med ugentligt møde',
   'Max 2 andre holdkammerater, så der er god tid til dig og din hund',
   'Skriftlig trin-for-trin guide tilsendt på mail så du kan øve derhjemme',  
   'Udleveret en klikker til valgfrit brug i træningen'
@@ -75,7 +76,7 @@ const DogContinued = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b><br />
-            I løbet af vores 6 uger sammen vil vi komme igennem følgende:
+            I løbet af vores 7 uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={NailClipProgram} />
           <Text>
@@ -89,28 +90,28 @@ const DogContinued = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr."/>
-          <Text italic>
+          <TitleColor text="Din investering: 1295 kr."/>
+          <Text>i at kunne pleje din hunds negle <u>selv</u> og uden bekymring, da det bliver kvalitetstid fremfor overgreb.</Text>
+          <br /><Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
 
-          <br /><TitleColor text="2021 hold er under planlægning."/>
-          {/* <Title text="September start:" />
+          <Title text="Januar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
                 <Td>Negleklip A</Td>
-                <Td>Torsdag</Td>
+                <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>10. september</Td>
-                <Td>15. oktober</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
+                <Td>11.00 - 11.45</Td>
+                <Td>12. jan</Td>
+                <Td>2. marts</Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
       
         <Title text="Billeder af neglekliplegen i aktion" showHorizontalRuler />

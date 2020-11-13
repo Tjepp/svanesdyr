@@ -5,7 +5,7 @@ const LargeMenu = () => (
   <Fragment>
     <LargeMenuItem url="/hundehold" text="Hundehold" />
     <LargeMenuItem url="/hundetraening" text="Hund" />
-    <LargeMenuItem url="/hestetraening" text="Hest" />
+    {/* <LargeMenuItem url="/hestetraening" text="Hest" /> */}
     <LargeMenuItem url="/kattetraening" text="Kat" />
     <LargeMenuItem url="/foredrag" text="Foredrag" />
     <LargeMenuItem url="/dyreadfaerdskonsulent" text="Om Mig " />

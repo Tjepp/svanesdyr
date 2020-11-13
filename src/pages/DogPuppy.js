@@ -23,7 +23,7 @@ import {
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { PuppyOne, PuppyTwo, PuppyThree, PuppyFour, PuppyFive, PuppySix, ConsultPupTwo, TestiPupOne, TestiPupTwo } from '../assets';
+import { PuppyOne, PuppyTwo, PuppyThree, PuppyFour, PuppyFive, PuppySix, TestiPupOne, TestiPupTwo, TestiPupThree } from '../assets';
 
 const PuppyProgram = [
   'Fornøjelige gåture, uden at trække i snoren',
@@ -86,38 +86,11 @@ const DogPuppy = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 950 kr."/>
-          <Text italic>
+          <TitleColor text="Din investering: 995 kr."/>
+          <Text>i at få en rolig, imødekommende og selvsikker familiehund, der elsker at træne sammen med dig!</Text>
+          <br /><Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
-
-          <Title text="November start" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-            <Tr>
-                <Td>Hvalp Q</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>16.30 - 17.15</Td>
-                <Td>9. nov</Td>
-                <Td>15. dec</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp R</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>9. nov</Td>
-                <Td>15. dec</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <Text>Bemærk: Hvalpehold Q og R sidste time afholdes <b>tirsdag</b> den 15. dec hhv. kl. 16.30 og kl. 18.30</Text><br />
 
           <Title text="Træning Nov 2020 / Jan 2021:" />
           <Table>
@@ -150,7 +123,61 @@ const DogPuppy = () => (
             </Tbody>
           </Table>
 
-          <br /><TitleColor text="2021 hold er under planlægning."/>
+          <Title text="Januar start" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+            <Tr>
+                <Td>Hvalp A</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>16.30 - 17.15</Td>
+                <Td>11. jan</Td>
+                <Td>22. feb</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp B</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>10.00 - 10.45</Td>
+                <Td>19. jan</Td>
+                <Td>2. marts</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp C</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>10.00 - 10.45</Td>
+                <Td>31. jan</Td>
+                <Td>14. marts</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="Februar start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Hvalp D</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>1. feb</Td>
+                <Td>15. marts</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+          
+          {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
           <br />
 
         <Title text="Dette siger kursisterne efter deltagelse på Hvalpehold" showHorizontalRuler /> 
@@ -191,19 +218,21 @@ const DogPuppy = () => (
         </FlexedRow>
         <br />
         <FlexedRow>
-          <Image src={ConsultPupTwo} width="200px" height="300px" />
+          <Image src={TestiPupThree} width="200px" height="300px" />
           <TextContainer>
-            <TitleColor text=" ”Vores hvalp har lært at slappe af på signal” " />  
+            <TitleColor text=" ”Det har været den bedste investering i samarbejdet med vores hund ” " />  
               <Text>
-                Den største forandring for os var at få større viden omkring ro / søvns vigtighed
-                for en hvalp. Det var noget af en aha-oplevelse at lære hvalpens behov for at ”øve”
-                sig i ro, da man ellers får et ”damp barn”.
+                Den største forandring er sket i samarbejdet med min hvalp.
+                Jeg har mere kontakt med min hund og har fået super gode forslag til mental stimulering og tips til motivation og belønning af ham.
               </Text>
               <Text>
-                Vi har set hvor lærenem han er og har lært at bruge et ”slap-af”-tæppe. Han søger i
-                dag selv tæppet når han ved det er tid til ro.
+                Jeg har fået en ny måde at læse vores hund på, og det mest fantastiske var at min søn med autisme har kunnet deltage.
+                Sabrina er vildt dygtig og kommer rundt til alle på holdet.
               </Text>
-              <Text>Freja og Polle</Text>
+              <Text>
+                Jeg vil anbefale ALLE med en hvalp at deltage.
+              </Text>
+              <Text>Anja, Silas og Ozzy</Text>
           </TextContainer>
         </FlexedRow>
         <br />
