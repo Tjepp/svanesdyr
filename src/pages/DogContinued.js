@@ -97,6 +97,16 @@ const DogContinued = () => (
             <Tbody>
               <Tr>
                 <Td>Fortsætter A</Td>
+                <Td>Søndag</Td>
+                <Td>Ude</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>09.00 - 09.45</Td>
+                <Td>10. jan</Td>
+                <Td>21. feb</Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsætter B</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
@@ -106,14 +116,14 @@ const DogContinued = () => (
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
               <Tr>
-                <Td>Fortsætter B</Td>
+                <Td>Fortsætter C</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
                 <Td>18.30 - 19.15</Td>
                 <Td>12. jan</Td>
                 <Td>23. feb</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
@@ -122,7 +132,7 @@ const DogContinued = () => (
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortsætter C</Td>
+                <Td>Fortsætter D</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
@@ -143,8 +153,10 @@ const DogContinued = () => (
             Trin 2 +mere bygger videre på tidligere indlærte øvelser og giver mere udfordring til både hund og ejer i shaping, kropskontrol og tricks.
             Disse hold har intet fastlagt program og er derfor åbent for forslag til ønskede øvelser. Holdopstart annonceres her på siden.
           </Text>
+          <br />
+          <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text>
 
-          <Table>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -155,10 +167,10 @@ const DogContinued = () => (
                 <Td>09.00 - 09.45</Td>
                 <Td>10. jan</Td>
                 <Td>21. feb</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
       
         <Title text="Billeder fra fortsætterhold" showHorizontalRuler />

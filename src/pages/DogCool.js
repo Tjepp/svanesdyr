@@ -236,9 +236,9 @@ const DogCool = () => (
                 <Td>11.00 - 11.45</Td>
                 <Td>10. jan</Td>
                 <Td>21. feb</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
-              <Tr>
+              {/* <Tr>
                 <Td>Fortsat Cool B</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
@@ -247,7 +247,7 @@ const DogCool = () => (
                 <Td>12. jan</Td>
                 <Td>23. feb</Td>
                 <Td><font color="#D60E0E">4 pladser</font></Td>
-              </Tr>
+              </Tr> */}
             </Tbody>
           </Table>
           <br />
