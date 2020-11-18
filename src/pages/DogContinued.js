@@ -103,7 +103,7 @@ const DogContinued = () => (
                 <Td>09.00 - 09.45</Td>
                 <Td>10. jan</Td>
                 <Td>21. feb</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
                 <Td>Fortsætter B</Td>
@@ -113,7 +113,7 @@ const DogContinued = () => (
                 <Td>17.30 - 18.15</Td>
                 <Td>11. jan</Td>
                 <Td>22. feb</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
               <Tr>
                 <Td>Fortsætter C</Td>
@@ -123,11 +123,11 @@ const DogContinued = () => (
                 <Td>18.30 - 19.15</Td>
                 <Td>12. jan</Td>
                 <Td>23. feb</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
-          <Title text="Februar start:" />
+          {/* <Title text="Februar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -142,7 +142,7 @@ const DogContinued = () => (
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           
           {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
           <br />
