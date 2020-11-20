@@ -123,7 +123,7 @@ const DogContinued = () => (
                 <Td>18.30 - 19.15</Td>
                 <Td>12. jan</Td>
                 <Td>23. feb</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
             </Tbody>
           </Table>
