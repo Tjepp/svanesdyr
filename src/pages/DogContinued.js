@@ -127,7 +127,7 @@ const DogContinued = () => (
               </Tr>
             </Tbody>
           </Table>
-          {/* <Title text="Februar start:" />
+          <Title text="Februar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -142,7 +142,7 @@ const DogContinued = () => (
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           
           {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
           <br />
