@@ -16,7 +16,6 @@ import {
   TextList,
   Image,
   DogCourseSimple,
-  DogCourseYearShift,
   StyledLink,
   FlexedRow,
   TextContainer
@@ -91,37 +90,6 @@ const DogPuppy = () => (
           <br /><Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
-
-          <Title text="Træning Nov 2020 / Jan 2021:" />
-          <Table>
-            <DogCourseYearShift />
-            <Tbody>
-              <Tr>
-                <Td>Hvalp S</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>23. nov</Td>
-                <Td>14. dec</Td>
-                <Td>11. jan</Td>
-                <Td>25. jan</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-              <Tr>
-                <Td>Hvalp T</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>30. nov</Td>
-                <Td>14. dec</Td>
-                <Td>11. jan</Td>
-                <Td>01. feb</Td>
-                <Td><font color="#D60E0E">*Venteliste*</font></Td>
-              </Tr>
-            </Tbody>
-          </Table>
 
           <Title text="Januar start" />
           <Table>
