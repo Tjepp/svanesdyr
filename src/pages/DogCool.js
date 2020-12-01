@@ -128,6 +128,16 @@ const DogCool = () => (
                 <Td>23. feb</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
+              <Tr>
+                <Td>Cool B</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>12. jan</Td>
+                <Td>23. feb</Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
+              </Tr>
             </Tbody>
           </Table>
           <br />
@@ -238,16 +248,6 @@ const DogCool = () => (
                 <Td>21. feb</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
-              {/* <Tr>
-                <Td>Fortsat Cool B</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>12. jan</Td>
-                <Td>23. feb</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
-              </Tr> */}
             </Tbody>
           </Table>
           <br />
