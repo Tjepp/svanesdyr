@@ -103,7 +103,7 @@ const DogPuppy = () => (
                 <Td>16.30 - 17.15</Td>
                 <Td>11. jan</Td>
                 <Td>22. feb</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
               <Tr>
                 <Td>Hvalp B</Td>
@@ -123,7 +123,7 @@ const DogPuppy = () => (
                 <Td>10.00 - 10.45</Td>
                 <Td>31. jan</Td>
                 <Td>14. marts</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
@@ -188,7 +188,7 @@ const DogPuppy = () => (
         <FlexedRow>
           <Image src={TestiPupThree} width="200px" height="300px" />
           <TextContainer>
-            <TitleColor text=" ”Det har været den bedste investering i samarbejdet med vores hund ” " />  
+            <TitleColor text=" ”Det har været den bedste investering i samarbejdet med vores hund” " />  
               <Text>
                 Den største forandring er sket i samarbejdet med min hvalp.
                 Jeg har mere kontakt med min hund og har fået super gode forslag til mental stimulering og tips til motivation og belønning af ham.
