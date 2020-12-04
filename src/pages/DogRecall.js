@@ -140,8 +140,10 @@ const DogRecall = () => (
             <b>Træningsprogram for Trin2-holdet</b>
           </Text>
           <TextList texts={ContinuedRecallProgram} />
+          <br />
+          <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text>
           
-          <Title text="Marts start:" />
+          {/* <Title text="Januar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -156,7 +158,7 @@ const DogRecall = () => (
                 <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
       
         <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />
