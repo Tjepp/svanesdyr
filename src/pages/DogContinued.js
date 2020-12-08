@@ -16,7 +16,8 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple
+  DogCourseSimple,
+  DogCourseTableHead
   // DogCourseYearShift
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -139,6 +140,22 @@ const DogContinued = () => (
                 <Td>19.30 - 20.15</Td>
                 <Td>8. feb</Td>
                 <Td>22. marts</Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+          <Table>
+            <DogCourseTableHead />
+            <Tbody>
+              <Tr>
+                <Td>Fortsætter E</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>9.00 - 9.45</Td>
+                <Td>28. feb</Td>
+                <Td>18. april</Td>
+                <Td>Påskedag 4.april</Td>
                 <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
