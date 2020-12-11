@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple
+  // DogCourseSimple
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -95,8 +95,9 @@ const DogContinued = () => (
           <br /><Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.
           </Text>
+          <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text>
 
-          <Title text="Januar start:" />
+          {/* <Title text="Januar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -111,7 +112,7 @@ const DogContinued = () => (
                 <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
       
         <Title text="Billeder af neglekliplegen i aktion" showHorizontalRuler />
