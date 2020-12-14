@@ -128,6 +128,7 @@ const DogContinued = () => (
               </Tr>
             </Tbody>
           </Table>
+          
           <Title text="Februar start:" />
           <Table>
             <DogCourseSimple />
@@ -144,6 +145,8 @@ const DogContinued = () => (
               </Tr>
             </Tbody>
           </Table>
+
+          <Title text="Marts / April hold:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
@@ -155,8 +158,19 @@ const DogContinued = () => (
                 <Td>9.00 - 9.45</Td>
                 <Td>28. feb</Td>
                 <Td>18. april</Td>
-                <Td>Påskedag 4.april</Td>
+                <Td>Påskedag 4. april</Td>
                 <Td><font color="#D60E0E">3 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsætter F</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>2. marts</Td>
+                <Td>20. april</Td>
+                <Td>Påskeuge 30. marts</Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>

@@ -16,6 +16,7 @@ import {
   TextList,
   Image,
   DogCourseSimple,
+  DogCourseTableHead,
   StyledLink,
   FlexedRow,
   TextContainer
@@ -113,7 +114,7 @@ const DogPuppy = () => (
                 <Td>10.00 - 10.45</Td>
                 <Td>19. jan</Td>
                 <Td>2. marts</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">1 plads</font></Td>
               </Tr>
               <Tr>
                 <Td>Hvalp C</Td>
@@ -141,6 +142,35 @@ const DogPuppy = () => (
                 <Td>1. feb</Td>
                 <Td>15. marts</Td>
                 <Td><font color="#D60E0E">3 pladser</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="Marts start:" />
+          <Table>
+            <DogCourseTableHead />
+            <Tbody>
+            <Tr>
+                <Td>Hvalp E</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>1. marts</Td>
+                <Td>19. april</Td>
+                <Td>Påskedag 5. april</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
+              </Tr>
+              <Tr>
+                <Td>Hvalp F</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>2. marts</Td>
+                <Td>20. april</Td>
+                <Td>Påskeuge 30. marts</Td>
+                <Td><font color="#D60E0E">4 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>

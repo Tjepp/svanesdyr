@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -90,7 +90,7 @@ const DogContinued = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1295 kr."/>
+          <TitleColor text="Din investering: 1095 kr."/>
           <Text>i at kunne pleje din hunds negle <u>selv</u> og uden bekymring, da det bliver kvalitetstid fremfor overgreb.</Text>
           <br /><Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.

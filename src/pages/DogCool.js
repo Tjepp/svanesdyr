@@ -235,6 +235,7 @@ const DogCool = () => (
           </Text>
           <TextList texts={ContinuedCoolProgram} />
           
+          <Title text="Januar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -246,7 +247,7 @@ const DogCool = () => (
                 <Td>11.00 - 11.45</Td>
                 <Td>10. jan</Td>
                 <Td>21. feb</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
               <Tr>
                 <Td>Miljøhold A</Td>
@@ -257,6 +258,23 @@ const DogCool = () => (
                 <Td>10. jan</Td>
                 <Td>21. marts</Td>
                 <Td><font color="#D60E0E">*Venteliste*</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="Februar start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Fortsat Cool B</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>11.00 - 11.45</Td>
+                <Td>28. feb</Td>
+                <Td>18. april</Td>
+                <Td><font color="#D60E0E">2 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>

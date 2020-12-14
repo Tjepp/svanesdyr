@@ -89,7 +89,7 @@ const DogCoolFriend = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1295 kr."/>
+          <TitleColor text="Din investering: 1095 kr."/>
           <Text>i at kunne nyde jeres daglige gåture uden bekymring, med en hund der er tryg omkring andre.</Text>
           <br /><Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke.
