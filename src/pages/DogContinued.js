@@ -155,7 +155,7 @@ const DogContinued = () => (
                 <Td>Søndag</Td>
                 <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>9.00 - 9.45</Td>
+                <Td>09.00 - 09.45</Td>
                 <Td>28. feb</Td>
                 <Td>18. april</Td>
                 <Td>Påskedag 4. april</Td>
@@ -170,7 +170,7 @@ const DogContinued = () => (
                 <Td>2. marts</Td>
                 <Td>20. april</Td>
                 <Td>Påskeuge 30. marts</Td>
-                <Td><font color="#D60E0E">2 pladser</font></Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
               </Tr>
             </Tbody>
           </Table>
@@ -187,21 +187,35 @@ const DogContinued = () => (
           <br />
           <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text>
 
-          {/* <Table>
-            <DogCourseSimple />
+          <Table>
+            <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Fortsat 2A</Td>
+                <Td>Fortsætter 2A</Td>
                 <Td>Søndag</Td>
-                <Td>Ude</Td>
+                <Td>8700</Td>
                 <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>09.00 - 09.45</Td>
+                <Td>12.00 - 13.00</Td>
                 <Td>10. jan</Td>
-                <Td>21. feb</Td>
-                <Td><font color="#D60E0E">1 plads</font></Td>
+                <Td>14. marts</Td>
+                <Td>Ulige uger</Td>
+                <Td><font color="#D60E0E">*Venteliste*</font></Td>
               </Tr>
             </Tbody>
-          </Table> */}
+            <Tbody>
+              <Tr>
+                <Td>Fortsætter 2B</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>2. marts</Td>
+                <Td>20. april</Td>
+                <Td>30. marts</Td>
+                <Td><font color="#D60E0E">3 pladser</font></Td>
+              </Tr>
+            </Tbody>
+          </Table>
           <br />
       
         <Title text="Billeder fra fortsætterhold" showHorizontalRuler />
