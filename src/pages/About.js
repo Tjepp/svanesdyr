@@ -25,6 +25,7 @@ import {
   Education2018,
   Education2019,
   Education2020,
+  Education2021,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { sabrinaNew, petbc } from '../assets';
@@ -68,23 +69,15 @@ const About = () => (
           <TitleColor text="Certificeret Dyreadfærdskonsulent" />
           <Text>Officielle titel: "Bachelor of Sciences in Animal Behavior Therapy" (BSc ABT)</Text>
           <Text>
-            <b>Træner og adfærdsbehandler</b>
-            <br />
-            Af alle slags dyr.
-            <br />
-            Speciale i hunde, heste og katte.
+            <b>Træner og adfærdsbehandler</b> af alle slags dyr. Mit speciale er hunde og katte.
           </Text>
           <Text>
-            <b>Træningsmetoder</b>
-            <br />
-            Jeg benytter belønningsbaserede træningsmetoder.
-            <br />
-            Baseret på indlæringspsykologiske principper.
+            Jeg bruger <b>belønningsbaserede træningsmetoder</b>. Baseret på indlæringspsykologiske
+            principper.
           </Text>
           <Text>
-            <b>Up-to-date rådgivning</b>
-            <br />
-            Jeg deltager på kurser flere gange årligt.
+            Du får <b>up-to-date rådgivning</b> da jeg deltager på kurser og efteruddannelse flere
+            gange årligt.
           </Text>
         </Column>
       </Row>
@@ -148,6 +141,7 @@ const About = () => (
             <br />
             Du kan se nedenfor hvad jeg har deltaget i.
           </Text>
+          <Education2021 />
           <Education2020 />
           <Education2019 />
           <Education2018 />

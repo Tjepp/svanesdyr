@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  // DogCourseSimple
+  DogCourseSimple,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -43,7 +43,7 @@ const NailClipProgram = [
 
 const NailClipBenefits = [
   'Personlig sparring omkring din hund og jeres samarbejde',
-  'Hele 7 ugers træning med ugentligt møde',
+  'Hele 6 ugers træning med ugentligt møde',
   'Max 2 andre holdkammerater, så der er god tid til dig og din hund',
   'Skriftlig trin-for-trin guide tilsendt på mail så du kan øve derhjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -90,7 +90,7 @@ const DogContinued = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 7 uger sammen vil vi komme igennem følgende:
+            <br />I løbet af vores 6 uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={NailClipProgram} />
           <Text>
@@ -108,14 +108,12 @@ const DogContinued = () => (
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 1095 kr." />
           <Text>
-            i at kunne pleje din hunds negle
-            <u>selv</u> og uden bekymring, da det bliver kvalitetstid fremfor overgreb.
+            i at kunne pleje din hunds negle <u>selv</u> og uden bekymring, da det bliver
+            kvalitetstid fremfor overgreb.
           </Text>
-          <br />
-          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-          <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text>
+          {/* <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text> */}
 
-          {/* <Title text="Januar start:" />
+          <Title text="Januar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -123,14 +121,18 @@ const DogContinued = () => (
                 <Td>Negleklip A</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
                 <Td>11.00 - 11.45</Td>
-                <Td>12. jan</Td>
+                <Td>26. jan</Td>
                 <Td>2. marts</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td>
+                  <font color="#D60E0E">2 pladser</font>
+                </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Billeder af neglekliplegen i aktion" showHorizontalRuler />

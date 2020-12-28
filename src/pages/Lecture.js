@@ -81,7 +81,7 @@ const Lecture = () => (
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>24.02.2021</Td>
+                <Td>17.03.2021</Td>
                 <Td>Hundens sprog - Hvad fortæller den dig?</Td>
                 <Td>
                   {/* <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/angst-og-aggression-i-hunde-forebyggelse-og-behandling?id=205832">

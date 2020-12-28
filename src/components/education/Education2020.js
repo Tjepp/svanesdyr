@@ -7,6 +7,17 @@ const Education2019 = () => (
   <>
     <TitleColor text="Kurser 2020" smallTitle />
     <Text>
+      <b>Animal Emotions</b>
+      <br />
+      Efteruddannelse hos Karolina Westlund (PhD);
+      <br />
+      <i>
+        "Understanding emotions is essential when caring for animals. Thorough theoretical
+        understanding and insights will be presented for the 7 CORE-emotions: CARE, GRIEF, PLAY,
+        LUST, SEEKING, FEAR og RAGE"
+      </i>
+    </Text>
+    <Text>
       <b>Nordic Animal Behavior Conference</b>
       <br />
       Konference den 26.-28. juni: "Bridging the communication gap between humans and animals"
