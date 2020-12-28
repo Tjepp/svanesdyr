@@ -17,7 +17,7 @@ import {
   TextListMark,
   TextListArrow,
   ContactPopUp,
-  LandingpageCallMe
+  LandingpageCallMe,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { ConsultPupOne, ConsultPupTwo, ConsultPupThree } from '../assets';
@@ -81,25 +81,28 @@ const DogConsultPuppy = () => (
 
       <Row>
         <Column widthPercentage="80%">
-        <TitleCenter text="Du får professionel rådgivning og en skræddersyet handlingsplan til dig og din hvalp" />
+          <TitleCenter text="Du får professionel rådgivning og en skræddersyet handlingsplan til dig og din hvalp" />
           <FlexedRow>
             <Image src={ConsultPupThree} width="200px" height="200px" />
             <TextContainer>
               <Text>
-                Jeg hedder Sabrina Svane har siden 2012 haft ugentlige hvalpehold og hundredvis af hvalpeejere under vingerne,
-                både på træningsbanen i Horsens og i hjemmet ved privatbesøg. Jeg har gennem tiden haft mange forskellige racer mellem hænderne,
-                og møder altid hvalpene hvor de er, da hver hvalp har deres egen personlighed at tage hensyn til.
+                Jeg hedder Sabrina Svane har siden 2012 haft ugentlige hvalpehold og hundredvis af
+                hvalpeejere under vingerne, både på træningsbanen i Horsens og i hjemmet ved
+                privatbesøg. Jeg har gennem tiden haft mange forskellige racer mellem hænderne, og
+                møder altid hvalpene hvor de er, da hver hvalp har deres egen personlighed at tage
+                hensyn til.
               </Text>
               <Text>
-                Du får altså besøg af en uddannet Hundeadfærdskonsulent, der har reel, praktisk erfaring med at
-                hjælpe hvalpe godt fra start og kan hurtigt sætte dig ind i hvad der virker og ikke virker, når hvalpen skal lære nyt.
+                Du får altså besøg af en uddannet Hundeadfærdskonsulent, der har reel, praktisk
+                erfaring med at hjælpe hvalpe godt fra start og kan hurtigt sætte dig ind i hvad der
+                virker og ikke virker, når hvalpen skal lære nyt.
               </Text>
             </TextContainer>
           </FlexedRow>
         </Column>
       </Row>
       <ContactPopUp text="Smid en mail og få tid til et besøg" />
-      
+
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter text="Genkender du bare én af følgende oplevelser:" />
@@ -116,15 +119,15 @@ const DogConsultPuppy = () => (
           <TextCenter>
             Den dårlige nyhed er, at dårlig opførsel fra hvalpen skyldes manglende klarhed om ønsker
             fra dig og mangel på faste rutiner - og altså ikke en indre trodsighed eller stædighed
-            hos hvalpen.
-            Det er desværre et smertefuldt faktum, at mange hvalpe får dårlige vaner, fordi de ikke
-            bliver ordentligt vejledt fra start og hjulpet til hverdag.
+            hos hvalpen. Det er desværre et smertefuldt faktum, at mange hvalpe får dårlige vaner,
+            fordi de ikke bliver ordentligt vejledt fra start og hjulpet til hverdag.
           </TextCenter>
           <TextCenter>
             Den gode nyhed er, at
             <b> DU </b>
             kan lære at blive klar og tydelig overfor din hvalp, hvor du viser hvad du forventer af
-            den på en god og rolig måde, så du kan få den lydige og dejlige hund du <b>ved</b> du har!
+            den på en god og rolig måde, så du kan få den lydige og dejlige hund du <b>ved</b> du
+            har!
           </TextCenter>
           <TextCenter>
             Til et hvalpevisit får du metoderne til hvordan du kan sætte faste rammer og rutiner for
@@ -218,7 +221,8 @@ const DogConsultPuppy = () => (
           <TitleCenter text="Din investering i din helt egen garanti for en mindre stressfyldt og langt mere afslappet hverdag med din hvalp, er:" />
           <TitleCenter bold color="#1cb8b8" text="Kun 1.050 kr. + kørsel" />
           <TextCenter>
-            Det svarer nogenlunde til prisen på et par robuste hvalpebøger, som kan give en overflod af information uden at du får konkrete værktøjer til lige dét du søger hjælp til.
+            Det svarer nogenlunde til prisen på et par robuste hvalpebøger, som kan give en overflod
+            af information uden at du får konkrete værktøjer til lige dét du søger hjælp til.
           </TextCenter>
           <br />
           <ContactPopUp text="Send en mail og få en tid til et værdifuldt besøg" />
@@ -227,21 +231,29 @@ const DogConsultPuppy = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TitleCenter color="#1cb8b8" text="Du får svar indenfor 24 timer om tid til et hvalpevisit" />
+          <TitleCenter
+            color="#1cb8b8"
+            text="Du får svar indenfor 24 timer om tid til et hvalpevisit"
+          />
           <TextCenter>
-            Et hvalpevisit foregår i hjemmet hos dig og din hvalp og gerne med familien samlet til deltagelse.
+            Et hvalpevisit foregår i hjemmet hos dig og din hvalp og gerne med familien samlet til
+            deltagelse.
           </TextCenter>
           <TextCenter>
-            Du skal forvente at bruge 1,5 time på besøget, hvor du får mulighed for at stille alle de spørgsmål du har brug for at få besvaret.
-            Jeg vil også stille spørgsmål ind til jeres hverdag sammen, for at blive klogere på jeres indbyrdes forhold og eventuelle problemstillinger i oplever.
+            Du skal forvente at bruge 1,5 time på besøget, hvor du får mulighed for at stille alle
+            de spørgsmål du har brug for at få besvaret. Jeg vil også stille spørgsmål ind til jeres
+            hverdag sammen, for at blive klogere på jeres indbyrdes forhold og eventuelle
+            problemstillinger i oplever.
           </TextCenter>
           <TextCenter>
-            Jeg gennemgår forskellige øvelser, der vil styrke dig og din hvalps samarbejde og øge tilliden imellem jer.
-            Øvelserne vil jeg først vise med hvalpen, så du ser det i aktion, og bagefter lader jeg dig om at udføre dem.
-            Du får også redskaberne til hvordan du får hverdagens rutiner til at køre som smurt, med en lille hvalp i hjemmet.
+            Jeg gennemgår forskellige øvelser, der vil styrke dig og din hvalps samarbejde og øge
+            tilliden imellem jer. Øvelserne vil jeg først vise med hvalpen, så du ser det i aktion,
+            og bagefter lader jeg dig om at udføre dem. Du får også redskaberne til hvordan du får
+            hverdagens rutiner til at køre som smurt, med en lille hvalp i hjemmet.
           </TextCenter>
           <TextCenter>
-            Efter mit besøg har du mulighed for at ringe og skrive ved spørgsmål. Jeg vil også følge op via mail et par uger efter mit besøg.
+            Efter mit besøg har du mulighed for at ringe og skrive ved spørgsmål. Jeg vil også følge
+            op via mail et par uger efter mit besøg.
           </TextCenter>
         </Column>
       </Row>
@@ -252,7 +264,6 @@ const DogConsultPuppy = () => (
           <TextListArrow texts={ConsultPupDoubts} />
         </Column>
       </Row>
-
     </Background>
   </Landingpage>
 );

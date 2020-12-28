@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import SmallMenuItem from './SmallMenuItem';
 
 const SmallMenu = ({ onClick, showSidebar }) => (
-  <Fragment>
+  <>
     <MenuButton onClick={onClick}>
       <FontAwesomeIcon icon="bars" color="#fff" size="1x" />
     </MenuButton>
@@ -19,18 +19,18 @@ const SmallMenu = ({ onClick, showSidebar }) => (
       <SmallMenuItem url="/minemetoder" text="Mine metoder" />
       <SmallMenuItem url="/kontakt" text="Kontakt" />
     </CollapsibleMenu>
-  </Fragment>
+  </>
 );
 
 SmallMenu.propTypes = {
   onClick: PropTypes.func.isRequired,
-  showSidebar: PropTypes.bool.isRequired
+  showSidebar: PropTypes.bool.isRequired,
 };
 
 export default SmallMenu;
 
 const CollapsibleMenu = styled.div`
-  height: ${props => (props.showSidebar ? '387px' : '0')};
+  height: ${(props) => (props.showSidebar ? '387px' : '0')};
   width: 100%;
   overflow: hidden;
   transition: all 0.5s ease-out;

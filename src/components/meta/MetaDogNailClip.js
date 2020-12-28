@@ -23,18 +23,10 @@ const MetaDogContinued = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Negleklipkursus Hund Horsens | Frivillig Håndtering | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr '
-  ;
-
-const defaultDescription = 
-  'Svanes Dyr - Negleklipkursus for hunde i Horsens'
-  ;
-
-const defaultKeywords = 
-  `Negleklip hund, klippe negle hund, klip negl hund, håndtering hund, frivillig håndtering, frivillig håndtering hund, hund bange negleklip,
-   negleklip hvalp, klippe negle hvalp, klip negl hvalp, håndtering hvalp, frivillig håndtering hvalp, hvalp bange negleklip`
-  ;
-
+  'Negleklipkursus Hund Horsens | Frivillig Håndtering | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Negleklipkursus for hunde i Horsens';
+const defaultKeywords = `Negleklip hund, klippe negle hund, klip negl hund, håndtering hund, frivillig håndtering, frivillig håndtering hund, hund bange negleklip,
+   negleklip hvalp, klippe negle hvalp, klip negl hvalp, håndtering hvalp, frivillig håndtering hvalp, hvalp bange negleklip`;
 MetaDogContinued.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,

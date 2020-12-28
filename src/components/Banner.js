@@ -14,7 +14,7 @@ const Banner = ({ children, text }) => (
 
 Banner.propTypes = {
   children: PropTypes.node.isRequired,
-  text: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
 };
 
 export default Banner;

@@ -14,7 +14,7 @@ import {
   TextList,
   Row,
   StyledLink,
-  Prices
+  Prices,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { catOne, catTwo, catThree } from '../assets';
@@ -27,7 +27,7 @@ const privateHour = [
   'Gøre katten tryg ved at køre i bil',
   'Lære katten at gå i snor',
   'Gode råd til optimal aktivering i hverdagen',
-  'Ny kat eller hund skal introduceres'
+  'Ny kat eller hund skal introduceres',
 ];
 
 const consultation = [
@@ -37,7 +37,7 @@ const consultation = [
   'Katten flygter ved besøg fra gæster',
   'Katten bider og kradser mennesker',
   'Flere katte i husstanden kan ikke enes',
-  'Hund og kat i husstanden kan ikke enes'
+  'Hund og kat i husstanden kan ikke enes',
 ];
 
 const Cat = () => (
@@ -47,7 +47,7 @@ const Cat = () => (
       <BreadCrumps currentPage="Kat" />
     </Banner>
     <Background>
-    <Row marginTop={"25px"}>
+      <Row marginTop="25px">
         <Column widthPercentage="65%">
           <Title text="Konsultation ved katteadfærdsspecialist" showHorizontalRuler />
           <Text>
@@ -58,9 +58,9 @@ const Cat = () => (
             foderaktivering bidrage til en velstimuleret, veltilpas kat, som bliver mindre
             tilbøjelig til at finde på narrestreger.
           </Text>
-          <Text>         
-            Søger du mere viden omkring træning af katte og
-            positiv, effektiv hverdagsopdragelse, kan du
+          <Text>
+            Søger du mere viden omkring træning af katte og positiv, effektiv hverdagsopdragelse,
+            kan du
             <StyledLink to="/kontakt"> bestille en privattime </StyledLink>
             hos Sabrina Svane.
           </Text>
@@ -72,7 +72,10 @@ const Cat = () => (
             <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
             hos Sabrina Svane.
           </Text>
-          <TitleColor text="Kontakt mig gerne og hør om din problemstilling kræver en privattime eller en konsultation." smallTitle />
+          <TitleColor
+            text="Kontakt mig gerne og hør om din problemstilling kræver en privattime eller en konsultation."
+            smallTitle
+          />
         </Column>
         <Column>
           <Title text="Priser for kattetræning" showHorizontalRuler />
@@ -82,7 +85,7 @@ const Cat = () => (
       <Row>
         <Title text="Udbud af kattetræning i Midtjylland" showHorizontalRuler />
       </Row>
-      <Row marginBottom={"25px"}>
+      <Row marginBottom="25px">
         <Column>
           <Image src={catTwo} />
           <TitleColor text="Konsultation ved problemadfærd" smallTitle />
@@ -104,7 +107,8 @@ const Cat = () => (
           <TitleColor text="Privattime" smallTitle />
           <Text>
             En privattime er til dig der ønsker at skabe en tryg hverdag for din kat og forebygge
-            problemadfærd. Du vil blive introduceret til konceptet med at bruge mad, leg og ros til hverdagens opdragelse.
+            problemadfærd. Du vil blive introduceret til konceptet med at bruge mad, leg og ros til
+            hverdagens opdragelse.
           </Text>
           <Text bold> Eksempler på træning til en privattime: </Text>
           <TextList texts={privateHour} />
@@ -113,14 +117,16 @@ const Cat = () => (
           <Image src={catOne} />
           <TitleColor text="Skype-Konsultation" smallTitle />
           <Text>
-            En Skype-Konsultation foregår over Messenger/Skype opkald, så du kan få råd og vejledning til
-            problemadfærd hos din kat, uanset hvor du befinder dig i landet.
-            Ligesom til en almindelig konsultation i hjemmet starter vi med at snakke adfærdsproblemet igennem
-            og bagefter gennemgår vi de tiltag der skal til, for at skabe en mere harmonisk hverdag for jer.
-            Tiltagene består af øvelser og enkle hverdagsrutiner der skal ændres, for at opnå det ønskede resultat.
+            En Skype-Konsultation foregår over Messenger/Skype opkald, så du kan få råd og
+            vejledning til problemadfærd hos din kat, uanset hvor du befinder dig i landet. Ligesom
+            til en almindelig konsultation i hjemmet starter vi med at snakke adfærdsproblemet
+            igennem og bagefter gennemgår vi de tiltag der skal til, for at skabe en mere harmonisk
+            hverdag for jer. Tiltagene består af øvelser og enkle hverdagsrutiner der skal ændres,
+            for at opnå det ønskede resultat.
           </Text>
           <Text>
-            Efter vores samtale snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag.
+            Efter vores samtale snakker vi løbende sammen om jeres fremskridt og evt. yderligere
+            tiltag.
           </Text>
         </Column>
       </Row>

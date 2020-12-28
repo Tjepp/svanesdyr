@@ -60,6 +60,7 @@ const ImageContainer = styled.div`
   height: ${(props) => props.height};
   width: ${(props) => props.width};
   align-self: center;
+  cursor: pointer;
 `;
 
 const StyledImage = styled.img`

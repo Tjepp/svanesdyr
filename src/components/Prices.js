@@ -3,9 +3,11 @@ import Text from './Text';
 import { TitleColor } from '.';
 
 const Prices = () => (
-  <Fragment>
+  <>
     <TitleColor text="Alle priser er inkl. moms" />
-    <Text><b>Timepris</b><br />
+    <Text>
+      <b>Timepris</b>
+      <br />
       Hverdage man-fre før kl. 18.00:
       <b> 800,- kr/time</b>
       <br />
@@ -15,14 +17,19 @@ const Prices = () => (
       Lørdage, samt søndage og helligdage:
       <b> Lukket </b>
     </Text>
-    <Text><b>Prisen inkluderer</b><br />
+    <Text>
+      <b>Prisen inkluderer</b>
+      <br />
       Fri opfølgning på telefon eller mail.
       <br />
       Skriftlig guide på gennemgåede tiltag tilsendes.
     </Text>
-    <Text><b>Kørsel</b><br />
-    Efter statens takster 3,52 kr/km begge veje. </Text>
-  </Fragment>
+    <Text>
+      <b>Kørsel</b>
+      <br />
+      Efter statens takster 3,52 kr/km begge veje.
+    </Text>
+  </>
 );
 
 export default Prices;

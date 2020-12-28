@@ -14,7 +14,7 @@ import {
   Row,
   ContactForm,
   StyledExternal,
-  MapsInfoMarker
+  MapsInfoMarker,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -29,7 +29,7 @@ const Contact = () => (
       <BreadCrumps currentPage="Kontakt" />
     </Banner>
     <Background>
-      <Row marginTop={"25px"}>
+      <Row marginTop="25px">
         <Column widthPercentage="100%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
           <Text>
@@ -37,23 +37,27 @@ const Contact = () => (
             hjælpe?
           </Text>
           <FlexRow>
-            <Text>Så send mig en mail på: 
-            <StyledExternal href="mailto:info@svanesdyr.dk"> info@svanesdyr.dk</StyledExternal>
-          <br />
-            Jeg svarer normaltvist indenfor 24 timer.
-          </Text>
+            <Text>
+              Så send mig en mail på:
+              <StyledExternal href="mailto:info@svanesdyr.dk"> info@svanesdyr.dk</StyledExternal>
+              <br />
+              Jeg svarer normaltvist indenfor 24 timer.
+            </Text>
           </FlexRow>
           <FlexRow>
-            <Text>Du kan sende en sms eller giv mig et kald på:<br />
-            <StyledExternal href="tel: 93960500"> 93 960 500</StyledExternal>
-          <br />
-            Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket.
-          </Text>
+            <Text>
+              Du kan sende en sms eller giv mig et kald på:
+              <br />
+              <StyledExternal href="tel: 93960500"> 93 960 500</StyledExternal>
+              <br />
+              Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket.
+            </Text>
           </FlexRow>
-            <br />
+          <br />
           <TitleColor text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!" />
           <Text>
-            Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.<br />
+            Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.
+            <br />
             Ved forgæves kørsel afregnes kørselstillæg efter statens takster på 3,52 kr./km.
           </Text>
         </Column>
@@ -87,19 +91,19 @@ const Contact = () => (
           <ContactForm />
         </Column>
       </Row>
-      <Row marginBottom={"25px"}>
+      <Row marginBottom="25px">
         <LoadScript id="script-loader" googleMapsApiKey={process.env.REACT_APP_GMAP_API_KEY}>
           <GoogleMap
             id="circle-example"
             mapContainerStyle={{
               height: '300px',
               width: '100%',
-              marginBottom: '20px'
+              marginBottom: '20px',
             }}
             zoom={9}
             center={{
               lat: 55.931853,
-              lng: 9.681581
+              lng: 9.681581,
             }}
           >
             <MapsInfoMarker position={SvanesDyrLocation} text="Svanes dyr" />

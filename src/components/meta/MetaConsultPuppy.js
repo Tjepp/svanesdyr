@@ -22,32 +22,23 @@ const MetaConsultPuppy = ({ title, description, keywords }) => (
   </>
 );
 
-const defaultTitle =
-  'Hvalpevisit | Ny hvalp | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr '
-  ;
-
-const defaultDescription = 
-  'Svanes Dyr - Hvalpevisit: Få den bedste start sammen'
-  ;
-
-const defaultKeywords = 
-  `Hvalpetræning Horsens, hvalpetræning Midtjylland, klikkertræning, Svanes dyr, positiv hundetræning, 
+const defaultTitle = 'Hvalpevisit | Ny hvalp | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Hvalpevisit: Få den bedste start sammen';
+const defaultKeywords = `Hvalpetræning Horsens, hvalpetræning Midtjylland, klikkertræning, Svanes dyr, positiv hundetræning, 
   Sabrina Svane, indkald hvalp, rådgivning hvalp, hvalpevisit, hvalpevisit Horsens, socialisering hvalp, miljøtræning hvalp,
   hvalp trækker, hvalp gå pænt, hvalp hopper op, hvalp hopper gæster, hvalp gæster, hundeadfærdsbehandler, hvalp behandler,
   hvalpemotivation, hvalp motivation, hvalp gør, ny hvalp, hvalp træning, hjælp hvalp, hvalpetræning, hvalpebideri, hvalp bider,
-  renlig hvalp, alene hjemme hvalp, alene hvalp`
-  ;
-
+  renlig hvalp, alene hjemme hvalp, alene hvalp`;
 MetaConsultPuppy.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
-  keywords: PropTypes.string
+  keywords: PropTypes.string,
 };
 
 MetaConsultPuppy.defaultProps = {
   title: defaultTitle,
   description: defaultDescription,
-  keywords: defaultKeywords
+  keywords: defaultKeywords,
 };
 
 export default MetaConsultPuppy;

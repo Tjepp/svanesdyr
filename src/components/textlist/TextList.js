@@ -29,7 +29,7 @@ const ListItem = styled.li`
 `;
 
 TextList.propTypes = {
-  texts: PropTypes.arrayOf(String).isRequired
+  texts: PropTypes.arrayOf(String).isRequired,
 };
 
 export default TextList;

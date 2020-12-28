@@ -22,29 +22,20 @@ const MetaDogSummer = ({ title, description, keywords }) => (
   </>
 );
 
-const defaultTitle =
-  'Sommerferietræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr '
-  ;
-
-const defaultDescription = 
-  'Svanes Dyr - Hundetræning i sommerferien i Horsens'
-  ;
-
-const defaultKeywords = 
-  `Sommerferie hund, sommerferietræning hund, hundetræning sommer, hundetræning sommerferie, familievenlig hundetræning, familie hundetræning,
-  sommerdage hund`
-  ;
-
+const defaultTitle = 'Sommerferietræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Hundetræning i sommerferien i Horsens';
+const defaultKeywords = `Sommerferie hund, sommerferietræning hund, hundetræning sommer, hundetræning sommerferie, familievenlig hundetræning, familie hundetræning,
+  sommerdage hund`;
 MetaDogSummer.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
-  keywords: PropTypes.string
+  keywords: PropTypes.string,
 };
 
 MetaDogSummer.defaultProps = {
   title: defaultTitle,
   description: defaultDescription,
-  keywords: defaultKeywords
+  keywords: defaultKeywords,
 };
 
 export default MetaDogSummer;

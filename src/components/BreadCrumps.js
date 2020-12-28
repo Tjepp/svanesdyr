@@ -42,11 +42,11 @@ const LinkText = styled.a`
 
 BreadCrumps.propTypes = {
   currentPage: PropTypes.string.isRequired,
-  history: ReactRouterPropTypes.history
+  history: ReactRouterPropTypes.history,
 };
 
 BreadCrumps.defaultProps = {
-  history: ReactRouterPropTypes.history
+  history: ReactRouterPropTypes.history,
 };
 
 export default withRouter(BreadCrumps);

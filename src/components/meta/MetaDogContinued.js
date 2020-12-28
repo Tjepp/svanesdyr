@@ -23,19 +23,11 @@ const MetaDogContinued = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hvalpe Fortsætterhold Horsens | Unghundetræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr '
-  ;
-
-const defaultDescription = 
-  'Svanes Dyr - Hvalpe-Fortsætterhold for unghunde i Horsens'
-  ;
-
-const defaultKeywords = 
-  `Unghundehold Horsens, unghundetræning Horsens, unghundetræning midtjylland, unghundehold midtjylland, unghund hold, unghundehold, unghund træning, stor hvalp træning,
+  'Hvalpe Fortsætterhold Horsens | Unghundetræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Hvalpe-Fortsætterhold for unghunde i Horsens';
+const defaultKeywords = `Unghundehold Horsens, unghundetræning Horsens, unghundetræning midtjylland, unghundehold midtjylland, unghund hold, unghundehold, unghund træning, stor hvalp træning,
   hund teenager træning, indkald hvalp, hvalp trækker, hvalp gå pænt, hvalp hopper op, hvalp hopper gæster, hvalp gæster, hvalp hilse pænt, lineføring, indkald, selvkontrol hund,
-  unghund lydighed, hund lydighed, hvalp fortsætter hold, hvalp fortsætterhold, hvalpe-fortsætterhold, hvalpefortsætterhold, samarbejde hund, samarbejde hvalp`
-  ;
-
+  unghund lydighed, hund lydighed, hvalp fortsætter hold, hvalp fortsætterhold, hvalpe-fortsætterhold, hvalpefortsætterhold, samarbejde hund, samarbejde hvalp`;
 MetaDogContinued.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,

@@ -21,9 +21,10 @@ const ShortAboutMe = () => (
   <ColumnContainer>
     <Title> Kort om mig </Title>
     <div>
-      Svanes Dyr drives af Sabrina Svane, som er certificeret Dyreadfærdskonsulent (BSc ABT).
-      Jeg specialiserer mig i løsning af problemadfærd hos henholdsvis hunde, katte og heste og kommer gerne på hjemmebesøg.
-      Jeg anvender belønningsbaserede træningsmetoder og tilbyder holdtræning i Horsens for familiehunde.
+      Svanes Dyr drives af Sabrina Svane, som er certificeret Dyreadfærdskonsulent (BSc ABT). Jeg
+      specialiserer mig i løsning af problemadfærd hos henholdsvis hunde, katte og heste og kommer
+      gerne på hjemmebesøg. Jeg anvender belønningsbaserede træningsmetoder og tilbyder holdtræning
+      i Horsens for familiehunde.
     </div>
   </ColumnContainer>
 );
@@ -68,7 +69,7 @@ const StyledA = styled.a`
 
 const Background = styled.div`
   min-height: 90px;
-  background: #0F292F;
+  background: #0f292f;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #000;

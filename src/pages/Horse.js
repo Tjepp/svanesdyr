@@ -14,7 +14,7 @@ import {
   TextList,
   Row,
   StyledLink,
-  Prices
+  Prices,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { horseOne, horseTwo, horseThree } from '../assets';
@@ -25,7 +25,7 @@ const privateHour = [
   'Hesten skal miljøtrænes med biler, lyde mv.',
   'Hesten skal lære at følge pænt med i trækketorv',
   'Hesten virker døv overfor signaler der gives',
-  'Mental stimulering ved nødsaget ro ved fx skade'
+  'Mental stimulering ved nødsaget ro ved fx skade',
 ];
 
 const consultation = [
@@ -34,7 +34,7 @@ const consultation = [
   'Hesten sparker, bider eller stejler',
   'Hesten vil stikke af når den er i træktorv',
   'Hesten udviser vævning eller krybbebideri',
-  'Hesten kan ikke være alene i stalden'
+  'Hesten kan ikke være alene i stalden',
 ];
 
 const Horse = () => (
@@ -44,7 +44,7 @@ const Horse = () => (
       <BreadCrumps currentPage="Hest" />
     </Banner>
     <Background>
-      <Row marginTop={"25px"}>
+      <Row marginTop="25px">
         <Column widthPercentage="65%">
           <Title text="Konsultation ved hesteadfærdsterapeut" showHorizontalRuler />
           <Text>
@@ -67,7 +67,10 @@ const Horse = () => (
             <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
             hos Sabrina Svane.
           </Text>
-          <TitleColor text="Kontakt mig gerne og hør om din problemstilling kræver en privattime eller en konsultation." smallTitle />
+          <TitleColor
+            text="Kontakt mig gerne og hør om din problemstilling kræver en privattime eller en konsultation."
+            smallTitle
+          />
         </Column>
         <Column>
           <Title text="Priser for hestetræning" showHorizontalRuler />
@@ -77,8 +80,8 @@ const Horse = () => (
       <Row>
         <Title text="Udbud af hestetræning i Midtjylland" showHorizontalRuler />
       </Row>
-      <Row marginBottom={"25px"}>
-      <Column>
+      <Row marginBottom="25px">
+        <Column>
           <Image src={horseThree} />
           <TitleColor text="Konsultation ved problemadfærd" smallTitle />
           <Text>
@@ -110,9 +113,7 @@ const Horse = () => (
           <Image src={horseTwo} />
           <TitleColor text="Privattime" smallTitle />
           <Text>En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hest.</Text>
-          <Text bold>
-            Eksempler på træning til en privattime:
-          </Text>
+          <Text bold>Eksempler på træning til en privattime:</Text>
           <TextList texts={privateHour} />
         </Column>
       </Row>

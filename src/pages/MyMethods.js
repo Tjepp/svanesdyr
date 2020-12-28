@@ -14,7 +14,7 @@ import {
   Row,
   Image,
   StyledLink,
-  StyledExternal
+  StyledExternal,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -27,7 +27,7 @@ const MyMethods = () => (
       <BreadCrumps currentPage="Mine Metoder" />
     </Banner>
     <Background>
-    <Row marginTop={"25px"}>
+      <Row marginTop="25px">
         <Column widthPercentage="65%">
           <Title text="Belønningsbaserede træningsteknikker" showHorizontalRuler />
           <Text>
@@ -73,35 +73,44 @@ const MyMethods = () => (
           <TitleColor text="Til hundeejere:" smallTitle />
           <Text>
             <b>
-              "Don't shoot the dog!"<i> af Karen Pryor</i>
+              "Don't shoot the dog!"
+              <i> af Karen Pryor</i>
             </b>
             <br />
-            "Stress, angst og aggression" <i>af Anders Hallgren</i>
+            "Stress, angst og aggression"
+            <i>af Anders Hallgren</i>
           </Text>
           <TitleColor text="Til hesteejere:" smallTitle />
           <Text>
-            "Indlæringspsykologi for hest og rytter" <i>af Bettina Hvidemose</i><br />
-            "Clicker Training for your Horse" <i>af Alexandra Kurland</i>
+            "Indlæringspsykologi for hest og rytter"
+            <i>af Bettina Hvidemose</i>
+            <br />
+            "Clicker Training for your Horse"
+            <i>af Alexandra Kurland</i>
           </Text>
           <TitleColor text="Til katteejere:" smallTitle />
           <Text>
-            "The Domestic Cat" <i>af Turner and Bateson</i><br />
-            "Alt om Katte" <i>af Candida Frith-MacDonald</i>
+            "The Domestic Cat"
+            <i>af Turner and Bateson</i>
+            <br />
+            "Alt om Katte"
+            <i>af Candida Frith-MacDonald</i>
           </Text>
           <TitleColor text="Rejse med kæledyr?" smallTitle />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig </StyledLink>
             for gode råd eller se mere på
             <StyledExternal href="https://www.stenaline.dk/dyr">
-              {" Stenalines hjemmeside"}
-            </StyledExternal>.
+              Stenalines hjemmeside
+            </StyledExternal>
+            .
           </Text>
         </Column>
       </Row>
       <Row>
         <Title text="Træningsteknikker" showHorizontalRuler />
       </Row>
-      <Row marginBottom={"25px"}>
+      <Row marginBottom="25px">
         <Column>
           <Image src={methodOne} />
           <TitleColor text="Indlæringsmetoder" smallTitle />
@@ -123,10 +132,10 @@ const MyMethods = () => (
             også lede til stress og frustration, da kæledyret ikke føler ubehaget kan undgås.
           </Text>
           <Text>
-            Benytter man en blanding af at belønne og straffe, vil straffen altid bære overvægt.
-            Dyr er kodet til at overleve, derfor vil ubehag altid prioriteres at undgås, fremfor at
-            få mad. Hvis straf derfor er en del af hverdagen, vil kæledyret betragte ros, som at den blot undgår straf 
-            og ikke blive yderligere motiveret på at opnå ros.
+            Benytter man en blanding af at belønne og straffe, vil straffen altid bære overvægt. Dyr
+            er kodet til at overleve, derfor vil ubehag altid prioriteres at undgås, fremfor at få
+            mad. Hvis straf derfor er en del af hverdagen, vil kæledyret betragte ros, som at den
+            blot undgår straf og ikke blive yderligere motiveret på at opnå ros.
           </Text>
         </Column>
         <Column>

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
 import { withRouter } from 'react-router-dom';
@@ -23,7 +24,7 @@ import {
   Education2017,
   Education2018,
   Education2019,
-  Education2020
+  Education2020,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { sabrinaNew, petbc } from '../assets';
@@ -36,7 +37,7 @@ const About = () => (
       <BreadCrumps currentPage="Om mig" />
     </Banner>
     <Background>
-      <Row marginTop={"25px"}>
+      <Row marginTop="25px">
         <Column widthPercentage="65%">
           <Title text="Om Sabrina Svane" showHorizontalRuler />
           <FlexedRow>
@@ -66,18 +67,25 @@ const About = () => (
           <Title text="Hurtige facts om mig" showHorizontalRuler />
           <TitleColor text="Certificeret Dyreadfærdskonsulent" />
           <Text>Officielle titel: "Bachelor of Sciences in Animal Behavior Therapy" (BSc ABT)</Text>
-          <Text><b>Træner og adfærdsbehandler</b><br />
+          <Text>
+            <b>Træner og adfærdsbehandler</b>
+            <br />
             Af alle slags dyr.
             <br />
             Speciale i hunde, heste og katte.
           </Text>
-          <Text><b>Træningsmetoder</b><br />
+          <Text>
+            <b>Træningsmetoder</b>
+            <br />
             Jeg benytter belønningsbaserede træningsmetoder.
             <br />
             Baseret på indlæringspsykologiske principper.
           </Text>
-          <Text><b>Up-to-date rådgivning</b><br />
-          Jeg deltager på kurser flere gange årligt.</Text>
+          <Text>
+            <b>Up-to-date rådgivning</b>
+            <br />
+            Jeg deltager på kurser flere gange årligt.
+          </Text>
         </Column>
       </Row>
       <Row>
@@ -115,7 +123,7 @@ const About = () => (
             Mine uddannelser er taget ved Center for Dyreterapi i Hirtshals, som er den eneste i
             Danmark der er godkendt af den fælles europæiske organisation
             <StyledExternal href="https://www.petbc.org.uk/">
-              {" PetBc (Pet Education, Training and Behaviour Council."}
+              PetBc (Pet Education, Training and Behaviour Council.
             </StyledExternal>
           </Text>
           <Text>
@@ -131,12 +139,13 @@ const About = () => (
           <Image src={petbc} width="100px" height="78px" />
         </Column>
       </Row>
-      <Row marginBottom={"25px"}>
+      <Row marginBottom="25px">
         <Column widthPercentage="100%">
           <Title text="Andre kursusforløb" showHorizontalRuler />
           <Text>
             Udover mine uddannelser er jeg løbende på kurser, for at sikre mig, at jeg er helt
-            opdateret på det nyeste indenfor adfærds- og træningsverdenen.<br />
+            opdateret på det nyeste indenfor adfærds- og træningsverdenen.
+            <br />
             Du kan se nedenfor hvad jeg har deltaget i.
           </Text>
           <Education2020 />

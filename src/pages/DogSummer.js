@@ -17,7 +17,7 @@ import {
   // DogCourseSummer,
   StyledLink,
   // StyledExternal,
-  TextList
+  TextList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -31,17 +31,16 @@ const SummerInfo = [
   'Vi mødes 1,5 time hver dag, med hhv. 60 min. træning og 30 min. leg og hygge',
   'Lørdag formiddag er der fælles afslutning for alle med hyggetimen',
   'Der serveres kaffe og te hver dag',
-  'Der er god tid til en ekstra sludder og hygge med holdkammeraterne'
+  'Der er god tid til en ekstra sludder og hygge med holdkammeraterne',
 ];
 
 const SummerProgram = [
-  'Nose Work: Sjov og stimulerende aktiviteter hvor hunden skal bruge sin næse', 
+  'Nose Work: Sjov og stimulerende aktiviteter hvor hunden skal bruge sin næse',
   'Hvalpelegestue: Med fokus på socialisering, miljøtræning og ro omkring andre',
   'Rolige gåture: Lær kontaktlege der giver dig fornøjelige gåture uden trækken i snoren',
   'Barn & Hund: Sjove lege og øvelser, som styrker barn og hunds fælles bånd',
   'Tricks & Leg: Hygge med kropskontrol, tricks og masser af god leg med andre hunde',
-  'Sorte bælte i selvkontrol: Til hunden der skal mestrer ro omkring spændende fristelser'
-  
+  'Sorte bælte i selvkontrol: Til hunden der skal mestrer ro omkring spændende fristelser',
 ];
 
 const DogSummer = () => (
@@ -51,47 +50,48 @@ const DogSummer = () => (
       <BreadCrumps currentPage="Sommerferietræning" />
     </Banner>
     <Background>
-    <Row marginTop={"25px"} marginBottom={"45px"}>
+      <Row marginTop="25px" marginBottom="45px">
         <Column widthPercentage="20%">
           <Title text="Udbud af hundehold" showHorizontalRuler />
-          <DogMenu/>
+          <DogMenu />
         </Column>
         <Column widthPercentage="75%">
           <Title text="Hundens Sommerferietræning Horsens" showHorizontalRuler />
           <Text>
-            Sommerferie sammen med hunden?<br />
-            Tid til ekstra sjov og gode stunder med din bedste ven - hvor hele familien kan være med?
+            Sommerferie sammen med hunden?
+            <br />
+            Tid til ekstra sjov og gode stunder med din bedste ven - hvor hele familien kan være
+            med?
           </Text>
           <Text>
-            Så kom med til årets <b>Sommerferietræning med hunden</b> i sommerferieugerne 30 og 31!<br />
-            Træningen er familievenlig, så tag gerne børn og den bedre halvdel med til nogle hyggelige sommerdage.
+            Så kom med til årets <b>Sommerferietræning med hunden</b> i sommerferieugerne 30 og 31!
+            <br />
+            Træningen er familievenlig, så tag gerne børn og den bedre halvdel med til nogle
+            hyggelige sommerdage.
           </Text>
-          <Text>
-            Lidt info om hvert enkelt hold:
-          </Text>
+          <Text>Lidt info om hvert enkelt hold:</Text>
           <TextList texts={SummerInfo} />
           <Text>
-            <b>Sommerferietræning holdinformation</b><br />
+            <b>Sommerferietræning holdinformation</b>
+            <br />
             Følgende sommersjove hundehold er planlagt:
           </Text>
           <TextList texts={SummerProgram} />
           <Text>
-            <b>Mere info og tilmelding</b><br />
-            Du kan læse mere om det enkelte hold på deres facebook-begivenhed, som du finder link til under det enkelte holds faktaboks nederst på siden.
-            Tilmelding foregår også via begivenheden på facebook.
-            Har du ikke en facebookprofil kan du til gengæld <StyledLink to="/kontakt">kontakte mig</StyledLink> for at reservere en plads.
+            <b>Mere info og tilmelding</b>
+            <br />
+            Du kan læse mere om det enkelte hold på deres facebook-begivenhed, som du finder link
+            til under det enkelte holds faktaboks nederst på siden. Tilmelding foregår også via
+            begivenheden på facebook. Har du ikke en facebookprofil kan du til gengæld{' '}
+            <StyledLink to="/kontakt">kontakte mig</StyledLink> for at reservere en plads.
           </Text>
           <br />
 
           <Title text="Udbud af sommerkurser" showHorizontalRuler />
-          <TitleColor text="Din investering pr. hold: 625 kr."/>
-          <Text italic>
-            Bemærk betaling er bindende og beløb refunderes ikke.
-          </Text>
-          
-          <Text>
-            Nye hold planlægges til sommeren 2021 og annonceres maj 2021
-          </Text>
+          <TitleColor text="Din investering pr. hold: 625 kr." />
+          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+
+          <Text>Nye hold planlægges til sommeren 2021 og annonceres maj 2021</Text>
           {/* <Table>
             <DogCourseSummer />
             <Tbody>
@@ -132,8 +132,7 @@ const DogSummer = () => (
           </Table> */}
           <br />
 
-
-        {/* <Title text="Billeder fra sommerhold Horsens" showHorizontalRuler />
+          {/* <Title text="Billeder fra sommerhold Horsens" showHorizontalRuler />
         <Row>
         <Column>
           <Image src={PuppyOne}/>
@@ -156,8 +155,6 @@ const DogSummer = () => (
           <Image src={PuppySix}/>
         </Column>
         </Row> */}
-
-
         </Column>
       </Row>
     </Background>

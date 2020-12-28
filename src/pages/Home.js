@@ -1,32 +1,36 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
+import MediaQuery from 'react-responsive';
 import { Page, Banner, Button, Meta, Column, Title, Text, Image } from '../components';
 import ReactRouterPropTypes from '../ReactRouterPropTypes';
 import Responsive from '../components/layout/Responsive';
 import { FrontNoTwo, sabrinaAndBarney, FrontNoOne } from '../assets';
-import MediaQuery from 'react-responsive';
 
 class Home extends PureComponent {
-  onClick = path => {
+  onClick = (path) => {
     const { history } = this.props;
     history.push(`/${path}`);
   };
 
   render() {
+    console.log(sabrinaAndBarney);
+
     return (
       <Page>
         <Meta />
         <MediaQuery minWidth={Responsive.sizes.tablet}>
-              {matches =>
-                matches ? (
-                <Banner text="Information om kommende hundehold, se her:">
-                  <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
-                </Banner>) : 
-                (<ButtonContainer>
-                  <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
-                </ButtonContainer>)
-              }
-            </MediaQuery>
+          {(matches) =>
+            matches ? (
+              <Banner text="Information om kommende hundehold, se her:">
+                <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
+              </Banner>
+            ) : (
+              <ButtonContainer>
+                <Button text="HUNDEHOLD" onClick={() => this.onClick('hundehold')} />
+              </ButtonContainer>
+            )
+          }
+        </MediaQuery>
         <Background>
           <Container>
             <Column>
@@ -38,9 +42,8 @@ class Home extends PureComponent {
                 }}
                 color="#000"
               >
-                Professionel rådgivning til træning eller løsning af
-                problemadfærd hos din hund, hest eller kat. Klik i menuen for oven for at
-                læse mere om hvad jeg kan tilbyde dig!
+                Professionel rådgivning til træning eller løsning af problemadfærd hos din hund,
+                hest eller kat. Klik i menuen for oven for at læse mere om hvad jeg kan tilbyde dig!
               </Text>
             </Column>
             <Column>
@@ -65,8 +68,8 @@ class Home extends PureComponent {
                 }}
                 color="#000"
               >
-                Jeg har specialiseret mig i katteadfærd og kan tilbyde dig
-                professionel rådgivning og hjælp, hvis du oplever problemadfærd hos din kat.
+                Jeg har specialiseret mig i katteadfærd og kan tilbyde dig professionel rådgivning
+                og hjælp, hvis du oplever problemadfærd hos din kat.
               </Text>
             </Column>
           </Container>
@@ -77,11 +80,11 @@ class Home extends PureComponent {
 }
 
 Home.propTypes = {
-  history: ReactRouterPropTypes.history
+  history: ReactRouterPropTypes.history,
 };
 
 Home.defaultProps = {
-  history: ReactRouterPropTypes.history
+  history: ReactRouterPropTypes.history,
 };
 
 export default Home;
@@ -109,7 +112,7 @@ const Container = styled.div`
   `}
   margin-top: 50px;
   margin-bottom: 25px;
-  flex-grow: 1; 
+  flex-grow: 1;
 `;
 
 const ButtonContainer = styled.div`

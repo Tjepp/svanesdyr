@@ -19,7 +19,7 @@ const Page = ({ children }) => (
 );
 
 Page.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Page;
@@ -29,6 +29,6 @@ const Container = styled.div`
   flex-direction: column;
   align: center;
   justify-content: center;
-  height:100%;
+  height: 100%;
   width: 100%;
 `;

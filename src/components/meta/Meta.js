@@ -23,21 +23,13 @@ const Meta = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hundetræning | Kattetræning | Hestetræning | Hundehold Horsens | Hundetræning Midtjylland | Klikkertræning | Foredrag hundeadfærd | Foredrag kat | Dyreadfærdskonsulent | Svanes Dyr '
-  ;
-
-const defaultDescription = 
-  'Svanes Dyr - Certificeret Dyreadfærdskonsulent'
-  ;
-
-const defaultKeywords = 
-  `Hundehold Horsens, Hundetræning Midtjylland, Kattetræning, klikkertræning, hestetræning Midtjylland, Svanes dyr, positiv hundetræning, 
+  'Hundetræning | Kattetræning | Hestetræning | Hundehold Horsens | Hundetræning Midtjylland | Klikkertræning | Foredrag hundeadfærd | Foredrag kat | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Certificeret Dyreadfærdskonsulent';
+const defaultKeywords = `Hundehold Horsens, Hundetræning Midtjylland, Kattetræning, klikkertræning, hestetræning Midtjylland, Svanes dyr, positiv hundetræning, 
   klikkertræning hest, klikkertræning kat, klikkertræning hund, adfærdsbehandler Midtjylland, adfærdsbehandler Horsens, hundeadfærd, 
   katteadfærd, hesteadfærd, adfærdsterapeut hund, adfærdsterapeut hest, adfærdsterapeut kat, hundehvisker, hestehvisker, kattehvisker, 
   rådgivning hund, hjælp hund, hjælp kat, hjælp hest, rådgivning kat, rådgivning hund, Sabrina Svane, svane hundetræning, foredrag hundeadfærd, 
-  foredrag kat, foredrag katteadfærd, foredrag svane, konsulent adfærd, adfærdskonsulent`
-  ;
-
+  foredrag kat, foredrag katteadfærd, foredrag svane, konsulent adfærd, adfærdskonsulent`;
 Meta.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,

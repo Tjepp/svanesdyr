@@ -9,17 +9,17 @@ const Column = ({ children, widthPercentage }) => (
 
 Column.propTypes = {
   children: PropTypes.node.isRequired,
-  widthPercentage: PropTypes.string
+  widthPercentage: PropTypes.string,
 };
 
 Column.defaultProps = {
-  widthPercentage: '32%'
+  widthPercentage: '32%',
 };
 
 const ColumnContainer = styled.div`
   flex-direction: column;
   margin: 10px 0px;
-  width: ${props => props.width};
+  width: ${(props) => props.width};
   ${Responsive.media.tablet`
    width: 100%;
    align-self: end;

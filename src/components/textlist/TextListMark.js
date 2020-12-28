@@ -30,7 +30,7 @@ const ListItem = styled.li`
 `;
 
 TextListMark.propTypes = {
-  texts: PropTypes.arrayOf(String).isRequired
+  texts: PropTypes.arrayOf(String).isRequired,
 };
 
 export default TextListMark;

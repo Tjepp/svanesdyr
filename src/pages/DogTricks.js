@@ -16,7 +16,7 @@ import {
   // DogCourseSimple,
   TextList,
   Image,
-  StyledLink
+  StyledLink,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -27,15 +27,15 @@ const TricksProgram = [
   'Doggie-zen, som lærer din hund at ro, fokus og selvkontrol kan give pote',
   'Dog-Parkour, som er sjov og stimulerende, fysisk træning til hverdagsbrug',
   'Øvelser med kropskontrol, som styrker din hunds kropsbevidsthed og giver et boost til selvtilliden',
-  'Targettræning der lærer din hund at søge ”mål” med snude eller pote, til sjove lege i hverdagen'
+  'Targettræning der lærer din hund at søge ”mål” med snude eller pote, til sjove lege i hverdagen',
 ];
 
 const TricksBenefits = [
   'Personlig sparring omkring din hund og hjælp til øvelser',
   'Mulighed for at træne tricks du ønsker at lære din hund',
   'Hele 7 ugers træning med ugentligt møde',
-  'Max 3 andre holdkammerater, så der er god tid til dig', 
-  'Udleveret en klikker til valgfrit brug i træningen'
+  'Max 3 andre holdkammerater, så der er god tid til dig',
+  'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
 const DogTricks = () => (
@@ -45,47 +45,49 @@ const DogTricks = () => (
       <BreadCrumps currentPage="Tricks og Motorik" />
     </Banner>
     <Background>
-    <Row marginTop={"25px"} marginBottom={"45px"}>
+      <Row marginTop="25px" marginBottom="45px">
         <Column widthPercentage="20%">
           <Title text="Udbud af hundehold" showHorizontalRuler />
-          <DogMenu/>
+          <DogMenu />
         </Column>
         <Column widthPercentage="75%">
           <Title text="Tricks og Motorik i Horsens" showHorizontalRuler />
           <Text>
-            Ønsker du en glad samarbejdspartner, som er initiativrig og synes træning med dig er FEDT,
-            så er du kommet til rette sted!
+            Ønsker du en glad samarbejdspartner, som er initiativrig og synes træning med dig er
+            FEDT, så er du kommet til rette sted!
           </Text>
           <Text>
-            Tricks og Motorikholdet henvender sig til alle hunde i alle aldre.
-            Du vil på dette hold lære forskellige øvelser der træner din hunds kropskontrol, initiativ og kreativitet.
-            Jeg lægger vægt på at i skal have det sjovt sammen og fremfor alt samarbejde om nye opgaver!
+            Tricks og Motorikholdet henvender sig til alle hunde i alle aldre. Du vil på dette hold
+            lære forskellige øvelser der træner din hunds kropskontrol, initiativ og kreativitet.
+            Jeg lægger vægt på at i skal have det sjovt sammen og fremfor alt samarbejde om nye
+            opgaver!
           </Text>
           <Text>
-            Al træning foregår med <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad og leg.
-            Hvis din hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere letforståelig. Alle bliver sat op til succes.
+            Al træning foregår med{' '}
+            <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi
+            bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad
+            og leg. Hvis din hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere
+            letforståelig. Alle bliver sat op til succes.
           </Text>
           <Text>
-            <b>Træningsprogram for holdet</b><br />
-            I løbet af vores 7 uger sammen vil vi komme igennem følgende:
+            <b>Træningsprogram for holdet</b>
+            <br />I løbet af vores 7 uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={TricksProgram} />
           <Text>
-            <b>Hvad kan du forvente at få med?</b><br />
+            <b>Hvad kan du forvente at få med?</b>
+            <br />
             Ved deltagelse på Tricks og Motorik får du:
           </Text>
           <TextList texts={TricksBenefits} />
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 995 kr."/>
-          <Text italic>
-            Bemærk betaling er bindende og beløb refunderes ikke.
-          </Text><br />
+          <TitleColor text="Din investering: 995 kr." />
+          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+          <br />
 
-          <Text italic>
-            Ingen nye hold på programmet.
-          </Text>
+          <Text italic>Ingen nye hold på programmet.</Text>
           {/* <Table>
             <DogCourseSimple />
             <Tbody>
@@ -102,21 +104,19 @@ const DogTricks = () => (
             </Tbody>
           </Table> */}
           <br />
-      
-        <Title text="Billeder fra Tricks og Motorik" showHorizontalRuler />
-        <Row>
-        <Column>
-          <Image src={TricksOne}/>
-        </Column>
-        <Column>
-          <Image src={TricksTwo}/>
-        </Column>
-        <Column>
-          <Image src={PuppyOne}/>
-        </Column>
-        </Row>
 
-
+          <Title text="Billeder fra Tricks og Motorik" showHorizontalRuler />
+          <Row>
+            <Column>
+              <Image src={TricksOne} />
+            </Column>
+            <Column>
+              <Image src={TricksTwo} />
+            </Column>
+            <Column>
+              <Image src={PuppyOne} />
+            </Column>
+          </Row>
         </Column>
       </Row>
     </Background>

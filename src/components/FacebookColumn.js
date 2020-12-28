@@ -4,7 +4,7 @@ import Responsive from './layout/Responsive';
 
 class FacebookColumn extends PureComponent {
   state = {
-    width: 0
+    width: 0,
   };
 
   constructor(props) {
@@ -44,7 +44,10 @@ class FacebookColumn extends PureComponent {
     return (
       <ColumnContainer ref={this.myContainer}>
         <Title> Facebook </Title>
-        <div>Følg mig på facebook, hvis du ønsker at få søde hvalpebilleder, gode artikler og træningsinput i din nyhedsstrøm.</div>
+        <div>
+          Følg mig på facebook, hvis du ønsker at få søde hvalpebilleder, gode artikler og
+          træningsinput i din nyhedsstrøm.
+        </div>
         <MarginBottom> </MarginBottom>
         <div
           style={{ height: '214px' }}

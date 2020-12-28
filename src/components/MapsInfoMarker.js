@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 class MapsInfoMarker extends PureComponent {
   state = {
-    isOpen: false
+    isOpen: false,
   };
 
   toggleIsOpen = () => {
@@ -22,7 +22,7 @@ class MapsInfoMarker extends PureComponent {
           <InfoWindow position={position} onCloseClick={this.toggleIsOpen}>
             <div
               style={{
-                background: `white`
+                background: `white`,
               }}
             >
               <p>{text}</p>
@@ -38,8 +38,8 @@ MapsInfoMarker.propTypes = {
   text: PropTypes.string.isRequired,
   position: PropTypes.shape({
     lat: PropTypes.number,
-    lng: PropTypes.number
-  }).isRequired
+    lng: PropTypes.number,
+  }).isRequired,
 };
 
 export default MapsInfoMarker;

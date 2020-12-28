@@ -1,11 +1,13 @@
 import styled from 'styled-components';
-import Responsive from './Responsive';
 import React from 'react';
+import Responsive from './Responsive';
+import PropTypes from 'prop-types';
 
+const TextContainer = ({ children }) => <TextContained>{children}</TextContained>;
 
-const TextContainer = ({ children }) => (
-  <TextContained>{children}</TextContained>
-);
+TextContainer.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 const TextContained = styled.div`
   display: flex;
@@ -17,6 +19,5 @@ const TextContained = styled.div`
     text-align: center;
   `}
 `;
-
 
 export default TextContainer;

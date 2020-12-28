@@ -8,7 +8,7 @@ import SmallMenu from './SmallMenu';
 
 class Menu extends Component {
   state = {
-    showSidebar: false
+    showSidebar: false,
   };
 
   toggleShowSideBar = () => {
@@ -27,7 +27,7 @@ class Menu extends Component {
           </CenteredA>
           <MenuItemContainer>
             <MediaQuery minWidth={Responsive.sizes.tablet}>
-              {matches =>
+              {(matches) =>
                 matches ? (
                   <LargeMenu />
                 ) : (
@@ -46,7 +46,7 @@ export default Menu;
 
 const Background = styled.div`
   min-height: 90px;
-  background: #0F292F;
+  background: #0f292f;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #000;

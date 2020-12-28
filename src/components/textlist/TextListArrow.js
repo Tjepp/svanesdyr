@@ -30,7 +30,7 @@ const ListItem = styled.li`
 `;
 
 TextListArrow.propTypes = {
-  texts: PropTypes.arrayOf(String).isRequired
+  texts: PropTypes.arrayOf(String).isRequired,
 };
 
 export default TextListArrow;

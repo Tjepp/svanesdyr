@@ -11,9 +11,9 @@ const TitleCenter = ({ text, color, showHorizontalRuler, smallTitle }) => (
 );
 
 const StyledTitle = styled.h4`
-  color: ${props => props.color};
+  color: ${(props) => props.color};
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
-  font-size: ${props => (props.smallTitle ? '18px' : '22px')};
+  font-size: ${(props) => (props.smallTitle ? '18px' : '22px')};
   margin: 10px 0 10px 0;
   width: 100%;
   font-weight: normal;
@@ -23,7 +23,7 @@ const StyledTitle = styled.h4`
     margin-left: 0px;
     width: -webkit-fill-available;
     content: '';
-    display: ${props => (props.showHorizontalRuler ? 'block' : 'none')};
+    display: ${(props) => (props.showHorizontalRuler ? 'block' : 'none')};
   }
   ${Responsive.media.tablet`
   margin-left: 0px;
@@ -36,13 +36,13 @@ TitleCenter.propTypes = {
   text: PropTypes.string.isRequired,
   color: PropTypes.string,
   showHorizontalRuler: PropTypes.bool,
-  smallTitle: PropTypes.bool
+  smallTitle: PropTypes.bool,
 };
 
 TitleCenter.defaultProps = {
   color: '#000',
   showHorizontalRuler: false,
-  smallTitle: false
+  smallTitle: false,
 };
 
 export default TitleCenter;

@@ -22,17 +22,17 @@ class TextCenter extends PureComponent {
 }
 
 const StyledText = styled.p`
-  color: ${props => props.color};
+  color: ${(props) => props.color};
   text-decoration: none;
-  cursor: ${props => (props.onClick ? 'pointer' : 'auto')};
-  font-weight: ${props => (props.bold ? 'bold' : 'normal')};
-  font-style: ${props => (props.italic ? 'italic' : 'normal')};
-  white-space: ${props => (props.whiteSpace ? 'pre' : 'initial')};
+  cursor: ${(props) => (props.onClick ? 'pointer' : 'auto')};
+  font-weight: ${(props) => (props.bold ? 'bold' : 'normal')};
+  font-style: ${(props) => (props.italic ? 'italic' : 'normal')};
+  white-space: ${(props) => (props.whiteSpace ? 'pre' : 'initial')};
   margin: 0 0 10px;
   font-size: 15px;
   line-height: 22px;
   &:hover {
-    color: ${props => (props.onClick ? '#727272' : props.color)};
+    color: ${(props) => (props.onClick ? '#727272' : props.color)};
   }
   ${Responsive.media.tablet`
     margin-left: 0px;
@@ -47,7 +47,7 @@ TextCenter.propTypes = {
   color: PropTypes.string,
   bold: PropTypes.bool,
   whiteSpace: PropTypes.bool,
-  italic: PropTypes.bool
+  italic: PropTypes.bool,
 };
 
 TextCenter.defaultProps = {
@@ -55,7 +55,7 @@ TextCenter.defaultProps = {
   color: '#000',
   bold: false,
   whiteSpace: false,
-  italic: false
+  italic: false,
 };
 
 export default TextCenter;

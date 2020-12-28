@@ -37,6 +37,10 @@ const ContactFormModal = ({ onClick }) => {
   );
 };
 
+ContactFormModal.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};
+
 const StyledModal = styled.div`
   position: absolute;
   background: white;
