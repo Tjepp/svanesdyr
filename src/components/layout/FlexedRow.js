@@ -14,6 +14,7 @@ const FlexRow = styled.div`
   flex-direction: row;
   ${Responsive.media.tablet`
     flex-direction: column;
+    align-items: center;
   `}
 `;
 

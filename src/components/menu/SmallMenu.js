@@ -30,7 +30,7 @@ SmallMenu.propTypes = {
 export default SmallMenu;
 
 const CollapsibleMenu = styled.div`
-  height: ${(props) => (props.showSidebar ? '387px' : '0')};
+  height: ${(props) => (props.showSidebar ? '300px' : '0')};
   width: 100%;
   overflow: hidden;
   transition: all 0.5s ease-out;
