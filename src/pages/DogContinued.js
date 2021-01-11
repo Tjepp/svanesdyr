@@ -174,7 +174,7 @@ const DogContinued = () => (
                 <Td>8. feb</Td>
                 <Td>22. marts</Td>
                 <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
             </Tbody>
@@ -231,7 +231,7 @@ const DogContinued = () => (
             på siden.
           </Text>
           <br />
-          <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text>
+          {/* <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text> */}
 
           <Table>
             <DogCourseTableHead />

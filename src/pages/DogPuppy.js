@@ -37,6 +37,7 @@ import {
   TestiPupOne,
   TestiPupTwo,
   TestiPupThree,
+  // TestiPupFour,
 } from '../assets';
 
 const PuppyProgram = [
@@ -146,7 +147,7 @@ const DogPuppy = () => {
                   <Td>19. jan</Td>
                   <Td>2. marts</Td>
                   <Td>
-                    <font color="#D60E0E">1 plads</font>
+                    <font color="#D60E0E">*Venteliste*</font>
                   </Td>
                 </Tr>
                 <Tr>
@@ -181,7 +182,7 @@ const DogPuppy = () => {
                   <Td>1. feb</Td>
                   <Td>15. marts</Td>
                   <Td>
-                    <font color="#D60E0E">2 pladser</font>
+                    <font color="#D60E0E">1 plads</font>
                   </Td>
                 </Tr>
               </Tbody>
@@ -198,7 +199,7 @@ const DogPuppy = () => {
                   <Td>
                     <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                   </Td>
-                  <Td>18.30 - 19.15</Td>
+                  <Td>17.30 - 18.15</Td>
                   <Td>1. marts</Td>
                   <Td>19. april</Td>
                   <Td>Påskedag 5. april</Td>
@@ -213,7 +214,7 @@ const DogPuppy = () => {
                   <Td>
                     <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                   </Td>
-                  <Td>18.30 - 19.15</Td>
+                  <Td>17.30 - 18.15</Td>
                   <Td>2. marts</Td>
                   <Td>20. april</Td>
                   <Td>Påskeuge 30. marts</Td>
@@ -294,6 +295,24 @@ const DogPuppy = () => {
                   <Text>Anja, Silas og Ozzy</Text>
                 </TextContainer>
               </FlexedRow>
+              {/* <FlexedRow>
+                <Image src={TestiPupFour} height="300px" />
+                <TextContainer>
+                  <TitleColor text=" ”Massiv usikkerhed er ændret til positiv udvikling, da jeg har bedre forståelse for min hund og noget konstruktivt at arbejde videre med hjemme” " />
+                  <Text>
+                    Jeg vidste intet om moderne hunde-opdragelse med den positive tilgang, 
+                    men vidste noget fra pighalsbåndenes tid, hvor man var myndig og afstraffende i nuet. 
+                    Det betyder at jeg har skullet udskifte hele min tankegang og det har hvalpeholdet hjulpet enormt meget med, 
+                    både fordi vi kunne spørge til råds om de udfordringer vi stod med og fordi jeg kunne se at den positive tilgang jo virker ;-)
+                  </Text>
+                  <Text>
+                    Allerførste gang vi brugte klikker og hunden skulle søge kontakt 
+                    - det var en fantastisk aha oplevelse og første gang at jeg fik fornemmelse af gensidig kommunikation med hunden 
+                    - og fik håb om at det måske nok skal gå godt med hund alligevel.
+                  </Text>
+                  <Text>Malene og Simba</Text>
+                </TextContainer>
+              </FlexedRow> */}
             </Carousel>
             <br />
             <Title text="Billeder fra hvalpehold Horsens" showHorizontalRuler />

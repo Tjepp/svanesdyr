@@ -173,6 +173,26 @@ const DogCool = () => (
               </Tr>
             </Tbody>
           </Table>
+          <Title text="Februar start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Cool C</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>11.00 - 11.45</Td>
+                <Td>28. feb</Td>
+                <Td>18. april</Td>
+                <Td>
+                  <font color="#D60E0E">2 pladser</font>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table>
           <br />
 
           <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler />
@@ -300,27 +320,6 @@ const DogCool = () => (
                 <Td>21. marts</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
-          <Title text="Februar start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Fortsat Cool B</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>11.00 - 11.45</Td>
-                <Td>28. feb</Td>
-                <Td>18. april</Td>
-                <Td>
-                  <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
