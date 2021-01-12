@@ -38,7 +38,7 @@ const match = PropTypes.shape({
   url: PropTypes.string.isRequired,
 });
 
-const routeShape: any = {
+const routeShape = {
   path: PropTypes.string,
   exact: PropTypes.bool,
   strict: PropTypes.bool,
@@ -50,6 +50,7 @@ routeShape.routes = PropTypes.arrayOf(PropTypes.shape(routeShape));
 
 const route = PropTypes.shape(routeShape);
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   location,
   history,
