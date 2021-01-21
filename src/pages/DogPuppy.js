@@ -185,6 +185,20 @@ const DogPuppy = () => {
                     <font color="#D60E0E">*Venteliste*</font>
                   </Td>
                 </Tr>
+                <Tr>
+                  <Td>Hvalp E</Td>
+                  <Td>Tirsdag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>16.30 - 17.15</Td>
+                  <Td>2. feb</Td>
+                  <Td>16. marts</Td>
+                  <Td>
+                    <font color="#D60E0E">*Venteliste*</font>
+                  </Td>
+                </Tr>
               </Tbody>
             </Table>
 
@@ -193,7 +207,7 @@ const DogPuppy = () => {
               <DogCourseTableHead />
               <Tbody>
                 <Tr>
-                  <Td>Hvalp E</Td>
+                  <Td>Hvalp F</Td>
                   <Td>Mandag</Td>
                   <Td>8700</Td>
                   <Td>
@@ -208,7 +222,7 @@ const DogPuppy = () => {
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td>Hvalp F</Td>
+                  <Td>Hvalp G</Td>
                   <Td>Tirsdag</Td>
                   <Td>8700</Td>
                   <Td>
