@@ -218,7 +218,7 @@ const DogPuppy = () => {
                   <Td>19. april</Td>
                   <Td>Påskedag 5. april</Td>
                   <Td>
-                    <font color="#D60E0E">4 pladser</font>
+                    <font color="#D60E0E">3 pladser</font>
                   </Td>
                 </Tr>
                 <Tr>
@@ -233,7 +233,7 @@ const DogPuppy = () => {
                   <Td>20. april</Td>
                   <Td>Påskeuge 30. marts</Td>
                   <Td>
-                    <font color="#D60E0E">4 pladser</font>
+                    <font color="#D60E0E">2 pladser</font>
                   </Td>
                 </Tr>
               </Tbody>
