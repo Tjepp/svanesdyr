@@ -212,7 +212,7 @@ const DogContinued = () => (
                 <Td>20. april</Td>
                 <Td>Påskeuge 30. marts</Td>
                 <Td>
-                  <font color="#D60E0E">3 pladser</font>
+                  <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
               <Tr>
@@ -227,7 +227,7 @@ const DogContinued = () => (
                 <Td>10. maj</Td>
                 <Td>Påske 5. april</Td>
                 <Td>
-                  <font color="#D60E0E">4 pladser</font>
+                  <font color="#D60E0E">3 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
@@ -264,7 +264,7 @@ const DogContinued = () => (
                 <Td>20. april</Td>
                 <Td>30. marts</Td>
                 <Td>
-                  <font color="#D60E0E">3 pladser</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
               <Tr>
@@ -279,7 +279,7 @@ const DogContinued = () => (
                 <Td>9. maj</Td>
                 <Td>4. april</Td>
                 <Td>
-                  <font color="#D60E0E">2 pladser</font>
+                  <font color="#D60E0E">*Venteliste*</font>
                 </Td>
               </Tr>
             </Tbody>
