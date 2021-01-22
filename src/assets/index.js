@@ -18,7 +18,7 @@ export { default as PuppyOne } from './HoldHvalp1.jpg';
 export { default as PuppyTwo } from './HoldHvalp2.jpg';
 export { default as PuppyThree } from './HoldHvalp3.jpg';
 export { default as PuppyFour } from './HoldHvalp4.jpg';
-export { default as PuppyFive } from './HoldHvalp5.jpg';
+// export { default as PuppyFive } from './HoldHvalp5.jpg';
 export { default as PuppySix } from './HoldHvalp6.jpg';
 export { default as PuppySeven } from './HoldHvalp7.jpg';
 export { default as PuppyEight } from './HoldHvalp8.jpg';
