@@ -23,7 +23,7 @@ export { default as PuppySix } from './HoldHvalp6.jpg';
 export { default as PuppySeven } from './HoldHvalp7.jpg';
 export { default as PuppyEight } from './HoldHvalp8.jpg';
 export { default as PuppyNine } from './HoldHvalp9.jpg';
-export { default as PuppyContinuedOne } from './HoldHvalpFortsat1.JPG';
+export { default as PuppyContinuedOne } from './HoldHvalpFortsat1.jpg';
 export { default as PuppyContinuedTwo } from './HoldHvalpFortsat2.jpg';
 export { default as PuppyContinuedThree } from './HoldHvalpFortsat3.jpg';
 export { default as PuppyContinuedFour } from './HoldHvalpFortsat4.jpg';
