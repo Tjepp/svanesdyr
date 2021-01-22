@@ -215,6 +215,21 @@ const DogContinued = () => (
                   <font color="#D60E0E">3 pladser</font>
                 </Td>
               </Tr>
+              <Tr>
+                <Td>Fortsætter G</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>22. marts</Td>
+                <Td>10. maj</Td>
+                <Td>Påske 5. april</Td>
+                <Td>
+                  <font color="#D60E0E">4 pladser</font>
+                </Td>
+              </Tr>
             </Tbody>
           </Table>
 
@@ -231,28 +246,11 @@ const DogContinued = () => (
             program og er derfor åbent for forslag til ønskede øvelser. Holdopstart annonceres her
             på siden.
           </Text>
-          <br />
           {/* <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text> */}
 
+          <Title text="Marts start:" />
           <Table>
             <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter 2A</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>12.00 - 13.00</Td>
-                <Td>10. jan</Td>
-                <Td>14. marts</Td>
-                <Td>Ulige uger</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-            </Tbody>
             <Tbody>
               <Tr>
                 <Td>Fortsætter 2B</Td>
@@ -267,6 +265,21 @@ const DogContinued = () => (
                 <Td>30. marts</Td>
                 <Td>
                   <font color="#D60E0E">3 pladser</font>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsætter 2C</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>10.00 - 10.45</Td>
+                <Td>21. marts</Td>
+                <Td>9. maj</Td>
+                <Td>4. april</Td>
+                <Td>
+                  <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
             </Tbody>

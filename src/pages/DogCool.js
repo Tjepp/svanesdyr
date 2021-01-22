@@ -20,6 +20,7 @@ import {
   Row,
   FlexedRow,
   DogCourseSimple,
+  DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -195,6 +196,28 @@ const DogCool = () => (
                 <Td>18. april</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="Marts start:" />
+          <Table>
+            <DogCourseTableHead />
+            <Tbody>
+              <Tr>
+                <Td>Cool D</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>16.30 - 17.15</Td>
+                <Td>1. marts</Td>
+                <Td>19. april</Td>
+                <Td>Påske 5. april</Td>
+                <Td>
+                  <font color="#D60E0E">4 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
