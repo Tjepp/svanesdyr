@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseSimple,
+  // DogCourseSimple,
   TextList,
   Image,
   StyledLink,
@@ -103,7 +103,12 @@ const DogRecall = () => (
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          <Table>
+          <br />
+          <TitleColor text="Hold startes op på efterspørgsel." />
+          <Text>
+            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
+          </Text>
+          {/* <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
@@ -121,7 +126,7 @@ const DogRecall = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title
@@ -164,7 +169,10 @@ const DogRecall = () => (
           </Text>
           <TextList texts={ContinuedRecallProgram} />
           <br />
-          <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text>
+          <TitleColor text="Hold startes op på efterspørgsel." />
+          <Text>
+            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
+          </Text>
 
           {/* <Title text="Januar start:" />
           <Table>

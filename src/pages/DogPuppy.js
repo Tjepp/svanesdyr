@@ -34,10 +34,13 @@ import {
   PuppyFour,
   PuppyFive,
   PuppySix,
+  PuppySeven,
+  PuppyEight,
+  PuppyNine,
   TestiPupOne,
   TestiPupTwo,
   TestiPupThree,
-  // TestiPupFour,
+  TestiPupFour,
 } from '../assets';
 
 const PuppyProgram = [
@@ -309,24 +312,27 @@ const DogPuppy = () => {
                   <Text>Anja, Silas og Ozzy</Text>
                 </TextContainer>
               </FlexedRow>
-              {/* <FlexedRow>
-                <Image src={TestiPupFour} height="300px" />
+              <FlexedRow>
+                <Image src={TestiPupFour} width="200px" height="300px" />
                 <TextContainer>
                   <TitleColor text=" ”Massiv usikkerhed er ændret til positiv udvikling, da jeg har bedre forståelse for min hund og noget konstruktivt at arbejde videre med hjemme” " />
                   <Text>
-                    Jeg vidste intet om moderne hunde-opdragelse med den positive tilgang, 
-                    men vidste noget fra pighalsbåndenes tid, hvor man var myndig og afstraffende i nuet. 
-                    Det betyder at jeg har skullet udskifte hele min tankegang og det har hvalpeholdet hjulpet enormt meget med, 
-                    både fordi vi kunne spørge til råds om de udfordringer vi stod med og fordi jeg kunne se at den positive tilgang jo virker ;-)
+                    Jeg vidste intet om moderne hunde-opdragelse med den positive tilgang, men
+                    vidste noget fra pighalsbåndenes tid, hvor man var myndig og afstraffende i
+                    nuet. Det betyder at jeg har skullet udskifte hele min tankegang og det har
+                    hvalpeholdet hjulpet enormt meget med, både fordi vi kunne spørge til råds om de
+                    udfordringer vi stod med og fordi jeg kunne se at den positive tilgang jo virker
+                    ;-)
                   </Text>
                   <Text>
-                    Allerførste gang vi brugte klikker og hunden skulle søge kontakt 
-                    - det var en fantastisk aha oplevelse og første gang at jeg fik fornemmelse af gensidig kommunikation med hunden 
-                    - og fik håb om at det måske nok skal gå godt med hund alligevel.
+                    Allerførste gang vi brugte klikker og hunden skulle søge kontakt - det var en
+                    fantastisk aha oplevelse og første gang at jeg fik fornemmelse af gensidig
+                    kommunikation med hunden - og fik håb om at det måske nok skal gå godt med hund
+                    alligevel.
                   </Text>
                   <Text>Malene og Simba</Text>
                 </TextContainer>
-              </FlexedRow> */}
+              </FlexedRow>
             </Carousel>
             <br />
             <Title text="Billeder fra hvalpehold Horsens" showHorizontalRuler />
@@ -350,6 +356,17 @@ const DogPuppy = () => {
               </Column>
               <Column>
                 <Image src={PuppySix} />
+              </Column>
+            </Row>
+            <Row>
+              <Column>
+                <Image src={PuppySeven} />
+              </Column>
+              <Column>
+                <Image src={PuppyEight} />
+              </Column>
+              <Column>
+                <Image src={PuppyNine} />
               </Column>
             </Row>
           </Column>

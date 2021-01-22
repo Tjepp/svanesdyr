@@ -113,7 +113,7 @@ const DogCoolFriend = () => (
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
           <br />
-          <TitleColor text="Holdet startes op på efterspørgsel." />
+          <TitleColor text="Hold startes op på efterspørgsel." />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
           </Text>
