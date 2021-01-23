@@ -207,7 +207,7 @@ const DogCool = () => (
             <Tbody>
               <Tr>
                 <Td>Cool D</Td>
-                <Td>Søndag</Td>
+                <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
