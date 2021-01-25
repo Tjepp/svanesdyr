@@ -212,7 +212,7 @@ const DogContinued = () => (
                 <Td>20. april</Td>
                 <Td>Påskeuge 30. marts</Td>
                 <Td>
-                  <font color="#D60E0E">2 pladser</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
               <Tr>
@@ -280,6 +280,27 @@ const DogContinued = () => (
                 <Td>4. april</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="April start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Fortsætter 2D</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>12.00 - 12.45</Td>
+                <Td>11. april</Td>
+                <Td>23. maj</Td>
+                <Td>
+                  <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
