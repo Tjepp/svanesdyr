@@ -113,20 +113,20 @@ const DogContinued = () => (
           </Text>
           {/* <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text> */}
 
-          <Title text="Januar start:" />
+          <Title text="Marts start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
                 <Td>Negleklip A</Td>
-                <Td>Tirsdag</Td>
+                <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>11.00 - 11.45</Td>
-                <Td>26. jan</Td>
-                <Td>2. marts</Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>29. marts</Td>
+                <Td>10. maj</Td>
                 <Td>
                   <font color="#D60E0E">2 pladser</font>
                 </Td>

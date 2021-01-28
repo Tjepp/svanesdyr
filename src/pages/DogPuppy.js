@@ -46,9 +46,10 @@ import {
 const PuppyProgram = [
   'Fornøjelige gåture, uden at trække i snoren',
   'Pauseknappen, så hvalpen kan falde til ro, når du er i ro',
+  'Kontaktøvelser, som sikrer dig, at DU altid er interessant',
   'Det sikre indkald hvor hvalpen kommer hver gang der kaldes',
   'Positiv miljøtræning, så nye og skræmmende ting kan mødes med selvtillid',
-  'Basisøvelser sit, dæk og kontaktøvelser, som sikrer dig, at DU altid er interessant',
+  'Øvelse i byttelege, så hvalpen lærer at aflevere og spytte ud, fremfor at stikke af med sager',
   'Frivillig håndtering, hvor du gør det til en leg at få tjekket tænder, ører, klippet negle m.v.',
   'God impulskontrol så dagligdagens små glæder bliver lettere med en hvalp, der har lært at have ro',
 ];
@@ -121,55 +122,6 @@ const DogPuppy = () => {
             <br />
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-            <Title text="Januar start" />
-            <Table>
-              <DogCourseSimple />
-              <Tbody>
-                <Tr>
-                  <Td>Hvalp A</Td>
-                  <Td>Mandag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>16.30 - 17.15</Td>
-                  <Td>11. jan</Td>
-                  <Td>22. feb</Td>
-                  <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
-                  </Td>
-                </Tr>
-                <Tr>
-                  <Td>Hvalp B</Td>
-                  <Td>Tirsdag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>10.00 - 10.45</Td>
-                  <Td>19. jan</Td>
-                  <Td>2. marts</Td>
-                  <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
-                  </Td>
-                </Tr>
-                <Tr>
-                  <Td>Hvalp C</Td>
-                  <Td>Søndag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>10.00 - 10.45</Td>
-                  <Td>31. jan</Td>
-                  <Td>14. marts</Td>
-                  <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
-                  </Td>
-                </Tr>
-              </Tbody>
-            </Table>
-
             <Title text="Februar start:" />
             <Table>
               <DogCourseSimple />
@@ -221,7 +173,7 @@ const DogPuppy = () => {
                   <Td>19. april</Td>
                   <Td>Påskedag 5. april</Td>
                   <Td>
-                    <font color="#D60E0E">3 pladser</font>
+                    <font color="#D60E0E">2 pladser</font>
                   </Td>
                 </Tr>
                 <Tr>

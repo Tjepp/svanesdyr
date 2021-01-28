@@ -110,55 +110,6 @@ const DogContinued = () => (
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          <Title text="Januar start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter A</Td>
-                <Td>Søndag</Td>
-                <Td>Ude</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>09.00 - 09.45</Td>
-                <Td>10. jan</Td>
-                <Td>21. feb</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Fortsætter B</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>11. jan</Td>
-                <Td>22. feb</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Fortsætter C</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>12. jan</Td>
-                <Td>23. feb</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
           <Title text="Februar start:" />
           <Table>
             <DogCourseTableHead />
@@ -227,7 +178,7 @@ const DogContinued = () => (
                 <Td>10. maj</Td>
                 <Td>Påske 5. april</Td>
                 <Td>
-                  <font color="#D60E0E">3 pladser</font>
+                  <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
             </Tbody>

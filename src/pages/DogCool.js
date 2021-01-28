@@ -146,40 +146,6 @@ const DogCool = () => (
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          <Title text="Januar start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Cool A</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>12. jan</Td>
-                <Td>23. feb</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Cool B</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>12. jan</Td>
-                <Td>23. feb</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
           <Title text="Februar start:" />
           <Table>
             <DogCourseSimple />
@@ -217,7 +183,7 @@ const DogCool = () => (
                 <Td>19. april</Td>
                 <Td>Påske 5. april</Td>
                 <Td>
-                  <font color="#D60E0E">3 pladser</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
             </Tbody>
@@ -367,7 +333,12 @@ const DogCool = () => (
           </Text>
           <TextList texts={ContinuedCoolProgram} />
 
-          <Title text="Januar start:" />
+          <TitleColor text="Hold startes op på efterspørgsel." />
+          <Text>
+            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
+          </Text>
+
+          {/* <Title text="Januar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -400,7 +371,7 @@ const DogCool = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />
