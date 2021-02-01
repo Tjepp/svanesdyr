@@ -38,7 +38,6 @@ const ContinuedProgram = [
   'Hilse pænt / ikke hoppe op af mennesker',
   'Positiv indlæring af et stop ord som "nej"',
   'Indlæring af at gå i kurven / falde til ro på signal',
-  'Nose Work basis til sjov og mental aktivering derhjemme',
   'Træning af rolige gåture omkring andre hunde og mennesker',
 ];
 
