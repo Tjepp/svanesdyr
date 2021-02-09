@@ -33,8 +33,7 @@ const Contact = () => (
         <Column widthPercentage="100%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
           <Text>
-            Har du spørgsmål vedrørende din hund, kat eller hest og ønsker at høre om jeg kan
-            hjælpe?
+            Har du spørgsmål vedrørende din hund eller kat og ønsker at høre om jeg kan hjælpe?
           </Text>
           <FlexRow>
             <Text>
@@ -58,7 +57,7 @@ const Contact = () => (
           <Text>
             Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.
             <br />
-            Ved forgæves kørsel afregnes kørselstillæg efter statens takster på 3,52 kr./km.
+            Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
           </Text>
         </Column>
         {/* <Column>

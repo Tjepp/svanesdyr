@@ -167,6 +167,21 @@ const DogContinued = () => (
               </Tr>
               <Tr>
                 <Td>Fortsætter G</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>10.00 - 11.00</Td>
+                <Td>9. marts</Td>
+                <Td>10. maj</Td>
+                <Td>Påskeuge 30. marts</Td>
+                <Td>
+                  <font color="#D60E0E">1 plads</font>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsætter H</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td>
@@ -177,7 +192,7 @@ const DogContinued = () => (
                 <Td>10. maj</Td>
                 <Td>Påske 5. april</Td>
                 <Td>
-                  <font color="#D60E0E">2 pladser</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
             </Tbody>
