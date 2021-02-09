@@ -84,13 +84,13 @@ const Lecture = () => (
                 <Td>17.03.2021</Td>
                 <Td>Hundens sprog - Hvad fortæller den dig?</Td>
                 <Td>
-                  {/* <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/angst-og-aggression-i-hunde-forebyggelse-og-behandling?id=205832">
+                  <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/hundens-sprog-workshop/210821">
                     Klik her
-                  </StyledExternal> */}
-                  <i>kommer snart</i>
+                  </StyledExternal>
+                  {/* <i>kommer snart</i> */}
                 </Td>
                 <Td>18.30 - 21.30</Td>
-                <Td>195 kr. </Td>
+                <Td>200 kr. </Td>
                 <Td>
                   <font color="#D60E0E">10 pladser</font>
                 </Td>
@@ -99,13 +99,13 @@ const Lecture = () => (
                 <Td>20.03.2021</Td>
                 <Td>Angst og Aggression - Forebyggelse og behandling</Td>
                 <Td>
-                  {/* <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/angst-og-aggression-i-hunde-forebyggelse-og-behandling?id=205832">
+                  <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/angst-og-aggression-forebyggelse-og-behandling/210822">
                     Klik her
-                  </StyledExternal> */}
-                  <i>kommer snart</i>
+                  </StyledExternal>
+                  {/* <i>kommer snart</i> */}
                 </Td>
                 <Td>10.00 - 15.45 </Td>
-                <Td>340 kr. </Td>
+                <Td>335 kr. </Td>
                 <Td>
                   <font color="#D60E0E">10 pladser</font>
                 </Td>
@@ -114,10 +114,10 @@ const Lecture = () => (
                 <Td>17.04.2021</Td>
                 <Td>Slap af Fido! - få ro på hverdagen </Td>
                 <Td>
-                  {/* <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/slap-af-fido-faa-en-rolig-og-afslappet-hund?id=205831">
+                  <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/slap-af-fido-f-ro-p-hverdagen-workshop/210823">
                     Klik her
-                  </StyledExternal> */}
-                  <i>kommer snart</i>
+                  </StyledExternal>
+                  {/* <i>kommer snart</i> */}
                 </Td>
                 <Td>10.00 - 15.45 </Td>
                 <Td>335 kr. </Td>
@@ -129,13 +129,13 @@ const Lecture = () => (
                 <Td>22.05.2021</Td>
                 <Td>Det gøende mareridt </Td>
                 <Td>
-                  {/* <StyledExternal href="https://www.fof.dk/sydostjylland/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag/det-goeende-mareridt?id=205829">
+                  <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/det-goeende-mareridt-workshop/210824">
                     Klik her
-                  </StyledExternal> */}
-                  <i>kommer snart</i>
+                  </StyledExternal>
+                  {/* <i>kommer snart</i> */}
                 </Td>
                 <Td>10.00 - 15.45 </Td>
-                <Td>395 kr. </Td>
+                <Td>335 kr. </Td>
                 <Td>
                   <font color="#D60E0E">10 pladser</font>
                 </Td>
