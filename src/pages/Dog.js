@@ -56,30 +56,24 @@ const Dog = () => (
         <Column widthPercentage="65%">
           <Title text="Konsultation ved hundeadfærdsbehandler" showHorizontalRuler />
           <Text>
-            Belønningsbaseret hundetræning er til gavn for alle hunde, uanset alder og race, og
-            styrker relationen mellem hund og ejer. Træning med din hund byder på kvalitetstid hvor
-            samarbejde, tillid og succes styrkes, hvilket skaber en hund i balance med sig selv og
-            sine omgivelser. Mange adfærdsproblemer, som angst og aggression, kan forebygges igennem
-            belønningsbaseret træning og forståelse for hundens adfærd.
-            <br />
-            Ønsker du vejledning i positiv, effektiv hundeopdragelse til hverdagen eller har du brug
-            for gode råd til træning af hunden, så kan du
-            <StyledLink to="/kontakt"> bestille en privattime </StyledLink>
-            ved at kontakte Sabrina Svane eller tilmelde dig et
-            <StyledLink to="/hundehold"> hundehold</StyledLink>.
+            Står du med en hund, som har dårlige vaner der er svære at bryde, såsom at trække i
+            snoren eller stjæle mad fra bordet, eller oplever du aggressiv eller ængstelig adfærd,
+            som at gø af andre hunde, så er der hjælp at hente. Mange adfærdsproblemer kan behandles
+            og ændres gennem belønningsbaseret træning og forståelse for hundens adfærd.
           </Text>
           <Text>
-            Nogle hunde udvikler problemadfærd, som kan skabe utryghed og stress i hverdagen, både
-            for hund og for ejer. Det er individuelt hvad der opfattes som et problem hos den
-            enkelte ejer, men uanset hvad du har af ønsker for din hund og jeres fælles hverdag, så
-            kan du få hjælp til dette, ved at
-            <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
-            hos Sabrina Svane.
+            Oplever du problemadfærd hos din hund, så husk på at din hund ikke prøver på at gøre
+            livet surt for dig. Den har det selv svært, enten ved at forstå hvad du forventer fra
+            den eller ved at kontrollere sine følelser når den bliver smidt i en presset, intens
+            situation. Uanset hvad du oplever kan du hjælpe din hund, så i begge får en mere rolig
+            og harmonisk hverdag sammen.
           </Text>
-          <TitleColor
-            text="Kontakt mig gerne og hør om din problemstilling kræver en privattime eller en konsultation."
-            smallTitle
-          />
+          <Text>
+            Du er allerede på rette vej når du læser denne linie! For det betyder at du er på udkig
+            efter redskaberne til at få hverdagen til at fungere igen. Det er både din hund og jeg
+            taknemmelig for. Ønsker du at høre mere om hvad du kan forvente at få af hjælp så
+            <StyledLink to="/kontakt"> kontakt mig</StyledLink> endelig.
+          </Text>
         </Column>
         <Column>
           <Title text="Priser for hundetræning" showHorizontalRuler />

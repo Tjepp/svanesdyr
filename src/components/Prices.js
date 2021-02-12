@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Text from './Text';
 import { TitleColor } from '.';
 
@@ -27,7 +27,7 @@ const Prices = () => (
     <Text>
       <b>Kørsel</b>
       <br />
-      Efter statens takster 3,52 kr/km begge veje.
+      Efter statens takster 3,44 kr/km begge veje.
     </Text>
   </>
 );

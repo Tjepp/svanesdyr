@@ -51,31 +51,27 @@ const Cat = () => (
         <Column widthPercentage="65%">
           <Title text="Konsultation ved katteadfærdsspecialist" showHorizontalRuler />
           <Text>
-            Katte er et af de få dyr, som frigiver endorfiner i kroppen ved problemløsning. Dvs. de
-            opnår en indre følelse af velbehag og tilfredshed, når de får lov at bruge hovedet og
-            løse opgaver. Uanset om det er i træningen sammen med deres ejer eller igennem
-            aktivering med deres daglige foder. Derfor kan træning med katten og/eller optimal
-            foderaktivering bidrage til en velstimuleret, veltilpas kat, som bliver mindre
-            tilbøjelig til at finde på narrestreger.
+            Katte bliver desværre overset når det kommer til behandling af problemadfærd. Men
+            ligesom med hunde, så er det muligt at ændre din kats adfærd, hvis du oplever en
+            uhensigtsmæssig opførsel i hverdagen. Uanset om din kat virker aggressiv, bange eller
+            ikke vil bruge kattebakken regelmæssigt, så er der hjælp at hente.
           </Text>
           <Text>
-            Søger du mere viden omkring træning af katte og positiv, effektiv hverdagsopdragelse,
+            Træning sammen med din kat giver jer mulighed for at knytte bånd på en helt ny måde, og
+            ikke mindst dig muligheden for at hjælpe din kat. Du kan gøre din kat tryg ved
+            situationer den førhen er blevet sur over eller ked af, og dårlige vaner kan brydes og
+            erstattes med nye, bedre vaner. Træning med dig bidrager nemlig til en velstimuleret,
+            veltilpas kat, som bliver mindre tilbøjelig til at finde på narrestreger. Når din kat
+            får lov at bruge hovedet og løse opgaver, får den en indre følelse af velbehag og
+            tilfredshed. Denne lykkefølelse vil gøre at træningen og samværet med dig bliver din
+            kats første prioritet!
+          </Text>
+          <Text>
+            Ønsker du mere viden omkring træning af katte og positiv, effektiv hverdagsopdragelse,
             kan du
-            <StyledLink to="/kontakt"> bestille en privattime </StyledLink>
-            hos Sabrina Svane.
-          </Text>
-          <Text>
-            Mange katte bliver desværre overset når det kommer til behandling af problemadfærd. Men
-            ligesom med alle andre kæledyr, så er det muligt at ændre sin kat adfærd, hvis man
-            oplever en uhensigtsmæssig opførsel i hverdagen. Ønsker du råd og vejledning til
-            problemadfærd, kan du
             <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
             hos Sabrina Svane.
           </Text>
-          <TitleColor
-            text="Kontakt mig gerne og hør om din problemstilling kræver en privattime eller en konsultation."
-            smallTitle
-          />
         </Column>
         <Column>
           <Title text="Priser for kattetræning" showHorizontalRuler />

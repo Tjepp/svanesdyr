@@ -13,8 +13,6 @@ import {
   BreadCrumps,
   Row,
   Image,
-  StyledLink,
-  StyledExternal,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -28,74 +26,44 @@ const MyMethods = () => (
     </Banner>
     <Background>
       <Row marginTop="25px">
-        <Column widthPercentage="65%">
+        <Column widthPercentage="100%">
           <Title text="Belønningsbaserede træningsteknikker" showHorizontalRuler />
           <Text>
-            Jeg benytter mig af belønningsbaserede træningsmetoder fra de indlæringspsykologiske
-            principper, også kaldet
-            <b> positiv forstærkning. </b>
-            Hos mig foregår træningen helt på dyrets præmisser, hvor fokus er at opnå gensidigt
-            samarbejde og tillid. Der tages hensyn til alder, race, tidligere træning mv., da ingen
-            er ens. Jeg tager altid udgangspunkt i hvad du som ejer ønsker at opnå i træningen med
-            dit kæledyr.
+            Uanset om jeg står med en hund, kat eller hest, så har jeg altid en belønningsbaseret
+            tilgang til træning og opdragelse.
           </Text>
           <Text>
-            I træningen af dyr lægger jeg fokus på at belønne korrekt adfærd og motivere kæledyret
-            til at arbejde sammen med mig. Dette gøres ved at belønne hvert eneste rigtige "gæt",
-            som kæledyret tilbyder. Vores dyr ved ikke automatisk hvad vi forventer af dem, derfor
-            er det vigtigt at rose dem, når de gætter rigtigt. Så ved de hvilken adfærd de skal
-            fortsætte med at tilbyde.
+            Hvad indebærer en belønningsbaseret tilgang?
+            <br />
+            Jeg lægger vægt på at sætte hunden op til succes og sørge for at belønne den når den
+            gøre noget korrekt. Alt hvad jeg godt kan lidt at se den gøre bliver bekræftet! Jeg
+            bekræfter hunden ved at bruge en klikker eller give verbalt ros når jeg ser ønsket
+            adfærd, og følger op med en godbid eller anden form for rar belønning for at vise hunden
+            at dét kunne betale sig for den. Ligesom med os mennesker, så gør hunde, katte og heste
+            også kun dét der kan betale sig for dem. Dvs. de skal have en ordentlig løn for at gøre
+            et stykke arbejde.
           </Text>
           <Text>
-            Efterhånden som kæledyret er med på hvad jeg ønsker, øger jeg gradvist mit kriterie for,
-            hvor meget jeg ønsker den skal udføre ad gangen. Denne teknik kaldes shaping og sørger
-            for, at kæledyret er med på hvad jeg mener og føler fremgang i træningen. Dette
-            forebygger eventuel forvirring. Forvirring kan skabe frustration og stress, hvilket gør
-            træningsoplevelsen negativ. Derfor er det vigtigt at gøre træningen så let som muligt,
-            indtil kæledyret er med på hvad den skal.
+            Skulle det ske at hunden laver fejl, fx ved at gøre det modsatte af hvad jeg beder den
+            om eller slet ikke reagerer på mit signal. Så er det min opgave og mit ansvar at hjælpe
+            på rette vej igen. Det kan jeg gøre ved at guide hunden over i den adfærd jeg ønsker at
+            se. Hvis jeg bad om sit og ikke fik hvad jeg ønskede, kan jeg altid tage en godbid og
+            vise hunden positionen ved at lokke den. Gør hunden noget den ikke må, så afbryder jeg
+            ved at kalde og derefter vise hvad jeg så ønsker. Ansvaret som ejer er at vise hvad vi
+            ønsker på en rolig, positiv og forstående måde og sørge for at bekræfte den adfærd vi
+            kan lide at se.
           </Text>
           <Text>
-            Gætter kæledyret på noget tidspunkt forkert, så straffer jeg den ikke for dette. Jeg
-            guider derimod mod det jeg ønsker. Dette kan gøres ved blot at vise hvad jeg forventer
-            og belønne derefter.
+            Ved at træne ud fra en belønningsbaseret tilgang lægger du fokus på at skabe samarbejde
+            mellem dig og din hund, gør træningen motiverende, succesfuld og ikke mindst sjov!
           </Text>
           <Text>
-            Fokus på samarbejde og succes gør træningen
-            <b> succesfuld, motiverende </b>
-            og ikke mindst
-            <b> sjov </b>
-            for begge parter!
+            Den belønningsbaserede træningsmetode stammer fra de indlæringspsykologiske principper,
+            og kaldes i teoretisk term for <b>positiv forstærkning.</b>
           </Text>
         </Column>
-        <Column>
+        {/* <Column>
           <Title text="Vil du vide mere?" showHorizontalRuler />
-          <Text>Gode bøger omhandlende de belønningsbaserede træningsmetoder:</Text>
-          <TitleColor text="Til hundeejere:" smallTitle />
-          <Text>
-            <b>
-              "Don't shoot the dog!"
-              <i> af Karen Pryor</i>
-            </b>
-            <br />
-            "Stress, angst og aggression"
-            <i>af Anders Hallgren</i>
-          </Text>
-          <TitleColor text="Til hesteejere:" smallTitle />
-          <Text>
-            "Indlæringspsykologi for hest og rytter"
-            <i>af Bettina Hvidemose</i>
-            <br />
-            "Clicker Training for your Horse"
-            <i>af Alexandra Kurland</i>
-          </Text>
-          <TitleColor text="Til katteejere:" smallTitle />
-          <Text>
-            "The Domestic Cat"
-            <i>af Turner and Bateson</i>
-            <br />
-            "Alt om Katte"
-            <i>af Candida Frith-MacDonald</i>
-          </Text>
           <TitleColor text="Rejse med kæledyr?" smallTitle />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig </StyledLink>
@@ -105,70 +73,77 @@ const MyMethods = () => (
             </StyledExternal>
             .
           </Text>
-        </Column>
+        </Column> */}
       </Row>
       <Row>
-        <Title text="Træningsteknikker" showHorizontalRuler />
+        <Title text="Uddybelse af forskellige træningsteknikker" showHorizontalRuler />
       </Row>
       <Row marginBottom="25px">
         <Column>
           <Image src={methodOne} />
-          <TitleColor text="Indlæringsmetoder" smallTitle />
+          <TitleColor text="Forskel på indlæringsmetoder" smallTitle />
           <Text>
-            Billedet ovenfor viser de fem forskellige konsekvenser, som efterfølges af et dyrs
-            adfærd (her vist med hund). I den daglige omgang og træning af dyr er det vigtigt at
-            fokusere på den grønne boks, hvor fokus er at belønne for korrekt adfærd og guide væk
-            fra ukorrekt adfærd. Når dyret tilbyder en uønsket adfærd er konsekvensen, at den ikke
-            får sin belønning (mister noget godt). For at undgå frustration efter en fejl er det
-            vigtigt at guide dyret til en succes, så den kan opnå sin belønning igen. Ved at anvende
-            metoder i den grønne boks motiveres kæledyret til samarbejde og initiativ, hvilket
-            styrker jeres fælles bånd og tillid.
+            Billedet ovenfor viser de fem forskellige konsekvenser, som er følge af adfærd (her vist
+            med hund). I din hverdag med hunden er det vigtigt at fokusere på den grønne boks, hvor
+            ønsket adfærd belønnes og der guides ved uønsket adfærd. Står du og træner din hund vil
+            der helt lavpraktisk ske det, at din hund får en godbid når den gøre noget du kan lide
+            at se. Sker det at den laver fejl, så får den blot ikke sin godbid dér (den mister noget
+            godt). For at undgå frustration efter en fejl er det vigtigt at guide hunden til en
+            succes, så den kan opnå sin belønning igen. Ved at anvende metoder i den grønne boks
+            arbejder du i belønningscenteret af hjernen, som er forbundet med rare følelser. Da
+            motiverer du din hund til yderligere at samarbejde, fordi du er rar at være sammen med,
+            hvilket styrker tilliden mellem jer.
           </Text>
           <Text>
-            Fokuserer man på at korrigere uønsket adfærd uhensigtsmæssigt og anvender metoder i den
-            røde boks, så vil kæledyret arbejde for at undgå ubehaget, som kan ende ud med at undgå
-            sin ejer. Kæledyret forbinder da træning med negative oplevelser, hvilket kan føre til
-            enten apatisk adfærd, aggression eller angst. Forventningen om straf i hverdagen kan
-            også lede til stress og frustration, da kæledyret ikke føler ubehaget kan undgås.
+            Lægges fokus på at rette eller skælde ud på hunden når den viser en uhensigtsmæssig
+            adfærd, så bevæger du dig ned i den røde boks. Ubehag kan være alt fra et hævet
+            toneleje, streng og anspændt kropssprog til fysisk afstraffelse ved at rykke i linen
+            eller slå. Bruger du sådanne metoder vil hunden forsøge at undgå at blive straffet, som
+            kan ende ud med at den helt undgår dig. Træningen kan da blive endnu sværere at udføre.
+            Ved at anvende metoder i den røde boks arbejder du i frygtcentret af hjernen, som er
+            forbundet med negative følelser. Træning med negative følelser kan føre til at hunden
+            begynder at udvise enten apatisk adfærd, aggression eller angst.
           </Text>
           <Text>
-            Benytter man en blanding af at belønne og straffe, vil straffen altid bære overvægt. Dyr
-            er kodet til at overleve, derfor vil ubehag altid prioriteres at undgås, fremfor at få
-            mad. Hvis straf derfor er en del af hverdagen, vil kæledyret betragte ros, som at den
-            blot undgår straf og ikke blive yderligere motiveret på at opnå ros.
+            Bruger du en blanding af at belønne når det går godt og skælde ud når det går skidt, så
+            vil skældud og de negative følelser altid bære overvægt. Hunde, og såmænd også katte og
+            heste, er instinktivt kodet til at overleve, derfor vil ubehag altid have første
+            prioritet i at undgås, fremfor at fokusere på mad. Hvis straf derfor er en del af
+            hverdagen, vil hunden begynde at betragte ros fra dig, som at den blot undgår straf
+            denne gang. Du kan risikere at din hund i sidste ende ikke bliver motiveret på at få
+            ros.
           </Text>
         </Column>
         <Column>
           <Image src={methodTwo} />
-          <TitleColor text="Shaping" smallTitle />
+          <TitleColor text="Shaping: Form adfærd du kan lide" smallTitle />
           <Text>
             Shaping er formning af adfærd via trinvise tilnærmelser til denne adfærd. Man kan
             betragte det lidt som at gå op ad en trappe: For enden af trappen er dit mål og for
             hvert skridt op ad trappen nærmer du dig dit mål. Disse skridt, eller trin op ad
-            trappen, betragtes som fremskridt.
+            trappen, betragtes som fremskridt når du er igang med at lære ny adfærd.
           </Text>
           <Text>
-            Inddelingen af trappetrinene defineres ud fra det individuelle dyr, da nogle hurtigt
-            oplever fremskridt, hvor andre har brug for mere tid. Det vigtigste er at tage den tid
-            det tager, ellers kan en øvelse falde fra hinanden - svarende til at falde ned til trin
-            1 på trappen igen.
+            Inddelingen af disse trappetrin skal defineres individuelt, da nogle hurtigt oplever
+            fremskridt og forsåtelse for øvelsen, hvor andre har brug for mere tid. Det vigtigste er
+            at tage den tid det tager, ellers kan en øvelse falde fra hinanden - svarende til at
+            falde hele vjen ned ad trappen igen.
           </Text>
         </Column>
         <Column>
           <Image src={sabrinaAndBarney} />
           <TitleColor text="Markér korrekt adfærd!" smallTitle />
           <Text>
-            For at træningessessionerne skal være succesrige og give fremskridt, så er det vigtig at
-            tage en markør i brug. En markør kan være et rosende ord som f.eks. "dygtig" eller en
-            klikker. Denne markør skal parres med en belønning, som kæledyret ønsker. Om det er mad,
-            kæl eller legetøj afhænger af individet.
+            For at træningen og hverdagens opdragelse skal være succesfuld og give fremskridt, så er
+            det vigtig at tage en markør i brug. En markør kan være et rosende ord som f.eks.
+            "dygtig" eller en klikker. Denne markør skal altid efterfølges af en belønning. Om det
+            er mad, kæl eller legetøj der foretrækkes som beløning er meget individuelt.
           </Text>
           <Text>
-            Din markør skal lyde idét dit kæledyr tilbyder en korrekt adfærd, uanset om det er under
-            en træningssession eller i hverdagens opdragelse. Markøren signalerer til kæledyret, at
-            den adfærd der blev markeret, skal den tilbyde mere af. Sørger du for altid at belønne
-            efter markøren, så vil dit kæledyr motiveres til at forsætte med at tilbyde dig korrekt
-            adfærd. Uhensigtmæssig adfærd vil dermed forsvinde.
+            Din markør skal lyde idét du ser adfærd du ønsker at se mere af! Markøren signalerer til
+            din hund, at den adfærd der blev markeret, skal den tilbyde mere af. Sørger du for altid
+            at belønne efter markøren, så vil din hund motiveres til at forsætte med at tilbyde dig
+            ønsket adfærd. Uønsket adfærd kan dermed gå i sig selv.
           </Text>
         </Column>
       </Row>

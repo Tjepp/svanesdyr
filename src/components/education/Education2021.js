@@ -18,6 +18,11 @@ const Education2019 = () => (
         help prepare them to cope with life’s challenges."
       </i>
     </Text>
+    <Text>
+      <b>Karen Frost</b>
+      <br />
+      Kursusforløb februar - juli; Lydangst - sådan hjælper du din hund
+    </Text>
   </>
 );
 

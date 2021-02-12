@@ -31,26 +31,27 @@ const Lecture = () => (
     <Background>
       <Row marginTop="25px">
         <Column widthPercentage="65%">
-          <Title text="Foredrag ved Sabrina Svane" showHorizontalRuler />
+          <Title text="Foredrag med Sabrina Svane" showHorizontalRuler />
           <Text>
-            Jeg underviser i de indlæringspsykologiske principper med udgangspunkt i
-            belønningsbaserede teknikker. Mit fokus i undervisningen er altid at give forståelse for
-            hundens sprog og adfærd, indsigt i stress og dens indflydelse på adfærd, samt give
-            deltagerne redskaber med hjem til at forebygge adfærdsproblemer. Jeg tilbyder afholdelse
-            af foredrag i forskellige emner, som du kan læse mere om længere nede på siden.
+            Jeg underviser ugentligt mange hundeejere i at blive klogere på deres hunde, ikke blot
+            med hvordan de indlærer basal lydighed, men ligesåmeget i at forstå hundens sprog, vide
+            hvordan hjernen fungerer på deres firbenede familiemedlem og hvor opmærksom de skal være
+            på stress og dens negative følger, så de får hverdagen til at fungere.
           </Text>
           <Text>
-            Er du fra en hundeklub, dyrlægehus eller privatperson, så er du velkommen til at
-            <StyledLink to="/kontakt"> kontakte mig</StyledLink>, hvis du ønsker at bestille tid til
-            et foredrag eller ønsker at bestille en teoretisk aften/dag i et helt andet emne.
+            Min passion er at give ejere en hverdag i harmoni med deres dyr. Alle mine foredrag
+            tager udgangspunkt i at give en god sum baggrundsviden, som fx i hvad stress er, hvordan
+            hjernen fungerer og hvordan hunde kommunikerer. Og derefter vise hvordan den information
+            kan bruges til at få succesoplevelser i hverdagen, uanset om deltagerne ønsker at
+            forebygge eller ændre en uønsket adfærd.
           </Text>
           <Text>
-            Jeg har indgået et samarbejde med FOF i Horsens og udbyder løbende foredrag hos dem. Se
-            kommende foredrag længere nede på siden eller klik ind på
-            <StyledExternal href="https://www.fof.dk/horsens-hedensted-vejle/Kursusoversigt/friluftsliv-jagt-hund-gronomstilling/Hundetraening%20-%20foredrag">
-              FOF's hjemmeside
-            </StyledExternal>
-            for at læse mere og se priser.
+            Jeg udbyder ofte foredrag i de populære emner omkring angst og aggression, stress og
+            gøende adfærd hos hunde, som du kan læse mere om længere nede på siden. Er du fra en
+            hundeklub, et dyrlægehus eller er privatperson og ønsker du et andet fokusemne, så tøv
+            ikke med at
+            <StyledLink to="/kontakt"> kontakte mig</StyledLink> for at høre mere. Jeg tilbyder
+            foredrag for både hunde- og kattejere, samt fagfolk indenfor træningsverdenen.
           </Text>
         </Column>
         <Column>
@@ -77,6 +78,7 @@ const Lecture = () => (
         <Column widthPercentage="100%">
           <Title text="Kommende foredrag og workshops om hundeadfærd 2021" showHorizontalRuler />
           <TitleColor text="Hos FOF - Ane Staunings Vej 21, 8700 Horsens:" smallTitle />
+          <Text>Bemærk; Priser er fastsat af FOF og tilmelding foregår via deres hjemmeside.</Text>
           <Table>
             <LectureTableHead />
             <Tbody>
