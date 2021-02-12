@@ -348,45 +348,47 @@ const DogCool = () => (
           </Text>
           <TextList texts={ContinuedCoolProgram} />
 
-          <TitleColor text="Hold startes op på efterspørgsel." />
+          {/* <TitleColor text="Hold startes op på efterspørgsel." />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text>
+          </Text> */}
 
-          {/* <Title text="Januar start:" />
+          <Title text="Maj start:" />
           <Table>
-            <DogCourseSimple />
+            <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Fortsat Cool A</Td>
+                <Td>Fortsat Cool B</Td>
                 <Td>Søndag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
                 <Td>11.00 - 11.45</Td>
-                <Td>10. jan</Td>
-                <Td>21. feb</Td>
+                <Td>2. maj</Td>
+                <Td>20. juni</Td>
+                <Td>Pinse 23. maj</Td>
                 <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
+                  <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
               <Tr>
-                <Td>Miljøhold A</Td>
-                <Td>Søndag</Td>
+                <Td>Fortsat Cool C</Td>
+                <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>12.30 - 13.30</Td>
-                <Td>10. jan</Td>
-                <Td>21. marts</Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>4. maj</Td>
+                <Td>15. juni</Td>
+                <Td>--</Td>
                 <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
+                  <font color="#D60E0E">4 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />

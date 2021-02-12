@@ -114,21 +114,6 @@ const DogContinued = () => (
             <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Fortsætter D</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>8. feb</Td>
-                <Td>22. marts</Td>
-                <Td>--</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-              <Tr>
                 <Td>Fortsætter E</Td>
                 <Td>Søndag</Td>
                 <Td>8700</Td>
