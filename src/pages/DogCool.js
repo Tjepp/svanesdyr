@@ -369,7 +369,7 @@ const DogCool = () => (
                 <Td>20. juni</Td>
                 <Td>Pinse 23. maj</Td>
                 <Td>
-                  <font color="#D60E0E">2 pladser</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
               <Tr>
@@ -384,7 +384,7 @@ const DogCool = () => (
                 <Td>15. juni</Td>
                 <Td>--</Td>
                 <Td>
-                  <font color="#D60E0E">4 pladser</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
             </Tbody>

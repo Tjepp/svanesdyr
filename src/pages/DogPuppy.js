@@ -19,7 +19,7 @@ import {
   Row,
   TextList,
   Image,
-  // DogCourseSimple,
+  DogCourseSimple,
   DogCourseTableHead,
   StyledLink,
   FlexedRow,
@@ -154,6 +154,41 @@ const DogPuppy = () => {
                   <Td>Påskeuge 30. marts</Td>
                   <Td>
                     <font color="#D60E0E">*Venteliste*</font>
+                  </Td>
+                </Tr>
+              </Tbody>
+            </Table>
+
+            <Title text="Maj start:" />
+            <Table>
+              <DogCourseSimple />
+              <Tbody>
+                <Tr>
+                  <Td>Hvalp H</Td>
+                  <Td>Mandag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>17.30 - 18.15</Td>
+                  <Td>3. maj</Td>
+                  <Td>14. juni</Td>
+                  <Td>
+                    <font color="#D60E0E">1 plads</font>
+                  </Td>
+                </Tr>
+                <Tr>
+                  <Td>Hvalp I</Td>
+                  <Td>Tirsdag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>17.30 - 18.15</Td>
+                  <Td>4. maj</Td>
+                  <Td>15. juni</Td>
+                  <Td>
+                    <font color="#D60E0E">2 pladser</font>
                   </Td>
                 </Tr>
               </Tbody>

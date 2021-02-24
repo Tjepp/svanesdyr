@@ -109,28 +109,6 @@ const DogContinued = () => (
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          <Title text="Februar start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter E</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>09.00 - 09.45</Td>
-                <Td>28. feb</Td>
-                <Td>18. april</Td>
-                <Td>Påskedag 4. april</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
           <Title text="Marts start:" />
           <Table>
             <DogCourseTableHead />
@@ -178,6 +156,43 @@ const DogContinued = () => (
                 <Td>Påske 5. april</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="Maj start:" />
+          <Table>
+            <DogCourseTableHead />
+            <Tbody>
+              <Tr>
+                <Td>Fortsætter I</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>09.00 - 09.45</Td>
+                <Td>2. maj</Td>
+                <Td>20. juni</Td>
+                <Td>Pinse 23. maj</Td>
+                <Td>
+                  <font color="#D60E0E">*Venteliste*</font>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsætter J</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>4. maj</Td>
+                <Td>15. juni</Td>
+                <Td>--</Td>
+                <Td>
+                  <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
