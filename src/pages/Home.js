@@ -42,8 +42,8 @@ class Home extends PureComponent {
                 }}
                 color="#000"
               >
-                Professionel rådgivning til træning eller løsning af problemadfærd hos din hund,
-                hest eller kat. Klik i menuen for oven for at læse mere om hvad jeg kan tilbyde dig!
+                Professionel rådgivning til træning eller løsning af problemadfærd hos din hund
+                eller kat. Klik i menuen for oven for at læse mere om hvad jeg kan tilbyde dig!
               </Text>
             </Column>
             <Column>

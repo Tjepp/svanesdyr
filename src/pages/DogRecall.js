@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -14,6 +14,7 @@ import {
   BreadCrumps,
   Row,
   // DogCourseSimple,
+  DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -156,40 +157,46 @@ const DogRecall = () => (
           </FlexedRow>
           <br />
 
-          <Title text="Indkald Trin2" showHorizontalRuler />
+          <Title text="Indkald Miljøhold" showHorizontalRuler />
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på
             tidligere indkaldshold.
             <br />
-            Det primære fokus på Trin 2 holdet er at generalisere det sikre indkald, ved at tage
-            træningen ud i nye varierende situationer.
+            Det primære fokus på Miljøholdet er at generalisere det sikre indkald, ved at tage
+            træningen ud i nye varierende situationer over 6 mødegange. Vi mødes hver 14. dag på
+            dette hold og på en ny lokation til hver lektion.
           </Text>
           <Text>
-            <b>Træningsprogram for Trin2-holdet</b>
+            <b>Træningsprogram for Miljøholdet</b>
           </Text>
           <TextList texts={ContinuedRecallProgram} />
-          <br />
-          <TitleColor text="Hold startes op på efterspørgsel." />
+
+          {/* <TitleColor text="Hold startes op på efterspørgsel." />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text>
+          </Text> */}
 
-          {/* <Title text="Januar start:" />
+          <Title text="April start:" />
           <Table>
-            <DogCourseSimple />
+            <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Indkald 2A</Td>
+                <Td>Miljø-kald A</Td>
                 <Td>Søndag</Td>
                 <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>12.15 - 13.00</Td>
-                <Td>10. jan</Td>
-                <Td>21. feb</Td>
-                <Td><font color="#D60E0E">4 pladser</font></Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>13.30 - 14.15</Td>
+                <Td>18. april</Td>
+                <Td>27. juni</Td>
+                <Td>Lige uger</Td>
+                <Td>
+                  <font color="#D60E0E">4 pladser</font>
+                </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />
