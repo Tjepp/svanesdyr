@@ -23,10 +23,11 @@ const MetaDogTricks = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Trickshold | Hundetræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+  'Fit Empowerment | Fokus på selvtillid | Hundetræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
 const defaultDescription = 'Svanes Dyr - Tricks & Motorik hundehold i Horsens';
-const defaultKeywords = `Tricks hund, motorik hund, kropskontrol hund, kreativ hundetræning, klikkertræning hund, targettræning, target hund, targettræning hund, target træning hund,
-  doggie-zen, doggie zen, dog parkour, kropsbevidsthed hund, selvtillid hund`;
+const defaultKeywords = `Empowerment, empowerment hund, tricks hund, motorik hund, kropskontrol hund, kreativ hundetræning, klikkertræning hund, 
+  targettræning, target hund, targettræning hund, target træning hund, dog parkour, kropsbevidsthed hund, selvtillid hund, dog fitness, doggy fitness, 
+  nervøs hund, usikker hund, selvsikker hund`;
 MetaDogTricks.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,

@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple,
+  // DogCourseSimple,
   DogCourseTableHead,
   // DogCourseYearShift
 } from '../components';
@@ -49,6 +49,15 @@ const PuppyBenefits = [
   'Max 3 andre holdkammerater, så der er god tid til dig',
   'Skriftlige trin-for-trin guides tilsendt på mail så du kan øve derhjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
+];
+
+const ContinuedTwoProgram = [
+  'Doggie-zen, ro omkring spændende sager',
+  'Øvelser i kropskontrol og kropsbevidsthed',
+  'Targettræning med snude og poter',
+  'Hverdagsgåture med kontakt og ro',
+  'Træning af at blive i position',
+  'Træning af ejer med klikkertiming og belønningsleveringer',
 ];
 
 const DogContinued = () => (
@@ -140,7 +149,7 @@ const DogContinued = () => (
                 <Td>10. maj</Td>
                 <Td>Påskeuge 30. marts</Td>
                 <Td>
-                  <font color="#D60E0E">1 plads</font>
+                  <font color="#D60E0E">*Venteliste*</font>
                 </Td>
               </Tr>
               <Tr>
@@ -204,13 +213,13 @@ const DogContinued = () => (
           <Title text="Fortsætterhold Trin2+" showHorizontalRuler />
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på
-            tidligere hvalpehold og hvalpe-fortsætterhold.
-            <br />
-            Trin 2 +mere bygger videre på tidligere indlærte øvelser og giver mere udfordring til
-            både hund og ejer i shaping, kropskontrol og tricks. Disse hold har intet fastlagt
-            program og er derfor åbent for forslag til ønskede øvelser. Holdopstart annonceres her
-            på siden.
+            tidligere hvalpe-fortsætterhold. Trin 2 bygger videre på tidligere indlærte øvelser og
+            giver mere udfordring til både hund og ejer i shaping, kropskontrol og tricks.
           </Text>
+          <Text>
+            <b>Træningsprogram for Fortsætter-holdet</b>
+          </Text>
+          <TextList texts={ContinuedTwoProgram} />
           {/* <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text> */}
 
           <Title text="Marts start:" />
@@ -245,27 +254,6 @@ const DogContinued = () => (
                 <Td>4. april</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
-          <Title text="April start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter 2D</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>12.00 - 12.45</Td>
-                <Td>11. april</Td>
-                <Td>23. maj</Td>
-                <Td>
-                  <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
             </Tbody>

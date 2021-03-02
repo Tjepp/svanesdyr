@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // DogCourseSimple,
+  DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -22,27 +22,26 @@ import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
 import { TricksOne, TricksTwo, PuppyOne } from '../assets';
 
-const TricksProgram = [
-  'Tid til egne ønsker til tricks og sjov med DIN hund',
-  'Doggie-zen, som lærer din hund at ro, fokus og selvkontrol kan give pote',
-  'Dog-Parkour, som er sjov og stimulerende, fysisk træning til hverdagsbrug',
-  'Øvelser med kropskontrol, som styrker din hunds kropsbevidsthed og giver et boost til selvtilliden',
-  'Targettræning der lærer din hund at søge ”mål” med snude eller pote, til sjove lege i hverdagen',
+const FitProgram = [
+  'Udstrækning og styrkeøvelser',
+  'Balancetræning med bolde mv.',
+  'Kropsbevidsthed om at bruge alle fire poter',
+  'Kropskontrol med bagpart og forpart',
+  'Empowerment øvelser med initiativ, vedholdenhed og gåpåmod',
 ];
 
-const TricksBenefits = [
+const FitBenefits = [
   'Personlig sparring omkring din hund og hjælp til øvelser',
-  'Mulighed for at træne tricks du ønsker at lære din hund',
   'Hele 7 ugers træning med ugentligt møde',
   'Max 3 andre holdkammerater, så der er god tid til dig',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
-const DogTricks = () => (
+const DogEmpower = () => (
   <Page>
     <MetaDogTricks />
     <Banner text="Hundehold i Horsens">
-      <BreadCrumps currentPage="Tricks og Motorik" />
+      <BreadCrumps currentPage="Fit Empowerment" />
     </Banner>
     <Background>
       <Row marginTop="25px" marginBottom="45px">
@@ -51,16 +50,17 @@ const DogTricks = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Tricks og Motorik i Horsens" showHorizontalRuler />
+          <Title text="Fit Empowerment i Horsens" showHorizontalRuler />
           <Text>
             Ønsker du en glad samarbejdspartner, som er initiativrig og synes træning med dig er
             FEDT, så er du kommet til rette sted!
           </Text>
           <Text>
-            Tricks og Motorikholdet henvender sig til alle hunde i alle aldre. Du vil på dette hold
-            lære forskellige øvelser der træner din hunds kropskontrol, initiativ og kreativitet.
-            Jeg lægger vægt på at i skal have det sjovt sammen og fremfor alt samarbejde om nye
-            opgaver!
+            Dog Fitness møder Empowerment på dette hold, da vi både har Fitness øvelser med fokus på
+            balance- og styrketræning, samt Empowerment øvelser, der lægger vægt på at fremme
+            initiativ og kreativitet fra din hunds side. Holdet er specielt designet til de
+            sensitive hunde, som har brug for mere selvtillid og gåpåmod. Alle hunderacer i alle
+            aldre kan deltage.
           </Text>
           <Text>
             Al træning foregår med{' '}
@@ -71,41 +71,49 @@ const DogTricks = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 7 uger sammen vil vi komme igennem følgende:
+            <br />I løbet af vores 7 uger sammen vil vi komme omkring øvelser, som har fokus på
+            følgende:
           </Text>
-          <TextList texts={TricksProgram} />
+          <TextList texts={FitProgram} />
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
-            Ved deltagelse på Tricks og Motorik får du:
+            Ved deltagelse på Fit Empowerment får du:
           </Text>
-          <TextList texts={TricksBenefits} />
+          <TextList texts={FitBenefits} />
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 995 kr." />
-          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+          <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
           <br />
+          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          <Text italic>Ingen nye hold på programmet.</Text>
-          {/* <Table>
-            <DogCourseSimple />
+          {/* <Text italic>Ingen nye hold på programmet.</Text> */}
+          <Title text="April start:" />
+          <Table>
+            <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Tricks1</Td>
-                <Td>Tirsdag</Td>
+                <Td>Fit Empower A</Td>
+                <Td>Søndag</Td>
                 <Td>8700</Td>
-                <Td><StyledLink to="/kontakt">Kontakt mig</StyledLink></Td>
-                <Td>16.30 - 17.15</Td>
-                <Td>5. maj</Td>
-                <Td>16. juni</Td>
-                <Td><font color="#D60E0E">3 pladser</font></Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>12.00 - 12.45</Td>
+                <Td>11. april</Td>
+                <Td>30. maj</Td>
+                <Td>Pinse 23. maj</Td>
+                <Td>
+                  <font color="#D60E0E">*Venteliste*</font>
+                </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
-          <Title text="Billeder fra Tricks og Motorik" showHorizontalRuler />
+          <Title text="Billeder fra Fit Empowerment" showHorizontalRuler />
           <Row>
             <Column>
               <Image src={TricksOne} />
@@ -123,7 +131,7 @@ const DogTricks = () => (
   </Page>
 );
 
-export default withRouter(DogTricks);
+export default withRouter(DogEmpower);
 
 const Background = styled.div`
   background: #fff;
