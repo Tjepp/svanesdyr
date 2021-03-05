@@ -268,7 +268,7 @@ const DogCool = () => (
                 <Td>20. juni</Td>
                 <Td>Ulige uger</Td>
                 <Td>
-                  <font color="#D60E0E">3 pladser</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
             </Tbody>
