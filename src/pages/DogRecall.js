@@ -192,7 +192,7 @@ const DogRecall = () => (
                 <Td>27. juni</Td>
                 <Td>Lige uger</Td>
                 <Td>
-                  <font color="#D60E0E">4 pladser</font>
+                  <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
             </Tbody>

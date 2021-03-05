@@ -201,7 +201,7 @@ const DogContinued = () => (
                 <Td>15. juni</Td>
                 <Td>--</Td>
                 <Td>
-                  <font color="#D60E0E">2 pladser</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
             </Tbody>
