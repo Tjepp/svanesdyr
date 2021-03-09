@@ -148,6 +148,21 @@ const DogPuppy = () => {
                     <font color="#D60E0E">*Venteliste*</font>
                   </Td>
                 </Tr>
+                <Tr>
+                  <Td>Hvalp H</Td>
+                  <Td>Tirsdag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>16.30 - 17.15</Td>
+                  <Td>23. marts</Td>
+                  <Td>11. maj</Td>
+                  <Td>Påskeuge 30. marts</Td>
+                  <Td>
+                    <font color="#D60E0E">*Venteliste*</font>
+                  </Td>
+                </Tr>
               </Tbody>
             </Table>
 
@@ -156,7 +171,7 @@ const DogPuppy = () => {
               <DogCourseSimple />
               <Tbody>
                 <Tr>
-                  <Td>Hvalp H</Td>
+                  <Td>Hvalp I</Td>
                   <Td>Mandag</Td>
                   <Td>8700</Td>
                   <Td>
@@ -166,11 +181,11 @@ const DogPuppy = () => {
                   <Td>3. maj</Td>
                   <Td>14. juni</Td>
                   <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
+                    <font color="#D60E0E">2 pladser</font>
                   </Td>
                 </Tr>
                 <Tr>
-                  <Td>Hvalp I</Td>
+                  <Td>Hvalp J</Td>
                   <Td>Tirsdag</Td>
                   <Td>8700</Td>
                   <Td>
@@ -180,7 +195,7 @@ const DogPuppy = () => {
                   <Td>4. maj</Td>
                   <Td>15. juni</Td>
                   <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
+                    <font color="#D60E0E">1 plads</font>
                   </Td>
                 </Tr>
               </Tbody>
