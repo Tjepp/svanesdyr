@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple,
+  // DogCourseSimple,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -111,9 +111,13 @@ const DogContinued = () => (
             i at kunne pleje din hunds negle <u>selv</u> og uden bekymring, da det bliver
             kvalitetstid fremfor overgreb.
           </Text>
-          {/* <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text> */}
 
-          <Title text="Marts start:" />
+          <br />
+          <TitleColor text="Hold startes op på efterspørgsel." />
+          <Text>
+            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
+          </Text>
+          {/* <Title text="Marts start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -132,7 +136,8 @@ const DogContinued = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
+
           <br />
 
           <Title text="Billeder af neglekliplegen i aktion" showHorizontalRuler />

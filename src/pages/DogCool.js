@@ -170,6 +170,23 @@ const DogCool = () => (
                 </Td>
               </Tr>
             </Tbody>
+            <Tbody>
+              <Tr>
+                <Td>Cool E</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>29. marts</Td>
+                <Td>17. maj</Td>
+                <Td>Påske 5. april</Td>
+                <Td>
+                  <font color="#D60E0E">*Venteliste*</font>
+                </Td>
+              </Tr>
+            </Tbody>
           </Table>
 
           <Title text="Maj start:" />
