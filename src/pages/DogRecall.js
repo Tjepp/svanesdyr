@@ -50,6 +50,7 @@ const RecallBenefits = [
 ];
 
 const ContinuedRecallProgram = [
+  'IndkaldsFESTEN; Fra uinteressant til førsteprioritet for din hund!',
   'Forstyrrelseslegen; Det stærke indkald omkring fristelser',
   'Træning af indkald under leg med andre hunde',
   'Fra kravlegård til kørebane: Succesfulde indkald i nye omgivelser',
@@ -192,7 +193,7 @@ const DogRecall = () => (
                 <Td>27. juni</Td>
                 <Td>Lige uger</Td>
                 <Td>
-                  <font color="#D60E0E">1 plads</font>
+                  <font color="#D60E0E">*Venteliste*</font>
                 </Td>
               </Tr>
             </Tbody>

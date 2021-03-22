@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,10 +13,10 @@ import {
   Text,
   Image,
   BreadCrumps,
-  LectureTableHead,
+  // LectureTableHead,
+  // StyledExternal,
   Row,
   StyledLink,
-  StyledExternal,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { lectureFearAndAgression, lectureDogLanguage, lectureCalmDownFido } from '../assets';
@@ -77,9 +77,12 @@ const Lecture = () => (
       <Row>
         <Column widthPercentage="100%">
           <Title text="Kommende foredrag og workshops om hundeadfærd 2021" showHorizontalRuler />
-          <TitleColor text="Hos FOF - Ane Staunings Vej 21, 8700 Horsens:" smallTitle />
-          <Text>Bemærk; Priser er fastsat af FOF og tilmelding foregår via deres hjemmeside.</Text>
-          <Table>
+          <Text>
+            Grundet de nuværende restriktioner med Corona er foredrag sat midlertidigt på pause.
+          </Text>
+          {/* <TitleColor text="Hos FOF - Ane Staunings Vej 21, 8700 Horsens:" smallTitle />
+          <Text>Bemærk; Priser er fastsat af FOF og tilmelding foregår via deres hjemmeside.</Text> */}
+          {/* <Table>
             <LectureTableHead />
             <Tbody>
               <Tr>
@@ -89,7 +92,6 @@ const Lecture = () => (
                   <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/hundens-sprog-workshop/210821">
                     Klik her
                   </StyledExternal>
-                  {/* <i>kommer snart</i> */}
                 </Td>
                 <Td>18.30 - 21.30</Td>
                 <Td>200 kr. </Td>
@@ -104,7 +106,6 @@ const Lecture = () => (
                   <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/angst-og-aggression-forebyggelse-og-behandling/210822">
                     Klik her
                   </StyledExternal>
-                  {/* <i>kommer snart</i> */}
                 </Td>
                 <Td>10.00 - 15.45 </Td>
                 <Td>335 kr. </Td>
@@ -119,7 +120,6 @@ const Lecture = () => (
                   <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/slap-af-fido-f-ro-p-hverdagen-workshop/210823">
                     Klik her
                   </StyledExternal>
-                  {/* <i>kommer snart</i> */}
                 </Td>
                 <Td>10.00 - 15.45 </Td>
                 <Td>335 kr. </Td>
@@ -134,7 +134,6 @@ const Lecture = () => (
                   <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/det-goeende-mareridt-workshop/210824">
                     Klik her
                   </StyledExternal>
-                  {/* <i>kommer snart</i> */}
                 </Td>
                 <Td>10.00 - 15.45 </Td>
                 <Td>335 kr. </Td>
@@ -143,7 +142,7 @@ const Lecture = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
         </Column>
       </Row>
       <Row>

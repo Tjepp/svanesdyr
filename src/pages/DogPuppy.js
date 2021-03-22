@@ -119,36 +119,6 @@ const DogPuppy = () => {
               <DogCourseTableHead />
               <Tbody>
                 <Tr>
-                  <Td>Hvalp F</Td>
-                  <Td>Mandag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>17.30 - 18.15</Td>
-                  <Td>1. marts</Td>
-                  <Td>19. april</Td>
-                  <Td>Påskedag 5. april</Td>
-                  <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
-                  </Td>
-                </Tr>
-                <Tr>
-                  <Td>Hvalp G</Td>
-                  <Td>Tirsdag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>17.30 - 18.15</Td>
-                  <Td>2. marts</Td>
-                  <Td>20. april</Td>
-                  <Td>Påskeuge 30. marts</Td>
-                  <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
-                  </Td>
-                </Tr>
-                <Tr>
                   <Td>Hvalp H</Td>
                   <Td>Tirsdag</Td>
                   <Td>8700</Td>

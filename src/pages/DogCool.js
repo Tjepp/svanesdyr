@@ -14,7 +14,6 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseSimple,
   DogCourseTableHead,
   TextList,
   Image,
@@ -129,27 +128,6 @@ const DogCool = () => (
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          <Title text="Februar start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Cool C</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>11.00 - 11.45</Td>
-                <Td>28. feb</Td>
-                <Td>18. april</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
           <Title text="Marts start:" />
           <Table>
             <DogCourseTableHead />
@@ -252,7 +230,7 @@ const DogCool = () => (
                 <Td>15. juni</Td>
                 <Td>--</Td>
                 <Td>
-                  <font color="#D60E0E">1 plads</font>
+                  <font color="#D60E0E">*Venteliste*</font>
                 </Td>
               </Tr>
             </Tbody>

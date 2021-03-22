@@ -123,36 +123,6 @@ const DogContinued = () => (
             <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Fortsætter F</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>2. marts</Td>
-                <Td>20. april</Td>
-                <Td>Påskeuge 30. marts</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Fortsætter G</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>10.00 - 10.45</Td>
-                <Td>9. marts</Td>
-                <Td>10. maj</Td>
-                <Td>Påskeuge 30. marts</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-              <Tr>
                 <Td>Fortsætter H</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
@@ -199,6 +169,21 @@ const DogContinued = () => (
                 <Td>18.30 - 19.15</Td>
                 <Td>4. maj</Td>
                 <Td>15. juni</Td>
+                <Td>--</Td>
+                <Td>
+                  <font color="#D60E0E">*Venteliste*</font>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsætter K</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>10.00 - 10.45</Td>
+                <Td>16. maj</Td>
+                <Td>27. juni</Td>
                 <Td>--</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
