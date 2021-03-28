@@ -189,6 +189,21 @@ const DogContinued = () => (
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>
               </Tr>
+              <Tr>
+                <Td>Fortsætter L</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>17. maj</Td>
+                <Td>28. juni</Td>
+                <Td>--</Td>
+                <Td>
+                  <font color="#D60E0E">*Venteliste*</font>
+                </Td>
+              </Tr>
             </Tbody>
           </Table>
 
