@@ -36,12 +36,12 @@ const MyMethods = () => (
             Hvad indebærer en belønningsbaseret tilgang?
             <br />
             Jeg lægger vægt på at sætte hunden op til succes og sørge for at belønne den når den
-            gøre noget korrekt. Alt hvad jeg godt kan lidt at se den gøre bliver bekræftet! Jeg
-            bekræfter hunden ved at bruge en klikker eller give verbalt ros når jeg ser ønsket
-            adfærd, og følger op med en godbid eller anden form for rar belønning for at vise hunden
-            at dét kunne betale sig for den. Ligesom med os mennesker, så gør hunde, katte og heste
-            også kun dét der kan betale sig for dem. Dvs. de skal have en ordentlig løn for at gøre
-            et stykke arbejde.
+            gøre noget korrekt. Alt hvad jeg godt kan lide at se bliver bekræftet! Jeg bekræfter
+            hunden ved at bruge en klikker eller give verbalt ros når jeg ser ønsket adfærd, og
+            følger op med en godbid eller anden form for rar belønning for at vise hunden at dét kan
+            betale sig at gentage. Ligesom med os mennesker, så gør hunde, katte og heste også kun
+            dét der kan betale sig for dem. Dvs. de skal have en ordentlig løn for at gøre et stykke
+            arbejde.
           </Text>
           <Text>
             Skulle det ske at hunden laver fejl, fx ved at gøre det modsatte af hvad jeg beder den
@@ -83,16 +83,16 @@ const MyMethods = () => (
           <Image src={methodOne} />
           <TitleColor text="Forskel på indlæringsmetoder" smallTitle />
           <Text>
-            Billedet ovenfor viser de fem forskellige konsekvenser, som er følge af adfærd (her vist
-            med hund). I din hverdag med hunden er det vigtigt at fokusere på den grønne boks, hvor
+            Billedet ovenfor viser de fem forskellige konsekvenser, som følger adfærd (her vist med
+            hund). I din hverdag med hunden er det vigtigt at lægge fokus på den grønne boks, hvor
             ønsket adfærd belønnes og der guides ved uønsket adfærd. Står du og træner din hund vil
             der helt lavpraktisk ske det, at din hund får en godbid når den gøre noget du kan lide
-            at se. Sker det at den laver fejl, så får den blot ikke sin godbid dér (den mister noget
-            godt). For at undgå frustration efter en fejl er det vigtigt at guide hunden til en
-            succes, så den kan opnå sin belønning igen. Ved at anvende metoder i den grønne boks
-            arbejder du i belønningscenteret af hjernen, som er forbundet med rare følelser. Da
-            motiverer du din hund til yderligere at samarbejde, fordi du er rar at være sammen med,
-            hvilket styrker tilliden mellem jer.
+            at se. Sker det at den laver fejl, så får den ikke sin godbid (den mister noget godt).
+            For at undgå frustration efter en fejl er det vigtigt at guide hunden til en succes, så
+            den kan opnå sin belønning igen. Ved at anvende metoder i den grønne boks arbejder du i
+            belønningscenteret af hjernen, som er forbundet med rare følelser. Da motiverer du din
+            hund til yderligere at samarbejde, fordi du er rar at være sammen med, hvilket styrker
+            tilliden mellem jer.
           </Text>
           <Text>
             Lægges fokus på at rette eller skælde ud på hunden når den viser en uhensigtsmæssig

@@ -16,8 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  // DogCourseSimple,
-  DogCourseTableHead,
+  DogCourseSimple,
   // DogCourseYearShift
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -118,31 +117,9 @@ const DogContinued = () => (
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          <Title text="Marts start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter H</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>22. marts</Td>
-                <Td>10. maj</Td>
-                <Td>Påske 5. april</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
           <Title text="Maj start:" />
           <Table>
-            <DogCourseTableHead />
+            <DogCourseSimple />
             <Tbody>
               <Tr>
                 <Td>Fortsætter I</Td>
@@ -154,7 +131,6 @@ const DogContinued = () => (
                 <Td>09.00 - 09.45</Td>
                 <Td>2. maj</Td>
                 <Td>20. juni</Td>
-                <Td>Pinse 23. maj</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>
@@ -169,7 +145,6 @@ const DogContinued = () => (
                 <Td>18.30 - 19.15</Td>
                 <Td>4. maj</Td>
                 <Td>15. juni</Td>
-                <Td>--</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>
@@ -184,7 +159,6 @@ const DogContinued = () => (
                 <Td>10.00 - 10.45</Td>
                 <Td>16. maj</Td>
                 <Td>27. juni</Td>
-                <Td>--</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>
@@ -199,13 +173,20 @@ const DogContinued = () => (
                 <Td>18.30 - 19.15</Td>
                 <Td>17. maj</Td>
                 <Td>28. juni</Td>
-                <Td>--</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>
               </Tr>
             </Tbody>
           </Table>
+
+          <Title text="August start:" />
+          <Text italic>
+            August skal snarligt planlægges.
+            <br />
+            Ønsker du at komme med kan du reservere plads på forhånd ved at
+            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
+          </Text>
 
           {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
           <br />
@@ -222,7 +203,12 @@ const DogContinued = () => (
           <TextList texts={ContinuedTwoProgram} />
           {/* <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text> */}
 
-          <Title text="Marts start:" />
+          <TitleColor text="Hold startes op på efterspørgsel." />
+          <Text>
+            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
+          </Text>
+
+          {/* <Title text="Marts start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
@@ -241,23 +227,8 @@ const DogContinued = () => (
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>
               </Tr>
-              <Tr>
-                <Td>Fortsætter 2C</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>10.00 - 10.45</Td>
-                <Td>21. marts</Td>
-                <Td>9. maj</Td>
-                <Td>4. april</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Billeder fra fortsætterhold" showHorizontalRuler />

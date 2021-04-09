@@ -15,6 +15,7 @@ import {
   BreadCrumps,
   Row,
   DogCourseTableHead,
+  DogCourseSimple,
   TextList,
   Image,
   StyledLink,
@@ -128,38 +129,41 @@ const DogCool = () => (
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          <Title text="Marts start:" />
+          <Title text="April start:" />
           <Table>
-            <DogCourseTableHead />
+            <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Cool D</Td>
-                <Td>Mandag</Td>
+                <Td>Cool F</Td>
+                <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>16.30 - 17.15</Td>
-                <Td>1. marts</Td>
-                <Td>19. april</Td>
-                <Td>Påske 5. april</Td>
+                <Td>11.00 - 11.45</Td>
+                <Td>20. april</Td>
+                <Td>1. juni</Td>
                 <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
             </Tbody>
+          </Table>
+
+          <Title text="Maj start:" />
+          <Table>
+            <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Cool E</Td>
+                <Td>Cool G</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>29. marts</Td>
-                <Td>17. maj</Td>
-                <Td>Påske 5. april</Td>
+                <Td>20.30 - 21.15</Td>
+                <Td>3. maj</Td>
+                <Td>14. juni</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>
@@ -167,9 +171,9 @@ const DogCool = () => (
             </Tbody>
           </Table>
 
-          <Title text="Maj start:" />
+          <Title text="August start:" />
           <Text italic>
-            Maj hold planlægges i øjeblikket.
+            August skal snarligt planlægges.
             <br />
             Ønsker du at komme med kan du reservere plads på forhånd ved at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
@@ -201,7 +205,7 @@ const DogCool = () => (
 
           <Title text="Maj start:" />
           <Table>
-            <DogCourseTableHead />
+            <DogCourseSimple />
             <Tbody>
               <Tr>
                 <Td>Fortsat Cool B</Td>
@@ -213,7 +217,6 @@ const DogCool = () => (
                 <Td>11.00 - 11.45</Td>
                 <Td>2. maj</Td>
                 <Td>20. juni</Td>
-                <Td>Pinse 23. maj</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>
@@ -228,7 +231,6 @@ const DogCool = () => (
                 <Td>19.30 - 20.15</Td>
                 <Td>4. maj</Td>
                 <Td>15. juni</Td>
-                <Td>--</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>

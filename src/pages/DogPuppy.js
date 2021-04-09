@@ -17,7 +17,6 @@ import {
   TextList,
   Image,
   DogCourseSimple,
-  DogCourseTableHead,
   StyledLink,
   DogPuppyTestimonials,
 } from '../components';
@@ -114,28 +113,6 @@ const DogPuppy = () => {
             <br />
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-            <Title text="Marts start:" />
-            <Table>
-              <DogCourseTableHead />
-              <Tbody>
-                <Tr>
-                  <Td>Hvalp H</Td>
-                  <Td>Tirsdag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>16.30 - 17.15</Td>
-                  <Td>23. marts</Td>
-                  <Td>11. maj</Td>
-                  <Td>Påskeuge 30. marts</Td>
-                  <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
-                  </Td>
-                </Tr>
-              </Tbody>
-            </Table>
-
             <Title text="Maj start:" />
             <Table>
               <DogCourseSimple />
@@ -168,8 +145,30 @@ const DogPuppy = () => {
                     <font color="#D60E0E">*Venteliste*</font>
                   </Td>
                 </Tr>
+                <Tr>
+                  <Td>Hvalp K</Td>
+                  <Td>Mandag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>16.30 - 17.15</Td>
+                  <Td>17. maj</Td>
+                  <Td>28. juni</Td>
+                  <Td>
+                    <font color="#D60E0E">*Venteliste*</font>
+                  </Td>
+                </Tr>
               </Tbody>
             </Table>
+
+            <Title text="August start:" />
+            <Text italic>
+              August skal snarligt planlægges.
+              <br />
+              Ønsker du at komme med kan du reservere plads på forhånd ved at
+              <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
+            </Text>
 
             {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
             <br />
