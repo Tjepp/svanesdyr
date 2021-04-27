@@ -17,6 +17,7 @@ import {
   Image,
   StyledLink,
   DogCourseSimple,
+  DogCourseTableHead,
   // DogCourseYearShift
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -208,27 +209,27 @@ const DogContinued = () => (
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
           </Text>
 
-          {/* <Title text="Marts start:" />
+          <Title text="Maj start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Fortsætter 2B</Td>
+                <Td>Fortsætter 2D</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>2. marts</Td>
-                <Td>20. april</Td>
-                <Td>30. marts</Td>
+                <Td>10.00 - 10.45</Td>
+                <Td>4. maj</Td>
+                <Td>22. juni</Td>
+                <Td>18. maj</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Billeder fra fortsætterhold" showHorizontalRuler />
