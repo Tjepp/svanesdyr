@@ -70,7 +70,7 @@ const Lecture = () => (
           <Text>
             <b>Kørsel</b>
             <br />
-            Tillæg efter statens takster 3,52 kr/km begge veje.
+            Tillæg efter statens takster 3,44 kr/km begge veje.
           </Text>
         </Column>
       </Row>

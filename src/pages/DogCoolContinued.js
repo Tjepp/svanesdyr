@@ -18,36 +18,41 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCoolTestimonials,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolFive, CoolSix } from '../assets';
+import {
+  CoolAgainOne,
+  CoolAgainTwo,
+  CoolAgainThree,
+  CoolAgainFour,
+  CoolAgainFive,
+  CoolAgainSix,
+} from '../assets';
 
-const CoolProgram = [
-  'Fornøjelige gåture, uden at trække i snoren',
-  'Hilse pænt / ikke hoppe op af mennesker',
-  'Positiv indlæring af et stop ord som "nej"',
-  'Indlæring af at gå i kurven / falde til ro på signal',
-  'Pauseknappen, så hunden kan falde til ro, når du er i ro',
-  'Træning af rolige gåture omkring andre hunde og mennesker',
-  'God impulskontrol så dagligdagens små glæder bliver lettere med en hund, der har lært at have ro',
-];
-
-const CoolBenefits = [
+const CoolContinuedBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen',
-  'Gode råd og tips til optimal aktivering af hunden',
   'Hele 7 ugers træning med ugentligt møde',
   'Max 3 andre holdkammerater, så der er god tid til dig',
-  'Skriftlige trin-for-trin guides tilsendt hver uge på mail så du kan øve derhjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
-const DogCool = () => (
+const ContinuedCoolProgram = [
+  'Indlæring af at finde ro og slappe af, når i skal lave ”ingenting” sammen',
+  'Rolige gåture: Øvelse i at gå væk fra andre hunde',
+  'Rolige gåture: Øvelse i fortovspassager med andre hunde',
+  'Rolige gåture: Øvelse i stop-op og hilsemøder med andre',
+  'Hverdagsgåture med kontakt og ro i nye miljøer',
+  'Ro og kontakt nær flere forstyrrelser på én gang',
+  'Afventende ro omkring spændende sager i bevægelse',
+  'Placering af hunden: Indlæring af bliv',
+];
+
+const DogCoolContinued = () => (
   <Page>
     <MetaDogCool />
     <Banner text="Hundehold i Horsens">
-      <BreadCrumps currentPage="Helt-Cool" />
+      <BreadCrumps currentPage="Fortsat Helt-Cool" />
     </Banner>
     <Background>
       <Row marginTop="25px" marginBottom="45px">
@@ -56,17 +61,19 @@ const DogCool = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Helt-Cool kursus i Horsens" showHorizontalRuler />
+          <Title text="Fortsat Helt-Cool i Horsens" showHorizontalRuler />
           <Text>
             Ønsker du at få en mere afslappet hverdag, med en hund der selv kan finde ro, som kan gå
             pænt i snor uden at hive armen af dig og hilse pænt, uden at hoppe op - så er du kommet
             til rette sted!
           </Text>
           <Text>
-            Helt-Cool kurset henvender sig til alle hunde i alle aldre, som har tendens til at
-            stresse. Mit fokus med dette kursus er at give dig redskaberne til at skabe en
-            afbalanceret og rolig hund, gennem forskellige øvelser, der også vil styrke jeres fælles
-            samarbejde.
+            Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på
+            Helt-Cool kurset.
+            <br />
+            Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor
+            de rolige gåture praktiseres i stor stil. Kurset henvender sig til alle hunde i alle
+            aldre, som har tendens til at stresse.
           </Text>
           <Text>
             Al træning foregår med{' '}
@@ -76,33 +83,16 @@ const DogCool = () => (
             letforståelig. Alle bliver sat op til succes.
           </Text>
           <Text>
-            <b>Passer kurset til din hund?</b>
-            <br />
-            Føler du din hund er lidt af et "damp"-barn eller bliver ustyrligt glad ved mødet med
-            andre, så er dette hold det rette for jer! Kurset henvender sig <b>ikke</b> til hunde
-            der er bange for andre hunde eller reagerer aggressivt ved synet af andre. Står du med
-            denne problemstilling anbefaler jeg at
-            <StyledLink to="/kontakt"> booke tid </StyledLink>
-            til en
-            <StyledLink to="/hundetraening"> konsultation</StyledLink>, hvor du kan få personlig
-            vejledning og redskaber til at hjælpe din hund. Eller tjek om
-            <StyledLink to="/hundehold/venligvovse"> Venlig-Vovse </StyledLink> holdet er noget for
-            jer.
-          </Text>
-          <Text>
-            <StyledLink to="/kontakt"> Kontakt mig </StyledLink> endelig hvis du er i tvivl.
-          </Text>
-          <Text>
             <b>Træningsprogram for holdet</b>
             <br />I løbet af vores 7 uger sammen vil vi komme igennem følgende:
           </Text>
-          <TextList texts={CoolProgram} />
+          <TextList texts={ContinuedCoolProgram} />
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
-            Ved deltagelse på Helt-Cool kurset får du:
+            Ved deltagelse på Fortsat Helt-Cool får du:
           </Text>
-          <TextList texts={CoolBenefits} />
+          <TextList texts={CoolContinuedBenefits} />
           <Text>
             Der tages hensyn til sensitive hunde og praktiseres god afstand før, under og efter
             timerne. Til de legeglade hunde er der mulighed for lidt{' '}
@@ -113,8 +103,7 @@ const DogCool = () => (
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 995 kr." />
           <Text>
-            i at kunne nyde jeres daglige gåture og få gæster på besøg, med en hund der er helt-cool
-            omkring andre.
+            i at kunne nyde jeres daglige gåture, med en hund der er helt-cool omkring andre.
           </Text>
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
@@ -152,32 +141,69 @@ const DogCool = () => (
           </Table> */}
           <br />
 
-          <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler />
+          <Title text="Helt-Cool Miljøhold" showHorizontalRuler />
+          <Text>
+            Efter at have deltaget på de to første kursusforløb er der mulighed for at tage
+            træningen med ud i hverdagen.
+            <br />
+            På miljøholdet fokuseres der på de kendte Cool-principper med kontakt og ro, som udøves
+            i <u>nye miljøer</u> over 6 lektioner. Vi mødes hver 14. dag på dette hold og på en ny
+            lokation til hver lektion.
+          </Text>
+
           <br />
-          <DogCoolTestimonials></DogCoolTestimonials>
+          <Title text="August start:" />
+          <Text italic>
+            August skal snarligt planlægges.
+            <br />
+            Ønsker du at komme med kan du reservere plads på forhånd ved at
+            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
+          </Text>
+
+          {/* <Title text="April start:" />
+          <Table>
+            <DogCourseTableHead />
+            <Tbody>
+              <Tr>
+                <Td>Miljø-Cool B</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>13.30 - 14.15</Td>
+                <Td>11. april</Td>
+                <Td>20. juni</Td>
+                <Td>Ulige uger</Td>
+                <Td>
+                  <font color="#D60E0E">*Venteliste*</font>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table> */}
           <br />
 
           <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={CoolOne} />
+              <Image src={CoolAgainOne} />
             </Column>
             <Column>
-              <Image src={CoolTwo} />
+              <Image src={CoolAgainTwo} />
             </Column>
             <Column>
-              <Image src={CoolThree} />
+              <Image src={CoolAgainThree} />
             </Column>
           </Row>
           <Row>
             <Column>
-              <Image src={CoolFour} />
+              <Image src={CoolAgainFour} />
             </Column>
             <Column>
-              <Image src={CoolFive} />
+              <Image src={CoolAgainFive} />
             </Column>
             <Column>
-              <Image src={CoolSix} />
+              <Image src={CoolAgainSix} />
             </Column>
           </Row>
         </Column>
@@ -186,7 +212,7 @@ const DogCool = () => (
   </Page>
 );
 
-export default withRouter(DogCool);
+export default withRouter(DogCoolContinued);
 
 const Background = styled.div`
   background: #fff;

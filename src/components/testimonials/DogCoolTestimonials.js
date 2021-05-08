@@ -11,6 +11,7 @@ import {
   TestiCoolFour,
   TestiCoolFive,
   TestiCoolSix,
+  TestiCoolSeven,
 } from '../../assets';
 
 const DogCoolTestimonials = () => (
@@ -128,6 +129,24 @@ const DogCoolTestimonials = () => (
           bedre samværd mellem os og andre. Vi har nydt at komme til træning og prøve noget nyt.
         </Text>
         <Text>Jette Nancke og Dion</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiCoolSeven} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Vi har fået gode redskaber til at hjælpe vores hund med at slappe mere af i situationer hvor hun bliver overgearet” " />
+        <Text>
+          Vi har fået hjælp til at få vores hund rolig i situationer hvor det er nødvendigt, f.eks.
+          på gåture. Selvom vi har været en del fraværende har vi stadig lært nye og spændende
+          øvelser, som vi har kunnet træne herhjemme med hjælp fra de skriftlige guides.
+        </Text>
+        <Text>
+          Jeg syntes det bedste ved Sabrinas kurser er at hun ser hver individuelle hund og hun
+          giver sig tid til at komme med ekstra råd og guiding. Jeg anbefaler alle som vil træne
+          deres hund med positiv indlæring at deltage.
+        </Text>
+        <Text>Nina Guldbrand og Aya</Text>
       </TextContainer>
     </FlexedRow>
   </Carousel>

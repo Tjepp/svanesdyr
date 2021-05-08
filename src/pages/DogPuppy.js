@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 
 import {
@@ -16,7 +16,7 @@ import {
   Row,
   TextList,
   Image,
-  DogCourseSimple,
+  // DogCourseSimple,
   StyledLink,
   DogPuppyTestimonials,
 } from '../components';
@@ -77,8 +77,9 @@ const DogPuppy = () => {
             <Text>
               Hvalpeholdet henvender sig til alle hvalpe i alderen fra 8 uger og op til 6 mdr.
               <br />
-              Jeg lægger stort fokus på miljøtræning, håndtering og sociliasering af din hvalp og
-              kommer også omkring basisøvelser som kontakt, sit og dæk.
+              Jeg lægger stort fokus på miljøtræning, håndtering og sociliasering af din hvalp, så
+              du får en følelsesmæssig robust hvalp, der kan tackle hverdagens udfordringer med ro
+              og overskud.
             </Text>
             <Text>
               Al træning foregår med{' '}
@@ -113,7 +114,18 @@ const DogPuppy = () => {
             <br />
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-            <Title text="Maj start:" />
+            <Title text="Alle igangværende hold er desværre fyldt op." />
+
+            <br />
+            <Title text="August start:" />
+            <Text italic>
+              August skal snarligt planlægges.
+              <br />
+              Ønsker du at komme med kan du reservere plads på forhånd ved at
+              <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
+            </Text>
+
+            {/* <Title text="Maj start:" />
             <Table>
               <DogCourseSimple />
               <Tbody>
@@ -131,58 +143,8 @@ const DogPuppy = () => {
                     <font color="#D60E0E">*Venteliste*</font>
                   </Td>
                 </Tr>
-                <Tr>
-                  <Td>Hvalp J</Td>
-                  <Td>Tirsdag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>17.30 - 18.15</Td>
-                  <Td>4. maj</Td>
-                  <Td>15. juni</Td>
-                  <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
-                  </Td>
-                </Tr>
-                <Tr>
-                  <Td>Hvalp K</Td>
-                  <Td>Mandag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>16.30 - 17.15</Td>
-                  <Td>17. maj</Td>
-                  <Td>28. juni</Td>
-                  <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
-                  </Td>
-                </Tr>
-                <Tr>
-                  <Td>Hvalp L</Td>
-                  <Td>Mandag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>19.30 - 20.15</Td>
-                  <Td>24. maj</Td>
-                  <Td>29. juni</Td>
-                  <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
-                  </Td>
-                </Tr>
               </Tbody>
-            </Table>
-
-            <Title text="August start:" />
-            <Text italic>
-              August skal snarligt planlægges.
-              <br />
-              Ønsker du at komme med kan du reservere plads på forhånd ved at
-              <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-            </Text>
+            </Table> */}
 
             {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
             <br />

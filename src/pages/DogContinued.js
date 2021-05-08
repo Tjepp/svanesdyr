@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -16,8 +16,8 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple,
-  DogCourseTableHead,
+  // DogCourseSimple,
+  // DogCourseTableHead,
   // DogCourseYearShift
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -118,7 +118,18 @@ const DogContinued = () => (
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          <Title text="Maj start:" />
+          <Title text="Alle igangværende hold er desværre fyldt op." />
+
+          <br />
+          <Title text="August start:" />
+          <Text italic>
+            August skal snarligt planlægges.
+            <br />
+            Ønsker du at komme med kan du reservere plads på forhånd ved at
+            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
+          </Text>
+
+          {/* <Title text="Maj start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -136,58 +147,8 @@ const DogContinued = () => (
                   <font color="#D60E0E">*Venteliste*</font>
                 </Td>
               </Tr>
-              <Tr>
-                <Td>Fortsætter J</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>4. maj</Td>
-                <Td>15. juni</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Fortsætter K</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>10.00 - 10.45</Td>
-                <Td>16. maj</Td>
-                <Td>27. juni</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Fortsætter L</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>18.30 - 19.15</Td>
-                <Td>17. maj</Td>
-                <Td>28. juni</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
             </Tbody>
-          </Table>
-
-          <Title text="August start:" />
-          <Text italic>
-            August skal snarligt planlægges.
-            <br />
-            Ønsker du at komme med kan du reservere plads på forhånd ved at
-            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-          </Text>
+          </Table> */}
 
           {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
           <br />
@@ -209,7 +170,7 @@ const DogContinued = () => (
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
           </Text>
 
-          <Title text="Maj start:" />
+          {/* <Title text="Maj start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
@@ -229,7 +190,7 @@ const DogContinued = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Billeder fra fortsætterhold" showHorizontalRuler />

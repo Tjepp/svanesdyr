@@ -9,6 +9,7 @@ export { default as DogNailClip } from './DogNailClip';
 export { default as DogPuppy } from './DogPuppy';
 export { default as DogContinued } from './DogContinued';
 export { default as DogCool } from './DogCool';
+export { default as DogCoolContinued } from './DogCoolContinued';
 export { default as DogCoolFriend } from './DogCoolFriend';
 export { default as DogRecall } from './DogRecall';
 export { default as DogSummer } from './DogSummer';

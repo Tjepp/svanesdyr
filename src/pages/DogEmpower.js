@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,14 +13,14 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseTableHead,
+  // DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { TricksOne, TricksTwo, PuppyOne } from '../assets';
+import { TricksOne, TricksTwo, TricksThree, TricksFive, TricksSix, PuppyOne } from '../assets';
 
 const FitProgram = [
   'Udstrækning og styrkeøvelser',
@@ -63,6 +63,12 @@ const DogEmpower = () => (
             aldre kan deltage.
           </Text>
           <Text>
+            Uanset hvilken øvelse vi gennemgår vil vi lægge vægt på <b>Empowerment</b> principperne:
+            Hunden skal selv tage <u>initiativ</u> til adfærd, være <u>kreativ</u> og have nok{' '}
+            <u>gåpåmod</u> og <u>vedholdenhed</u> til at fortsætte. Du vil blive skarp på
+            klikkertræning, timing og ikke mindst hvordan du altid sætter din hund op til succes.
+          </Text>
+          <Text>
             Al træning foregår med{' '}
             <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi
             bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad
@@ -89,8 +95,18 @@ const DogEmpower = () => (
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          {/* <Text italic>Ingen nye hold på programmet.</Text> */}
-          <Title text="April start:" />
+          <Title text="Alle igangværende hold er desværre fyldt op." />
+
+          <br />
+          <Title text="August start:" />
+          <Text italic>
+            August skal snarligt planlægges.
+            <br />
+            Ønsker du at komme med kan du reservere plads på forhånd ved at
+            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
+          </Text>
+
+          {/* <Title text="April start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
@@ -110,7 +126,7 @@ const DogEmpower = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Billeder fra Fit Empowerment" showHorizontalRuler />
@@ -122,7 +138,18 @@ const DogEmpower = () => (
               <Image src={TricksTwo} />
             </Column>
             <Column>
+              <Image src={TricksThree} />
+            </Column>
+          </Row>
+          <Row>
+            <Column>
               <Image src={PuppyOne} />
+            </Column>
+            <Column>
+              <Image src={TricksFive} />
+            </Column>
+            <Column>
+              <Image src={TricksSix} />
             </Column>
           </Row>
         </Column>

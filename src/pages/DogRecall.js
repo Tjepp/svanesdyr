@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,8 +13,6 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // DogCourseSimple,
-  DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -172,12 +170,13 @@ const DogRecall = () => (
           </Text>
           <TextList texts={ContinuedRecallProgram} />
 
-          {/* <TitleColor text="Hold startes op på efterspørgsel." />
+          <br />
+          <TitleColor text="Hold startes op på efterspørgsel." />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text> */}
+          </Text>
 
-          <Title text="April start:" />
+          {/* <Title text="April start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
@@ -197,7 +196,7 @@ const DogRecall = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />

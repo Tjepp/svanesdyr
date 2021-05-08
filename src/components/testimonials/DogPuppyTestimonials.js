@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
 import { TitleColor, Text, TextContainer, FlexedRow, Image } from '../../components';
-import { TestiPupOne, TestiPupTwo, TestiPupThree, TestiPupFour } from '../../assets';
+import { TestiPupOne, TestiPupTwo, TestiPupThree, TestiPupFour, TestiPupFive } from '../../assets';
 
 const DogPuppyTestimonials = () => (
   <Carousel showThumbs={false} showStatus={false} showIndicators={false} autoPlay infiniteLoop>
@@ -79,6 +79,22 @@ const DogPuppyTestimonials = () => (
           og fik håb om at det måske nok skal gå godt med hund alligevel.
         </Text>
         <Text>Malene og Simba</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiPupFive} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Min eneste indvending var prisen for holdstart, dette var et af de dyreste steder jeg stødte på, men den må jeg sige virkelig har ændret sig! Kvalitet og pris går hånd i hånd ” " />
+        <Text>
+          Jeg har fået større forståelse af min hunds signaler og en bedre kommunikation mellem mig
+          og min hund. Især de gode råd man får med på vejen og kan spørge ind både før, under og
+          efter holdet har været fantastisk.
+        </Text>
+        <Text>
+          Den positive effekt det har på ens hvalp at gå hos dig er kun en anbefaling værdig!
+        </Text>
+        <Text>Michelle Kjær og Kenzo</Text>
       </TextContainer>
     </FlexedRow>
   </Carousel>
