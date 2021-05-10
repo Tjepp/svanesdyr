@@ -63,17 +63,13 @@ const DogCoolContinued = () => (
         <Column widthPercentage="75%">
           <Title text="Fortsat Helt-Cool i Horsens" showHorizontalRuler />
           <Text>
-            Ønsker du at få en mere afslappet hverdag, med en hund der selv kan finde ro, som kan gå
-            pænt i snor uden at hive armen af dig og hilse pænt, uden at hoppe op - så er du kommet
-            til rette sted!
-          </Text>
-          <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på
             Helt-Cool kurset.
             <br />
             Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor
-            de rolige gåture praktiseres i stor stil. Kurset henvender sig til alle hunde i alle
-            aldre, som har tendens til at stresse.
+            de rolige gåture praktiseres i stor stil. Du får en mere afslappet hverdag, med en hund
+            der selv kan finde ro når du er i ro og som kan gå pænt i snor uden at hive armen af
+            dig. Kurset henvender sig til alle hunde i alle aldre.
           </Text>
           <Text>
             Al træning foregår med{' '}
