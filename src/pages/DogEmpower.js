@@ -20,7 +20,7 @@ import {
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { TricksOne, TricksTwo, TricksThree, TricksFive, TricksSix, PuppyOne } from '../assets';
+import { TricksOne, TricksTwo, TricksThree, TricksFour, TricksFive, TricksSix } from '../assets';
 
 const FitProgram = [
   'Udstrækning og styrkeøvelser',
@@ -98,11 +98,14 @@ const DogEmpower = () => (
           <Title text="Alle igangværende hold er desværre fyldt op." />
 
           <br />
-          <Title text="August start:" />
-          <Text italic>
-            August skal snarligt planlægges.
-            <br />
-            Ønsker du at komme med kan du reservere plads på forhånd ved at
+          <TitleColor text="Jeg oplever i øjeblikket overvældende stor efterspørgsel på mine holdforløb." />
+          <Text>
+            Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
+            ude i god tid.
+            <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart i år er
+            til <b>oktober</b>.
+            <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
+            til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
           </Text>
 
@@ -143,7 +146,7 @@ const DogEmpower = () => (
           </Row>
           <Row>
             <Column>
-              <Image src={PuppyOne} />
+              <Image src={TricksFour} />
             </Column>
             <Column>
               <Image src={TricksFive} />

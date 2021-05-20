@@ -85,9 +85,10 @@ const DogCool = () => (
             <StyledLink to="/kontakt"> booke tid </StyledLink>
             til en
             <StyledLink to="/hundetraening"> konsultation</StyledLink>, hvor du kan få personlig
-            vejledning og redskaber til at hjælpe din hund. Eller tjek om
+            vejledning og redskaber til at hjælpe din hund.
+            {/* Eller tjek om
             <StyledLink to="/hundehold/venligvovse"> Venlig-Vovse </StyledLink> holdet er noget for
-            jer.
+            jer. */}
           </Text>
           <Text>
             <StyledLink to="/kontakt"> Kontakt mig </StyledLink> endelig hvis du er i tvivl.
@@ -122,11 +123,14 @@ const DogCool = () => (
           <Title text="Alle igangværende hold er desværre fyldt op." />
 
           <br />
-          <Title text="August start:" />
-          <Text italic>
-            August skal snarligt planlægges.
-            <br />
-            Ønsker du at komme med kan du reservere plads på forhånd ved at
+          <TitleColor text="Jeg oplever i øjeblikket overvældende stor efterspørgsel på mine holdforløb." />
+          <Text>
+            Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
+            ude i god tid.
+            <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart i år er
+            til <b>oktober</b>.
+            <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
+            til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
           </Text>
 

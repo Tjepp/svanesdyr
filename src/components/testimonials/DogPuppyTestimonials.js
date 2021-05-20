@@ -4,7 +4,14 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
 import { TitleColor, Text, TextContainer, FlexedRow, Image } from '../../components';
-import { TestiPupOne, TestiPupTwo, TestiPupThree, TestiPupFour, TestiPupFive } from '../../assets';
+import {
+  TestiPupOne,
+  TestiPupTwo,
+  TestiPupThree,
+  TestiPupFour,
+  TestiPupFive,
+  TestiPupSix,
+} from '../../assets';
 
 const DogPuppyTestimonials = () => (
   <Carousel showThumbs={false} showStatus={false} showIndicators={false} autoPlay infiniteLoop>
@@ -85,16 +92,34 @@ const DogPuppyTestimonials = () => (
     <FlexedRow>
       <Image src={TestiPupFive} width="200px" height="300px" />
       <TextContainer>
-        <TitleColor text=" ”Min eneste indvending var prisen for holdstart, dette var et af de dyreste steder jeg stødte på, men den må jeg sige virkelig har ændret sig! Kvalitet og pris går hånd i hånd ” " />
+        <TitleColor text=" ”Min eneste indvending var prisen for holdstart, dette var et af de dyreste steder jeg stødte på, men den må jeg sige virkelig har ændret sig! Kvalitet og pris går hånd i hånd” " />
         <Text>
           Jeg har fået større forståelse af min hunds signaler og en bedre kommunikation mellem mig
           og min hund. Især de gode råd man får med på vejen og kan spørge ind både før, under og
           efter holdet har været fantastisk.
         </Text>
         <Text>
-          Den positive effekt det har på ens hvalp at gå hos dig er kun en anbefaling værdig!
+          Den positive effekt det har på ens hvalp at gå hos Sabrina er kun en anbefaling værdig!
         </Text>
         <Text>Michelle Kjær og Kenzo</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiPupSix} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Jeg blev overrasket over tilgangen til at have hund. Klikker og ros. Der er overhovedet ingen råb eller skældud” " />
+        <Text>
+          Min deltagelse på hvalpeholdet har givet mig en stor viden omkring det at have en hund.
+          Det har desuden givet mig nogle rigtig gode redskaber til opdragelse. Det mest fantastiske
+          har været succeserne og følelsen af at lykkedes.
+        </Text>
+        <Text>
+          Jeg har fået en hund der gerne vil lære og lege, og jeg har fået lyst til at lære mere!
+          Jeg regnede kun med at skulle på ét træningsforløbet og så ellers bare have en
+          familie/hygge hund. Men der skal helt klart nydes flere hold og mere læring.
+        </Text>
+        <Text>Merete og Alfred</Text>
       </TextContainer>
     </FlexedRow>
   </Carousel>
