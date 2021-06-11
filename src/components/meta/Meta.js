@@ -23,7 +23,7 @@ const Meta = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hundetræning | Kattetræning | Hestetræning | Hundehold Horsens | Hundetræning Midtjylland | Klikkertræning | Foredrag hundeadfærd | Foredrag kat | Dyreadfærdskonsulent | Svanes Dyr ';
+  'Hundetræning | Hundehold Horsens | Kattetræning | Hundetræning Midtjylland | Klikkertræning | Foredrag hundeadfærd | Foredrag kat | Dyreadfærdskonsulent | Svanes Dyr ';
 const defaultDescription = 'Svanes Dyr - Certificeret Dyreadfærdskonsulent';
 const defaultKeywords = `Hundehold Horsens, Hundetræning Midtjylland, Kattetræning, klikkertræning, hestetræning Midtjylland, Svanes dyr, positiv hundetræning, 
   klikkertræning hest, klikkertræning kat, klikkertræning hund, adfærdsbehandler Midtjylland, adfærdsbehandler Horsens, hundeadfærd, 
