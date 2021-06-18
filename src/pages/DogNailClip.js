@@ -106,7 +106,7 @@ const DogContinued = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr." />
+          <TitleColor text="Din investering: 1195 kr." />
           <Text>
             i at kunne pleje din hunds negle <u>selv</u> og uden bekymring, da det bliver
             kvalitetstid fremfor overgreb.

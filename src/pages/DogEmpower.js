@@ -90,7 +90,7 @@ const DogEmpower = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 995 kr." />
+          <TitleColor text="Din investering: 1095 kr." />
           <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>

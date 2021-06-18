@@ -110,7 +110,7 @@ const DogContinued = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 995 kr." />
+          <TitleColor text="Din investering: 1095 kr." />
           <Text>
             i at få en lydig og opmærksom unghund, der kan holde fokus, selv med teenagehjernen i
             spil.

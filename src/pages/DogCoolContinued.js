@@ -97,7 +97,7 @@ const DogCoolContinued = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 995 kr." />
+          <TitleColor text="Din investering: 1095 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture, med en hund der er helt-cool omkring andre.
           </Text>
