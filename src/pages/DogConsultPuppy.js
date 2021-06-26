@@ -192,9 +192,7 @@ const DogConsultPuppy = () => (
                 Og vigtigst af alt så danner hele familien fælles front, fordi vi alle sidder med
                 samme viden og kan se formålet med at gøre det hele på samme måde.
               </Text>
-              <Text>
-                Tak - bare kæmpe tusind tak ! ❤️🤩 <br /> Jane Lindby og Loui
-              </Text>
+              <Text>Jane Lindby og Loui</Text>
             </TextContainer>
           </FlexedRow>
         </Column>
