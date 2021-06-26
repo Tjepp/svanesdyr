@@ -22,7 +22,7 @@ import {
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolFive, CoolSix } from '../assets';
+import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolSix } from '../assets';
 
 const CoolProgram = [
   'Fornøjelige gåture, uden at trække i snoren',
@@ -177,9 +177,9 @@ const DogCool = () => (
             <Column>
               <Image src={CoolFour} />
             </Column>
-            <Column>
+            {/* <Column>
               <Image src={CoolFive} />
-            </Column>
+            </Column> */}
             <Column>
               <Image src={CoolSix} />
             </Column>

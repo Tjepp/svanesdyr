@@ -12,7 +12,7 @@ export { default as CoolOne } from './HoldCool1.jpg';
 export { default as CoolTwo } from './HoldCool2.jpg';
 export { default as CoolThree } from './HoldCool3.png';
 export { default as CoolFour } from './HoldCool4.jpg';
-export { default as CoolFive } from './HoldCool5.jpg';
+// export { default as CoolFive } from './HoldCool5.jpg';
 export { default as CoolSix } from './HoldCool6.jpg';
 export { default as CoolAgainOne } from './HoldFortsatCool1.jpg';
 export { default as CoolAgainTwo } from './HoldFortsatCool2.jpg';
