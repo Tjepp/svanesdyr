@@ -169,20 +169,32 @@ const DogConsultPuppy = () => (
       </Row>
       <Row>
         <Column widthPercentage="80%">
-          <TitleCenter text=" ”Vores hvalp har lært at slappe af på signal” " />
+          <TitleCenter text=" ”Vi er virkelig godt klædt på og meget mere selvsikre i forhold til hvilken retning for opdragelsen, der er rigtig for os og Loui” " />
           <FlexedRow>
             <Image src={ConsultPupTwo} width="200px" height="300px" />
             <TextContainer>
               <Text>
-                Den største forandring for os var at få større viden omkring ro / søvns vigtighed
-                for en hvalp. Det var noget af en aha-oplevelse at lære hvalpens behov for at ”øve”
-                sig i ro, da man ellers får et ”damp barn”.
+                Det tager tid at omvende dårlige vaner. Men det har allerede hjulpet rigtig meget.
+                Særligt fordi jeg kigger meget efter “det skal have en funktion” adfærd. Alt andet
+                reagere jeg på ved at distrahere og/eller putte. Det har en kæmpe effekt allerede.
               </Text>
               <Text>
-                Vi har set hvor lærenem han er og har lært at bruge et ”slap-af”-tæppe. Han søger i
-                dag selv tæppet når han ved det er slap-af tid.
+                Vi havde en legeaftale med en anden hund, og i modsætning til før, vidste jeg nu,
+                hvad jeg skulle gøre, da de kørte og han ikke kunne finde ro. En tyggestang til lige
+                at falde ned på og så ro i huset. 👍🏻 Han har slet ikke bidt efter mig i dag.
               </Text>
-              <Text>Freja og Polle</Text>
+              <Text>
+                Vi er virkelig godt klædt på og meget mere selvsikre i forhold til hvilken retning
+                for opdragelsen, der er rigtig for os og Loui. På bare 2 dage, har vi set en kæmpe
+                forandring, fordi vi kommer den uønskede adfærd i forkøbet.
+              </Text>
+              <Text>
+                Og vigtigst af alt så danner hele familien fælles front, fordi vi alle sidder med
+                samme viden og kan se formålet med at gøre det hele på samme måde.
+              </Text>
+              <Text>
+                Tak - bare kæmpe tusind tak ! ❤️🤩 <br /> Jane Lindby og Loui
+              </Text>
             </TextContainer>
           </FlexedRow>
         </Column>
