@@ -17,7 +17,6 @@ const TextList = ({ texts }) => (
 );
 
 const StyledList = styled.ul`
-  list-style-type: dot;
   padding-left: 20px;
   color: #000;
 `;
