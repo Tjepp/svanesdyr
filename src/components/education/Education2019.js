@@ -15,7 +15,7 @@ const Education2019 = () => (
     <Text>
       <b>Ann-Kristin Meyer</b>
       <br />
-      Foredrag den 14. april: "Hundens ernæring - Vejen ud af foderjunglen."
+      Foredrag den 14. april: "Hundens ernæring - Vejen ud af den store jungle af hundefoder."
     </Text>
   </>
 );
