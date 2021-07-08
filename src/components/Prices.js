@@ -5,14 +5,15 @@ import { TitleColor } from '.';
 const Prices = () => (
   <>
     <TitleColor text="Alle priser er inkl. moms" />
+    <Text>Der takseres per påbegyndt kvarter.</Text>
     <Text>
       <b>Timepris</b>
       <br />
       Hverdage man-fre før kl. 18.00:
-      <b> 800,- kr/time</b>
+      <b> 950,- kr/time</b>
       <br />
       Hverdage man-fre efter kl. 18.00:
-      <b> 950,- kr/time</b>
+      <b> 1.200,- kr/time</b>
       <br />
       Lørdage, samt søndage og helligdage:
       <b> Lukket </b>
@@ -23,6 +24,11 @@ const Prices = () => (
       Fri opfølgning på telefon eller mail.
       <br />
       Skriftlig guide på gennemgåede tiltag tilsendes.
+    </Text>
+    <Text>
+      <b>Telefon samtaler</b>
+      <br />
+      Takseres til almindelig timepris efter 15 min.
     </Text>
     <Text>
       <b>Kørsel</b>
