@@ -59,6 +59,8 @@ const Contact = () => (
             <br />
             Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
           </Text>
+          <br />
+          <TitleColor text="Jeg afholder i øjeblikket sommerferie og besvarer alle henvendelser igen efter den 9.august. Ha' en dejlig sommer!" />
         </Column>
         {/* <Column>
           <Title text="Firma informationer" showHorizontalRuler />
