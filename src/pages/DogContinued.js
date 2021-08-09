@@ -52,10 +52,11 @@ const PuppyBenefits = [
 ];
 
 const ContinuedTwoProgram = [
-  'Doggie-zen, ro omkring spændende sager',
+  'Doggie-zen, ro omkring flere spændende sager',
   'Øvelser i kropskontrol og kropsbevidsthed',
-  'Targettræning med snude og poter',
+  'Empowermentøvelse: Targettræning med poter',
   'Hverdagsgåture med kontakt og ro',
+  'Træning af indkald med fristelser',
   'Træning af at blive i position',
   'Træning af ejer med klikkertiming og belønningsleveringer',
 ];
