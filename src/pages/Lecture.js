@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,10 +13,10 @@ import {
   Text,
   Image,
   BreadCrumps,
-  // LectureTableHead,
-  // StyledExternal,
+  LectureTableHead,
   Row,
   StyledLink,
+  StyledExternal,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { lectureFearAndAgression, lectureDogLanguage, lectureCalmDownFido } from '../assets';
@@ -77,72 +77,28 @@ const Lecture = () => (
       <Row>
         <Column widthPercentage="100%">
           <Title text="Kommende foredrag og workshops om hundeadfærd 2021" showHorizontalRuler />
-          <Text>
-            Grundet de nuværende restriktioner med Corona er foredrag sat midlertidigt på pause.
-          </Text>
-          {/* <TitleColor text="Hos FOF - Ane Staunings Vej 21, 8700 Horsens:" smallTitle />
-          <Text>Bemærk; Priser er fastsat af FOF og tilmelding foregår via deres hjemmeside.</Text> */}
-          {/* <Table>
+          <br />
+          <Table>
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>17.03.2021</Td>
+                <Td>30.09.2021</Td>
                 <Td>Hundens sprog - Hvad fortæller den dig?</Td>
                 <Td>
-                  <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/hundens-sprog-workshop/210821">
-                    Klik her
-                  </StyledExternal>
+                  <StyledExternal href="https://fb.me/e/3HitMVI1H">Klik her</StyledExternal>
                 </Td>
+                <Td>Ring Søpark 25, 8740 Brædstrup</Td>
                 <Td>18.30 - 21.30</Td>
-                <Td>200 kr. </Td>
+                <Td>250 kr. </Td>
                 <Td>
-                  <font color="#D60E0E">10 pladser</font>
+                  <font color="#D60E0E">20 pladser</font>
                 </Td>
-              </Tr>
-              <Tr>
-                <Td>20.03.2021</Td>
-                <Td>Angst og Aggression - Forebyggelse og behandling</Td>
                 <Td>
-                  <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/angst-og-aggression-forebyggelse-og-behandling/210822">
-                    Klik her
-                  </StyledExternal>
-                </Td>
-                <Td>10.00 - 15.45 </Td>
-                <Td>335 kr. </Td>
-                <Td>
-                  <font color="#D60E0E">10 pladser</font>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>17.04.2021</Td>
-                <Td>Slap af Fido! - få ro på hverdagen </Td>
-                <Td>
-                  <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/slap-af-fido-f-ro-p-hverdagen-workshop/210823">
-                    Klik her
-                  </StyledExternal>
-                </Td>
-                <Td>10.00 - 15.45 </Td>
-                <Td>335 kr. </Td>
-                <Td>
-                  <font color="#D60E0E">10 pladser</font>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>22.05.2021</Td>
-                <Td>Det gøende mareridt </Td>
-                <Td>
-                  <StyledExternal href="https://cm.fof.dk/da/sydostjylland/kurser/friluftsliv/hundetraening-teori/det-goeende-mareridt-workshop/210824">
-                    Klik her
-                  </StyledExternal>
-                </Td>
-                <Td>10.00 - 15.45 </Td>
-                <Td>335 kr. </Td>
-                <Td>
-                  <font color="#D60E0E">10 pladser</font>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
         </Column>
       </Row>
       <Row>

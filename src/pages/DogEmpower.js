@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // DogCourseTableHead,
+  DogCourseSimple,
   TextList,
   Image,
   StyledLink,
@@ -95,10 +95,10 @@ const DogEmpower = () => (
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-          <Title text="Alle igangværende hold er desværre fyldt op." />
+          {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
           <br />
-          <TitleColor text="Jeg oplever i øjeblikket overvældende stor efterspørgsel på mine holdforløb." />
+          <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
           <Text>
             Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
             ude i god tid.
@@ -108,28 +108,28 @@ const DogEmpower = () => (
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
           </Text>
+          <br />
 
-          {/* <Title text="April start:" />
+          <Title text="Oktober start:" />
           <Table>
-            <DogCourseTableHead />
+            <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fit Empower A</Td>
+                <Td>Fit Empower E</Td>
                 <Td>Søndag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>12.00 - 12.45</Td>
-                <Td>11. april</Td>
-                <Td>30. maj</Td>
-                <Td>Pinse 23. maj</Td>
+                <Td>11.30 - 12.15</Td>
+                <Td>24. okt</Td>
+                <Td>5. dec</Td>
                 <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Billeder fra Fit Empowerment" showHorizontalRuler />

@@ -6,10 +6,12 @@ const LectureTableHead = () => (
     <Tr>
       <Th>Dato</Th>
       <Th>Foredrag</Th>
-      <Th>Tilmelding</Th>
+      <Th>Mere info</Th>
+      <Th>Adresse</Th>
       <Th>Tidspunkt</Th>
       <Th>Pris</Th>
       <Th>Status</Th>
+      <Th>Tilmelding</Th>
     </Tr>
   </Thead>
 );

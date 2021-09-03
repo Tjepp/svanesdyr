@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 
 import {
@@ -14,7 +14,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // DogCourseSimple,
+  DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -127,33 +127,35 @@ const DogCool = () => (
           <Text>
             Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
             ude i god tid.
-            <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart i år er
-            til <b>oktober</b>.
+            <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart er i{' '}
+            <b>2022</b>.
             <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
           </Text>
+          <br />
 
-          {/* <Title text="Maj start:" />
+          <Title text="Oktober start:" />
           <Table>
-            <DogCourseSimple />
+            <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Cool G</Td>
+                <Td>Cool I</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>20.30 - 21.15</Td>
-                <Td>3. maj</Td>
-                <Td>14. juni</Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>4. okt</Td>
+                <Td>22. nov</Td>
+                <Td>Uge 42</Td>
                 <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
+                  <font color="#D60E0E">Venteliste</font>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler />

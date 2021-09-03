@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 
 import {
@@ -16,7 +16,7 @@ import {
   Row,
   TextList,
   Image,
-  // DogCourseSimple,
+  DogCourseTableHead,
   StyledLink,
   DogPuppyTestimonials,
 } from '../components';
@@ -114,10 +114,10 @@ const DogPuppy = () => {
             <br />
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
-            <Title text="Alle igangværende hold er desværre fyldt op." />
+            {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
             <br />
-            <TitleColor text="Jeg oplever i øjeblikket overvældende stor efterspørgsel på mine holdforløb." />
+            <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
             <Text>
               Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
               ude i god tid.
@@ -127,27 +127,59 @@ const DogPuppy = () => {
               velkommen til at
               <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
             </Text>
+            <br />
 
-            {/* <Title text="Maj start:" />
+            <Title text="Oktober start:" />
             <Table>
-              <DogCourseSimple />
+              <DogCourseTableHead />
               <Tbody>
                 <Tr>
-                  <Td>Hvalp I</Td>
+                  <Td>Hvalp P</Td>
+                  <Td>Mandag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>16.30 - 17.15</Td>
+                  <Td>4. okt</Td>
+                  <Td>22. nov</Td>
+                  <Td>Uge 42</Td>
+                  <Td>
+                    <font color="#D60E0E">1 plads</font>
+                  </Td>
+                </Tr>
+                <Tr>
+                  <Td>Hvalp Q</Td>
                   <Td>Mandag</Td>
                   <Td>8700</Td>
                   <Td>
                     <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                   </Td>
                   <Td>17.30 - 18.15</Td>
-                  <Td>3. maj</Td>
-                  <Td>14. juni</Td>
+                  <Td>4. okt</Td>
+                  <Td>22. nov</Td>
+                  <Td>Uge 42</Td>
                   <Td>
-                    <font color="#D60E0E">*Venteliste*</font>
+                    <font color="#D60E0E">1 plads</font>
+                  </Td>
+                </Tr>
+                <Tr>
+                  <Td>Hvalp R</Td>
+                  <Td>Søndag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>10.30 - 11.15</Td>
+                  <Td>24. okt</Td>
+                  <Td>5. dec</Td>
+                  <Td>--</Td>
+                  <Td>
+                    <font color="#D60E0E">Venteliste</font>
                   </Td>
                 </Tr>
               </Tbody>
-            </Table> */}
+            </Table>
 
             {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
             <br />
