@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  // DogCourseSimple,
+  DogCourseSimple,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -31,20 +31,20 @@ import {
 
 const NailClipProgram = [
   'Chirag Patels "The Bucket Game"',
-  'Indlæring af stationering til frivillig håndteringsleg',
+  'Indlæring af stationering',
+  'Frivillig håndteringsprincip ved børstning, klipning mv.',
   'Slappe-af øvelse for let adgang til poter',
+  'Introduktion til brug af neglefil',
   'Gode råd til at finde den gode, hundevenlige negleklipper',
   'Undervisning i neglens struktur og hvordan blødning undgås',
   'Undervisning i blid og korrekt vinkling under negleklipning',
   'Undervisning i hvordan lange negle gøres kortere (for at undgå klik på gulve)',
-  'Introduktion til brug af neglefil',
-  'Indlæring af brug af "kradsebræt" til negleslibning',
 ];
 
 const NailClipBenefits = [
   'Personlig sparring omkring din hund og jeres samarbejde',
   'Hele 6 ugers træning med ugentligt møde',
-  'Max 2 andre holdkammerater, så der er god tid til dig og din hund',
+  'Max 3 andre holdkammerater, så der er god tid til dig og din hund',
   'Skriftlig trin-for-trin guide tilsendt på mail så du kan øve derhjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
@@ -81,6 +81,11 @@ const DogContinued = () => (
             måske stadig træning at udføre inden i er helt i mål med at kunne klippe alle negle.
           </Text>
           <Text>
+            Da vi øver frivillig håndtering er der god mulighed for at øve andre områder af den
+            daglige pleje, som børstning, klip m. saks, tandbørstning, dryp med øjen- eller
+            øredråber mv. Vi tilpasser det efter hvad du ønsker at fokusere på!
+          </Text>
+          <Text>
             Al træning foregår med{' '}
             <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi
             bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad.
@@ -90,7 +95,7 @@ const DogContinued = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 6 uger sammen vil vi komme igennem følgende:
+            <br />I løbet af vores 6 uger sammen vil vi komme gennem følgende:
           </Text>
           <TextList texts={NailClipProgram} />
           <Text>
@@ -100,43 +105,43 @@ const DogContinued = () => (
           </Text>
           <TextList texts={NailClipBenefits} />
           <Text>
-            Træningen foregår indendørs med begrænset plads, så din hund skal være ok med at være
-            nær andre.
+            Bemærk at vi mødes <b>hver 14. dag</b> på dette hold, så der er god tid til at få trænet
+            mellem hver lektion og nå i mål til afslutning.
           </Text>
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1195 kr." />
+          <TitleColor text="Din investering: 1095 kr." />
           <Text>
             i at kunne pleje din hunds negle <u>selv</u> og uden bekymring, da det bliver
             kvalitetstid fremfor overgreb.
           </Text>
 
           <br />
-          <TitleColor text="Hold startes op på efterspørgsel." />
+          {/* <TitleColor text="Hold startes op på efterspørgsel." />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text>
-          {/* <Title text="Marts start:" />
+          </Text> */}
+          <Title text="Oktober start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Negleklip A</Td>
-                <Td>Mandag</Td>
+                <Td>Negleklip B</Td>
+                <Td>Søndag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>29. marts</Td>
-                <Td>10. maj</Td>
+                <Td>12.30 - 13.15</Td>
+                <Td>10. okt</Td>
+                <Td>19. dec</Td>
                 <Td>
                   <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
 
           <br />
 
