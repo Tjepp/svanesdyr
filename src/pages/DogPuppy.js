@@ -145,7 +145,7 @@ const DogPuppy = () => {
                   <Td>22. nov</Td>
                   <Td>Uge 42</Td>
                   <Td>
-                    <font color="#D60E0E">1 plads</font>
+                    <font color="#D60E0E">Venteliste</font>
                   </Td>
                 </Tr>
                 <Tr>
