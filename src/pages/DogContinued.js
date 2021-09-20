@@ -126,8 +126,8 @@ const DogContinued = () => (
           <Text>
             Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
             ude i god tid.
-            <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart i år er
-            til <b>oktober</b>.
+            <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart er i{' '}
+            <b>2022</b>.
             <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
@@ -150,7 +150,7 @@ const DogContinued = () => (
                 <Td>30. nov</Td>
                 <Td>Uge 42 og 47</Td>
                 <Td>
-                  <font color="#D60E0E">1 plads</font>
+                  <font color="#D60E0E">Venteliste</font>
                 </Td>
               </Tr>
               <Tr>

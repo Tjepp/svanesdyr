@@ -97,6 +97,20 @@ const Lecture = () => (
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
               </Tr>
+              <Tr>
+                <Td>28.10.2021</Td>
+                <Td>Hundens sprog - Hvad fortæller den dig?</Td>
+                <Td>
+                  <StyledExternal href="https://fb.me/e/49pMsOYve">Klik her</StyledExternal>
+                </Td>
+                <Td>Bredgade 15, 8740 Brædstrup</Td>
+                <Td>19.00 - 21.00</Td>
+                <Td>250 kr. </Td>
+                <Td>
+                  <font color="#D60E0E">Ledige pladser</font>
+                </Td>
+                <Td>Rikke Hedegaard Tlf. 41177930</Td>
+              </Tr>
             </Tbody>
           </Table>
         </Column>

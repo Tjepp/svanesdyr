@@ -102,8 +102,8 @@ const DogEmpower = () => (
           <Text>
             Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
             ude i god tid.
-            <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart i år er
-            til <b>oktober</b>.
+            <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart er i{' '}
+            <b>2022</b>.
             <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
@@ -116,6 +116,20 @@ const DogEmpower = () => (
             <Tbody>
               <Tr>
                 <Td>Fit Empower E</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>19.30 - 20.15</Td>
+                <Td>5. okt</Td>
+                <Td>20. nov</Td>
+                <Td>
+                  <font color="#D60E0E">Venteliste</font>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td>Fit Empower F</Td>
                 <Td>Søndag</Td>
                 <Td>8700</Td>
                 <Td>
