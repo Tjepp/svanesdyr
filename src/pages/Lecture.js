@@ -82,7 +82,7 @@ const Lecture = () => (
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>30.09.2021</Td>
+                <Td>13.10.2021</Td>
                 <Td>Hundens sprog - Hvad fortæller den dig?</Td>
                 <Td>
                   <StyledExternal href="https://fb.me/e/3HitMVI1H">Klik her</StyledExternal>
@@ -91,7 +91,7 @@ const Lecture = () => (
                 <Td>18.30 - 21.30</Td>
                 <Td>250 kr. </Td>
                 <Td>
-                  <font color="#D60E0E">Venteliste</font>
+                  <font color="#D60E0E">5 pladser</font>
                 </Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
