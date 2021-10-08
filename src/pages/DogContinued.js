@@ -51,15 +51,15 @@ const PuppyBenefits = [
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
-const ContinuedTwoProgram = [
-  'Doggie-zen, ro omkring flere spændende sager',
-  'Øvelser i kropskontrol og kropsbevidsthed',
-  'Empowermentøvelse: Targettræning med poter',
-  'Hverdagsgåture med kontakt og ro',
-  'Træning af indkald med fristelser',
-  'Træning af at blive i position',
-  'Træning af ejer med klikkertiming og belønningsleveringer',
-];
+// const ContinuedTwoProgram = [
+//   'Doggie-zen, ro omkring flere spændende sager',
+//   'Øvelser i kropskontrol og kropsbevidsthed',
+//   'Empowermentøvelse: Targettræning med poter',
+//   'Hverdagsgåture med kontakt og ro',
+//   'Træning af indkald med fristelser',
+//   'Træning af at blive i position',
+//   'Træning af ejer med klikkertiming og belønningsleveringer',
+// ];
 
 const DogContinued = () => (
   <Page>
@@ -189,7 +189,7 @@ const DogContinued = () => (
           {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
           <br />
 
-          <Title text="Fortsætterhold Trin2+" showHorizontalRuler />
+          {/* <Title text="Fortsætterhold Trin2+" showHorizontalRuler />
           <Text>
             Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på
             tidligere hvalpe-fortsætterhold. Trin 2 bygger videre på tidligere indlærte øvelser og
@@ -199,14 +199,14 @@ const DogContinued = () => (
             <b>Træningsprogram for Fortsætter-holdet</b>
           </Text>
           <TextList texts={ContinuedTwoProgram} />
-          {/* <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text> */}
+          <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text>
 
           <TitleColor text="Hold startes op på efterspørgsel." />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
           </Text>
 
-          {/* <Title text="Maj start:" />
+          <Title text="Maj start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
@@ -226,8 +226,8 @@ const DogContinued = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
-          <br />
+          </Table>
+          <br /> */}
 
           <Title text="Billeder fra fortsætterhold" showHorizontalRuler />
           <Row>
