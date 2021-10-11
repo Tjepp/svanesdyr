@@ -91,7 +91,7 @@ const Lecture = () => (
                 <Td>18.30 - 21.30</Td>
                 <Td>250 kr. </Td>
                 <Td>
-                  <font color="#D60E0E">5 pladser</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
