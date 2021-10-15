@@ -82,22 +82,6 @@ const Lecture = () => (
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>13.10.2021</Td>
-                <Td>Hundens sprog - Hvad fortæller den dig?</Td>
-                <Td>
-                  <StyledExternal href="https://fb.me/e/3HitMVI1H">Klik her</StyledExternal>
-                </Td>
-                <Td>Ring Søpark 25, 8740 Brædstrup</Td>
-                <Td>18.30 - 21.30</Td>
-                <Td>250 kr. </Td>
-                <Td>
-                  <font color="#D60E0E">1 plads</font>
-                </Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-              </Tr>
-              <Tr>
                 <Td>28.10.2021</Td>
                 <Td>Hundens sprog - Hvad fortæller den dig?</Td>
                 <Td>
