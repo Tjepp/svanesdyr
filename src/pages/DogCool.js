@@ -147,8 +147,8 @@ const DogCool = () => (
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
                 <Td>18.30 - 19.15</Td>
-                <Td>4. okt</Td>
-                <Td>22. nov</Td>
+                <Td>11. okt</Td>
+                <Td>29. nov</Td>
                 <Td>Uge 42</Td>
                 <Td>
                   <font color="#D60E0E">Venteliste</font>

@@ -146,9 +146,9 @@ const DogContinued = () => (
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
                 <Td>16.30 - 17.15</Td>
-                <Td>5. okt</Td>
-                <Td>30. nov</Td>
-                <Td>Uge 42 og 47</Td>
+                <Td>12. okt</Td>
+                <Td>14. dec</Td>
+                <Td>Uge 42, 47 og 49</Td>
                 <Td>
                   <font color="#D60E0E">Venteliste</font>
                 </Td>
@@ -161,9 +161,9 @@ const DogContinued = () => (
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
                 <Td>17.30 - 18.15</Td>
-                <Td>5. okt</Td>
-                <Td>30. nov</Td>
-                <Td>Uge 42 og 47</Td>
+                <Td>12. okt</Td>
+                <Td>14. dec</Td>
+                <Td>Uge 42, 47 og 49</Td>
                 <Td>
                   <font color="#D60E0E">Venteliste</font>
                 </Td>
@@ -176,9 +176,9 @@ const DogContinued = () => (
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
                 <Td>18.30 - 19.15</Td>
-                <Td>5. okt</Td>
-                <Td>30. nov</Td>
-                <Td>Uge 42 og 47</Td>
+                <Td>12. okt</Td>
+                <Td>14. dec</Td>
+                <Td>Uge 42, 47 og 49</Td>
                 <Td>
                   <font color="#D60E0E">Venteliste</font>
                 </Td>
