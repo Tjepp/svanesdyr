@@ -104,7 +104,7 @@ const DogNoseWork = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1195 kr." />
+          <TitleColor text="Din investering: 1095 kr." />
           <Text>i at få en søgeglad hund, som aktivt og selvstændigt kan bruge næsen!</Text>
 
           <br />

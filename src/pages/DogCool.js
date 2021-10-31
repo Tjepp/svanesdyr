@@ -112,7 +112,7 @@ const DogCool = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1195 kr." />
+          <TitleColor text="Din investering: 1095 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture og få gæster på besøg, med en hund der er helt-cool
             omkring andre.
