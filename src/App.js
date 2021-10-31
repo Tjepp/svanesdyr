@@ -33,6 +33,7 @@ import {
   DogEmpower,
   DogSummer,
   DogCoolFriend,
+  DogNoseWork,
   Home,
   Horse,
   Lecture,
@@ -78,6 +79,7 @@ const App = () => (
             <Route path={`${url}/negleklipkursus`} component={DogNailClip} />
             <Route path={`${url}/sommerhund`} component={DogSummer} />
             <Route path={`${url}/empowerment`} component={DogEmpower} />
+            <Route path={`${url}/noseworkintro`} component={DogNoseWork} />
           </>
         )}
       />

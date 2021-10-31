@@ -47,18 +47,19 @@ const DogCourse = () => (
           <Text>
             <b>Små hold med tid til dig og din hund</b>
             <br />
-            Jeg afholder intime hold med <b>max 4 hunde</b>, da jeg værdsætter tid til en individuel
-            snak med dig omkring samarbejdet og træningen med din hund. Målet er, at uanset niveau
-            og alder så skal alle deltagere have udbytte af timen. Træningen er familievenlig, så
-            tag gerne børn og den bedre halvdel med til en hyggelig time.
+            Jeg afholder intime hold med <b>max 4 hunde</b> på nye hold og <b>max 5 hunde</b> på
+            fortsætterhold, da jeg værdsætter tid til en individuel snak med dig omkring samarbejdet
+            og træningen med din hund. Målet er, at uanset niveau og alder så skal alle deltagere
+            have udbytte af timen. Træningen er familievenlig, så tag gerne børn og den bedre
+            halvdel med til en hyggelig time.
           </Text>
           <Text>
             <b>Vi ses én gang om ugen</b>
             <br />
-            Hvert hold varer 7 uger, hvor vi mødes til træning i <b>45 min. per uge</b>. Der
-            tilsendes skriftlige guides på kursets øvelser, så det er let at træne videre hjemme. Du
-            vil blive introduceret til klikkertræning og konceptet med at bruge mad, leg og ros til
-            hverdagens opdragelse.
+            Hvert hold varer typisk 7 uger, hvor vi mødes til træning i <b>45 min. per uge</b>. Der
+            tilsendes link til et online bibliotek, hvor du kan downloade skriftlige guides på
+            kursets øvelser, så det er let at træne videre hjemme. Du vil blive introduceret til
+            klikkertræning og konceptet med at bruge mad, leg og ros til hverdagens opdragelse.
           </Text>
           <Text>
             <b>Træningsbane</b>

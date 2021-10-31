@@ -43,13 +43,13 @@ const NailClipProgram = [
 
 const NailClipBenefits = [
   'Personlig sparring omkring din hund og jeres samarbejde',
-  'Hele 6 ugers træning med ugentligt møde',
+  'Hele 6 ugers træning med mødegang hveranden uge',
   'Max 3 andre holdkammerater, så der er god tid til dig og din hund',
-  'Skriftlig trin-for-trin guide tilsendt på mail så du kan øve derhjemme',
+  'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
-const DogContinued = () => (
+const DogNailClip = () => (
   <Page>
     <MetaDogNailClip />
     <Banner text="Hundehold i Horsens">
@@ -175,7 +175,7 @@ const DogContinued = () => (
   </Page>
 );
 
-export default withRouter(DogContinued);
+export default withRouter(DogNailClip);
 
 const Background = styled.div`
   background: #fff;

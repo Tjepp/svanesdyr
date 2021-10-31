@@ -51,7 +51,7 @@ const PuppyBenefits = [
   'Gode råd og tips til optimal aktivering af hvalpen',
   'Hele 7 ugers træning med ugentligt møde',
   'Max 3 andre holdkammerater, så der er god tid til dig',
-  'Skriftlige trin-for-trin guides tilsendt hver uge på mail så du kan øve derhjemme',
+  'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
@@ -106,7 +106,7 @@ const DogPuppy = () => {
             <br />
 
             <Title text="Skema for kommende holdstart" showHorizontalRuler />
-            <TitleColor text="Din investering: 1095 kr." />
+            <TitleColor text="Din investering: 1195 kr." />
             <Text>
               i at få en rolig, imødekommende og selvsikker familiehund, der elsker at træne sammen
               med dig!

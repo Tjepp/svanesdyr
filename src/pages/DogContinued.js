@@ -46,8 +46,8 @@ const PuppyBenefits = [
   'Personlig sparring omkring din hvalp og jeres hverdag sammen',
   'Gode råd og tips til optimal aktivering af hvalpen',
   'Hele 7 ugers træning med ugentligt møde',
-  'Max 3 andre holdkammerater, så der er god tid til dig',
-  'Skriftlige trin-for-trin guides tilsendt på mail så du kan øve derhjemme',
+  'Max 4 andre holdkammerater, så der er god tid til dig',
+  'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 

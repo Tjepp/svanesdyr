@@ -39,7 +39,7 @@ const CoolBenefits = [
   'Gode råd og tips til optimal aktivering af hunden',
   'Hele 7 ugers træning med ugentligt møde',
   'Max 3 andre holdkammerater, så der er god tid til dig',
-  'Skriftlige trin-for-trin guides tilsendt hver uge på mail så du kan øve derhjemme',
+  'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
@@ -112,7 +112,7 @@ const DogCool = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr." />
+          <TitleColor text="Din investering: 1195 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture og få gæster på besøg, med en hund der er helt-cool
             omkring andre.

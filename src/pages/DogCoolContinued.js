@@ -33,7 +33,7 @@ import {
 const CoolContinuedBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen',
   'Hele 7 ugers træning med ugentligt møde',
-  'Max 3 andre holdkammerater, så der er god tid til dig',
+  'Max 5 andre holdkammerater, så der er god tid til dig',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
