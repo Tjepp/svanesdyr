@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple,
+  // DogCourseSimple,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -118,11 +118,12 @@ const DogNailClip = () => (
           </Text>
 
           <br />
-          {/* <TitleColor text="Hold startes op på efterspørgsel." />
+          <TitleColor text="Hold startes op på efterspørgsel." />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text> */}
-          <Title text="Oktober start:" />
+          </Text>
+
+          {/* <Title text="Oktober start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -141,7 +142,7 @@ const DogNailClip = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
 
           <br />
 

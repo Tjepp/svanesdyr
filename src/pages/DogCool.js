@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 
 import {
@@ -14,7 +14,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseTableHead,
+  // DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -111,31 +111,29 @@ const DogCool = () => (
           </Text>
           <br />
 
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr." />
-          <Text>
-            i at kunne nyde jeres daglige gåture og få gæster på besøg, med en hund der er helt-cool
-            omkring andre.
-          </Text>
-          <br />
-          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-
-          <Title text="Alle igangværende hold er desværre fyldt op." />
-
-          <br />
           <TitleColor text="Jeg oplever i øjeblikket overvældende stor efterspørgsel på mine holdforløb." />
           <Text>
             Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
             ude i god tid.
             <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart er i{' '}
-            <b>2022</b>.
+            <b>marts 2022</b>.
             <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
           </Text>
           <br />
 
-          <Title text="Oktober start:" />
+          <Title text="Skema for kommende holdstart" showHorizontalRuler />
+          <TitleColor text="Din investering: 1095 kr." />
+          <Text>
+            i at kunne nyde jeres daglige gåture og få gæster på besøg, med en hund der er helt-cool
+            omkring andre.
+          </Text>
+          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+          <br />
+          <Title text="Alle igangværende hold er desværre fyldt op." />
+
+          {/* <Title text="Oktober start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
@@ -155,7 +153,7 @@ const DogCool = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler />

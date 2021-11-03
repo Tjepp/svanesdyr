@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseSimple,
+  // DogCourseSimple,
   TextList,
   Image,
   StyledLink,
@@ -89,15 +89,6 @@ const DogEmpower = () => (
           <TextList texts={FitBenefits} />
           <br />
 
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr." />
-          <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
-          <br />
-          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-
-          {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
-
-          <br />
           <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
           <Text>
             Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
@@ -110,7 +101,14 @@ const DogEmpower = () => (
           </Text>
           <br />
 
-          <Title text="Oktober start:" />
+          <Title text="Skema for kommende holdstart" showHorizontalRuler />
+          <TitleColor text="Din investering: 1095 kr." />
+          <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
+          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+          <br />
+          <Title text="Alle igangværende hold er desværre fyldt op." />
+
+          {/* <Title text="Oktober start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -143,7 +141,7 @@ const DogEmpower = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Billeder fra Fit Empowerment" showHorizontalRuler />

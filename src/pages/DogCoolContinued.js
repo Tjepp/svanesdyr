@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 import { withRouter } from 'react-router-dom';
 
 import {
@@ -14,7 +14,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseTableHead,
+  // DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -33,7 +33,7 @@ import {
 const CoolContinuedBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen',
   'Hele 7 ugers træning med ugentligt møde',
-  'Max 5 andre holdkammerater, så der er god tid til dig',
+  'Max 4 andre holdkammerater, så der er god tid til dig',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
@@ -46,6 +46,13 @@ const ContinuedCoolProgram = [
   'Ro og kontakt nær flere forstyrrelser på én gang',
   'Afventende ro omkring spændende sager i bevægelse',
   'Placering af hunden: Indlæring af bliv',
+];
+
+const CoolEnvironmentBenefits = [
+  'Personlig sparring på at finde ro i nye områder',
+  'Personlig sparring på at passere fremmede hunde og mennesker',
+  'Hele 6 ugers træning med mødegang hveranden uge',
+  'Max 4 andre holdkammerater, så der er god tid til dig',
 ];
 
 const DogCoolContinued = () => (
@@ -94,17 +101,6 @@ const DogCoolContinued = () => (
             timerne. Til de legeglade hunde er der mulighed for lidt{' '}
             <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> efter timen.
           </Text>
-          <br />
-
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr." />
-          <Text>
-            i at kunne nyde jeres daglige gåture, med en hund der er helt-cool omkring andre.
-          </Text>
-          <br />
-          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-
-          <Title text="Alle igangværende hold er desværre fyldt op." />
 
           <br />
           <TitleColor text="Jeg oplever i øjeblikket overvældende stor efterspørgsel på mine holdforløb." />
@@ -112,13 +108,23 @@ const DogCoolContinued = () => (
             Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
             ude i god tid.
             <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart er i{' '}
-            <b>2022</b>.
+            <b>marts 2022</b>.
             <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
           </Text>
+          <br />
 
-          <Title text="Oktober start:" />
+          <Title text="Skema for kommende holdstart" showHorizontalRuler />
+          <TitleColor text="Din investering: 1095 kr." />
+          <Text>
+            i at kunne nyde jeres daglige gåture, med en hund der er helt-cool omkring andre.
+          </Text>
+          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+          <br />
+          <Title text="Alle igangværende hold er desværre fyldt op." />
+
+          {/* <Title text="Oktober start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
@@ -138,29 +144,33 @@ const DogCoolContinued = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Helt-Cool Miljøhold" showHorizontalRuler />
+          <Text font color="#D60E0E">
+            Træning i nye miljøer for <b>tidligere</b> Cool-kursister
+          </Text>
           <Text>
             Efter at have deltaget på de to første kursusforløb er der mulighed for at tage
             træningen med ud i hverdagen.
             <br />
             På miljøholdet fokuseres der på de kendte Cool-principper med kontakt og ro, som udøves
-            i <u>nye miljøer</u> over 6 lektioner. Vi mødes hver 14. dag på dette hold og på en ny
-            lokation til hver lektion.
+            i <u>nye miljøer</u> over 6 lektioner af 60 min. pr. lektion. Vi mødes hver 14. dag på
+            dette hold og på en ny lokation til hver lektion.
           </Text>
-
-          <br />
-          <TitleColor text="Jeg oplever i øjeblikket overvældende stor efterspørgsel på mine holdforløb." />
           <Text>
-            Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
-            ude i god tid.
-            <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart i år er
-            til <b>oktober</b>.
-            <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
-            til at
-            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
+            <b>Hvad kan du forvente at få med?</b>
+            <br />
+            Ved deltagelse på Miljø Cool-holdet får du:
+          </Text>
+          <TextList texts={CoolEnvironmentBenefits} />
+          <Text>
+            Miljø Cool-holdet udbydes til faste kursister og annonceres nødvendigvis ikke her på
+            siden.
+            <br />
+            Har du deltaget på Cool-hold tidligere hos mig og kunne tænke dig at være med på
+            miljøholdet? Så<StyledLink to="/kontakt"> send mig en mail</StyledLink> med dit ønske.
           </Text>
 
           {/* <Title text="April start:" />
