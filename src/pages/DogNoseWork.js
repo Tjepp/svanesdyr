@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -14,7 +14,7 @@ import {
   Row,
   TextList,
   StyledLink,
-  // DogCourseSimple,
+  DogCourseTableHead,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -106,32 +106,33 @@ const DogNoseWork = () => (
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 1095 kr." />
           <Text>i at få en søgeglad hund, som aktivt og selvstændigt kan bruge næsen!</Text>
-
           <br />
-          <TitleColor text="Hold startes op på efterspørgsel." />
+          {/* <TitleColor text="Hold startes op på efterspørgsel." />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text>
-          {/* <Title text="Oktober start:" />
+          </Text> */}
+
+          <Title text="Januar 2022 start:" />
           <Table>
-            <DogCourseSimple />
+            <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Negleklip B</Td>
-                <Td>Søndag</Td>
+                <Td>Nose Work Intro</Td>
+                <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>12.30 - 13.15</Td>
-                <Td>10. okt</Td>
-                <Td>19. dec</Td>
+                <Td>19.30 - 20.30</Td>
+                <Td>25. jan</Td>
+                <Td>19. april</Td>
+                <Td>Uge 12</Td>
                 <Td>
-                  <font color="#D60E0E">Venteliste</font>
+                  <font color="#D60E0E">2 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
 
           <br />
         </Column>

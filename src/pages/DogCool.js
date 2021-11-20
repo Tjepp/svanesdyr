@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // DogCourseTableHead,
+  DogCourseSimple,
   TextList,
   Image,
   StyledLink,
@@ -110,18 +110,6 @@ const DogCool = () => (
           </Text>
           <br />
 
-          <TitleColor text="Jeg oplever i øjeblikket overvældende stor efterspørgsel på mine holdforløb." />
-          <Text>
-            Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
-            ude i god tid.
-            <br />I øjeblikket er mine hold fyldt et par måneder på forhånd. Næste holdstart er i{' '}
-            <b>marts 2022</b>.
-            <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
-            til at
-            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-          </Text>
-          <br />
-
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 1095 kr." />
           <Text>
@@ -130,29 +118,55 @@ const DogCool = () => (
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
-          <Title text="Alle igangværende hold er desværre fyldt op." />
+          {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
-          {/* <Title text="Oktober start:" />
+          <Title text="Januar 2022 start:" />
           <Table>
-            <DogCourseTableHead />
+            <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Cool I</Td>
-                <Td>Mandag</Td>
+                <Td>Cool A</Td>
+                <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
                 <Td>18.30 - 19.15</Td>
-                <Td>11. okt</Td>
-                <Td>29. nov</Td>
-                <Td>Uge 42</Td>
+                <Td>18. jan</Td>
+                <Td>1. marts</Td>
+                <Td>
+                  <font color="#D60E0E">2 pladser</font>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td>Cool B</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>12.30 - 13.15</Td>
+                <Td>23. jan</Td>
+                <Td>6. marts</Td>
                 <Td>
                   <font color="#D60E0E">Venteliste</font>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
+
+          <br />
+          <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
+          <Text>
+            Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
+            ude i god tid.
+            <br />
+            Typisk fyldes mine hold et par måneder på forhånd. Næste holdstart er i{' '}
+            <b>marts 2022</b>.
+            <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
+            til at
+            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
+          </Text>
           <br />
 
           <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler />

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -13,10 +13,10 @@ import {
   Text,
   Image,
   BreadCrumps,
-  LectureTableHead,
+  // LectureTableHead,
   Row,
   StyledLink,
-  StyledExternal,
+  // StyledExternal,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { lectureFearAndAgression, lectureDogLanguage, lectureCalmDownFido } from '../assets';
@@ -76,9 +76,10 @@ const Lecture = () => (
       </Row>
       <Row>
         <Column widthPercentage="100%">
-          <Title text="Kommende foredrag og workshops om hundeadfærd 2021" showHorizontalRuler />
+          <Title text="Kommende foredrag og workshops om hundeadfærd 2022" showHorizontalRuler />
           <br />
-          <Table>
+          <TitleColor text="Foredrag for 2022 er under planlægning" />
+          {/* <Table>
             <LectureTableHead />
             <Tbody>
               <Tr>
@@ -98,7 +99,8 @@ const Lecture = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
+          <br />
         </Column>
       </Row>
       <Row>
