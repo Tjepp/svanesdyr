@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { withRouter } from 'react-router-dom';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
 import {
   Page,
   Banner,
@@ -14,13 +12,12 @@ import {
   Row,
   ContactForm,
   StyledExternal,
-  MapsInfoMarker,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 
-const SvanesDyrLocation = { lat: 55.980569, lng: 9.613036 };
-const SvanesDyrTrainingCourseLocation = { lat: 55.890248, lng: 9.813864 };
+// const SvanesDyrLocation = { lat: 55.980569, lng: 9.613036 };
+// const SvanesDyrTrainingCourseLocation = { lat: 55.890248, lng: 9.813864 };
 
 const Contact = () => (
   <Page>
@@ -90,7 +87,7 @@ const Contact = () => (
           <ContactForm />
         </Column>
       </Row>
-      <Row marginBottom="25px">
+      {/* <Row marginBottom="25px">
         <LoadScript id="script-loader" googleMapsApiKey={process.env.REACT_APP_GMAP_API_KEY}>
           <GoogleMap
             id="circle-example"
@@ -112,12 +109,12 @@ const Contact = () => (
             />
           </GoogleMap>
         </LoadScript>
-      </Row>
+      </Row> */}
     </Background>
   </Page>
 );
 
-export default withRouter(Contact);
+export default Contact;
 
 const Background = styled.div`
   background: #fff;

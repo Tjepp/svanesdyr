@@ -1,25 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
-import { withRouter } from 'react-router-dom';
-import ReactRouterPropTypes from '../ReactRouterPropTypes';
+import { useNavigate } from 'react-router-dom';
 
-const BreadCrumps = ({ currentPage, history }) => (
-  <div>
-    <Text>Du er her: </Text>
-    <LinkText
-      onClick={() => {
-        history.push('/');
-      }}
-    >
-      Forside
-    </LinkText>
-    <Text>
-      {'> '}
-      {currentPage}
-    </Text>
-  </div>
-);
+const BreadCrumps = ({ currentPage }) => {
+  const navigate = useNavigate();
+
+  return (
+    <div>
+      <Text>Du er her: </Text>
+      <LinkText
+        onClick={() => {
+          navigate('/');
+        }}
+      >
+        Forside
+      </LinkText>
+      <Text>
+        {'> '}
+        {currentPage}
+      </Text>
+    </div>
+  );
+};
 
 const Text = styled.div`
   display: inline-block;
@@ -40,13 +42,4 @@ const LinkText = styled.a`
   cursor: pointer;
 `;
 
-BreadCrumps.propTypes = {
-  currentPage: PropTypes.string.isRequired,
-  history: ReactRouterPropTypes.history,
-};
-
-BreadCrumps.defaultProps = {
-  history: ReactRouterPropTypes.history,
-};
-
-export default withRouter(BreadCrumps);
+export default BreadCrumps;

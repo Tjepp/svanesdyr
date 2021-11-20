@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
-import { withRouter } from 'react-router-dom';
+
 import {
   Page,
   Banner,
@@ -146,7 +146,7 @@ const Lecture = () => (
   </Page>
 );
 
-export default withRouter(Lecture);
+export default Lecture;
 
 const Background = styled.div`
   background: #fff;

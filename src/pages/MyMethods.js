@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { withRouter } from 'react-router-dom';
+
 import {
   Page,
   Banner,
@@ -151,7 +151,7 @@ const MyMethods = () => (
   </Page>
 );
 
-export default withRouter(MyMethods);
+export default MyMethods;
 
 const Background = styled.div`
   background: #fff;

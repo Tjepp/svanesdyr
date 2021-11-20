@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import LargeMenuItem from './LargeMenuItem';
 
 const LargeMenu = () => (

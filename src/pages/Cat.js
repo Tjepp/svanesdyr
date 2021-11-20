@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { withRouter } from 'react-router-dom';
 import {
   Page,
   Banner,
@@ -130,7 +129,7 @@ const Cat = () => (
   </Page>
 );
 
-export default withRouter(Cat);
+export default Cat;
 
 const Background = styled.div`
   background: #fff;

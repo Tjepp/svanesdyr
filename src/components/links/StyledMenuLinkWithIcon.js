@@ -12,8 +12,8 @@ const StyledMenuLinkWithIcon = ({ link, text }) => (
 );
 
 StyledMenuLinkWithIcon.propTypes = {
-  link: PropTypes.func.isRequired,
-  text: PropTypes.func.isRequired,
+  link: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 const StyledMenuLink = styled(Link)`

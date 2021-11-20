@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { withRouter } from 'react-router-dom';
+
 import {
   Landingpage,
   Column,
@@ -278,7 +278,7 @@ const DogConsultPuppy = () => (
   </Landingpage>
 );
 
-export default withRouter(DogConsultPuppy);
+export default DogConsultPuppy;
 
 const Background = styled.div`
   background: #fff;

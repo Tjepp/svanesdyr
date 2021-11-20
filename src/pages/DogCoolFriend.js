@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 // import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
-import { withRouter } from 'react-router-dom';
+
 import {
   Page,
   Banner,
@@ -163,7 +163,7 @@ const DogCoolFriend = () => (
   </Page>
 );
 
-export default withRouter(DogCoolFriend);
+export default DogCoolFriend;
 
 const Background = styled.div`
   background: #fff;

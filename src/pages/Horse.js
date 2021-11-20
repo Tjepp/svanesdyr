@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { withRouter } from 'react-router-dom';
+
 import {
   Page,
   Banner,
@@ -121,7 +121,7 @@ const Horse = () => (
   </Page>
 );
 
-export default withRouter(Horse);
+export default Horse;
 
 const Background = styled.div`
   background: #fff;

@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faEnvelope,
@@ -39,6 +40,7 @@ import {
   Lecture,
   MyMethods,
 } from './pages';
+import { ScrollToTop } from './components';
 
 library.add(
   faEnvelope,
@@ -56,38 +58,31 @@ library.add(
 );
 
 const App = () => (
-  <Router>
-    <Switch>
-      <Route path="/" exact component={Home} />
-      <Route path="/dyreadfaerdskonsulent" exact component={About} />
-      <Route path="/kattetraening" exact component={Cat} />
-      <Route path="/kontakt" exact component={Contact} />
-      <Route path="/hundetraening" exact component={Dog} />
-      <Route path="/hvalpevisit" exact component={DogConsultPuppy} />
-      <Route path="/hundehold" exact component={DogCourse} />
-      <Route
-        path="/hundehold"
-        render={({ match: { url } }) => (
-          <>
-            <Route path={`${url}/`} component={DogCourse} exact />
-            <Route path={`${url}/hvalpehold`} component={DogPuppy} />
-            <Route path={`${url}/hvalpfortsat`} component={DogContinued} />
-            <Route path={`${url}/coolhold`} component={DogCool} />
-            <Route path={`${url}/fortsatcool`} component={DogCoolContinued} />
-            <Route path={`${url}/venligvovse`} component={DogCoolFriend} />
-            <Route path={`${url}/indkald`} component={DogRecall} />
-            <Route path={`${url}/negleklipkursus`} component={DogNailClip} />
-            <Route path={`${url}/sommerhund`} component={DogSummer} />
-            <Route path={`${url}/empowerment`} component={DogEmpower} />
-            <Route path={`${url}/noseworkintro`} component={DogNoseWork} />
-          </>
-        )}
-      />
-      <Route path="/hestetraening" exact component={Horse} />
-      <Route path="/foredrag" exact component={Lecture} />
-      <Route path="/minemetoder" exact component={MyMethods} />
-    </Switch>
-  </Router>
+  <BrowserRouter>
+    <ScrollToTop />
+    <Routes>
+      <Route path="/" exact element={<Home />} />
+      <Route path="/dyreadfaerdskonsulent" exact element={<About />} />
+      <Route path="/kattetraening" exact element={<Cat />} />
+      <Route path="/kontakt" exact element={<Contact />} />
+      <Route path="/hundetraening" exact element={<Dog />} />
+      <Route path="/hvalpevisit" exact element={<DogConsultPuppy />} />
+      <Route path="/hundehold" element={<DogCourse />}></Route>
+      <Route path="/hundehold/hvalpehold" element={<DogPuppy />} />
+      <Route path="/hundehold/hvalpfortsat" element={<DogContinued />} />
+      <Route path="/hundehold/coolhold" element={<DogCool />} />
+      <Route path="/hundehold/fortsatcool" element={<DogCoolContinued />} />
+      <Route path="/hundehold/venligvovse" element={<DogCoolFriend />} />
+      <Route path="/hundehold/indkald" element={<DogRecall />} />
+      <Route path="/hundehold/negleklipkursus" element={<DogNailClip />} />
+      <Route path="/hundehold/sommerhund" element={<DogSummer />} />
+      <Route path="/hundehold/empowerment" element={<DogEmpower />} />
+      <Route path="/hundehold/noseworkintro" element={<DogNoseWork />} />
+      <Route path="/hestetraening" exact element={<Horse />} />
+      <Route path="/foredrag" exact element={<Lecture />} />
+      <Route path="/minemetoder" exact element={<MyMethods />} />
+    </Routes>
+  </BrowserRouter>
 );
 
 export default App;

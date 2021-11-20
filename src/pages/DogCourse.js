@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { withRouter } from 'react-router-dom';
+
 import {
   Page,
   Banner,
@@ -128,7 +128,7 @@ const DogCourse = () => (
   </Page>
 );
 
-export default withRouter(DogCourse);
+export default DogCourse;
 
 const Background = styled.div`
   background: #fff;
