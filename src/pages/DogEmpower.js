@@ -111,7 +111,7 @@ const DogEmpower = () => (
                 <Td>17. jan</Td>
                 <Td>28. feb</Td>
                 <Td>
-                  <font color="#D60E0E">2 pladser</font>
+                  <font color="#D60E0E">3 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
