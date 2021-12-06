@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseSimple,
+  // DogCourseSimple,
   TextList,
   Image,
   StyledLink,
@@ -96,7 +96,12 @@ const DogEmpower = () => (
           <br />
           {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
-          <Title text="Januar 2022 start:" />
+          <TitleColor text="Hold startes op på efterspørgsel." />
+          <Text>
+            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
+          </Text>
+
+          {/* <Title text="Januar 2022 start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -115,7 +120,7 @@ const DogEmpower = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
 
           <br />
           <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />

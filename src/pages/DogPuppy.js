@@ -120,6 +120,20 @@ const DogPuppy = () => {
               <Tbody>
                 <Tr>
                   <Td>Hvalp A</Td>
+                  <Td>Mandag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>18.30 - 19.15</Td>
+                  <Td>17. jan</Td>
+                  <Td>28. februar</Td>
+                  <Td>
+                    <font color="#D60E0E">4 pladser</font>
+                  </Td>
+                </Tr>
+                <Tr>
+                  <Td>Hvalp B</Td>
                   <Td>Tirsdag</Td>
                   <Td>8700</Td>
                   <Td>
