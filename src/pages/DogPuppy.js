@@ -118,7 +118,7 @@ const DogPuppy = () => {
             <Table>
               <DogCourseSimple />
               <Tbody>
-                <Tr>
+                {/* <Tr>
                   <Td>Hvalp A</Td>
                   <Td>Mandag</Td>
                   <Td>8700</Td>
@@ -131,7 +131,7 @@ const DogPuppy = () => {
                   <Td>
                     <font color="#D60E0E">4 pladser</font>
                   </Td>
-                </Tr>
+                </Tr> */}
                 <Tr>
                   <Td>Hvalp B</Td>
                   <Td>Tirsdag</Td>
