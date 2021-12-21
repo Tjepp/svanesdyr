@@ -11,6 +11,7 @@ import {
   TestiPupFour,
   TestiPupFive,
   TestiPupSix,
+  TestiPupSeven,
 } from '../../assets';
 
 const DogPuppyTestimonials = () => (
@@ -120,6 +121,23 @@ const DogPuppyTestimonials = () => (
           familie/hygge hund. Men der skal helt klart nydes flere hold og mere læring.
         </Text>
         <Text>Merete og Alfred</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiPupSeven} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Jeg fik øjnene op for hvor simpelt det kan være at træne, at det ikke behøves at være kompliceret” " />
+        <Text>
+          Inden vi startede frygtede jeg at der ville være for mange komplicerede opgaver og at vi
+          ikke ville kunne finde ud af det... Frygten er blevet bragt til skamme. Det var let og
+          forståeligt, og jeg fik en masse nyt læringsmateriale.
+        </Text>
+        <Text>
+          Holdet var super dejlig intimt, vi har været så få, så der har været god opmærksomhed på
+          den enkelte. Jeg har fået en gladere hund og en større forståelse af min hund.
+        </Text>
+        <Text>Sandra og Pixie</Text>
       </TextContainer>
     </FlexedRow>
   </Carousel>

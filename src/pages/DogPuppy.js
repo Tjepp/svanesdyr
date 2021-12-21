@@ -133,7 +133,7 @@ const DogPuppy = () => {
                   </Td>
                 </Tr> */}
                 <Tr>
-                  <Td>Hvalp B</Td>
+                  <Td>Hvalp A</Td>
                   <Td>Tirsdag</Td>
                   <Td>8700</Td>
                   <Td>
