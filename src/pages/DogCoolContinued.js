@@ -132,7 +132,7 @@ const DogCoolContinued = () => (
             </Tbody>
           </Table>
 
-          <br />
+          {/* <br />
           <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
           <Text>
             Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
@@ -143,7 +143,7 @@ const DogCoolContinued = () => (
             <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-          </Text>
+          </Text> */}
           <br />
 
           <Title text="Helt-Cool Miljøhold" showHorizontalRuler />

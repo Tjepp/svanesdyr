@@ -118,20 +118,6 @@ const DogPuppy = () => {
             <Table>
               <DogCourseSimple />
               <Tbody>
-                {/* <Tr>
-                  <Td>Hvalp A</Td>
-                  <Td>Mandag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>18.30 - 19.15</Td>
-                  <Td>17. jan</Td>
-                  <Td>28. februar</Td>
-                  <Td>
-                    <font color="#D60E0E">4 pladser</font>
-                  </Td>
-                </Tr> */}
                 <Tr>
                   <Td>Hvalp A</Td>
                   <Td>Tirsdag</Td>
@@ -146,11 +132,25 @@ const DogPuppy = () => {
                     <font color="#D60E0E">Venteliste</font>
                   </Td>
                 </Tr>
+                <Tr>
+                  <Td>Hvalp B</Td>
+                  <Td>Mandag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>18.30 - 19.15</Td>
+                  <Td>24. jan</Td>
+                  <Td>7. marts</Td>
+                  <Td>
+                    <font color="#D60E0E">3 pladser</font>
+                  </Td>
+                </Tr>
               </Tbody>
             </Table>
 
             {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
-            <br />
+            {/* <br />
             <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
             <Text>
               Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
@@ -161,7 +161,7 @@ const DogPuppy = () => {
               <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du
               velkommen til at
               <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-            </Text>
+            </Text> */}
             <br />
 
             <Title

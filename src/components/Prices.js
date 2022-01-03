@@ -21,9 +21,9 @@ const Prices = () => (
     <Text>
       <b>Prisen inkluderer</b>
       <br />
-      Fri opfølgning på telefon eller mail.
+      Fri opfølgning på telefon eller mail i 6 mdr.
       <br />
-      Skriftlig guide på gennemgåede tiltag tilsendes.
+      Skriftlig guide på tiltag tilsendes efter ønske.
     </Text>
     <Text>
       <b>Telefon samtaler</b>
@@ -33,7 +33,7 @@ const Prices = () => (
     <Text>
       <b>Kørsel</b>
       <br />
-      Efter statens takster 3,44 kr/km begge veje.
+      Efter statens takster 3,51 kr/km begge veje.
     </Text>
   </>
 );
