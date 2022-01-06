@@ -9,11 +9,11 @@ const DogCourseTheory = () => (
       <Th>Sted</Th>
       <Th>Tilmelding</Th>
       <Th>Tidspunkt</Th>
-      <Th>Dato start</Th>
-      <Th>Dato slut</Th>
-      <Th>Teori</Th>
+      <Th>Privattime</Th>
+      <Th>Holdstart</Th>
+      <Th>Holdslut</Th>
       <Th>Ingen træning</Th>
-      <Th>Holdstatus</Th>
+      <Th>Status</Th>
     </Tr>
   </Thead>
 );

@@ -17,7 +17,7 @@ import {
   Image,
   StyledLink,
   DogCourseSimple,
-  // DogCourseTableHead,
+  DogCourseTableHead,
   // DogCourseYearShift
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -120,7 +120,7 @@ const DogContinued = () => (
           <br />
           {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
-          <Title text="Januar 2022 start:" />
+          <Title text="Januar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -155,8 +155,51 @@ const DogContinued = () => (
             </Tbody>
           </Table>
 
+          <Title text="Marts start:" />
+          <Table>
+            <DogCourseTableHead />
+            <Tbody>
+              <Tr>
+                <Td>Fortsætter C</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>14. marts</Td>
+                <Td>9. maj</Td>
+                <Td>Påske 11. og 18 april</Td>
+                <Td>
+                  <font color="#D60E0E">5 pladser</font>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="Maj start:" />
+          <Table>
+            <DogCourseSimple />
+            <Tbody>
+              <Tr>
+                <Td>Fortsætter C</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>24. maj</Td>
+                <Td>5. juli</Td>
+                <Td>
+                  <font color="#D60E0E">5 pladser</font>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
           {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
-          <br />
+          {/* <br />
           <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
           <Text>
             Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
@@ -167,7 +210,7 @@ const DogContinued = () => (
             <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-          </Text>
+          </Text> */}
           <br />
 
           {/* <Title text="Fortsætterhold Trin2+" showHorizontalRuler />

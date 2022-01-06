@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  // DogCourseSimple,
+  DogCourseSimple,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -104,10 +104,10 @@ const DogNailClip = () => (
             Ved deltagelse på Negleklipkurset får du:
           </Text>
           <TextList texts={NailClipBenefits} />
-          <Text>
+          {/* <Text>
             Bemærk at vi mødes <b>hver 14. dag</b> på dette hold, så der er god tid til at få trænet
             mellem hver lektion og nå i mål til afslutning.
-          </Text>
+          </Text> */}
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
@@ -116,33 +116,35 @@ const DogNailClip = () => (
             i at kunne pleje din hunds negle <u>selv</u> og uden bekymring, da det bliver
             kvalitetstid fremfor overgreb.
           </Text>
-
+          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
+
+          {/* <br />
           <TitleColor text="Hold startes op på efterspørgsel." />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text>
+          </Text> */}
 
-          {/* <Title text="Oktober start:" />
+          <Title text="Maj start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Negleklip B</Td>
+                <Td>Negleklip A</Td>
                 <Td>Søndag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>12.30 - 13.15</Td>
-                <Td>10. okt</Td>
-                <Td>19. dec</Td>
+                <Td>11.30 - 12.15</Td>
+                <Td>15. maj</Td>
+                <Td>10. juli</Td>
                 <Td>
-                  <font color="#D60E0E">Venteliste</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
 
           <br />
 

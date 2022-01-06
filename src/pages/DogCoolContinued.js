@@ -14,6 +14,7 @@ import {
   BreadCrumps,
   Row,
   DogCourseSimple,
+  DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -111,7 +112,7 @@ const DogCoolContinued = () => (
           <br />
           {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
-          <Title text="Januar 2022 start:" />
+          <Title text="Januar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -127,6 +128,28 @@ const DogCoolContinued = () => (
                 <Td>28. feb</Td>
                 <Td>
                   <font color="#D60E0E">*Venteliste*</font>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="Marts start:" />
+          <Table>
+            <DogCourseTableHead />
+            <Tbody>
+              <Tr>
+                <Td>Fortsat Cool A</Td>
+                <Td>Tirsdag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>18.30 - 19.15</Td>
+                <Td>8. marts</Td>
+                <Td>3. maj</Td>
+                <Td>22. marts + 12. april</Td>
+                <Td>
+                  <font color="#D60E0E">5 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
@@ -171,28 +194,29 @@ const DogCoolContinued = () => (
             Har du deltaget på Cool-hold tidligere hos mig og kunne tænke dig at være med på
             miljøholdet? Så<StyledLink to="/kontakt"> send mig en mail</StyledLink> med dit ønske.
           </Text>
+          <br />
 
-          {/* <Title text="April start:" />
+          <Title text="Marts start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Miljø-Cool B</Td>
-                <Td>Søndag</Td>
+                <Td>MiljøCool B</Td>
+                <Td>Mandag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>13.30 - 14.15</Td>
-                <Td>11. april</Td>
-                <Td>20. juni</Td>
-                <Td>Ulige uger</Td>
+                <Td>20.00 - 21.00</Td>
+                <Td>7. marts</Td>
+                <Td>30. maj</Td>
+                <Td>18. april</Td>
                 <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
+                  <font color="#D60E0E">Venteliste</font>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
 
           <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />

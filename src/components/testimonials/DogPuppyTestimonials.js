@@ -53,7 +53,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupThree} height="300px" />
+      <Image src={TestiPupThree} width="200px" height="300px" />
       <TextContainer>
         <TitleColor text=" ”Det har været den bedste investering i samarbejdet med vores hund” " />
         <Text>

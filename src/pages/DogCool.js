@@ -14,6 +14,7 @@ import {
   BreadCrumps,
   Row,
   DogCourseSimple,
+  DogCourseTheory,
   TextList,
   Image,
   StyledLink,
@@ -34,9 +35,10 @@ const CoolProgram = [
 ];
 
 const CoolBenefits = [
-  'Personlig sparring omkring din hund og jeres hverdag sammen',
+  '30 minutters privatlektion inkluderet, med fokus på din hund og dine behov',
+  'Personlig sparring omkring din hund og jeres hverdag sammen til timerne',
   'Gode råd og tips til optimal aktivering af hunden',
-  'Hele 7 ugers træning med ugentligt møde',
+  'Hele 6 ugers træning med ugentligt holdmøde',
   'Max 3 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -94,8 +96,14 @@ const DogCool = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 7 uger sammen vil vi komme igennem følgende:
+            <br />
+            Jeg værdsætter tid til at lære dig og din hund at kende og høre om dine ønsker til jeres
+            fælles hverdag. Derfor er første mødegang en privat session varende op til 30 minutter,
+            hvor det kun er dig og din hund på banen. Privatlektionen giver dig mulighed for at få
+            svar på dine spørgsmål og jeg kan komme med konkret feedback til dig og din hund inden i
+            starter i holdsammenhæng.
           </Text>
+          <Text>I løbet af vores 7 uger sammen vil vi komme igennem følgende:</Text>
           <TextList texts={CoolProgram} />
           <Text>
             <b>Hvad kan du forvente at få med?</b>
@@ -111,7 +119,7 @@ const DogCool = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr." />
+          <TitleColor text="Din investering: 1295 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture og få gæster på besøg, med en hund der er helt-cool
             omkring andre.
@@ -120,7 +128,7 @@ const DogCool = () => (
           <br />
           {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
-          <Title text="Januar 2022 start:" />
+          <Title text="Januar start:" />
           <Table>
             <DogCourseSimple />
             <Tbody>
@@ -155,7 +163,53 @@ const DogCool = () => (
             </Tbody>
           </Table>
 
-          <br />
+          <Title text="Marts start:" />
+          <Table>
+            <DogCourseTheory />
+            <Tbody>
+              <Tr>
+                <Td>Cool C</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>12.30 - 13.15</Td>
+                <Td>13. marts</Td>
+                <Td>20. marts</Td>
+                <Td>1. maj</Td>
+                <Td>17. april</Td>
+                <Td>
+                  <font color="#D60E0E">Venteliste</font>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          <Title text="Maj start:" />
+          <Table>
+            <DogCourseTheory />
+            <Tbody>
+              <Tr>
+                <Td>Cool D</Td>
+                <Td>Søndag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>12.30 - 13.15</Td>
+                <Td>8. maj</Td>
+                <Td>15. maj</Td>
+                <Td>10. juli</Td>
+                <Td>5.og 26. juni + 3.juli</Td>
+                <Td>
+                  <font color="#D60E0E">4 pladser</font>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table>
+
+          {/* <br />
           <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
           <Text>
             Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
@@ -166,7 +220,7 @@ const DogCool = () => (
             <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-          </Text>
+          </Text> */}
           <br />
 
           <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler />

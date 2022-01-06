@@ -16,6 +16,7 @@ import {
   TextList,
   Image,
   DogCourseSimple,
+  DogCourseTableHead,
   StyledLink,
   DogPuppyTestimonials,
 } from '../components';
@@ -114,7 +115,7 @@ const DogPuppy = () => {
             <br />
             {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
-            <Title text="Januar 2022 start:" />
+            <Title text="Januar start:" />
             <Table>
               <DogCourseSimple />
               <Tbody>
@@ -143,7 +144,81 @@ const DogPuppy = () => {
                   <Td>24. jan</Td>
                   <Td>7. marts</Td>
                   <Td>
-                    <font color="#D60E0E">2 pladser</font>
+                    <font color="#D60E0E">1 plads</font>
+                  </Td>
+                </Tr>
+              </Tbody>
+            </Table>
+
+            <Title text="Marts start:" />
+            <Table>
+              <DogCourseTableHead />
+              <Tbody>
+                <Tr>
+                  <Td>Hvalp C</Td>
+                  <Td>Mandag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>17.30 - 18.15</Td>
+                  <Td>7. marts</Td>
+                  <Td>2. maj</Td>
+                  <Td>Påske 11. og 18 april</Td>
+                  <Td>
+                    <font color="#D60E0E">4 pladser</font>
+                  </Td>
+                </Tr>
+                <Tr>
+                  <Td>Hvalp D</Td>
+                  <Td>Tirsdag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>17.30 - 18.15</Td>
+                  <Td>8. marts</Td>
+                  <Td>3. maj</Td>
+                  <Td>22. marts + 12. april</Td>
+                  <Td>
+                    <font color="#D60E0E">4 pladser</font>
+                  </Td>
+                </Tr>
+              </Tbody>
+            </Table>
+
+            <Title text="Maj start:" />
+            <Table>
+              <DogCourseTableHead />
+              <Tbody>
+                <Tr>
+                  <Td>Hvalp E</Td>
+                  <Td>Mandag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>18.30 - 19.15</Td>
+                  <Td>16. maj</Td>
+                  <Td>4. juli</Td>
+                  <Td>Pinse 6. juni</Td>
+                  <Td>
+                    <font color="#D60E0E">4 pladser</font>
+                  </Td>
+                </Tr>
+                <Tr>
+                  <Td>Hvalp F</Td>
+                  <Td>Tirsdag</Td>
+                  <Td>8700</Td>
+                  <Td>
+                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  </Td>
+                  <Td>17.30 - 18.15</Td>
+                  <Td>24. maj</Td>
+                  <Td>5. juli</Td>
+                  <Td>--</Td>
+                  <Td>
+                    <font color="#D60E0E">4 pladser</font>
                   </Td>
                 </Tr>
               </Tbody>
