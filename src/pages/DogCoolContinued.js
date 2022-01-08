@@ -138,7 +138,7 @@ const DogCoolContinued = () => (
             <DogCourseTableHead />
             <Tbody>
               <Tr>
-                <Td>Fortsat Cool A</Td>
+                <Td>Fortsat Cool B</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td>

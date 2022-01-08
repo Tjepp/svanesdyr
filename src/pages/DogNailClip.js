@@ -43,7 +43,7 @@ const NailClipProgram = [
 
 const NailClipBenefits = [
   'Personlig sparring omkring din hund og jeres samarbejde',
-  'Hele 6 ugers træning med mødegang hveranden uge',
+  'Hele 6 ugers træning',
   'Max 3 andre holdkammerater, så der er god tid til dig og din hund',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
