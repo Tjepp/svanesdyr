@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple,
+  DogCourseTableHead,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -127,7 +127,7 @@ const DogNailClip = () => (
 
           <Title text="Maj start:" />
           <Table>
-            <DogCourseSimple />
+            <DogCourseTableHead />
             <Tbody>
               <Tr>
                 <Td>Negleklip A</Td>
@@ -139,6 +139,7 @@ const DogNailClip = () => (
                 <Td>11.30 - 12.15</Td>
                 <Td>15. maj</Td>
                 <Td>10. juli</Td>
+                <Td>29. maj + 26. juni + 3.juli</Td>
                 <Td>
                   <font color="#D60E0E">1 plads</font>
                 </Td>
