@@ -144,7 +144,7 @@ const DogCoolContinued = () => (
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>18.30 - 19.15</Td>
+                <Td>17.30 - 18.15</Td>
                 <Td>8. marts</Td>
                 <Td>3. maj</Td>
                 <Td>22. marts + 12. april</Td>
