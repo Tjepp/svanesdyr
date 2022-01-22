@@ -15,7 +15,15 @@ import {
 } from '../../assets';
 
 const DogPuppyTestimonials = () => (
-  <Carousel showThumbs={false} showStatus={false} showIndicators={false} autoPlay infiniteLoop>
+  <Carousel
+    showThumbs={false}
+    showStatus={false}
+    showIndicators={false}
+    autoPlay
+    infiniteLoop
+    preventMovementUntilSwipeScrollTolerance
+    swipeScrollTolerance={30}
+  >
     <FlexedRow>
       <Image src={TestiPupOne} width="200px" height="300px" />
       <TextContainer>
