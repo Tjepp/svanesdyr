@@ -130,21 +130,6 @@ const DogEmpower = () => (
             <Tbody>
               <Tr>
                 <Td>Fit 2A</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>24. marts</Td>
-                <Td>4. juli</Td>
-                <Td>11. april + 6. juni</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Fit 2B</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td>
