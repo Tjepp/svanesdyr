@@ -133,28 +133,6 @@ const DogCoolContinued = () => (
             </Tbody>
           </Table>
 
-          <Title text="Marts start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Fortsat Cool B</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>8. marts</Td>
-                <Td>3. maj</Td>
-                <Td>22. marts + 12. april</Td>
-                <Td>
-                  <font color="#D60E0E">4 pladser</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
           {/* <br />
           <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
           <Text>
@@ -212,7 +190,7 @@ const DogCoolContinued = () => (
                 <Td>30. maj</Td>
                 <Td>18. april</Td>
                 <Td>
-                  <font color="#D60E0E">1 plads</font>
+                  <font color="#D60E0E">Venteliste</font>
                 </Td>
               </Tr>
             </Tbody>

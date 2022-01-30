@@ -161,12 +161,27 @@ const DogContinued = () => (
             <Tbody>
               <Tr>
                 <Td>Fortsætter C</Td>
-                <Td>Mandag</Td>
+                <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
                 <Td>17.30 - 18.15</Td>
+                <Td>8. marts</Td>
+                <Td>3. maj</Td>
+                <Td>Påske 11. og 18 april</Td>
+                <Td>
+                  <font color="#D60E0E">5 pladser</font>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td>Fortsætter D</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>18.30 - 19.15</Td>
                 <Td>14. marts</Td>
                 <Td>9. maj</Td>
                 <Td>Påske 11. og 18 april</Td>
