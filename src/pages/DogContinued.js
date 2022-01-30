@@ -197,7 +197,7 @@ const DogContinued = () => (
             <DogCourseSimple />
             <Tbody>
               <Tr>
-                <Td>Fortsætter D</Td>
+                <Td>Fortsætter E</Td>
                 <Td>Tirsdag</Td>
                 <Td>8700</Td>
                 <Td>

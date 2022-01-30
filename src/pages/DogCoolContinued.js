@@ -127,7 +127,7 @@ const DogCoolContinued = () => (
                 <Td>17. jan</Td>
                 <Td>28. feb</Td>
                 <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
+                  <font color="#D60E0E">Venteliste</font>
                 </Td>
               </Tr>
             </Tbody>
