@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -13,10 +13,10 @@ import {
   Text,
   Image,
   BreadCrumps,
-  // LectureTableHead,
+  LectureTableHead,
   Row,
   StyledLink,
-  // StyledExternal,
+  StyledExternal,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { lectureFearAndAgression, lectureDogLanguage, lectureCalmDownFido } from '../assets';
@@ -70,7 +70,7 @@ const Lecture = () => (
           <Text>
             <b>Kørsel</b>
             <br />
-            Tillæg efter statens takster 3,44 kr/km begge veje.
+            Tillæg efter statens takster.
           </Text>
         </Column>
       </Row>
@@ -78,28 +78,32 @@ const Lecture = () => (
         <Column widthPercentage="100%">
           <Title text="Kommende foredrag og workshops om hundeadfærd 2022" showHorizontalRuler />
           <br />
-          <TitleColor text="Foredrag for 2022 er under planlægning" />
-          {/* <Table>
+          {/* <TitleColor text="Foredrag for 2022 er under planlægning" /> */}
+          <Table>
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>18.11.2021</Td>
-                <Td>Hundens ABC - Sådan ændrer du din hunds adfærd</Td>
+                <Td>16. marts</Td>
+                <Td>Hundens Sprog - Hvad fortæller den dig?</Td>
                 <Td>
-                  <StyledExternal href="https://fb.me/e/16E66FtYA">Klik her</StyledExternal>
+                  <StyledExternal href="https://www.facebook.com/events/334500228594898">
+                    Klik her
+                  </StyledExternal>
                 </Td>
-                <Td>Ring Søpark 25, 8740</Td>
-                <Td>18.30 - 21.30</Td>
+                <Td>Bredgade 15, 8740</Td>
+                <Td>19.00 - 21.00</Td>
                 <Td>250 kr. </Td>
                 <Td>
                   <font color="#D60E0E">Ledige pladser</font>
                 </Td>
                 <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                  <StyledExternal href="https://www.facebook.com/event8740">
+                    Kontakt arrangør Rikke
+                  </StyledExternal>
                 </Td>
               </Tr>
             </Tbody>
-          </Table> */}
+          </Table>
           <br />
         </Column>
       </Row>
