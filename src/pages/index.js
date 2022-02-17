@@ -20,5 +20,6 @@ export { default as Home } from './Home';
 export { default as Horse } from './Horse';
 export { default as Lecture } from './Lecture';
 export { default as OnlineSoldOut } from './OnlineSoldOut';
+export { default as OnlineThankPage } from './OnlineThankPage';
 export { default as OnlineWalk } from './OnlineWalk';
 export { default as MyMethods } from './MyMethods';

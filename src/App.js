@@ -42,6 +42,7 @@ import {
   Lecture,
   MyMethods,
   OnlineSoldOut,
+  OnlineThankPage,
   OnlineWalk,
 } from './pages';
 import { ScrollToTop } from './components';
@@ -87,6 +88,7 @@ const App = () => (
       <Route path="/privatlivspolitik" element={<LawPrivate />} />
       <Route path="/foredrag" exact element={<Lecture />} />
       <Route path="/udsolgt" exact element={<OnlineSoldOut />} />
+      <Route path="/tusindtak" exact element={<OnlineThankPage />} />
       <Route path="/gaatur" exact element={<OnlineWalk />} />
       <Route path="/minemetoder" exact element={<MyMethods />} />
     </Routes>
