@@ -196,7 +196,7 @@ const OnlineWalk = () => (
           </TextCenter>
           <TextCenter>
             Føler du ikke at kursets indhold passer dig og din hund, så kan du få pengene retur
-            indenfor de første 14 dage. Jeg ønsker dig succes og fuld tilfredshed!
+            indenfor de første 7 dage. Jeg ønsker dig succes og fuld tilfredshed!
           </TextCenter>
         </Column>
       </Row>

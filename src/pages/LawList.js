@@ -80,9 +80,9 @@ const LawList = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Fortrydelsesret" showHorizontalRuler />
           <TextCenter>
-            Som hovedregel har du fortrydelsesret i 14 dage efter købet, hvis du ikke føler kursets
+            Som hovedregel har du fortrydelsesret i 7 dage efter købet, hvis du ikke føler kursets
             indhold matcher dig og din hund. Perioden regnes fra den dag du modtager adgang til
-            kurset. Fortrydelsen skal anmeldes til virksomheden senest 14 dage efter købet. Derefter
+            kurset. Fortrydelsen skal anmeldes til virksomheden senest 7 dage efter købet. Derefter
             ydes der ingen returret. Tilbagebetaling er mulig, såfremt du kontakter os indenfor
             tidsfristen.
           </TextCenter>
