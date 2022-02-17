@@ -25,7 +25,7 @@ const LawPrivate = () => (
           <TextCenter>
             Svanes Dyr v/Sabrina Svane er dataansvarlig for behandlingen af de personoplysninger,
             som jeg behandler om mine kunder og samarbejdspartnere. Du finder mine
-            kontaktoplysninger nedenfor (Herefter nævnt som virksomheden.).
+            kontaktoplysninger nedenfor.
             <br />
             <br />
             Svanes Dyr
@@ -48,8 +48,9 @@ const LawPrivate = () => (
           <TitleCenter text="Behandlingsaktiviteter " showHorizontalRuler />
           <TextCenter>
             <b>Besøg på hjemmeside</b> <br />
-            Når du besøger vores hjemmeside, så anvender vi cookies for at hjemmesiden kan fungere,
-            hvilket du kan læse mere om i vores cookiepolitik.
+            Når du besøger vores hjemmeside, så anvender vi cookies for at hjemmesiden kan fungere.
+            Disse måler blot antal klik og besøgstidens varighed på hjemmesiden og samler ikke nogle
+            personlige oplysninger ind om dig.
           </TextCenter>
           <TextCenter>
             <b>Kommunikation med kunder</b> <br />
