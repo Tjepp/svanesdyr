@@ -9,7 +9,7 @@ const Education2019 = () => (
     <Text>
       <b>Practical Puppy Training Instructors Course</b>
       <br />
-      Etferuddannelse hos Chirag Patel;
+      Efteruddannelse hos Chirag Patel;
       <br />
       <i>
         "Learning how to help puppies develop socialisation skills and teach their caregivers how to

@@ -37,8 +37,11 @@ import {
   DogNoseWork,
   Home,
   Horse,
+  LawList,
+  LawPrivate,
   Lecture,
   MyMethods,
+  OnlineWalk,
 } from './pages';
 import { ScrollToTop } from './components';
 
@@ -79,7 +82,10 @@ const App = () => (
       <Route path="/hundehold/empowerment" element={<DogEmpower />} />
       <Route path="/hundehold/noseworkintro" element={<DogNoseWork />} />
       <Route path="/hestetraening" exact element={<Horse />} />
+      <Route path="/onlinehandelsbetingelser" element={<LawList />} />
+      <Route path="/privatlivspolitik" element={<LawPrivate />} />
       <Route path="/foredrag" exact element={<Lecture />} />
+      <Route path="/gaatur" exact element={<OnlineWalk />} />
       <Route path="/minemetoder" exact element={<MyMethods />} />
     </Routes>
   </BrowserRouter>
