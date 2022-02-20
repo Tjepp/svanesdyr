@@ -15,7 +15,7 @@ import {
   Row,
   TextList,
   Image,
-  DogCourseSimple,
+  // DogCourseSimple,
   DogCourseTableHead,
   StyledLink,
   DogPuppyTestimonials,
@@ -114,41 +114,6 @@ const DogPuppy = () => {
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
             <br />
             {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
-
-            <Title text="Januar start:" />
-            <Table>
-              <DogCourseSimple />
-              <Tbody>
-                <Tr>
-                  <Td>Hvalp A</Td>
-                  <Td>Tirsdag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>17.30 - 18.15</Td>
-                  <Td>18. jan</Td>
-                  <Td>1. marts</Td>
-                  <Td>
-                    <font color="#D60E0E">Venteliste</font>
-                  </Td>
-                </Tr>
-                <Tr>
-                  <Td>Hvalp B</Td>
-                  <Td>Mandag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>18.30 - 19.15</Td>
-                  <Td>24. jan</Td>
-                  <Td>7. marts</Td>
-                  <Td>
-                    <font color="#D60E0E">Venteliste</font>
-                  </Td>
-                </Tr>
-              </Tbody>
-            </Table>
 
             <Title text="Marts start:" />
             <Table>

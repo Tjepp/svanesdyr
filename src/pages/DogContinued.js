@@ -120,41 +120,6 @@ const DogContinued = () => (
           <br />
           {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
-          <Title text="Januar start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter A</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>17. jan</Td>
-                <Td>28. feb</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
-              <Tr>
-                <Td>Fortsætter B</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>11.30 - 12.15</Td>
-                <Td>23. jan</Td>
-                <Td>6. marts</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
           <Title text="Marts start:" />
           <Table>
             <DogCourseTableHead />
