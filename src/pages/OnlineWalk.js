@@ -79,7 +79,7 @@ const OnlineWalk = () => (
 
       <ButtonOnline
         text="Jeg er klar på at få gåturen jeg drømmer om!"
-        onClick={() => window.open('https://ezme.io/c/x1S/zPtg', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/z16r', '_blank')}
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -200,19 +200,19 @@ const OnlineWalk = () => (
           </TextCenter>
           <TextCenter>
             Føler du ikke at kursets indhold passer dig og din hund, så kan du få pengene retur
-            indenfor de første 14 dage.
+            indenfor de første 7 dage efter kursets start den 11.03.2022.
           </TextCenter>
         </Column>
       </Row>
 
       <ButtonOnline
         text="Ja tak! Jeg vil gerne have adgang til onlinekurset nu"
-        onClick={() => window.open('https://ezme.io/c/x1S/zPtg', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/z16r', '_blank')}
       ></ButtonOnline>
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TextCenter>Der lukkes for salget til midnat den 10.03.2022</TextCenter>
+          <TextCenter>Der lukkes for salget den 10.03.2022 kl. 18.00</TextCenter>
         </Column>
       </Row>
 
@@ -221,38 +221,32 @@ const OnlineWalk = () => (
           <LPHeadlineWalk text="Sådan foregår kurset" />
           <br />
           <br />
+          <TitleCenter text="Lukket facebookgruppe, videoguides og LIVE spørgetimer med din underviser!" />
           <TextCenter>
-            Du får tilsendt en mail straks efter køb, der giver dig adgang til en online side, hvor
-            kursets lektioner ligger klar til dig. Kursets første lektion får du adgang til straks
-            efter køb. De resterende lektioner kommer 7 dage efter, så du kan nå at få succes med
-            første uges materiale inden du skal arbejde videre.
-          </TextCenter>
-          <TextCenter>
-            Alle lektioner har video undervisning, der er optaget på forhånd.
-            <br /> Dertil er der PDF-filer i form af skriftlig guide, arbejdsbøger og tjeklister,
-            som du kan se og læse når du vil, hvor du vil og alle de gange du vil!
-          </TextCenter>
-          <TextCenter>
-            Der er ingen udløbsdato på dit kursus, så du kan altid vende tilbage og gense det hele,
-            liiige når du har lyst!
-          </TextCenter>
-          <br />
-          <TitleCenter text="Lukket facebookgruppe og LIVE spørgetimer med din underviser!" />
-          <TextCenter>
-            Den 11.03.2022 vil du få tilsendt en mail med invitation til en lukket facebookgruppe.
+            Straks efter køb vil du få tilsendt en mail med invitation til en lukket facebookgruppe.
             Herinde får du, sammen med de andre deltagere, adgang til et stærkt fællesskab hvor vi
             hjælpes ad med at udvikle os, med indspark, støtte og ikke mindst fede dialoger om hunde
             og adfærd.
           </TextCenter>
           <TextCenter>
-            Du vil også få en direkte livline til din underviser, da jeg to gange vil gå LIVE og
-            svare på alle de spørgsmål du måtte have. LIVE spørgetimerne vil foregå den 17.03.2022
-            og den 31.03.2022.
+            Gruppen åbner den 11.03.2022, hvor kursets forløb også vil starte.
           </TextCenter>
           <TextCenter>
-            Efter LIVE spørgetimerne vil videoerne ligge tilgængelig, så du altid kan gense svarene.
+            Kursets forløb består af flere lektioner med video undervisning, der er optaget på
+            forhånd.
+            <br /> Dertil er der PDF-filer i form af skriftlig guide, arbejdsbøger og tjeklister,
+            som du kan se og læse når du vil, hvor du vil og alle de gange du vil!
+          </TextCenter>
+          <TextCenter>
+            Du vil også få en direkte livline til din underviser, da jeg to gange vil gå LIVE og
+            svare på alle de spørgsmål du måtte have. Efter spørgetimerne vil videoerne ligge
+            tilgængelig, så du altid kan gense svarene.
+          </TextCenter>
+          <TextCenter>LIVE spørgetimerne vil foregå den 17.03.2022 og den 31.03.2022.</TextCenter>
+          <TextCenter>
             Gruppen vil blive arkiveret fra den 11.04.2022 - det betyder den vil blive lukket for
-            kommentarer, men stadig have alt indholdt tilgængeligt til dig.
+            kommentarer, men stadig have alt indholdt tilgængeligt til dig så du kan vende tilbage
+            og gense det hele, liiige når du har lyst.
           </TextCenter>
         </Column>
       </Row>
@@ -266,7 +260,7 @@ const OnlineWalk = () => (
 
       <ButtonOnline
         text="Jeg er klar til at få succesoplevelser med min hund!"
-        onClick={() => window.open('https://ezme.io/c/x1S/zPtg', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/z16r', '_blank')}
       ></ButtonOnline>
       <br />
       <br />

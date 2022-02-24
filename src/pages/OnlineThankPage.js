@@ -33,11 +33,7 @@ const OnlineThankPage = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en velkomstmail med oplysninger om dit kursus og din kursus platform" />
-          <TextCenter>
-            Så du fluks kan gå i gang med kursets 1. lektion og få de første succesoplevelser sammen
-            med din hund!
-          </TextCenter>
+          <TitleCenter text="Du får lige straks en velkomstmail med oplysninger om dit kursus og adgang til den lukkede facebookgruppe" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -51,7 +47,7 @@ const OnlineThankPage = () => (
       </Row>
 
       <ButtonOnline
-        text="Jeg er SÅ klar! Tag mig straks ind til min kursusside"
+        text="Jeg er SÅ klar! Før mig straks ind til den lukkede facebookgruppe"
         onClick={() =>
           window.open(
             'https://svanesonlinekurser.easyme.dk/_op/9186/7557860064962e727374ab54fa2d7332',
