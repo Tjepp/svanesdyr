@@ -51,8 +51,8 @@ const LPstep8 = [
 
 const LPstep15 = [
   'Fordi du får skabt et stærkere tillidsforhold og øget samarbejdsvillighed med din hund. Det kommer ikke kun til gavn på jeres gåture sammen, men også i al anden omgang i har med hinanden i hverdagen.',
-  'Fordi du får mere glæde, ro og overskud tilbage til jeres gåture. Du kan nyde dem, fremfor at frygte dem.',
-  'Fordi det du lærer kan bruges i alle andre sammenhænge, hvor du ønsker at ændre din hunds adfærd. Du lærer at se din hunds adfærd fra en anden vinkel, så du ved hvad du kan gøre for at skabe succes. Det vil gøre al jeres træning fremadrettet lettere og mere succesfuld.',
+  'Fordi du får mere glæde og ro tilbage til jeres gåture. Du kan nyde dem, fremfor at frygte dem.',
+  'Fordi dét du lærer kan bruges i alle andre sammenhænge, hvor du ønsker at ændre din hunds adfærd. Du lærer at se din hunds adfærd fra en anden vinkel, så du ved hvad du kan gøre for at skabe succes. Det vil gøre al jeres træning fremadrettet lettere og mere succesfuld.',
 ];
 
 const OnlineWalk = () => (
@@ -155,6 +155,10 @@ const OnlineWalk = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Udover alt dette, kan du forvente at få helt konkrete værktøjer med fra kurset:" />
           <TextListMark texts={LPstep8} />
+          <TextCenter>
+            og ikke mindst mulighed for at få svar på nogle af dine brændende spørgsmål, da du får
+            adgang til to LIVE spørgetimer med din underviser.
+          </TextCenter>
         </Column>
       </Row>
 
@@ -196,7 +200,7 @@ const OnlineWalk = () => (
           </TextCenter>
           <TextCenter>
             Føler du ikke at kursets indhold passer dig og din hund, så kan du få pengene retur
-            indenfor de første 7 dage. Jeg ønsker dig succes og fuld tilfredshed!
+            indenfor de første 14 dage.
           </TextCenter>
         </Column>
       </Row>
@@ -208,7 +212,7 @@ const OnlineWalk = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TextCenter>Der lukkes for salget til midnat den 03.03.2022</TextCenter>
+          <TextCenter>Der lukkes for salget til midnat den 10.03.2022</TextCenter>
         </Column>
       </Row>
 
@@ -224,13 +228,31 @@ const OnlineWalk = () => (
             første uges materiale inden du skal arbejde videre.
           </TextCenter>
           <TextCenter>
-            Alle lektioner har video undervisning, der er optaget på forhånd. Intet er Live.
+            Alle lektioner har video undervisning, der er optaget på forhånd.
             <br /> Dertil er der PDF-filer i form af skriftlig guide, arbejdsbøger og tjeklister,
             som du kan se og læse når du vil, hvor du vil og alle de gange du vil!
           </TextCenter>
           <TextCenter>
             Der er ingen udløbsdato på dit kursus, så du kan altid vende tilbage og gense det hele,
             liiige når du har lyst!
+          </TextCenter>
+          <br />
+          <TitleCenter text="Lukket facebookgruppe og LIVE spørgetimer med din underviser!" />
+          <TextCenter>
+            Den 11.03.2022 vil du få tilsendt en mail med invitation til en lukket facebookgruppe.
+            Herinde får du, sammen med de andre deltagere, adgang til et stærkt fællesskab hvor vi
+            hjælpes ad med at udvikle os, med indspark, støtte og ikke mindst fede dialoger om hunde
+            og adfærd.
+          </TextCenter>
+          <TextCenter>
+            Du vil også få en direkte livline til din underviser, da jeg to gange vil gå LIVE og
+            svare på alle de spørgsmål du måtte have. LIVE spørgetimerne vil foregå den 17.03.2022
+            og den 31.03.2022.
+          </TextCenter>
+          <TextCenter>
+            Efter LIVE spørgetimerne vil videoerne ligge tilgængelig, så du altid kan gense svarene.
+            Gruppen vil blive arkiveret fra den 11.04.2022 - det betyder den vil blive lukket for
+            kommentarer, men stadig have alt indholdt tilgængeligt til dig.
           </TextCenter>
         </Column>
       </Row>
