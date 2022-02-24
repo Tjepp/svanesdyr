@@ -52,7 +52,12 @@ const OnlineThankPage = () => (
 
       <ButtonOnline
         text="Jeg er SÅ klar! Tag mig straks ind til min kursusside"
-        onClick={() => window.open('https://svanesonlinekurser.easyme.dk/_user/', '_blank')}
+        onClick={() =>
+          window.open(
+            'https://svanesonlinekurser.easyme.dk/_op/9186/7557860064962e727374ab54fa2d7332',
+            '_blank'
+          )
+        }
       ></ButtonOnline>
       <br />
       <br />
