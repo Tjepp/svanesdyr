@@ -19,7 +19,7 @@ import {
   ButtonOnline,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { FrontNoOne, OnlineCoverWalk } from '../assets';
+import { FrontNoOne, OnlineCoverWalk, TestiOnlineWalkOne } from '../assets';
 import '../components/table/TableCss.css';
 
 const LPstep3 = [
@@ -117,28 +117,89 @@ const OnlineWalk = () => (
         </Column>
       </Row>
 
-      {/* <Row>
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Udover alt dette, kan du forvente at få helt konkrete værktøjer med fra kurset:" />
+          <TextListMark texts={LPstep8} />
+          <TextCenter>
+            og ikke mindst mulighed for at få svar på nogle af dine brændende spørgsmål, da du får
+            adgang til to LIVE spørgetimer med din underviser.
+          </TextCenter>
+        </Column>
+      </Row>
+
+      <Row>
+        <TitleCenter
+          color="#872f35"
+          text="Dét har andre fået ud af deltagelse på kurset:"
+          showHorizontalRuler
+        />
+      </Row>
+      <Row>
         <Column widthPercentage="80%">
-          <TitleCenter text=" ”Vi troede ikke et hvalpevisit ville være pengene værd. Vi tog fejl.” " />
+          <TitleCenter text="”Mange af de ting, du har sagt, har været en kæmpe øjenåbner. Nogle ting var jeg klar over, men aldrig tillagt så stor betydning, og andre ting var helt nye (som det at omgivelser er så vigtige)”" />
           <FlexedRow>
-            <Image src={ConsultPupOne} width="200px" height="300px" />
+            <Image src={TestiOnlineWalkOne} width="200px" height="300px" />
             <TextContainer>
               <Text>
-                Dit besøg har givet os mere ro og selvtillid. Vi er som førstegangsejere meget mere
-                selvsikre og rolige i vores rolle som hundeejere, og det er rart. Derudover har det
-                været rart bare at kunne spørge løs og fjerne nogle af de bekymringer man kan have
-                som førstegangs hundeejere.
+                Mest bed jeg mærke i, at hunden skal <b>guides</b> til den ønskede adfærd, og dermed
+                ikke “bevidst” er ulydig (jeg tænker ofte på udtrykket “at hun tilbyder en adfærd”),
+                at det er mig, der skal være den voksne og pålidelige, så hun ikke selv skal tage
+                stilling til andre hunde og mennesker, men i stedet tjekke ind hos mig.
               </Text>
               <Text>
-                Vi har fået en meget bedre forståelse af vores hund, hans race, personlighed og
-                hvorfor han gør som han gør. Og derved også hvordan vi samarbejder med ham.
+                Vi havde også meget stor glæde af din fortælling om stress. Det var en af de ting,
+                vi havde observeret, men som først rigtig blev tydeligt i min bevidsthed, da du
+                viste stress-trappen og dermed synliggjorde det. Og så var det en kæmpe
+                overraskelse, at hunde “tager billeder” og dermed skal trænes forskellige steder.
+                Jeg har altid undret mig over, at Karla ikke kunne de samme ting hjemme som til
+                træning. Men det gav pludselig mening.
               </Text>
-              <Text>Det giver ro i maven at vide man er på rette vej.</Text>
-              <Text>Mvh Sheila og Daniel</Text>
+              <Text>
+                Vi har brugt det du har fortalt meget. Det har virkelig gjort en forskel for hunden
+                og os ejere!
+              </Text>
+              <Text>- Sanne Guldholdt og Karla</Text>
             </TextContainer>
           </FlexedRow>
         </Column>
-      </Row> */}
+      </Row>
+      <Row>
+        <Column widthPercentage="80%">
+          <TitleCenter text=" ”Min store succesoplevelse var ved synet af en ”farlig” hund 50 meter fremme reagerede Marley med at sætte sig ned foran mig og kigge op på mig. Han fik masser af godbidder mens hunden passerede. Masser af ros. Og jeg var stolt som en pave!” " />
+          <FlexedRow>
+            {/* <Image src={ConsultPupOne} width="200px" height="300px" /> */}
+            <TextContainer>
+              <Text>
+                Jeg har tidligere oplevet store problemer med at overføre lærte teknikker fra
+                indenfor i lejligheden til udenfor. Det har været svært at få min hund til at tage
+                imod godbidder udenfor, han havde det med at miste kontakten til mig så snart vi
+                forlod lejligheden. Han sætter snuden i jorden og forsvinder ud af kontakten. Jeg
+                var bekymret for om det kunne lykkedes mig at træne udenfor.
+              </Text>
+              <Text>
+                Med den viden jeg fik i materialet, gav det mig en bedre forståelse for hvordan jeg
+                kunne bryde øvelserne ned. Især efter lektionen om foto-albums hukommelsen gik det
+                op for mig hvorfor der var et problem med at overføre læringen. Jeg forstod hvor
+                svært det måtte være for min hund og fik øvelserne brudt ned i mindre bidder som min
+                hund kunne have succes med. Ikke mindst den personlige hjælp jeg fik af dig med svar
+                på spørgsmål var spot-on og en stor hjælp. Nu er Marley meget bedre i kontakt med
+                mig på gåturen!
+              </Text>
+              <Text>
+                I dag forstår jeg bedre de udfordringer jeg har haft og kan blive ved med at arbejde
+                med dem, også på andre områder end at undgå konflikter med andre hunde på gåturen.
+                Jeg har fået mere mod på træningen helt generelt. Det er vildt dejligt og meget
+                tilfredsstillende!
+              </Text>
+              <Text>- Katrine Nørgaard og Marley</Text>
+            </TextContainer>
+          </FlexedRow>
+        </Column>
+      </Row>
+      <Row>
+        <TitleCenter showHorizontalRuler />
+      </Row>
 
       {/* <Row>
         <Column widthPercentage="100%">
@@ -150,17 +211,6 @@ const OnlineWalk = () => (
           </TextCenter>
         </Column>
       </Row> */}
-
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Udover alt dette, kan du forvente at få helt konkrete værktøjer med fra kurset:" />
-          <TextListMark texts={LPstep8} />
-          <TextCenter>
-            og ikke mindst mulighed for at få svar på nogle af dine brændende spørgsmål, da du får
-            adgang til to LIVE spørgetimer med din underviser.
-          </TextCenter>
-        </Column>
-      </Row>
 
       <Row>
         <Column widthPercentage="80%">
@@ -189,7 +239,7 @@ const OnlineWalk = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter text="Din investering i mindre stressfyldte og langt mere afslappede gåture med din hund, er:" />
-          <TitleCenter bold color="#872f35" text="Kun 1.495 kr. inkl. moms" />
+          <TitleCenter bold color="#008037" text="Kun 1.495 kr. inkl. moms" />
           <TextCenter>
             Det svarer nogenlunde til prisen på et luksuriøst spaophold, som du ikke længere
             behøver, når du i stedet kan lade op i selskab med din hund, på jeres rolige gåture
