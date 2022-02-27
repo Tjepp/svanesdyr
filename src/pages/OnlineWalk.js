@@ -19,7 +19,7 @@ import {
   ButtonOnline,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { FrontNoOne, OnlineCoverWalk, TestiOnlineWalkOne } from '../assets';
+import { FrontNoOne, OnlineCoverWalk, TestiOnlineWalkOne, TestiOnlineWalkTwo } from '../assets';
 import '../components/table/TableCss.css';
 
 const LPstep3 = [
@@ -168,7 +168,7 @@ const OnlineWalk = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Min store succesoplevelse var ved synet af en ”farlig” hund 50 meter fremme reagerede Marley med at sætte sig ned foran mig og kigge op på mig. Han fik masser af godbidder mens hunden passerede. Masser af ros. Og jeg var stolt som en pave!” " />
           <FlexedRow>
-            {/* <Image src={ConsultPupOne} width="200px" height="300px" /> */}
+            <Image src={TestiOnlineWalkTwo} width="200px" height="300px" />
             <TextContainer>
               <Text>
                 Jeg har tidligere oplevet store problemer med at overføre lærte teknikker fra
