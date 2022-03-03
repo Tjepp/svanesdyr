@@ -245,8 +245,8 @@ const OnlineWalk = () => (
           <TitleCenter text="Du kan lige nu komme med til en introduktionspris på" />
           <TitleCenter color="#008037" text="Kun 1.495 kr. inkl. moms" />
           <TextCenter>
-            En fantastisk pris for din investering i mindre stressfyldte og langt mere afslappede
-            gåture med din hund!
+            En fantastisk pris (der ikke kommer igen!) for din investering i mindre stressfyldte og
+            langt mere afslappede gåture med din hund!
           </TextCenter>
           <TextCenter>
             Prisen svarer nogenlunde til et luksuriøst spaophold, som du ikke længere behøver, når
@@ -269,7 +269,7 @@ const OnlineWalk = () => (
             Føler du ikke at kursets indhold passer dig og din hund, så kan du få pengene retur
             indenfor de første 7 dage efter kursets start den 11.03.2022.
           </TextCenter>
-          <TextCenter>Der lukkes for salget den 10.03.2022 kl. 18.00</TextCenter>
+          <TextCenter>Der lukkes for optagelse den 10.03.2022 kl. 18.00</TextCenter>
         </Column>
       </Row>
 
