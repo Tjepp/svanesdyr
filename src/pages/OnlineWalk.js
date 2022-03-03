@@ -238,30 +238,37 @@ const OnlineWalk = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TitleCenter text="Din investering i mindre stressfyldte og langt mere afslappede gåture med din hund, er:" />
-          <TitleCenter bold color="#008037" text="Kun 1.495 kr. inkl. moms" />
+          <TitleCenter
+            color="#872f35"
+            text="SPAR 1.500,- kr. hvis du reserverer din plads inden torsdag den 10/3 kl. 18.00!"
+          />
+          <TitleCenter text="Du kan lige nu komme med til en introduktionspris på" />
+          <TitleCenter color="#008037" text="Kun 1.495 kr. inkl. moms" />
           <TextCenter>
-            Det svarer nogenlunde til prisen på et luksuriøst spaophold, som du ikke længere
-            behøver, når du i stedet kan lade op i selskab med din hund, på jeres rolige gåture
-            sammen.
+            En fantastisk pris for din investering i mindre stressfyldte og langt mere afslappede
+            gåture med din hund!
+          </TextCenter>
+          <TextCenter>
+            Prisen svarer nogenlunde til et luksuriøst spaophold, som du ikke længere behøver, når
+            du i stedet kan lade op i selskab med din hund, på jeres rolige gåture sammen.
             <br />
             Eller til prisen på et par robuste bøger om adfærd, som kan give en overflod af
             information uden at du får konkrete værktøjer til lige dét du søger hjælp til
-          </TextCenter>
-          <TextCenter>
-            Føler du ikke at kursets indhold passer dig og din hund, så kan du få pengene retur
-            indenfor de første 7 dage efter kursets start den 11.03.2022.
           </TextCenter>
         </Column>
       </Row>
 
       <ButtonOnline
-        text="Ja tak! Jeg vil gerne have adgang til onlinekurset nu"
+        text="Ja tak! Lad mig få den fede rabat"
         onClick={() => window.open('https://ezme.io/c/x1S/z16r', '_blank')}
       ></ButtonOnline>
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
+          <TextCenter>
+            Føler du ikke at kursets indhold passer dig og din hund, så kan du få pengene retur
+            indenfor de første 7 dage efter kursets start den 11.03.2022.
+          </TextCenter>
           <TextCenter>Der lukkes for salget den 10.03.2022 kl. 18.00</TextCenter>
         </Column>
       </Row>

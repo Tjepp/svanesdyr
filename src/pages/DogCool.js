@@ -166,9 +166,25 @@ const DogCool = () => (
                 <Td>8. maj</Td>
                 <Td>15. maj</Td>
                 <Td>10. juli</Td>
-                <Td>29. maj + 26. juni + 3.juli</Td>
+                <Td>29. maj + 26. juni</Td>
                 <Td>
-                  <font color="#D60E0E">1 plads</font>
+                  <font color="#D60E0E">Venteliste</font>
+                </Td>
+              </Tr>
+              <Tr>
+                <Td>Cool E</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>17.30 - 18.15</Td>
+                <Td>16. maj</Td>
+                <Td>23. maj</Td>
+                <Td>4. juli</Td>
+                <Td>Pinse 6. juni</Td>
+                <Td>
+                  <font color="#D60E0E">4 pladser</font>
                 </Td>
               </Tr>
             </Tbody>
