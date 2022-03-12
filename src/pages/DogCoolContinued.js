@@ -193,6 +193,21 @@ const DogCoolContinued = () => (
                   <font color="#D60E0E">Venteliste</font>
                 </Td>
               </Tr>
+              <Tr>
+                <Td>MiljøCool C</Td>
+                <Td>Mandag</Td>
+                <Td>8700</Td>
+                <Td>
+                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
+                </Td>
+                <Td>20.00 - 21.00</Td>
+                <Td>14. marts</Td>
+                <Td>6. juni</Td>
+                <Td>11. april</Td>
+                <Td>
+                  <font color="#D60E0E">1 plads</font>
+                </Td>
+              </Tr>
             </Tbody>
           </Table>
           <br />

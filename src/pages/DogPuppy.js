@@ -183,7 +183,7 @@ const DogPuppy = () => {
                   <Td>5. juli</Td>
                   <Td>--</Td>
                   <Td>
-                    <font color="#D60E0E">4 pladser</font>
+                    <font color="#D60E0E">3 pladser</font>
                   </Td>
                 </Tr>
               </Tbody>

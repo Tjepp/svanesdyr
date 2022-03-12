@@ -171,7 +171,7 @@ const DogCool = () => (
                   <font color="#D60E0E">Venteliste</font>
                 </Td>
               </Tr>
-              <Tr>
+              {/* <Tr>
                 <Td>Cool E</Td>
                 <Td>Mandag</Td>
                 <Td>8700</Td>
@@ -186,7 +186,7 @@ const DogCool = () => (
                 <Td>
                   <font color="#D60E0E">4 pladser</font>
                 </Td>
-              </Tr>
+              </Tr> */}
             </Tbody>
           </Table>
 
