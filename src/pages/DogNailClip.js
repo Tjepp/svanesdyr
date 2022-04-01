@@ -138,10 +138,10 @@ const DogNailClip = () => (
                 </Td>
                 <Td>11.30 - 12.15</Td>
                 <Td>15. maj</Td>
-                <Td>10. juli</Td>
-                <Td>29. maj + 26. juni + 3.juli</Td>
+                <Td>3. juli</Td>
+                <Td>29. maj + 26. juni</Td>
                 <Td>
-                  <font color="#D60E0E">2 pladser</font>
+                  <font color="#D60E0E">1 plads</font>
                 </Td>
               </Tr>
             </Tbody>

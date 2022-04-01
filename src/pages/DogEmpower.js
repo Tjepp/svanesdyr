@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -13,7 +13,7 @@ import {
   Text,
   BreadCrumps,
   Row,
-  DogCourseTableHead,
+  // DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -94,14 +94,14 @@ const DogEmpower = () => (
           <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
-          {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
+          <Title text="Alle igangværende hold er desværre fyldt op." />
           {/* 
           <TitleColor text="Hold startes op på efterspørgsel." />
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
           </Text> */}
 
-          <Title text="Marts start:" />
+          {/* <Title text="Marts start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
@@ -144,7 +144,7 @@ const DogEmpower = () => (
                 </Td>
               </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
 
           <br />
           <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />

@@ -83,23 +83,21 @@ const Lecture = () => (
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>16. marts</Td>
+                <Td>25. maj</Td>
                 <Td>Hundens Sprog - Hvad fortæller den dig?</Td>
                 <Td>
-                  <StyledExternal href="https://www.facebook.com/events/334500228594898">
+                  <StyledExternal href="https://www.facebook.com/events/1133089570589347">
                     Klik her
                   </StyledExternal>
                 </Td>
-                <Td>Bredgade 15, 8740</Td>
-                <Td>19.00 - 21.00</Td>
+                <Td>Ordrupvej 59, 2920 Charlottenlund</Td>
+                <Td>18.30 - 21.30</Td>
                 <Td>250 kr. </Td>
                 <Td>
                   <font color="#D60E0E">Ledige pladser</font>
                 </Td>
                 <Td>
-                  <StyledExternal href="https://www.facebook.com/event8740">
-                    Kontakt arrangør Rikke
-                  </StyledExternal>
+                  <StyledExternal href="https://ezme.io/c/x1S/ke2A">Tilmeldingslink</StyledExternal>
                 </Td>
               </Tr>
             </Tbody>

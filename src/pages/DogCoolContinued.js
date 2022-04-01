@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
+// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -14,7 +14,7 @@ import {
   BreadCrumps,
   Row,
   // DogCourseSimple,
-  DogCourseTableHead,
+  // DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
@@ -173,8 +173,9 @@ const DogCoolContinued = () => (
             miljøholdet? Så<StyledLink to="/kontakt"> send mig en mail</StyledLink> med dit ønske.
           </Text>
           <br />
+          <Title text="Alle igangværende hold er desværre fyldt op." />
 
-          <Title text="Marts start:" />
+          {/* <Title text="Marts start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
@@ -193,23 +194,8 @@ const DogCoolContinued = () => (
                   <font color="#D60E0E">Venteliste</font>
                 </Td>
               </Tr>
-              <Tr>
-                <Td>MiljøCool C</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>20.00 - 21.00</Td>
-                <Td>14. marts</Td>
-                <Td>6. juni</Td>
-                <Td>11. april</Td>
-                <Td>
-                  <font color="#D60E0E">1 plads</font>
-                </Td>
-              </Tr>
             </Tbody>
-          </Table>
+          </Table> */}
           <br />
 
           <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />

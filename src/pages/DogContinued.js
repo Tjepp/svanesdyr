@@ -16,7 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseSimple,
+  // DogCourseSimple,
   DogCourseTableHead,
   // DogCourseYearShift
 } from '../components';
@@ -120,25 +120,10 @@ const DogContinued = () => (
           <br />
           {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
-          <Title text="Marts start:" />
+          <Title text="Maj start:" />
           <Table>
             <DogCourseTableHead />
             <Tbody>
-              <Tr>
-                <Td>Fortsætter C</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>8. marts</Td>
-                <Td>3. maj</Td>
-                <Td>Påske 11. og 18 april</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
               <Tr>
                 <Td>Fortsætter D</Td>
                 <Td>Mandag</Td>
@@ -147,20 +132,13 @@ const DogContinued = () => (
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
                 <Td>18.30 - 19.15</Td>
-                <Td>14. marts</Td>
-                <Td>9. maj</Td>
-                <Td>Påske 11. og 18 april</Td>
+                <Td>16. maj</Td>
+                <Td>4. juli</Td>
+                <Td>Pinse 6. juni</Td>
                 <Td>
-                  <font color="#D60E0E">Venteliste</font>
+                  <font color="#D60E0E">3 pladser</font>
                 </Td>
               </Tr>
-            </Tbody>
-          </Table>
-
-          <Title text="Maj start:" />
-          <Table>
-            <DogCourseSimple />
-            <Tbody>
               <Tr>
                 <Td>Fortsætter E</Td>
                 <Td>Tirsdag</Td>
@@ -171,8 +149,9 @@ const DogContinued = () => (
                 <Td>18.30 - 19.15</Td>
                 <Td>24. maj</Td>
                 <Td>5. juli</Td>
+                <Td>--</Td>
                 <Td>
-                  <font color="#D60E0E">4 pladser</font>
+                  <font color="#D60E0E">3 pladser</font>
                 </Td>
               </Tr>
             </Tbody>

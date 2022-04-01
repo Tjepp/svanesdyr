@@ -128,29 +128,6 @@ const DogCool = () => (
           <br />
           {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
 
-          <Title text="Marts start:" />
-          <Table>
-            <DogCourseTheory />
-            <Tbody>
-              <Tr>
-                <Td>Cool C</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>12.30 - 13.15</Td>
-                <Td>13. marts</Td>
-                <Td>20. marts</Td>
-                <Td>1. maj</Td>
-                <Td>17. april</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
           <Title text="Maj start:" />
           <Table>
             <DogCourseTheory />
