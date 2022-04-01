@@ -131,7 +131,7 @@ const DogContinued = () => (
                 <Td>
                   <StyledLink to="/kontakt">Kontakt mig</StyledLink>
                 </Td>
-                <Td>18.30 - 19.15</Td>
+                <Td>17.30 - 18.15</Td>
                 <Td>16. maj</Td>
                 <Td>4. juli</Td>
                 <Td>Pinse 6. juni</Td>
