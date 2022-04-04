@@ -79,6 +79,31 @@ const Lecture = () => (
           <Title text="Kommende foredrag og workshops om hundeadfærd 2022" showHorizontalRuler />
           <br />
           {/* <TitleColor text="Foredrag for 2022 er under planlægning" /> */}
+          <Title text="Jylland" />
+          <Table>
+            <LectureTableHead />
+            <Tbody>
+              <Tr>
+                <Td>21. april</Td>
+                <Td>Sådan kontrollerer du leg mellem hunde</Td>
+                <Td>
+                  <StyledExternal href="https://www.facebook.com/events/1047887259419793">
+                    Klik her
+                  </StyledExternal>
+                </Td>
+                <Td>Nørregade 25, 8740 Brædstrup</Td>
+                <Td>19.00 - 20.30</Td>
+                <Td>125 kr. </Td>
+                <Td>
+                  <font color="#D60E0E">Ledige pladser</font>
+                </Td>
+                <Td>
+                  <StyledExternal href="https://ezme.io/c/x1S/kzEB">Tilmeldingslink</StyledExternal>
+                </Td>
+              </Tr>
+            </Tbody>
+          </Table>
+          <Title text="Sjælland" />
           <Table>
             <LectureTableHead />
             <Tbody>
