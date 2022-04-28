@@ -42,6 +42,7 @@ import {
   Lecture,
   MyMethods,
   OnlineSoldOut,
+  OnlineSummerThanks,
   OnlineThankPage,
   OnlineWalk,
 } from './pages';
@@ -88,6 +89,7 @@ const App = () => (
       <Route path="/privatlivspolitik" element={<LawPrivate />} />
       <Route path="/foredrag" exact element={<Lecture />} />
       <Route path="/udsolgt" exact element={<OnlineSoldOut />} />
+      <Route path="/sommertak" exact element={<OnlineSummerThanks />} />
       <Route path="/tusindtak" exact element={<OnlineThankPage />} />
       <Route path="/gaatur" exact element={<OnlineWalk />} />
       <Route path="/minemetoder" exact element={<MyMethods />} />
