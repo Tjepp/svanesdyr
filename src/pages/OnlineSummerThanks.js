@@ -47,7 +47,7 @@ const OnlineSummerThanks = () => (
       </Row>
 
       <ButtonOnline
-        text="Jeg skal booke flere sommerkurser! Få mig retur til katalogets side"
+        text="Jeg skal booke flere sommerkurser! Tag mig retur til katalogets side"
         onClick={() => window.open('https://www.svanesdyr.dk/sommerhund', '_blank')}
       ></ButtonOnline>
       <br />
