@@ -5,10 +5,11 @@ const DogCourseSummer = () => (
   <Thead>
     <Tr>
       <Th>Holdnavn</Th>
+      <Th>Uge</Th>
+      <Th>Dag</Th>
+      <Th>Dato</Th>
       <Th>Tidspunkt</Th>
       <Th>Max antal</Th>
-      <Th>Holdstatus</Th>
-      <Th>Tilmelding</Th>
     </Tr>
   </Thead>
 );

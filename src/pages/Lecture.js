@@ -84,7 +84,7 @@ const Lecture = () => (
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>21. april</Td>
+                <Td>19. maj</Td>
                 <Td>Sådan kontrollerer du leg mellem hunde</Td>
                 <Td>
                   <StyledExternal href="https://www.facebook.com/events/1047887259419793">

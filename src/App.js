@@ -80,7 +80,7 @@ const App = () => (
       <Route path="/hundehold/venligvovse" element={<DogCoolFriend />} />
       <Route path="/hundehold/indkald" element={<DogRecall />} />
       <Route path="/hundehold/negleklipkursus" element={<DogNailClip />} />
-      <Route path="/hundehold/sommerhund" element={<DogSummer />} />
+      <Route path="/sommerhund" element={<DogSummer />} />
       <Route path="/hundehold/empowerment" element={<DogEmpower />} />
       <Route path="/hundehold/noseworkintro" element={<DogNoseWork />} />
       <Route path="/hestetraening" exact element={<Horse />} />

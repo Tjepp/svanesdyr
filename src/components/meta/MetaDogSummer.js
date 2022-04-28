@@ -7,8 +7,8 @@ const MetaDogSummer = ({ title, description, keywords }) => (
     <MetaTags>
       <title>{title}</title>
       <meta property="og:title" content={title} />
-      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/sommerhund" />
-      <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/sommerhund" />
+      <link rel="canonical" href="https://www.svanesdyr.dk/sommerhund" />
+      <meta property="og:url" content="https://www.svanesdyr.dk/sommerhund" />
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
@@ -22,7 +22,7 @@ const MetaDogSummer = ({ title, description, keywords }) => (
   </>
 );
 
-const defaultTitle = 'Sommerferietræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultTitle = 'Sommerferietræning | Uge 28, 29 og 30 | Dyreadfærdskonsulent | Svanes Dyr ';
 const defaultDescription = 'Svanes Dyr - Hundetræning i sommerferien i Horsens';
 const defaultKeywords = `Sommerferie hund, sommerferietræning hund, hundetræning sommer, hundetræning sommerferie, familievenlig hundetræning, familie hundetræning,
   sommerdage hund`;
