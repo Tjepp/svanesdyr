@@ -12,7 +12,7 @@ const MetaDogSummer = ({ title, description, keywords }) => (
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://www.svanesdyr.dk/MetaHoldTricks1.jpg" />
+      <meta property="og:image" content="https://www.svanesdyr.dk/HoldTricks1.jpg" />
       <meta property="og:site_name" content="Svanes Dyr" />
 
       <meta name="keywords" content={keywords} />

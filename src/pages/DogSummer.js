@@ -104,6 +104,7 @@ const DogSummer = () => (
                 <br />
                 uanset antal tobenede der er med
               </Text>
+              <Text>Max 8 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
@@ -117,7 +118,6 @@ const DogSummer = () => (
                 <Td>Lørdag</Td>
                 <Td>16. juli</Td>
                 <Td>09.30 - 11.00</Td>
-                <Td>8 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Små racer 2</Td>
@@ -125,7 +125,6 @@ const DogSummer = () => (
                 <Td>Tirsdag</Td>
                 <Td>19. juli</Td>
                 <Td>17.00 - 18.30</Td>
-                <Td>8 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Små racer 3</Td>
@@ -133,7 +132,6 @@ const DogSummer = () => (
                 <Td>Søndag</Td>
                 <Td>24. juli</Td>
                 <Td>11.00 - 12.30</Td>
-                <Td>8 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Små racer 4</Td>
@@ -141,7 +139,6 @@ const DogSummer = () => (
                 <Td>Onsdag</Td>
                 <Td>27. juli</Td>
                 <Td>18.30 - 20.00</Td>
-                <Td>8 snuder</Td>
               </Tr>
             </Tbody>
           </Table>
@@ -155,7 +152,6 @@ const DogSummer = () => (
                 <Td>Lørdag</Td>
                 <Td>16. juli</Td>
                 <Td>11.00 - 12.30</Td>
-                <Td>8 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Store racer 2</Td>
@@ -163,7 +159,6 @@ const DogSummer = () => (
                 <Td>Tirsdag</Td>
                 <Td>19. juli</Td>
                 <Td>18.30 - 20.00</Td>
-                <Td>8 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Store racer 3</Td>
@@ -171,7 +166,6 @@ const DogSummer = () => (
                 <Td>Søndag</Td>
                 <Td>24. juli</Td>
                 <Td>09.30 - 11.00</Td>
-                <Td>8 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Store racer 4</Td>
@@ -179,7 +173,6 @@ const DogSummer = () => (
                 <Td>Onsdag</Td>
                 <Td>27. juli</Td>
                 <Td>17.00 - 18.30</Td>
-                <Td>8 snuder</Td>
               </Tr>
             </Tbody>
           </Table>
@@ -209,16 +202,16 @@ const DogSummer = () => (
               <Text>
                 <b>Indkald Øvet</b>
                 <br />
-                Føler du din hund kommer 9/10 gange? Men nogle gange ignorerer dig når du kalder. På
-                dette møde vil vi gennemgå forskellige forstyrrelseslege, som vil lære din hund, at
-                selvom der er spændende ting at give sig til, så er det lige så FEDT at komme når du
-                kalder!
+                Føler du din hund kommer 9/10 gange? Men nogle gange ignorerer dig når du kalder? På
+                øvet gennemgår vi forskellige forstyrrelseslege, som lærer din hund, at selvom der
+                er spændende ting at give sig til, så er det stadig FEDT at komme når du kalder!
               </Text>
               <Text>
                 <b>Deltagelse pr. snude: 195,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
@@ -231,7 +224,6 @@ const DogSummer = () => (
                 <Td>Søndag</Td>
                 <Td>17. juli</Td>
                 <Td>09.30 - 11.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Øvet 1</Td>
@@ -239,7 +231,6 @@ const DogSummer = () => (
                 <Td>Søndag</Td>
                 <Td>17. juli</Td>
                 <Td>11.00 - 12.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Basis 2</Td>
@@ -247,7 +238,6 @@ const DogSummer = () => (
                 <Td>Tirsdag</Td>
                 <Td>19. juli</Td>
                 <Td>10.00 - 11.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Øvet 2</Td>
@@ -255,7 +245,6 @@ const DogSummer = () => (
                 <Td>Tirsdag</Td>
                 <Td>19. juli</Td>
                 <Td>11.30 - 13.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Basis 3</Td>
@@ -263,7 +252,6 @@ const DogSummer = () => (
                 <Td>Mandag</Td>
                 <Td>25. juli</Td>
                 <Td>17.00 - 18.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Øvet 3</Td>
@@ -271,7 +259,6 @@ const DogSummer = () => (
                 <Td>Mandag</Td>
                 <Td>25. juli</Td>
                 <Td>18.30 - 20.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
             </Tbody>
           </Table>
@@ -306,6 +293,7 @@ const DogSummer = () => (
                 <br />
                 uanset antal tobenede der er med
               </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
@@ -318,7 +306,6 @@ const DogSummer = () => (
                 <Td>Onsdag</Td>
                 <Td>20. juli</Td>
                 <Td>17.00 - 18.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Fitness 2</Td>
@@ -326,7 +313,6 @@ const DogSummer = () => (
                 <Td>Lørdag</Td>
                 <Td>23. juli</Td>
                 <Td>09.30 - 11.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Fitness 3</Td>
@@ -334,7 +320,6 @@ const DogSummer = () => (
                 <Td>Tirsdag</Td>
                 <Td>26. juli</Td>
                 <Td>18.30 - 20.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
             </Tbody>
           </Table>
@@ -366,6 +351,7 @@ const DogSummer = () => (
                 <br />
                 uanset antal tobenede der er med
               </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
@@ -378,7 +364,6 @@ const DogSummer = () => (
                 <Td>Lørdag</Td>
                 <Td>16. juli</Td>
                 <Td>12.30 - 14.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Gåtur 2</Td>
@@ -386,7 +371,6 @@ const DogSummer = () => (
                 <Td>Lørdag</Td>
                 <Td>23. juli</Td>
                 <Td>11.00 - 12.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Gåtur 3</Td>
@@ -394,7 +378,6 @@ const DogSummer = () => (
                 <Td>Tirsdag</Td>
                 <Td>26. juli</Td>
                 <Td>17.00 - 18.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
             </Tbody>
           </Table>
@@ -426,6 +409,7 @@ const DogSummer = () => (
                 <br />
                 uanset antal tobenede der er med
               </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
@@ -438,7 +422,6 @@ const DogSummer = () => (
                 <Td>Søndag</Td>
                 <Td>17. juli</Td>
                 <Td>12.30 - 14.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Håndtering 2</Td>
@@ -446,7 +429,6 @@ const DogSummer = () => (
                 <Td>Onsdag</Td>
                 <Td>20. juli</Td>
                 <Td>18.30 - 20.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Håndtering 3</Td>
@@ -454,7 +436,6 @@ const DogSummer = () => (
                 <Td>Torsdag</Td>
                 <Td>28. juli</Td>
                 <Td>17.00 - 18.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
             </Tbody>
           </Table>
@@ -486,6 +467,7 @@ const DogSummer = () => (
                 <br />
                 uanset antal tobenede der er med
               </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
@@ -498,7 +480,6 @@ const DogSummer = () => (
                 <Td>Torsdag</Td>
                 <Td>21. juli</Td>
                 <Td>10.00 - 11.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Bliv 2</Td>
@@ -506,7 +487,6 @@ const DogSummer = () => (
                 <Td>Lørdag</Td>
                 <Td>23. juli</Td>
                 <Td>12.30 - 14.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
             </Tbody>
           </Table>
@@ -541,6 +521,7 @@ const DogSummer = () => (
                 <br />
                 uanset antal tobenede der er med
               </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
@@ -553,7 +534,6 @@ const DogSummer = () => (
                 <Td>Torsdag</Td>
                 <Td>21. juli</Td>
                 <Td>11.30 - 13.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Tricks 2</Td>
@@ -561,7 +541,6 @@ const DogSummer = () => (
                 <Td>Søndag</Td>
                 <Td>24. juli</Td>
                 <Td>12.30 - 14.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Tricks 3</Td>
@@ -569,7 +548,6 @@ const DogSummer = () => (
                 <Td>Torsdag</Td>
                 <Td>28. juli</Td>
                 <Td>18.30 - 20.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
             </Tbody>
           </Table>
@@ -606,7 +584,7 @@ const DogSummer = () => (
                 <b>Deltagelse pr. snude: 150,- kr.</b>
                 <br />
                 Miljømøderne varer op til 60 minutter og alle aldre kan deltage, hvalpe, som voksne
-                snuder.
+                snuder. Max 5 snuder pr. hold.
               </Text>
               <Text>
                 Træningen foregår på én af følgende lokationer i Horsens:
@@ -627,7 +605,6 @@ const DogSummer = () => (
                 <Td>Mandag</Td>
                 <Td>18. juli</Td>
                 <Td>17.00 - 18.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Miljø Bygholm 1</Td>
@@ -635,7 +612,6 @@ const DogSummer = () => (
                 <Td>Mandag</Td>
                 <Td>18. juli</Td>
                 <Td>18.30 - 19.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Miljø Lunden 2</Td>
@@ -643,7 +619,6 @@ const DogSummer = () => (
                 <Td>Torsdag</Td>
                 <Td>21. juli</Td>
                 <Td>17.00 - 18.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Miljø Bygholm 2</Td>
@@ -651,7 +626,6 @@ const DogSummer = () => (
                 <Td>Torsdag</Td>
                 <Td>21. juli</Td>
                 <Td>18.30 - 19.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Miljø Lunden 3</Td>
@@ -659,7 +633,6 @@ const DogSummer = () => (
                 <Td>Tirsdag</Td>
                 <Td>26. juli</Td>
                 <Td>10.00 - 11.00</Td>
-                <Td>5 snuder</Td>
               </Tr>
               <Tr>
                 <Td>Miljø Bygholm 3</Td>
@@ -667,7 +640,6 @@ const DogSummer = () => (
                 <Td>Tirsdag</Td>
                 <Td>26. juli</Td>
                 <Td>11.30 - 12.30</Td>
-                <Td>5 snuder</Td>
               </Tr>
             </Tbody>
           </Table>

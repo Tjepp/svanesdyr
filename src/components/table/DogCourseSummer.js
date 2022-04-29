@@ -9,7 +9,6 @@ const DogCourseSummer = () => (
       <Th>Dag</Th>
       <Th>Dato</Th>
       <Th>Tidspunkt</Th>
-      <Th>Max antal</Th>
     </Tr>
   </Thead>
 );
