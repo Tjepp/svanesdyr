@@ -7,7 +7,7 @@ import {
   Page,
   Banner,
   Column,
-  MetaDogCool,
+  MetaDogCoolContinued,
   Title,
   TitleColor,
   Text,
@@ -60,7 +60,7 @@ const CoolEnvironmentBenefits = [
 
 const DogCoolContinued = () => (
   <Page>
-    <MetaDogCool />
+    <MetaDogCoolContinued />
     <Banner text="Hundehold i Horsens">
       <BreadCrumps currentPage="Miljø Hold" />
     </Banner>

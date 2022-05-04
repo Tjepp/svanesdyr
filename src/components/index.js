@@ -19,6 +19,7 @@ export { default as Meta } from './meta/Meta';
 export { default as MetaConsultPuppy } from './meta/MetaConsultPuppy';
 export { default as MetaDogContinued } from './meta/MetaDogContinued';
 export { default as MetaDogCool } from './meta/MetaDogCool';
+export { default as MetaDogCoolContinued } from './meta/MetaDogCoolContinued';
 export { default as MetaDogCoolFriend } from './meta/MetaDogCoolFriend';
 export { default as MetaDogCourse } from './meta/MetaDogCourse';
 export { default as MetaDogNailClip } from './meta/MetaDogNailClip';
