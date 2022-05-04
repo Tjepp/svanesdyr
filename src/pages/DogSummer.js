@@ -50,8 +50,9 @@ const DogSummer = () => (
           <br />
           <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene sammen med din dejlige snude" />
           <TextCenter>
-            Kom med og brug nogle af de solrige sommerdage i godt selskab med andre snuder. Tag både
-            din bedre halvdel og børnene med til en hyggelig stund - alle er velkomne!
+            Kom med og brug nogle af de solrige sommerdage i Horsens i godt selskab med andre
+            snuder. Tag både din bedre halvdel og børnene med til en hyggelig stund - alle er
+            velkomne!
           </TextCenter>
           <TextCenter>Fælles for alle sommerens kurser er:</TextCenter>
           <TextListMark texts={Spotliste} />

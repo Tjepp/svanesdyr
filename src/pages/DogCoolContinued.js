@@ -28,14 +28,17 @@ import {
   CoolAgainFour,
   CoolAgainFive,
   CoolAgainSix,
+  CoolAgainSeven,
+  CoolAgainEight,
+  CoolAgainNine,
 } from '../assets';
 
-const CoolContinuedBenefits = [
-  'Personlig sparring omkring din hund og jeres hverdag sammen',
-  'Hele 7 ugers træning med ugentligt møde',
-  'Max 4 andre holdkammerater, så der er god tid til dig',
-  'Udleveret en klikker til valgfrit brug i træningen',
-];
+// const CoolContinuedBenefits = [
+//   'Personlig sparring omkring din hund og jeres hverdag sammen',
+//   'Hele 7 ugers træning med ugentligt møde',
+//   'Max 4 andre holdkammerater, så der er god tid til dig',
+//   'Udleveret en klikker til valgfrit brug i træningen',
+// ];
 
 const ContinuedCoolProgram = [
   'Indlæring af at finde ro og slappe af, når i skal lave ”ingenting” sammen',
@@ -59,7 +62,7 @@ const DogCoolContinued = () => (
   <Page>
     <MetaDogCool />
     <Banner text="Hundehold i Horsens">
-      <BreadCrumps currentPage="Fortsat Helt-Cool" />
+      <BreadCrumps currentPage="Miljø Hold" />
     </Banner>
     <Background>
       <Row marginTop="25px" marginBottom="45px">
@@ -68,15 +71,18 @@ const DogCoolContinued = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Fortsat Helt-Cool i Horsens" showHorizontalRuler />
+          <Title text="Helt-Cool MILJØ hold i Horsens" showHorizontalRuler />
           <Text>
-            Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på
-            Helt-Cool kurset.
-            <br />
-            Programmets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor
-            de rolige gåture praktiseres i stor stil. Du får en mere afslappet hverdag, med en hund
-            der selv kan finde ro når du er i ro og som kan gå pænt i snor uden at hive armen af
-            dig. Kurset henvender sig til alle hunde i alle aldre.
+            {/* Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på Helt-Cool kurset. */}
+            På miljøholdet fokuseres der på de kendte Cool-principper med kontakt og ro, som udøves
+            i <u>nye miljøer</u> over 6 lektioner af 60 min. pr. lektion. Vi mødes hver 14. dag på
+            dette hold og på en ny lokation i Horsens og omegn til hver lektion.
+          </Text>
+          <Text>
+            Holdets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de
+            rolige gåture praktiseres i stor stil. Du får en mere afslappet hverdag, med en hund der
+            selv kan finde ro når du er i ro og som kan gå pænt i snor uden at hive armen af dig.
+            Kurset henvender sig til alle hunde i alle aldre.
           </Text>
           <Text>
             Al træning foregår med{' '}
@@ -87,26 +93,33 @@ const DogCoolContinued = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 7 uger sammen vil vi komme igennem følgende:
+            <br />I løbet af vores uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={ContinuedCoolProgram} />
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
-            Ved deltagelse på Fortsat Helt-Cool får du:
+            Ved deltagelse på Miljøholdet får du:
           </Text>
-          <TextList texts={CoolContinuedBenefits} />
+          <TextList texts={CoolEnvironmentBenefits} />
           <Text>
-            Der tages hensyn til sensitive hunde og praktiseres god afstand før, under og efter
-            timerne. Til de legeglade hunde er der mulighed for lidt{' '}
-            <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> efter timen.
+            Der tages hensyn til sensitive hunde og praktiseres god afstand.
+            {/* Til de legeglade hunde er der mulighed for lidt{' '}
+            <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> efter timen. */}
+          </Text>
+          <Text>
+            Miljøholdet udbydes til faste kursister og annonceres nødvendigvis ikke her på siden.
+            <br />
+            Har du deltaget på Cool-hold tidligere hos mig og kunne tænke dig at være med på
+            miljøholdet? Så<StyledLink to="/kontakt"> send mig en mail</StyledLink> med dit ønske.
           </Text>
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
           <TitleColor text="Din investering: 1095 kr." />
           <Text>
-            i at kunne nyde jeres daglige gåture, med en hund der er helt-cool omkring andre.
+            i at kunne nyde jeres daglige gåture, med en hund der er helt-cool, selv når i kommer
+            nye steder.
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
@@ -147,7 +160,7 @@ const DogCoolContinued = () => (
           </Text> */}
           <br />
 
-          <Title text="Helt-Cool Miljøhold" showHorizontalRuler />
+          {/* <Title text="Helt-Cool Miljøhold" showHorizontalRuler />
           <Text font color="#D60E0E">
             Træning i nye miljøer for <b>tidligere</b> Cool-kursister
           </Text>
@@ -155,25 +168,7 @@ const DogCoolContinued = () => (
             Efter at have deltaget på de to første kursusforløb er der mulighed for at tage
             træningen med ud i hverdagen.
             <br />
-            På miljøholdet fokuseres der på de kendte Cool-principper med kontakt og ro, som udøves
-            i <u>nye miljøer</u> over 6 lektioner af 60 min. pr. lektion. Vi mødes hver 14. dag på
-            dette hold og på en ny lokation til hver lektion.
-          </Text>
-          <Text>
-            <b>Hvad kan du forvente at få med?</b>
-            <br />
-            Ved deltagelse på Miljø Cool-holdet får du:
-          </Text>
-          <TextList texts={CoolEnvironmentBenefits} />
-          <Text>
-            Miljø Cool-holdet udbydes til faste kursister og annonceres nødvendigvis ikke her på
-            siden.
-            <br />
-            Har du deltaget på Cool-hold tidligere hos mig og kunne tænke dig at være med på
-            miljøholdet? Så<StyledLink to="/kontakt"> send mig en mail</StyledLink> med dit ønske.
-          </Text>
-          <br />
-          <Title text="Alle igangværende hold er desværre fyldt op." />
+          </Text> */}
 
           {/* <Title text="Marts start:" />
           <Table>
@@ -198,7 +193,7 @@ const DogCoolContinued = () => (
           </Table> */}
           <br />
 
-          <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />
+          <Title text="Stemningsbilleder fra Miljø holdene" showHorizontalRuler />
           <Row>
             <Column>
               <Image src={CoolAgainOne} />
@@ -219,6 +214,17 @@ const DogCoolContinued = () => (
             </Column>
             <Column>
               <Image src={CoolAgainSix} />
+            </Column>
+          </Row>
+          <Row>
+            <Column>
+              <Image src={CoolAgainSeven} />
+            </Column>
+            <Column>
+              <Image src={CoolAgainEight} />
+            </Column>
+            <Column>
+              <Image src={CoolAgainNine} />
             </Column>
           </Row>
         </Column>
