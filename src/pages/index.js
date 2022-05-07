@@ -4,6 +4,7 @@ export { default as Contact } from './Contact';
 export { default as Dog } from './Dog';
 export { default as DogConsultPuppy } from './DogConsultPuppy';
 export { default as DogCourse } from './DogCourse';
+export { default as DogCourseThanks } from './DogCourseThanks';
 export { default as DogEmpower } from './DogEmpower';
 export { default as DogNailClip } from './DogNailClip';
 export { default as DogNoseWork } from './DogNoseWork';

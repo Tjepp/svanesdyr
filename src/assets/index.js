@@ -74,6 +74,7 @@ export { default as methodOne } from './metode1.png';
 export { default as methodTwo } from './metode2.jpg';
 export { default as sabrinaNew } from './migNY.jpg';
 export { default as OnlineCoverWalk } from './OnlineCoverWalk.png';
+export { default as OnlineCoverCourse } from './OnlineCoverHold.png';
 export { default as OnlineCoverSummer } from './OnlineCoverSummer.png';
 export { default as petbc } from './petbc.jpg';
 export { default as sabrinaAndBarney } from './SabrinaAndBarney.jpg';

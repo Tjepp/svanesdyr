@@ -25,6 +25,7 @@ import {
   Dog,
   DogConsultPuppy,
   DogCourse,
+  DogCourseThanks,
   DogNailClip,
   DogPuppy,
   DogContinued,
@@ -74,6 +75,7 @@ const App = () => (
       <Route path="/hundetraening" exact element={<Dog />} />
       <Route path="/hvalpevisit" exact element={<DogConsultPuppy />} />
       <Route path="/hundehold" element={<DogCourse />}></Route>
+      <Route path="/hundehold/tusindtak" element={<DogCourseThanks />} />
       <Route path="/hundehold/hvalpehold" element={<DogPuppy />} />
       <Route path="/hundehold/hvalpfortsat" element={<DogContinued />} />
       <Route path="/hundehold/coolhold" element={<DogCool />} />
