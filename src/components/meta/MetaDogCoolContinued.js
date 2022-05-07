@@ -7,8 +7,8 @@ const MetaDogCoolContinued = ({ title, description, keywords }) => (
     <MetaTags>
       <title>{title}</title>
       <meta property="og:title" content={title} />
-      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/coolhold" />
-      <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/coolhold" />
+      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/fortsatcool" />
+      <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/fortsatcool" />
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
