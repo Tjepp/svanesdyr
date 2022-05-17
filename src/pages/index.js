@@ -20,6 +20,8 @@ export { default as LawPrivate } from './LawPrivate';
 export { default as Home } from './Home';
 export { default as Horse } from './Horse';
 export { default as Lecture } from './Lecture';
+export { default as OnlineEbookPuppyFive } from './OnlineEbookPuppyFive';
+export { default as OnlineEbookThanks } from './OnlineEbookThanks';
 export { default as OnlineSoldOut } from './OnlineSoldOut';
 export { default as OnlineSummerThanks } from './OnlineSummerThanks';
 export { default as OnlineThankPage } from './OnlineThankPage';

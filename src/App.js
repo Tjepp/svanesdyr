@@ -42,6 +42,8 @@ import {
   LawPrivate,
   Lecture,
   MyMethods,
+  OnlineEbookPuppyFive,
+  OnlineEbookThanks,
   OnlineSoldOut,
   OnlineSummerThanks,
   OnlineThankPage,
@@ -90,6 +92,8 @@ const App = () => (
       <Route path="/onlinehandelsbetingelser" element={<LawList />} />
       <Route path="/privatlivspolitik" element={<LawPrivate />} />
       <Route path="/foredrag" exact element={<Lecture />} />
+      <Route path="/hvalpmedsucces" exact element={<OnlineEbookPuppyFive />} />
+      <Route path="/eboginvestering" exact element={<OnlineEbookThanks />} />
       <Route path="/udsolgt" exact element={<OnlineSoldOut />} />
       <Route path="/sommertak" exact element={<OnlineSummerThanks />} />
       <Route path="/tusindtak" exact element={<OnlineThankPage />} />
