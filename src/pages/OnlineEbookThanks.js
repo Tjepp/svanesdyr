@@ -23,7 +23,7 @@ const OnlineEbookThanks = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en mail med dit engangslink til at hente din E-bog direkte" />
+          <TitleCenter text="Du får lige straks en mail med dit link til at hente din E-bog direkte" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>

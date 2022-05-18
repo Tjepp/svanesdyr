@@ -241,8 +241,8 @@ const OnlineEbookPuppyFive = () => (
           <br />
           <TitleCenter text="PDF-format leveret direkte til din mail adresse!" />
           <TextCenter>
-            Straks efter køb vil du få tilsendt en mail hvor du finder et éngangs-link med adgang
-            til din E-bog.
+            Straks efter køb vil du få tilsendt en mail hvor du finder et link med adgang til din
+            E-bog.
             <br />
             Herfra kan du downloade den og gemme den på din computer, tablet eller mobil. Læs den
             direkte på skærmen, eller print den ud og sid med den i hånden, mens du drikker en god
