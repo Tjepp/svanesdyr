@@ -23,9 +23,11 @@ const MetaOnlineEbookPuppyFive = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Ebog med adfærdsbehandlerens 5 vigtigste råd til træning af din hvalp | Svanes Dyr | Hvalp med succes';
+  'Skab en tillidsfuld, rolig og samarbejdsvillig hvalp | Svanes Dyr | Hvalp med succes';
 const defaultDescription = 'Svanes Dyr - Opskriften på at få den rolige familiehund du drømmer om';
-const defaultKeywords = `hvalp med succes, hvalpevisit, hvalp gåtur, miljøtræning hvalp, socialisering hvalp, `;
+const defaultKeywords = `hvalp med succes, hvalpevisit, hvalp gåtur, miljøtræning hvalp, socialisering hvalp, hvalpebideri, 
+hvalp tisser inde, urenlig hvalp, renlig hvalp, positiv træning hvalp, træning hvalp, hvalpetræning, opdragelse hvalp, hvalpeopdragelse,
+hvalp bider, hvalp napper, hvalp bukseben, `;
 MetaOnlineEbookPuppyFive.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,

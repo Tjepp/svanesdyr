@@ -48,8 +48,9 @@ const LPstep4 = [
 const LPstep5 = [
   'helt undgå ulvetimen og få ro sammen med din hvalp, hver dag, igen og igen',
   'opbygge gode rutiner fra start, hvor din hvalp lytter til og overholder dine husregler, så du slipper for at skælde ud',
-  'få succes for jer begge på ture ud af hjemmet, med en hvalp der har ro og automatisk søger dig',
-  'vide hvordan du skal gribe miljøtræningen an, så du undgår unødig stress for både dig og din hvalp',
+  'vide hvordan du får din hvalp til at bruge sit legetøj i stedet for dine sko',
+  'lære din hvalp at tisse udenfor, fremfor indenfor',
+  'få succes for jer begge på gåture, når din hvalp har ro og automatisk søger dig',
   'konkurrere med andre spændende sager på tur, fordi din hvalp synes du er den fedeste i verden at hænge ud med!',
 ];
 
@@ -268,7 +269,7 @@ const OnlineEbookPuppyFive = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TitleCenter text="Stadig i tvivl om det er noget for dig og din hvalp? Her er 3 argumenter for hvorfor du kan få gavn af bogens indhold:" />
+          <TitleCenter text="Stadig i tvivl om det er noget for dig og din hvalp? Her er 3 argumenter for hvorfor du kan få gavn af kursets indhold:" />
           <TextListArrow texts={LPstep15} />
         </Column>
       </Row>
