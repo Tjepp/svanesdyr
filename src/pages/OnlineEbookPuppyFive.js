@@ -85,7 +85,7 @@ const OnlineEbookPuppyFive = () => (
           <Image src={OnlineCoverPuppyFive} />
           <br />
           <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!" />
-          <TextCenter>Dette kursus er til dig, der:</TextCenter>
+          <TextCenter>Denne bog er til dig, der:</TextCenter>
           <TextListMark texts={LPstep7} />
           <TextCenter>
             Uanset om du lige har fået din hvalp hjem, om din hvalp allerede er nogle uger gammel
@@ -131,7 +131,7 @@ const OnlineEbookPuppyFive = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <LPHeadlinePuppy text="Med dette kursus kan du:" />
+          <LPHeadlinePuppy text="Med denne bog i hånden kan du:" />
           <TextList texts={LPstep5} />
         </Column>
       </Row>
@@ -211,8 +211,8 @@ const OnlineEbookPuppyFive = () => (
                 Udover holdforløb er jeg ofte på hvalpevisit hos nybagte hvalpeejere, hvor de samme
                 spørgsmål ofte opstår omkring hvalpens opdragelse, socialisering og rutiner til
                 hverdagen. Alle hvalpeejere ønsker at gøre sit bedste for deres nyeste familiemedlem
-                og undgå konflikter, få succes og knytte bånd. Herfra er inspirationen til dette
-                kursus opstået.
+                og undgå konflikter, få succes og knytte bånd. Herfra er inspirationen til bogen
+                opstået.
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -226,22 +226,22 @@ const OnlineEbookPuppyFive = () => (
           <TextCenter>
             En investering der kan spare dig frustration, tid og penge!
             <br />
-            Kurset giver dig konkrete værktøjer til at skabe en positiv relation med gensidig tillid
+            Bogen giver dig konkrete værktøjer til at skabe en positiv relation med gensidig tillid
             mellem dig og din hvalp. Værktøjer jeg dækker på et hvalpevisit i hjemmet til en værdi
             af 1.425,- kr. + kørsel - og som du får leveret direkte i din indbakke!
           </TextCenter>
           <TextCenter>
-            Du sparer altså snildt over tusind kroner når du med kurset ved hånden ikke får brug for
-            et besøg i hjemmet! Ikke mindst kan du ganske hurtigt og let komme gennem lektionerne og
-            gå i gang med de konkrete tiltag de byder. Så du kan undgå flere konflikter allerede fra
-            i dag, kan slippe frustrationerne og få overskud til smil, samvær og tid til at knytte
+            Du sparer altså snildt over tusind kroner når du med bogen i hånden ikke får brug for et
+            besøg i hjemmet! Ikke mindst kan du ganske hurtigt og let komme gennem lektionerne og gå
+            i gang med de konkrete tiltag de byder. Så du kan undgå flere konflikter allerede fra i
+            dag, kan slippe frustrationerne og få overskud til smil, samvær og tid til at knytte
             bånd med din dejlige hvalp.
           </TextCenter>
         </Column>
       </Row>
 
       <ButtonOnline
-        text="Ja tak! Lad mig straks få adgang til kurset!"
+        text="Ja tak! Lad mig fluks få bogen i min indbakke!"
         onClick={() => window.open('https://ezme.io/c/x1S/kBbJ', '_blank')}
       ></ButtonOnline>
 
@@ -252,12 +252,12 @@ const OnlineEbookPuppyFive = () => (
           <br />
           <TitleCenter text="PDF-format leveret direkte til din mail adresse!" />
           <TextCenter>
-            Straks efter køb vil du få tilsendt en mail hvor du finder et link med adgang til dit
-            kursus, som består af en skriftlig guide på 4 lektioner, udformet som en bog.
+            Straks efter køb vil du få tilsendt en mail hvor du finder et link med adgang til din
+            bog, som er en skriftlig guide på 4 lektioner i PDF format.
             <br />
-            Via dit link kan du downloade bogen, som er en PDF fil, og gemme den på din computer,
-            tablet eller mobil. Læs den direkte på skærmen, eller print den ud og sid med den i
-            hånden, mens du drikker en god kop kaffe.
+            Via dit link kan du downloade bogen og gemme den på din computer, tablet eller mobil.
+            Læs den direkte på skærmen, eller print den ud og sid med den i hånden, mens du drikker
+            en god kop kaffe.
           </TextCenter>
           <TextCenter>
             Bogen er din til evigt eje og brug! Læs den lige når det passer dig - om det bliver
@@ -269,7 +269,7 @@ const OnlineEbookPuppyFive = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TitleCenter text="Stadig i tvivl om det er noget for dig og din hvalp? Her er 3 argumenter for hvorfor du kan få gavn af kursets indhold:" />
+          <TitleCenter text="Stadig i tvivl om det er noget for dig og din hvalp? Her er 3 argumenter for hvorfor du kan få gavn af bogens indhold:" />
           <TextListArrow texts={LPstep15} />
         </Column>
       </Row>
