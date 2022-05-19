@@ -46,25 +46,26 @@ const LPstep4 = [
 ];
 
 const LPstep5 = [
-  'undgå ulvetimen og få ro sammen med din hvalp',
-  'opbygge de gode vaner fra start, hvor din hvalp lytter til og overholder dine husregler',
-  'undgå konflikter og skabe succes for jer begge på ture ud af hjemmet',
-  'vide hvordan du skal gribe miljøtræning og socialisering an, uden unødig stress for både dig og din hvalp',
-  'konkurrere med andre spændende sager på tur, fordi din hvalp automatisk søger dig',
-  'lære din hvalp at ro altid kan betale sig, uanset om i er ude eller hjemme',
+  'helt undgå ulvetimen og få ro sammen med din hvalp, hver dag, igen og igen',
+  'opbygge gode rutiner fra start, hvor din hvalp lytter til og overholder dine husregler, så du slipper for at skælde ud',
+  'få succes for jer begge på ture ud af hjemmet, med en hvalp der har ro og automatisk søger dig',
+  'vide hvordan du skal gribe miljøtræningen an, så du undgår unødig stress for både dig og din hvalp',
+  'konkurrere med andre spændende sager på tur, fordi din hvalp synes du er den fedeste i verden at hænge ud med!',
 ];
 
 const LPstep7 = [
-  'Ønsker værktøjet til konfliktfri opdragelse, hvor du kan få succes med din hvalp hver dag og igen og igen',
-  'Søger den bedste tilgang til miljøtræning og socialisering, uden at få stress over hvad i skal nå',
-  'Ønsker konkrete redskaber til at lære hvalpen at finde ro, både hjemme og ude',
+  'Vil skabe den bedste relation til din hvalp, så den synes du er FED at være sammen med, selv når der er legekammerater i nærheden',
+  'Ønsker værktøjet til konfliktfri opdragelse, hvor du helt kan undgå skældud og stadig få succes med din hvalp hver dag og igen og igen',
+  'Søger den bedste tilgang til miljøtræning og socialisering, uden at få stress over at i skal nå en lang tjekliste',
+  'Ønsker konkrete redskaber til at give din hvalp masser af gåpåmod til at møde alt nyt med ophøjet ro',
+  'Ønsker konkrete øvelser til at lære hvalpen at finde ro af sig selv, både hjemme og ude på tur',
 ];
 
 const LPstep8 = [
   'Flyt-Fokus strategien til konfliktfri opdragelse',
   'Formlen på miljøtræning uden stress',
   'Trin-for-trin guide med konkrete øvelser, der lærer din hvalp kontakt og ro på gåturene',
-  'Opskriften på ro i hjemmet',
+  'Opskriften på ro i hjemmet med stationstræning',
 ];
 
 const LPstep15 = [
@@ -82,19 +83,19 @@ const OnlineEbookPuppyFive = () => (
         <Column widthPercentage="100%">
           <Image src={OnlineCoverPuppyFive} />
           <br />
-          <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at skabe de gode vaner fra start" />
-          <TextCenter>Denne E-bog er til dig, der:</TextCenter>
+          <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!" />
+          <TextCenter>Dette kursus er til dig, der:</TextCenter>
           <TextListMark texts={LPstep7} />
           <TextCenter>
             Uanset om du lige har fået din hvalp hjem, om din hvalp allerede er nogle uger gammel
-            eller du stadig spændt venter på dagen dit nye familiemedlem lander, så får du her
-            opskriften på at få succes med din hvalp.
+            eller du stadig <i>spændt</i> venter på dagen dit nye familiemedlem lander, så får du
+            her opskriften på at skabe en tæt og tillidsfuld relation til din hvalp.
           </TextCenter>
         </Column>
       </Row>
 
       <ButtonOnline
-        text="Jeg er klar på at få succesoplevelser med min hvalp!"
+        text="Ja tak! Jeg er klar på at få en tillidsfuld og rolig hvalp"
         onClick={() => window.open('https://ezme.io/c/x1S/kBbJ', '_blank')}
       ></ButtonOnline>
 
@@ -113,17 +114,23 @@ const OnlineEbookPuppyFive = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Prøv i stedet at forestille dig det her:" />
           <TextListArrow texts={LPstep4} />
-          <TextCenter>Sikke et drømmescenarie, ik?</TextCenter>
+          <TextCenter>
+            Sikke et drømmescenarie, ik?
+            <br />
+            Hvor dig og din hvalp kan nyde hinandens selskab og knytte bånd, fremfor at diskutere og
+            blive frustrerede!
+          </TextCenter>
           <TextCenter>
             Et scenarie du sagtens kan få til at blive til virkelighed i dag.. og igen i morgen.. og
-            dagen efter.. og dagen efter igen.. og sådan kan du fortsætte!
+            dagen efter.. og dagen efter igen.. og sådan kan du fortsætte - resten af hvalpens
+            levetid!
           </TextCenter>
         </Column>
       </Row>
 
       <Row>
         <Column widthPercentage="100%">
-          <LPHeadlinePuppy text="Med E-bogen i hånden kan du" />
+          <LPHeadlinePuppy text="Med dette kursus kan du:" />
           <TextList texts={LPstep5} />
         </Column>
       </Row>
@@ -170,24 +177,26 @@ const OnlineEbookPuppyFive = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Udover alt dette får du disse helt konkrete værktøjer:" />
+          <TitleCenter text="Udover alt dette får du også disse helt konkrete værktøjer:" />
           <TextListMark texts={LPstep8} />
-          <TextCenter>Fordelt over bogens 4 kapitler:</TextCenter>
+          <TextCenter>Fordelt over 4 letlæselige og appetitlige lektioner:</TextCenter>
           <FlexedRow>
-            <Image src={OnlinePupTwo} width="200px" height="300px" />
+            <Image src={OnlinePupTwo} width="400px" height="300px" />
             <br />
-            <Image src={OnlinePupThree} width="200px" height="300px" />
+            <Image src={OnlinePupThree} width="400px" height="300px" />
+          </FlexedRow>
+          <FlexedRow>
             <br />
-            <Image src={OnlinePupFour} width="200px" height="300px" />
+            <Image src={OnlinePupFour} width="400px" height="300px" />
             <br />
-            <Image src={OnlinePupFive} width="200px" height="300px" />
+            <Image src={OnlinePupFive} width="400px" height="300px" />
           </FlexedRow>
         </Column>
       </Row>
 
       <Row>
         <Column widthPercentage="80%">
-          <TitleCenter text="E-bogen leveres af din erfarne Dyreadfærdskonsulent" />
+          <TitleCenter text="Kurset leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
             <Image src={FrontNoOne} width="300px" height="200px" />
             <TextContainer>
@@ -201,8 +210,8 @@ const OnlineEbookPuppyFive = () => (
                 Udover holdforløb er jeg ofte på hvalpevisit hos nybagte hvalpeejere, hvor de samme
                 spørgsmål ofte opstår omkring hvalpens opdragelse, socialisering og rutiner til
                 hverdagen. Alle hvalpeejere ønsker at gøre sit bedste for deres nyeste familiemedlem
-                og undgå konflikter, få succes og knytte bånd. Herfra er inspirationen til E-bogen
-                opstået.
+                og undgå konflikter, få succes og knytte bånd. Herfra er inspirationen til dette
+                kursus opstået.
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -214,23 +223,24 @@ const OnlineEbookPuppyFive = () => (
           <TitleCenter text="Din investering i opskriften på at få den rolige familiehund du drømmer om" />
           <TitleCenter color="#008037" text="Kun 449,- kr. inkl. moms" />
           <TextCenter>
-            En investering der kan spare dig tårer, tid og penge!
+            En investering der kan spare dig frustration, tid og penge!
             <br />
-            E-bogen er letlæselig og med konkrete råd og værktøjer, som jeg kommer omkring når jeg
-            er på hvalpevisit af 1,5 times varighed til en værdi af 1.425,- kr. + kørsel til din
-            bopæl.
+            Kurset giver dig konkrete værktøjer til at skabe en positiv relation med gensidig tillid
+            mellem dig og din hvalp. Værktøjer jeg dækker på et hvalpevisit i hjemmet til en værdi
+            af 1.425,- kr. + kørsel - og som du får leveret direkte i din indbakke!
           </TextCenter>
           <TextCenter>
-            Du sparer altså snildt over tusind kroner når du med bogen i hånden ikke får brug for et
-            besøg i hjemmet! Ikke mindst kan du på under halvanden time læse bogen og gå i gang med
-            de konkrete tiltag den byder. Så du undgår konflikter fra start og har mere overskud til
-            smil over din dejlige lydige og rolige hvalp.
+            Du sparer altså snildt over tusind kroner når du med kurset ved hånden ikke får brug for
+            et besøg i hjemmet! Ikke mindst kan du ganske hurtigt og let komme gennem lektionerne og
+            gå i gang med de konkrete tiltag de byder. Så du kan undgå flere konflikter allerede fra
+            i dag, kan slippe frustrationerne og få overskud til smil, samvær og tid til at knytte
+            bånd med din dejlige hvalp.
           </TextCenter>
         </Column>
       </Row>
 
       <ButtonOnline
-        text="Ja tak! Send fluks bogen til min mail!"
+        text="Ja tak! Lad mig straks få adgang til kurset!"
         onClick={() => window.open('https://ezme.io/c/x1S/kBbJ', '_blank')}
       ></ButtonOnline>
 
@@ -241,12 +251,12 @@ const OnlineEbookPuppyFive = () => (
           <br />
           <TitleCenter text="PDF-format leveret direkte til din mail adresse!" />
           <TextCenter>
-            Straks efter køb vil du få tilsendt en mail hvor du finder et link med adgang til din
-            E-bog.
+            Straks efter køb vil du få tilsendt en mail hvor du finder et link med adgang til dit
+            kursus, som består af en skriftlig guide på 4 lektioner, udformet som en bog.
             <br />
-            Herfra kan du downloade den og gemme den på din computer, tablet eller mobil. Læs den
-            direkte på skærmen, eller print den ud og sid med den i hånden, mens du drikker en god
-            kop kaffe.
+            Via dit link kan du downloade bogen, som er en PDF fil, og gemme den på din computer,
+            tablet eller mobil. Læs den direkte på skærmen, eller print den ud og sid med den i
+            hånden, mens du drikker en god kop kaffe.
           </TextCenter>
           <TextCenter>
             Bogen er din til evigt eje og brug! Læs den lige når det passer dig - om det bliver
@@ -258,7 +268,7 @@ const OnlineEbookPuppyFive = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TitleCenter text="Stadig i tvivl om det er noget for dig og din hvalp? Her er 3 argumenter for hvorfor du kan få gavn af E-bogens indhold:" />
+          <TitleCenter text="Stadig i tvivl om det er noget for dig og din hvalp? Her er 3 argumenter for hvorfor du kan få gavn af bogens indhold:" />
           <TextListArrow texts={LPstep15} />
         </Column>
       </Row>

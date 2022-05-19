@@ -20,7 +20,7 @@ export default LPHeadlinePuppy;
 const Background = styled.div`
   display: flex;
   justify-content: center;
-  background: #004aad;
+  background: #fff;
   width: 100%;
   border-bottom: 1px solid #fff;
   ${Responsive.media.tablet`
@@ -46,7 +46,7 @@ const Container = styled.div`
 
 const Title = styled.h1`
   font-weight: normal;
-  color: #fff;
+  color: #004aad;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
   margin: 5px 0 5px 0;
   text-align: center;
