@@ -489,6 +489,13 @@ const DogSummer = () => (
                 <Td>23. juli</Td>
                 <Td>12.30 - 14.00</Td>
               </Tr>
+              <Tr>
+                <Td>Bliv 3</Td>
+                <Td>29</Td>
+                <Td>Søndag</Td>
+                <Td>24. juli</Td>
+                <Td>12.30 - 14.00</Td>
+              </Tr>
             </Tbody>
           </Table>
           <ButtonOnline
@@ -538,13 +545,6 @@ const DogSummer = () => (
               </Tr>
               <Tr>
                 <Td>Tricks 2</Td>
-                <Td>29</Td>
-                <Td>Søndag</Td>
-                <Td>24. juli</Td>
-                <Td>12.30 - 14.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Tricks 3</Td>
                 <Td>30</Td>
                 <Td>Torsdag</Td>
                 <Td>28. juli</Td>
