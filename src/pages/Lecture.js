@@ -84,21 +84,23 @@ const Lecture = () => (
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>19. maj</Td>
+                <Td>22. juni</Td>
                 <Td>Sådan kontrollerer du leg mellem hunde</Td>
                 <Td>
-                  <StyledExternal href="https://www.facebook.com/events/1047887259419793">
+                  <StyledExternal href="http://xn--lweoghund-l8a.dk/events/tema-om-hundeleg-rigtigt-og-forkert/">
                     Klik her
                   </StyledExternal>
                 </Td>
-                <Td>Nørregade 25, 8740 Brædstrup</Td>
-                <Td>19.00 - 20.30</Td>
+                <Td>Lillehøjvej 30, 8600 Silkeborg</Td>
+                <Td>18.30 - 20.30</Td>
                 <Td>125 kr. </Td>
                 <Td>
                   <font color="#D60E0E">Ledige pladser</font>
                 </Td>
                 <Td>
-                  <StyledExternal href="https://ezme.io/c/x1S/kzEB">Tilmeldingslink</StyledExternal>
+                  <StyledExternal href="http://xn--lweoghund-l8a.dk/events/tema-om-hundeleg-rigtigt-og-forkert/">
+                    Tilmeldingslink
+                  </StyledExternal>
                 </Td>
               </Tr>
             </Tbody>
@@ -108,12 +110,10 @@ const Lecture = () => (
             <LectureTableHead />
             <Tbody>
               <Tr>
-                <Td>25. maj</Td>
+                <Td>21. september</Td>
                 <Td>Hundens Sprog - Hvad fortæller den dig?</Td>
                 <Td>
-                  <StyledExternal href="https://www.facebook.com/events/1133089570589347">
-                    Klik her
-                  </StyledExternal>
+                  <StyledExternal href="https://fb.me/e/2z6oewvIh">Klik her</StyledExternal>
                 </Td>
                 <Td>Ordrupvej 59, 2920 Charlottenlund</Td>
                 <Td>18.30 - 21.30</Td>
@@ -122,7 +122,7 @@ const Lecture = () => (
                   <font color="#D60E0E">Ledige pladser</font>
                 </Td>
                 <Td>
-                  <StyledExternal href="https://ezme.io/c/x1S/ke2A">Tilmeldingslink</StyledExternal>
+                  <StyledExternal href="https://ezme.io/c/x1S/kCSS">Tilmeldingslink</StyledExternal>
                 </Td>
               </Tr>
             </Tbody>
