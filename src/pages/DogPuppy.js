@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -15,8 +14,6 @@ import {
   Row,
   TextList,
   Image,
-  // DogCourseSimple,
-  DogCourseTableHead,
   StyledLink,
   DogPuppyTestimonials,
 } from '../components';
@@ -104,7 +101,6 @@ const DogPuppy = () => {
               timerne.
             </Text>
             <br />
-
             <Title text="Skema for kommende holdstart" showHorizontalRuler />
             <TitleColor text="Din investering: 1095 kr." />
             <Text>
@@ -114,59 +110,9 @@ const DogPuppy = () => {
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
             <br />
             {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
-
-            <Title text="Maj start:" />
-            <Table>
-              <DogCourseTableHead />
-              <Tbody>
-                <Tr>
-                  <Td>Hvalp E</Td>
-                  <Td>Mandag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>18.30 - 19.15</Td>
-                  <Td>16. maj</Td>
-                  <Td>4. juli</Td>
-                  <Td>Pinse 6. juni</Td>
-                  <Td>
-                    <font color="#D60E0E">Venteliste</font>
-                  </Td>
-                </Tr>
-                <Tr>
-                  <Td>Hvalp F</Td>
-                  <Td>Tirsdag</Td>
-                  <Td>8700</Td>
-                  <Td>
-                    <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                  </Td>
-                  <Td>17.30 - 18.15</Td>
-                  <Td>24. maj</Td>
-                  <Td>5. juli</Td>
-                  <Td>--</Td>
-                  <Td>
-                    <font color="#D60E0E">Venteliste</font>
-                  </Td>
-                </Tr>
-              </Tbody>
-            </Table>
-
-            {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
-            {/* <br />
-            <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
-            <Text>
-              Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
-              ude i god tid.
-              <br />
-              Typisk fyldes mine hold et par måneder på forhånd. Næste holdstart er i{' '}
-              <b>marts 2022</b>.
-              <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du
-              velkommen til at
-              <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-            </Text> */}
+            <Title text="Efterår 2022 start:" />
+            <Iframe src="https://ezme.io/x/x1S/kCl5" />
             <br />
-
             <Title
               text="Dette siger kursisterne efter deltagelse på Hvalpehold"
               showHorizontalRuler
@@ -174,7 +120,6 @@ const DogPuppy = () => {
             <br />
             <DogPuppyTestimonials></DogPuppyTestimonials>
             <br />
-
             <Title text="Billeder fra hvalpehold Horsens" showHorizontalRuler />
             <Row>
               <Column>
@@ -226,4 +171,10 @@ const Background = styled.div`
   ${Responsive.media.tablet`
     padding: 15px;
   `}
+`;
+
+const Iframe = styled.iframe`
+  width: 100%;
+  height: 45vh;
+  border: 0;
 `;

@@ -17,6 +17,7 @@ Column.defaultProps = {
 };
 
 const ColumnContainer = styled.div`
+  display: flex;
   flex-direction: column;
   margin: 10px 0px;
   width: ${(props) => props.width};
