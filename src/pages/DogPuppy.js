@@ -177,4 +177,7 @@ const Iframe = styled.iframe`
   width: 100%;
   height: 45vh;
   border: 0;
+  ${Responsive.media.tablet`
+    height: 55vh;
+  `}
 `;
