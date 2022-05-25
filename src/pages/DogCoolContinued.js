@@ -33,13 +33,6 @@ import {
   CoolAgainNine,
 } from '../assets';
 
-// const CoolContinuedBenefits = [
-//   'Personlig sparring omkring din hund og jeres hverdag sammen',
-//   'Hele 7 ugers træning med ugentligt møde',
-//   'Max 4 andre holdkammerater, så der er god tid til dig',
-//   'Udleveret en klikker til valgfrit brug i træningen',
-// ];
-
 const ContinuedCoolProgram = [
   'Indlæring af at finde ro og slappe af, når i skal lave ”ingenting” sammen',
   'Rolige gåture: Øvelse i at gå væk fra andre hunde',
@@ -54,7 +47,7 @@ const ContinuedCoolProgram = [
 const CoolEnvironmentBenefits = [
   'Personlig sparring på at finde ro i nye områder',
   'Personlig sparring på at passere fremmede hunde og mennesker',
-  'Hele 6 ugers træning med mødegang hveranden uge',
+  'Hele 4 mødegange på en ny lokation hver gang i Horsens og omegn',
   'Max 4 andre holdkammerater, så der er god tid til dig',
 ];
 
@@ -75,8 +68,9 @@ const DogCoolContinued = () => (
           <Text>
             {/* Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på Helt-Cool kurset. */}
             På miljøholdet fokuseres der på de kendte Cool-principper med kontakt og ro, som udøves
-            i <u>nye miljøer</u> over 6 lektioner af 60 min. pr. lektion. Vi mødes hver 14. dag på
-            dette hold og på en ny lokation i Horsens og omegn til hver lektion.
+            i <u>nye miljøer</u> over 4 lektioner af op til 60 min. pr. lektion. Holdet udbydes i to
+            udgaver, hvor du kan vælge at have mødegang hver uge eller hver 14. dag. Dog altid på en
+            ny lokation i Horsens og omegn til hver lektion.
           </Text>
           <Text>
             Holdets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de
@@ -116,10 +110,10 @@ const DogCoolContinued = () => (
           <br />
 
           <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr." />
+          <TitleColor text="Din investering: 795 kr." />
           <Text>
-            i at kunne nyde jeres daglige gåture, med en hund der er helt-cool, selv når i kommer
-            nye steder.
+            i at kunne nyde jeres daglige gåture, med en hund der kan finde ro og holde kontakt,
+            selv når i kommer nye steder.
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
