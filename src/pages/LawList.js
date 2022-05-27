@@ -16,13 +16,13 @@ import '../components/table/TableCss.css';
 const LawList = () => (
   <OnlineLaw>
     <MetaLaw />
-    <LandingpageHeadline text="Handelsbetingelser for Svanes Onlinekurser ved Svanes Dyr" />
+    <LandingpageHeadline text="Handelsbetingelser for Svanes Dyr v/Sabrina Svane" />
     <Background>
       <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Virksomhedsoplysninger" showHorizontalRuler />
           <TextCenter>
-            SvanesOnlinekurser administreres og ejes af Svanes Dyr v/Sabrina Svane
+            Svanes Dyr v/Sabrina Svane administreres og ejes af Sabrina Svane
             <br />
             Svanes Dyr
             <br />
@@ -78,25 +78,52 @@ const LawList = () => (
 
       <Row>
         <Column widthPercentage="100%">
+          <TitleCenter text="Levering af foredrag" showHorizontalRuler />
+          <TextCenter>
+            Levering af kurset sker på pågældende dato oplyst for foredraget. Du vil modtage en mail
+            straks efter betaling, hvori du kan finde dine oplysninger for adgang til foredraget.
+          </TextCenter>
+        </Column>
+      </Row>
+
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Levering af holdforløb" showHorizontalRuler />
+          <TextCenter>
+            Levering af kurset sker på de pågældende datoer oplyst for det enkelte holdforløb. Du
+            vil modtage en mail straks efter betaling, hvori du kan finde dine oplysninger for
+            adgang til holdforløbet. 5 dage før første mødegang på holdforløbet vil du modtage et
+            link med adgang til dit online-bibliotek.
+          </TextCenter>
+        </Column>
+      </Row>
+
+      <Row>
+        <Column widthPercentage="100%">
           <TitleCenter text="Fortrydelsesret" showHorizontalRuler />
           <TextCenter>
-            Som hovedregel har du fortrydelsesret i 7 dage efter købet, hvis du ikke føler kursets
-            indhold matcher dig og din hund. Perioden regnes fra den dag du modtager adgang til
-            kurset. Fortrydelsen skal anmeldes til virksomheden senest 7 dage efter købet. Derefter
-            ydes der ingen returret. Tilbagebetaling er mulig, såfremt du kontakter os indenfor
-            tidsfristen.
+            Som hovedregel har du fortrydelsesret i 7 dage efter købet af et onlinekursus, hvis du
+            ikke føler onlinekursets indhold matcher dig og din hund. Perioden regnes fra den dag du
+            modtager adgang til kurset. Fortrydelsen skal anmeldes til virksomheden senest 7 dage
+            efter købet. Derefter ydes der ingen returret. Tilbagebetaling er mulig, såfremt du
+            kontakter os indenfor tidsfristen.
           </TextCenter>
           <TextCenter>
-            Onlinekurset betragtes som en handelsvare. Det betyder du må kigge materialet igennem og
-            se om kursets indhold matcher dig og din hund. Har du downloadet kursets materiale,
+            Onlinekursrnet betragtes som en handelsvare. Det betyder du må kigge materialet igennem
+            og se om kursets indhold matcher dig og din hund. Har du downloadet kursets materiale,
             herunder tekstfiler, lydfiler eller videofiler, betragtes onlinekurset som brugt,
             hvilket betyder, at du ved fortrydelse af købet kun får en del eller intet af
             købsbeløbet retur. For at modtage hele købsbeløbet retur må du altså gøre det samme, som
             man kan i en fysisk butik. Du må afprøve varen, men ikke tage den i egentlig brug.
           </TextCenter>
           <TextCenter>
-            På enkeltstående kurser kan der gælde en anden frist for fortrydelsesret, dette vil da
-            tydeligt fremgå på salgssiden for det enkelte onlinekursus.
+            På enkeltstående onlinekurser, foredrag og holdforløb kan der gælde en anden frist for
+            fortrydelsesret, dette vil da tydeligt fremgå på salgssiden for det enkelte
+            onlinekursus.
+          </TextCenter>
+          <TextCenter>
+            Der er ingen fortrydelsesret ved køb af billet til foredrag eller plads på holdforløb.
+            Tilmelding og betaling er her bindende, hvorfor tilbagebetaling ikke er mulig.
           </TextCenter>
         </Column>
       </Row>
@@ -105,11 +132,12 @@ const LawList = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Købsbetingelser" showHorizontalRuler />
           <TextCenter>
-            Alle rettigheder til onlinekurserne, herunder tekst- og lydfiler, videofiler, samt
-            workshops og events tilhører Svanes Dyr (CVR 35903100). Alt materiale er beskyttet af
-            copyright lovgivning, og må derfor ikke kopieres, deles, sælges, uddeles, plagieres
-            eller derudover anvendes uden skriftlig tilladelse fra indehaver Sabrina Svane. Køber
-            opnår udelukkende rettigheder til at anvende købet til personligt brug.
+            Alle rettigheder til onlinekurserne og online-biblioteket, herunder tekst- og lydfiler,
+            videofiler, samt workshops og events tilhører Svanes Dyr (CVR 35903100). Alt materiale
+            er beskyttet af copyright lovgivning, og må derfor ikke kopieres, deles, sælges,
+            uddeles, plagieres eller derudover anvendes uden skriftlig tilladelse fra indehaver
+            Sabrina Svane. Køber opnår udelukkende rettigheder til at anvende købet til personligt
+            brug.
           </TextCenter>
           <TextCenter>
             De digitale produkter og materialer skal behandles fortroligt og må ikke udleveres eller
@@ -130,12 +158,12 @@ const LawList = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Persondatapolitik" showHorizontalRuler />
           <TextCenter>
-            I forbindelse med din tilmelding til og køb af onlinekursus, der drives af virksomheden,
-            vil dine almindelige personoplysninger opbevares. Disse oplysninger indeholder dit fulde
-            navn, adresse, telefonnummer, mailadresse og andre oplysninger, som der er angivet i
-            forbindelse med tilmelding og køb. Du kan til enhver tid bede mig om at slette disse
-            oplysninger. Visse oplysninger gemmes i 5 år i henhold til dansk regnskabslovgivning.
-            Alle data du angiver gemmes i en krypteret database.
+            I forbindelse med din tilmelding til og køb af onlinekursus, foredrag eller holdforløb,
+            der drives af virksomheden, vil dine almindelige personoplysninger opbevares. Disse
+            oplysninger indeholder dit fulde navn, adresse, telefonnummer, mailadresse og andre
+            oplysninger, som der er angivet i forbindelse med tilmelding og køb. Du kan til enhver
+            tid bede mig om at slette disse oplysninger. Visse oplysninger gemmes i 5 år i henhold
+            til dansk regnskabslovgivning. Alle data du angiver gemmes i en krypteret database.
           </TextCenter>
         </Column>
       </Row>
