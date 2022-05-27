@@ -25,7 +25,7 @@ import {
   PlayThree,
   PlayFour,
   PlayFive,
-  PlaySix,
+  PuppyContinuedFive,
   PlaySeven,
   PlayEight,
   PlayNine,
@@ -160,7 +160,7 @@ const DogSocial = () => {
                 <Image src={PlayFive} />
               </Column>
               <Column>
-                <Image src={PlaySix} />
+                <Image src={PuppyContinuedFive} />
               </Column>
             </Row>
           </Column>

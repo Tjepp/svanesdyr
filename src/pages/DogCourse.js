@@ -17,7 +17,7 @@ import {
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 import DogMenu from '../components/menu/DogMenu';
-import { PlayOne, PlayTwo, PlayThree, PlayFour, PlayFive, PlaySix } from '../assets';
+import { PlayOne, PlayTwo, PlayThree, PlayFour, PlayFive, PuppyContinuedFive } from '../assets';
 
 const DogCourse = () => (
   <Page>
@@ -119,7 +119,7 @@ const DogCourse = () => (
               <Image src={PlayFive} />
             </Column>
             <Column>
-              <Image src={PlaySix} />
+              <Image src={PuppyContinuedFive} />
             </Column>
           </Row>
         </Column>
