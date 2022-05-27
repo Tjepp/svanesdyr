@@ -90,6 +90,7 @@ const App = () => {
         <Route path="/hundehold/socialisering" element={<DogSocial />} />
         <Route path="/hundehold/negleklipkursus" element={<DogNailClip />} />
         <Route path="/sommerhund" element={<DogSummer />} />
+        <Route path="/hundehold/tricks" element={<DogCircle />} />
         <Route path="/hundehold/empowerment" element={<DogEmpower />} />
         <Route path="/hundehold/noseworkintro" element={<DogNoseWork />} />
         <Route path="/hestetraening" exact element={<Horse />} />
