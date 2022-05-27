@@ -117,6 +117,8 @@ const LawPrivate = () => (
             <b>Mailhosting:</b> One.com, tlf. 32 74 16 03
             <br />
             <b>Onlinekursus platform og betalingsservice:</b> EasyMe, mail support@easyme.dk
+            <br />
+            <b>Regnskabsprogram og betalingsservice:</b> Dinero, mail support@dinero.dk
           </TextCenter>
           <TextCenter>
             Det er mit ansvar at sikre, at dine personoplysninger behandles ordentligt. Derfor
