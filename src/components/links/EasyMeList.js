@@ -18,7 +18,7 @@ const EasyMeList = ({ src }) => {
   return (
     <React.Fragment>
       <script dangerouslySetInnerHTML={{ __html: scriptToInject }} />
-      <link rel="stylesheet" href="https://secure.easyme.biz/connect/v2/loader.css"></link>
+      <link rel="stylesheet" href="https://secure.easyme.biz/connect/v2/loader.css" />
       <section className="ezme-loader">
         <div className="ezme-loader__title">
           <svg className="ezme-loader__svg" viewBox="0 0 100 100" width="20" height="20">
