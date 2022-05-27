@@ -49,7 +49,7 @@ export { default as PlayTwo } from './HoldLeg2.jpg';
 export { default as PlayThree } from './HoldLeg3.jpg';
 export { default as PlayFour } from './HoldLeg4.jpg';
 export { default as PlayFive } from './HoldLeg5.jpg';
-export { default as PlaySix } from './HoldLeg6.JPG';
+export { default as PlaySix } from './HoldLeg6.jpg';
 export { default as PlaySeven } from './HoldLeg7.jpg';
 export { default as PlayEight } from './HoldLeg8.jpg';
 export { default as PlayNine } from './HoldLeg9.jpg';

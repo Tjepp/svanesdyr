@@ -34,6 +34,7 @@ import {
   DogRecall,
   DogSocial,
   DogEmpower,
+  DogCircle,
   DogSummer,
   DogCoolFriend,
   DogNoseWork,
