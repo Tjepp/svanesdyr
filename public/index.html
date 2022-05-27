@@ -19,13 +19,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    
+
     <script type="text/javascript">
-      (function(e,m) {
-      if(e.getElementById(m))return;var s=document.createElement('script');s.id=m;
-      s.src='https://secure.easyme.biz/connect/v2/client.js';s.async=true;
-      var el = document.getElementsByTagName('script')[0];el.parentNode.insertBefore(s,el);
-      })(document, 'easyme-connect-kMj1RCBSOhIGq2lrpNHy');
+      window.easyMe = function (e, m) {
+        if (e.getElementById(m)) return;
+        var s = document.createElement('script');
+        s.id = m;
+        s.src = 'https://secure.easyme.biz/connect/v2/client.js';
+        s.async = true;
+        var el = document.getElementsByTagName('script')[0];
+        el.parentNode.insertBefore(s, el);
+      };
     </script>
 
     <div id="fb-root"></div>
@@ -52,7 +56,7 @@
 
       gtag('config', 'AW-964571159');
     </script>
-    <link rel="stylesheet" href="https://secure.easyme.biz/connect/v2/loader.css">
+    <link rel="stylesheet" href="https://secure.easyme.biz/connect/v2/loader.css" />
 
     <title>Svanesdyr</title>
   </head>
