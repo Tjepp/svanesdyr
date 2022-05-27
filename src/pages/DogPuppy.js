@@ -134,6 +134,7 @@ const DogPuppy = () => {
                 <img
                   src="https://secure.easyme.biz/connect/v2/loader.svg"
                   className="ezme-loader__brand"
+                  alt=""
                 />
               </a>
             </section>
