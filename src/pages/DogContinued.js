@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -16,9 +15,8 @@ import {
   TextList,
   Image,
   StyledLink,
-  // DogCourseSimple,
-  DogCourseTableHead,
-  // DogCourseYearShift
+  ContactPopUp,
+  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -110,7 +108,7 @@ const DogContinued = () => (
           </Text>
           <br />
 
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
+          <Title text="Holdstart for Hvalpe-Fortsætterholdet" showHorizontalRuler />
           <TitleColor text="Din investering: 1095 kr." />
           <Text>
             i at få en lydig og opmærksom unghund, der kan holde fokus, selv med teenagehjernen i
@@ -118,43 +116,16 @@ const DogContinued = () => (
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
-          {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
-
-          <Title text="Maj start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter E</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>16. maj</Td>
-                <Td>4. juli</Td>
-                <Td>Pinse 6. juni</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
-          {/* <br /><TitleColor text="2021 hold er under planlægning."/> */}
-          {/* <br />
-          <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
+          <Title text="Kommende hold:" />
+          <EasyMeList src="https://ezme.io/x/x1S/k3z3" />
+          <br />
           <Text>
-            Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
-            ude i god tid.
-            <br />
-            Mine hold fyldes typisk et par måneder på forhånd. Næste holdstart er i{' '}
-            <b>marts 2022</b>.
-            <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
-            til at
-            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-          </Text> */}
+            Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
+            jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
+            dit holdønske her:
+          </Text>
+          <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
+          <br />
           <br />
 
           {/* <Title text="Fortsætterhold Trin2+" showHorizontalRuler />
@@ -173,28 +144,6 @@ const DogContinued = () => (
           <Text>
             <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
           </Text>
-
-          <Title text="Maj start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Fortsætter 2D</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>10.00 - 10.45</Td>
-                <Td>4. maj</Td>
-                <Td>22. juni</Td>
-                <Td>18. maj</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
           <br /> */}
 
           <Title text="Billeder fra fortsætterhold" showHorizontalRuler />

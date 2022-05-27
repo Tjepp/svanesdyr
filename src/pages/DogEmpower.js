@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -13,10 +12,10 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
+  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -89,75 +88,14 @@ const DogEmpower = () => (
           <TextList texts={FitBenefits} />
           <br />
 
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
+          <Title text="Holdstart for Fit Empowerment" showHorizontalRuler />
           <TitleColor text="Din investering: 1095 kr." />
           <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
-          <Title text="Alle igangværende hold er desværre fyldt op." />
-          {/* 
-          <TitleColor text="Hold startes op på efterspørgsel." />
-          <Text>
-            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text> */}
-
-          {/* <Title text="Marts start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Fit Empower A</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>11.30 - 12.15</Td>
-                <Td>13. marts</Td>
-                <Td>8. maj</Td>
-                <Td>10. april</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-
-          <Title text="Fit Fortsætterhold:" />
-          <Text>Mødegang hver 14. dag:</Text>
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Fit 2A</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>19.30 - 20.15</Td>
-                <Td>5. april</Td>
-                <Td>28. juni</Td>
-                <Td>--</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table> */}
-
+          <Title text="Hold startes op på efterspørgsel." />
+          <ContactPopUp text="Kontakt mig ved interesse" />
           <br />
-          <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
-          <Text>
-            Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
-            ude i god tid.
-            <br />
-            Typisk fyldes mine hold et par måneder på forhånd. Næste holdstart er i{' '}
-            <b>august 2022</b>.
-            <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
-            til at
-            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-          </Text>
           <br />
 
           <Title text="Billeder fra Fit Empowerment" showHorizontalRuler />

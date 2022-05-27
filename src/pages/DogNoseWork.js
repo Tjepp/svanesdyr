@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -13,8 +12,7 @@ import {
   BreadCrumps,
   Row,
   TextList,
-  StyledLink,
-  DogCourseTableHead,
+  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -103,36 +101,12 @@ const DogNoseWork = () => (
           </Text>
           <br />
 
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
+          <Title text="Holdstart for Nose Work" showHorizontalRuler />
           <TitleColor text="Din investering: 1095 kr." />
           <Text>i at få en søgeglad hund, som aktivt og selvstændigt kan bruge næsen!</Text>
           <br />
-          {/* <TitleColor text="Hold startes op på efterspørgsel." />
-          <Text>
-            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text> */}
-
-          <Title text="Januar 2022 start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Nose Work Intro</Td>
-                <Td>Tirsdag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>19.30 - 20.30</Td>
-                <Td>25. jan</Td>
-                <Td>19. april</Td>
-                <Td>Uge 12</Td>
-                <Td>
-                  <font color="#D60E0E">2 pladser</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
+          <Title text="Hold startes op på efterspørgsel." />
+          <ContactPopUp text="Kontakt mig ved interesse" />
 
           <br />
         </Column>

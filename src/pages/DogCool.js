@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -13,12 +12,12 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // DogCourseSimple,
-  DogCourseTheory,
   TextList,
   Image,
   StyledLink,
   DogCoolTestimonials,
+  EasyMeList,
+  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -118,7 +117,7 @@ const DogCool = () => (
           </Text>
           <br />
 
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
+          <Title text="Holdstart for Helt-Cool kurset" showHorizontalRuler />
           <TitleColor text="Din investering: 1295 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture og få gæster på besøg, med en hund der er helt-cool
@@ -126,61 +125,18 @@ const DogCool = () => (
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
-          {/* <Title text="Alle igangværende hold er desværre fyldt op." /> */}
-
-          <Title text="Maj start:" />
-          <Table>
-            <DogCourseTheory />
-            <Tbody>
-              <Tr>
-                <Td>Cool D</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>12.30 - 13.15</Td>
-                <Td>8. maj</Td>
-                <Td>15. maj</Td>
-                <Td>10. juli</Td>
-                <Td>29. maj + 26. juni</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
-              {/* <Tr>
-                <Td>Cool E</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>17.30 - 18.15</Td>
-                <Td>16. maj</Td>
-                <Td>23. maj</Td>
-                <Td>4. juli</Td>
-                <Td>Pinse 6. juni</Td>
-                <Td>
-                  <font color="#D60E0E">4 pladser</font>
-                </Td>
-              </Tr> */}
-            </Tbody>
-          </Table>
-
-          {/* <br />
-          <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
-          <Text>
-            Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
-            ude i god tid.
-            <br />
-            Typisk fyldes mine hold et par måneder på forhånd. Næste holdstart er i{' '}
-            <b>marts 2022</b>.
-            <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
-            til at
-            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-          </Text> */}
+          <Title text="Kommende hold:" />
+          <EasyMeList src="https://ezme.io/x/x1S/k3zd" />
           <br />
+          <Text>
+            Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
+            jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
+            dit holdønske her:
+          </Text>
+          <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
 
+          <br />
+          <br />
           <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler />
           <br />
           <DogCoolTestimonials></DogCoolTestimonials>

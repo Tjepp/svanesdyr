@@ -16,6 +16,7 @@ import {
   TextList,
   Image,
   StyledLink,
+  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -87,36 +88,15 @@ const DogRecall = () => (
           <TextList texts={RecallBenefits} />
           <br />
 
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
+          <Title text="Holdstart for Indkaldskurset" showHorizontalRuler />
           <TitleColor text="Din investering: 1095 kr." />
           <Text>i at få et indkald der virker, så i ubekymret kan nyde jeres ture ude.</Text>
           <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
           <br />
-          <TitleColor text="Hold startes op på efterspørgsel." />
-          <Text>
-            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text>
-          {/* <Table>
-            <DogCourseSimple />
-            <Tbody>
-              <Tr>
-                <Td>Indkald A</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>16.30 - 17.15</Td>
-                <Td>1. marts</Td>
-                <Td>12. april</Td>
-                <Td>
-                  <font color="#D60E0E">4 pladser</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table> */}
+          <Title text="Hold startes op på efterspørgsel." />
+          <ContactPopUp text="Kontakt mig ved interesse" />
           <br />
 
           <Title text="Indkald Miljøhold" showHorizontalRuler />
@@ -132,34 +112,7 @@ const DogRecall = () => (
             <b>Træningsprogram for Miljøholdet</b>
           </Text>
           <TextList texts={ContinuedRecallProgram} />
-
           <br />
-          <TitleColor text="Hold startes op på efterspørgsel." />
-          <Text>
-            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text>
-
-          {/* <Title text="April start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Miljø-kald A</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>13.30 - 14.15</Td>
-                <Td>18. april</Td>
-                <Td>27. juni</Td>
-                <Td>Lige uger</Td>
-                <Td>
-                  <font color="#D60E0E">*Venteliste*</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table> */}
           <br />
 
           <Title text="Billeder fra Indkaldskursus" showHorizontalRuler />

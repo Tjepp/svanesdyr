@@ -32,6 +32,7 @@ import {
   DogCool,
   DogCoolContinued,
   DogRecall,
+  DogSocial,
   DogEmpower,
   DogSummer,
   DogCoolFriend,
@@ -84,6 +85,7 @@ const App = () => (
       <Route path="/hundehold/fortsatcool" element={<DogCoolContinued />} />
       <Route path="/hundehold/venligvovse" element={<DogCoolFriend />} />
       <Route path="/hundehold/indkald" element={<DogRecall />} />
+      <Route path="/hundehold/socialisering" element={<DogSocial />} />
       <Route path="/hundehold/negleklipkursus" element={<DogNailClip />} />
       <Route path="/sommerhund" element={<DogSummer />} />
       <Route path="/hundehold/empowerment" element={<DogEmpower />} />

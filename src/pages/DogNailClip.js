@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -16,7 +15,7 @@ import {
   TextList,
   Image,
   StyledLink,
-  DogCourseTableHead,
+  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -110,7 +109,7 @@ const DogNailClip = () => (
           </Text> */}
           <br />
 
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
+          <Title text="Holdstart for Negleklipkurset" showHorizontalRuler />
           <TitleColor text="Din investering: 1095 kr." />
           <Text>
             i at kunne pleje din hunds negle <u>selv</u> og uden bekymring, da det bliver
@@ -119,36 +118,12 @@ const DogNailClip = () => (
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
 
-          {/* <br />
-          <TitleColor text="Hold startes op på efterspørgsel." />
-          <Text>
-            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text> */}
-
-          <Title text="Maj start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>Negleklip A</Td>
-                <Td>Søndag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>11.30 - 12.15</Td>
-                <Td>15. maj</Td>
-                <Td>3. juli</Td>
-                <Td>29. maj + 26. juni</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
+          <br />
+          <Title text="Hold startes op på efterspørgsel." />
+          <ContactPopUp text="Kontakt mig ved interesse" />
 
           <br />
-
+          <br />
           <Title text="Billeder af neglekliplegen i aktion" showHorizontalRuler />
           <Row>
             <Column>

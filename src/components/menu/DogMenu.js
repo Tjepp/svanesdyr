@@ -9,11 +9,12 @@ const DogMenu = () => (
     <StyledMenuLinkWithIcon link="/hundehold/hvalpfortsat" text="Fortsætterhold" />
     <StyledMenuLinkWithIcon link="/hundehold/coolhold" text="Helt-Cool" />
     <StyledMenuLinkWithIcon link="/hundehold/fortsatcool" text="Miljø hold" />
+    <StyledMenuLinkWithIcon link="/hundehold/socialisering" text="Socialiseringshold" />
+    <StyledMenuLinkWithIcon link={'/sommerhund'} text={'Sommerferietræning 2022'} />
     {/* <StyledMenuLinkWithIcon link={"/hundehold/venligvovse"}  text={"Venlig-Vovse"}/> */}
     {/* <StyledMenuLinkWithIcon link="/hundehold/indkald" text="Indkaldskursus" /> */}
-    <StyledMenuLinkWithIcon link="/hundehold/negleklipkursus" text="Negleklipkursus" />
-    <StyledMenuLinkWithIcon link={'/hundehold/empowerment'} text={'Fit Empowerment'} />
-    <StyledMenuLinkWithIcon link={'/sommerhund'} text={'Sommerferietræning 2022'} />
+    {/* <StyledMenuLinkWithIcon link="/hundehold/negleklipkursus" text="Negleklipkursus" /> */}
+    {/* <StyledMenuLinkWithIcon link={'/hundehold/empowerment'} text={'Fit Empowerment'} /> */}
     {/* <StyledMenuLinkWithIcon link="/hundehold/noseworkintro" text="Nose Work Intro" /> */}
   </MenuContainer>
 );

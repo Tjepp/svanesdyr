@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -14,13 +13,11 @@ import {
   TextList,
   BreadCrumps,
   Row,
-  // DogCourseSimple,
-  // Image,
+  ContactPopUp,
   StyledLink,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-// import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolFive, CoolSix } from '../assets';
 
 const CoolBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen',
@@ -103,8 +100,8 @@ const DogCoolFriend = () => (
           <TextList texts={CoolBenefits} />
           <br />
 
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
-          <TitleColor text="Din investering: 1195 kr." />
+          <Title text="Holdstart for Venlig-Vovse" showHorizontalRuler />
+          <TitleColor text="Din investering: 1295 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture uden bekymring, med en hund der er tryg omkring
             andre.
@@ -113,10 +110,8 @@ const DogCoolFriend = () => (
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
 
           <br />
-          <TitleColor text="Hold startes op på efterspørgsel." />
-          <Text>
-            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text>
+          <Title text="Hold startes op på efterspørgsel." />
+          <ContactPopUp text="Kontakt mig ved interesse" />
           {/* <Table>
             <DogCourseSimple />
             <Tbody>

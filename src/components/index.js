@@ -9,7 +9,7 @@ export { default as Landingpage } from './layout/Landingpage';
 export { default as OnlineLaw } from './layout/OnlineLaw';
 export { default as LandingpageOnline } from './layout/LandingpageOnline';
 export { default as TextContainer } from './layout/TextContainer';
-export { default as StyledA } from './links/StyledA';
+export { default as EasyMeList } from './links/EasyMeList';
 export { default as StyledB } from './links/StyledB';
 export { default as StyledExternal } from './links/StyledExternal';
 export { default as StyledLink } from './links/StyledLink';

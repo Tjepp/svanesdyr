@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-// import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -13,11 +12,11 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // DogCourseSimple,
-  // DogCourseTableHead,
   TextList,
   Image,
   StyledLink,
+  EasyMeList,
+  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -64,13 +63,12 @@ const DogCoolContinued = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Helt-Cool MILJØ hold i Horsens" showHorizontalRuler />
+          <Title text="Miljøhold i Horsens" showHorizontalRuler />
           <Text>
-            {/* Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på Helt-Cool kurset. */}
-            På miljøholdet fokuseres der på de kendte Cool-principper med kontakt og ro, som udøves
-            i <u>nye miljøer</u> over 4 lektioner af op til 60 min. pr. lektion. Holdet udbydes i to
-            udgaver, hvor du kan vælge at have mødegang hver uge eller hver 14. dag. Dog altid på en
-            ny lokation i Horsens og omegn til hver lektion.
+            På miljøholdet fokuseres der på mine kendte Cool-principper med kontakt og ro, som
+            udøves i <u>nye miljøer</u> over 4 lektioner af op til 60 min. pr. lektion. Holdet
+            udbydes i to udgaver, hvor du kan vælge at have mødegang hver uge eller hver 14. dag.
+            Dog altid på en ny lokation i Horsens og omegn til hver lektion.
           </Text>
           <Text>
             Holdets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de
@@ -96,20 +94,10 @@ const DogCoolContinued = () => (
             Ved deltagelse på Miljøholdet får du:
           </Text>
           <TextList texts={CoolEnvironmentBenefits} />
-          <Text>
-            Der tages hensyn til sensitive hunde og praktiseres god afstand.
-            {/* Til de legeglade hunde er der mulighed for lidt{' '}
-            <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> efter timen. */}
-          </Text>
-          <Text>
-            Miljøholdet udbydes til faste kursister og annonceres nødvendigvis ikke her på siden.
-            <br />
-            Har du deltaget på Cool-hold tidligere hos mig og kunne tænke dig at være med på
-            miljøholdet? Så<StyledLink to="/kontakt"> send mig en mail</StyledLink> med dit ønske.
-          </Text>
+          <Text>Der tages hensyn til sensitive hunde og praktiseres god afstand.</Text>
           <br />
 
-          <Title text="Skema for kommende holdstart" showHorizontalRuler />
+          <Title text="Holdstart for Miljøholdet" showHorizontalRuler />
           <TitleColor text="Din investering: 795 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture, med en hund der kan finde ro og holde kontakt,
@@ -117,7 +105,17 @@ const DogCoolContinued = () => (
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
-          <Title text="Alle igangværende hold er desværre fyldt op." />
+          <Title text="Kommende hold:" />
+          <EasyMeList src="https://ezme.io/x/x1S/k3zy" />
+          <br />
+          <Text>
+            Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
+            jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
+            dit holdønske her:
+          </Text>
+          <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
+          <br />
+          <br />
 
           {/* <Title text="Januar start:" />
           <Table>
@@ -152,40 +150,6 @@ const DogCoolContinued = () => (
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
           </Text> */}
-          <br />
-
-          {/* <Title text="Helt-Cool Miljøhold" showHorizontalRuler />
-          <Text font color="#D60E0E">
-            Træning i nye miljøer for <b>tidligere</b> Cool-kursister
-          </Text>
-          <Text>
-            Efter at have deltaget på de to første kursusforløb er der mulighed for at tage
-            træningen med ud i hverdagen.
-            <br />
-          </Text> */}
-
-          {/* <Title text="Marts start:" />
-          <Table>
-            <DogCourseTableHead />
-            <Tbody>
-              <Tr>
-                <Td>MiljøCool B</Td>
-                <Td>Mandag</Td>
-                <Td>8700</Td>
-                <Td>
-                  <StyledLink to="/kontakt">Kontakt mig</StyledLink>
-                </Td>
-                <Td>20.00 - 21.00</Td>
-                <Td>7. marts</Td>
-                <Td>30. maj</Td>
-                <Td>18. april</Td>
-                <Td>
-                  <font color="#D60E0E">Venteliste</font>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table> */}
-          <br />
 
           <Title text="Stemningsbilleder fra Miljø holdene" showHorizontalRuler />
           <Row>

@@ -17,6 +17,7 @@ import {
   StyledLink,
   DogPuppyTestimonials,
   ContactPopUp,
+  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -111,33 +112,8 @@ const DogPuppy = () => {
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
             <br />
             <Title text="Kommende hold:" />
-            <link rel="stylesheet" href="https://secure.easyme.biz/connect/v2/loader.css" />
-            <section className="ezme-loader">
-              <div className="ezme-loader__title">
-                <svg className="ezme-loader__svg" viewBox="0 0 100 100" width="20" height="20">
-                  <circle cx="50" cy="50" r="42" transform="rotate(-90,50,50)" />
-                </svg>
-                <div>Henter datoer...</div>
-              </div>
-              <div className="ezme-loader__subtitle">
-                Problemer?
-                <a
-                  href="https://ezme.io/x/x1S/kCl5"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ezme-loader__link"
-                >
-                  Åbn listen i nyt vindue
-                </a>
-              </div>
-              <a href="https://easyme.dk/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="https://secure.easyme.biz/connect/v2/loader.svg"
-                  className="ezme-loader__brand"
-                  alt=""
-                />
-              </a>
-            </section>
+            <EasyMeList src="https://ezme.io/x/x1S/kCl5" />
+
             <br />
             <Text>
               Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
