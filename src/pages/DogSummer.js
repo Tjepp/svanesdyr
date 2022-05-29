@@ -569,7 +569,7 @@ const DogSummer = () => (
       {/* MILJØ */}
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Miljø træning for alle aldre" />
+          <TitleCenter text="Miljøtræning for alle aldre" />
           <FlexedRow>
             <Image src={CoolAgainOne} width="300px" height="200px" />
             <TextContainer>
