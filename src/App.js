@@ -70,7 +70,7 @@ library.add(
 
 const App = () => {
   return (
-    <BrowserRouter forceRefresh={true}>
+    <BrowserRouter>
       <ScrollToTop />
       <Routes>
         <Route path="/" exact element={<Home />} />
