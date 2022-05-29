@@ -31,9 +31,9 @@ const EasyMeList = ({ src }) => {
     //document.body.appendChild(script);
     document.head.appendChild(script);
 
-    // return () => {
-    //   document.body.removeChild(script);
-    // };
+    return () => {
+      document.head.removeChild(script);
+    };
   });
 
   return (
