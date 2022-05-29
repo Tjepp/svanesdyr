@@ -54,7 +54,7 @@ const DogCoolContinued = () => (
   <Page>
     <MetaDogCoolContinued />
     <Banner text="Hundehold i Horsens">
-      <BreadCrumps currentPage="Miljø Hold" />
+      <BreadCrumps currentPage="MiljøHold" />
     </Banner>
     <Background>
       <Row marginTop="25px" marginBottom="45px">
@@ -151,7 +151,7 @@ const DogCoolContinued = () => (
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
           </Text> */}
 
-          <Title text="Stemningsbilleder fra Miljø holdene" showHorizontalRuler />
+          <Title text="Stemningsbilleder fra Miljøholdene" showHorizontalRuler />
           <Row>
             <Column>
               <Image src={CoolAgainOne} />
