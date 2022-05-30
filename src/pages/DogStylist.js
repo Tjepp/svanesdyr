@@ -154,7 +154,10 @@ const DogStylist = () => (
             i at kunne pleje din hunds pels og negle <u>selv</u> eller sende den til hudnefrisøren
             uden bekymring, da det bliver ren kvalitetstid fremfor overgreb.
           </Text>
-          <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+          <Text italic>
+            Bemærk betaling er bindende og beløb refunderes ikke. Du kan vælge at betale over 3
+            måneder.
+          </Text>
           <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k37A" />
