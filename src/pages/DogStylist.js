@@ -52,7 +52,7 @@ const StylistBenefits = [
   'Hele 5 fysiske mødegange med individuel rådgivning i jeres træning',
   'Max 4 andre holdkammerater, så der er god tid til dig og din hund',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
-  'Adgang til lukke facebookgruppe, hvor du ubegrænset kan stille spørgsmål til din hund og jeres træning hjemme',
+  'Adgang til lukket facebookgruppe, hvor du ubegrænset kan stille spørgsmål til din hund og jeres træning hjemme',
 ];
 
 const DogStylist = () => (
@@ -116,6 +116,13 @@ const DogStylist = () => (
           <TextList texts={StylistProgram} />
           <Text>Din adfærdsbehandler Sabrina Svane vil desuden dække følgende emner:</Text>
           <TextList texts={TrainerProgram} />
+          <Text>
+            Udover fysisk fremmøde på træningspladsen, vil du få adgang til en lukket facebookgruppe
+            få dage før vi mødes første gang. Her kan du ubegrænset stille spørgsmål til din hund og
+            jeres træning hjemme under hele forløbet, og lægge videoer op for personlig feedback.
+            Denne gruppe lukkes når holdet afsluttes. Du vil stadig kunne tilgå materialet derinde
+            efter afslutning, men ikke slå kommentarer op længere.
+          </Text>
           <Text>
             <b>Dine undervisere</b>
             <br />
