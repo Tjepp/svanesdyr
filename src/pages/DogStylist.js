@@ -151,7 +151,7 @@ const DogStylist = () => (
           <Title text="Holdstart for Negleklipkurset" showHorizontalRuler />
           <TitleColor text="Din investering: 1795 kr." />
           <Text>
-            i at kunne pleje din hunds pels og negle <u>selv</u> eller sende den til hudnefrisøren
+            i at kunne pleje din hunds pels og negle <u>selv</u> eller sende den til hundefrisøren
             uden bekymring, da det bliver ren kvalitetstid fremfor overgreb.
           </Text>
           <Text italic>
@@ -163,7 +163,7 @@ const DogStylist = () => (
           <EasyMeList src="https://ezme.io/x/x1S/k37A" />
           <br />
           <Text>
-            Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
+            Oplever du holdet er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
             jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
             dit holdønske her:
           </Text>
