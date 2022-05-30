@@ -17,6 +17,7 @@ import {
   Row,
   StyledLink,
   StyledExternal,
+  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { lectureFearAndAgression, lectureDogLanguage, lectureCalmDownFido } from '../assets';
@@ -106,27 +107,7 @@ const Lecture = () => (
             </Tbody>
           </Table>
           <Title text="Sjælland" />
-          <Table>
-            <LectureTableHead />
-            <Tbody>
-              <Tr>
-                <Td>21. september</Td>
-                <Td>Hundens Sprog - Hvad fortæller den dig?</Td>
-                <Td>
-                  <StyledExternal href="https://fb.me/e/2z6oewvIh">Klik her</StyledExternal>
-                </Td>
-                <Td>Ordrupvej 59, 2920 Charlottenlund</Td>
-                <Td>18.30 - 21.30</Td>
-                <Td>250 kr. </Td>
-                <Td>
-                  <font color="#D60E0E">Ledige pladser</font>
-                </Td>
-                <Td>
-                  <StyledExternal href="https://ezme.io/c/x1S/kCSS">Tilmeldingslink</StyledExternal>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
+          <EasyMeList src="https://ezme.io/x/x1S/k3Id" />
           <br />
         </Column>
       </Row>
