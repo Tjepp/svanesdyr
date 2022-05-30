@@ -16,6 +16,7 @@ export { default as DogCoolContinued } from './DogCoolContinued';
 export { default as DogCoolFriend } from './DogCoolFriend';
 export { default as DogRecall } from './DogRecall';
 export { default as DogSocial } from './DogSocial';
+export { default as DogStylist } from './DogStylist';
 export { default as DogSummer } from './DogSummer';
 export { default as LawList } from './LawList';
 export { default as LawPrivate } from './LawPrivate';

@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import MetaTags from 'react-meta-tags';
 
-const MetaDogNailClip = ({ title, description, keywords }) => (
+const MetaDogStylist = ({ title, description, keywords }) => (
   <>
     <MetaTags>
       <title>{title}</title>
       <meta property="og:title" content={title} />
-      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/negleklipkursus" />
-      <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/negleklipkursus" />
+      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/tryghundepleje" />
+      <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/tryghundepleje" />
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
@@ -23,20 +23,21 @@ const MetaDogNailClip = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Negleklipkursus Hund Horsens | Frivillig Håndtering | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Negleklipkursus for hunde i Horsens';
+  'Tryg Frisørtid m/Hundefrisør Torsten | Horsens | Frivillig Håndtering | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Tryg Frisørtid kursus for hunde i Horsens';
 const defaultKeywords = `Negleklip hund, klippe negle hund, klip negl hund, håndtering hund, frivillig håndtering, frivillig håndtering hund, hund bange negleklip,
-   negleklip hvalp, klippe negle hvalp, klip negl hvalp, håndtering hvalp, frivillig håndtering hvalp, hvalp bange negleklip`;
-MetaDogNailClip.propTypes = {
+   negleklip hvalp, klippe negle hvalp, klip negl hvalp, håndtering hvalp, frivillig håndtering hvalp, hvalp bange negleklip, hundebad, blower hund, bad hund, 
+   frisørklip hund, hundefrisør, frisør hund, pelsklip hund, pels klip hund, pelsklip hvalp, pels klip hvalp, pelspleje hund, pelspleje hvalp,`;
+MetaDogStylist.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
 };
 
-MetaDogNailClip.defaultProps = {
+MetaDogStylist.defaultProps = {
   title: defaultTitle,
   description: defaultDescription,
   keywords: defaultKeywords,
 };
 
-export default MetaDogNailClip;
+export default MetaDogStylist;

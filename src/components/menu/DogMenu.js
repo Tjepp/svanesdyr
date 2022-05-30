@@ -11,6 +11,7 @@ const DogMenu = () => (
     <StyledMenuLinkWithIcon link="/hundehold/fortsatcool" text="Miljøhold" />
     <StyledMenuLinkWithIcon link="/hundehold/socialisering" text="Socialiseringshold" />
     <StyledMenuLinkWithIcon link="/hundehold/tricks" text="Cirkeltræning" />
+    <StyledMenuLinkWithIcon link="/hundehold/tryghundepleje" text="Tryg Frisørtid" />
     <StyledMenuLinkWithIcon link={'/sommerhund'} text={'Sommerferietræning 2022'} />
     {/* <StyledMenuLinkWithIcon link={"/hundehold/venligvovse"}  text={"Venlig-Vovse"}/> */}
     {/* <StyledMenuLinkWithIcon link="/hundehold/indkald" text="Indkaldskursus" /> */}
