@@ -149,14 +149,14 @@ const DogStylist = () => (
           <br />
 
           <Title text="Holdstart for Negleklipkurset" showHorizontalRuler />
-          <TitleColor text="Din investering: 1795 kr." />
+          <TitleColor text="Din investering: 1795 kr. - som du kan vælge at betale over 3 måneder" />
           <Text>
             i at kunne pleje din hunds pels og negle <u>selv</u> eller sende den til hundefrisøren
             uden bekymring, da det bliver ren kvalitetstid fremfor overgreb.
           </Text>
           <Text italic>
-            Bemærk betaling er bindende og beløb refunderes ikke. Du kan vælge at betale over 3
-            måneder.
+            Bemærk betaling er bindende og beløb refunderes ikke. Du kan vælge at betale i 3 rater
+            over 3 måneder.
           </Text>
           <br />
           <Title text="Kommende hold:" />
