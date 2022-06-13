@@ -78,6 +78,7 @@ export { default as logoLightGrey } from './logoLightGrey.png';
 export { default as methodOne } from './metode1.png';
 export { default as methodTwo } from './metode2.jpg';
 export { default as sabrinaNew } from './migNY.jpg';
+export { default as OnlineCoverDogPlay } from './OnlineCoverDogPlay.png';
 export { default as OnlineCoverWalk } from './OnlineCoverWalk.png';
 export { default as OnlineCoverCourse } from './OnlineCoverHold.png';
 export { default as OnlineCoverPuppyFive } from './OnlineCoverHvalp5.png';
