@@ -18,6 +18,7 @@ import {
   MetaDogSummer,
   ButtonOnline,
   ContactPopUp,
+  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import {
@@ -110,77 +111,12 @@ const DogSummer = () => (
           </FlexedRow>
           <br />
           <Text>Små racers legestuer:</Text>
-          <Table>
-            <DogCourseSummer />
-            <Tbody>
-              <Tr>
-                <Td>Små racer 1</Td>
-                <Td>28</Td>
-                <Td>Lørdag</Td>
-                <Td>16. juli</Td>
-                <Td>09.30 - 11.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Små racer 2</Td>
-                <Td>29</Td>
-                <Td>Tirsdag</Td>
-                <Td>19. juli</Td>
-                <Td>17.00 - 18.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Små racer 3</Td>
-                <Td>29</Td>
-                <Td>Søndag</Td>
-                <Td>24. juli</Td>
-                <Td>11.00 - 12.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Små racer 4</Td>
-                <Td>30</Td>
-                <Td>Onsdag</Td>
-                <Td>27. juli</Td>
-                <Td>18.30 - 20.00</Td>
-              </Tr>
-            </Tbody>
-          </Table>
+          <EasyMeList src="https://ezme.io/x/x1S/kyHe" />
+          <br />
+
           <Text>Store racers legestuer:</Text>
-          <Table>
-            <DogCourseSummer />
-            <Tbody>
-              <Tr>
-                <Td>Store racer 1</Td>
-                <Td>28</Td>
-                <Td>Lørdag</Td>
-                <Td>16. juli</Td>
-                <Td>11.00 - 12.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Store racer 2</Td>
-                <Td>29</Td>
-                <Td>Tirsdag</Td>
-                <Td>19. juli</Td>
-                <Td>18.30 - 20.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Store racer 3</Td>
-                <Td>29</Td>
-                <Td>Søndag</Td>
-                <Td>24. juli</Td>
-                <Td>09.30 - 11.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Store racer 4</Td>
-                <Td>30</Td>
-                <Td>Onsdag</Td>
-                <Td>27. juli</Td>
-                <Td>17.00 - 18.30</Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <ButtonOnline
-            text="Klik her for tilmelding til Legestue"
-            onClick={() => window.open('https://ezme.io/c/x1S/kRDy', '_blank')}
-          ></ButtonOnline>
+          <EasyMeList src="https://ezme.io/x/x1S/kyHu" />
+          <br />
         </Column>
       </Row>
 
