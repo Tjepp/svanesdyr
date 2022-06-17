@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   Page,
@@ -13,10 +12,8 @@ import {
   Text,
   Image,
   BreadCrumps,
-  LectureTableHead,
   Row,
   StyledLink,
-  StyledExternal,
   EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -80,33 +77,6 @@ const Lecture = () => (
           <Title text="Kommende foredrag og workshops om hundeadfærd 2022" showHorizontalRuler />
           <br />
           {/* <TitleColor text="Foredrag for 2022 er under planlægning" /> */}
-          <Title text="Jylland" />
-          <Table>
-            <LectureTableHead />
-            <Tbody>
-              <Tr>
-                <Td>22. juni</Td>
-                <Td>Sådan kontrollerer du leg mellem hunde</Td>
-                <Td>
-                  <StyledExternal href="http://xn--lweoghund-l8a.dk/events/tema-om-hundeleg-rigtigt-og-forkert/">
-                    Klik her
-                  </StyledExternal>
-                </Td>
-                <Td>Lillehøjvej 30, 8600 Silkeborg</Td>
-                <Td>18.30 - 20.30</Td>
-                <Td>125 kr. </Td>
-                <Td>
-                  <font color="#D60E0E">Ledige pladser</font>
-                </Td>
-                <Td>
-                  <StyledExternal href="http://xn--lweoghund-l8a.dk/events/tema-om-hundeleg-rigtigt-og-forkert/">
-                    Tilmeldingslink
-                  </StyledExternal>
-                </Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <Title text="Sjælland" />
           <EasyMeList src="https://ezme.io/x/x1S/k3Id" />
           <br />
         </Column>
