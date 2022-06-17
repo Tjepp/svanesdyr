@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Table, Tbody, Tr, Td } from 'react-super-responsive-table';
 
 import {
   LandingpageOnline,
@@ -14,9 +13,7 @@ import {
   FlexedRow,
   TextListMark,
   LPHeadlineWalk,
-  DogCourseSummer,
   MetaDogSummer,
-  ButtonOnline,
   ContactPopUp,
   EasyMeList,
 } from '../components';
@@ -110,11 +107,11 @@ const DogSummer = () => (
             </TextContainer>
           </FlexedRow>
           <br />
-          <Text>Små racers legestuer:</Text>
+          <Text bold>Tilmelding små racers legestuer:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/kyHe" />
           <br />
 
-          <Text>Store racers legestuer:</Text>
+          <Text bold>Tilmelding Store racers legestuer:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/kyHu" />
           <br />
         </Column>
@@ -152,57 +149,8 @@ const DogSummer = () => (
             </TextContainer>
           </FlexedRow>
           <br />
-          <Table>
-            <DogCourseSummer />
-            <Tbody>
-              <Tr>
-                <Td>Basis 1</Td>
-                <Td>28</Td>
-                <Td>Søndag</Td>
-                <Td>17. juli</Td>
-                <Td>09.30 - 11.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Øvet 1</Td>
-                <Td>28</Td>
-                <Td>Søndag</Td>
-                <Td>17. juli</Td>
-                <Td>11.00 - 12.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Basis 2</Td>
-                <Td>29</Td>
-                <Td>Tirsdag</Td>
-                <Td>19. juli</Td>
-                <Td>10.00 - 11.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Øvet 2</Td>
-                <Td>29</Td>
-                <Td>Tirsdag</Td>
-                <Td>19. juli</Td>
-                <Td>11.30 - 13.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Basis 3</Td>
-                <Td>30</Td>
-                <Td>Mandag</Td>
-                <Td>25. juli</Td>
-                <Td>17.00 - 18.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Øvet 3</Td>
-                <Td>30</Td>
-                <Td>Mandag</Td>
-                <Td>25. juli</Td>
-                <Td>18.30 - 20.00</Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <ButtonOnline
-            text="Klik her for tilmelding til Indkald"
-            onClick={() => window.open('https://ezme.io/c/x1S/kRGX', '_blank')}
-          ></ButtonOnline>
+          <Text bold>Tilmelding til Indkaldskursus:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/kO24" />
         </Column>
       </Row>
 
@@ -234,36 +182,8 @@ const DogSummer = () => (
             </TextContainer>
           </FlexedRow>
           <br />
-          <Table>
-            <DogCourseSummer />
-            <Tbody>
-              <Tr>
-                <Td>Fitness 1</Td>
-                <Td>29</Td>
-                <Td>Onsdag</Td>
-                <Td>20. juli</Td>
-                <Td>17.00 - 18.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Fitness 2</Td>
-                <Td>29</Td>
-                <Td>Lørdag</Td>
-                <Td>23. juli</Td>
-                <Td>09.30 - 11.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Fitness 3</Td>
-                <Td>30</Td>
-                <Td>Tirsdag</Td>
-                <Td>26. juli</Td>
-                <Td>18.30 - 20.00</Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <ButtonOnline
-            text="Klik her for tilmelding til Fitness for Alle"
-            onClick={() => window.open('https://ezme.io/c/x1S/kRGr', '_blank')}
-          ></ButtonOnline>
+          <Text bold>Tilmelding til Fitness for Alle:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/kO2H" />
         </Column>
       </Row>
 
@@ -292,36 +212,8 @@ const DogSummer = () => (
             </TextContainer>
           </FlexedRow>
           <br />
-          <Table>
-            <DogCourseSummer />
-            <Tbody>
-              <Tr>
-                <Td>Gåtur 1</Td>
-                <Td>28</Td>
-                <Td>Lørdag</Td>
-                <Td>16. juli</Td>
-                <Td>12.30 - 14.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Gåtur 2</Td>
-                <Td>29</Td>
-                <Td>Lørdag</Td>
-                <Td>23. juli</Td>
-                <Td>11.00 - 12.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Gåtur 3</Td>
-                <Td>30</Td>
-                <Td>Tirsdag</Td>
-                <Td>26. juli</Td>
-                <Td>17.00 - 18.30</Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <ButtonOnline
-            text="Klik her for tilmelding til Rolige Gåture"
-            onClick={() => window.open('https://ezme.io/c/x1S/kRGx', '_blank')}
-          ></ButtonOnline>
+          <Text bold>Tilmelding til Rolige Gåture:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/kO2M" />
         </Column>
       </Row>
 
@@ -350,36 +242,8 @@ const DogSummer = () => (
             </TextContainer>
           </FlexedRow>
           <br />
-          <Table>
-            <DogCourseSummer />
-            <Tbody>
-              <Tr>
-                <Td>Håndtering 1</Td>
-                <Td>28</Td>
-                <Td>Søndag</Td>
-                <Td>17. juli</Td>
-                <Td>12.30 - 14.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Håndtering 2</Td>
-                <Td>29</Td>
-                <Td>Onsdag</Td>
-                <Td>20. juli</Td>
-                <Td>18.30 - 20.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Håndtering 3</Td>
-                <Td>30</Td>
-                <Td>Torsdag</Td>
-                <Td>28. juli</Td>
-                <Td>17.00 - 18.30</Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <ButtonOnline
-            text="Klik her for tilmelding til Frivillig Håndtering intro"
-            onClick={() => window.open('https://ezme.io/c/x1S/kRGe', '_blank')}
-          ></ButtonOnline>
+          <Text bold>Tilmelding til Intro til Frivillig Håndtering:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/kOnp" />
         </Column>
       </Row>
 
@@ -408,36 +272,8 @@ const DogSummer = () => (
             </TextContainer>
           </FlexedRow>
           <br />
-          <Table>
-            <DogCourseSummer />
-            <Tbody>
-              <Tr>
-                <Td>Bliv 1</Td>
-                <Td>29</Td>
-                <Td>Torsdag</Td>
-                <Td>21. juli</Td>
-                <Td>10.00 - 11.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Bliv 2</Td>
-                <Td>29</Td>
-                <Td>Lørdag</Td>
-                <Td>23. juli</Td>
-                <Td>12.30 - 14.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Bliv 3</Td>
-                <Td>29</Td>
-                <Td>Søndag</Td>
-                <Td>24. juli</Td>
-                <Td>12.30 - 14.00</Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <ButtonOnline
-            text="Klik her for tilmelding til Bliv!"
-            onClick={() => window.open('https://ezme.io/c/x1S/kRGz', '_blank')}
-          ></ButtonOnline>
+          <Text bold>Tilmelding til Bliv!:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/kOnk" />
         </Column>
       </Row>
 
@@ -469,29 +305,8 @@ const DogSummer = () => (
             </TextContainer>
           </FlexedRow>
           <br />
-          <Table>
-            <DogCourseSummer />
-            <Tbody>
-              <Tr>
-                <Td>Tricks 1</Td>
-                <Td>29</Td>
-                <Td>Torsdag</Td>
-                <Td>21. juli</Td>
-                <Td>11.30 - 13.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Tricks 2</Td>
-                <Td>30</Td>
-                <Td>Torsdag</Td>
-                <Td>28. juli</Td>
-                <Td>18.30 - 20.00</Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <ButtonOnline
-            text="Klik her for tilmelding til Tricks og Sjov!"
-            onClick={() => window.open('https://ezme.io/c/x1S/kRGk', '_blank')}
-          ></ButtonOnline>
+          <Text bold>Tilmelding til Tricks og Sjov:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/kOnu" />
         </Column>
       </Row>
       <br />
@@ -533,57 +348,8 @@ const DogSummer = () => (
             </TextContainer>
           </FlexedRow>
           <br />
-          <Table>
-            <DogCourseSummer />
-            <Tbody>
-              <Tr>
-                <Td>Miljø Lunden 1</Td>
-                <Td>29</Td>
-                <Td>Mandag</Td>
-                <Td>18. juli</Td>
-                <Td>17.00 - 18.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Miljø Bygholm 1</Td>
-                <Td>29</Td>
-                <Td>Mandag</Td>
-                <Td>18. juli</Td>
-                <Td>18.30 - 19.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Miljø Lunden 2</Td>
-                <Td>29</Td>
-                <Td>Torsdag</Td>
-                <Td>21. juli</Td>
-                <Td>17.00 - 18.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Miljø Bygholm 2</Td>
-                <Td>29</Td>
-                <Td>Torsdag</Td>
-                <Td>21. juli</Td>
-                <Td>18.30 - 19.30</Td>
-              </Tr>
-              <Tr>
-                <Td>Miljø Lunden 3</Td>
-                <Td>30</Td>
-                <Td>Tirsdag</Td>
-                <Td>26. juli</Td>
-                <Td>10.00 - 11.00</Td>
-              </Tr>
-              <Tr>
-                <Td>Miljø Bygholm 3</Td>
-                <Td>30</Td>
-                <Td>Tirsdag</Td>
-                <Td>26. juli</Td>
-                <Td>11.30 - 12.30</Td>
-              </Tr>
-            </Tbody>
-          </Table>
-          <ButtonOnline
-            text="Klik her for tilmelding til Miljømøder"
-            onClick={() => window.open('https://ezme.io/c/x1S/kRGL', '_blank')}
-          ></ButtonOnline>
+          <Text bold>Tilmelding til Miljømøder:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/kOnf" />
         </Column>
       </Row>
 
