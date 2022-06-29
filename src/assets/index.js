@@ -75,6 +75,7 @@ export { default as catTwo } from './kat2.jpg';
 export { default as catThree } from './kat3.jpg';
 export { default as logo } from './logo.jpg';
 export { default as logoLightGrey } from './logoLightGrey.png';
+export { default as LogoUpdate } from './LogoUpdate.png';
 export { default as methodOne } from './metode1.png';
 export { default as methodTwo } from './metode2.jpg';
 export { default as sabrinaNew } from './migNY.jpg';

@@ -25,6 +25,7 @@ import {
   Education2019,
   Education2020,
   Education2021,
+  Education2022,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { sabrinaNew, petbc } from '../assets';
@@ -140,6 +141,7 @@ const About = () => (
             <br />
             Du kan se nedenfor hvad jeg har deltaget i.
           </Text>
+          <Education2022 />
           <Education2021 />
           <Education2020 />
           <Education2019 />

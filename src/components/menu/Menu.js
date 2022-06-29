@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
 import Responsive from '../layout/Responsive';
-import { logoLightGrey } from '../../assets';
+import { LogoUpdate } from '../../assets';
 import LargeMenu from './LargeMenu';
 import SmallMenu from './SmallMenu';
 
@@ -23,7 +23,7 @@ class Menu extends Component {
       <Background>
         <Bar>
           <CenteredA href="/">
-            <Img src={logoLightGrey} alt="logo" />
+            <Img src={LogoUpdate} alt="logo" />
           </CenteredA>
           <MenuItemContainer>
             <MediaQuery minWidth={Responsive.sizes.tablet}>
@@ -79,8 +79,8 @@ const MenuItemContainer = styled.div`
 const Img = styled.img`
   vertical-align: middle;
   border: 0;
-  width: 200px;
-  height: 110px;
+  width: 400px;
+  height: 100px;
   ${Responsive.media.tablet`
     align-self: center;
   `}
