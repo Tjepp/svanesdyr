@@ -57,7 +57,7 @@ const DogCircle = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Cirkeltræning for tidligere kursister hos Svanes Dyr" showHorizontalRuler />
+          <Title text="Cirkeltræning for øvede kursister hos Svanes Dyr" showHorizontalRuler />
           <Text>
             Vil du bare gerne fortsætte træningen og det gode samarbejde med din hund?
             <br />
@@ -66,11 +66,14 @@ const DogCircle = () => (
             <br />
             Så er cirkeltræning det rette hold for dig!
           </Text>
-          <TitleColor text="Bemærk: Holdet udbydes som udgangspunkt kun til tidligere kursister" />
+          {/* <TitleColor text="Bemærk: Holdet udbydes som udgangspunkt kun til tidligere kursister" /> */}
           <Text>
-            Dette skyldes at vi bruger klikkerprincipper og øvelser tidligere indlært via mine andre
-            holdforløb. Det forventes desuden at hunden kan holde kontakt og ro, selv med andre
-            snuder tæt på, så i kan dukke op og gå i gang med leg straks ved ankomst.
+            På dette hold anvender vi klikkerprincipper (ros og belønning) og der tages udgangspunkt
+            i at hunden kan holde kontakt og ro, selv med andre snuder tæt på. Meningen er netop at
+            i kan dukke op og gå i gang med leg på stationerne straks ved ankomst. <br />
+            Har du deltaget til træning tidligere hos mig eller andet sted, så kan du snildt være
+            med til Cirkeltræningen! Det er ikke et krav at du skal bruge klikker. Det er kun et
+            krav at du er med på at bruge mad og leg som belønning til hunden.
           </Text>
           <br />
           <Text bold>Cirkeltræningen tager udgangspunkt i konceptet fra fitnesscentrene:</Text>
