@@ -47,6 +47,7 @@ import {
   MyMethods,
   OnlineEbookPuppyFive,
   OnlineEbookThanks,
+  OnlineSoundbookThanks,
   OnlineSoldOut,
   OnlineSummerThanks,
   OnlineThankPage,
@@ -103,6 +104,7 @@ const App = () => {
         <Route path="/minemetoder" exact element={<MyMethods />} />
         <Route path="/hvalpmedsucces" exact element={<OnlineEbookPuppyFive />} />
         <Route path="/eboginvestering" exact element={<OnlineEbookThanks />} />
+        <Route path="/lydboginvestering" exact element={<OnlineSoundbookThanks />} />
         <Route path="/udsolgt" exact element={<OnlineSoldOut />} />
         <Route path="/sommertak" exact element={<OnlineSummerThanks />} />
         <Route path="/tusindtak" exact element={<OnlineThankPage />} />

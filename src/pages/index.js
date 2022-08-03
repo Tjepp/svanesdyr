@@ -27,6 +27,7 @@ export { default as MyMethods } from './MyMethods';
 export { default as OnlineEbookPuppyFive } from './OnlineEbookPuppyFive';
 export { default as OnlineEbookThanks } from './OnlineEbookThanks';
 export { default as OnlineSoldOut } from './OnlineSoldOut';
+export { default as OnlineSoundbookThanks } from './OnlineSoundbookThanks';
 export { default as OnlineSummerThanks } from './OnlineSummerThanks';
 export { default as OnlineThankPage } from './OnlineThankPage';
 export { default as OnlineWalk } from './OnlineWalk';
