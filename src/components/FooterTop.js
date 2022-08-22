@@ -22,9 +22,9 @@ const ShortAboutMe = () => (
     <Title> Kort om mig </Title>
     <div>
       Svanes Dyr drives af Sabrina Svane, som er certificeret Dyreadfærdskonsulent (BSc ABT). Jeg
-      specialiserer mig i løsning af problemadfærd hos henholdsvis hunde, katte og heste og kommer
-      gerne på hjemmebesøg. Jeg anvender belønningsbaserede træningsmetoder og tilbyder holdtræning
-      i Horsens for familiehunde.
+      specialiserer mig i løsning af problemadfærd hos henholdsvis hunde og katte og kommer gerne på
+      hjemmebesøg. Jeg anvender belønningsbaserede træningsmetoder og tilbyder holdtræning i Horsens
+      for familiehunde.
     </div>
   </ColumnContainer>
 );

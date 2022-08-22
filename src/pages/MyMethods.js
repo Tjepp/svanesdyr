@@ -29,8 +29,8 @@ const MyMethods = () => (
         <Column widthPercentage="100%">
           <Title text="Belønningsbaserede træningsteknikker" showHorizontalRuler />
           <Text>
-            Uanset om jeg står med en hund, kat eller hest, så har jeg altid en belønningsbaseret
-            tilgang til træning og opdragelse.
+            Uanset hvilket kæledyr jeg skal hjælpe, så har jeg altid en belønningsbaseret tilgang
+            til træning og opdragelse.
           </Text>
           <Text>
             Hvad indebærer en belønningsbaseret tilgang?
@@ -39,8 +39,8 @@ const MyMethods = () => (
             gøre noget korrekt. Alt hvad jeg godt kan lide at se bliver bekræftet! Jeg bekræfter
             hunden ved at bruge en klikker eller give verbalt ros når jeg ser ønsket adfærd, og
             følger op med en godbid eller anden form for rar belønning for at vise hunden at dét kan
-            betale sig at gentage. Ligesom med os mennesker, så gør hunde, katte og heste også kun
-            dét der kan betale sig for dem. Dvs. de skal have en ordentlig løn for at gøre et stykke
+            betale sig at gentage. Ligesom med os mennesker, så gør hunde og katte også kun dét der
+            kan betale sig for dem. Dvs. de skal have en ordentlig løn for at gøre et stykke
             arbejde.
           </Text>
           <Text>
