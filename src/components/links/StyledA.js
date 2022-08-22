@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledB = styled.a`
+const StyledA = styled.a`
   color: #379683;
   font-family: inherit;
   font-weight: bold;
@@ -9,4 +9,4 @@ const StyledB = styled.a`
   font-size: 18px;
 `;
 
-export default StyledB;
+export default StyledA;

@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import MediaQuery from 'react-responsive';
 import { useNavigate } from 'react-router-dom';
-import { Page, Banner, Button, Meta, Column, Title, Text, Image } from '../components';
+import { Page, Banner, Button, Meta, Column, Title, Text, Image, StyledB } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { FrontNoTwo, sabrinaAndBarney, FrontNoOne } from '../assets';
+import { ClubCover, sabrinaAndBarney, FrontNoOne } from '../assets';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -32,20 +32,16 @@ const Home = () => {
       <Background>
         <Container>
           <Column>
-            <Image src={FrontNoOne} />
-            <Title color="000" text="Om Svanes Dyr" />
-            <Text
-              onClick={() => {
-                onClick('dyreadfaerdskonsulent');
-              }}
-              color="#000"
-            >
-              Professionel rådgivning til træning eller løsning af problemadfærd hos din hund eller
-              kat. Klik i menuen for oven for at læse mere om hvad jeg kan tilbyde dig!
-            </Text>
+            <Image src={ClubCover} />
+            <Title color="000" text="Gratis fællesskab til hundeejere!" />
+            <StyledB color="#000" href="https://www.facebook.com/groups/hundesprogsklub">
+              Vil du blive klogere på hvad din hund fortæller dig? Så kom GRATIS med i
+              Hundesprogsklubben på Facebook. Et fællesskab for alle hundeejere, der ønsker at
+              forstå deres bedste ven bedre!
+            </StyledB>
           </Column>
           <Column>
-            <Image src={FrontNoTwo} />
+            <Image src={FrontNoOne} />
             <Title color="000" text="Positive træningsmetoder" />
             <Text
               onClick={() => {

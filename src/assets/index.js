@@ -70,6 +70,7 @@ export { default as TricksSix } from './HoldTricks6.jpg';
 export { default as dogOne } from './hund1.jpg';
 export { default as dogTwo } from './hund2.jpg';
 export { default as dogThree } from './hund3.jpg';
+export { default as ClubCover } from './Hundesprogsklubben.png';
 export { default as catOne } from './kat1.jpg';
 export { default as catTwo } from './kat2.jpg';
 export { default as catThree } from './kat3.jpg';
