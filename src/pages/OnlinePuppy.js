@@ -306,7 +306,7 @@ const OnlinePuppy = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TitleCenter text="Stadig i tvivl om det er noget for dig og din hvalp? Her er 3 argumenter for hvorfor du kan få gavn af bogens indhold:" />
+          <TitleCenter text="Stadig i tvivl om det er noget for dig og din hvalp? Her er 3 argumenter for hvorfor du kan få gavn af at deltage på forløbet:" />
           <TextListArrow texts={LPstep15} />
         </Column>
       </Row>
