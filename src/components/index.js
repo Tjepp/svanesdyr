@@ -33,6 +33,7 @@ export { default as MetaLaw } from './meta/MetaLaw';
 export { default as MetaLawPrivate } from './meta/MetaLawPrivate';
 export { default as MetaOnlineWalk } from './meta/MetaOnlineWalk';
 export { default as MetaOnlineEbookPuppyFive } from './meta/MetaOnlineEbookPuppyFive';
+export { default as MetaOnlinePuppy } from './meta/MetaOnlinePuppy';
 export { default as DogCourseTableHead } from './table/DogCourseTableHead';
 export { default as DogCourseTheory } from './table/DogCourseTheory';
 export { default as DogCourseYearShift } from './table/DogCourseYearShift';

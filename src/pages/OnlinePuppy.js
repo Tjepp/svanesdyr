@@ -17,6 +17,7 @@ import {
   LPHeadlinePuppy,
   ButtonOnline,
   // DogOnlinePuppy,
+  MetaOnlinePuppy,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { FrontNoOne, OnlineCoverPuppy, ConsultPupTwo, TestiPupOne, TestiPupFour } from '../assets';
@@ -70,6 +71,8 @@ const LPstep15 = [
 
 const OnlinePuppy = () => (
   <LandingpageOnline>
+    <MetaOnlinePuppy />
+
     <Background>
       <Row>
         <Column widthPercentage="100%">
