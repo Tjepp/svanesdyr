@@ -40,6 +40,7 @@ export { default as DogCourseSummer } from './table/DogCourseSummer';
 export { default as DogCourseSimple } from './table/DogCourseSimple';
 export { default as LectureTableHead } from './table/LectureTableHead';
 export { default as DogCoolTestimonials } from './testimonials/DogCoolTestimonials';
+export { default as DogOnlinePuppy } from './testimonials/DogOnlinePuppy';
 export { default as DogPuppyTestimonials } from './testimonials/DogPuppyTestimonials';
 export { default as TextList } from './textlist/TextList';
 export { default as TextListArrow } from './textlist/TextListArrow';
