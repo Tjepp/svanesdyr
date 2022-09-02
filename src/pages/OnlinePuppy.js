@@ -282,6 +282,10 @@ const OnlinePuppy = () => (
             hvor vi hjælpes ad med at udvikle os, med indspark, støtte og ikke mindst fede dialoger
             om hvalpe og opdragelse.
           </TextCenter>
+          <TextCenter bold>
+            Da jeg går meget op i at hjælpe jer hver især, og skabe et intimt forum for alle
+            deltagere, vil der være et begrænset antal pladser på forløbet.
+          </TextCenter>
           <TextCenter>
             Gruppen åbner den 19.09.2022, hvor kursets forløb også vil starte.
           </TextCenter>
@@ -293,8 +297,9 @@ const OnlinePuppy = () => (
           </TextCenter>
           <TextCenter>
             Du vil også få en direkte livline til din underviser, da jeg flere gange vil gå LIVE og
-            svare på alle de spørgsmål du måtte have. Efter spørgetimerne vil videoerne ligge
-            tilgængelig, så du altid kan gense svarene.
+            svare på alle de spørgsmål du måtte have. <b>Jeg giver SVARGARANTI!</b> Det betyder jeg
+            først lukker computeren når alle har fået svar på deres spørgsmål. Efter spørgetimerne
+            vil videoerne ligge tilgængelig, så du altid kan gense svarene.
           </TextCenter>
           <TextCenter>
             Forløbet varer 6 uger og derefter vil facebookgruppen vil blive arkiveret - det betyder
