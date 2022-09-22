@@ -49,7 +49,7 @@ const PuppyBenefits = [
   'Personlig sparring omkring din hvalp og jeres hverdag sammen',
   'Gode råd og tips til optimal aktivering af hvalpen',
   'Hele 7 ugers træning med ugentligt møde',
-  'Max 3 andre holdkammerater, så der er god tid til dig',
+  'Max 4 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
@@ -99,6 +99,10 @@ const DogPuppy = () => {
             </Text>
             <TextList texts={PuppyBenefits} />
             <Text>
+              Hver lektion vil vare mellem 45-60 minutter, så der afsluttes når den enkelte hvalp er
+              ved at være træt. Jeg tager udgangspunkt i din hvalp og dens behov, så forvent at du
+              til tider vil opleve at blive afsluttet tidligere eller senere end de andre hvalpe.
+              <br />
               Der er afsat tid til <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> til
               timerne.
             </Text>
