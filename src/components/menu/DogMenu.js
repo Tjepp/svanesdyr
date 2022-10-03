@@ -5,6 +5,8 @@ import { StyledMenuLinkWithIcon } from '..';
 const DogMenu = () => (
   <MenuContainer>
     <StyledMenuLinkWithIcon link="/hundehold/" text="Praktisk info om hold" />
+    <StyledMenuLinkWithIcon link="/hundehold/legestue" text="Hundelegestue" />
+
     <StyledMenuLinkWithIcon link="/hundehold/hvalpehold" text="Hvalpehold" />
     <StyledMenuLinkWithIcon link="/hundehold/hvalpfortsat" text="Fortsætterhold" />
     <StyledMenuLinkWithIcon link="/hundehold/coolhold" text="Helt-Cool" />
@@ -12,6 +14,7 @@ const DogMenu = () => (
     <StyledMenuLinkWithIcon link="/hundehold/socialisering" text="Socialiseringshold" />
     <StyledMenuLinkWithIcon link="/hundehold/tricks" text="Cirkeltræning" />
     <StyledMenuLinkWithIcon link="/hundehold/tryghundepleje" text="Tryg Frisørtid" />
+
     {/* <StyledMenuLinkWithIcon link={'/sommerhund'} text={'Sommerferietræning 2022'} /> */}
     {/* <StyledMenuLinkWithIcon link={"/hundehold/venligvovse"}  text={"Venlig-Vovse"}/> */}
     {/* <StyledMenuLinkWithIcon link="/hundehold/indkald" text="Indkaldskursus" /> */}

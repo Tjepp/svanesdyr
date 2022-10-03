@@ -12,12 +12,10 @@ import {
   BreadCrumps,
   Row,
   StyledLink,
-  Image,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 import DogMenu from '../components/menu/DogMenu';
-import { PlayOne, PlayTwo, PlayThree, PlayFour, PlayFive, PuppyContinuedFive } from '../assets';
 
 const DogCourse = () => (
   <Page>
@@ -98,30 +96,6 @@ const DogCourse = () => (
             Hvalpeholdene inkluderer tid til leg, og der er mulighed for leg og socialisering på
             alle andre holdtyper efter ønske.
           </Text>
-          <br />
-          <Title text="Billeder fra leg på holdene" showHorizontalRuler />
-          <Row>
-            <Column>
-              <Image src={PlayOne} />
-            </Column>
-            <Column>
-              <Image src={PlayTwo} />
-            </Column>
-            <Column>
-              <Image src={PlayThree} />
-            </Column>
-          </Row>
-          <Row>
-            <Column>
-              <Image src={PlayFour} />
-            </Column>
-            <Column>
-              <Image src={PlayFive} />
-            </Column>
-            <Column>
-              <Image src={PuppyContinuedFive} />
-            </Column>
-          </Row>
         </Column>
       </Row>
     </Background>
