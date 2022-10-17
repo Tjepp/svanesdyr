@@ -16,11 +16,11 @@ import {
   TextListArrow,
   LPHeadlinePuppy,
   ButtonOnline,
-  // DogOnlinePuppy,
+  DogOnlinePuppy,
   MetaOnlinePuppy,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { FrontNoOne, OnlineCoverPuppy, ConsultPupTwo, TestiPupOne, TestiPupFour } from '../assets';
+import { FrontNoOne, OnlineCoverPuppy } from '../assets';
 import '../components/table/TableCss.css';
 
 const LPstep3 = [
@@ -144,7 +144,7 @@ const OnlinePuppy = () => (
           showHorizontalRuler
         />
       </Row>
-      <Row>
+      {/*       <Row>
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Vi er virkelig godt klædt på og meget mere selvsikre i forhold til hvilken retning for opdragelsen, der er rigtig for os og Loui” " />
           <FlexedRow>
@@ -220,11 +220,13 @@ const OnlinePuppy = () => (
             </TextContainer>
           </FlexedRow>
         </Column>
-      </Row>
-
-      {/* <Row>
-        <DogOnlinePuppy></DogOnlinePuppy>
       </Row> */}
+
+      <Row>
+        <Column widthPercentage="100%">
+          <DogOnlinePuppy></DogOnlinePuppy>
+        </Column>
+      </Row>
 
       <Row>
         <TitleCenter showHorizontalRuler />

@@ -4,14 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
 import { TitleColor, Text, TextContainer, FlexedRow, Image } from '..';
-import {
-  TestiPupOne,
-  TestiPupThree,
-  TestiPupFour,
-  TestiPupFive,
-  TestiPupSeven,
-  ConsultPupTwo,
-} from '../../assets';
+import { TestiPupOne, TestiPupFour, ConsultPupTwo } from '../../assets';
 
 const DogOnlinePuppy = () => (
   <Carousel
@@ -70,20 +63,6 @@ const DogOnlinePuppy = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupThree} width="200px" height="300px" />
-      <TextContainer>
-        <TitleColor text=" ”Det har været den bedste investering i samarbejdet med vores hund” " />
-        <Text>
-          Den største forandring er sket i samarbejdet med min hvalp. Jeg har mere kontakt med min
-          hund og har fået super gode forslag til mental stimulering og tips til motivation og
-          belønning af ham.
-        </Text>
-        <Text>Jeg vil anbefale ALLE med en hvalp at deltage.</Text>
-        <Text>Anja og Ozzy</Text>
-      </TextContainer>
-    </FlexedRow>
-
-    <FlexedRow>
       <Image src={TestiPupFour} width="200px" height="300px" />
       <TextContainer>
         <TitleColor text=" ”Massiv usikkerhed er ændret til positiv udvikling, da jeg har bedre forståelse for min hund og noget konstruktivt at arbejde videre med hjemme” " />
@@ -100,39 +79,6 @@ const DogOnlinePuppy = () => (
           og fik håb om at det måske nok skal gå godt med hund alligevel.
         </Text>
         <Text>Malene og Simba</Text>
-      </TextContainer>
-    </FlexedRow>
-
-    <FlexedRow>
-      <Image src={TestiPupFive} width="200px" height="300px" />
-      <TextContainer>
-        <TitleColor text=" ”Min eneste indvending var prisen for holdstart, dette var et af de dyreste steder jeg stødte på, men den må jeg sige virkelig har ændret sig! Kvalitet og pris går hånd i hånd” " />
-        <Text>
-          Jeg har fået større forståelse af min hunds signaler og en bedre kommunikation mellem mig
-          og min hund. Især de gode råd man får med på vejen og kan spørge ind både før, under og
-          efter holdet har været fantastisk.
-        </Text>
-        <Text>
-          Den positive effekt det har på ens hvalp at gå hos Sabrina er kun en anbefaling værdig!
-        </Text>
-        <Text>Michelle Kjær og Kenzo</Text>
-      </TextContainer>
-    </FlexedRow>
-
-    <FlexedRow>
-      <Image src={TestiPupSeven} width="200px" height="300px" />
-      <TextContainer>
-        <TitleColor text=" ”Jeg fik øjnene op for hvor simpelt det kan være at træne, at det ikke behøves at være kompliceret” " />
-        <Text>
-          Inden vi startede frygtede jeg at der ville være for mange komplicerede opgaver og at vi
-          ikke ville kunne finde ud af det... Frygten er blevet bragt til skamme. Det var let og
-          forståeligt, og jeg fik en masse nyt læringsmateriale.
-        </Text>
-        <Text>
-          Holdet var super dejlig intimt, vi har været så få, så der har været god opmærksomhed på
-          den enkelte. Jeg har fået en gladere hund og en større forståelse af min hund.
-        </Text>
-        <Text>Sandra og Pixie</Text>
       </TextContainer>
     </FlexedRow>
   </Carousel>

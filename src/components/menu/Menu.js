@@ -83,6 +83,7 @@ const Img = styled.img`
   height: 100px;
   ${Responsive.media.tablet`
     align-self: center;
+    width: 100%;
   `}
   margin-bottom: 5px;
   margin-top: 5px;
