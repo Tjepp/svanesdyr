@@ -97,6 +97,10 @@ const DogContinued = () => (
           </Text>
           <TextList texts={ContinuedProgram} />
           <Text>
+            Inkl. en lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
+            ro i nyt miljø.
+          </Text>
+          <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Hvalpe-fortsætterholdet får du:

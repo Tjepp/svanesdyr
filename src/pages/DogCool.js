@@ -105,6 +105,10 @@ const DogCool = () => (
           <Text>I løbet af vores 7 uger sammen vil vi komme igennem følgende:</Text>
           <TextList texts={CoolProgram} />
           <Text>
+            Inkl. en lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
+            ro i nyt miljø.
+          </Text>
+          <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Helt-Cool kurset får du:
@@ -118,7 +122,7 @@ const DogCool = () => (
           <br />
 
           <Title text="Holdstart for Helt-Cool kurset" showHorizontalRuler />
-          <TitleColor text="Din investering: 1295 kr." />
+          <TitleColor text="Din investering: 1395 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture og få gæster på besøg, med en hund der er helt-cool
             omkring andre.

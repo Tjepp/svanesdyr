@@ -38,7 +38,7 @@ const PuppyProgram = [
   'Pauseknappen, så hvalpen kan falde til ro, når du er i ro',
   'Kontaktøvelser, som sikrer dig, at DU altid er interessant',
   'Det sikre indkald hvor hvalpen kommer hver gang der kaldes',
-  'Positiv miljøtræning, så nye og skræmmende ting kan mødes med selvtillid',
+  'Positiv miljøtræning, så nye og skræmmende ting kan mødes med selvtillid - selv i helt nyt miljø',
   'Øvelse i byttelege, så hvalpen lærer at aflevere og spytte ud, fremfor at stikke af med sager',
   'Frivillig håndtering, hvor du gør det til en leg at få tjekket tænder, ører, klippet negle m.v.',
   'God impulskontrol så dagligdagens små glæder bliver lettere med en hvalp, der har lært at have ro',
@@ -48,7 +48,7 @@ const PuppyBenefits = [
   'Gode muligheder for socialisering og leg under kontrollerede forhold',
   'Personlig sparring omkring din hvalp og jeres hverdag sammen',
   'Gode råd og tips til optimal aktivering af hvalpen',
-  'Hele 7 ugers træning med ugentligt møde',
+  'Hele 8 ugers træning med ugentligt møde',
   'Max 4 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -89,9 +89,21 @@ const DogPuppy = () => {
             </Text>
             <Text>
               <b>Træningsprogram for holdet</b>
-              <br />I løbet af vores 7 uger sammen vil vi komme igennem følgende:
+              <br />I løbet af vores 8 uger sammen vil vi komme igennem følgende:
             </Text>
             <TextList texts={PuppyProgram} />
+            <Text>
+              Inkl. en lektion afsat til leg med hvalpe fra de andre hvalpehold - inddelt efter
+              størrelse.
+              <br />
+              Inkl. en lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt
+              og ro i nyt miljø.
+            </Text>
+            <Text>
+              Hver lektion varer 45-50 minutter. Jeg tager udgangspunkt i din hvalp og dens behov,
+              så forvent at du til tider kan opleve at blive afsluttet tidligere end de andre
+              hvalpe.
+            </Text>
             <Text>
               <b>Hvad kan du forvente at få med?</b>
               <br />
@@ -99,16 +111,13 @@ const DogPuppy = () => {
             </Text>
             <TextList texts={PuppyBenefits} />
             <Text>
-              Hver lektion vil vare mellem 45-60 minutter, så der afsluttes når den enkelte hvalp er
-              ved at være træt. Jeg tager udgangspunkt i din hvalp og dens behov, så forvent at du
-              til tider vil opleve at blive afsluttet tidligere eller senere end de andre hvalpe.
-              <br />
               Der er afsat tid til <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> til
-              timerne.
+              timerne. Derudover vil én af lektionerne være afsat til ren legestue, som afholdes
+              sammen med hvalpe fra de andre igangværende hvalpehold.
             </Text>
             <br />
             <Title text="Holdstart for Hvalpeholdet" showHorizontalRuler />
-            <TitleColor text="Din investering: 1095 kr." />
+            <TitleColor text="Din investering: 1195 kr." />
             <Text>
               i at få en rolig, imødekommende og selvsikker familiehund, der elsker at træne sammen
               med dig!
