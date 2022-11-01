@@ -105,7 +105,9 @@ const DogCool = () => (
           <Text>I løbet af vores 7 uger sammen vil vi komme igennem følgende:</Text>
           <TextList texts={CoolProgram} />
           <Text>
-            Inkl. en lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
+            Første lektion er 30 minutter 1:1 sparring med mig, hvor kun dig og din hund er på banen. Til denne private lektion kan vi gennemgå lige det du ønsker (værdi 475,- kr.).
+            <br />
+            Programmet inkluderer en lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
             ro i nyt miljø.
           </Text>
           <Text>
@@ -122,7 +124,7 @@ const DogCool = () => (
           <br />
 
           <Title text="Holdstart for Helt-Cool kurset" showHorizontalRuler />
-          <TitleColor text="Din investering: 1395 kr." />
+          <TitleColor text="Din investering: 1495 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture og få gæster på besøg, med en hund der er helt-cool
             omkring andre.

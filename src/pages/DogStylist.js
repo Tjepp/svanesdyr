@@ -149,7 +149,7 @@ const DogStylist = () => (
           <br />
 
           <Title text="Holdstart for Tryg Frisørtid" showHorizontalRuler />
-          <TitleColor text="Din investering: 1795 kr. - som du kan vælge at betale over 3 måneder" />
+          <TitleColor text="Din investering: 1895 kr. - som du kan vælge at betale over 3 måneder" />
           <Text>
             i at kunne pleje din hunds pels og negle <u>selv</u> eller sende den til hundefrisøren
             uden bekymring, da det bliver ren kvalitetstid fremfor overgreb.
