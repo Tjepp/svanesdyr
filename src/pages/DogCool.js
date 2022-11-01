@@ -100,14 +100,12 @@ const DogCool = () => (
             fælles hverdag. Derfor er første mødegang en privat session varende op til 30 minutter,
             hvor det kun er dig og din hund på banen. Privatlektionen giver dig mulighed for at få
             svar på dine spørgsmål og jeg kan komme med konkret feedback til dig og din hund inden i
-            starter i holdsammenhæng.
+            starter i holdsammenhæng (værdi 475,- kr.).
           </Text>
           <Text>I løbet af vores 7 uger sammen vil vi komme igennem følgende:</Text>
           <TextList texts={CoolProgram} />
           <Text>
-            Første lektion er 30 minutter 1:1 sparring med mig, hvor kun dig og din hund er på banen. Til denne private lektion kan vi gennemgå lige det du ønsker (værdi 475,- kr.).
-            <br />
-            Programmet inkluderer en lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
+            Programmet inkluderer én lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
             ro i nyt miljø.
           </Text>
           <Text>
