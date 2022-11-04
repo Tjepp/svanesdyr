@@ -11,6 +11,7 @@ export { default as DogNailClip } from './DogNailClip';
 export { default as DogNoseWork } from './DogNoseWork';
 export { default as DogPlay } from './DogPlay';
 export { default as DogPuppy } from './DogPuppy';
+export { default as DogPuppyThanks } from './DogPuppyThanks';
 export { default as DogContinued } from './DogContinued';
 export { default as DogCool } from './DogCool';
 export { default as DogCoolContinued } from './DogCoolContinued';
