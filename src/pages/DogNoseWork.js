@@ -36,7 +36,6 @@ const NoseWorkBenefits = [
 ];
 
 const NoseWorkRequirements = [
-  'Du skal være igangværende eller tidligere kursist hos mig',
   'Din hund skal være tryg ved at sidde og vente i bilen, da hundene er på én ad gangen',
   'Du skal have en 5-10 meter line med for at give hunden bevægemulighed under søgene',
 ];
@@ -53,12 +52,7 @@ const DogNoseWork = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Nose Work Intro for faste kursister" showHorizontalRuler />
-          <Text>
-            <i>Bemærk: </i>Nose Work introduktion tilbydes til <b>nuværende</b> og <b>tidligere</b>{' '}
-            kursister. Du skal altså have deltaget på et hvilket som helst andet hold hos mig
-            tidligere, da jeg kun udbyder introduktionskurset til kursister jeg kender på forhånd.
-          </Text>
+          <Title text="Nose Work Introkursus" showHorizontalRuler />
           <Text>
             Elsker din hund at bruge næsen?
             <br />
