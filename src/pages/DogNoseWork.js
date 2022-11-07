@@ -28,7 +28,7 @@ const NoseWorkProgram = [
 
 const NoseWorkBenefits = [
   'Personlig sparring omkring din hund og jeres samarbejde',
-  'Hele 6 ugers træning med mødegang hveranden uge',
+  'Hele 5 ugers træning med mødegang hveranden uge',
   'Max 3 andre holdkammerater, så der er god tid til dig og din hund',
   'Op til 15 min individuelt søg pr. gang, da vi mødes i 60 min pr. lektion',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
@@ -86,7 +86,7 @@ const DogNoseWork = () => (
           <TextList texts={NoseWorkRequirements} />
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 6 uger sammen vil vi komme gennem følgende:
+            <br />I løbet af vores 5 uger sammen vil vi komme gennem følgende:
           </Text>
           <TextList texts={NoseWorkProgram} />
           <Text>
@@ -102,7 +102,7 @@ const DogNoseWork = () => (
           <br />
 
           <Title text="Holdstart for Nose Work" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr." />
+          <TitleColor text="Din investering: 1195 kr." />
           <Text>i at få en søgeglad hund, som aktivt og selvstændigt kan bruge næsen!</Text>
           <br />
           <Title text="Hold startes op på efterspørgsel." />
