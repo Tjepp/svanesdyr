@@ -15,7 +15,7 @@ import {
   TextList,
   Image,
   ContactPopUp,
-  EasyMeList,
+  // EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -95,7 +95,7 @@ const DogCircle = () => (
           <TitleColor text="Din investering: 1095 kr." />
           <Text>i at styrke dig og din hunds samarbejde, med inspiration til ugentlig træning</Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-          <br />
+          {/* <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k3EK" />
           <br />
@@ -103,8 +103,10 @@ const DogCircle = () => (
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
             jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
             dit holdønske her:
-          </Text>
-          <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
+          </Text> */}
+          <br />
+          <Title text="Hold startes op på efterspørgsel." />
+          <ContactPopUp text="Kontakt mig ved interesse" />
           <br />
           <br />
 

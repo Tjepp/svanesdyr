@@ -106,7 +106,7 @@ const DogStylist = () => (
             bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad.
             Hvis din hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere
             letforståelig. Alle bliver sat op til succes. Da vi arbejder med hundens følelser vil
-            tryghed og tillid til dig og neglelegen være i centrum.
+            tryghed og tillid til dig være i centrum.
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
