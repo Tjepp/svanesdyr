@@ -14,7 +14,7 @@ import Responsive from '../components/layout/Responsive';
 import { OnlineCoverPuppyCourse } from '../assets';
 import '../components/table/TableCss.css';
 
-const DogPuppyThanks = () => (
+const DogPuppyJanuary = () => (
   <LandingpageOnline>
     <Background>
       <Row>
@@ -79,7 +79,7 @@ const DogPuppyThanks = () => (
   </LandingpageOnline>
 );
 
-export default DogPuppyThanks;
+export default DogPuppyJanuary;
 
 const Background = styled.div`
   background: #fff;

@@ -29,7 +29,8 @@ import {
   DogNailClip,
   DogPlay,
   DogPuppy,
-  DogPuppyThanks,
+  DogPuppyJanuary,
+  DogPuppyMarch,
   DogContinued,
   DogCool,
   DogCoolContinued,
@@ -97,7 +98,8 @@ const App = () => {
         <Route path="/hundehold/noseworkintro" element={<DogNoseWork />} />
         <Route path="/hundehold/legestue" element={<DogPlay />} />
         <Route path="/hundehold/hvalpehold" element={<DogPuppy />} />
-        <Route path="/hundehold/hvalpehold/tusindtak" element={<DogPuppyThanks />} />
+        <Route path="/hundehold/hvalpehold/tusindtak" element={<DogPuppyJanuary />} />
+        <Route path="/hundehold/hvalpehold/tak" element={<DogPuppyMarch />} />
         <Route path="/hundehold/indkald" element={<DogRecall />} />
         <Route path="/hundehold/socialisering" element={<DogSocial />} />
         <Route path="/hundehold/tryghundepleje" element={<DogStylist />} />
