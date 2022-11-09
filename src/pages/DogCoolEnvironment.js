@@ -6,20 +6,31 @@ import {
   Page,
   Banner,
   Column,
-  MetaDogCoolContinued,
+  MetaDogCoolEnvironment,
   Title,
   TitleColor,
   Text,
   BreadCrumps,
   Row,
   TextList,
+  Image,
   StyledLink,
   EasyMeList,
   ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-
+import {
+  CoolAgainOne,
+  CoolAgainTwo,
+  CoolAgainThree,
+  CoolAgainFour,
+  CoolAgainFive,
+  CoolAgainSix,
+  CoolAgainSeven,
+  CoolAgainEight,
+  CoolAgainNine,
+} from '../assets';
 
 const ContinuedCoolProgram = [
   'Indlæring af at finde ro og slappe af, når i skal lave ”ingenting” sammen',
@@ -32,19 +43,18 @@ const ContinuedCoolProgram = [
   'Placering af hunden: Indlæring af bliv',
 ];
 
-const CoolContinuedBenefits = [
-  'Personlig sparring omkring din hund og jeres hverdag sammen til timerne',
+const CoolEnvironmentBenefits = [
+  'Personlig sparring på at finde ro i nye områder',
   'Vejledning i at passere fremmede hunde og mennesker i ro',
-  'Hele 6 ugers træning med ugentligt holdmøde',
+  'Hele 4 mødegange på en ny lokation hver gang i Horsens og omegn',
   'Max 4 andre holdkammerater, så der er god tid til dig',
-  'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
 ];
 
-const DogCoolContinued = () => (
+const DogCoolEnvironment = () => (
   <Page>
-    <MetaDogCoolContinued />
+    <MetaDogCoolEnvironment />
     <Banner text="Hundehold i Horsens">
-      <BreadCrumps currentPage="Fortsat Helt-Cool" />
+      <BreadCrumps currentPage="MiljøHold" />
     </Banner>
     <Background>
       <Row marginTop="25px" marginBottom="45px">
@@ -53,18 +63,17 @@ const DogCoolContinued = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Fortsat Helt-Cool i Horsens for tidligere kursister" showHorizontalRuler />
+          <Title text="Miljøhold i Horsens" showHorizontalRuler />
           <Text>
-            Ønsker du at styrke din hunds kontakt og ro blandt andre hunde, selv når de kommer helt tæt på eller leger vildt i nærheden, så er fortsætterholdet det rette hold for dig!
-          </Text>
-          <Text>
-            Fortsat Helt-Cool henvender sig til dig der allerede har deltaget på Helt-Cool kurset eller Hvalpe-Fortsætterholdet, da jeg tager udgangspunkt i indlærte principper.
-            Vi vil på dette hold skrue op for udfordringerne og kræve gradvist mere af din hund, så du stadig kan opnå ro, selv når andre hunde kommer tæt på eller omgivelserne bliver ekstra forstyrrende.
+            På miljøholdet fokuseres der på mine kendte Cool-principper med kontakt og ro, som
+            udøves i <u>nye miljøer</u> over 4 lektioner af op til 60 min. pr. lektion. Holdet
+            udbydes i to udgaver, hvor du kan vælge at have mødegang hver uge eller hver 14. dag.
+            Dog altid på en ny lokation i Horsens og omegn til hver lektion.
           </Text>
           <Text>
             Holdets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de
             rolige gåture praktiseres i stor stil. Du får en mere afslappet hverdag, med en hund der
-            selv kan finde ro når du er i ro og som kan gå pænt forbi andre hunde og mennesker.
+            selv kan finde ro når du er i ro og som kan gå pænt i snor uden at hive armen af dig.
             Kurset henvender sig til alle hunde i alle aldre.
           </Text>
           <Text>
@@ -76,33 +85,28 @@ const DogCoolContinued = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 7 uger sammen vil vi komme igennem følgende:
+            <br />I løbet af vores uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={ContinuedCoolProgram} />
           <Text>
-            Programmet inkluderer én lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
-            ro i nyt miljø.
-          </Text>
-          <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
-            Ved deltagelse på Fortsat Helt-Cool får du:
+            Ved deltagelse på Miljøholdet får du:
           </Text>
-          <TextList texts={CoolContinuedBenefits} />
-          <Text>Der tages hensyn til sensitive hunde og praktiseres god afstand. Til de legeglade hunde er der mulighed for lidt{' '}
-            <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> i lektionen.</Text>
+          <TextList texts={CoolEnvironmentBenefits} />
+          <Text>Der tages hensyn til sensitive hunde og praktiseres god afstand.</Text>
           <br />
 
-          <Title text="Holdstart for Fortsat Helt-Cool" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr." />
+          <Title text="Holdstart for Miljøholdet" showHorizontalRuler />
+          <TitleColor text="Din investering: 795 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture, med en hund der kan finde ro og holde kontakt,
-            selv nær andre hunde.
+            selv når i kommer nye steder.
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
           <Title text="Kommende hold:" />
-          <EasyMeList src="https://ezme.io/x/x1S/LXeP" />
+          <EasyMeList src="https://ezme.io/x/x1S/k3zy" />
           <br />
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
@@ -113,26 +117,47 @@ const DogCoolContinued = () => (
           <br />
           <br />
 
-          {/* <br />
-          <TitleColor text="Jeg oplever overvældende stor efterspørgsel på mine holdforløb." />
-          <Text>
-            Derfor kan jeg ikke love plads på hold indenfor kort tid. Jeg kan kun anbefale at være
-            ude i god tid.
-            <br />
-            Typisk fyldes mine hold et par måneder på forhånd. Næste holdstart er i{' '}
-            <b>marts 2022</b>.
-            <br /> Ønsker du at skrives op til en plads på et fremtidigt holdforløb er du velkommen
-            til at
-            <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
-          </Text> */}
-
+          <Title text="Stemningsbilleder fra Miljøholdene" showHorizontalRuler />
+          <Row>
+            <Column>
+              <Image src={CoolAgainOne} />
+            </Column>
+            <Column>
+              <Image src={CoolAgainTwo} />
+            </Column>
+            <Column>
+              <Image src={CoolAgainThree} />
+            </Column>
+          </Row>
+          <Row>
+            <Column>
+              <Image src={CoolAgainFour} />
+            </Column>
+            <Column>
+              <Image src={CoolAgainFive} />
+            </Column>
+            <Column>
+              <Image src={CoolAgainSix} />
+            </Column>
+          </Row>
+          <Row>
+            <Column>
+              <Image src={CoolAgainSeven} />
+            </Column>
+            <Column>
+              <Image src={CoolAgainEight} />
+            </Column>
+            <Column>
+              <Image src={CoolAgainNine} />
+            </Column>
+          </Row>
         </Column>
       </Row>
     </Background>
   </Page>
 );
 
-export default DogCoolContinued;
+export default DogCoolEnvironment;
 
 const Background = styled.div`
   background: #fff;

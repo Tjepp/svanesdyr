@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import MetaTags from 'react-meta-tags';
 
-const MetaDogCoolContinued = ({ title, description, keywords }) => (
+const MetaDogCoolEnvironment = ({ title, description, keywords }) => (
   <>
     <MetaTags>
       <title>{title}</title>
       <meta property="og:title" content={title} />
-      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/fortsatcool" />
-      <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/fortsatcool" />
+      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/miljohold" />
+      <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/miljohold" />
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
@@ -23,21 +23,21 @@ const MetaDogCoolContinued = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Fortsat Helt-Cool Horsens | Hundetræning  | Lydighed | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Fortsat Helt-Cool træning for hunde i alle aldre i Horsens';
+  'Miljøhold Horsens | Hundetræning  | Lydighed | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Miljøhold for hunde i alle aldre i Horsens';
 const defaultKeywords = `Hundehold Horsens, Hundetræning Horsens, hund trækker, hund gå pænt, hund hilse pænt, miljø hund, miljøtræning hund,
   hund lydighed, lydighedshold, hundelydighed, lydighed, hund rolig gåtur, hund gåtur, miljøhold hund, miljø hundetræning, lydig hund gåtur, lydighed gåtur,
   selvkontrol hund, impulskontrol hund, doggie zen, belønning hund`;
-MetaDogCoolContinued.propTypes = {
+  MetaDogCoolEnvironment.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
 };
 
-MetaDogCoolContinued.defaultProps = {
+MetaDogCoolEnvironment.defaultProps = {
   title: defaultTitle,
   description: defaultDescription,
   keywords: defaultKeywords,
 };
 
-export default MetaDogCoolContinued;
+export default MetaDogCoolEnvironment;

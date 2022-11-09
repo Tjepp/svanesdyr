@@ -150,7 +150,7 @@ const DogContinued = () => (
           </Text>
           <br /> */}
 
-          <Title text="Billeder fra fortsætterhold" showHorizontalRuler />
+          <Title text="Stemningsbilleder fra fortsætterhold" showHorizontalRuler />
           <Row>
             <Column>
               <Image src={PuppyContinuedOne} />

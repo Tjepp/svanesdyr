@@ -143,7 +143,7 @@ const DogPuppy = () => {
             <br />
             <DogPuppyTestimonials></DogPuppyTestimonials>
             <br />
-            <Title text="Billeder fra hvalpehold Horsens" showHorizontalRuler />
+            <Title text="Stemningsbilleder fra hvalpehold Horsens" showHorizontalRuler />
             <Row>
               <Column>
                 <Image src={PuppyOne} />
