@@ -35,7 +35,7 @@ const ContinuedCoolProgram = [
 const CoolContinuedBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen til timerne',
   'Vejledning i at passere fremmede hunde og mennesker i ro',
-  'Hele 6 ugers træning med ugentligt holdmøde',
+  'Hele 7 ugers træning med ugentligt holdmøde',
   'Max 4 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
 ];
