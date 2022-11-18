@@ -13,6 +13,7 @@ import {
   Row,
   TextList,
   ContactPopUp,
+  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -32,7 +33,7 @@ const NoseWorkBenefits = [
   'Max 3 andre holdkammerater, så der er god tid til dig og din hund',
   'Op til 15 min individuelt søg pr. gang, da vi mødes i 60 min pr. lektion',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
-  'Kaffe, te og varm kakao at nyde til timerne, til ventetiden',
+  'Kaffe, te og varm kakao at nyde til timerne, til ventetiden, mens du ser de andre hunde være på',
 ];
 
 const NoseWorkRequirements = [
@@ -65,7 +66,7 @@ const DogNoseWork = () => (
             Introduktion til Nose Work startes med at hunden skal lære at bruge sin snude og søge
             efter noget velkendt: dens godbidder. Der vil tages udgangspunkt i principperne for
             sporten, og vi vil udfordrer både hundene og jer mere undervejs, så de bliver gode til
-            at bruge deres snude og selvsikre på at lave søg i forskellige miljøer. Vi anvender på
+            at bruge deres snude og bliver gradvist mere selvsikre på at lave søg i forskellige miljøer. Vi anvender på
             intet tidspunkt en anden duft på introholdet.
           </Text>
           <Text>
@@ -76,6 +77,8 @@ const DogNoseWork = () => (
           </Text>
           <Text>
             <b>Krav til deltagelse</b>
+            <br />
+            For at kunne deltage på Nose Work Intro skal følgende være opfyldt:
           </Text>
           <TextList texts={NoseWorkRequirements} />
           <Text>
@@ -99,8 +102,15 @@ const DogNoseWork = () => (
           <TitleColor text="Din investering: 1195 kr." />
           <Text>i at få en søgeglad hund, som aktivt og selvstændigt kan bruge næsen!</Text>
           <br />
-          <Title text="Hold startes op på efterspørgsel." />
-          <ContactPopUp text="Kontakt mig ved interesse" />
+          <EasyMeList src="https://ezme.io/x/x1S/Lxox" />
+          <br />
+          {/* <Title text="Hold startes op på efterspørgsel." /> */}
+          <Text>
+            Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
+            jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
+            dit holdønske her:
+          </Text>
+          <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
 
           <br />
         </Column>
