@@ -12,6 +12,7 @@ import {
   TestiCoolFive,
   TestiCoolSix,
   TestiCoolSeven,
+  TestiCoolEight,
 } from '../../assets';
 
 const DogCoolTestimonials = () => (
@@ -40,6 +41,20 @@ const DogCoolTestimonials = () => (
           de fleste kan være med på.
         </Text>
         <Text>Jeanette Schouborg og Kenzo</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiCoolEight} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Jeg var bekymret for at der ikke var nogen mærkbar virkning af træningen, men fandt ud af at selv en lille indsats har virkning!” " />
+        <Text>
+          Inden start var jeg bekymret for at kurset nok ikke gjorde en større forskel og at det kræver MEGET arbejde for at lykkes med at få hunden til at gøre, hvad jeg ønsker. Nu tænker jeg at også en mindre indsats har virkning!
+        </Text>
+        <Text>
+          Jeg blev overrasket over hvor hurtigt du kunne få kontakt og lære den noget nyt. Hunden er kvik og vil helt klart gerne. Min kontakt med hunden er forbedret og vi kan nu gå tur uden at trække. Lidt gør den fortsat, men vi er hurtigt på sporet igen. Tak for dygtig og målrettet træning.
+        </Text>
+        <Text>Jane Bach og T- Rex</Text>
       </TextContainer>
     </FlexedRow>
 

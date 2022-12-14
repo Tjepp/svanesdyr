@@ -12,6 +12,9 @@ import {
   TestiPupFive,
   TestiPupSix,
   TestiPupSeven,
+  TestiPupEight,
+  TestiPupNine,
+  TestiPupTen,
 } from '../../assets';
 
 const DogPuppyTestimonials = () => (
@@ -25,38 +28,15 @@ const DogPuppyTestimonials = () => (
     swipeScrollTolerance={30}
   >
     <FlexedRow>
-      <Image src={TestiPupOne} width="200px" height="300px" />
+      <Image src={TestiPupTen} width="200px" height="300px" />
       <TextContainer>
-        <TitleColor text=" ”Vi har fået virkelig gode øvelser som vi kan bruge i hverdagen” " />
+        <TitleColor text=" ”Jeg elsker, at vi ikke er flere på holdet. Det giver tid til hjælp og støtte til den enkelte og mig ro i forhold til at min hund er i trygge rammer” " />
         <Text>
-          Vi vil anbefale alle der skal have hvalp at deltage på Sabrinas hold, ikke bare for at
-          lærer øvelserne men at prøve at arbejde sammen med sin hund er en super følelse!
+          Jeg har lært utroligt meget om, hvordan hunde reagerer/tænker, takket være et fantastisk hold med en fantastisk engageret underviser, 
+          der med masser af kærlighed til hundene hjælper os alle på vej. Især samspillet mellem hvalpene, at se hvordan min hund på kun få gange gik fra at være bange overfor de andre hunde til at være aktivt opsøgende. 
+          Jeg har ikke haft hund tidligere, så det er en stor ny verden der har åbnet sig for mig.
         </Text>
-        <Text>
-          Vi har fået bedre indsigt i hvordan en hund lærer så man kan bruge det på de udfordringer
-          man har. Vi blev overrasket over hvor mange trin der skal til for at opbygge en øvelse og
-          hvor mange godbidder der skal bruges, men vi har fået en hund som gerne vil lytte og lære,
-          et godt samarbejde med ham og værktøjerer til at arbejde videre selv.
-        </Text>
-        <Text>Det har været en mega god oplevelse!</Text>
-        <Text>Ellen, Thomas og Njord</Text>
-      </TextContainer>
-    </FlexedRow>
-
-    <FlexedRow>
-      <Image src={TestiPupTwo} width="200px" height="300px" />
-      <TextContainer>
-        <TitleColor text=" ”Det mest fantastiske var at der var tid til leg med andre hvalpe” " />
-        <Text>
-          Det bedste ved hvalpeholdet er at der ikke var mange på holdet og tid og guidning i leg
-          med andre hvalpe.
-        </Text>
-        <Text>
-          Jeg har fået bevidsthed om mit eget kropssprog i forhold til hunden og ikke mindst viden
-          om hundenes indbyrdes sprog. Jeg vil anbefale alle der kunne have brug for træning at
-          deltage på hvalpeholdet. Vi blev selv anbefalet Sabrina fremfor andre.
-        </Text>
-        <Text>Rikke og Santa’s</Text>
+        <Text>Annette og Mickie</Text>
       </TextContainer>
     </FlexedRow>
 
@@ -133,6 +113,35 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
+      <Image src={TestiPupNine} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Jeg frygtede at vi til træning lukkede alle hundene sammen i en pærevælling, men der er rigtig godt styr på hundenes leg!” " />
+        <Text>
+          Jeg gik tidligere på et hold med 10 hvalpe, og jeg synes helt klart det er en fordel at vi kun var 4 her. Det har jeg fået meget mere ud af.
+        </Text>
+        <Text>
+          Det bedste er at der er rigtig godt styr på hundenes leg og der ikke er mange hunde der leger på en gang. Jeg synes det er så meget bedre end det andet sted jeg gik. Det er meget mere personligt, jeg har fået god sparring med Sabrina, også om vores anden hund derhjemme.
+        </Text>
+        <Text>Mathilde og Karla</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiPupEight} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Vi har haft god sparring og en livline i træneren!” " />
+        <Text>
+          Vi gik til hvalpetræning et andet sted med vores forrige hund og det var ikke særlig godt. Men allerede efter første gang hvalpetræning vidste vi, at vi var i de bedste hænder.
+        </Text>
+        <Text>
+          Vi har fået god kontakt til vores hund og har fået et fantastisk samarbejde med Ludwig. Ikke mindst ved vi, hvordan vi får hans opmærksomhed ved forstyrrelser.. 
+        </Text>
+        <Text>Det har været helt fantastisk og vi har glædet os hver gang. Vi anbefaler stedet til alle vi møder, som har hvalp.</Text>
+        <Text>Heidi Mønster og Ludwig</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
       <Image src={TestiPupSeven} width="200px" height="300px" />
       <TextContainer>
         <TitleColor text=" ”Jeg fik øjnene op for hvor simpelt det kan være at træne, at det ikke behøves at være kompliceret” " />
@@ -148,6 +157,43 @@ const DogPuppyTestimonials = () => (
         <Text>Sandra og Pixie</Text>
       </TextContainer>
     </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiPupOne} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Vi har fået virkelig gode øvelser som vi kan bruge i hverdagen” " />
+        <Text>
+          Vi vil anbefale alle der skal have hvalp at deltage på Sabrinas hold, ikke bare for at
+          lærer øvelserne men at prøve at arbejde sammen med sin hund er en super følelse!
+        </Text>
+        <Text>
+          Vi har fået bedre indsigt i hvordan en hund lærer så man kan bruge det på de udfordringer
+          man har. Vi blev overrasket over hvor mange trin der skal til for at opbygge en øvelse og
+          hvor mange godbidder der skal bruges, men vi har fået en hund som gerne vil lytte og lære,
+          et godt samarbejde med ham og værktøjerer til at arbejde videre selv.
+        </Text>
+        <Text>Det har været en mega god oplevelse!</Text>
+        <Text>Ellen, Thomas og Njord</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiPupTwo} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Det mest fantastiske var at der var tid til leg med andre hvalpe” " />
+        <Text>
+          Det bedste ved hvalpeholdet er at der ikke var mange på holdet og tid og guidning i leg
+          med andre hvalpe.
+        </Text>
+        <Text>
+          Jeg har fået bevidsthed om mit eget kropssprog i forhold til hunden og ikke mindst viden
+          om hundenes indbyrdes sprog. Jeg vil anbefale alle der kunne have brug for træning at
+          deltage på hvalpeholdet. Vi blev selv anbefalet Sabrina fremfor andre.
+        </Text>
+        <Text>Rikke og Santa’s</Text>
+      </TextContainer>
+    </FlexedRow>
+
   </Carousel>
 );
 
