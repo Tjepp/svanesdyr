@@ -26,6 +26,24 @@ const DogCoolTestimonials = () => (
     swipeScrollTolerance={30}
   >
     <FlexedRow>
+      <TextContainer>
+        <TitleColor text=" ”Vi ved nu hvad vi skal gøre i de situationer, hvor vores hund er reaktiv og han er klart også blevet mindre reaktiv generelt set. Tak for det!” " />
+        <Text>
+          Vi har fået redskaberne og viden til at træne ro i flere forskellige situationer og fået lov til at afprøve dette under trygge rammer. 
+          Der har været ro til at vores hund kan få noget ud af træningen, når vi er så få. 
+          Jeg tænkte, at det måske ikke var nødvendigt med et helt kursus i bare at træne ro - men sådan har jeg det bestemt ikke længere! 
+          Det er tydeligt, hvor stort et arbejde, der ligger i ro-træning og hvor meget det hjælper at gå på holdet.
+        </Text>
+        <Text>
+        Vi kan helt klart også mærke, at vi har fået udbyttet af træningen, vi har følt os set og hørte og virkelig følt, at vi har kunnet bruge Sabrinas feedback. 
+        Det er rigtig dejligt, at der er tid til det på holdet! Sabrina er rigtig god til at forklare øvelserne og give konkret feedback i træningssituationen. 
+        Jeg vil bare sige, at det har været en rigtig behagelig træning.
+        </Text>
+        <Text>Emilia og Toughie</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
       <Image src={TestiCoolThree} width="200px" height="300px" />
       <TextContainer>
         <TitleColor text=" ”Jeg var lidt imod at vi skulle bruge klikker. Men for pokker hvor det virker!” " />
@@ -41,20 +59,6 @@ const DogCoolTestimonials = () => (
           de fleste kan være med på.
         </Text>
         <Text>Jeanette Schouborg og Kenzo</Text>
-      </TextContainer>
-    </FlexedRow>
-
-    <FlexedRow>
-      <Image src={TestiCoolEight} width="200px" height="300px" />
-      <TextContainer>
-        <TitleColor text=" ”Jeg var bekymret for at der ikke var nogen mærkbar virkning af træningen, men fandt ud af at selv en lille indsats har virkning!” " />
-        <Text>
-          Inden start var jeg bekymret for at kurset nok ikke gjorde en større forskel og at det kræver MEGET arbejde for at lykkes med at få hunden til at gøre, hvad jeg ønsker. Nu tænker jeg at også en mindre indsats har virkning!
-        </Text>
-        <Text>
-          Jeg blev overrasket over hvor hurtigt du kunne få kontakt og lære den noget nyt. Hunden er kvik og vil helt klart gerne. Min kontakt med hunden er forbedret og vi kan nu gå tur uden at trække. Lidt gør den fortsat, men vi er hurtigt på sporet igen. Tak for dygtig og målrettet træning.
-        </Text>
-        <Text>Jane Bach og T- Rex</Text>
       </TextContainer>
     </FlexedRow>
 
@@ -119,6 +123,20 @@ const DogCoolTestimonials = () => (
           dét er en stor forandring.
         </Text>
         <Text>- HarryBerryyy!</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiCoolEight} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Jeg var bekymret for at der ikke var nogen mærkbar virkning af træningen, men fandt ud af at selv en lille indsats har virkning!” " />
+        <Text>
+          Inden start var jeg bekymret for at kurset nok ikke gjorde en større forskel og at det kræver MEGET arbejde for at lykkes med at få hunden til at gøre, hvad jeg ønsker. Nu tænker jeg at også en mindre indsats har virkning!
+        </Text>
+        <Text>
+          Jeg blev overrasket over hvor hurtigt du kunne få kontakt og lære den noget nyt. Hunden er kvik og vil helt klart gerne. Min kontakt med hunden er forbedret og vi kan nu gå tur uden at trække. Lidt gør den fortsat, men vi er hurtigt på sporet igen. Tak for dygtig og målrettet træning.
+        </Text>
+        <Text>Jane Bach og T- Rex</Text>
       </TextContainer>
     </FlexedRow>
 
