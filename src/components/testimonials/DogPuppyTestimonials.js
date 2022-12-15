@@ -15,6 +15,7 @@ import {
   TestiPupEight,
   TestiPupNine,
   TestiPupTen,
+  TestiPupEleven,
 } from '../../assets';
 
 const DogPuppyTestimonials = () => (
@@ -37,6 +38,22 @@ const DogPuppyTestimonials = () => (
           Jeg har ikke haft hund tidligere, så det er en stor ny verden der har åbnet sig for mig.
         </Text>
         <Text>Annette og Mickie</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiPupEleven} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Vi har virkelig følt os set, og har fået en masse gode værktøjer vi har taget med os” " />
+        <Text>
+          Vi havde tidligere været på et hold ved en anden træner i byen, hvor der ikke var tid til den enkelte hund og hvor vores hvalp blev fejlbedømt fra starten. 
+          Ved deltagelse hos svanes dyr oplevede vi god tid til hver enkel hvalp, og øvelserne blev tilpasset til vores hvalp så hun kunne være godt med hele tiden.
+        </Text>
+        <Text>
+          Vi har fået en roligere hund og bedre kontakt med hunden. 
+          At se vores hund kunne trives med andre hunde har været fantastisk, og at lære at kunne aflæse hendes signaler i leg. Vi har kun en masse ros herfra.
+        </Text>
+        <Text>Dennis og Kirstine og Carla</Text>
       </TextContainer>
     </FlexedRow>
 
