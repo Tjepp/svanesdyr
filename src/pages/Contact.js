@@ -37,7 +37,7 @@ const Contact = () => (
               Så send mig en mail på:
               <StyledExternal href="mailto:info@svanesdyr.dk"> info@svanesdyr.dk</StyledExternal>
               <br />
-              Jeg svarer normaltvist indenfor 24 timer.
+              Jeg svarer indenfor 48 timer.
             </Text>
           </FlexRow>
           <FlexRow>
@@ -56,6 +56,8 @@ const Contact = () => (
             <br />
             Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
           </Text>
+          <br />
+          <Title color="#872f35" text="Jeg afholder i øjeblikket juleferie og er tilbage på kontoret igen den 5. januar!" />
         </Column>
         {/* <Column>
           <Title text="Firma informationer" showHorizontalRuler />
