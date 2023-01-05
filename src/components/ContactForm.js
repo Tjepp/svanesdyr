@@ -103,8 +103,8 @@ class ContactForm extends React.Component {
         ) : null}
         {sent ? (
           <MessageSentContainer>
-            <Text>{`Tak for din besked ${name}, jeg afholder i øjeblikket juleferie og er tilbage på kontoret igen den 5. januar. Du får svar hurtigst muligt herefter.`}</Text>
-            {/* <Text>{`Tak for din besked ${name}, jeg har kontortid man-tors og svarer tilbage indenfor 48 timer i dette tidsrum.`}</Text> */}
+            {/* <Text>{`Tak for din besked ${name}, jeg afholder i øjeblikket juleferie og er tilbage på kontoret igen den 5. januar. Du får svar hurtigst muligt herefter.`}</Text> */}
+            <Text>{`Tak for din besked ${name}, jeg har kontortid man-tors og svarer tilbage indenfor 48 timer i dette tidsrum.`}</Text>
           </MessageSentContainer>
         ) : (
           <Form onSubmit={this.handleForm}>
