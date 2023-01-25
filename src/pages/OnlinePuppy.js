@@ -40,12 +40,12 @@ const LPstep4 = [
 ];
 
 const LPstep5 = [
-  'helt undgå ulvetimen og få ro sammen med din hvalp, hver dag, igen og igen',
-  'opbygge gode rutiner fra start, hvor din hvalp lytter til og overholder dine husregler, så du slipper for at skælde ud',
+  'få din hvalp til at gøre hvad du siger uden skældud, frustration eller konflikt, så i kan opbygge gode rutiner fra start',
   'vide hvordan du får din hvalp til at bruge sit legetøj i stedet for dine sko',
-  'lære din hvalp at tisse udenfor, fremfor indenfor',
+  'få din hvalp til at stole på dig, uanset hvad',
+  'lære din hvalp at finde ro af sig selv, hver dag og igen og igen',
   'få succes for jer begge på gåture, når din hvalp har ro og automatisk søger dig',
-  'konkurrere med andre spændende sager på tur, fordi din hvalp synes du er den fedeste i verden at hænge ud med!',
+  'konkurrere med andre spændende hunde og mennesker på tur, fordi din hvalp synes DU er den fedeste i verden at hænge ud med!',
 ];
 
 const LPstep7 = [
@@ -54,11 +54,13 @@ const LPstep7 = [
   'Søger den bedste tilgang til miljøtræning og socialisering, uden at få stress over at i skal nå en lang tjekliste',
   'Ønsker konkrete redskaber til at give din hvalp masser af gåpåmod til at møde alt nyt med ophøjet ro',
   'Ønsker konkrete øvelser til at lære hvalpen at finde ro af sig selv, både hjemme og ude på tur',
+  'Ønsker en livline til en erfaren, professionel adfærdsbehandler, som kan besvare alle dine brændende spørgsmål',
 ];
 
 const LPstep8 = [
   'Flyt-Fokus strategien til konfliktfri opdragelse',
   'Formlen på miljøtræning uden stress',
+  'Opskriften på at skabe en tillidsfuld hvalp med masser af gåpåmod',
   'Trin-for-trin guide med konkrete øvelser, der lærer din hvalp kontakt og ro på gåturene',
 ];
 
@@ -266,6 +268,9 @@ const OnlinePuppy = () => (
             - problemer der ofte kræver et hjemmebesøg til flere tusinde kroner. Så
             slip frustrationerne og få overskud til smil, samvær og tid til at knytte bånd med din
             dejlige hvalp.
+          </TextCenter>
+          <TextCenter>
+            Og hey - du kan vælge at betale hele beløbet på én gang eller dele betalingen op i 3 rater!
           </TextCenter>
         </Column>
       </Row>
