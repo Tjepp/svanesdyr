@@ -60,7 +60,6 @@ const LPstep8 = [
   'Flyt-Fokus strategien til konfliktfri opdragelse',
   'Formlen på miljøtræning uden stress',
   'Trin-for-trin guide med konkrete øvelser, der lærer din hvalp kontakt og ro på gåturene',
-  'Opskriften på at lære din hvalp at være alene hjemme',
 ];
 
 const LPstep15 = [
@@ -91,7 +90,7 @@ const OnlinePuppy = () => (
 
       <ButtonOnline
         text="Ja tak! Jeg er klar på at få en tillidsfuld og rolig hvalp"
-        onClick={() => window.open(' ', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -259,12 +258,12 @@ const OnlinePuppy = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter bold color="#872f35" text="Kom med til en skarp introduktionspris!" />
-          <TitleCenter text="Din investering i at få en hvalp du kan tage med overalt - uden unoder, uro og konflikter:" />
+          <TitleCenter text="Din investering i at få en rolig og samarbejdsvillig hvalp - uden unoder, uro og konflikter:" />
           <TitleCenter color="#008037" text="Kun 1295,- kr. inkl. moms" />
           <TextCenter>En investering der kan spare dig frustration, tid og penge!</TextCenter>
           <TextCenter>
-            På dette forløb får du konkrete værktøjer til at tackle alt fra hvalpebideri til alene
-            hjemme træningen - problemer der ofte kræver et hjemmebesøg til flere tusinde kroner. Så
+            På dette forløb får du konkrete værktøjer til at tackle alt fra hvalpebideri til ulvetimen om aftenen til at få ro og kontakt på gåturene 
+            - problemer der ofte kræver et hjemmebesøg til flere tusinde kroner. Så
             slip frustrationerne og få overskud til smil, samvær og tid til at knytte bånd med din
             dejlige hvalp.
           </TextCenter>
@@ -273,7 +272,7 @@ const OnlinePuppy = () => (
 
       <ButtonOnline
         text="Ja tak! Lad mig komme med!"
-        onClick={() => window.open(' ', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -292,7 +291,7 @@ const OnlinePuppy = () => (
             deltagere, vil der være et begrænset antal pladser på forløbet.
           </TextCenter>
           <TextCenter>
-            Gruppen åbner den 19.09.2022, hvor kursets forløb også vil starte.
+            Gruppen åbner den 01.02.2023, hvor kursets forløb også vil starte.
           </TextCenter>
           <TextCenter>
             Kursets forløb består af flere lektioner med video undervisning, der er optaget på
@@ -323,7 +322,7 @@ const OnlinePuppy = () => (
 
       <ButtonOnline
         text="Jeg er klar til at få succesoplevelser med min hvalp!"
-        onClick={() => window.open(' ', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
       ></ButtonOnline>
       <br />
       <br />
