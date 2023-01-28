@@ -93,6 +93,7 @@ export { default as OnlinePupTwo } from './OnlinePup2.png';
 export { default as OnlinePupThree } from './OnlinePup3.png';
 export { default as OnlinePupFour } from './OnlinePup4.png';
 export { default as OnlinePupFive } from './OnlinePup5.png';
+export { default as OnlinePuppyBook } from './OnlinePuppy1.png';
 export { default as petbc } from './petbc.jpg';
 export { default as sabrinaAndBarney } from './SabrinaAndBarney.jpg';
 export { default as ConsultPupOne } from './SalgssideHvalp1.jpg';

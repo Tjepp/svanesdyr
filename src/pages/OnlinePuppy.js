@@ -20,7 +20,7 @@ import {
   MetaOnlinePuppy,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { FrontNoOne, OnlineCoverPuppy } from '../assets';
+import { FrontNoOne, OnlineCoverPuppy, OnlinePuppyBook } from '../assets';
 import '../components/table/TableCss.css';
 
 const LPstep3 = [
@@ -68,6 +68,12 @@ const LPstep15 = [
   'Fordi du får mere glæde og ro tilbage til hverdagen. Du kan nyde din hvalp, fremfor at blive frustreret over den.',
   'Fordi du får skabt et stærkere tillidsforhold og øget samarbejdsvillighed med din hvalp. Det kommer ikke kun til gavn på jeres gåture sammen, men også i al anden omgang i har med hinanden i hverdagen.',
   'Fordi dét du lærer kan bruges i mange sammenhænge, hvor du ønsker at din hvalp gør som du siger. Du lærer at se på din hvalps adfærd fra en anden vinkel, så du ved hvad du kan gøre for at skabe succes. Det vil gøre al jeres træning fremadrettet lettere og mere succesfuld.',
+];
+
+const LPstep0 = [
+  'Hvordan du undgår konflikter med din hvalp',
+  'Hvordan du træner gode vaner fra start',
+  'Hvordan du får succes hver dag og igen og igen',
 ];
 
 const OnlinePuppy = () => (
@@ -241,16 +247,15 @@ const OnlinePuppy = () => (
             <TextContainer>
               <Text bold>Sabrina Svane</Text>
               <Text>
-                Jeg er indehaver af Svanes Dyr og har flere gange årligt hvalpe og deres ejere på
-                succesfulde holdforløb til at blive velsocialiserede, rolige snuder, med masser af
-                gåpåmod til hverdagens udfordringer.
+                Jeg er indehaver af Svanes Dyr og har haft hundredvis af hvalpe og deres ejere på
+                succesfulde, intime holdforløb til at blive velsocialiserede, rolige snuder, med masser af
+                gåpåmod til hverdagens udfordringer. Alle hvalpe er individuelle og derfor fortjener du som ejer individuel sparring.
               </Text>
               <Text>
                 Udover holdforløb er jeg ofte på hvalpevisit hos nybagte hvalpeejere, hvor de samme
                 spørgsmål ofte opstår omkring hvalpens opdragelse, socialisering og rutiner til
-                hverdagen. Alle hvalpeejere ønsker at gøre sit bedste for deres nyeste familiemedlem
-                og undgå konflikter, få succes og knytte bånd. Herfra er inspirationen til forløbet
-                opstået.
+                hverdagen. Som ejer ved jeg du ønsker at gøre dit bedste for dit nyeste familiemedlem
+                og undgå konflikter, få succes og knytte bånd. Derfor har jeg valgt at tilbyde dig dette forløb.
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -279,6 +284,27 @@ const OnlinePuppy = () => (
         text="Ja tak! Lad mig komme med!"
         onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
       ></ButtonOnline>
+
+      <br />
+      <Row>
+        <Column widthPercentage="80%">
+          <TitleCenter text="Når du har investeret i forløbet får du med det samme denne e-bog tilsendt til din mail!" />
+          <FlexedRow>
+          <Image src={OnlinePuppyBook} width="350px" height="300px" />
+            <TextContainer>
+              <Text bold>Metoden til konfliktfri opdragelse</Text>
+              <Text>
+                Hvor du får svaret på:
+              </Text>
+              <TextListMark texts={LPstep0} />
+              <Text>
+                Så du med det samme har konkrete teknikker til at skabe en samarbejdsvillig hvalp, inden vi starter sammen på forløbet den 1. februar!
+                Et forløb hvor du kan se frem til endnu flere konkrete metoder til at få din hvalp til at opføre sig eksemplarisk - både ude og hjemme!
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+        </Column>
+      </Row>
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
@@ -346,3 +372,7 @@ const Background = styled.div`
     padding: 15px;
   `}
 `;
+
+// const ZeroMarginText = styled(TextContainer)`
+// margin-left: 0px;
+// `;
