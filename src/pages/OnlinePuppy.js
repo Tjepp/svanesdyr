@@ -275,7 +275,7 @@ const OnlinePuppy = () => (
             dejlige hvalp.
           </TextCenter>
           <TextCenter>
-            Og hey - du kan vælge at betale hele beløbet på én gang eller dele betalingen op i 3 rater!
+            Og hey - du kan vælge at betale hele beløbet på én gang eller dele betalingen op i 3 rater (ganske rente- og gebyrfrit)!
           </TextCenter>
         </Column>
       </Row>
@@ -285,6 +285,16 @@ const OnlinePuppy = () => (
         onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
       ></ButtonOnline>
 
+      <Row>
+        <Column widthPercentage="80%">
+          <TextCenter italic>
+            Finder du ud af efter den første uge på forløbet at det ikke var noget for dig og din hvalp alligevel, så kan du få pengene retur 
+            <br />- no questions asked!
+          </TextCenter>
+        </Column>
+      </Row>
+
+      <br />
       <br />
       <Row>
         <Column widthPercentage="80%">
