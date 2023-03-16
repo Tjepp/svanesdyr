@@ -49,8 +49,8 @@ const TrainerProgram = [
 
 const StylistBenefits = [
   'Personlig sparring omkring din hund med to professionelle hundefolk',
-  'Hele 5 fysiske mødegange med individuel rådgivning i jeres træning',
-  'Max 4 andre holdkammerater, så der er god tid til dig og din hund',
+  'Hele 2 fysiske mødegange med individuel rådgivning i jeres træning',
+  'Max 5 andre holdkammerater, så der er god tid til dig og din hund',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Adgang til lukket facebookgruppe, hvor du ubegrænset kan stille spørgsmål til din hund og jeres træning hjemme',
 ];
@@ -110,9 +110,10 @@ const DogStylist = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 5 mødegange sammen vil hundefrisør Torsten Nielsen dække følgende
-            emner:
+            <br />Forløbet består af 2 fysiske lektioner og disse afholdes med en måneds mellemrum så der er tid til at gå i dybden og træne fra første til sidste møde.
+            I mellem de to mødegange bliver du medlem af en lukket facebookgruppe, hvor du ubegrænset kan stille spørgsmål og lægge videoer op for sparring.
           </Text>
+          <Text>I forløbet vil hundefrisør Torsten Nielsen dække følgende emner:</Text>
           <TextList texts={StylistProgram} />
           <Text>Din adfærdsbehandler Sabrina Svane vil desuden dække følgende emner:</Text>
           <TextList texts={TrainerProgram} />
@@ -149,7 +150,7 @@ const DogStylist = () => (
           <br />
 
           <Title text="Holdstart for Tryg Frisørtid" showHorizontalRuler />
-          <TitleColor text="Din investering: 1895 kr. - som du kan vælge at betale over 3 måneder" />
+          <TitleColor text="Din investering: 1495 kr. - som du kan vælge at betale over 3 måneder" />
           <Text>
             i at kunne pleje din hunds pels og negle <u>selv</u> eller sende den til hundefrisøren
             uden bekymring, da det bliver ren kvalitetstid fremfor overgreb.
