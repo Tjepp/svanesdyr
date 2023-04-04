@@ -16,6 +16,7 @@ import {
   Image,
   StyledLink,
   ContactPopUp,
+  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -26,13 +27,15 @@ const FitProgram = [
   'Balancetræning med bolde mv.',
   'Kropsbevidsthed om at bruge alle fire poter',
   'Kropskontrol med bagpart og forpart',
+  'Empowerment øvelser i lydtræning',
   'Empowerment øvelser med initiativ, vedholdenhed og gåpåmod',
 ];
 
 const FitBenefits = [
   'Personlig sparring omkring din hund og hjælp til øvelser',
   'Hele 7 ugers træning med ugentligt møde',
-  'Max 3 andre holdkammerater, så der er god tid til dig',
+  'Max 4 andre holdkammerater, så der er god tid til dig',
+  'Adgang til online bibilotek med skriftlige guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
@@ -89,12 +92,21 @@ const DogEmpower = () => (
           <br />
 
           <Title text="Holdstart for Fit Empowerment" showHorizontalRuler />
-          <TitleColor text="Din investering: 1095 kr." />
+          <TitleColor text="Din investering: 1195 kr." />
           <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
-          <Title text="Hold startes op på efterspørgsel." />
-          <ContactPopUp text="Kontakt mig ved interesse" />
+          <Title text="Kommende hold:" />
+          <EasyMeList src="https://ezme.io/x/x1S/WXZW" />
+          <br />
+          <Text>
+            Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
+            jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
+            dit holdønske her:
+          </Text>
+          <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
+          {/* <Title text="Hold startes op på efterspørgsel." />
+          <ContactPopUp text="Kontakt mig ved interesse" /> */}
           <br />
           <br />
 

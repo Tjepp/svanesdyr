@@ -41,8 +41,7 @@ const ContinuedProgram = [
 
 const PuppyBenefits = [
   'Gode muligheder for socialisering og leg under kontrollerede forhold',
-  'Personlig sparring omkring din hvalp og jeres hverdag sammen',
-  'Gode råd og tips til optimal aktivering af hvalpen',
+  'Personlig sparring omkring din hund og jeres hverdag sammen',
   'Hele 7 ugers træning med ugentligt møde',
   'Max 4 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
