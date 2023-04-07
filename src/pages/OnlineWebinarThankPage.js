@@ -49,7 +49,7 @@ const OnlineWebinarThankPage = () => (
 
       <ButtonOnline
         text="Jeg er SÅ klar! Før mig straks ind til den lukkede facebookgruppe"
-        onClick={() => window.open('https://www.facebook.com/groups/hundelegwebinar', '_blank')}
+        onClick={() => window.open('https://www.facebook.com/groups/dengodehundeleg20042023', '_blank')}
       ></ButtonOnline>
       <br />
       <br />
