@@ -34,6 +34,7 @@ export { default as MetaDogTricks } from './meta/MetaDogTricks';
 export { default as MetaLaw } from './meta/MetaLaw';
 export { default as MetaLawPrivate } from './meta/MetaLawPrivate';
 export { default as MetaOnlineWalk } from './meta/MetaOnlineWalk';
+export { default as MetaOnlineWebinarPlayTime } from './meta/MetaOnlineWebinarPlayTime';
 export { default as MetaOnlineEbookPuppyFive } from './meta/MetaOnlineEbookPuppyFive';
 export { default as MetaOnlinePuppy } from './meta/MetaOnlinePuppy';
 export { default as DogCourseTableHead } from './table/DogCourseTableHead';

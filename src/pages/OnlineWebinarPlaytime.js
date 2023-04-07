@@ -15,6 +15,7 @@ import {
   TextListMark,
   LPHeadlineWebinar,
   ButtonOnline,
+  MetaOnlineWebinarPlayTime,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { OnlineCoverDogPlay, FrontNoOne } from '../assets';
@@ -37,6 +38,7 @@ const LPstep8 = [
 
 const OnlineWebinarPlaytime = () => (
   <LandingpageOnline>
+    <MetaOnlineWebinarPlayTime />
     <Background>
       <Row>
         <Column widthPercentage="100%">
