@@ -155,7 +155,7 @@ const OnlineWebinarPlaytime = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <LPHeadlineWebinar text="Sådan foregår kurset" />
+          <LPHeadlineWebinar text="Sådan foregår webinaret" />
           <br />
           <br />
           <TitleCenter text="LIVE webinar i lukket facebookgruppe og 30 dages adgang" />
