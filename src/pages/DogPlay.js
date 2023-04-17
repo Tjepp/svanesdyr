@@ -37,13 +37,18 @@ const PlayBenefits = [
   'Redskaber til at kontrollere legen, så alle får en god oplevelse',
   'Kontrollerede forhold med en adfærdsspecialist på sidelinjen',
   'Hele 45 min. med social hygge to- og firbenede mellem',
-  'Hele 7 andre snuder, så der er god mulighed for at finde den gode legekammerat',
 ];
 
 const PlayTypes = [
   'Små racer: Max skulderhøjde 30 cm.',
   'Mellemstore racer: Skulderhøjde fra 30 - 60 cm.',
   'Store racer: Skulderhøjde fra 60 cm og opefter',
+];
+
+const PlayRoom = [
+  'Små racer: Max 10 hunde',
+  'Mellemstore racer: Max 8 hunde',
+  'Store racer: Max 6 hunde',
 ];
 
 const DogPlay = () => {
@@ -112,8 +117,18 @@ const DogPlay = () => {
               din hund, efter dens højde. Har du en lille hvalp, som ender med at blive en stor
               race, skal du tage udgangspunkt i dens nuværende højde når du tilmelder den.
             </Text>
-            <Text>Legestuerne inddeles i 3 typer:</Text>
-            <TextList texts={PlayTypes} />
+            <Text>
+              Legestuerne inddeles i 3 typer:
+              <TextList texts={PlayTypes} />
+            </Text>
+
+            <Text>
+              <b>Antal pladser til legestuerne</b>
+              <br />
+              For at forholdene er kontrollerede er der begrænsning på hvor mange pladser hver legestue har til rådighed pr. gang:
+              <TextList texts={PlayRoom} />
+            </Text>
+            
 
             <br />
             <Title text="Datoer for legestuer" showHorizontalRuler />
