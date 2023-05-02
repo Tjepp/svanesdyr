@@ -24,6 +24,7 @@ export { default as MetaDogCoolContinued } from './meta/MetaDogCoolContinued';
 export { default as MetaDogCoolEnvironment } from './meta/MetaDogCoolEnvironment';
 export { default as MetaDogCoolFriend } from './meta/MetaDogCoolFriend';
 export { default as MetaDogCourse } from './meta/MetaDogCourse';
+export { default as MetaDogMorning } from './meta/MetaDogMorning';
 export { default as MetaDogNailClip } from './meta/MetaDogNailClip';
 export { default as MetaDogPlay } from './meta/MetaDogPlay';
 export { default as MetaDogPuppy } from './meta/MetaDogPuppy';

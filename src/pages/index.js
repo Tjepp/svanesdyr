@@ -7,6 +7,7 @@ export { default as DogConsultPuppy } from './DogConsultPuppy';
 export { default as DogCourse } from './DogCourse';
 export { default as DogCourseThanks } from './DogCourseThanks';
 export { default as DogEmpower } from './DogEmpower';
+export { default as DogMorning } from './DogMorning';
 export { default as DogNailClip } from './DogNailClip';
 export { default as DogNoseWork } from './DogNoseWork';
 export { default as DogPlay } from './DogPlay';
