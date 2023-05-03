@@ -17,9 +17,17 @@ import {
   StyledLink,
   EasyMeList,
   ContactPopUp,
+  FlexedRow,
+  TextContainer,
+  Image,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
+import {
+  Mona,
+  MonaHoopers,
+  MonaRally,
+} from '../assets';
 
 const RallyProgram = [
   'Lineføring; Følge i gang med øvelse i både venstre og højre side',
@@ -35,13 +43,20 @@ const HoopersProgram = [
   'Følge i gang og løb uden snor',
   'Afstandsdirigering',
   'Belønningsstrategier',
-  'Placering af hunden: Blive i position',
 ];
 
 const HoopersBenefits = [
   'Personlig sparring med Hoopers og Rally Instruktør Mona Lindhardt',
   'Ugentligt møde over 4 uger',
   'Max 4 andre holdkammerater, så der er god tid til dig',
+];
+
+const MonaViews = [
+  'Hunden sættes op til succes uanset, hvad vi træner',
+  'Hunden laver ikke fejl, den er bare ikke sat ordentligt ind i opgaven',
+  'Hunden skal have tid og ro til at løse opgaven, vi må ikke undervurdere dens intelligens',
+  'Ros og belønning kan aldrig overdrives',
+  'Hundeførerne skal komme forventningsfulde til træningen og føle de har haft kvalitetstid med deres hund, når de tager hjem',
 ];
 
 const DogMorning = () => (
@@ -71,29 +86,52 @@ const DogMorning = () => (
             og leg. Hvis din hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere
             letforståelig. Alle bliver sat op til succes.
           </Text>
+
+          <br />
+          <Text><b>Træningsprogram for Rally-Lydighed</b><br /></Text>
+          <FlexedRow>
+          <Image src={MonaRally} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                Til Rally-Lydighed er der fokus på lydighedstræningen, uden præcisionsarbejdet. 
+                Det største mål med Rally er nemlig at din hund udviser glæde og villighed til at samarbejde.
+                I Rally-Lydighed skal dig og din hund udfører forskellige opgaver sammen, hvor opgaverne er listet op på skiltene på banen.
+                Der findes omkring 130 forskellige skilte med forskellige samarbejdsøvelser, så holdet giver rig mulighed for at finde på nye, sjove opgaver sammen med din hund.
+              </Text>
+              <Text>
+                For at deltage i Rally-Lydighed skal din hund kunne træne med andre hunde omkring sig.
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
           <Text>
-            <b>Træningsprogram for Rally-Lydighed</b><br />
-            Til Rally-Lydighed er der fokus på lydighedstræningen, uden præcisionsarbejdet. 
-            Det største mål med Rally er nemlig at din hund udviser glæde og villighed til at samarbejde.
-            I Rally-Lydighed skal dig og din hund udfører forskellige opgaver sammen, hvor opgaverne er listet op på skiltene på banen.
-            Der findes omkring 130 forskellige skilte med forskellige samarbejdsøvelser, så holdet giver rig mulighed for at finde på nye, sjove opgaver sammen med din hund.
+              I løbet af holdets 4 uger vil du få øvelse i følgende:
+              <TextList texts={RallyProgram} />
           </Text>
+
+          <br />
+          <Text><b>Træningsprogram for Hoopers</b><br /></Text>
+          <FlexedRow>
+          <Image src={MonaHoopers} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                Til Hoopers skal din hund lære selvstændigt at søge forhindringerne på banen, mens du står på afstand og guider.
+                Hoopers minder om agility, men er langt mere skånsomt, da det ikke indebærer skarpe sving, hop eller kravlen på forhindringer.
+                Derfor er Hoopers også velegnet til de yngre hunde.
+                Hoopers er for alle racer, da det eneste krav er at din hund skal kunne løbe.
+                Der fokuseres ikke på konkurrenceniveau, men udelukkende på at hver hund skal have en fest til træningen.
+              </Text>
+              <Text>
+                For at deltage i Hoopers skal din hund kunne blive mens du går fra den, ellers bliver dét dit første hjemmearbejde.
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
           <Text>
-            I løbet af holdets 4 uger vil du få øvelse i følgende:
-            <TextList texts={RallyProgram} />
+              I løbet af holdets 4 uger vil du få øvelse i følgende:
+              <TextList texts={HoopersProgram} />
           </Text>
-          <Text>
-            <b>Træningsprogram for Hoopers</b><br />
-            Til Hoopers skal din hund lære selvstændigt at søge forhindringerne på banen, mens du står på afstand og guider.
-            Hoopers minder om agility, men er langt mere skånsomt, da det ikke indebærer skarpe sving, hop eller kravlen på forhindringer.
-            Derfor er Hoopers også velegnet til de yngre hunde.
-            Hoopers er for alle racer, da det eneste krav er at din hund skal kunne løbe.
-            Der fokuseres ikke på konkurrenceniveau, men udelukkende på at hver hund skal have en fest til træningen.
-          </Text>
-          <Text>
-            I løbet af holdets 4 uger vil du få øvelse i følgende:
-            <TextList texts={HoopersProgram} />
-          </Text>
+
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
@@ -120,6 +158,25 @@ const DogMorning = () => (
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
           <br />
           <br />
+
+          <Title text="Mød din underviser Mona Lindhardt" showHorizontalRuler />
+          <FlexedRow>
+          <Image src={Mona} width="200px" height="320px" />
+            <TextContainer>
+              <Text>
+                Jeg hedder Mona og er hundenørd, er vild med hunde og lever et skønt hundeliv sammen med mine 4 hunde, som pt. trænes og konkurrerer i rally og Hoopers.
+                Jeg er uddannet DKK instruktør og har undervist hundeførere i over 30 år. Jeg startede Hoopers op i Danmark i efterår 2019.
+              </Text>
+              <Text>
+                Jeg lægger stort vægt på følgende:
+                <TextList texts={MonaViews} />
+              </Text>
+              <Text>
+                Jeg er detaljeorienteret, men træningen skal være stadig være sjov og udfra den enkelte ekvipages niveau.
+              </Text>
+              <Text>Jeg håber vi ses</Text>
+            </TextContainer>
+          </FlexedRow>
 
           {/* <Title text="Stemningsbilleder fra Miljøholdene" showHorizontalRuler />
           <Row>
