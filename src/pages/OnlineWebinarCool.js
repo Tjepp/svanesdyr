@@ -54,13 +54,13 @@ const OnlineWebinarCool = () => (
             text="Et online webinar til dig der ønsket en afslappet hund, der kan nyde gåturen sammen med dig"
           />
           <TextCenter>
-            Oplever du din hund "kortslutter" på gåtur og er ikke til at komme i kontakt med?
+            Oplever du din hund "kortslutter" på gåtur i mødet med andre hunde og er ikke til at komme i kontakt med?
           </TextCenter>
           <TextCenter>
-            Er jeres gåture sammen mere frustrerende end givende?
+            Bliver gåturen sammen hurtigt mere frustrerende end givende?
           </TextCenter>
           <TextCenter>
-            Ville du ønske du havde konkrete redskaber til at få din hund til at finde ro?
+            Ville du ønske du havde konkrete redskaber til at få din hund til at finde ro i mødet med andre?
           </TextCenter>
           <TextCenter>
             Få svar på hvad du konkret kan gøre, når Dyreadfærdskonsulent Sabrina Svane går LIVE og giver dig opskriften på at skabe ro for din hund i mødet med andre hunde.
@@ -193,7 +193,7 @@ const OnlineWebinarCool = () => (
           <TextCenter>
             Kan du ikke være med på selve aftenen?<br />
             Fortvivl ikke!<br />
-            Webinaret optages og bliver liggende inde i faceboogruppen i 30 dage.
+            Webinaret optages og bliver liggende inde i facebookgruppen i 30 dage.
           </TextCenter>
           <TextCenter bold>
             Du har adgang til frit at se eller gense webinaret frem til og med den 24. juni 2023.

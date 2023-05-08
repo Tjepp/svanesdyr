@@ -178,7 +178,7 @@ const OnlineWebinarPlaytime = () => (
           <TextCenter>
             Kan du ikke være med på selve aftenen?<br />
             Fortvivl ikke!<br />
-            Webinaret optages og bliver liggende inde i faceboogruppen i 30 dage.
+            Webinaret optages og bliver liggende inde i facebookgruppen i 30 dage.
           </TextCenter>
           <TextCenter bold>
             Du har adgang til frit at se eller gense webinaret frem til og med den 20. maj 2023.
