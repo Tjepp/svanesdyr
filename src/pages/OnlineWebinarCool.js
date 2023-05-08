@@ -37,7 +37,7 @@ const LPstep5 = [
 ];
 
 const LPstep8 = [
-  'Konkret øvelse i kan træne hjemme, som styrker din hunds kontakt og ro i mødet med andre',
+  'Konkret øvelse i kan træne hjemme, som styrker din hunds kontak til dig i mødet med andre',
   '3 simple metoder til at indlære ro i mødet med andre hunde',
   'Fotoalbumsprincippet, der giver dig indsigt i din hunds hukommelse, så i fremadrettet kan få succes uanset hvad!',
 ];
