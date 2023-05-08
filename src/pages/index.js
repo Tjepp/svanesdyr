@@ -38,5 +38,7 @@ export { default as OnlineSoundbookThanks } from './OnlineSoundbookThanks';
 export { default as OnlineSummerThanks } from './OnlineSummerThanks';
 export { default as OnlineThankPage } from './OnlineThankPage';
 export { default as OnlineWalk } from './OnlineWalk';
+export { default as OnlineWebinarCool } from './OnlineWebinarCool';
 export { default as OnlineWebinarPlaytime } from './OnlineWebinarPlaytime';
+export { default as OnlineWebinarThankCool } from './OnlineWebinarThankCool';
 export { default as OnlineWebinarThankPage } from './OnlineWebinarThankPage';

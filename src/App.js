@@ -59,8 +59,10 @@ import {
   OnlineSummerThanks,
   OnlineThankPage,
   OnlineWalk,
-  OnlineWebinarThankPage,
+  OnlineWebinarCool,
   OnlineWebinarPlaytime,
+  OnlineWebinarThankCool,
+  OnlineWebinarThankPage,
 } from './pages';
 import { ScrollToTop } from './components';
 
@@ -124,7 +126,9 @@ const App = () => {
         <Route path="/sommertak" exact element={<OnlineSummerThanks />} />
         <Route path="/tusindtak" exact element={<OnlineThankPage />} />
         <Route path="/gaatur" exact element={<OnlineWalk />} />
+        <Route path="/webinarreaktivtilro" exact element={<OnlineWebinarCool />} />
         <Route path="/webinardengodehundeleg" exact element={<OnlineWebinarPlaytime />} />
+        <Route path="/webinarreaktivtiltak" exact element={<OnlineWebinarThankCool />} />
         <Route path="/webinartak" exact element={<OnlineWebinarThankPage />} />
       </Routes>
     </BrowserRouter>
