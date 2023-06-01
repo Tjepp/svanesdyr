@@ -12,7 +12,7 @@ const MetaDogSummer = ({ title, description, keywords }) => (
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://www.svanesdyr.dk/MetaDogSummer4.jpg" />
+      <meta property="og:image" content="https://www.svanesdyr.dk/MetaDogSummer7.jpg" />
       <meta property="og:site_name" content="Svanes Dyr" />
 
       <meta name="keywords" content={keywords} />
@@ -23,10 +23,10 @@ const MetaDogSummer = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Sommerferietræning Horsens | Uge 28, 29 og 30 | Dyreadfærdskonsulent | Svanes Dyr ';
+  'Sommerferietræning Horsens | Uge 29 og 30 | Dyreadfærdskonsulent | Svanes Dyr ';
 const defaultDescription = 'Svanes Dyr - Hundetræning i sommerferien i Horsens';
 const defaultKeywords = `Sommerferie hund, sommerferietræning hund, hundetræning sommer, hundetræning sommerferie, familievenlig hundetræning, familie hundetræning,
-  sommerdage hund`;
+  sommerdage hund, barn og hund, sommer barn hund, nose work sommer, rally sommer, nose work sommertræning, rally sommertræning, hundelegestue horsens, hundelegestue`;
 MetaDogSummer.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
