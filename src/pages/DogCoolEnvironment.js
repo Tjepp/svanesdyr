@@ -98,7 +98,7 @@ const DogCoolEnvironment = () => (
           <br />
 
           <Title text="Holdstart for Miljøholdet" showHorizontalRuler />
-          <TitleColor text="Din investering: 795 kr." />
+          <TitleColor text="Din investering: 845 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture, med en hund der kan finde ro og holde kontakt,
             selv når i kommer nye steder.

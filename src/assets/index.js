@@ -84,6 +84,7 @@ export { default as sabrinaNew } from './migNY.jpg';
 export { default as Mona } from './Mona.png';
 export { default as MonaHoopers } from './MonaHoopers.png';
 export { default as MonaRally } from './MonaRally.png';
+export { default as NWGary } from './NoseWork.jpg';
 export { default as OnlineCoverCool } from './OnlineCoverCool.png';
 export { default as OnlineCoverDogPlay } from './OnlineCoverDogPlay.png';
 export { default as OnlineCoverWalk } from './OnlineCoverWalk.png';

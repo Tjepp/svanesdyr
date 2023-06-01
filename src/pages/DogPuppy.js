@@ -76,7 +76,7 @@ const DogPuppy = () => {
             <Text>
               Hvalpeholdet henvender sig til alle hvalpe i alderen fra 8 uger og op til 6 mdr.
               <br />
-              Jeg lægger stort fokus på miljøtræning, håndtering og sociliasering af din hvalp, så
+              Jeg lægger stort fokus på miljøtræning, håndtering og socialisering af din hvalp, så
               du får en følelsesmæssig robust hvalp, der kan tackle hverdagens udfordringer med ro
               og overskud.
             </Text>
@@ -117,7 +117,7 @@ const DogPuppy = () => {
             </Text>
             <br />
             <Title text="Holdstart for Hvalpeholdet" showHorizontalRuler />
-            <TitleColor text="Din investering: 1195 kr." />
+            <TitleColor text="Din investering: 1245 kr." />
             <Text>
               i at få en rolig, imødekommende og selvsikker familiehund, der elsker at træne sammen
               med dig!

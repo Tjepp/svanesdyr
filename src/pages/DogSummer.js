@@ -8,6 +8,7 @@ import {
   Text,
   TextCenter,
   TextContainer,
+  TextList,
   Image,
   Row,
   FlexedRow,
@@ -22,12 +23,15 @@ import {
   OnlineCoverSummer,
   PuppyContinuedFive,
   RecallOne,
-  TricksOne,
+  // TricksOne,
   CoolThree,
   NailClipSix,
   CoolAgainOne,
+  PuppySeven,
   PuppyContinuedOne,
   TricksTwo,
+  NWGary,
+  MonaRally,
 } from '../assets';
 import '../components/table/TableCss.css';
 
@@ -36,6 +40,26 @@ const Spotliste = [
   'Det inkluderer 60 minutters undervisning og derefter 30 minutters hygge, snak og socialisering',
   'Der serveres både lunt og koldt at drikke, som kakao, kaffe, te og juice som er med i prisen',
   'Kurserne er for alle hunde i alle aldre',
+  'Alle Spot-kurser afholdes af Dyreadfærdskonsulent Sabrina Svane',
+];
+
+const Flerdagesliste = [
+  'Hvert kursus varer op til 4 dage',
+  'Hver dag mødes vi i op til 90 minutter',
+  'Der serveres både lunt og koldt at drikke, som kakao, kaffe, te og juice som er med i prisen',
+  'Kurserne er for alle hunde i alle aldre',
+];
+
+const PlayTypes = [
+  'Små racer: Max skulderhøjde 30 cm.',
+  'Mellemstore racer: Skulderhøjde fra 30 - 60 cm.',
+  'Store racer: Skulderhøjde fra 60 cm og opefter',
+];
+
+const PlayRoom = [
+  'Små racer: Max 10 hunde',
+  'Mellemstore racer: Max 8 hunde',
+  'Store racer: Max 6 hunde',
 ];
 
 const DogSummer = () => (
@@ -46,18 +70,23 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <Image src={OnlineCoverSummer} />
           <br />
-          <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene sammen med din dejlige snude" />
+          <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene i uge 29 eller 30 sammen med din dejlige snude" />
           <TextCenter>
             Kom med og brug nogle af de solrige sommerdage i Horsens i godt selskab med andre
             snuder. Tag både din bedre halvdel og børnene med til en hyggelig stund - alle er
             velkomne!
           </TextCenter>
-          <TextCenter>Fælles for alle sommerens kurser er:</TextCenter>
+          <TextCenter bold>
+            Der udbydes igen i år de populære spot-kurser og som noget nyt flerdages temakurser!
+          </TextCenter>
+          <TextCenter>Fælles for alle SPOT-kurser er:
           <TextListMark texts={Spotliste} />
+          </TextCenter>
+          <TextCenter>Fælles for alle FLERDAGES-kurser er:
+          <TextListMark texts={Flerdagesliste} />
+          </TextCenter>
           <TextCenter>
             Alle sommerens kurser foregår på træningspladsen Sorthøjvej 40, 8700 Horsens.
-            <br />
-            Alle kurserne tilbydes af Dyreadfærdskonsulent Sabrina Svane.
           </TextCenter>
           <br />
           <TitleCenter text="Ønsker du at tilmelde dig flere sommerkurser på én gang?" />
@@ -65,7 +94,7 @@ const DogSummer = () => (
             Finder du flere end 3 forskellige kurser i kataloget spændende?
             <br />
             Slip for at tilmelde dig hvert kursus én ad gangen, og book alle de hold du ønsker at
-            deltage på ved at sende en mail direkte til Sabrina:
+            deltage på ved at sende en mail direkte til Sabrina, hvor du oplyser hvad du vil med på:
           </TextCenter>
           <ContactPopUp text="TILMELDING til flere sommerkurser på én gang" />
         </Column>
@@ -75,7 +104,7 @@ const DogSummer = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <LPHeadlineWalk text="Udbud af sommerkurser" />
+          <LPHeadlineWalk text="Udbud af sommerens SPOT-kurser" />
         </Column>
       </Row>
 
@@ -92,28 +121,30 @@ const DogSummer = () => (
                 Alle får en god oplevelse med hjem, da der tages hensyn til den enkelte hund. Oftest
                 startes legen ud med at to hunde lukkes sammen ad gangen, så de kan få lov til at se
                 hinanden an. Det gør det nemt at afbryde legen, hvis det bliver for meget for den
-                ene hund, eller de har brug for en pause.
-                <br />
-                Din hund har sin egen personlighed og sin egen præference for leg. Nogle kan godt
+                ene hund, eller de har brug for en pause. Din hund har sin egen præference for leg. Nogle kan godt
                 lide at løbe og jage, andre elsker at bryde og være vild. Derfor sættes legetimen
                 op, så vi kan se hvilke hunde der passer bedst sammen i legestil.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 150,- kr.</b>
+              <b>Legestuerne inddeles i 3 typer:</b>
+              <TextList texts={PlayTypes} />
+            </Text>
+            <Text>
+              <b>Antal pladser til legestuerne</b>
+              <br />
+              For at forholdene er kontrollerede er der begrænsning på hvor mange pladser hver legestue har til rådighed pr. gang:
+              <TextList texts={PlayRoom} />
+            </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 175,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
-              <Text>Max 8 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
-          <Text bold>Tilmelding små racers legestuer:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/kyHe" />
-          <br />
-
-          <Text bold>Tilmelding Store racers legestuer:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/kyHu" />
-          <br />
+          <Text bold>Tilmelding til legestue:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/WvLZ" />
         </Column>
       </Row>
 
@@ -141,7 +172,7 @@ const DogSummer = () => (
                 er spændende ting at give sig til, så er det stadig FEDT at komme når du kalder!
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 195,- kr.</b>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
@@ -150,12 +181,12 @@ const DogSummer = () => (
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Indkaldskursus:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/kO24" />
+          <EasyMeList src="https://ezme.io/x/x1S/WvLo" />
         </Column>
       </Row>
 
       {/* FITNESS */}
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Fitness for alle" />
           <FlexedRow>
@@ -185,7 +216,7 @@ const DogSummer = () => (
           <Text bold>Tilmelding til Fitness for Alle:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/kO2H" />
         </Column>
-      </Row>
+      </Row> */}
 
       {/* GÅTURE */}
       <Row>
@@ -204,7 +235,7 @@ const DogSummer = () => (
                 styrke jeres fælles samarbejde.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 195,- kr.</b>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
@@ -213,7 +244,7 @@ const DogSummer = () => (
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Rolige Gåture:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/kO2M" />
+          <EasyMeList src="https://ezme.io/x/x1S/WvLf" />
         </Column>
       </Row>
 
@@ -234,7 +265,7 @@ const DogSummer = () => (
                 start/slut signaler.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 195,- kr.</b>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
@@ -243,7 +274,7 @@ const DogSummer = () => (
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Intro til Frivillig Håndtering:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/kOnp" />
+          <EasyMeList src="https://ezme.io/x/x1S/WvLQ" />
         </Column>
       </Row>
 
@@ -264,7 +295,7 @@ const DogSummer = () => (
                 Vi kigger på konceptet selv med forstyrrelser i brug!
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 195,- kr.</b>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
@@ -273,7 +304,7 @@ const DogSummer = () => (
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Bliv!:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/kOnk" />
+          <EasyMeList src="https://ezme.io/x/x1S/WvLy" />
         </Column>
       </Row>
 
@@ -297,7 +328,7 @@ const DogSummer = () => (
                 du lærer din hund Zig-zag mellem ben, kravle og snurre-rundt.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 195,- kr.</b>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
@@ -306,24 +337,45 @@ const DogSummer = () => (
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Tricks og Sjov:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/kOnu" />
+          <EasyMeList src="https://ezme.io/x/x1S/WvkC" />
         </Column>
       </Row>
       <br />
       <br />
       <Row>
         <Column widthPercentage="100%">
-          <LPHeadlineWalk text="Miljømøder" />
+          <LPHeadlineWalk text="Udbud af sommerens FLERDAGES-kurser" />
         </Column>
       </Row>
 
-      {/* MILJØ */}
+      {/* REAKTIV TIL RO */}
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Miljøtræning for alle aldre" />
+          <TitleCenter text="Fra Reaktiv til Ro" />
           <FlexedRow>
             <Image src={CoolAgainOne} width="300px" height="200px" />
             <TextContainer>
+              <Text>
+                <b>Få kyndig vejledning i at lære din hund at finde ro nær andre hunde</b>
+                <br />
+                <i>Underviser: Dyreadfærdskonsulent Sabrina Svane</i>
+                <br />
+                Fra reaktiv til ro forløbet fokuserer på at indlære kontakt og ro i nærværet af andre hunde. 
+                Du vil få personlig vejledning i hvordan du hjælper din hund med at finde ro nær andre hunde,
+                herunder hvordan du sikrer dig din hund ikke stresser for meget og hvilke teknikker du kan tage i brug.
+                Du vil få hjemmeopgaver med hvor du kan øve selvkontrol, kontaktlege og følge-med i snor. 
+                <b> Bemærk</b> at du får givet teknikkerne til at arbejde videre derhjemme - du vil ikke komme helt i mål på 4 dage.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 975,- kr.</b>
+                <br />
+                Max 4 snuder pr. hold.<br />
+                <i>Bemærk din hund skal være tryg ved at vente i bilen</i>.<br />
+                Kurset strækker sig over 4 dage med op til 60 minutters undervisning med hundene i spil hver dag. 
+                Derefter har vi 30 minutter til spørgsmål og opfølgning, hvor hundene hviler i bilerne. Kurset henvender sig til hunde i alle aldre. 
+              </Text>
+            </TextContainer>
+            {/* <TextContainer>
               <Text>
                 <b>Få kyndig vejledning i at lære din hund at lystre i nye miljøer</b>
                 <br />
@@ -345,11 +397,114 @@ const DogSummer = () => (
                 <br />
                 <i>Lunden</i>, 8700 Horsens med gratis parkering ved siden af Horsens Kunstmuseum
               </Text>
+            </TextContainer> */}
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Fra Reaktiv til RO:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/WvWW" />
+        </Column>
+      </Row>
+
+      
+      {/* INTENSIV HVALPEKURSUS */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Intensivt Hvalpehold" />
+          <FlexedRow>
+            <Image src={PuppySeven} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Få svar på alle dine spørgsmål om dit nye familiemedlem</b>
+                <br />
+                <i>Underviser: Dyreadfærdskonsulent Sabrina Svane</i>
+                <br />
+                Ønsker du at skabe et stærkt tillidsfuld bånd med din hvalp, gennem masser af succesoplevelser, så er dette rette hold for dig. 
+                Vi vil lægge fokus på miljøtræning, håndtering og socialisering af din hvalp, så du får en følelsesmæssig robust hvalp, der kan tackle hverdagens udfordringer med ro og overskud.
+                Du vil også få redskaberne til at håndtere hvalpebideri, gå pænt uden at trække, møde andre hunde og mennesker i ro og hvordan du starter på jeres alene-hjemme træning.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 975,- kr. inkl. valgfri tilmelding til én af legestuedagene</b>
+                <br />
+                Max 5 snuder pr. hold.<br />
+                Kurset strækker sig over 4 dage med op til 60 minutters undervisning hver dag. 
+                Derefter har vi 30 minutter til individuelle spørgsmål og ikke mindst socialisering mellem snuderne. Kurset henvender sig til hvalpe i alderen fra 8 uger til 6 mdr. 
+              </Text>
             </TextContainer>
           </FlexedRow>
           <br />
-          <Text bold>Tilmelding til Miljømøder:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/kOnf" />
+          <Text bold>Tilmelding til Intensivt Hvalpehold:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/WvWR" />
+        </Column>
+      </Row>
+
+
+      {/* NOSE WORK MED ANJA */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Nose Work med Anja Nielsen" />
+          <FlexedRow>
+            <Image src={NWGary} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Sjove udfordringer til den øvede Nose Work hund (lavendelsøg)</b>
+                <br />
+                <i>Underviser: Hundetræner og Nose Work Instruktør Anja Nielsen fra Anja&Hund</i>
+                <br />
+                Nu er det nørdetid! På dette kursus kigger vi på de mere avancerede søg som høje søg, tærskelsøg og detaljesøg. 
+                I det omfang der er interesse for det, vil vi også kigge på konkurrenceregler.
+                Vi træner på de 4 momenter i Nose Work: Indendørssøg, Udendørssøg, Køretøjssøg og Beholdersøg.
+                Vi ser på søgemønstre og arbejder med fastholdelse ved kilde.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 945,- kr.</b>
+                <br />
+                <i>Bemærk din hund skal være duftsikker på lavendel og har allerede søgeglæde.</i>
+                <br />
+                Max 5 snuder pr. hold.<br />
+                Kurset strækker sig over 3 dage med op til 90 minutters undervisning hver dag.
+                Kurset henvender sig til hunde i alle aldre
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Nose Work for øvede:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/WvWr" />
+        </Column>
+      </Row>
+
+
+      {/* RALLY MED MONA */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Rally-Lydighed med Mona Lindhardt" />
+          <FlexedRow>
+            <Image src={MonaRally} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Til dig som vil snuse til Rally (begynder) og til dig der vil have nye udfordringer (øvet)</b>
+                <br />
+                <i>Underviser: Rally-Lydighed instruktør Mona Lindhardt</i>
+                <br />
+                Til Rally-Lydighed er der fokus på lydighedstræningen, uden præcisionsarbejdet. 
+                Det største mål med Rally er nemlig at din hund udviser glæde og villighed til at samarbejde.
+                I Rally-Lydighed skal dig og din hund udfører forskellige opgaver sammen, hvor opgaverne er listet op på skiltene på banen.
+                Der findes omkring 130 forskellige skilte med forskellige samarbejdsøvelser, så holdet giver rig mulighed for at finde på nye, sjove opgaver sammen med din hund.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 795,- kr.</b>
+                <br />
+                <i>For at deltage i Rally-Lydighed skal din hund kunne træne med andre hunde omkring sig.</i>
+                <br />
+                Max 5 snuder pr. hold.<br />
+                Kurset strækker sig over 3 dage med op til 60 minutters undervisning hver dag.
+                Derefter har vi 30 minutter til spørgsmål og ikke mindst hygge mellem to- og firbenede.
+                Kurset henvender sig til hunde i alle aldre
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Rally:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/WvLT" />
         </Column>
       </Row>
 
