@@ -89,14 +89,19 @@ const DogSummer = () => (
             Alle sommerens kurser foregår på træningspladsen Sorthøjvej 40, 8700 Horsens.
           </TextCenter>
           <br />
-          <TitleCenter text="Ønsker du at tilmelde dig flere sommerkurser på én gang?" />
+          <TitleCenter text="Er sommerkurset du vil med på fyldt??" />
+          <TextCenter>
+            Så smid mig en mail på hvilket kursus du gerne vil på venteliste på (og ved rigelig efterspørgsel starter jeg ekstra hold op!):
+          </TextCenter>
+          <ContactPopUp text="TILMELDING til sommerkursus venteliste" />
+          {/* <TitleCenter text="Ønsker du at tilmelde dig flere sommerkurser på én gang?" />
           <TextCenter>
             Finder du flere end 3 forskellige kurser i kataloget spændende?
             <br />
             Slip for at tilmelde dig hvert kursus én ad gangen, og book alle de hold du ønsker at
             deltage på ved at sende en mail direkte til Sabrina, hvor du oplyser hvad du vil med på:
           </TextCenter>
-          <ContactPopUp text="TILMELDING til flere sommerkurser på én gang" />
+          <ContactPopUp text="TILMELDING til flere sommerkurser på én gang" /> */}
         </Column>
       </Row>
       <br />
@@ -445,8 +450,18 @@ const DogSummer = () => (
           <FlexedRow>
             <Image src={NWGary} width="300px" height="200px" />
             <TextContainer>
+            <Text>
+                <b>Introduktion til Nose Work (Begynder)</b>
+                <br />
+                <i>Underviser: Hundetræner og Nose Work Instruktør Anja Nielsen fra Anja&Hund</i>
+                <br />
+                  Nu har du muligheden for at få en grundig introduktion til en sportsgren, der giver din hund empowerment - selvtillid, kontrol og velvære.
+                  Nose Work er næsearbejde sat i system. Det udspringer af professionelt specialsøg, som vi bl.a. kender det fra narkohundes arbejde,
+                  men Nose Work er for ALLE hunde (alle racer og aldre er velkomne). De vigtigste egenskaber for en god Nose Work hund er: Selvstændighed og stor glæde ved det at søge.
+                  Dét er fokus at skabe på begynderholdet, hvor vi starter med at søge efter godbidder i kasser og derefter i miljø.
+              </Text>
               <Text>
-                <b>Sjove udfordringer til den øvede Nose Work hund (lavendelsøg)</b>
+                <b>Sjove udfordringer til den øvede Nose Work hund (Nørderi med lavendelsøg)</b>
                 <br />
                 <i>Underviser: Hundetræner og Nose Work Instruktør Anja Nielsen fra Anja&Hund</i>
                 <br />
@@ -458,7 +473,7 @@ const DogSummer = () => (
               <Text>
                 <b>Deltagelse pr. snude: 945,- kr.</b>
                 <br />
-                <i>Bemærk din hund skal være duftsikker på lavendel og har allerede søgeglæde.</i>
+                <i>Bemærk din hund skal være tryg ved at sidde og vente i bilen.</i>
                 <br />
                 Max 5 snuder pr. hold.<br />
                 Kurset strækker sig over 3 dage med op til 90 minutters undervisning hver dag.
