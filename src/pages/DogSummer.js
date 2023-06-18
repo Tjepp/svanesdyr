@@ -210,7 +210,7 @@ const DogSummer = () => (
                 hundens selvtillid. Alle hunde i alle aldre kan deltage.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 2455,- kr.</b>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
