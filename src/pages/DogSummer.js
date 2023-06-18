@@ -23,7 +23,7 @@ import {
   OnlineCoverSummer,
   PuppyContinuedFive,
   RecallOne,
-  // TricksOne,
+  TricksOne,
   CoolThree,
   NailClipSix,
   CoolAgainOne,
@@ -191,7 +191,7 @@ const DogSummer = () => (
       </Row>
 
       {/* FITNESS */}
-      {/* <Row>
+      <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Fitness for alle" />
           <FlexedRow>
@@ -210,7 +210,7 @@ const DogSummer = () => (
                 hundens selvtillid. Alle hunde i alle aldre kan deltage.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 195,- kr.</b>
+                <b>Deltagelse pr. snude: 2455,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
@@ -219,9 +219,9 @@ const DogSummer = () => (
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Fitness for Alle:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/kO2H" />
+          <EasyMeList src="https://ezme.io/x/x1S/WUbx" />
         </Column>
-      </Row> */}
+      </Row>
 
       {/* GÅTURE */}
       <Row>
