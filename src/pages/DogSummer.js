@@ -31,7 +31,7 @@ import {
   PuppyContinuedOne,
   TricksTwo,
   NWGary,
-  MonaRally,
+  // MonaRally,
 } from '../assets';
 import '../components/table/TableCss.css';
 
@@ -489,7 +489,7 @@ const DogSummer = () => (
 
 
       {/* RALLY MED MONA */}
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Rally-Lydighed med Mona Lindhardt" />
           <FlexedRow>
@@ -521,7 +521,7 @@ const DogSummer = () => (
           <Text bold>Tilmelding til Rally:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/WvLT" />
         </Column>
-      </Row>
+      </Row> */}
 
       <br />
       <br />
