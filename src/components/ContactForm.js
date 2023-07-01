@@ -148,7 +148,7 @@ class ContactForm extends React.Component {
             </Row>
             <Row>
               <FullWidthColumn>
-                <Label htmlFor="message">Besked - Oplys venligst hundens navn, alder og race</Label>
+                <Label htmlFor="message">Besked - Oplys venligst hvilket hold du vil deltage på eller om du ønsker en konsultation</Label>
                 <TextArea
                   error={shouldMarkError('message')}
                   onBlur={this.handleBlur('message')}
