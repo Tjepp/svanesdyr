@@ -148,13 +148,13 @@ class ContactForm extends React.Component {
             </Row>
             <Row>
               <FullWidthColumn>
-                <Label htmlFor="message">Besked - Oplys venligst hvilket hold du vil deltage på eller om du ønsker en konsultation</Label>
+                <Label htmlFor="message">Besked</Label>
                 <TextArea
                   error={shouldMarkError('message')}
                   onBlur={this.handleBlur('message')}
                   name="message"
                   id="message"
-                  placeholder="Hvad kan jeg hjælpe med?"
+                  placeholder="Oplys venligst hvilket hold du vil deltage på eller om du ønsker en konsultation"
                   onChange={this.handleFields}
                 />
               </FullWidthColumn>
