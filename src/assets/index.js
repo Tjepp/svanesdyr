@@ -114,6 +114,7 @@ export { default as TestiCoolFive } from './TestiCool5.JPG';
 export { default as TestiCoolSix } from './TestiCool6.jpg';
 export { default as TestiCoolSeven } from './TestiCool7.jpg';
 export { default as TestiCoolEight } from './TestiCool8.jpg';
+export { default as TestiCoolNine } from './TestiCool9.jpg';
 export { default as TestiPupOne } from './TestiPup1.jpg';
 export { default as TestiPupTwo } from './TestiPup2.jpg';
 export { default as TestiPupThree } from './TestiPup3.jpg';

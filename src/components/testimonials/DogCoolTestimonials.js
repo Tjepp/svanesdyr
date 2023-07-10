@@ -13,6 +13,7 @@ import {
   TestiCoolSix,
   TestiCoolSeven,
   TestiCoolEight,
+  TestiCoolNine,
 } from '../../assets';
 
 const DogCoolTestimonials = () => (
@@ -25,6 +26,24 @@ const DogCoolTestimonials = () => (
     preventMovementUntilSwipeScrollTolerance
     swipeScrollTolerance={30}
   >
+      <FlexedRow>
+      <Image src={TestiCoolNine} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”De redskaber man får virker rent faktisk, og det ses hurtigt!” " />
+        <Text>
+          Jeg kan nu gå ture med Otto uden for meget negativitet, jeg kan hjælpe Otto i ro og har en bedre relation til ham. Der er sket en markant positiv forandring!
+        </Text>
+        <Text>
+          Den største forandring er, at Otto nu ved guidning kan finde ro - selvom han stresser op, er der markant forbedring, når han hjælpes til ro.
+          Samt er han blevet meget bedre til at gå tur uden at trække - faktisk så god, at det nu er muligt for mig at gå med barnevognen og ham samtidigt, det er stort! 
+        </Text>
+        <Text>
+          Det var været et rigtigt godt træningsforløb, hvor der også var tid til at spørge om de udfordringer, som vi stod med.
+          Jeg oplevede at Sabrina så hvad Otto havde brug for, det gav også en ro til mig.</Text>
+        <Text>Trine og Otto</Text>
+      </TextContainer>
+    </FlexedRow>
+
     <FlexedRow>
       <TextContainer>
         <TitleColor text=" ”Vi ved nu hvad vi skal gøre i de situationer, hvor vores hund er reaktiv og han er klart også blevet mindre reaktiv generelt set. Tak for det!” " />
