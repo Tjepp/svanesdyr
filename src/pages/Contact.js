@@ -6,18 +6,27 @@ import {
   Column,
   Meta,
   Title,
-  TitleColor,
+  // TitleColor,
   Text,
   BreadCrumps,
   Row,
-  ContactForm,
-  StyledExternal,
+  // ContactForm,
+  // StyledExternal,
+  TextList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 
 // const SvanesDyrLocation = { lat: 55.980569, lng: 9.613036 };
 // const SvanesDyrTrainingCourseLocation = { lat: 55.890248, lng: 9.813864 };
+
+const Colleagues = [
+  'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
+  'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
+  'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
+  'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
+  'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
+];
 
 const Contact = () => (
   <Page>
@@ -29,7 +38,7 @@ const Contact = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
-          <Text>
+          {/* <Text>
             Har du spørgsmål vedrørende din hund eller kat og ønsker at høre om jeg kan hjælpe?
           </Text>
           <FlexRow>
@@ -49,14 +58,23 @@ const Contact = () => (
               Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket.
             </Text>
           </FlexRow>
+          <br /> */}
+          <Title color="#872f35" text="Grundet travlhed kan jeg desværre ikke tage nye kunder ind!" />
+          <Text>
+            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før november 2023 igen.
+          </Text>
+          <Text>
+            I stedet vil jeg anbefale at tage kontakt til en af mine dygtige kollegaer, som har samme belønningsbaseret tilgang som jeg:
+          </Text>
+          <TextList texts={Colleagues} />
           <br />
-          <TitleColor text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!" />
+          {/* <TitleColor text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!" />
           <Text>
             Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.
             <br />
             Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
           </Text>
-          <br />
+          <br /> */}
           {/* <Title color="#872f35" text="Jeg afholder i øjeblikket juleferie og er tilbage på kontoret igen den 5. januar!" /> */}
         </Column>
         {/* <Column>
@@ -83,12 +101,12 @@ const Contact = () => (
           </FlexRow>
         </Column> */}
       </Row>
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <Title text="Kontakt formular" showHorizontalRuler />
           <ContactForm />
         </Column>
-      </Row>
+      </Row> */}
       {/* <Row marginBottom="25px">
         <LoadScript id="script-loader" googleMapsApiKey={process.env.REACT_APP_GMAP_API_KEY}>
           <GoogleMap
@@ -128,10 +146,10 @@ const Background = styled.div`
   `}
 `;
 
-const FlexRow = styled.div`
-  display: flex;
-  flex-direction: row;
-  ${Responsive.media.tablet`
-    flex-direction: column;
-  `}
-`;
+// const FlexRow = styled.div`
+//   display: flex;
+//   flex-direction: row;
+//   ${Responsive.media.tablet`
+//     flex-direction: column;
+//   `}
+// `;
