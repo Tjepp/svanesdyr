@@ -48,8 +48,8 @@ const About = () => (
               <Text>
                 Jeg hedder Sabrina Svane og er certificeret Dyreadfærdskonsulent (BSc ABT) ved
                 Center for Dyreterapi i Hirtshals. Jeg bor i den skønne by Brædstrup, sammen med min
-                mand Thor, vores dejlige huskatte Barney og Lily, samt lille Welsh Corgi Pembroke
-                Gary.
+                mand Thor, vores dejlige huskat Lily, samt seniorhunden Gary, der er en Welsh Corgi Pembroke
+                og speedy-hunden Zoey der er en Volpino Italiano.
               </Text>
               <Text>
                 Jeg er opvokset på en gård udenfor Horsens by og har hele livet været omgivet af
@@ -74,7 +74,7 @@ const About = () => (
           </Text>
           <Text>
             Jeg bruger <b>belønningsbaserede træningsmetoder</b>. Baseret på indlæringspsykologiske
-            principper.
+            principper. Masser af ros, mad og leg. Ingen skældud eller hårde metoder.
           </Text>
           <Text>
             Du får <b>up-to-date rådgivning</b> da jeg deltager på kurser og efteruddannelse flere
