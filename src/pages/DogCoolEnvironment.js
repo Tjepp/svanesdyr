@@ -115,7 +115,7 @@ const DogCoolEnvironment = () => (
             jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
             dit holdønske her:
           </Text>
-          <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 18. september. Du får hurtigst muligt svar herefter." />
+          {/* <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 18. september. Du får hurtigst muligt svar herefter." /> */}
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
           <br />
           <br />
