@@ -1,34 +1,17 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import $ from 'jquery';
 
 const EasyMeList = ({ src }) => {
-  // const scriptToInject = `
-  // (function(e,m) {
-  //   if(e.getElementById(m))return;var s=document.createElement('script');s.id=m;
-  //   s.src='https://secure.easyme.biz/connect/v2/client.js';s.async=true;
-  //   var el = document.getElementsByTagName('script')[0];el.parentNode.insertBefore(s,el);
-  //   })(document, 'easyme-connect-kMj1RCBSOhIGq2lrpNHy');`;
-
-  // useEffect(() => {
-  //   // eslint-disable-next-line no-new-func
-  //   const executeScript = new Function(scriptToInject);
-  //   executeScript();
-  // });
-
   useEffect(() => {
+    window.$ = window.jQuery = $;
+
     const script = document.createElement('script');
 
-    script.src = 'https://secure.easyme.biz/connect/v2/client.js';
+    script.src = 'https://secure.easyme.biz/connect/v3/client.js';
     script.async = true;
     script.id = 'easyme-connect-kMj1RCBSOhIGq2lrpNHy';
 
-    // script.onload = () => {
-    //   var test = window['easymeConnect']['app']['init'];
-    //   console.log(test);
-    //   test(document, 'easyme-connect-kMj1RCBSOhIGq2lrpNHy');
-    // };
-
-    //document.body.appendChild(script);
     document.head.appendChild(script);
 
     return () => {
@@ -38,7 +21,6 @@ const EasyMeList = ({ src }) => {
 
   return (
     <React.Fragment>
-      {/* <script dangerouslySetInnerHTML={{ __html: scriptToInject }} /> */}
       <link rel="stylesheet" href="https://secure.easyme.biz/connect/v2/loader.css"></link>
       <section className="ezme-loader">
         <div className="ezme-loader__title">
