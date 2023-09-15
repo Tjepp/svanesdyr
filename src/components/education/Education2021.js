@@ -9,7 +9,7 @@ const Education2019 = () => (
     <Text>
       <b>Practical Puppy Training Instructors Course</b>
       <br />
-      Efteruddannelse hos Chirag Patel;
+      Efteruddannelse hos Chirag Patel:
       <br />
       <i>
         "Learning how to help puppies develop socialisation skills and teach their caregivers how to
@@ -21,7 +21,7 @@ const Education2019 = () => (
     <Text>
       <b>Karen Frost</b>
       <br />
-      Kursusforløb februar - juli; Lydangst - sådan hjælper du din hund
+      Kursusforløb februar - juli: Lydangst - sådan hjælper du din hund
     </Text>
   </>
 );

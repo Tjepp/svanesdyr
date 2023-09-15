@@ -9,7 +9,7 @@ const Education2019 = () => (
     <Text>
       <b>Clive Wynne</b>
       <br />
-      Weekendseminar "Dog is Love"
+      Weekendseminar "Dog is Love":
       <br />
       <i>
         "Using Behavioral Science to Help Dog in Difficulties and Science, Sense and Nonsense in Dog
