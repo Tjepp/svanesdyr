@@ -45,13 +45,10 @@ const Education2016 = () => (
     </Text>
     <Text bold>ClickerExpo DK - 2016</Text>
     <i>Konference den 28. oktober:</i>
-    <br />
     <TextList texts={expoOne} />
     <i>Konference den 29. oktober:</i>
-    <br />
     <TextList texts={expoTwo} />
     <i>Konference den 30. oktober:</i>
-    <br />
     <TextList texts={expoThree} />
     <Text>
       <b>Dr. Susan Friedman</b>
@@ -60,8 +57,9 @@ const Education2016 = () => (
       Science and Technology of Behavior Change”
       <br />
       Gennemgåede emner for dagene:
+      <TextList texts={susanFriedman} />
     </Text>
-    <TextList texts={susanFriedman} />
+
   </>
 );
 

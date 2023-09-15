@@ -22,8 +22,8 @@ const Education2017 = () => (
       <br />
       Udarbejdet en håndbog omkring træning og aktivering af sælerne, til nytilkomne på stedet.
     </Text>
-    <Text bold>Jan Østergaard</Text>
     <Text>
+      <b>Jan Østergaard</b><br />
       Kursus den 22. juli: "Fri ved fod".
       <br />
       Weekendkursus den 25.-26. marts: Fortsætterkursus med "Klikkertræning, shaping, target,

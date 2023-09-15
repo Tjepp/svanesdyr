@@ -27,14 +27,10 @@ const Education2014 = () => (
     <TitleColor text="Kurser 2014" smallTitle />
     <Text bold>ClickerExpo UK - Europe 2014</Text>
     <i>Konference den 17. oktober:</i>
-    <br />
     <TextList texts={expo2014One} />
     <i>Konference den 18. oktober:</i>
-    <br />
     <TextList texts={expo2014Two} />
-
     <i>Konference den 19. oktober:</i>
-    <br />
     <TextList texts={expo2014Three} />
 
     <Text>
