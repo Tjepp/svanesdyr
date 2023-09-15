@@ -9,3 +9,4 @@ export { default as Education2019 } from './Education2019';
 export { default as Education2020 } from './Education2020';
 export { default as Education2021 } from './Education2021';
 export { default as Education2022 } from './Education2022';
+export { default as Education2023 } from './Education2023';
