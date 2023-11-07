@@ -85,7 +85,7 @@ const Dog = () => (
           <br />
           <Title color="#872f35" text="Grundet travlhed kan jeg desværre ikke tage nye kunder ind!" />
           <Text>
-            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før november 2023 igen.
+            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før januar 2024 igen.
           </Text>
           <Text>
             I stedet vil jeg anbefale at tage kontakt til en af mine dygtige kollegaer, som har samme belønningsbaseret tilgang som jeg:
