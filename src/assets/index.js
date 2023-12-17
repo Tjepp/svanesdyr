@@ -126,4 +126,5 @@ export { default as TestiPupEight } from './TestiPup8.jpg';
 export { default as TestiPupNine } from './TestiPup9.jpg';
 export { default as TestiPupTen } from './TestiPup10.jpg';
 export { default as TestiPupEleven } from './TestiPup11.jpg';
+export { default as TestiPupTwelve } from './TestiPup12.jpg';
 export { default as TestiRecallOne } from './TestiRecall1.jpg';

@@ -16,6 +16,7 @@ import {
   TestiPupNine,
   TestiPupTen,
   TestiPupEleven,
+  TestiPupTwelve,
 } from '../../assets';
 
 const DogPuppyTestimonials = () => (
@@ -54,6 +55,23 @@ const DogPuppyTestimonials = () => (
           At se vores hund kunne trives med andre hunde har været fantastisk, og at lære at kunne aflæse hendes signaler i leg. Vi har kun en masse ros herfra.
         </Text>
         <Text>Dennis og Kirstine og Carla</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiPupTwelve} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Jeg syntes det har været super rart med det flotte tilsendte materiale, så man kan være forberedt inden træningsaften!” " />
+        <Text>
+          Der er mange ting, som har været fantastisk ved at deltage. Du kommer med små fif til os, som passer til hver enkel hund. 
+          Du er super god til at forklare og vise, hvordan vi skal gøre øvelserne og hvad vi skal opnå med dem. Men også at bruge øvelsespapirerne og især videoerne til træning herhjemme.
+        </Text>
+        <Text>
+          Jeg er gået fra at få et helt lille ny væsen og en ny race, som man ikke kender, til i dag at have fået hans fortrolighed og lært ham meget bedre at kende. 
+          Jeg kan hjælpe ham med ikke at blive overgearet og stresset. Og ved hvor vigtig, det er at give Aslan ro helst inden han kører helt op i gear, så han ikke bliver en stresset hund.
+          At det er ok, at give ham pauser (i hans tilfælde er det ved at blive lukket for sig selv uden at jeg får dårlig samvittighed eller snuse aktiviteter). Hvis jeg ikke havde gået på dit kursus, så var han blevet aktiveret for meget...
+        </Text>
+        <Text>Susanne Klein og Aslan</Text>
       </TextContainer>
     </FlexedRow>
 

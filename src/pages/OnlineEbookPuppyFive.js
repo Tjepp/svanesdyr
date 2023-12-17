@@ -16,7 +16,8 @@ import {
   TextListMark,
   TextListArrow,
   LPHeadlinePuppy,
-  ButtonOnline,
+  // ButtonOnline,
+  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import {
@@ -95,10 +96,11 @@ const OnlineEbookPuppyFive = () => (
         </Column>
       </Row>
 
-      <ButtonOnline
+      <ContactPopUp text="Ja tak! Jeg er klar på at få en tillidsfuld og rolig hvalp" />
+      {/* <ButtonOnline
         text="Ja tak! Jeg er klar på at få en tillidsfuld og rolig hvalp"
         onClick={() => window.open('https://ezme.io/c/x1S/kBbJ', '_blank')}
-      ></ButtonOnline>
+      ></ButtonOnline> */}
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
@@ -240,10 +242,12 @@ const OnlineEbookPuppyFive = () => (
         </Column>
       </Row>
 
-      <ButtonOnline
+
+      <ContactPopUp text="Ja tak! Lad mig fluks få bogen i min indbakke!" />
+      {/* <ButtonOnline
         text="Ja tak! Lad mig fluks få bogen i min indbakke!"
         onClick={() => window.open('https://ezme.io/c/x1S/kBbJ', '_blank')}
-      ></ButtonOnline>
+      ></ButtonOnline> */}
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
@@ -274,10 +278,11 @@ const OnlineEbookPuppyFive = () => (
         </Column>
       </Row>
 
-      <ButtonOnline
+      <ContactPopUp text="Jeg er klar til at få succesoplevelser med min hvalp!" />
+      {/* <ButtonOnline
         text="Jeg er klar til at få succesoplevelser med min hvalp!"
         onClick={() => window.open('https://ezme.io/c/x1S/kBbJ', '_blank')}
-      ></ButtonOnline>
+      ></ButtonOnline> */}
       <br />
       <br />
     </Background>
