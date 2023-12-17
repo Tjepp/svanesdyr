@@ -256,10 +256,10 @@ const OnlineEbookPuppyFive = () => (
           <br />
           <TitleCenter text="PDF-format leveret direkte til din mail adresse!" />
           <TextCenter>
-            Straks efter køb vil du få tilsendt en mail hvor du finder et link med adgang til din
-            bog, som er en skriftlig guide på 4 lektioner i PDF format.
+            Kort tid efter du har henvendt dig via kontaktforumlaren vil du få tilsendt en faktura og straks efter betaling får du din
+            bog tilsendt på mail, som er en skriftlig guide på 4 lektioner i PDF format.
             <br />
-            Via dit link kan du downloade bogen og gemme den på din computer, tablet eller mobil.
+            Via filen i din mail kan du downloade bogen og gemme den på din computer, tablet eller mobil.
             Læs den direkte på skærmen, eller print den ud og sid med den i hånden, mens du drikker
             en god kop kaffe.
           </TextCenter>
