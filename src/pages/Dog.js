@@ -38,13 +38,13 @@ const consultation = [
   'Hunden er urenlig',
 ];
 
-const Colleagues = [
-  'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
-  'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
-  'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
-  'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
-  'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
-];
+// const Colleagues = [
+//   'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
+//   'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
+//   'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
+//   'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
+//   'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
+// ];
 
 // const puppyVisitTexts = [
 //   'Hvalpens sprog og fysiske udvikling',
@@ -82,7 +82,7 @@ const Dog = () => (
             taknemmelig for. Ønsker du at høre mere om hvad du kan forvente at få af hjælp så
             <StyledLink to="/kontakt"> kontakt mig</StyledLink> endelig.
           </Text>
-          <br />
+          {/* <br />
           <Title color="#872f35" text="Grundet travlhed kan jeg desværre ikke tage nye kunder ind!" />
           <Text>
             Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før januar 2024 igen.
@@ -90,7 +90,7 @@ const Dog = () => (
           <Text>
             I stedet vil jeg anbefale at tage kontakt til en af mine dygtige kollegaer, som har samme belønningsbaseret tilgang som jeg:
           </Text>
-          <TextList texts={Colleagues} />
+          <TextList texts={Colleagues} /> */}
         </Column>
         <Column>
           <Title text="Priser for hundetræning" showHorizontalRuler />

@@ -33,7 +33,7 @@ const Prices = () => (
     <Text>
       <b>Kørsel</b>
       <br />
-      Efter statens takster 3,51 kr/km begge veje.
+      Efter statens takster 3,79 kr/km begge veje.
     </Text>
   </>
 );
