@@ -104,10 +104,10 @@ const DogCool = () => (
           </Text>
           <Text>I løbet af vores 7 uger sammen vil vi komme igennem følgende:</Text>
           <TextList texts={CoolProgram} />
-          <Text>
+          {/* <Text>
             Programmet inkluderer én lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
             ro i nyt miljø.
-          </Text>
+          </Text> */}
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />

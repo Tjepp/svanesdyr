@@ -93,11 +93,12 @@ const DogPuppy = () => {
             </Text>
             <TextList texts={PuppyProgram} />
             <Text>
-              Inkl. en lektion afsat til leg med hvalpe fra de andre hvalpehold - inddelt efter
-              størrelse.
-              <br />
-              Inkl. en lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt
+              Programmet inkluderer en lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt
               og ro i nyt miljø.
+            </Text>
+            <Text>
+              Tilmelding til hvalpeholdet inkluderer én fribillet til <StyledLink to="/hundehold/legestue"> Hundelegestue</StyledLink>, med ekstra mulighed for kontrolleret socialisering (værdi 100,- kr.). 
+              Tilmelding til en af de månedlige legestuer sker efter aftale med Sabrina.
             </Text>
             <Text>
               Hver lektion varer 45-50 minutter. Jeg tager udgangspunkt i din hvalp og dens behov,
@@ -117,7 +118,7 @@ const DogPuppy = () => {
             </Text>
             <br />
             <Title text="Holdstart for Hvalpeholdet" showHorizontalRuler />
-            <TitleColor text="Din investering: 1295 kr." />
+            <TitleColor text="Din investering: 1395 kr." />
             <Text>
               i at få en rolig, imødekommende og selvsikker familiehund, der elsker at træne sammen
               med dig!
