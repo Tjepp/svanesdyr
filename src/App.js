@@ -26,7 +26,7 @@ import {
   DogConsultPuppy,
   DogCourse,
   DogCourseThanks,
-  DogNailClip,
+  // DogNailClip,
   DogPlay,
   DogPuppy,
   DogPuppyJanuary,
@@ -35,17 +35,17 @@ import {
   DogCool,
   DogCoolContinued,
   DogCoolEnvironment,
-  DogRecall,
+  // DogRecall,
   DogSocial,
   DogEmpower,
   // DogMorning,
   DogCircle,
   DogStylist,
   DogSummer,
-  DogCoolFriend,
+  // DogCoolFriend,
   // DogNoseWork,
   Home,
-  Horse,
+  // Horse,
   LawList,
   LawPrivate,
   Lecture,
@@ -96,23 +96,23 @@ const App = () => {
         <Route path="/hundehold/coolhold" element={<DogCool />} />
         <Route path="/hundehold/fortsatcool" element={<DogCoolContinued />} />
         <Route path="/hundehold/miljohold" element={<DogCoolEnvironment />} />
-        <Route path="/hundehold/venligvovse" element={<DogCoolFriend />} />
+        {/* <Route path="/hundehold/venligvovse" element={<DogCoolFriend />} /> */}
         <Route path="/hundehold" element={<DogCourse />} />
         <Route path="/hundehold/tusindtak" element={<DogCourseThanks />} />
         <Route path="/hundehold/empowerment" element={<DogEmpower />} />
         {/* <Route path="/hundehold/formiddagshold" element={<DogMorning />} /> */}
-        <Route path="/hundehold/negleklipkursus" element={<DogNailClip />} />
+        {/* <Route path="/hundehold/negleklipkursus" element={<DogNailClip />} /> */}
         {/* <Route path="/hundehold/noseworkintro" element={<DogNoseWork />} /> */}
         <Route path="/hundehold/legestue" element={<DogPlay />} />
         <Route path="/hundehold/hvalpehold" element={<DogPuppy />} />
         <Route path="/hundehold/hvalpehold/tusindtak" element={<DogPuppyJanuary />} />
         <Route path="/hundehold/hvalpehold/tak" element={<DogPuppyMarch />} />
-        <Route path="/hundehold/indkald" element={<DogRecall />} />
+        {/* <Route path="/hundehold/indkald" element={<DogRecall />} /> */}
         <Route path="/hundehold/socialisering" element={<DogSocial />} />
         <Route path="/hundehold/tryghundepleje" element={<DogStylist />} />
         <Route path="/sommerhund" element={<DogSummer />} />
         <Route path="/" exact element={<Home />} />
-        <Route path="/hestetraening" exact element={<Horse />} />
+        {/* <Route path="/hestetraening" exact element={<Horse />} /> */}
         <Route path="/onlinehandelsbetingelser" element={<LawList />} />
         <Route path="/privatlivspolitik" element={<LawPrivate />} />
         <Route path="/foredrag" exact element={<Lecture />} />
