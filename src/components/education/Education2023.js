@@ -3,7 +3,7 @@ import React from 'react';
 import Text from '../Text';
 import { TitleColor } from '..';
 
-const Education2019 = () => (
+const Education2023 = () => (
   <>
     <TitleColor text="Kurser 2023" smallTitle />
     <Text>
@@ -35,4 +35,4 @@ const Education2019 = () => (
   </>
 );
 
-export default Education2019;
+export default Education2023;
