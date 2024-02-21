@@ -75,7 +75,8 @@ const Contact = () => (
             Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
           </Text>
           <br />
-          <Title color="#872f35" text="Jeg afholder i øjeblikket forlænget juleferie og er tilbage på kontoret igen den 15. januar!" />
+          <Title color="#872f35" text="Jeg arbejder i øjeblikket på nedsat tid, grundet efteruddannelse og besvarer kun mails om mandagen! Jeg er tilbage på fuld tid til april." />
+          {/* <Title color="#872f35" text="Jeg afholder i øjeblikket forlænget juleferie og er tilbage på kontoret igen den 15. januar!" /> */}
         </Column>
         <Column>
           <Title text="Firma informationer" showHorizontalRuler />
