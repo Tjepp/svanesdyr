@@ -16,7 +16,7 @@ import {
   Image,
   StyledLink,
   ContactPopUp,
-  // EasyMeList,
+  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -48,11 +48,17 @@ const TrainerProgram = [
 ];
 
 const StylistBenefits = [
+  'Online bibliotek med både videoguides og skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Personlig sparring omkring din hund med to professionelle hundefolk',
-  'Hele 2 fysiske mødegange med individuel rådgivning i jeres træning',
-  'Max 5 andre holdkammerater, så der er god tid til dig og din hund',
-  'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
-  'Adgang til lukket facebookgruppe, hvor du ubegrænset kan stille spørgsmål til din hund og jeres træning hjemme',
+  'Adgang til lukket facebookgruppe, hvor du ubegrænset kan stille spørgsmål',
+  'Via facebookgruppen har du en livline til Hundefrisør Torsten omkring pleje, produktvalg og rette redskaber til din hund',
+  'Via facebookgruppen har du en livline til Adfærdsbehandler Sabrina omkring håndtering og træningsprocessen med din hund',
+  'Ikke mindst sparring med de andre deltagere på forløbet i den lukkede facebookgruppe, som er i samme båd som dig og din hund',
+];
+
+const StylistBenefitsXtra = [
+  'Hele 3 fysiske mødegange med individuel rådgivning i jeres træning',
+  'Max 3 andre holdkammerater til møderne på træningspladsen, så der er god tid til dig og din hund',
 ];
 
 const DogStylist = () => (
@@ -97,8 +103,8 @@ const DogStylist = () => (
           </Text>
           <Text>
             Da vi øver frivillig håndtering er der god mulighed for at øve andre områder af den
-            daglige pleje, som tandbørstning, dryp med øjen- eller øredråber mv. Vi sætter fokus på
-            dig og din hund og jeres behov!
+            daglige pleje, som tandbørstning, dryp med øjen- eller øredråber mv. <b>Vi sætter fokus på
+            dig og din hund og jeres behov!</b>
           </Text>
           <Text>
             Al træning foregår med{' '}
@@ -109,20 +115,29 @@ const DogStylist = () => (
             tryghed og tillid til dig være i centrum.
           </Text>
           <Text>
-            <b>Træningsprogram for holdet</b>
-            <br />Forløbet består af 2 fysiske lektioner og disse afholdes med en måneds mellemrum så der er tid til at gå i dybden og træne fra første til sidste møde.
-            I mellem de to mødegange bliver du medlem af en lukket facebookgruppe, hvor du ubegrænset kan stille spørgsmål og lægge videoer op for sparring.
+            <b>Program for holdet</b>
+            <br />Forløbet består af 3 fysiske mødegange, som afholdes med tre ugers mellemrum, så der er tid til at gå i dybden og træne mellem mødegangene,
+            samt adgang til en lukket facebookgruppe for personlig sparring mellem mødegangene.
           </Text>
-          <Text>I forløbet vil hundefrisør Torsten Nielsen dække følgende emner:</Text>
-          <TextList texts={StylistProgram} />
-          <Text>Din adfærdsbehandler Sabrina Svane vil desuden dække følgende emner:</Text>
-          <TextList texts={TrainerProgram} />
+          <Text>I forløbet vil hundefrisør Torsten Nielsen dække følgende emner:
+            <TextList texts={StylistProgram} />
+          </Text>
+          <Text>Din adfærdsbehandler Sabrina Svane vil desuden dække følgende emner:
+            <TextList texts={TrainerProgram} />
+          </Text>
           <Text>
-            Udover fysisk fremmøde på træningspladsen, vil du få adgang til en lukket facebookgruppe
-            få dage før vi mødes første gang. Her kan du ubegrænset stille spørgsmål til din hund og
-            jeres træning hjemme under hele forløbet, og lægge videoer op for personlig feedback.
-            Denne gruppe lukkes når holdet afsluttes. Du vil stadig kunne tilgå materialet derinde
-            efter afslutning, men ikke slå kommentarer op længere.
+            Udover det fysiske fremmøde på træningspladsen, vil du få adgang til en lukket facebookgruppe
+            en uge før vi mødes første gang. Her kan du ubegrænset stille spørgsmål til din hund og
+            jeres træning hjemme under forløbets samlede 8 ugers varighed, og lægge skriftlige spørgsmål og videoer op for personlig feedback.
+            Denne gruppe har du fortsat fri adgang til når holdet afsluttes. Du vil altså stadig kunne tilgå materialet i gruppen
+            efter afslutning og fortsat få sparring med de andre holddeltagere, men ikke længere få feedback fra dine undervisere.
+          </Text>
+          
+          <Text>
+            <b>Alt-Inklusivt eller kun Onlinedeltagelse?</b>
+            <br />Forløbet i Tryg Frisørtid er delt op, så du kan vælge mellem <b>Alt-Inklusivt</b> med fysiske fremmøde sammen med dine to undervisere og andre holddeltagere, 
+            eller kun <b>Onlinedeltagelse</b>. Forskellen på disse to valgmuligheder er, at du på Alt-Inklusivt kan få ansigt-til-ansigt sparring med dine undervisere 3 gange under forløbet, 
+            hvorimod Onlinedeltagelse kun inkluderer online sparring og undervisning.
           </Text>
           <Text>
             <b>Dine undervisere</b>
@@ -141,35 +156,37 @@ const DogStylist = () => (
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Tryg Frisørtid får du:
+            <TextList texts={StylistBenefits} />
+            Ovenstående gælder uanset om du vælger Alt-Inklusivt eller kun Onlinedeltagelse. 
+            <br />
+            På <b>Alt-Inklusivt</b> får du dog også:
+            <TextList texts={StylistBenefitsXtra} />
           </Text>
-          <TextList texts={StylistBenefits} />
-          {/* <Text>
-            Bemærk at vi mødes <b>hver 14. dag</b> på dette hold, så der er god tid til at få trænet
-            mellem hver lektion og nå i mål til afslutning.
-          </Text> */}
+          
           <br />
 
           <Title text="Holdstart for Tryg Frisørtid" showHorizontalRuler />
-          <TitleColor text="Din investering: 1495 kr. - som du kan vælge at betale over 3 måneder" />
           <Text>
-            i at kunne pleje din hunds pels og negle <u>selv</u> eller sende den til hundefrisøren
-            uden bekymring, da det bliver ren kvalitetstid fremfor overgreb.
+            Din investering i at kunne pleje din hunds pels og negle <u>selv</u> eller sende den til hundefrisøren
+            uden bekymring, da det bliver ren kvalitetstid fremfor overgreb:
           </Text>
+          <TitleColor text="Alt-inklusivt 1795 kr. eller Onlinedeltagelse 1195 kr." />
+          <TitleColor text=" - som du kan vælge at betale over 3 måneder" />
           <Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke. Du kan vælge at betale i 3 rater
             over 3 måneder.
           </Text>
           <br />
-          {/* <Title text="Kommende hold:" />
+          <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k37A" />
-          <br /> */}
-          <Title color="#872f35" text="Næste holdstart er april 2024, da jeg er på efteruddannelse" />
-          <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" />
-          {/* <Text>
+          <br />
+          <Title color="#872f35" text="Næste holdstart er efteråret 2024" />
+          {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
+          <Text>
             Oplever du holdet er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
             jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
             dit holdønske her:
-          </Text> */}
+          </Text>
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
           <br />
           <br />
