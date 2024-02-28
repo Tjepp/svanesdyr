@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import {
   Landingpage,
   Column,
-  MetaConsultPuppy,
+  MetaConsultAggression,
   TitleCenter,
   Text,
   TextCenter,
@@ -52,7 +52,7 @@ const ConsultAggDoubts = [
 
 const DogConsultAggression = () => (
   <Landingpage>
-    <MetaConsultPuppy />
+    <MetaConsultAggression />
     <LandingpageHeadline text="Adfærdskonsultation med certificeret Dyreadfærdskonsulent" />
     <Background>
       <Row>

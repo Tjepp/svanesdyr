@@ -16,6 +16,7 @@ export { default as StyledLink } from './links/StyledLink';
 export { default as StyledLinkOnline } from './links/StyledLinkOnline';
 export { default as StyledMenuLinkWithIcon } from './links/StyledMenuLinkWithIcon';
 export { default as Meta } from './meta/Meta';
+export { default as MetaConsultAggression } from './meta/MetaConsultAggression';
 export { default as MetaConsultPuppy } from './meta/MetaConsultPuppy';
 export { default as MetaDogCircle } from './meta/MetaDogCircle';
 export { default as MetaDogContinued } from './meta/MetaDogContinued';
