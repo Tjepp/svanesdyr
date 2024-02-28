@@ -148,7 +148,7 @@ const OnlineWebinarCool = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter text="Lige nu kan du komme med til en introduktionspris på " />
-          <TitleCenter color="#008037" text="Kun 149 kr. inkl. moms" />
+          <TitleCenter color="#008037" text="Kun 249 kr. inkl. moms" />
           <TextCenter>
             En billig investering i at få mindre stressfyldte og mere afslappede gåture med din hund.
           </TextCenter>

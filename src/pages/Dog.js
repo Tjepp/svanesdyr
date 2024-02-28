@@ -15,36 +15,36 @@ import {
   Row,
   StyledLink,
   Prices,
+  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { dogOne, dogTwo, dogThree } from '../assets';
 import '../components/table/TableCss.css';
 
-const privateHour = [
-  'Hunden kommer ikke når man kalder',
-  'Hunden trækker i snoren',
-  'Hunden stjæler ting/mad fra bordet',
-  'Hunden hopper op ad gæster',
-  'Hunden napper i bukseben eller lignende',
+const Colleagues = [
+   'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
+   'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
+   'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
+   'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
+   'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
+ ];
+
+ const stress = [
+  'Hunden virker generelt rastløs / hvileløs',
+  'Hunden hviler ikke når i slapper af',
+  'Hunden har "travlt" på gåtur, trækker i snoren og kan være ukontaktbar',
+  'Hunden trækker eller gør for at hilse på andre',
+  'Hunden er svær at få i ro ved gæster',
+  'Hunden "kortslutter" til tider, fræser rundt, napper og er svær at stoppe igen',
 ];
 
-const consultation = [
-  'Hunden reagerer aggressivt på andre hunde',
-  'Hunden virker stresset og er svær at få ro på',
-  'Hunden hyler/gør/ødelægger ting når den er alene',
-  'Hunden knurrer når den har ben eller mad',
-  'Hunden er bange for fyrværkeri/torden/andre lyde',
-  'Hunden gør hele tiden ude i haven',
-  'Hunden er urenlig',
+const aggression = [
+  'Hunden reagerer på andre hunde på gåtur',
+  'Hunden gør af gæster, værre hvis de vil hilse',
+  'Hunden knurrer eller snapper ved berøring',
+  'Hunden knurrer og forsvarer mad eller andre ting',
+  'Hunden er efter den anden hund i husstanden',
 ];
-
-// const Colleagues = [
-//   'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
-//   'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
-//   'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
-//   'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
-//   'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
-// ];
 
 // const puppyVisitTexts = [
 //   'Hvalpens sprog og fysiske udvikling',
@@ -72,25 +72,27 @@ const Dog = () => (
           <Text>
             Oplever du problemadfærd hos din hund, så husk på at din hund ikke prøver på at gøre
             livet surt for dig. Den har det selv svært, enten ved at forstå hvad du forventer fra
-            den eller ved at kontrollere sine følelser når den bliver smidt i en presset, intens
+            den eller ved at kontrollere sine følelser når den bliver smidt i en presset
             situation. Uanset hvad du oplever kan du hjælpe din hund, så i begge får en mere rolig
             og harmonisk hverdag sammen.
           </Text>
           <Text>
             Du er allerede på rette vej når du læser denne linie! For det betyder at du er på udkig
             efter redskaberne til at få hverdagen til at fungere igen. Det er både din hund og jeg
-            taknemmelig for. Ønsker du at høre mere om hvad du kan forvente at få af hjælp så
-            <StyledLink to="/kontakt"> kontakt mig</StyledLink> endelig.
+            taknemmelig for!
           </Text>
-          {/* <br />
-          <Title color="#872f35" text="Grundet travlhed kan jeg desværre ikke tage nye kunder ind!" />
+          <Title text="Jeg specialiserer mig i hvalpe, stressrelateret problemadfærd og aggression - læs meget mere om dette længere nede på siden." />
+          <br />
+          <Title color="#872f35" text="Står du med en anden problemstilling end mit speciale, henviser jeg til mine kollegaer!" smallTitle />
           <Text>
-            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før januar 2024 igen.
+            Jeg tilbyder desværre ikke rådgivning og hjemmebesøg til andet end mine specialeområder, så står du med hund der har fx alene-hjemme problemer eller lydangst
+            henviser jeg til mine dygtige, belønningsbaserede kollegaer:
           </Text>
+          <TextList texts={Colleagues} />
           <Text>
-            I stedet vil jeg anbefale at tage kontakt til en af mine dygtige kollegaer, som har samme belønningsbaseret tilgang som jeg:
+            Læs mere om de problemstillinger jeg kan hjælpe med længere ned på siden, og er du det mindste i tvivl om din hunds udfordring hører under mit speciale, er du selvfølgelig altid velkommen til
+            <StyledLink to="/kontakt"> at kontakte mig</StyledLink> for at høre nærmere.
           </Text>
-          <TextList texts={Colleagues} /> */}
         </Column>
         <Column>
           <Title text="Priser for hundetræning" showHorizontalRuler />
@@ -101,22 +103,6 @@ const Dog = () => (
         <Title text="Udbud af hundetræning i Midtjylland" showHorizontalRuler />
       </Row>
       <Row marginBottom="25px">
-        <Column>
-          <Image src={dogTwo} />
-          <TitleColor text="Konsultation ved problemadfærd" smallTitle />
-          <Text>
-            En konsultation varer op til 2 timer hjemme hos jer. Her vil vi snakke adfærdsproblemet
-            igennem, så jeg kan foretage en grundig analyse. Derefter gennemgår vi de tiltag der
-            skal til, for at skabe en mere harmonisk hverdag for jer begge. Tiltagene består af
-            øvelser og enkle hverdagsrutiner der skal ændres, for at opnå det ønskede resultat.
-          </Text>
-          <Text bold>Eksempler på problemadfærd:</Text>
-          <TextList texts={consultation} />
-          <Text>
-            Efter mit besøg snakker vi løbende sammen om jeres fremskridt og evt. yderligere tiltag.
-            Der er fri opfølgning på mail og telefon, hvis der opstår spørgsmål efter mit besøg.
-          </Text>
-        </Column>
         <Column>
           <Image src={dogThree} />
           <TitleColor text="Hvalpevisit" smallTitle />
@@ -133,14 +119,45 @@ const Dog = () => (
           <TextList texts={puppyVisitTexts} /> */}
         </Column>
         <Column>
-          <Image src={dogOne} />
-          <TitleColor text="Privattime" smallTitle />
+          <Image src={dogTwo} />
+          <TitleColor text="Stressrelateret problemadfærd" smallTitle />
           <Text>
-            En privattime sikrer dig en skræddersyet plan tilpasset til dig og din hund. Du vil lære
-            at bruge mad, leg og ros til at skabe den lydige hund du ønsker dig.
+            Føler du din hund har ADHD eller omtales den som værende lidt af et "damp"-barn, så er der hjælp at hente 
+            for der findes konkrete tiltag, der kan lære din hund at finde ro i hverdagen og hvile mere i sig selv.
           </Text>
-          <Text bold>Eksempler på træning til en privattime:</Text>
-          <TextList texts={privateHour} />
+          <Text>
+            <b>Eksempler på stressrelateret problemadfærd:</b>
+          <TextList texts={stress} />
+          </Text>
+          <Text>
+            Ønsker du professionel rådgivning og en skræddersyet handlingsplan til at få mere ro på din hund, så er det mit speciale.
+          </Text>
+          <ContactPopUp text="Send mig en mail og hør mere" />
+          <br />
+          {/* <Text>
+            Oplever du til tider din hund "kortslutter", bliver ulydig og ukontrollerbar, så 
+            <StyledLink to="/hvalpevisit"> Læs mere her</StyledLink>
+          </Text> */}
+        </Column>
+        <Column>
+          <Image src={dogOne} />
+          <TitleColor text="Aggression og udfarende adfærd" smallTitle />
+          <Text>
+            Oplever du din hund knurrer, gør eller farer ud overfor dig, andre mennesker eller hunde, så er din hund nødvendigvis ikke aggressiv.
+            For selvom hunden lyder og ser aggressiv ud, er det meget sjældent at årsagen er aggression, men derimod dårlige oplevelser, mistillid til andre, ren usikkerhed eller angst, som skal arbejdes med.
+          </Text>
+          <Text>
+            <b>Eksempler på aggressiv og udfarende adfærd:</b>
+            <TextList texts={aggression} />
+          </Text>
+          <Text>
+            Uanset hvad du oplever hos din hund af uhensigtmæssig aggressionslignende opførsel, så står jeg til rådighed.
+          </Text>
+          <ContactPopUp text="Send mig en mail og hør mere" />
+          <br />
+          <Text>
+            Ønsker du specifikt hjælp til udfarende adfærd på gåtur i mødet med andre hunde, så <StyledLink to="/aggression"> Læs mere her</StyledLink>
+          </Text>
         </Column>
       </Row>
     </Background>

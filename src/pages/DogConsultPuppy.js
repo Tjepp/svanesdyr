@@ -231,8 +231,8 @@ const DogConsultPuppy = () => (
           <TitleCenter text="Din investering i din helt egen garanti for en mindre stressfyldt og langt mere afslappet hverdag med din hvalp, er:" />
           <TitleCenter bold color="#1cb8b8" text="Kun 1.425 kr. + kørsel" />
           <TextCenter>
-            Det svarer nogenlunde til prisen på et par robuste hvalpebøger, som kan give en overflod
-            af information uden at du får konkrete værktøjer til lige dét du søger hjælp til.
+            Det svarer nogenlunde til prisen på et hvalpehold, som kan give en overflod af øvelser og
+            information uden at du får konkrete værktøjer til lige dét du søger hjælp til.
           </TextCenter>
           <br />
           <ContactPopUp text="Send en mail og få en tid til et værdifuldt besøg" />

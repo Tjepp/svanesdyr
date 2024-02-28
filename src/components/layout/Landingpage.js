@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import CookieConsent from 'react-cookie-consent';
 import Responsive from './Responsive';
-import { logoLightGrey } from '../../assets';
+import { LogoUpdate } from '../../assets';
 import Header from '../Header';
 import FooterBottom from '../FooterBottom';
 import ContactPopUp from '../ContactPopUp';
@@ -13,7 +13,7 @@ const Landingpage = ({ children }) => (
     <Header />
     <Background>
       <Bar>
-        <Img src={logoLightGrey} alt="logo" />
+        <Img src={LogoUpdate} alt="logo" />
       </Bar>
     </Background>
     {children}
@@ -68,8 +68,8 @@ const Bar = styled.div`
 const Img = styled.img`
   vertical-align: middle;
   border: 0;
-  width: 200px;
-  height: 110px;
+  width: 400px;
+  height: 100px;
   ${Responsive.media.tablet`
     align-self: center;
   `}

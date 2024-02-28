@@ -116,10 +116,8 @@ const About = () => (
           <Title text="Om uddannelsesstedet" showHorizontalRuler />
           <Text>
             Mine uddannelser er taget ved Center for Dyreterapi i Hirtshals, som er den eneste i
-            Danmark der er godkendt af den fælles europæiske organisation
-            <StyledExternal href="https://www.petbc.org.uk/">
-              PetBc (Pet Education, Training and Behaviour Council.
-            </StyledExternal>
+            Danmark der er godkendt af den fælles europæiske organisation 
+            <StyledExternal href="https://www.petbc.org.uk/"> PetBc (Pet Education, Training and Behaviour Council) </StyledExternal>.
           </Text>
           <Text>
             Organisationen er dannet af eksperter, som kun godkender uddannelser, der har et højt
