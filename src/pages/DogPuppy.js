@@ -113,8 +113,7 @@ const DogPuppy = () => {
             <TextList texts={PuppyBenefits} />
             <Text>
               Der er afsat tid til <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> til
-              timerne. Derudover vil én af lektionerne være afsat til ren legestue, som afholdes
-              sammen med hvalpe fra de andre igangværende hvalpehold.
+              timerne.
             </Text>
             <br />
             <Title text="Holdstart for Hvalpeholdet" showHorizontalRuler />
