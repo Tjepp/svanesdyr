@@ -59,6 +59,7 @@ const StylistBenefits = [
 const StylistBenefitsXtra = [
   'Hele 3 fysiske mødegange med individuel rådgivning i jeres træning',
   'Max 3 andre holdkammerater til møderne på træningspladsen, så der er god tid til dig og din hund',
+  '10 % rabat på ét frisørbesøg til hunden med alt inklusiv i bad, føn og klip hos Hundefrisør Torsten Nielsen',
 ];
 
 const DogStylist = () => (
