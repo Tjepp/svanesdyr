@@ -99,12 +99,12 @@ const About = () => (
             hold af katte i dag. Under forløbet har jeg modtaget undervisning i sædvanlige
             adfærdsproblemer og dertilhørende løsningsmetoder.
           </Text>
-          <Text bold>Certificeret Hestevelfærdsrådgiver siden den 7. januar 2012.</Text>
+          {/* <Text bold>Certificeret Hestevelfærdsrådgiver siden den 7. januar 2012.</Text>
           <Text>
             Igennem denne uddannelse blev der lagt meget vægt på hestens anatomi, fysiologi og
             ernæring, samt den daglige brug. Forløbet har ligeledes fokuseret på forståelse for
             hestens adfærd og natur, samt positive træningsmetoder.
-          </Text>
+          </Text> */}
           <Text bold>Certificeret Hundeadfærdsinstruktør siden den 24. september 2011.</Text>
           <Text>
             Det primære fokus i uddannelsen har været hundens velfærd og en generel forståelse for
@@ -134,7 +134,7 @@ const About = () => (
       </Row>
       <Row marginBottom="25px">
         <Column widthPercentage="100%">
-          <Title text="Andre kursusforløb" showHorizontalRuler />
+          <Title text="Efteruddannelse" showHorizontalRuler />
           <Text>
             Udover mine uddannelser er jeg løbende på kurser, for at sikre mig, at jeg er helt
             opdateret på det nyeste indenfor adfærds- og træningsverdenen.

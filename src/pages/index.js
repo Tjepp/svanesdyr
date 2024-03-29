@@ -30,6 +30,8 @@ export { default as Home } from './Home';
 export { default as Horse } from './Horse';
 export { default as Lecture } from './Lecture';
 export { default as MyMethods } from './MyMethods';
+export { default as OnlineCourses } from './OnlineCourses';
+export { default as OnlineCoursesThanks } from './OnlineCoursesThanks';
 export { default as OnlineEbookPuppyFive } from './OnlineEbookPuppyFive';
 export { default as OnlineEbookThanks } from './OnlineEbookThanks';
 export { default as OnlinePuppy } from './OnlinePuppy';
