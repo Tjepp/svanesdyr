@@ -182,7 +182,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i at skabe det indkald du drømmer om; <b>199,- kr.</b>
           </Text>
-          <ButtonOnline text="Jeg er klar på at skabe et stærkt indkald!" onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Jeg er klar på at skabe et stærkt indkald!" onClick={() => window.open('https://ezme.io/c/x1S/okib', '_blank')}></ButtonOnline>
           <br />
         </Column>
 
