@@ -11,6 +11,7 @@ const SmallMenu = ({ onClick, showSidebar }) => (
     </MenuButton>
     <CollapsibleMenu showSidebar={showSidebar}>
       <SmallMenuItem url="/hundehold" text="Hundehold" />
+      <SmallMenuItem url="/onlinekurser" text="Onlinekurser" />
       <SmallMenuItem url="/hundetraening" text="Hund" />
       {/* <SmallMenuItem url="/hestetraening" text="Hest" /> */}
       <SmallMenuItem url="/kattetraening" text="Kat" />
