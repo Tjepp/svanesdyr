@@ -104,7 +104,7 @@ class ContactForm extends React.Component {
         {sent ? (
           <MessageSentContainer>
             {/* <Text>{`Jeg afholder i øjeblikket ferie! Tak for din besked ${name}, jeg er tilbage på kontoret igen den 15. januar. Du får svar hurtigst muligt herefter.`}</Text> */}
-            <Text>{`Tak for din besked ${name}, grundet efteruddannelse arbejder jeg på nedsat tid og har kun kontortid om mandagen. Jeg svarer tilbage denne ugedag.`}</Text>
+            <Text>{`Tak for din besked ${name}! Jeg har kontortid mandage og torsdage og svarer tilbage på disse dage.`}</Text>
           </MessageSentContainer>
         ) : (
           <Form onSubmit={this.handleForm}>

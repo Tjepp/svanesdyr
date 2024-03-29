@@ -75,7 +75,7 @@ const Contact = () => (
             Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
           </Text>
           <br />
-          <Title color="#872f35" text="Jeg arbejder i øjeblikket på nedsat tid, grundet efteruddannelse og besvarer kun mails om mandagen! Jeg er tilbage på fuld tid til april." />
+          <Title color="#872f35" text="Jeg har kontortid mandage og torsdage og besvarer dine mails i dette tidsrum" />
           {/* <Title color="#872f35" text="Jeg afholder i øjeblikket forlænget juleferie og er tilbage på kontoret igen den 15. januar!" /> */}
         </Column>
         <Column>
@@ -95,6 +95,10 @@ const Contact = () => (
           <FlexRow>
             <Text bold>Email:</Text>
             <Text whiteSpace> info@svanesdyr.dk</Text>
+          </FlexRow>
+          <FlexRow>
+            <Text bold>Kontortid</Text>
+            <Text whiteSpace> Mandage og torsdage</Text>
           </FlexRow>
           <FlexRow>
             <Text bold>CVR-nr.:</Text>
