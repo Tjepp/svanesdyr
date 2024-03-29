@@ -46,7 +46,7 @@ const ConsultPupForYou = [
 const ConsultPupDoubts = [
   'DERFOR #1 For kun halvanden time af din tid og få tusinde kroner kommer du til både at forstå og bruge de enkle metoder, der skal til for at skabe den hverdag DU ønsker sammen med din hvalp - og det virker ikke kun nu og her, men resten af din hvalps OG din næste hvalps levetid!',
   'DERFOR #2 Du får trin-for-trin vejledende hjælp til lige det du ønsker af en professionel uddannet hundetræner, så du sparer timevis af din tid på at google dig frem til (knap så) gode råd, som alligevel ikke helt har den ønskede effekt..',
-  'DERFOR #3 Din investering strækker sig udover den halvanden time i hjemmet! Da jeg går meget op i at du får vedvarende succes med din hvalp, får du fri opfølgning på telefon og mail efter mit besøg, så du kan få et kompetent og fagligt svar på alle de spørgsmål, du ikke nåede at stille under besøget!',
+  'DERFOR #3 Din investering strækker sig udover den halvanden time i hjemmet! Da jeg går meget op i at du får vedvarende succes med din hvalp, får du fri opfølgning på telefon og mail i 6 mdr. efter mit besøg, så du kan få et kompetent og fagligt svar på alle de spørgsmål, du ikke nåede at stille under besøget!',
 ];
 
 const DogConsultPuppy = () => (
@@ -243,7 +243,7 @@ const DogConsultPuppy = () => (
         <Column widthPercentage="100%">
           <TitleCenter
             color="#1cb8b8"
-            text="Du får svar indenfor 24 timer om tid til et hvalpevisit"
+            text="Sådan foregår et hvalpevisit"
           />
           <TextCenter>
             Et hvalpevisit foregår i hjemmet hos dig og din hvalp og gerne med familien samlet til
