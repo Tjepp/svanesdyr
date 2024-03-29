@@ -204,7 +204,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i at kunne spotte forskellen mellem leg og alvor; <b>129,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak! Lad mig fluks få adgang" onClick={() => window.open('https://ezme.io/c/x1S/ug5B', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Ja tak! Lad mig fluks få adgang" onClick={() => window.open('https://ezme.io/c/x1S/oLpk', '_blank')}></ButtonOnline>
           <br />
         </Column>
 
