@@ -74,7 +74,7 @@ const Lecture = () => (
       </Row>
       <Row>
         <Column widthPercentage="100%">
-          <Title text="Kommende foredrag og workshops om hundeadfærd 2022" showHorizontalRuler />
+          <Title text="Kommende foredrag og workshops om hundeadfærd" showHorizontalRuler />
           <br />
           {/* <TitleColor text="Foredrag for 2022 er under planlægning" /> */}
           <EasyMeList src="https://ezme.io/x/x1S/k3Id" />

@@ -1,7 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { LandingpageOnline, Column, TitleCenter, TextCenter, Image, Row } from '../components';
+import { 
+  LandingpageOnline, 
+  Column, 
+  TitleCenter, 
+  TextCenter, 
+  Image, 
+  Row,
+  ButtonOnline,
+ } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { OnlineCoverPuppyFive } from '../assets';
 import '../components/table/TableCss.css';
@@ -23,7 +31,7 @@ const OnlineEbookThanks = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en mail med dit link til at hente din E-bog direkte" />
+          <TitleCenter text="Du får lige straks en mail med din E-bog vedhæftet til direkte download!" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -35,6 +43,11 @@ const OnlineEbookThanks = () => (
           <TitleCenter color="#872f35" text="Rigtig god fornøjelse!" />
         </Column>
       </Row>
+
+      <ButtonOnline
+        text="Lad mig se hvad du ellers tilbyder af onlinekurser! Tag mig tilbage til hjemmesiden"
+        onClick={() => window.open('https://www.svanesdyr.dk/onlinekurser', '_blank')}
+      ></ButtonOnline>
 
       <br />
       <br />

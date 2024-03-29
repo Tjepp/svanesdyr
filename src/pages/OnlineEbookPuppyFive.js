@@ -16,8 +16,7 @@ import {
   TextListMark,
   TextListArrow,
   LPHeadlinePuppy,
-  // ButtonOnline,
-  ContactPopUp,
+  ButtonOnline,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import {
@@ -96,11 +95,10 @@ const OnlineEbookPuppyFive = () => (
         </Column>
       </Row>
 
-      <ContactPopUp text="Ja tak! Jeg er klar på at få en tillidsfuld og rolig hvalp" />
-      {/* <ButtonOnline
+      <ButtonOnline
         text="Ja tak! Jeg er klar på at få en tillidsfuld og rolig hvalp"
-        onClick={() => window.open('https://ezme.io/c/x1S/kBbJ', '_blank')}
-      ></ButtonOnline> */}
+        onClick={() => window.open('https://ezme.io/c/x1S/okHo', '_blank')}
+      ></ButtonOnline>
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
@@ -224,7 +222,7 @@ const OnlineEbookPuppyFive = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter text="Din investering i opskriften på at få den rolige familiehund du drømmer om" />
-          <TitleCenter color="#008037" text="Kun 449,- kr. inkl. moms" />
+          <TitleCenter color="#008037" text="Kun 349,- kr. inkl. moms" />
           <TextCenter>
             En investering der kan spare dig frustration, tid og penge!
             <br />
@@ -242,12 +240,10 @@ const OnlineEbookPuppyFive = () => (
         </Column>
       </Row>
 
-
-      <ContactPopUp text="Ja tak! Lad mig fluks få bogen i min indbakke!" />
-      {/* <ButtonOnline
+      <ButtonOnline
         text="Ja tak! Lad mig fluks få bogen i min indbakke!"
-        onClick={() => window.open('https://ezme.io/c/x1S/kBbJ', '_blank')}
-      ></ButtonOnline> */}
+        onClick={() => window.open('https://ezme.io/c/x1S/okHo', '_blank')}
+      ></ButtonOnline>
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
@@ -256,8 +252,7 @@ const OnlineEbookPuppyFive = () => (
           <br />
           <TitleCenter text="PDF-format leveret direkte til din mail adresse!" />
           <TextCenter>
-            Kort tid efter du har henvendt dig via kontaktforumlaren vil du få tilsendt en faktura og straks efter betaling får du din
-            bog tilsendt på mail, som er en skriftlig guide på 4 lektioner i PDF format.
+            Straks efter betaling får du din e-bog tilsendt på mail, som er en skriftlig guide på 4 lektioner i PDF format.
             <br />
             Via filen i din mail kan du downloade bogen og gemme den på din computer, tablet eller mobil.
             Læs den direkte på skærmen, eller print den ud og sid med den i hånden, mens du drikker
@@ -278,11 +273,10 @@ const OnlineEbookPuppyFive = () => (
         </Column>
       </Row>
 
-      <ContactPopUp text="Jeg er klar til at få succesoplevelser med min hvalp!" />
-      {/* <ButtonOnline
+      <ButtonOnline
         text="Jeg er klar til at få succesoplevelser med min hvalp!"
-        onClick={() => window.open('https://ezme.io/c/x1S/kBbJ', '_blank')}
-      ></ButtonOnline> */}
+        onClick={() => window.open('https://ezme.io/c/x1S/okHo', '_blank')}
+      ></ButtonOnline>
       <br />
       <br />
     </Background>
