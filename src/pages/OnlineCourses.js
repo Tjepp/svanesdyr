@@ -180,7 +180,7 @@ const OnlineCourses = () => (
             <TextList texts={call} />
           </Text>
           <Text>
-            Din investering i at skabe det indkald du drømmer om; <b>199,- kr.</b>
+            Din investering i at skabe det indkald du drømmer om; <b>189,- kr.</b>
           </Text>
           <ButtonOnline text="Jeg er klar på at skabe et stærkt indkald!" onClick={() => window.open('https://ezme.io/c/x1S/okib', '_blank')}></ButtonOnline>
           <br />
