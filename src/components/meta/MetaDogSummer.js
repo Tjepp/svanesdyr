@@ -23,10 +23,10 @@ const MetaDogSummer = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Sommerferietræning Horsens | Uge 29 og 30 | Dyreadfærdskonsulent | Svanes Dyr ';
+  'Sommerferietræning Horsens | Dyreadfærdskonsulent | Svanes Dyr ';
 const defaultDescription = 'Svanes Dyr - Hundetræning i sommerferien i Horsens';
 const defaultKeywords = `Sommerferie hund, sommerferietræning hund, hundetræning sommer, hundetræning sommerferie, familievenlig hundetræning, familie hundetræning,
-  sommerdage hund, barn og hund, sommer barn hund, nose work sommer, rally sommer, nose work sommertræning, rally sommertræning, hundelegestue horsens, hundelegestue`;
+  sommerdage hund, barn og hund, sommer barn hund, nose work sommer, nose work sommertræning, hundelegestue horsens, hundelegestue, ikke hoppe op, hilse pænt hund, gåtur hund, gå pænt hund, ikke trække hund, trækker i snoren,`;
 MetaDogSummer.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,

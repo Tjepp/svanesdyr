@@ -26,12 +26,13 @@ import {
   TricksOne,
   CoolThree,
   NailClipSix,
-  CoolAgainOne,
-  PuppySeven,
+  // CoolAgainOne,
+  // PuppySeven,
   PuppyContinuedOne,
   TricksTwo,
   NWGary,
-  // MonaRally,
+  PuppySix,
+  CoolSix,
 } from '../assets';
 import '../components/table/TableCss.css';
 
@@ -43,12 +44,12 @@ const Spotliste = [
   'Alle Spot-kurser afholdes af Dyreadfærdskonsulent Sabrina Svane',
 ];
 
-const Flerdagesliste = [
-  'Hvert kursus varer op til 4 dage',
-  'Hver dag mødes vi i op til 90 minutter',
-  'Der serveres både lunt og koldt at drikke, som kakao, kaffe, te og juice som er med i prisen',
-  'Kurserne er for alle hunde i alle aldre',
-];
+// const Flerdagesliste = [
+//   'Hvert kursus varer op til 4 dage',
+//   'Hver dag mødes vi i op til 90 minutter',
+//   'Der serveres både lunt og koldt at drikke, som kakao, kaffe, te og juice som er med i prisen',
+//   'Kurserne er for alle hunde i alle aldre',
+// ];
 
 const PlayTypes = [
   'Små racer: Max skulderhøjde 30 cm.',
@@ -70,21 +71,21 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <Image src={OnlineCoverSummer} />
           <br />
-          <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene i uge 29 eller 30 sammen med din dejlige snude" />
+          <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene i uge 30 eller 31 sammen med din dejlige snude" />
           <TextCenter>
             Kom med og brug nogle af de solrige sommerdage i Horsens i godt selskab med andre
             snuder. Tag både din bedre halvdel og børnene med til en hyggelig stund - alle er
             velkomne!
           </TextCenter>
           <TextCenter bold>
-            Der udbydes igen i år de populære spot-kurser og som noget nyt flerdages temakurser!
+            Der udbydes igen i år de populære spot-kurser!
           </TextCenter>
           <TextCenter>Fælles for alle SPOT-kurser er:
           <TextListMark texts={Spotliste} />
           </TextCenter>
-          <TextCenter>Fælles for alle FLERDAGES-kurser er:
+          {/* <TextCenter>Fælles for alle FLERDAGES-kurser er:
           <TextListMark texts={Flerdagesliste} />
-          </TextCenter>
+          </TextCenter> */}
           <TextCenter>
             Alle sommerens kurser foregår på træningspladsen Sorthøjvej 40, 8700 Horsens.
           </TextCenter>
@@ -141,9 +142,9 @@ const DogSummer = () => (
               <TextList texts={PlayRoom} />
             </Text>
               <Text>
-                <b>Deltagelse pr. snude: 175,- kr.</b>
+                <b>Deltagelse pr. snude: 125,- kr.</b>
                 <br />
-                uanset antal tobenede der er med
+                for 60 minutters legestue, uanset antal tobenede der er med
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -253,6 +254,37 @@ const DogSummer = () => (
         </Column>
       </Row>
 
+      {/* HILSE PÆNT */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Hilse pænt" />
+          <FlexedRow>
+            <Image src={CoolSix} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Fokus på at øve ikke-hoppe-op og hilse roligt</b>
+                <br />
+                Til dig der har en ivrig hund, som bare eeeelsker at hilse på andre.
+              </Text>
+              <Text>
+                Vi gennemgår teknikker til at lære hunden at blive på jorden med alle 4 poter, når der skal hilses på mennesker. 
+                Derudover kigger vi også på, hvordan vi tillærer hunden at hilse roligt på andre hunde - uden at bruse fremad med stram line.
+                Du vil gå fra dagen med gode teknikker til at lære din hund at finde roen i forbindelse med social kontakt med andre.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Hilse pænt:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/WvkC" />
+        </Column>
+      </Row>
+
       {/* HÅNDTERING */}
       <Row>
         <Column widthPercentage="100%">
@@ -345,16 +377,73 @@ const DogSummer = () => (
           <EasyMeList src="https://ezme.io/x/x1S/WvkC" />
         </Column>
       </Row>
-      <br />
-      <br />
+
+      {/* HVERDAGSAKTIVERING */}
       <Row>
         <Column widthPercentage="100%">
-          <LPHeadlineWalk text="Udbud af sommerens FLERDAGES-kurser" />
+          <TitleCenter text="Inspiration til hverdagsaktivering" />
+          <FlexedRow>
+            <Image src={PuppySix} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Få velstimulerende opgaver der giver en glad og træt hund</b>
+                <br />
+                Inspiration til hverdagens aktiviteter, der kan trætte din hund godt i hovedet og undgå den finder på unoder.
+                Vi kigger på aktivering, som i kan være fælles om, der oveni styrker jeres samarbejde.
+                Ikke mindst gennemgår vi aktiveringsopgaver til de dage hvor det skal gå hurtigt, hvor hunden kan underholde sig selv mens du får klaret andre gøremål.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Inspiration til hverdagsaktivering:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/WvkC" />
         </Column>
       </Row>
 
-      {/* REAKTIV TIL RO */}
+      {/* NOSE WORK */}
       <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Nose Work Momentsøg" />
+          <FlexedRow>
+            <Image src={NWGary} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Til hunden der selvsikkert søger på lavendelduft</b>
+                <br />
+                Vi gennemgår de fire momenter fra klasse 1; køretøjssøg, beholdersøg, indendørssøg og udendørssøg.
+                Det primære fokus vil være succesoplevelser og hygge for hunden, samt ejers lineføring og markeringsadfærd hos hunden.
+                Interesserede spørgsmål til konkurrenceregler mv. besvares hjertens gerne.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Nose Work Momentsøg:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/WvkC" />
+        </Column>
+      </Row>
+
+      <br />
+      <br />
+      {/* <Row>
+        <Column widthPercentage="100%">
+          <LPHeadlineWalk text="Udbud af sommerens FLERDAGES-kurser" />
+        </Column>
+      </Row> */}
+
+      {/* REAKTIV TIL RO */}
+      {/* <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Fra Reaktiv til Ro" />
           <FlexedRow>
@@ -379,7 +468,7 @@ const DogSummer = () => (
                 Kurset strækker sig over 4 dage med op til 60 minutters undervisning med hundene i spil hver dag. 
                 Derefter har vi 30 minutter til spørgsmål og opfølgning, hvor hundene hviler i bilerne. Kurset henvender sig til hunde i alle aldre. 
               </Text>
-            </TextContainer>
+            </TextContainer> */}
             {/* <TextContainer>
               <Text>
                 <b>Få kyndig vejledning i at lære din hund at lystre i nye miljøer</b>
@@ -403,16 +492,16 @@ const DogSummer = () => (
                 <i>Lunden</i>, 8700 Horsens med gratis parkering ved siden af Horsens Kunstmuseum
               </Text>
             </TextContainer> */}
-          </FlexedRow>
+          {/* </FlexedRow>
           <br />
           <Text bold>Tilmelding til Fra Reaktiv til RO:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/WvWW" />
         </Column>
-      </Row>
+      </Row> */}
 
       
       {/* INTENSIV HVALPEKURSUS */}
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Intensivt Hvalpehold" />
           <FlexedRow>
@@ -440,11 +529,11 @@ const DogSummer = () => (
           <Text bold>Tilmelding til Intensivt Hvalpehold:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/WvWR" />
         </Column>
-      </Row>
+      </Row> */}
 
 
       {/* NOSE WORK MED ANJA */}
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Nose Work med Anja Nielsen" />
           <FlexedRow>
@@ -485,7 +574,7 @@ const DogSummer = () => (
           <Text bold>Tilmelding til Nose Work for øvede:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/WvWr" />
         </Column>
-      </Row>
+      </Row> */}
 
 
       {/* RALLY MED MONA */}

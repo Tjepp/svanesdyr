@@ -16,7 +16,7 @@ import {
   Image,
   StyledLink,
   ContactPopUp,
-  // EasyMeList,
+  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -96,10 +96,10 @@ const DogEmpower = () => (
           <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
-          {/* <Title text="Kommende hold:" />
+          <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/WXZW" />
-          <br /> */}
-          <Title color="#872f35" text="Næste holdstart er juni 2024, da jeg er på efteruddannelse" />
+          <br />
+          <Title color="#872f35" text="Næste holdstart er september 2024" />
           <Title text="Ønsker du en plads? Så smid mig en mail og jeg noterer dig straks på ventelisten:" />
           {/* <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
