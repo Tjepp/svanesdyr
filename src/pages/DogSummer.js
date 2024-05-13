@@ -71,10 +71,10 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <Image src={OnlineCoverSummer} />
           <br />
-          <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene i uge 30 eller 31 sammen med din dejlige snude" />
+          <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene i uge 30 eller 31 sammen med din hund" />
           <TextCenter>
             Kom med og brug nogle af de solrige sommerdage i Horsens i godt selskab med andre
-            snuder. Tag både din bedre halvdel og børnene med til en hyggelig stund - alle er
+            hundesnuder. Tag både din bedre halvdel og børnene med til en hyggelig stund - alle er
             velkomne!
           </TextCenter>
           <TextCenter bold>
@@ -114,6 +114,295 @@ const DogSummer = () => (
         </Column>
       </Row>
 
+      {/* INDKALD */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Indkald begynder og øvet" />
+          <FlexedRow>
+            <Image src={RecallOne} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Indkald Basis</b>
+                <br />
+                Basisholdet henvender sig til alle hunde i alle aldre, der har brug for et sikkert
+                indkald. Du vil lære at skabe stor motivation i din hund ved at bruge effektive
+                belønningsteknikker, så din hund får en høj forventning til dit fantastiske indkald.
+                Vi vil gennemgå lette og sjove lege, som får din hund til at synes at indkald er en
+                FEST.
+              </Text>
+              <Text>
+                <b>Indkald Øvet</b>
+                <br />
+                Føler du din hund kommer 9/10 gange? Men nogle gange ignorerer dig når du kalder? På
+                øvet gennemgår vi forskellige forstyrrelseslege, som lærer din hund, at selvom der
+                er spændende ting at give sig til, så er det stadig FEDT at komme når du kalder!
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Indkaldskursus:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/o8e1" />
+        </Column>
+      </Row>
+
+      {/* FITNESS */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Fitness for alle" />
+          <FlexedRow>
+            <Image src={TricksOne} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Fokus på god kropskontrol og kropsbevidsthed</b>
+                <br />
+                Til dig der ønsker at styrke din hunds bevidsthed om sin egen krop! Vi vil gennemgå
+                øvelser der fokuserer på kontrol af alle fire poter, forparts- og bagpartskontrol og
+                styrke- / balanceopgaver.
+              </Text>
+              <Text>
+                Holdet henvender sig især også til dig der ønsker nye måder at trætte hunden på
+                mentalt, gennem små, sjove opgaver, som styrker jeres samarbejde og ikke mindst
+                hundens selvtillid. Alle hunde i alle aldre kan deltage.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Fitness for Alle:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/o8rD" />
+        </Column>
+      </Row>
+
+      {/* GÅTURE */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Rolige gåture" />
+          <FlexedRow>
+            <Image src={CoolThree} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Med fokus på gå-pænt-teknikker og selvkontrol</b>
+                <br />
+                Til dig der ønsker at få mere afslappede gåture, med en hund der kan finde ro og gå
+                pænt i snor uden at hive armen af dig. Holdet henvender sig til alle hunde i alle
+                aldre, som har tendens til at stresse op på en gåtur. Du får redskaberne til at
+                skabe en kontaktsøgende og rolig hund, gennem forskellige øvelser, der også vil
+                styrke jeres fælles samarbejde.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Rolige Gåture:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/o8e6" />
+        </Column>
+      </Row>
+
+      {/* HILSE PÆNT */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Hilse pænt" />
+          <FlexedRow>
+            <Image src={CoolSix} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Fokus på at øve ikke-hoppe-op og hilse roligt</b>
+                <br />
+                Til dig der har en ivrig hund, som bare eeeelsker at hilse på andre.
+              </Text>
+              <Text>
+                Vi gennemgår teknikker til at lære hunden at blive på jorden med alle 4 poter, når der skal hilses på mennesker. 
+                Derudover kigger vi også på, hvordan vi tillærer hunden at hilse roligt på andre hunde - uden at bruse fremad med stram line.
+                Du vil gå fra dagen med gode teknikker til at lære din hund at finde roen i forbindelse med social kontakt med andre.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Hilse pænt:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/o8kD" />
+        </Column>
+      </Row>
+
+      {/* HÅNDTERING */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Introduktion til frivillig håndtering" />
+          <FlexedRow>
+            <Image src={NailClipSix} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Få samtykke til den daglige pleje</b>
+                <br />
+                Du får redskaberne til hvordan du træner frivillig adfærd i hunden, som skal være
+                startsignalet til hvornår håndtering kan begynde. Din hund lærer altså at sige ”jeg
+                er klar” og ”pause, tak” under håndtering, og du lærer at aflæse hvornår din hund er
+                tryg og utryg. Vi gennemgår Chirag Patels The Bucket Game og hvordan du indlære
+                start/slut signaler.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Intro til Frivillig Håndtering:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/o8eg" />
+        </Column>
+      </Row>
+
+      {/* BLIV */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Bliv!" />
+          <FlexedRow>
+            <Image src={PuppyContinuedOne} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Bliv i sit og dæk SELV med forstyrrelser</b>
+                <br />
+                Ønsker du at få en stensikker placering fra din hund, når du beder den om at sætte
+                sig eller lægge sig? Måske har du en drøm om at kunne få den til at blive liggende i
+                sin kurv, selvom der er gæster på besøg? Dette kursus giver dig redskaberne til at
+                få fjederen ud af hundens ben og en god bliv, uanset om du beder om sit eller dæk.
+                Vi kigger på konceptet selv med forstyrrelser i brug!
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Bliv!:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/o8zC" />
+        </Column>
+      </Row>
+
+      {/* TRICKS */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Tricks og Sjov!" />
+          <FlexedRow>
+            <Image src={TricksTwo} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Det perfekte kursus til barn og hund sammen</b>
+                <br />
+                Og ikke mindst til dig, som nyder at lære nyt med din hund. Tricks og Sjov lægger
+                vægt på Empowerment principperne, hvor hunden selv skal tage <u>initiativ</u> til
+                adfærd, være <u>kreativ</u> og have nok <u>gåpåmod</u> til at fortsætte.
+              </Text>
+              <Text>
+                Vi gennemgår flere tricks og øvelser, som giver succes, samarbejdsglæde og ikke
+                mindst et smil på læben til dig der holder snoren. Du vil blandt andet lære hvordan
+                du lærer din hund Zig-zag mellem ben, kravle og snurre-rundt.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Tricks og Sjov:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/o8rn" />
+        </Column>
+      </Row>
+
+      {/* HVERDAGSAKTIVERING */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Inspiration til hverdagsaktivering" />
+          <FlexedRow>
+            <Image src={PuppySix} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Få velstimulerende opgaver der giver en glad og træt hund</b>
+                <br />
+                Inspiration til hverdagens aktiviteter, der kan trætte din hund godt i hovedet og undgå den finder på unoder.
+                Vi kigger på aktivering, som i kan være fælles om, der oveni styrker jeres samarbejde.
+                Ikke mindst gennemgår vi aktiveringsopgaver til de dage hvor det skal gå hurtigt, hvor hunden kan underholde sig selv mens du får klaret andre gøremål.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Inspiration til hverdagsaktivering:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/o8kr" />
+        </Column>
+      </Row>
+
+      {/* NOSE WORK */}
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Nose Work Momentsøg" />
+          <FlexedRow>
+            <Image src={NWGary} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Til hunden der selvsikkert søger på lavendelduft</b>
+                <br />
+                Vi gennemgår de fire momenter fra klasse 1; køretøjssøg, beholdersøg, indendørssøg og udendørssøg.
+                Det primære fokus vil være succesoplevelser og hygge for hunden, samt ejers lineføring og markeringsadfærd hos hunden.
+                Interesserede spørgsmål til konkurrenceregler mv. besvares hjertens gerne.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Nose Work Momentsøg:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/o8zt" />
+        </Column>
+      </Row>
+
+      <br />
+      <br />
+      <Row>
+        <Column widthPercentage="100%">
+          <LPHeadlineWalk text="Udbud af sommerens Legestuer" />
+        </Column>
+      </Row>
+
+
       {/* LEGESTUE */}
       <Row>
         <Column widthPercentage="100%">
@@ -150,297 +439,16 @@ const DogSummer = () => (
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til legestue:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvLZ" />
-        </Column>
-      </Row>
-
-      {/* INDKALD */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Indkald begynder og øvet" />
-          <FlexedRow>
-            <Image src={RecallOne} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Indkald Basis</b>
-                <br />
-                Basisholdet henvender sig til alle hunde i alle aldre, der har brug for et sikkert
-                indkald. Du vil lære at skabe stor motivation i din hund ved at bruge effektive
-                belønningsteknikker, så din hund får en høj forventning til dit fantastiske indkald.
-                Vi vil gennemgå lette og sjove lege, som får din hund til at synes at indkald er en
-                FEST.
-              </Text>
-              <Text>
-                <b>Indkald Øvet</b>
-                <br />
-                Føler du din hund kommer 9/10 gange? Men nogle gange ignorerer dig når du kalder? På
-                øvet gennemgår vi forskellige forstyrrelseslege, som lærer din hund, at selvom der
-                er spændende ting at give sig til, så er det stadig FEDT at komme når du kalder!
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
+          <EasyMeList src="https://ezme.io/x/x1S/o8LW" />
           <br />
-          <Text bold>Tilmelding til Indkaldskursus:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvLo" />
-        </Column>
-      </Row>
-
-      {/* FITNESS */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Fitness for alle" />
-          <FlexedRow>
-            <Image src={TricksOne} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Fokus på god kropskontrol og kropsbevidsthed</b>
-                <br />
-                Til dig der ønsker at styrke din hunds bevidsthed om sin egen krop! Vi vil gennemgå
-                øvelser der fokuserer på kontrol af alle fire poter, forparts- og bagpartskontrol og
-                styrke- / balanceopgaver.
-              </Text>
-              <Text>
-                Holdet henvender sig især også til dig der ønsker nye måder at trætte hunden på
-                mentalt, gennem små, sjove opgaver, som styrker jeres samarbejde og ikke mindst
-                hundens selvtillid. Alle hunde i alle aldre kan deltage.
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
           <br />
-          <Text bold>Tilmelding til Fitness for Alle:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WUbx" />
+          <TitleCenter text="Er sommerkurset du vil med på fyldt??" />
+          <TextCenter>
+            Så smid mig en mail på hvilket kursus du gerne vil på venteliste på (og ved rigelig efterspørgsel starter jeg ekstra hold op!):
+          </TextCenter>
+          <ContactPopUp text="TILMELDING til sommerkursus venteliste" />
         </Column>
       </Row>
-
-      {/* GÅTURE */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Rolige gåture" />
-          <FlexedRow>
-            <Image src={CoolThree} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Med fokus på gå-pænt-teknikker og selvkontrol</b>
-                <br />
-                Til dig der ønsker at få mere afslappede gåture, med en hund der kan finde ro og gå
-                pænt i snor uden at hive armen af dig. Holdet henvender sig til alle hunde i alle
-                aldre, som har tendens til at stresse op på en gåtur. Du får redskaberne til at
-                skabe en kontaktsøgende og rolig hund, gennem forskellige øvelser, der også vil
-                styrke jeres fælles samarbejde.
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Rolige Gåture:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvLf" />
-        </Column>
-      </Row>
-
-      {/* HILSE PÆNT */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Hilse pænt" />
-          <FlexedRow>
-            <Image src={CoolSix} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Fokus på at øve ikke-hoppe-op og hilse roligt</b>
-                <br />
-                Til dig der har en ivrig hund, som bare eeeelsker at hilse på andre.
-              </Text>
-              <Text>
-                Vi gennemgår teknikker til at lære hunden at blive på jorden med alle 4 poter, når der skal hilses på mennesker. 
-                Derudover kigger vi også på, hvordan vi tillærer hunden at hilse roligt på andre hunde - uden at bruse fremad med stram line.
-                Du vil gå fra dagen med gode teknikker til at lære din hund at finde roen i forbindelse med social kontakt med andre.
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Hilse pænt:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvkC" />
-        </Column>
-      </Row>
-
-      {/* HÅNDTERING */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Introduktion til frivillig håndtering" />
-          <FlexedRow>
-            <Image src={NailClipSix} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Få samtykke til den daglige pleje</b>
-                <br />
-                Du får redskaberne til hvordan du træner frivillig adfærd i hunden, som skal være
-                startsignalet til hvornår håndtering kan begynde. Din hund lærer altså at sige ”jeg
-                er klar” og ”pause, tak” under håndtering, og du lærer at aflæse hvornår din hund er
-                tryg og utryg. Vi gennemgår Chirag Patels The Bucket Game og hvordan du indlære
-                start/slut signaler.
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Intro til Frivillig Håndtering:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvLQ" />
-        </Column>
-      </Row>
-
-      {/* BLIV */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Bliv!" />
-          <FlexedRow>
-            <Image src={PuppyContinuedOne} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Bliv i sit og dæk SELV med forstyrrelser</b>
-                <br />
-                Ønsker du at få en stensikker placering fra din hund, når du beder den om at sætte
-                sig eller lægge sig? Måske har du en drøm om at kunne få den til at blive liggende i
-                sin kurv, selvom der er gæster på besøg? Dette kursus giver dig redskaberne til at
-                få fjederen ud af hundens ben og en god bliv, uanset om du beder om sit eller dæk.
-                Vi kigger på konceptet selv med forstyrrelser i brug!
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Bliv!:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvLy" />
-        </Column>
-      </Row>
-
-      {/* TRICKS */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Tricks og Sjov!" />
-          <FlexedRow>
-            <Image src={TricksTwo} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Det perfekte kursus til barn og hund sammen</b>
-                <br />
-                Og ikke mindst til dig, som nyder at lære nyt med din hund. Tricks og Sjov lægger
-                vægt på Empowerment principperne, hvor hunden selv skal tage <u>initiativ</u> til
-                adfærd, være <u>kreativ</u> og have nok <u>gåpåmod</u> til at fortsætte.
-              </Text>
-              <Text>
-                Vi gennemgår flere tricks og øvelser, som giver succes, samarbejdsglæde og ikke
-                mindst et smil på læben til dig der holder snoren. Du vil blandt andet lære hvordan
-                du lærer din hund Zig-zag mellem ben, kravle og snurre-rundt.
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Tricks og Sjov:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvkC" />
-        </Column>
-      </Row>
-
-      {/* HVERDAGSAKTIVERING */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Inspiration til hverdagsaktivering" />
-          <FlexedRow>
-            <Image src={PuppySix} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Få velstimulerende opgaver der giver en glad og træt hund</b>
-                <br />
-                Inspiration til hverdagens aktiviteter, der kan trætte din hund godt i hovedet og undgå den finder på unoder.
-                Vi kigger på aktivering, som i kan være fælles om, der oveni styrker jeres samarbejde.
-                Ikke mindst gennemgår vi aktiveringsopgaver til de dage hvor det skal gå hurtigt, hvor hunden kan underholde sig selv mens du får klaret andre gøremål.
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Inspiration til hverdagsaktivering:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvkC" />
-        </Column>
-      </Row>
-
-      {/* NOSE WORK */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Nose Work Momentsøg" />
-          <FlexedRow>
-            <Image src={NWGary} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Til hunden der selvsikkert søger på lavendelduft</b>
-                <br />
-                Vi gennemgår de fire momenter fra klasse 1; køretøjssøg, beholdersøg, indendørssøg og udendørssøg.
-                Det primære fokus vil være succesoplevelser og hygge for hunden, samt ejers lineføring og markeringsadfærd hos hunden.
-                Interesserede spørgsmål til konkurrenceregler mv. besvares hjertens gerne.
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Nose Work Momentsøg:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvkC" />
-        </Column>
-      </Row>
-
-      <br />
-      <br />
-      {/* <Row>
-        <Column widthPercentage="100%">
-          <LPHeadlineWalk text="Udbud af sommerens FLERDAGES-kurser" />
-        </Column>
-      </Row> */}
 
       {/* REAKTIV TIL RO */}
       {/* <Row>
@@ -498,7 +506,6 @@ const DogSummer = () => (
           <EasyMeList src="https://ezme.io/x/x1S/WvWW" />
         </Column>
       </Row> */}
-
       
       {/* INTENSIV HVALPEKURSUS */}
       {/* <Row>
@@ -573,42 +580,6 @@ const DogSummer = () => (
           <br />
           <Text bold>Tilmelding til Nose Work for øvede:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/WvWr" />
-        </Column>
-      </Row> */}
-
-
-      {/* RALLY MED MONA */}
-      {/* <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Rally-Lydighed med Mona Lindhardt" />
-          <FlexedRow>
-            <Image src={MonaRally} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Til dig som vil snuse til Rally (begynder) og til dig der vil have nye udfordringer (øvet)</b>
-                <br />
-                <i>Underviser: Rally-Lydighed instruktør Mona Lindhardt</i>
-                <br />
-                Til Rally-Lydighed er der fokus på lydighedstræningen, uden præcisionsarbejdet. 
-                Det største mål med Rally er nemlig at din hund udviser glæde og villighed til at samarbejde.
-                I Rally-Lydighed skal dig og din hund udfører forskellige opgaver sammen, hvor opgaverne er listet op på skiltene på banen.
-                Der findes omkring 130 forskellige skilte med forskellige samarbejdsøvelser, så holdet giver rig mulighed for at finde på nye, sjove opgaver sammen med din hund.
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 795,- kr.</b>
-                <br />
-                <i>For at deltage i Rally-Lydighed skal din hund kunne træne med andre hunde omkring sig.</i>
-                <br />
-                Max 5 snuder pr. hold.<br />
-                Kurset strækker sig over 3 dage med op til 60 minutters undervisning hver dag.
-                Derefter har vi 30 minutter til spørgsmål og ikke mindst hygge mellem to- og firbenede.
-                Kurset henvender sig til hunde i alle aldre
-              </Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Rally:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvLT" />
         </Column>
       </Row> */}
 
