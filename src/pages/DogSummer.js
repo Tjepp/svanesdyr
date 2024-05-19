@@ -30,7 +30,7 @@ import {
   // PuppySeven,
   PuppyContinuedOne,
   TricksTwo,
-  NWGary,
+  // NWGary,
   PuppySix,
   CoolSix,
 } from '../assets';
@@ -78,9 +78,9 @@ const DogSummer = () => (
             velkomne!
           </TextCenter>
           <TextCenter bold>
-            Der udbydes igen i år de populære spot-kurser!
+            Der udbydes igen i år de populære sommerkurser!
           </TextCenter>
-          <TextCenter>Fælles for alle SPOT-kurser er:
+          <TextCenter>Fælles for alle sommerkurser er:
           <TextListMark texts={Spotliste} />
           </TextCenter>
           {/* <TextCenter>Fælles for alle FLERDAGES-kurser er:
@@ -367,7 +367,7 @@ const DogSummer = () => (
       </Row>
 
       {/* NOSE WORK */}
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Nose Work Momentsøg" />
           <FlexedRow>
@@ -392,7 +392,7 @@ const DogSummer = () => (
           <Text bold>Tilmelding til Nose Work Momentsøg:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/o8zt" />
         </Column>
-      </Row>
+      </Row> */}
 
       <br />
       <br />
