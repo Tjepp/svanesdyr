@@ -53,12 +53,12 @@ const Spotliste = [
 
 const PlayTypes = [
   'Små racer: Max skulderhøjde 30 cm.',
-  'Mellemstore racer: Skulderhøjde fra 30 - 60 cm.',
-  'Store racer: Skulderhøjde fra 60 cm og opefter',
+  'Mellemstore racer: Skulderhøjde fra 30 - 50 cm.',
+  'Store racer: Skulderhøjde fra 50 cm og opefter',
 ];
 
 const PlayRoom = [
-  'Små racer: Max 10 hunde',
+  'Små racer: Max 8 hunde',
   'Mellemstore racer: Max 8 hunde',
   'Store racer: Max 6 hunde',
 ];
