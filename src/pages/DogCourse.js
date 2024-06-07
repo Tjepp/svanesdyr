@@ -52,12 +52,12 @@ const DogCourse = () => (
             hyggelig time.
           </Text>
           <Text>
-            Socialiseringsholdet differentierer sig fra det normale holdsetup, da vi grundet holdets formål er op til 8 hunde på holdet.
+            Socialiseringsholdet differentierer sig fra det normale holdsetup, da vi grundet holdets formål er op til 6 hunde på holdet.
           </Text>
           <Text>
             <b>Vi ses én gang om ugen</b>
             <br />
-            Hvalpeholdet varer 8 uger og alle andre fortsætterhold varer 7 uger, hvor vi mødes til træning i{' '}
+            Hvalpeholdene varer 8 uger og alle andre hold varer 7 uger, hvor vi mødes til træning i
             <b>45 min. per uge</b>. Socialiseringsholdet og miljøholdet afholdes over 4 mødegange og varer 60 min. pr. lektion, grundet holdenes formål.
           </Text>
           <Text>

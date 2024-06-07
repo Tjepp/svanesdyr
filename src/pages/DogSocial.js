@@ -47,7 +47,7 @@ const SocialBenefits = [
   'Socialisering med forskellige størrelser',
   'Kontrollerede forhold med en træner på sidelinjen',
   'Øvelse i at finde ro nær andre hunde',
-  'Ugentligt samvær med 7 andre snuder',
+  'Ugentligt samvær med 5 andre snuder',
 ];
 
 const DogSocial = () => {
@@ -111,7 +111,7 @@ const DogSocial = () => {
             </Text>
             <br />
             <Title text="Holdstart for Socialiseringsholdet" showHorizontalRuler />
-            <TitleColor text="Din investering: 550 kr." />
+            <TitleColor text="Din investering: 695 kr." />
             <Text>
               i at få en imødekommende og selvsikker familiehund, der snildt kan finde ro blandt
               andre snuder!
