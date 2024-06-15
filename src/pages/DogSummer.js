@@ -28,7 +28,7 @@ import {
   NailClipSix,
   // CoolAgainOne,
   // PuppySeven,
-  PuppyContinuedOne,
+  // PuppyContinuedOne,
   TricksTwo,
   // NWGary,
   PuppySix,
@@ -276,7 +276,7 @@ const DogSummer = () => (
       </Row>
 
       {/* BLIV */}
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Bliv!" />
           <FlexedRow>
@@ -303,7 +303,7 @@ const DogSummer = () => (
           <Text bold>Tilmelding til Bliv!:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/o8zC" />
         </Column>
-      </Row>
+      </Row> */}
 
       {/* TRICKS */}
       <Row>
