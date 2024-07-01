@@ -10,7 +10,7 @@ import {
   Row,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { OnlineCoverFest } from '../assets';
+import { Party } from '../assets';
 import '../components/table/TableCss.css';
 
 const PartyThanks = () => (
@@ -18,7 +18,7 @@ const PartyThanks = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverFest} />
+          <Image src={Party} />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>
