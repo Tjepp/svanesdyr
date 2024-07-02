@@ -26,7 +26,6 @@ const ContinuedCoolProgram = [
   'Rolige gåture: Øvelse i at gå væk fra andre hunde',
   'Rolige gåture: Øvelse i fortovspassager med andre hunde',
   'Rolige gåture: Øvelse i stop-op og hilsemøder med andre',
-  'Hverdagsgåture med kontakt og ro i nye miljøer',
   'Ro og kontakt nær flere forstyrrelser på én gang',
   'Afventende ro omkring spændende sager i bevægelse',
   'Placering af hunden: Indlæring af bliv',
@@ -35,7 +34,7 @@ const ContinuedCoolProgram = [
 const CoolContinuedBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen til timerne',
   'Vejledning i at passere fremmede hunde og mennesker i ro',
-  'Hele 7 ugers træning med ugentligt holdmøde',
+  'Hele 6 ugers træning med ugentligt holdmøde',
   'Max 4 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
 ];
@@ -76,13 +75,9 @@ const DogCoolContinued = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 7 uger sammen vil vi komme igennem følgende:
+            <br />I løbet af vores 6 uger sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={ContinuedCoolProgram} />
-          <Text>
-            Programmet inkluderer én lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
-            ro i nyt miljø.
-          </Text>
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
@@ -94,7 +89,7 @@ const DogCoolContinued = () => (
           <br />
 
           <Title text="Holdstart for Fortsat Helt-Cool" showHorizontalRuler />
-          <TitleColor text="Din investering: 1195 kr." />
+          <TitleColor text="Din investering: 1045 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture, med en hund der kan finde ro og holde kontakt,
             selv nær andre hunde.
