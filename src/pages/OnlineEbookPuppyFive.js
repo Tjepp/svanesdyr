@@ -197,7 +197,7 @@ const OnlineEbookPuppyFive = () => (
 
       <Row>
         <Column widthPercentage="80%">
-          <TitleCenter text="Kurset leveres af din erfarne Dyreadfærdskonsulent" />
+          <TitleCenter text="E-bogen leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
             <Image src={FrontNoOne} width="300px" height="200px" />
             <TextContainer>
