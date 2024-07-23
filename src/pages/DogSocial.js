@@ -135,7 +135,7 @@ const DogSocial = () => {
             <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
             <br />
             <br />
-            <Title text="Billeder fra Socialiseringshold Horsens" showHorizontalRuler />
+            <Title text="Billeder fra Socialiseringshold" showHorizontalRuler />
             <Row>
               <Column>
                 <Image src={PlaySeven} />
