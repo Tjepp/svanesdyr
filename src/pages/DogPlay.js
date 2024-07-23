@@ -55,7 +55,7 @@ const DogPlay = () => {
   return (
     <Page>
       <MetaDogPlay />
-      <Banner text="Hundehold i Horsens">
+      <Banner text="Hundehold i Nim, nær Horsens">
         <BreadCrumps currentPage="Legestue" />
       </Banner>
       <Background>
@@ -65,7 +65,7 @@ const DogPlay = () => {
             <DogMenu />
           </Column>
           <Column widthPercentage="75%">
-            <Title text="Hundelegestue i Horsens" showHorizontalRuler />
+            <Title text="Hundelegestue i Nim, nær Horsens" showHorizontalRuler />
             <Text>
               Ønsker du positive oplevelser i samvær med andre hunde, for din hvalp, unghund eller
               voksne snude, så er du kommet til rette sted!

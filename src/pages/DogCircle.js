@@ -47,7 +47,7 @@ const CircleBenefits = [
 const DogCircle = () => (
   <Page>
     <MetaDogCircle />
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Cirkeltræning" />
     </Banner>
     <Background>

@@ -42,7 +42,7 @@ const CoolContinuedBenefits = [
 const DogCoolContinued = () => (
   <Page>
     <MetaDogCoolContinued />
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Fortsat Helt-Cool" />
     </Banner>
     <Background>
@@ -52,7 +52,7 @@ const DogCoolContinued = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Fortsat Helt-Cool i Horsens for tidligere kursister" showHorizontalRuler />
+          <Title text="Fortsat Helt-Cool i Nim for tidligere kursister" showHorizontalRuler />
           <Text>
             Ønsker du at styrke din hunds kontakt og ro blandt andre hunde, selv når de kommer helt tæt på eller leger vildt i nærheden, så er fortsætterholdet det rette hold for dig!
           </Text>
@@ -89,17 +89,20 @@ const DogCoolContinued = () => (
           <br />
 
           <Title text="Holdstart for Fortsat Helt-Cool" showHorizontalRuler />
-          <TitleColor text="Din investering: 1045 kr." />
+          <TitleColor text="Din investering: 1195 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture, med en hund der kan finde ro og holde kontakt,
             selv nær andre hunde.
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+          <Title color="#872f35" text="Svanes Dyr er flyttet!" />
+            <Title text="Fortsætterholdet afholdes fremadrettet på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
+            <br />
           <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/LXeP" />
           <br />
-          <Title color="#872f35" text="Næste holdstart er september 2024" />
+          <Title color="#872f35" text="Næste holdstart er November 2024" />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver

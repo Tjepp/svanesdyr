@@ -42,7 +42,7 @@ const FitBenefits = [
 const DogEmpower = () => (
   <Page>
     <MetaDogTricks />
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Fit Empowerment" />
     </Banner>
     <Background>
@@ -52,7 +52,7 @@ const DogEmpower = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Fit Empowerment i Horsens" showHorizontalRuler />
+          <Title text="Fit Empowerment i Nim, nær Horsens" showHorizontalRuler />
           <Text>
             Ønsker du en glad samarbejdspartner, som er initiativrig og synes træning med dig er
             FEDT, så er du kommet til rette sted!
@@ -95,11 +95,14 @@ const DogEmpower = () => (
           <TitleColor text="Din investering: 1195 kr." />
           <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+          <Title color="#872f35" text="Svanes Dyr er flyttet!" />
+            <Title text="Holdet afholdes fremadrettet på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
+            <br />
           <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/WXZW" />
           <br />
-          <Title color="#872f35" text="Næste holdstart er september 2024" />
+          <Title color="#872f35" text="Næste holdstart er November 2024" />
           <Title text="Ønsker du en plads? Så smid mig en mail og jeg noterer dig straks på ventelisten:" />
           {/* <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver

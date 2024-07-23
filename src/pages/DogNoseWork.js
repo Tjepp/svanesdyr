@@ -43,7 +43,7 @@ const NoseWorkRequirements = [
 
 const DogNoseWork = () => (
   <Page>
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Nose Work Intro" />
     </Banner>
     <Background>

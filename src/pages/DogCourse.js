@@ -20,7 +20,7 @@ import DogMenu from '../components/menu/DogMenu';
 const DogCourse = () => (
   <Page>
     <MetaDogCourse />
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Hundehold" />
     </Banner>
     <Background>
@@ -30,7 +30,7 @@ const DogCourse = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Hundetræning i Horsens" showHorizontalRuler />
+          <Title text="Hundetræning i Nim, nær Horsens" showHorizontalRuler />
           <Text>
             Ønsker du en stærk relation mellem dig og din hund, gennem sjov, leg og succes, så er du
             kommet til rette sted! Træningen hos mig foregår på hundens præmisser hvor vi anvender{' '}
@@ -57,8 +57,7 @@ const DogCourse = () => (
           <Text>
             <b>Vi ses én gang om ugen</b>
             <br />
-            Hvalpeholdene varer 8 uger og alle andre hold varer 7 uger, hvor vi mødes til træning i
-            <b>45 min. per uge</b>. Socialiseringsholdet og miljøholdet afholdes over 4 mødegange og varer 60 min. pr. lektion, grundet holdenes formål.
+            Hvalpeholdene varer 8 uger og alle andre hold varer 7 uger, hvor vi mødes til træning i <b>45 min. per uge</b>. Socialiseringsholdet og miljøholdet afholdes over 4 mødegange og varer 60 min. pr. lektion, grundet holdenes formål.
           </Text>
           <Text>
             Der tilsendes link til et online bibliotek, hvor du kan
@@ -69,8 +68,8 @@ const DogCourse = () => (
           <Text>
             <b>Træningsbane</b>
             <br />
-            Jeg afholder træning udenfor uanset årstiden og holder til på følgende adresse:
-            Sorthøjvej 40, 8700 Horsens
+            Jeg afholder træning på følgende adresse:
+            Horsensvej 31, Nim, 8740 Brædstrup
           </Text>
           <Text>
             <b>Bemærk!</b>

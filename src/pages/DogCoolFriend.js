@@ -31,7 +31,7 @@ const CoolBenefits = [
 const DogCoolFriend = () => (
   <Page>
     <MetaDogCoolFriend />
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Venlig-Vovse" />
     </Banner>
     <Background>
@@ -41,7 +41,7 @@ const DogCoolFriend = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Venlig-Vovse hold i Horsens" showHorizontalRuler />
+          <Title text="Venlig-Vovse hold i Nim, nær Horsens" showHorizontalRuler />
           <Text>
             Ønsker du at få flere afslappede gåture, hvor din hund kan passere andre hunde uden at
             reagerer aggressivt eller ængsteligt, så er dette hold det rette for jer!

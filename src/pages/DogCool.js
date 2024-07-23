@@ -46,7 +46,7 @@ const CoolBenefits = [
 const DogCool = () => (
   <Page>
     <MetaDogCool />
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Helt-Cool" />
     </Banner>
     <Background>
@@ -56,7 +56,7 @@ const DogCool = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Helt-Cool kursus i Horsens" showHorizontalRuler />
+          <Title text="Helt-Cool kursus i Nim, nær Horsens" showHorizontalRuler />
           <Text>
             Ønsker du at få en mere afslappet hverdag, med en hund der selv kan finde ro, som kan gå
             pænt i snor uden at hive armen af dig og hilse pænt, uden at hoppe op - så er du kommet
@@ -104,10 +104,6 @@ const DogCool = () => (
           </Text>
           <Text>I løbet af vores 7 uger sammen vil vi komme igennem følgende:</Text>
           <TextList texts={CoolProgram} />
-          {/* <Text>
-            Programmet inkluderer én lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
-            ro i nyt miljø.
-          </Text> */}
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
@@ -128,11 +124,14 @@ const DogCool = () => (
             omkring andre.
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-          <br />
+          <Title color="#872f35" text="Svanes Dyr er flyttet!" />
+            <Title text="Helt-Cool afholdes fremadrettet på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
+            <br />
+            <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k3zd" />
           <br />
-          <Title color="#872f35" text="Næste holdstart er september 2024" />
+          <Title color="#872f35" text="Næste holdstart er November 2024" />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
@@ -141,7 +140,6 @@ const DogCool = () => (
           </Text>
           {/* <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 18. september. Du får hurtigst muligt svar herefter." /> */}
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
-
           <br />
           <br />
           <Title text="Dette siger kursisterne efter deltagelse på Helt-Cool" showHorizontalRuler />

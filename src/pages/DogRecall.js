@@ -48,7 +48,7 @@ const ContinuedRecallProgram = [
 const DogRecall = () => (
   <Page>
     <MetaDogRecall />
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Indkaldskursus" />
     </Banner>
     <Background>
@@ -58,7 +58,7 @@ const DogRecall = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Indkaldskursus i Horsens" showHorizontalRuler />
+          <Title text="Indkaldskursus i Nim, nær Horsens" showHorizontalRuler />
           <Text>
             Ønsker du at give din hund mere frihed på gåturene og være sikker på den kommer første
             gang du kalder, selv ved forstyrrelser, så er du kommet til rette sted!

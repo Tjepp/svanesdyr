@@ -51,7 +51,7 @@ const NailClipBenefits = [
 const DogNailClip = () => (
   <Page>
     <MetaDogNailClip />
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Negleklipkursus" />
     </Banner>
     <Background>
@@ -61,7 +61,7 @@ const DogNailClip = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Negleklipkursus i Horsens" showHorizontalRuler />
+          <Title text="Negleklipkursus i Nim, nær Horsens" showHorizontalRuler />
           <Text>
             Ønsker du at blive fortrolig med at klippe negle på din hund og samtidig gøre det til
             fælles hyggetid, fremfor et skræmmescenarie, så er du kommet til rette sted!

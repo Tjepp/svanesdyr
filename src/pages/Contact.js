@@ -82,11 +82,7 @@ const Contact = () => (
           <Title text="Firma informationer" showHorizontalRuler />
           <FlexRow>
             <Text bold>Firmaadresse:</Text>
-            <Text whiteSpace> 8740 Brædstrup</Text>
-          </FlexRow>
-          <FlexRow>
-            <Text bold>Træningsbane adresse:</Text>
-            <Text whiteSpace> 8700 Horsens</Text>
+            <Text whiteSpace> Horsensvej 31, Nim, 8740 </Text>
           </FlexRow>
           <FlexRow>
             <Text bold>Telefon:</Text>
@@ -97,7 +93,7 @@ const Contact = () => (
             <Text whiteSpace> info@svanesdyr.dk</Text>
           </FlexRow>
           <FlexRow>
-            <Text bold>Kontortid</Text>
+            <Text bold>Kontortid:</Text>
             <Text whiteSpace> Mandage og torsdage</Text>
           </FlexRow>
           <FlexRow>

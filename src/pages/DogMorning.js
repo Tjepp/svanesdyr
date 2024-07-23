@@ -62,7 +62,7 @@ const MonaViews = [
 const DogMorning = () => (
   <Page>
     <MetaDogMorning />
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Formiddagshold" />
     </Banner>
     <Background>
@@ -72,7 +72,7 @@ const DogMorning = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Formiddagshold i Horsens" showHorizontalRuler />
+          <Title text="Formiddagshold i Nim, nær Horsens" showHorizontalRuler />
           <Text>
             Svanes Dyr byder velkommen til Hundeinstruktør Mona Lindhardt, som vil udbyde Hoopers og Rally-Lydighed i Horsens.
           </Text>

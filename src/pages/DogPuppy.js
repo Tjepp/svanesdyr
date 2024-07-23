@@ -58,7 +58,7 @@ const DogPuppy = () => {
   return (
     <Page>
       <MetaDogPuppy />
-      <Banner text="Hundehold i Horsens">
+      <Banner text="Hundehold i Nim, nær Horsens">
         <BreadCrumps currentPage="Hvalpehold" />
       </Banner>
       <Background>
@@ -68,7 +68,7 @@ const DogPuppy = () => {
             <DogMenu />
           </Column>
           <Column widthPercentage="75%">
-            <Title text="Hvalpehold i Horsens" showHorizontalRuler />
+            <Title text="Hvalpehold i Nim, nær Horsens" showHorizontalRuler />
             <Text>
               Ønsker du at skabe et stærkt tillidsfuld bånd med din hvalp, gennem masser af
               succesoplevelser, så er du kommet til rette sted!
@@ -123,11 +123,14 @@ const DogPuppy = () => {
               med dig!
             </Text>
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+            <Title color="#872f35" text="Svanes Dyr er flyttet!" />
+            <Title text="Hvalpeholdet afholdes fremadrettet på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
+            <br />
             <br />
             <Title text="Kommende hold:" />
             <EasyMeList src="https://ezme.io/x/x1S/kCl5" />
             <br />
-            <Title color="#872f35" text="Næste holdstart er september 2024" />
+            <Title color="#872f35" text="Næste holdstart er November 2024" />
             {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
             <Text>
               Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
@@ -145,7 +148,7 @@ const DogPuppy = () => {
             <br />
             <DogPuppyTestimonials></DogPuppyTestimonials>
             <br />
-            <Title text="Stemningsbilleder fra hvalpehold Horsens" showHorizontalRuler />
+            <Title text="Stemningsbilleder fra hvalpeholdene" showHorizontalRuler />
             <Row>
               <Column>
                 <Image src={PuppyOne} />

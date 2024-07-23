@@ -53,7 +53,7 @@ const CoolEnvironmentBenefits = [
 const DogCoolEnvironment = () => (
   <Page>
     <MetaDogCoolEnvironment />
-    <Banner text="Hundehold i Horsens">
+    <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="MiljøHold" />
     </Banner>
     <Background>
@@ -108,7 +108,7 @@ const DogCoolEnvironment = () => (
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k3zy" />
           <br />
-          <Title color="#872f35" text="Næste holdstart er september 2024" />
+          <Title color="#872f35" text="Næste holdstart er November 2024" />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver

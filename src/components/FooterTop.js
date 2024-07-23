@@ -23,7 +23,7 @@ const ShortAboutMe = () => (
     <div>
       Svanes Dyr drives af Sabrina Svane, som er certificeret Dyreadfærdskonsulent (BSc ABT). Jeg
       specialiserer mig i løsning af problemadfærd hos henholdsvis hunde og katte og kommer gerne på
-      hjemmebesøg. Jeg anvender belønningsbaserede træningsmetoder og tilbyder holdtræning i Horsens
+      hjemmebesøg. Jeg anvender belønningsbaserede træningsmetoder og tilbyder holdtræning i Nim nær Horsens
       for familiehunde.
     </div>
   </ColumnContainer>
@@ -46,12 +46,7 @@ const ContactMe = () => (
       <IconContainer>
         <FontAwesomeIcon icon="map-marker-alt" color="#379683" size="1x" />
         <SubTitle>Adresse: </SubTitle>
-        <div>8740 Brædstrup</div>
-      </IconContainer>
-      <IconContainer>
-        <FontAwesomeIcon icon="map-marker-alt" color="#379683" size="1x" />
-        <SubTitle>Træningsbane: </SubTitle>
-        <div>8700 Horsens</div>
+        <div>Horsensvej 31, Nim, 8740 Brædstrup</div>
       </IconContainer>
       <IconContainer>
         <FontAwesomeIcon icon="info-circle" color="#379683" size="1x" />

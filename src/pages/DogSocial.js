@@ -54,7 +54,7 @@ const DogSocial = () => {
   return (
     <Page>
       <MetaDogSocial />
-      <Banner text="Hundehold i Horsens">
+      <Banner text="Hundehold i Nim, nær Horsens">
         <BreadCrumps currentPage="Socialiseringshold" />
       </Banner>
       <Background>
@@ -64,7 +64,7 @@ const DogSocial = () => {
             <DogMenu />
           </Column>
           <Column widthPercentage="75%">
-            <Title text="Socialiseringshold i Horsens" showHorizontalRuler />
+            <Title text="Socialiseringshold i Nim, nær Horsens" showHorizontalRuler />
             <Text>
               Ønsker du at skabe en tillidsfuld, velsocialiseret hund der har masser af gåpåmod og
               ro i mødet med nye snuder, så er du kommet til rette sted!
@@ -117,11 +117,14 @@ const DogSocial = () => {
               andre snuder!
             </Text>
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
+            <Title color="#872f35" text="Svanes Dyr er flyttet!" />
+            <Title text="Holdet afholdes fremadrettet på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
+            <br />
             <br />
             <Title text="Kommende hold:" />
             <EasyMeList src="https://ezme.io/x/x1S/k3z0" />
             <br />
-            <Title color="#872f35" text="Næste holdstart er september 2024" />
+            <Title color="#872f35" text="Næste holdstart er November 2024" />
             {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
             <Text>
               Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver

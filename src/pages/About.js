@@ -48,7 +48,7 @@ const About = () => (
             <TextContainer>
               <Text>
                 Jeg hedder Sabrina Svane og er certificeret Dyreadfærdskonsulent (BSc ABT) ved
-                Center for Dyreterapi i Hirtshals. Jeg bor i den skønne by Brædstrup, sammen med min
+                Center for Dyreterapi i Hirtshals. Jeg bor i Nim nær Horsens, sammen med min
                 mand Thor, vores dejlige huskat Lily, samt seniorhunden Gary, der er en Welsh Corgi Pembroke
                 og speedy-hunden Zoey der er en Volpino Italiano.
               </Text>
