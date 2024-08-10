@@ -41,7 +41,7 @@ const Spotliste = [
   'Det inkluderer 60 minutters undervisning og derefter 30 minutters hygge, snak og socialisering',
   'Der serveres både lunt og koldt at drikke, som kakao, kaffe, te og juice som er med i prisen',
   'Kurserne er for alle hunde i alle aldre',
-  'Alle Spot-kurser afholdes af Dyreadfærdskonsulent Sabrina Svane',
+  'Alle sommerkurser afholdes af Dyreadfærdskonsulent Sabrina Svane',
 ];
 
 // const Flerdagesliste = [
@@ -87,7 +87,7 @@ const DogSummer = () => (
           <TextListMark texts={Flerdagesliste} />
           </TextCenter> */}
           <TextCenter>
-            Alle sommerens kurser foregår på træningspladsen Sorthøjvej 40, 8700 Horsens.
+            Alle sommerens kurser foregår på træningspladsen Horsensvej 31, Nim, 8740 Brædstrup.
           </TextCenter>
           <br />
           <TitleCenter text="Er sommerkurset du vil med på fyldt??" />
@@ -110,7 +110,7 @@ const DogSummer = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <LPHeadlineWalk text="Udbud af sommerens SPOT-kurser" />
+          <LPHeadlineWalk text="Udbud af sommerens sommerkurser" />
         </Column>
       </Row>
 

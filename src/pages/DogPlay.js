@@ -141,7 +141,7 @@ const DogPlay = () => {
             <EasyMeList src="https://ezme.io/x/x1S/knhZ" />
 
             <br />
-            <Title text="Billeder fra legestuerne i Horsens" showHorizontalRuler />
+            <Title text="Stemningsbilleder fra legestuerne" showHorizontalRuler />
             <Row>
               <Column>
                 <Image src={PlayOne} />
