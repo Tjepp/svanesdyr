@@ -69,6 +69,8 @@ const Lecture = () => (
             <b>Kørsel</b>
             <br />
             Tillæg efter statens takster.
+            <br />
+            Evt. Broafgift tillægges også.
           </Text>
         </Column>
       </Row>
