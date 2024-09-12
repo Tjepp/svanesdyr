@@ -70,7 +70,7 @@ const OnlineWebinarCool = () => (
 
       <ButtonOnline
         text="Jeg er klar! Tag mig til tilmeldingssiden"
-        onClick={() => window.open('https://ezme.io/c/x1S/W37O', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/CO79', '_blank')}
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -157,7 +157,7 @@ const OnlineWebinarCool = () => (
 
       <ButtonOnline
         text="Jeg er klar på at få mere ro på gåturen!"
-        onClick={() => window.open('https://ezme.io/c/x1S/W37O', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/CO79', '_blank')}
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -207,7 +207,7 @@ const OnlineWebinarCool = () => (
 
       <ButtonOnline
         text="Ja tak! Jeg skal med!"
-        onClick={() => window.open('https://ezme.io/c/x1S/W37O', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/CO79', '_blank')}
       ></ButtonOnline>
       <br />
       <br />
