@@ -137,6 +137,8 @@ const DogPlay = () => {
             <Text>i at få en hyggelig stund i positivt samspil med andre hunde!</Text>
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
             <br />
+            <Title text="Grundet flytning er de månedlige legestuer midlertidigt på pause. Forventes opstartet igen i slutningen af oktober." />
+            <br />
             <Title text="Kommende legestuer:" />
             <EasyMeList src="https://ezme.io/x/x1S/knhZ" />
 
