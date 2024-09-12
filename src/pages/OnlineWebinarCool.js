@@ -147,10 +147,10 @@ const OnlineWebinarCool = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TitleCenter text="Lige nu kan du komme med til en introduktionspris på " />
+          <TitleCenter text="Din investering i at få mindre stressfyldte og mere afslappede gåture med din hund:" />
           <TitleCenter color="#008037" text="Kun 249 kr. inkl. moms" />
           <TextCenter>
-            En billig investering i at få mindre stressfyldte og mere afslappede gåture med din hund.
+            Hvilket er billigere end at købe en bog om adfærd, som kan give en overflod af information uden at du får konkrete værktøjer til netop gåturene og mødet med andre hunde.
           </TextCenter>
         </Column>
       </Row>
@@ -173,7 +173,7 @@ const OnlineWebinarCool = () => (
           <LPHeadlineWebinar text="Sådan foregår webinaret" />
           <br />
           <br />
-          <TitleCenter text="LIVE webinar i lukket facebookgruppe og 30 dages adgang" />
+          <TitleCenter text="LIVE webinar i lukket facebookgruppe og adgang ÅRET UD!" />
           <TextCenter>
             Straks efter køb vil du få tilsendt en mail med invitation til en lukket facebookgruppe.<br />
             Herinde bliver du, sammen med de andre deltagere, lukket ind i gruppen senest dagen før webinaret afholdes.<br />
@@ -182,21 +182,21 @@ const OnlineWebinarCool = () => (
             Begge dele kan du downloade og printe ud efter ønske. Disse slides har du til evigt eje efter download.
           </TextCenter>
           <TextCenter bold>
-            Webinaret afholdes onsdag den 24. maj 2023 fra kl. 19.00 - 21.00.
+            Webinaret afholdes tirsdag den 15. oktober 2024 fra kl. 19.00 - 21.30.
           </TextCenter>
           <TextCenter>
             Jeg vil gå LIVE inde i gruppen til starttidspunktet, hvor du får en notifikation fra Facebook om at nu er vi i gang.<br />
-            Der er afsat 1,5 time til gennemgang af aftenens materiale, hvor der vil være billeder og videoer undervejs så du får et godt indblik i metoderne du skal hjem og praktisere.<br />
+            Der er afsat 2 time3 til gennemgang af aftenens materiale, hvor der vil være billeder og videoer undervejs så du får et godt indblik i metoderne du skal praktisere hjemme.<br />
             Undervejs vil der være 10 minutters pause til at hente forfriskninger.<br />
             Vi slutter aftenen af med ½ time afsat til spørgsmål, som du kan stille direkte i kommentarsporet.
           </TextCenter>
           <TextCenter>
             Kan du ikke være med på selve aftenen?<br />
             Fortvivl ikke!<br />
-            Webinaret optages og bliver liggende inde i facebookgruppen i 30 dage.
+            Webinaret optages og bliver liggende inde i facebookgruppen ÅRET UD!
           </TextCenter>
           <TextCenter bold>
-            Du har adgang til frit at se eller gense webinaret frem til og med den 24. juni 2023.
+            Du har adgang til frit at se eller gense webinaret frem til og med den 31. december 2024.
           </TextCenter>
           <TextCenter>
             Facebookgruppen vil efter denne dato blive slettet og adgang til webinaret forsvinder.
