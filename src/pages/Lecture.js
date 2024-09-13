@@ -14,11 +14,40 @@ import {
   BreadCrumps,
   Row,
   StyledLink,
-  EasyMeList,
+  // EasyMeList,
+  FlexedRow,
+  TitleCenter,
+  TextContainer,
+  TextListArrow,
+  TextListMark,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { lectureFearAndAgression, lectureDogLanguage, lectureCalmDownFido } from '../assets';
+import { lectureDogLanguage, OnlinePlayFull, OnlineCoverCool } from '../assets';
 import '../components/table/TableCss.css';
+
+const HundeSprog = [
+  'Hundens signaler; hvordan kommunikerer hunden sine følelser',
+  'Stress og dens indflydelse på hundens adfærd',
+  'Hvordan du aflæser på din hund om den er stresset',
+  'Hvordan du bedst kan hjælpe hvis den stresser',
+  'Hundens personlighed og tolerance, og hvilken indflydelse det har på adfærden',
+];
+
+const Play = [
+  'Hvordan hunden kommunikerer om den er tryg eller utryg',
+  'Hvad det betyder hvis hunden begynder at humpe en legekammerat',
+  'De 4 legeregler du skal spotte, som tegn på den gode hundeleg',
+  'Hvordan du kan lave positive introduktionsmøder mellem hundene',
+  'og ikke mindst hvordan du bruger Samtykketesten - dit redskab til at kontrollere legen',
+];
+
+const Calm = [
+  'aflæser din hunds tegn på stress, så du lettere kan se hvornår den føler sig presset',
+  'undgår at din hund kortslutter, og fortsat kan lytte efter hvad du siger',
+  'sætter din hund op til succes, så i kan få flere og flere dejlige gåture sammen',
+  'tackler mødet med andre hunde i ro og mag',
+  'og ikke mindst giver jeg dig 3 simple metoder til at indlære ro i mødet med andre hunde',
+];
 
 const Lecture = () => (
   <Page>
@@ -74,56 +103,87 @@ const Lecture = () => (
           </Text>
         </Column>
       </Row>
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <Title text="Kommende foredrag og workshops om hundeadfærd" showHorizontalRuler />
           <br />
-          {/* <TitleColor text="Foredrag for 2022 er under planlægning" /> */}
           <EasyMeList src="https://ezme.io/x/x1S/k3Id" />
           <br />
         </Column>
-      </Row>
+      </Row> */}
       <Row>
         <Title text="Udbud af foredrag om hundeadfærd" showHorizontalRuler />
       </Row>
-      <Row marginBottom="25px">
-        <Column>
-          <Image src={lectureDogLanguage} />
-          <TitleColor text="Hundens sprog - hvad fortæller den dig?" smallTitle />
-          <Text>
-            <b>Kursus på min. 3 timer</b>
-            <br />
-            Foredraget indeholder bl.a. hundens udvikling fra deres forfader ulven og frem til i
-            dag, samt masser af billeder og videoer, som giver dig et godt indblik i de forskellige
-            signaler. Du lære at aflæse disse signaler og undgå stressede situationer, således angst
-            eller aggression kan forebygges.
-          </Text>
-        </Column>
-        <Column>
-          <Image src={lectureFearAndAgression} />
-          <TitleColor text="Angst og aggression: Forebyggelse og behandling" smallTitle />
-          <Text>
-            <b>Kursus på min. 5 timer</b>
-            <br />
-            Reagerer din hund på andre hunde på gåturen? Snerrer den af gæsterne? Er den skrækslagen
-            for dyrlægen? Foredraget omhandler bl.a. hundens indlæringsevner, hundens sprog, samt
-            stress og dens negative indflydelse. Du får indsigt i, hvad der spiller en rolle for din
-            hund og hvordan du kan ændre det.
-          </Text>
-        </Column>
-        <Column>
-          <Image src={lectureCalmDownFido} />
-          <TitleColor text="Slap af Fido! - få ro på hverdagen" smallTitle />
-          <Text>
-            <b>Kursus på min. 5 timer</b>
-            <br />
-            Føler du din hund er lidt af et damp barn? Bliver den hyper når der sker noget, er svær
-            at få ro på hjemme? Foredraget omhandler bl.a. hundens indlæringsevner, stress og dens
-            negative indflydelse, samt hvilke faktorer i hverdagen, der spiller en rolle for din
-            stressede hund.
-          </Text>
+      <Row>
+        <Column widthPercentage="100%">
+        <TitleCenter text="Hundens Sprog - Adfærd, Stress og Håndtering" />
+          <FlexedRow>
+            <Image src={lectureDogLanguage} width="300px" height="200px" />
+            <TextContainer>
+              <Text bold>3 timers foredrag inkl. to pauser af 10 minutter og tid til spørgsmål</Text>
+              <Text>
+                  Ønsker du at kunne aflæse din hund, så du ved hvornår den føler sig tryg eller utryg?<br />
+                  Vil du vide hvordan du kan hjælpe din hund hvis den viser tegn på stress?<br />
+                  Så book tre inspirationsrige timer i selskab med Dyreadfærdskonsulent Sabrina Svane, der vil give dig redskaberne til at aflæse positive og negative situationer 
+                  - og fortælle dig hvordan du håndterer en stressfuld situation, så du kan hjælpe din hund på bedste vis.<br />
+                  Foredraget inkluderer gennemgang af:
+                  <TextListArrow texts={HundeSprog} />
+                  Du vil gå hjem med en bedre forståelse for din hund og dens adfærd, og ikke mindst en grundig viden om hvordan du undgår stressede situationer. 
+                  Sådan en indsigt kan forebygge adfærdsproblemer som angst og aggression.
+                  <br />
+                  <br />
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+
+          <TitleCenter text="Sådan kontrollerer du leg mellem hunde - og giver alle en god oplevelse" />
+          <FlexedRow>
+            <Image src={OnlinePlayFull} width="300px" height="200px" />
+            <TextContainer>
+              <Text bold>2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål</Text>
+              <Text>
+                  Det er en myte, at hundene skal kunne klare sig selv, når det kommer til at sætte grænser overfor andre hunde! 
+                  Hvis du overlader hundene til sig selv, så opstår der meget ofte en situation, hvor grænserne ikke respekteres. 
+                  Der bliver simpelthen ikke lyttet. Når din hund ikke føler sig lyttet til, vil den begynde at råbe højere og adfærden eskalerer. 
+                  I sidste ende kan du stå med en hund, der udviser angst eller aggression pga. dårlige oplevelser med andre hunde.
+              </Text>
+              <Text>
+                  At overlade hundene til selv at finde ud af det, svarer til at overlade børnene i skolegården til sig selv, hvilket enhver forælder vil finde uacceptabelt. 
+                  Der skal være en voksen, ansvarlig til stede, som kan afbryde når nok er nok og sørge for, at alle har en god stund sammen.<br />
+                  I dette foredrag får du svaret på:
+                  <TextListArrow texts={Play} />
+                  <br />
+                  <br />
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+
+          <TitleCenter text="Fra Reaktiv til Ro i mødet med andre hunde - opskriften til dig der ønsker rolige gåture" />
+          <FlexedRow>
+            <Image src={OnlineCoverCool} width="400px" height="200px" />
+            <TextContainer>
+              <Text bold>2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål</Text>
+              <Text>
+                  Oplever du din hund "kortslutter" på gåtur i mødet med andre hunde og er ikke til at komme i kontakt med?<br />
+                  Bliver gåturen sammen hurtigt mere frustrerende end givende?<br />
+                  Ville du ønske du havde konkrete redskaber til at få din hund til at finde ro i mødet med andre?<br />
+                  Så giver Dyreadfærdskonsulent Sabrina Svane dig svaret i dette foredrag! 
+              </Text>
+              <Text>
+                  Jeg har flere gange årligt afholder mit populære Helt-Cool forløb som har skabt succes for hundredvis af hunde og deres ejere, med at få mere ro på gåturen.
+                  Uanset om det har været den overivrige, hilseglade vovse eller den sensitive, udadreagerede snude, så har jeg fulgt en fast opskrift på at skabe et solidt fundament af kontakt og ro i mødet med andre. 
+                  Det er denne opskrift og min ekspertviden om adfærd jeg ønsker at give dig med i dette foredrag.<br />
+                  Du vil lære hvordan du:
+                  <TextListMark texts={Calm} />
+                  <br />
+                  <br />
+              </Text>
+            </TextContainer>
+          </FlexedRow>
+
         </Column>
       </Row>
+
     </Background>
   </Page>
 );
