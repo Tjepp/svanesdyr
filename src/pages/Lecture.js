@@ -94,6 +94,7 @@ const Lecture = () => (
             <b> 1.750,- kr/time</b>
           </Text>
           <Text>Inklusiv forberedelsestillæg og udprint.</Text>
+          <Text>Alle foredrag tilbydes også som webinar.</Text>
           <Text>
             <b>Kørsel</b>
             <br />
