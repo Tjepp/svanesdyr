@@ -22,7 +22,7 @@ import {
   TextListMark,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { lectureDogLanguage, OnlinePlayFull, dogOne } from '../assets';
+import { lectureDogLanguage, PlayFive, dogOne } from '../assets';
 import '../components/table/TableCss.css';
 
 const HundeSprog = [
@@ -138,7 +138,7 @@ const Lecture = () => (
 
           <TitleCenter text="Sådan kontrollerer du leg mellem hunde - og giver alle en god oplevelse" />
           <FlexedRow>
-            <Image src={OnlinePlayFull} width="300px" height="200px" />
+            <Image src={PlayFive} width="300px" height="200px" />
             <TextContainer>
               <Text bold>2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål</Text>
               <Text>
