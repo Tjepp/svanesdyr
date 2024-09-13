@@ -22,7 +22,7 @@ import {
   TextListMark,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { lectureDogLanguage, OnlinePlayFull, OnlineCoverCool } from '../assets';
+import { lectureDogLanguage, OnlinePlayFull, dogOne } from '../assets';
 import '../components/table/TableCss.css';
 
 const HundeSprog = [
@@ -160,17 +160,17 @@ const Lecture = () => (
 
           <TitleCenter text="Fra Reaktiv til Ro i mødet med andre hunde - opskriften til dig der ønsker rolige gåture" />
           <FlexedRow>
-            <Image src={OnlineCoverCool} width="400px" height="200px" />
+            <Image src={dogOne} width="300px" height="200px" />
             <TextContainer>
               <Text bold>2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål</Text>
               <Text>
                   Oplever du din hund "kortslutter" på gåtur i mødet med andre hunde og er ikke til at komme i kontakt med?<br />
                   Bliver gåturen sammen hurtigt mere frustrerende end givende?<br />
                   Ville du ønske du havde konkrete redskaber til at få din hund til at finde ro i mødet med andre?<br />
-                  Så giver Dyreadfærdskonsulent Sabrina Svane dig svaret i dette foredrag! 
+                  Så giver Dyreadfærdskonsulent Sabrina Svane dig opskriften til den rolige gåtur i dette foredrag! 
               </Text>
               <Text>
-                  Jeg har flere gange årligt afholder mit populære Helt-Cool forløb som har skabt succes for hundredvis af hunde og deres ejere, med at få mere ro på gåturen.
+                  Jeg afholder flere gange årligt mit populære Helt-Cool forløb som har skabt succes for hundredvis af hunde og deres ejere, med at få mere ro på gåturen.
                   Uanset om det har været den overivrige, hilseglade vovse eller den sensitive, udadreagerede snude, så har jeg fulgt en fast opskrift på at skabe et solidt fundament af kontakt og ro i mødet med andre. 
                   Det er denne opskrift og min ekspertviden om adfærd jeg ønsker at give dig med i dette foredrag.<br />
                   Du vil lære hvordan du:
