@@ -49,7 +49,7 @@ const OnlineWebinarThankCool = () => (
 
       <ButtonOnline
         text="Jeg er SÅ klar! Før mig straks ind til den lukkede facebookgruppe"
-        onClick={() => window.open('https://www.facebook.com/groups/webinarreaktivtilro', '_blank')}
+        onClick={() => window.open('https://www.facebook.com/groups/frareaktivtilro2024', '_blank')}
       ></ButtonOnline>
       <br />
       <br />
