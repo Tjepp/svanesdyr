@@ -19,14 +19,14 @@ const Snackshop = () => (
         <Column widthPercentage="100%">
           <Image src={SnackshopCover} />
           <br />
-          <TitleCenter text="Snackshoppen åbner torsdag den 17. oktober 2024" />
+          <TitleCenter text="Snackshoppen åbner i slutningen af 2024 - nærmere dato annonceres her på siden" />
           <TitleCenter text="På adressen Horsensvej 31, Nim, 8740 Brædstrup" />
         </Column>
       </Row>
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter color="#872f35" text="Vi ses til oktober!" />
+          <TitleCenter color="#872f35" text="Vi ses!" />
         </Column>
       </Row>
 
