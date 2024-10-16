@@ -34,7 +34,8 @@ const OnlineWebinarThankCool = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en mail med bekræftelse på dit køb og adgang til den lukkede facebookgruppe hvor webinaret afholdes" />
+          {/* <TitleCenter text="Du får lige straks en mail med bekræftelse på dit køb og adgang til den lukkede facebookgruppe hvor webinaret afholdes" /> */}
+          <TitleCenter text="Du får lige straks en mail med bekræftelse på dit køb og adgang til den lukkede facebookgruppe hvor webinaret blev afholdt" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -43,7 +44,7 @@ const OnlineWebinarThankCool = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter color="#872f35" text="Vi ses inden længe!" />
+          <TitleCenter color="#872f35" text="Vi ses online!" />
         </Column>
       </Row>
 

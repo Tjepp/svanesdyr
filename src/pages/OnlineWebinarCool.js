@@ -62,8 +62,11 @@ const OnlineWebinarCool = () => (
           <TextCenter>
             Ville du ønske du havde konkrete redskaber til at få din hund til at finde ro i mødet med andre?
           </TextCenter>
-          <TextCenter>
+          {/* <TextCenter>
             Få svar på hvad du konkret kan gøre, når Dyreadfærdskonsulent Sabrina Svane går LIVE og giver dig opskriften på at skabe ro for din hund i mødet med andre hunde.
+          </TextCenter> */}
+          <TextCenter>
+            Få svar på hvad du konkret kan gøre, når Dyreadfærdskonsulent Sabrina Svane giver dig opskriften på at skabe ro for din hund i mødet med andre hunde.
           </TextCenter>
         </Column>
       </Row>
@@ -113,9 +116,9 @@ const OnlineWebinarCool = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Udover alt dette, kan du forvente at få helt konkrete værktøjer med fra webinaret:" />
           <TextListMark texts={LPstep8} />
-          <TextCenter>
+          {/* <TextCenter>
             og ikke mindst mulighed for at få svar på nogle af dine brændende spørgsmål, da der afsættes ½ time til spørgsmål.
-          </TextCenter>
+          </TextCenter> */}
         </Column>
       </Row>
 
@@ -170,21 +173,28 @@ const OnlineWebinarCool = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <LPHeadlineWebinar text="Sådan foregår webinaret" />
+          {/* <LPHeadlineWebinar text="Sådan foregår webinaret" /> */}
+          <LPHeadlineWebinar text="Sådan får du adgang til webinaret" />
           <br />
           <br />
-          <TitleCenter text="LIVE webinar i lukket facebookgruppe og adgang ÅRET UD!" />
+          {/* <TitleCenter text="LIVE webinar i lukket facebookgruppe med adgang ÅRET UD!" /> */}
+          <TitleCenter text="Webinaret ligger optaget i en lukket facebookgruppe med adgang ÅRET UD!" />
           <TextCenter>
             Straks efter køb vil du få tilsendt en mail med invitation til en lukket facebookgruppe.<br />
-            Herinde bliver du, sammen med de andre deltagere, lukket ind i gruppen senest dagen før webinaret afholdes.<br />
-            Inde i gruppen vil du finde slides til webinarets fremvisning. 
-            Der vil både være slides med mulighed for at tage notater på undervejs i webinaret, og slides i fuld format.
-            Begge dele kan du downloade og printe ud efter ønske. Disse slides har du til evigt eje efter download.
+            {/* Herinde bliver du, sammen med de andre deltagere, lukket ind i gruppen senest dagen før webinaret afholdes.<br /> */}
+            Inde i gruppen vil du finde slides fra webinarets fremvisning, som du kan downloade og printe ud efter ønske. 
+            Disse slides har du til evigt eje efter download.
+            {/* Der vil både være slides med mulighed for at tage notater på undervejs i webinaret, og slides i fuld format.
+            Begge dele kan du downloade og printe ud efter ønske. */}
           </TextCenter>
           <TextCenter bold>
-            Webinaret afholdes tirsdag den 15. oktober 2024 fra kl. 19.00 - 21.30.
+            Webinaret blev afholdt tirsdag den 15. oktober 2024 fra kl. 19.00 - 21.30.
           </TextCenter>
           <TextCenter>
+            Jeg var LIVE på denne dato, derfor vil du i webinarets forløb også opleve at jeg svarer på spørgsmål fra deltagerne på dagen.<br />
+            Du får derfor ekstra fif og gode råd med i mine svar på spørgsmålene.
+          </TextCenter>
+          {/* <TextCenter>
             Jeg vil gå LIVE inde i gruppen til starttidspunktet, hvor du får en notifikation fra Facebook om at nu er vi i gang.<br />
             Der er afsat 2 time3 til gennemgang af aftenens materiale, hvor der vil være billeder og videoer undervejs så du får et godt indblik i metoderne du skal praktisere hjemme.<br />
             Undervejs vil der være 10 minutters pause til at hente forfriskninger.<br />
@@ -197,6 +207,9 @@ const OnlineWebinarCool = () => (
           </TextCenter>
           <TextCenter bold>
             Du har adgang til frit at se eller gense webinaret frem til og med den 31. december 2024.
+          </TextCenter> */}
+          <TextCenter bold>
+            Du har adgang til frit at se webinaret så mange gange du har lyst, frem til og med den 31. december 2024.
           </TextCenter>
           <TextCenter>
             Facebookgruppen vil efter denne dato blive slettet og adgang til webinaret forsvinder.
@@ -206,7 +219,8 @@ const OnlineWebinarCool = () => (
       <br />
 
       <ButtonOnline
-        text="Ja tak! Jeg skal med!"
+        // text="Ja tak! Jeg skal med!"
+        text="Ja tak! Jeg skal se webinaret!"
         onClick={() => window.open('https://ezme.io/c/x1S/CO79', '_blank')}
       ></ButtonOnline>
       <br />
