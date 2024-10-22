@@ -42,6 +42,7 @@ import {
   // DogMorning,
   DogCircle,
   DogStylist,
+  DogSpot,
   DogSummer,
   // DogCoolFriend,
   // DogNoseWork,
@@ -115,6 +116,7 @@ const App = () => {
         <Route path="/hundehold/hvalpehold/tak" element={<DogPuppyMarch />} />
         {/* <Route path="/hundehold/indkald" element={<DogRecall />} /> */}
         <Route path="/hundehold/socialisering" element={<DogSocial />} />
+        <Route path="/spotkurser" element={<DogSpot />} />
         <Route path="/hundehold/tryghundepleje" element={<DogStylist />} />
         <Route path="/sommerhund" element={<DogSummer />} />
         <Route path="/" exact element={<Home />} />

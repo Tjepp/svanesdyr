@@ -105,6 +105,7 @@ export { default as OnlineCoverCourse } from './OnlineCoverHold.png';
 export { default as OnlineCoverPuppyFive } from './OnlineCoverHvalp5.png';
 export { default as OnlineCoverPuppyCourse } from './OnlineCoverHvalpehold.png';
 export { default as OnlineCoverPuppy } from './OnlineCoverPuppy.png';
+export { default as OnlineCoverSpot } from './OnlineCoverSpot.png';
 export { default as OnlineCoverSummer } from './OnlineCoverSummer.png';
 export { default as OnlinePupOne } from './OnlinePup1.png';
 export { default as OnlinePupTwo } from './OnlinePup2.png';

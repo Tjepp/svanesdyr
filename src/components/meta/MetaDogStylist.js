@@ -23,8 +23,8 @@ const MetaDogStylist = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Tryg Frisørtid m/Hundefrisør Torsten | Horsens | Frivillig Håndtering | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Tryg Frisørtid kursus for hunde i Horsens';
+  'Tryg Frisørtid m/Hundefrisør Torsten | Nim | Frivillig Håndtering | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Tryg Frisørtid kursus for hunde i Nim, nær Horsens';
 const defaultKeywords = `Negleklip hund, klippe negle hund, klip negl hund, håndtering hund, frivillig håndtering, frivillig håndtering hund, hund bange negleklip,
    negleklip hvalp, klippe negle hvalp, klip negl hvalp, håndtering hvalp, frivillig håndtering hvalp, hvalp bange negleklip, hundebad, blower hund, bad hund, 
    frisørklip hund, hundefrisør, frisør hund, pelsklip hund, pels klip hund, pelsklip hvalp, pels klip hvalp, pelspleje hund, pelspleje hvalp,`;

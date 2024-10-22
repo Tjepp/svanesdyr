@@ -23,8 +23,8 @@ const MetaDogSocial = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Socialiseringshold Horsens | Kontrolleret leg | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Socialiseringshold i Horsens';
+  'Socialiseringshold i Nim | Kontrolleret leg | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Socialiseringshold i Nim, nær Horsens';
 const defaultKeywords = `hundehold midtjylland, klikkertræning hvalp, Svanes dyr, positiv hundetræning, 
   hjælp hvalp, hvalpetræning, socialisering hvalp, miljøtræning hvalp, tillid hvalp, samarbejde hvalp, kontrolleret leg hvalp`;
 MetaDogSocial.propTypes = {

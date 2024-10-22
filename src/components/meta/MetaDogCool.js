@@ -23,8 +23,8 @@ const MetaDogCool = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Helt-Cool Horsens | Hundelydighed | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Helt-Cool kursus for hunde i Horsens';
+  'Helt-Cool i Nim | Hundelydighed | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Helt-Cool kursus for hunde i Nim, nær Horsens';
 const defaultKeywords = `Hundehold Horsens, Hundetræning Horsens, hund trækker, hund gå pænt, hund hopper op, hund hopper gæster, hund gæster, hund hilse pænt,
   hund lydighed, lydighedshold, hundelydighed, lydighed, cool hund, helt cool hund, helt cool, helt-cool, hund rolig gåtur, hund gåtur,
   selvkontrol hund, impulskontrol hund, doggie zen, belønning hund`;

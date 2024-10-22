@@ -23,8 +23,8 @@ const MetaDogPuppy = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hvalpehold Horsens | Kontrolleret socialisering | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Hvalpehold i Horsens';
+  'Hvalpehold i Nim | Kontrolleret socialisering | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Hvalpehold i Nim, nær Horsens';
 const defaultKeywords = `Hvalpehold Horsens, hvalpetræning Horsens, hvalpehold midtjylland, klikkertræning hvalp, Svanes dyr, positiv hundetræning, 
   hvalpehold, hjælp hvalp, hvalpetræning, indkald hvalp, hvalp trækker, hvalp gå pænt, hvalp hopper op, hvalp hopper gæster, hvalp gæster, hvalp hilse pænt,
   socialisering hvalp, miljøtræning hvalp, tillid hvalp, samarbejde hvalp, kontrolleret leg hvalp, frivillig håndtering, impulskontrol hvalp`;

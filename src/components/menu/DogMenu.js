@@ -5,8 +5,8 @@ import { StyledMenuLinkWithIcon } from '..';
 const DogMenu = () => (
   <MenuContainer>
     <StyledMenuLinkWithIcon link="/hundehold/" text="Praktisk info om hold" />
+    <StyledMenuLinkWithIcon link="/spotkurser" text="Spotkurser 2024" />
     <StyledMenuLinkWithIcon link="/hundehold/legestue" text="Hundelegestue" />
-
     <StyledMenuLinkWithIcon link="/hundehold/hvalpehold" text="Hvalpehold" />
     <StyledMenuLinkWithIcon link="/hundehold/hvalpfortsat" text="Fortsætterhold" />
     <StyledMenuLinkWithIcon link="/hundehold/coolhold" text="Helt-Cool" />

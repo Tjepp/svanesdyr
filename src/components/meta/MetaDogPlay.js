@@ -23,8 +23,8 @@ const MetaDogPlay = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hundelegestue i Horsens | Kontrolleret leg | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Socialiseringshold i Horsens';
+  'Hundelegestue i Nim, nær Horsens | Kontrolleret leg | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Socialiseringshold i Nim, nær Horsens';
 const defaultKeywords = `hundehold midtjylland, Svanes dyr, positiv hundetræning, legestue, hundelegestue, hundelegestue horsens, legestue horsens,
   hjælp hvalp, hvalpetræning, socialisering hvalp, miljøtræning hvalp, tillid hvalp, samarbejde hvalp, kontrolleret leg hvalp, legestue hund horsens, legestue hvalp horsens,`;
 MetaDogPlay.propTypes = {

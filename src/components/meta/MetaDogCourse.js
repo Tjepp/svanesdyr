@@ -23,8 +23,8 @@ const MetaDogCourse = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hundehold Horsens | Hundetræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Hundetræning i Horsens';
+  'Hundehold i Nim | Hundetræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Hundetræning i Nim, nær Horsens';
 const defaultKeywords = `Hundehold Horsens, Hvalpehold Horsens, Hundetræning Horsens, hundetræning Midtjylland, hundehold midtjylland, klikkertræning, Svanes dyr, positiv hundetræning, 
   klikkertræning hund, Sabrina Svane, svane hundetræning, svanes hundetræning, hvalpehold, hjælp hvalp, svane hundehold, svanes hundehold, belønning hund, 
   hvalpetræning, cool hund, helt cool hund, helt cool, helt-cool, indkald hund, indkald hvalp, hund stikker af, unghund, unghundehold, lydighed, lydighedshold,

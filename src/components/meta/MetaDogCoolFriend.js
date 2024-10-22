@@ -23,7 +23,7 @@ const MetaDogCoolFriend = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hjælp til aggressiv hund | Hundehold Horsens | Dyreadfærdskonsulent | Svanes Dyr ';
+  'Hjælp til aggressiv hund | Hundehold i Nim, nær Horsens | Dyreadfærdskonsulent | Svanes Dyr ';
 const defaultDescription = 'Svanes Dyr - Fra Frådig Fido til Venlig Vovse hundehold';
 const defaultKeywords = `hund rolig gåtur, hund gåtur, hund gør andre hunde, hunde gør, hund aggressiv, hund knurrer, hund bange andre hunde,
   hund trækker andre hunde, hund trækker gåtur, hund ikke gø, venlig vovse, negativ reaktion hund, problem hund, problemhund, positiv oplevelse hund,

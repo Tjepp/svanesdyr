@@ -30,6 +30,7 @@ export { default as MetaDogNailClip } from './meta/MetaDogNailClip';
 export { default as MetaDogPlay } from './meta/MetaDogPlay';
 export { default as MetaDogPuppy } from './meta/MetaDogPuppy';
 export { default as MetaDogRecall } from './meta/MetaDogRecall';
+export { default as MetaDogSpot } from './meta/MetaDogSpot';
 export { default as MetaDogStylist } from './meta/MetaDogStylist';
 export { default as MetaDogSummer } from './meta/MetaDogSummer';
 export { default as MetaDogTricks } from './meta/MetaDogTricks';

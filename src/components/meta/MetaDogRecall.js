@@ -24,7 +24,7 @@ const MetaDogRecall = ({ title, description, keywords }) => (
 
 const defaultTitle =
   'Sikkert indkald til din hund | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Indkaldskursus i Horsens';
+const defaultDescription = 'Svanes Dyr - Indkaldskursus i Nim, nær Horsens';
 const defaultKeywords = `Hundehold indkald Horsens, Hundetræning indkald Horsens, klikkertræning, Svanes dyr, positiv hundetræning, sikkert indkald, frihed gåtur, 
   indkald hund, indkald hvalp, hund stikker af, indkaldskursus, indkalder kursus, indkald hundehold, indkald Horsens, indkald forstyrrelser`;
 MetaDogRecall.propTypes = {

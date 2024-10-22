@@ -30,7 +30,7 @@ const LawPrivate = () => (
             <br />
             Svanes Dyr
             <br />
-            Klydevej 15B
+            Horsensvej 31, Nim
             <br />
             8740 Brædstrup
             <br />

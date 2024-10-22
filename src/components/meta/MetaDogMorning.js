@@ -24,7 +24,7 @@ const MetaDogMorning = ({ title, description, keywords }) => (
 
 const defaultTitle =
   'Formiddagshold | Hoopers | Rally-Lydighed | Samarbejde | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Hoopers og Rally i Horsens';
+const defaultDescription = 'Svanes Dyr - Hoopers og Rally i Nim, nær Horsens';
 const defaultKeywords = `Hoopers, hoopers begynder, hoops, hoopers horsens, hoopers mona, rally, rally-lydighed, rally begynder, rally fortsætter, rally-lydighed begynder, rally horsens, rally mona`;
   MetaDogMorning.propTypes = {
   title: PropTypes.string,
