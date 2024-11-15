@@ -12,7 +12,7 @@ import {
   Row,
   ContactForm,
   StyledExternal,
-  // TextList,
+  TextList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -20,13 +20,13 @@ import '../components/table/TableCss.css';
 // const SvanesDyrLocation = { lat: 55.980569, lng: 9.613036 };
 // const SvanesDyrTrainingCourseLocation = { lat: 55.890248, lng: 9.813864 };
 
-// const Colleagues = [
-//   'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
-//   'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
-//   'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
-//   'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
-//   'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
-// ];
+const Colleagues = [
+   'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
+   'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
+   'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
+   'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
+   'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
+ ];
 
 const Contact = () => (
   <Page>
@@ -46,7 +46,7 @@ const Contact = () => (
               Så send mig en mail på:
               <StyledExternal href="mailto:info@svanesdyr.dk"> info@svanesdyr.dk</StyledExternal>
               <br />
-              Jeg svarer indenfor 48 timer.
+              Jeg har kontortid mandage og torsdage og besvarer dine mails i dette tidsrum
             </Text>
           </FlexRow>
           <FlexRow>
@@ -59,15 +59,15 @@ const Contact = () => (
             </Text>
           </FlexRow>
           <br />
-          {/* <Title color="#872f35" text="Grundet travlhed kan jeg desværre ikke tage nye kunder ind!" />
+          <Title color="#872f35" text="Grundet travlhed kan jeg desværre ikke tage nye kunder ind!" />
           <Text>
-            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før januar 2024 igen.
+            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før februar 2025 igen.
           </Text>
           <Text>
             I stedet vil jeg anbefale at tage kontakt til en af mine dygtige kollegaer, som har samme belønningsbaseret tilgang som jeg:
           </Text>
           <TextList texts={Colleagues} />
-          <br /> */}
+          <br />
           <TitleColor text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!" />
           <Text>
             Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.

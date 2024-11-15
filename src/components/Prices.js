@@ -35,6 +35,14 @@ const Prices = () => (
       <br />
       Efter statens takster 3,79 kr/km begge veje.
     </Text>
+    <Text>
+      <b>Afbud</b>
+      <br />
+      Skal meldes senest 24 timer før aftalt tidspunkt!
+      <br />
+      Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.
+      Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
+    </Text>
   </>
 );
 

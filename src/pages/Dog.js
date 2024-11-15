@@ -86,7 +86,14 @@ const Dog = () => (
           <Title color="#872f35" text="Står du med en anden problemstilling end mit speciale, henviser jeg til mine kollegaer!" smallTitle />
           <Text>
             Jeg tilbyder desværre ikke rådgivning og hjemmebesøg til andet end mine specialeområder, så står du med hund der har fx alene-hjemme problemer eller lydangst
-            henviser jeg til mine dygtige, belønningsbaserede kollegaer:
+            henviser jeg til mine dygtige, belønningsbaserede kollegaer.
+          </Text>
+          <Title color="#872f35" text="Grundet travlhed kan jeg desværre ikke tage nye kunder ind!" />
+          <Text>
+            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før februar 2025 igen.
+          </Text>
+          <Text>
+            I stedet vil jeg anbefale at tage kontakt til en af mine dygtige kollegaer, som har samme belønningsbaseret tilgang som jeg:
           </Text>
           <TextList texts={Colleagues} />
           <Text>
