@@ -59,12 +59,12 @@ const Lecture = () => (
       <Row marginTop="25px">
         <Column widthPercentage="65%">
           <Title text="Foredrag med Sabrina Svane" showHorizontalRuler />
-          <Text>
+          {/* <Text>
             Jeg underviser ugentligt mange hundeejere i at blive klogere på deres hunde, ikke blot
             med hvordan de indlærer basal lydighed, men ligesåmeget i at forstå hundens sprog, vide
             hvordan hjernen fungerer på deres firbenede familiemedlem og hvor opmærksom de skal være
             på stress og dens negative følger, så de får hverdagen til at fungere.
-          </Text>
+          </Text> */}
           <Text>
             Min passion er at give ejere en hverdag i harmoni med deres dyr. Alle mine foredrag
             tager udgangspunkt i at give en god sum baggrundsviden, som fx i hvad stress er, hvordan
@@ -73,8 +73,8 @@ const Lecture = () => (
             forebygge eller ændre en uønsket adfærd.
           </Text>
           <Text>
-            Jeg udbyder ofte foredrag i de populære emner omkring angst og aggression, stress og
-            gøende adfærd hos hunde, som du kan læse mere om længere nede på siden. Er du fra en
+            Jeg udbyder ofte foredrag i de populære emner omkring hundens sprog, god leg mellem hunde og
+            reaktioner på andre på gåture, som du kan læse mere om længere nede på siden. Er du fra en
             hundeklub, et dyrlægehus eller er privatperson og ønsker du et andet fokusemne, så tøv
             ikke med at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink> for at høre mere. Jeg tilbyder
