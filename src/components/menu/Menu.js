@@ -56,7 +56,8 @@ const Bar = styled.div`
   display: flex;
   z-index: 9999;
   position: relative;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   max-width: 1200px;
   width: 100%;
@@ -89,8 +90,4 @@ const Img = styled.img`
   margin-top: 5px;
 `;
 
-const CenteredA = styled.a`
-  ${Responsive.media.tablet`
-    align-self: center;
-  `}
-`;
+const CenteredA = styled.a``;

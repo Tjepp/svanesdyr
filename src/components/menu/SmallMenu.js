@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import PropTypes from 'prop-types';
@@ -31,7 +31,7 @@ SmallMenu.propTypes = {
 export default SmallMenu;
 
 const CollapsibleMenu = styled.div`
-  height: ${(props) => (props.showSidebar ? '300px' : '0')};
+  height: ${(props) => (props.showSidebar ? '336px' : '0')};
   width: 100%;
   overflow: hidden;
   transition: all 0.5s ease-out;
