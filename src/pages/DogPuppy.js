@@ -101,7 +101,7 @@ const DogPuppy = () => {
               Tilmelding til en af de månedlige legestuer sker efter aftale med Sabrina.
             </Text>
             <Text>
-              Hver lektion varer 45-50 minutter. Jeg tager udgangspunkt i din hvalp og dens behov,
+              Første lektion varer 60 minutter. Derefter varer hver lektion 45 minutter. Jeg tager udgangspunkt i din hvalp og dens behov,
               så forvent at du til tider kan opleve at blive afsluttet tidligere end de andre
               hvalpe.
             </Text>
@@ -123,9 +123,6 @@ const DogPuppy = () => {
               med dig!
             </Text>
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-            <Title color="#872f35" text="Svanes Dyr er flyttet!" />
-            <Title text="Hvalpeholdet afholdes fremadrettet på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
-            <br />
             <br />
             <Title text="Kommende hold:" />
             <EasyMeList src="https://ezme.io/x/x1S/kCl5" />

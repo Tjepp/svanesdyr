@@ -95,9 +95,6 @@ const DogEmpower = () => (
           <TitleColor text="Din investering: 1195 kr." />
           <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-          <Title color="#872f35" text="Svanes Dyr er flyttet!" />
-            <Title text="Holdet afholdes fremadrettet på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
-            <br />
           <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/WXZW" />

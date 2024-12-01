@@ -177,9 +177,6 @@ const DogStylist = () => (
             Bemærk betaling er bindende og beløb refunderes ikke. Du kan vælge at betale i 3 rater
             over 3 måneder.
           </Text>
-          <Title color="#872f35" text="Svanes Dyr er flyttet!" />
-            <Title text="Tryg Frisørtid afholdes fremadrettet på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
-            <br />
           <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k37A" />

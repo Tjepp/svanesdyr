@@ -89,15 +89,12 @@ const DogCoolContinued = () => (
           <br />
 
           <Title text="Holdstart for Fortsat Helt-Cool" showHorizontalRuler />
-          <TitleColor text="Din investering: 1195 kr." />
+          <TitleColor text="Din investering: 1095 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture, med en hund der kan finde ro og holde kontakt,
             selv nær andre hunde.
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-          <Title color="#872f35" text="Svanes Dyr er flyttet!" />
-            <Title text="Fortsætterholdet afholdes fremadrettet på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
-            <br />
           <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/LXeP" />
