@@ -18,7 +18,7 @@ import {
 import Responsive from '../components/layout/Responsive';
 import {
   OnlineCoverSpot,
-  RecallOne,
+  // RecallOne,
   CoolThree,
   // NailClipSix,
   PuppySix,
@@ -92,7 +92,7 @@ const DogSpot = () => (
       </Row>
 
       {/* INDKALD */}
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Indkald for begyndere" />
           <FlexedRow>
@@ -107,13 +107,6 @@ const DogSpot = () => (
                 Vi vil gennemgå lette og sjove lege, som får din hund til at synes at indkald er en
                 FEST.
               </Text>
-              {/* <Text>
-                <b>Indkald Øvet</b>
-                <br />
-                Føler du din hund kommer 9/10 gange? Men nogle gange ignorerer dig når du kalder? På
-                øvet gennemgår vi forskellige forstyrrelseslege, som lærer din hund, at selvom der
-                er spændende ting at give sig til, så er det stadig FEDT at komme når du kalder!
-              </Text> */}
               <Text>
                 <b>Deltagelse pr. snude: 190,- kr.</b>
                 <br />
@@ -126,37 +119,7 @@ const DogSpot = () => (
           <Text bold>Tilmelding til Indkaldskursus:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/CUEH" />
         </Column>
-      </Row>
-
-      {/* GÅTURE */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Rolige gåture" />
-          <FlexedRow>
-            <Image src={CoolThree} width="300px" height="200px" />
-            <TextContainer>
-              <Text>
-                <b>Med fokus på gå-pænt-teknikker og selvkontrol</b>
-                <br />
-                Til dig der ønsker at få mere afslappede gåture, med en hund der kan finde ro og gå
-                pænt i snor uden at hive armen af dig. Holdet henvender sig til alle hunde i alle
-                aldre, som har tendens til at stresse op på en gåtur. Du får redskaberne til at
-                skabe en kontaktsøgende og rolig hund, gennem forskellige øvelser, der også vil
-                styrke jeres fælles samarbejde.
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 190,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Rolige Gåture:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/CU9F" />
-        </Column>
-      </Row>
+      </Row> */}
 
       {/* HILSE PÆNT */}
       <Row>
@@ -186,6 +149,36 @@ const DogSpot = () => (
           <br />
           <Text bold>Tilmelding til Hilse pænt:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/CU9P" />
+        </Column>
+      </Row>
+
+            {/* GÅTURE */}
+            <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="Rolige gåture" />
+          <FlexedRow>
+            <Image src={CoolThree} width="300px" height="200px" />
+            <TextContainer>
+              <Text>
+                <b>Med fokus på gå-pænt-teknikker og selvkontrol</b>
+                <br />
+                Til dig der ønsker at få mere afslappede gåture, med en hund der kan finde ro og gå
+                pænt i snor uden at hive armen af dig. Holdet henvender sig til alle hunde i alle
+                aldre, som har tendens til at stresse op på en gåtur. Du får redskaberne til at
+                skabe en kontaktsøgende og rolig hund, gennem forskellige øvelser, der også vil
+                styrke jeres fælles samarbejde.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. snude: 190,- kr.</b>
+                <br />
+                uanset antal tobenede der er med
+              </Text>
+              <Text>Max 5 snuder pr. hold.</Text>
+            </TextContainer>
+          </FlexedRow>
+          <br />
+          <Text bold>Tilmelding til Rolige Gåture:</Text>
+          <EasyMeList src="https://ezme.io/x/x1S/CU9F" />
         </Column>
       </Row>
 

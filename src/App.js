@@ -52,6 +52,7 @@ import {
   LawPrivate,
   Lecture,
   MyMethods,
+  OnlineAdvent,
   OnlineCourses,
   OnlineCoursesThanks,
   OnlineEbookPuppyFive,
@@ -125,6 +126,7 @@ const App = () => {
         <Route path="/privatlivspolitik" element={<LawPrivate />} />
         <Route path="/foredrag" exact element={<Lecture />} />
         <Route path="/minemetoder" exact element={<MyMethods />} />
+        <Route path="/adventkurser" exact element={<OnlineAdvent />} />
         <Route path="/onlinekurser" exact element={<OnlineCourses />} />
         <Route path="/takkesideonlinekurser" exact element={<OnlineCoursesThanks />} />
         <Route path="/hvalpmedsucces" exact element={<OnlineEbookPuppyFive />} />
