@@ -29,6 +29,8 @@ import {
   OnlinePlay,
   OnlineGuests,
   OnlineNail,
+  OnlineConfident,
+  OnlineStress,
  } from '../assets';
 import '../components/table/TableCss.css';
 
@@ -122,7 +124,27 @@ const noisy = [
   'En øvelse du kan lege med din hund, så den selv starter larm - og synes det er FEDT!',
 ];
 
+const Selvsikker = [
+  'Hvordan du kan bruge konceptet fra Frivillig Håndtering til at hjælpe din hund i hverdagen',
+  'Hvordan du øger din hunds gåpåmod og selvtillid med helt simple, konkrete øvelser ',
+  'Hvordan du bedst hjælper din hund med at blive nysgerrig, fremfor usikker, i mødet med nyt',
+];
+const SelvsikkerVideo = [
+  'Videoeksempler på Frivillig Håndtering konceptet implementeret i hverdagen',
+  'Videoeksempler på konkrete øvelser du kan lege med for at øge hundens selvtillid',
+];
 
+const Stress = [
+  'Hvad der sker i kroppen (og i hovedet) på din hund når den stresser',
+  'Hvordan du hjælper din hund når den udviser tegn på stress',
+  'Hvordan du bedst håndterer situationen hvis din hund ”kortslutter” og er udenfor pædagogisk rækkevidde',
+  'Hvordan du giver de optimale forudsætninger for ro og dermed forebygger stress',
+];
+const StressXtra = [
+  'Videoøvelse i at bruge legetøjet til at hjælpe hunden med at ”geare op” og ikke mindst ”geare ned”',
+  'Videoguide på at lære hunden at finde ro, selvom der er noget der ”frister”',
+  'Trin-for-trin videoguide i at lære din hund en stabil bliv i kurv – også selvom der sker noget omkring den',
+];
 
 const OnlineCourses = () => (
   <Page>
@@ -186,6 +208,34 @@ const OnlineCourses = () => (
           <br />
         </Column>
 
+        <Column >
+        <Image src={OnlineStress} />
+        <TitleColor text="Stress forebyggelse og -lindring" smallTitle />
+              <Text>
+                <b>Hvordan ser det ud når din hund er stresset? </b>
+                <br />
+                Er du i tvivl om hvordan du kan hjælpe din hund med at geare ned og finde mere ro?
+              </Text>
+              <Text>
+                Så fjern tvivlen og få svaret af Dyreadfærdskonsulent Sabrina Svane her i webinaret om Stress, forebyggelse og -lindring!
+              </Text>
+              <Text>
+                <b>I dette webinar får du svaret på:</b>
+                <TextListMark texts={Stress} />
+                Vi snakker om helt konkrete tiltag du kan foretage for at undgå stress til hverdag!
+              </Text>
+              <Text>
+                <b>Ikke mindst får du:</b>
+                <TextList texts={StressXtra} />
+                Din investering i at hjælpe din hund til mere ro og mindre stress i hverdagen; <b>199,- kr.</b> 
+              </Text>
+          <br />
+          <ButtonOnline
+            text="Ja tak! Til en mere afslappet hund!"
+            onClick={() => window.open('https://ezme.io/c/x1S/3feM', '_blank')}
+          ></ButtonOnline>
+        </Column>
+
         <Column>
           <Image src={OnlinePlay} />
           <TitleColor text="4 tegn på den gode hundeleg" smallTitle />
@@ -207,7 +257,9 @@ const OnlineCourses = () => (
           <ButtonOnline text="Ja tak! Lad mig fluks få adgang" onClick={() => window.open('https://ezme.io/c/x1S/oLpk', '_blank')}></ButtonOnline>
           <br />
         </Column>
+      </Row>
 
+      <Row marginBottom="25px">
         <Column>
           <Image src={OnlinePlayFull} />
           <TitleColor text="Sådan kontrollerer du leg mellem hunde - og giver alle en god oplevelse" smallTitle />
@@ -230,6 +282,41 @@ const OnlineCourses = () => (
             Din investering i at kunne kontrollere legen mellem hunde, og sikre dig alle får en god oplevelse; <b>199,- kr.</b>
           </Text>
           <ButtonOnline text="Ja tak til opskriften på god hundeleg!" onClick={() => window.open('https://ezme.io/c/x1S/okiW', '_blank')}></ButtonOnline>
+          <br />
+        </Column>
+
+        <Column>
+          <Image src={OnlineConfident} />
+          <TitleColor text="Sådan gør du den usikre hund mere selvsikker" smallTitle />
+              <Text>
+                <b>Hvordan kan du helt lavpraktisk øve din usikre hund i at have mere gåpåmod og selvtillid?</b>
+              </Text>
+              <Text>
+                Få svaret af Dyreadfærdskonsulent Sabrina Svane her i minikurset ”Sådan gør du den usikre hund mere selvsikker”!
+              </Text>
+              <Text>
+                <b>I dette minikursus får du svaret på:</b>
+              <TextListMark texts={Selvsikker} />
+              </Text>
+              <Text>
+                <b>Ikke mindst får du:</b>
+                <TextList texts={SelvsikkerVideo} />
+                Din invstering i at hjælpe din usikre hund med at tage mødet med nyt med løftet pande; <b>149,- kr.</b> 
+              </Text>
+          <br />
+          <ButtonOnline
+            text="Jeg er klar på at give min hund mere selvtillid!"
+            onClick={() => window.open('https://ezme.io/c/x1S/3fzd', '_blank')}
+          ></ButtonOnline>
+        </Column>
+
+        <Column>
+          <Image src={OnlineBookpuppy} width="400px" height="256px" />
+          <TitleColor text="Adfærdsbehandlerens 5 vigtigste råd til træning af din hvalp" smallTitle />
+          <Text>
+            En E-bog til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!
+          </Text>
+          <ButtonOnline text="Læs mere her" onClick={() => window.open('https://www.svanesdyr.dk/hvalpmedsucces', '_blank')}></ButtonOnline>
           <br />
         </Column>
       </Row>
@@ -355,14 +442,14 @@ const OnlineCourses = () => (
 
         <Column>
           <Image src={OnlineRelax} />
-          <TitleColor text="Metoden til at finde ro, når der skal laves ingenting" smallTitle />
+          <TitleColor text="Lær hunden at finde ro til hverdag" smallTitle />
           <Text>
             Kræver din hund din opmærksomhed når du er optaget af andet? <br />
             Bliver sofatid til mere uro end afslapning? <br />
             Ville du ønske din hund kunne finde ro sammen med dig når der sker ”ingenting”?
           </Text>
           <Text>
-            Så kig med her i minikurset hvor jeg giver dig Metoden til at lære din hund at fine ro, når i skal lave absolut ingenting!
+            Så kig med her i minikurset hvor du kan Lære hunden at finde ro til hverdag!
           </Text>
           <Text>
             <b>I dette minikursus får du:</b>
@@ -423,16 +510,6 @@ const OnlineCourses = () => (
             Din investering i en rolig hund omkring andre dyr: <b>99,- kr.</b>
           </Text>
           <ButtonOnline text="Jeg er klar til at øve ro omkring andre dyr!" onClick={() => window.open('https://ezme.io/c/x1S/okMG', '_blank')}></ButtonOnline>
-          <br />
-        </Column>
-
-      <Column>
-          <Image src={OnlineBookpuppy} width="400px" height="256px" />
-          <TitleColor text="Adfærdsbehandlerens 5 vigtigste råd til træning af din hvalp" smallTitle />
-          <Text>
-            En E-bog til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!
-          </Text>
-          <ButtonOnline text="Læs mere her" onClick={() => window.open('https://www.svanesdyr.dk/hvalpmedsucces', '_blank')}></ButtonOnline>
           <br />
         </Column>
       </Row>
