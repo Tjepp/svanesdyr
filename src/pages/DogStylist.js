@@ -16,7 +16,7 @@ import {
   Image,
   StyledLink,
   ContactPopUp,
-  EasyMeList,
+  // EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -133,11 +133,11 @@ const DogStylist = () => (
             Denne gruppe har du fortsat fri adgang til når holdet afsluttes. Du vil altså stadig kunne tilgå materialet i gruppen
             efter afslutning og fortsat få sparring med de andre holddeltagere, men ikke længere få feedback fra dine undervisere.
           </Text>
-          
+
           <Text>
             <b>Alt-Inklusivt eller kun Onlinedeltagelse?</b>
-            <br />Forløbet i Tryg Frisørtid er delt op, så du kan vælge mellem <b>Alt-Inklusivt</b> med fysiske fremmøde sammen med dine to undervisere og andre holddeltagere, 
-            eller kun <b>Onlinedeltagelse</b>. Forskellen på disse to valgmuligheder er, at du på Alt-Inklusivt kan få ansigt-til-ansigt sparring med dine undervisere 3 gange under forløbet, 
+            <br />Forløbet i Tryg Frisørtid er delt op, så du kan vælge mellem <b>Alt-Inklusivt</b> med fysiske fremmøde sammen med dine to undervisere og andre holddeltagere,
+            eller kun <b>Onlinedeltagelse</b>. Forskellen på disse to valgmuligheder er, at du på Alt-Inklusivt kan få ansigt-til-ansigt sparring med dine undervisere 3 gange under forløbet,
             hvorimod Onlinedeltagelse kun inkluderer online sparring og undervisning.
           </Text>
           <Text>
@@ -158,12 +158,12 @@ const DogStylist = () => (
             <br />
             Ved deltagelse på Tryg Frisørtid får du:
             <TextList texts={StylistBenefits} />
-            Ovenstående gælder uanset om du vælger Alt-Inklusivt eller kun Onlinedeltagelse. 
+            Ovenstående gælder uanset om du vælger Alt-Inklusivt eller kun Onlinedeltagelse.
             <br />
             På <b>Alt-Inklusivt</b> får du dog også:
             <TextList texts={StylistBenefitsXtra} />
           </Text>
-          
+
           <br />
 
           <Title text="Holdstart for Tryg Frisørtid" showHorizontalRuler />
@@ -179,14 +179,19 @@ const DogStylist = () => (
           </Text>
           <br />
           <Title text="Kommende hold:" />
-          <EasyMeList src="https://ezme.io/x/x1S/k37A" />
+          {/* <EasyMeList src="https://ezme.io/x/x1S/k37A" /> */}
           <br />
-          <Title color="#872f35" text="Næste holdstart er foråret 2025" />
+          <Title color="#872f35" text="Hold startes op på efterspørgsel!" />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
-          <Text>
+          {/* <Text>
             Oplever du holdet er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
             jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
             dit holdønske her:
+          </Text> */}
+          <Text>
+            Ønsker du at deltage på forløbet?
+            <br />
+            Smid en mail med du er interesseret, så starter vi forløbet op når der er minimum 3 klar til at starte!
           </Text>
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
           <br />
