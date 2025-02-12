@@ -14,9 +14,10 @@ import {
   Row,
   StyledLink,
   Prices,
+  ButtonOnline,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { catOne, catTwo, catThree } from '../assets';
+import { catFour, catTwo, catThree } from '../assets';
 import '../components/table/TableCss.css';
 
 const privateHour = [
@@ -81,6 +82,15 @@ const Cat = () => (
         <Title text="Udbud af kattetræning i Midtjylland" showHorizontalRuler />
       </Row>
       <Row marginBottom="25px">
+      <Column>
+          <Image src={catFour} />
+          <TitleColor text="E-bog til katteejeren: 3 simple trin, der holder kløerne af møblerne" smallTitle />
+          <Text>
+            En E-bog til dig der ønsker en konfliktfri hverdag med en kat der elsker sit kradsetræ, så du kan unndgå flere ødelagte sofahjørner!
+          </Text>
+          <ButtonOnline text="Læs mere her" onClick={() => window.open('https://www.svanesdyr.dk/kattekradsekursus', '_blank')}></ButtonOnline>
+          <br />
+        </Column>
         <Column>
           <Image src={catTwo} />
           <TitleColor text="Konsultation ved problemadfærd" smallTitle />
@@ -107,22 +117,6 @@ const Cat = () => (
           </Text>
           <Text bold> Eksempler på træning til en privattime: </Text>
           <TextList texts={privateHour} />
-        </Column>
-        <Column>
-          <Image src={catOne} />
-          <TitleColor text="Skype-Konsultation" smallTitle />
-          <Text>
-            En Skype-Konsultation foregår over Messenger/Skype opkald, så du kan få råd og
-            vejledning til problemadfærd hos din kat, uanset hvor du befinder dig i landet. Ligesom
-            til en almindelig konsultation i hjemmet starter vi med at snakke adfærdsproblemet
-            igennem og bagefter gennemgår vi de tiltag der skal til, for at skabe en mere harmonisk
-            hverdag for jer. Tiltagene består af øvelser og enkle hverdagsrutiner der skal ændres,
-            for at opnå det ønskede resultat.
-          </Text>
-          <Text>
-            Efter vores samtale snakker vi løbende sammen om jeres fremskridt og evt. yderligere
-            tiltag.
-          </Text>
         </Column>
       </Row>
     </Background>

@@ -74,6 +74,7 @@ export { default as ClubCover } from './Hundesprogsklubben.png';
 export { default as catOne } from './kat1.jpg';
 export { default as catTwo } from './kat2.jpg';
 export { default as catThree } from './kat3.jpg';
+export { default as catFour } from './Kat4.png';
 export { default as logo } from './logo.jpg';
 export { default as logoLightGrey } from './logoLightGrey.png';
 export { default as LogoUpdate } from './LogoUpdate.png';
