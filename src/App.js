@@ -55,6 +55,8 @@ import {
   OnlineAdvent,
   OnlineCourses,
   OnlineCoursesThanks,
+  OnlineEbookCatScratch,
+  OnlineEbookCatThanks,
   OnlineEbookPuppyFive,
   OnlineEbookThanks,
   OnlinePuppy,
@@ -129,6 +131,8 @@ const App = () => {
         <Route path="/adventkurser" exact element={<OnlineAdvent />} />
         <Route path="/onlinekurser" exact element={<OnlineCourses />} />
         <Route path="/takkesideonlinekurser" exact element={<OnlineCoursesThanks />} />
+        <Route path="/kattekradsekursus" exact element={<OnlineEbookCatScratch />} />
+        <Route path="/kattensebog" exact element={<OnlineEbookCatThanks />} />
         <Route path="/hvalpmedsucces" exact element={<OnlineEbookPuppyFive />} />
         <Route path="/eboginvestering" exact element={<OnlineEbookThanks />} />
         <Route path="/onlinehvalp" exact element={<OnlinePuppy />} />
