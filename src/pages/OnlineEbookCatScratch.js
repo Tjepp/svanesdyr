@@ -166,16 +166,14 @@ const OnlineEbookCatScratch = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter text="Din investering i at få din kat til at elske sit kradsetræ og holde kløerne fra møblerne" />
-          <TitleCenter color="#008037" text="Kun 249,- kr. inkl. moms" />
+          <TitleCenter color="#008037" text="Kun 149,- kr. inkl. moms" />
           <TextCenter>
             En investering der kan spare dig frustration, tid og penge!
             <br />
             Bogen giver dig konkrete værktøjer til at få succes med at få din kat til aktivt at vælge sit kradsetræ, fremfor at sætte kløerne i andet i hjemmet.
-            Værktøjer jeg dækker på en konsultation i hjemmet til en værdi
-            af 950,- kr. + kørsel - og som du får leveret direkte i din indbakke!
           </TextCenter>
           <TextCenter>
-            Du sparer altså flere hundrede kroner, og flere ødelagte møbler, når du med bogen i hånden ikke får brug for et besøg i hjemmet og selv kan få succes med at hjælpe din kat!
+            Du sparer altså flere hundrede kroner, når du med bogen i hånden kan undgå flere ødelagte sofahjørner og få succes med at hjælpe din kat!
           </TextCenter>
         </Column>
       </Row>
