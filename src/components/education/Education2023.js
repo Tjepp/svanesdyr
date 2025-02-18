@@ -9,7 +9,7 @@ const Education2023 = () => (
     <Text>
       <b>Animal Emotions</b>
       <br />
-      Online Efteruddannelse hos Karolina Westlund (PhD):
+      1 års Online Efteruddannelse hos Karolina Westlund (PhD):
       <br />
       <i>
         "Understanding emotions is essential when caring for animals. Thorough theoretical
