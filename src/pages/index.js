@@ -39,6 +39,7 @@ export { default as OnlineEbookCatThanks } from './OnlineEbookCatThanks';
 export { default as OnlineEbookPuppyFive } from './OnlineEbookPuppyFive';
 export { default as OnlineEbookThanks } from './OnlineEbookThanks';
 export { default as OnlinePuppy } from './OnlinePuppy';
+export { default as OnlinePuppyBeany } from './OnlinePuppyBeany';
 export { default as OnlinePuppyThankPage } from './OnlinePuppyThankPage';
 export { default as OnlineSoldOut } from './OnlineSoldOut';
 export { default as OnlineSoundbookThanks } from './OnlineSoundbookThanks';

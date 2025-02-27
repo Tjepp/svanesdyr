@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
 import { TitleColor, Text, TextContainer, FlexedRow, Image } from '..';
-import { TestiPupOne, TestiPupFour, ConsultPupTwo } from '../../assets';
+import { TestiPupOne, ConsultPupTwo } from '../../assets';
 
 const DogOnlinePuppy = () => (
   <Carousel
@@ -62,7 +62,7 @@ const DogOnlinePuppy = () => (
       </TextContainer>
     </FlexedRow>
 
-    <FlexedRow>
+    {/* <FlexedRow>
       <Image src={TestiPupFour} width="200px" height="300px" />
       <TextContainer>
         <TitleColor text=" ”Massiv usikkerhed er ændret til positiv udvikling, da jeg har bedre forståelse for min hund og noget konstruktivt at arbejde videre med hjemme” " />
@@ -80,7 +80,7 @@ const DogOnlinePuppy = () => (
         </Text>
         <Text>Malene og Simba</Text>
       </TextContainer>
-    </FlexedRow>
+    </FlexedRow> */}
   </Carousel>
 );
 

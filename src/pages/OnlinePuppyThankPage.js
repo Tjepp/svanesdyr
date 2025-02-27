@@ -11,7 +11,7 @@ import {
   ButtonOnline,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { OnlineCoverPuppy } from '../assets';
+import { OnlineCoverBeany } from '../assets';
 import '../components/table/TableCss.css';
 
 const OnlineThankPage = () => (
@@ -19,22 +19,22 @@ const OnlineThankPage = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverPuppy} />
+          <Image src={OnlineCoverBeany} />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>
             Tusind tak for din investering i din hvalp og din tiltro til mig!
             <br />
-            Jeg glææææder mig til at hjælpe både dig og din hund med at få mere ro, nærvær og succes
-            i hverdagen!.
+            Jeg glææææder mig til at vise dig hvordan jeg skaber ro, nærvær og succes i hverdagen med min lille, nye hvalp!
             <br />
+            Så du kan se metoderne i aktion og skabe samme succes og ro med din hvalp.
           </TextCenter>
         </Column>
       </Row>
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en velkomstmail med oplysninger om dit kursus og adgang til den lukkede facebookgruppe" />
+          <TitleCenter text="Du får lige straks en velkomstmail med din E-bog og link med adgang til den lukkede facebookgruppe" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -43,16 +43,25 @@ const OnlineThankPage = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter color="#872f35" text="Vi ses inden længe!" />
+          <TitleCenter text="Kan du ikke vente?" />
+          <TextCenter>
+            Du kan straks søge om adgang til den lukkede facebookgruppe, lige her:
+          </TextCenter>
         </Column>
       </Row>
 
       <ButtonOnline
-        text="Jeg er SÅ klar! Før mig straks ind til den lukkede facebookgruppe"
+        text="Ja tak, før mig straks ind til den lukkede facebookgruppe!"
         onClick={() =>
           window.open('https://www.facebook.com/groups/hvalpekursusfebruar2023', '_blank')
         }
       ></ButtonOnline>
+
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter color="#872f35" text="Vi ''ses'' online inden længe!" />
+        </Column>
+      </Row>
       <br />
       <br />
     </Background>

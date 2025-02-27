@@ -60,6 +60,7 @@ import {
   OnlineEbookPuppyFive,
   OnlineEbookThanks,
   OnlinePuppy,
+  OnlinePuppyBeany,
   OnlinePuppyThankPage,
   OnlineSoundbookThanks,
   OnlineSoldOut,
@@ -136,6 +137,7 @@ const App = () => {
         <Route path="/hvalpmedsucces" exact element={<OnlineEbookPuppyFive />} />
         <Route path="/eboginvestering" exact element={<OnlineEbookThanks />} />
         <Route path="/onlinehvalp" exact element={<OnlinePuppy />} />
+        <Route path="/hvalpeopdragelse" exact element={<OnlinePuppyBeany />} />
         <Route path="/dinhvalpsigertak" exact element={<OnlinePuppyThankPage />} />
         <Route path="/lydboginvestering" exact element={<OnlineSoundbookThanks />} />
         <Route path="/udsolgt" exact element={<OnlineSoldOut />} />

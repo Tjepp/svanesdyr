@@ -43,6 +43,7 @@ export { default as MetaOnlineWalk } from './meta/MetaOnlineWalk';
 export { default as MetaOnlineWebinarCool } from './meta/MetaOnlineWebinarCool';
 export { default as MetaOnlineWebinarPlayTime } from './meta/MetaOnlineWebinarPlayTime';
 export { default as MetaOnlinePuppy } from './meta/MetaOnlinePuppy';
+export { default as MetaOnlinePuppyBeany } from './meta/MetaOnlinePuppyBeany';
 export { default as DogCourseTableHead } from './table/DogCourseTableHead';
 export { default as DogCourseTheory } from './table/DogCourseTheory';
 export { default as DogCourseYearShift } from './table/DogCourseYearShift';

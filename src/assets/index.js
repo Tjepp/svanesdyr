@@ -90,6 +90,7 @@ export { default as OnlineCatsOne } from './OnlineCats1.png';
 export { default as OnlineCatsTwo } from './OnlineCats2.png';
 export { default as OnlineCatsThree } from './OnlineCats3.png';
 export { default as OnlineConfident } from './onlineConfident.JPG';
+export { default as OnlineCoverBeany } from './OnlineCoverBeany.png';
 export { default as OnlineCoverCatScratch } from './OnlineCoverCatScratch.png';
 export { default as OnlineCoverCool } from './OnlineCoverCool.png';
 export { default as OnlineCoverCourses } from './OnlineCoverCourses.png';
