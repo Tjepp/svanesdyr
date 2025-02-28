@@ -24,9 +24,9 @@ import { FrontNoOne, OnlineCoverBeany, OnlinePupOne } from '../assets';
 import '../components/table/TableCss.css';
 
 const LPstep3 = [
-  'Introducerer hvalpen til de to eskisterende hunde i husstanden - en teenager og en senior',
-  'Introducerer hvalpen til katten i huset',
-  'Håndterer min seniors ressourceforsvar når der kommer et nyt medlem - med fokus på at skabe tillid og undgå udfald',
+  'Introducerer hvalpen til de to eksisterende hunde i husstanden - teenageren Zoey og senioren Gary',
+  'Introducerer hvalpen til katten Lily i huset',
+  'Håndterer Garys ressourceforsvar når der kommer et nyt medlem - med fokus på at skabe tillid og undgå udfald',
   'Udvikler gode rutiner fra start, så hvalpen lærer at finde ro af sig selv',
   'Får succes med renlighed, stopper hvalpebideriet, starter alene-hjemme træningen og tager fat på miljøtræning',
 ];
@@ -100,7 +100,7 @@ const OnlinePuppyBeany = () => (
 
       <ButtonOnline
         text="Ja tak! Jeg er klar på at få en tillidsfuld og rolig hvalp"
-        onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/37oJ', '_blank')}
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -156,83 +156,6 @@ const OnlinePuppyBeany = () => (
           showHorizontalRuler
         />
       </Row>
-      {/*       <Row>
-        <Column widthPercentage="80%">
-          <TitleCenter text=" ”Vi er virkelig godt klædt på og meget mere selvsikre i forhold til hvilken retning for opdragelsen, der er rigtig for os og Loui” " />
-          <FlexedRow>
-            <Image src={ConsultPupTwo} width="200px" height="300px" />
-            <TextContainer>
-              <Text>
-                Det tager tid at omvende dårlige vaner. Men det har allerede hjulpet rigtig meget.
-                Særligt fordi jeg kigger meget efter “det skal have en funktion” adfærd. Alt andet
-                reagere jeg på ved at distrahere og/eller putte. Det har en kæmpe effekt allerede.
-              </Text>
-              <Text>
-                Vi havde en legeaftale med en anden hund, og i modsætning til før, vidste jeg nu,
-                hvad jeg skulle gøre, da de kørte og han ikke kunne finde ro. En tyggestang til lige
-                at falde ned på og så ro i huset. 👍🏻 Han har slet ikke bidt efter mig i dag.
-              </Text>
-              <Text>
-                Vi er virkelig godt klædt på og meget mere selvsikre i forhold til hvilken retning
-                for opdragelsen, der er rigtig for os og Loui. På bare 2 dage, har vi set en kæmpe
-                forandring, fordi vi kommer den uønskede adfærd i forkøbet.
-              </Text>
-              <Text>
-                Og vigtigst af alt så danner hele familien fælles front, fordi vi alle sidder med
-                samme viden og kan se formålet med at gøre det hele på samme måde.
-              </Text>
-              <Text>Jane Lindby og Loui</Text>
-            </TextContainer>
-          </FlexedRow>
-        </Column>
-      </Row>
-      <Row>
-        <Column widthPercentage="80%">
-          <TitleCenter text=" ”Vi har fået virkelig gode øvelser som vi kan bruge i hverdagen” " />
-          <FlexedRow>
-            <Image src={TestiPupOne} width="200px" height="300px" />
-            <TextContainer>
-              <Text>
-                Vi vil anbefale alle der skal have hvalp at deltage på Sabrinas hold, ikke bare for
-                at lærer øvelserne men at prøve at arbejde sammen med sin hund er en super følelse!
-              </Text>
-              <Text>
-                Vi har fået bedre indsigt i hvordan en hund lærer så man kan bruge det på de
-                udfordringer man har. Vi blev overrasket over hvor mange trin der skal til for at
-                opbygge en øvelse og hvor mange godbidder der skal bruges, men vi har fået en hund
-                som gerne vil lytte og lære, et godt samarbejde med ham og værktøjerer til at
-                arbejde videre selv.
-              </Text>
-              <Text>Det har været en mega god oplevelse!</Text>
-              <Text>Ellen, Thomas og Njord</Text>
-            </TextContainer>
-          </FlexedRow>
-        </Column>
-      </Row>
-      <Row>
-        <Column widthPercentage="80%">
-          <TitleCenter text=" ”Massiv usikkerhed er ændret til positiv udvikling, da jeg har bedre forståelse for min hund og noget konstruktivt at arbejde videre med hjemme” " />
-          <FlexedRow>
-            <Image src={TestiPupFour} width="200px" height="300px" />
-            <TextContainer>
-              <Text>
-                Jeg vidste intet om moderne hunde-opdragelse med den positive tilgang, men vidste
-                noget fra pighalsbåndenes tid, hvor man var myndig og afstraffende i nuet. Det
-                betyder at jeg har skullet udskifte hele min tankegang og det har holdet hjulpet
-                enormt meget med, både fordi vi kunne spørge til råds om de udfordringer vi stod med
-                og fordi jeg kunne se at den positive tilgang jo virker ;-)
-              </Text>
-              <Text>
-                Allerførste gang vi brugte klikker og hunden skulle søge kontakt - det var en
-                fantastisk aha oplevelse og første gang at jeg fik fornemmelse af gensidig
-                kommunikation med hunden - og fik håb om at det måske nok skal gå godt med hund
-                alligevel.
-              </Text>
-              <Text>Malene og Simba</Text>
-            </TextContainer>
-          </FlexedRow>
-        </Column>
-      </Row> */}
 
       <Row>
         <Column widthPercentage="100%">
@@ -287,7 +210,7 @@ const OnlinePuppyBeany = () => (
 
       <ButtonOnline
         text="Ja tak! Lad mig komme med!"
-        onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/37oJ', '_blank')}
       ></ButtonOnline>
 
       <br />
@@ -321,7 +244,7 @@ const OnlinePuppyBeany = () => (
             Herinde får du, sammen med de andre hvalpeejere, adgang til at følge mig og min hverdag med den nye hvalp.
           </TextCenter>
           <TextCenter>
-            Kursets forløb består af videoer og opslag jeg løbende lægger op i gruppen, med de daglige tiltag jeg prioriterer med en ny hvalp i hjemmet.
+            Forløbet består af videoer og opslag jeg løbende lægger op i gruppen, med de daglige tiltag jeg prioriterer med en ny hvalp i hjemmet.
           </TextCenter>
           <TextCenter>
             Som ugerne går vil gruppen derfor blive et større online bibliotek, med masser af gode råd og træningsvideoer du kan tage i brug med din egen hvalp.
@@ -338,7 +261,7 @@ const OnlinePuppyBeany = () => (
           </TextCenter>
           <TextCenter>
             Jeg tilbyder <b>ikke</b> individuel rådgivning på dette forløb. Spørgsmål til din egen hvalp og individuelle problemstillinger er derfor ikke mulig under forløbet.
-            Spørgsmål til mine metoder og tilgang til hvalpen er selvfølgelig velkommen - vi følges ad for at blive klogere.
+            Spørgsmål til mine metoder og min tilgang til hvalpen er selvfølgelig velkommen - vi følges ad for at blive klogere.
           </TextCenter>
           <TextCenter>
             Forløbet varer 8 uger og derefter vil facebookgruppen vil blive arkiveret - det betyder
@@ -357,7 +280,7 @@ const OnlinePuppyBeany = () => (
 
       <ButtonOnline
         text="Jeg er klar til at få succesoplevelser med min hvalp!"
-        onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/37oJ', '_blank')}
       ></ButtonOnline>
       <br />
       <br />
