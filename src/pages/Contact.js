@@ -6,11 +6,11 @@ import {
   Column,
   Meta,
   Title,
-  TitleColor,
+  // TitleColor,
   Text,
   BreadCrumps,
   Row,
-  ContactForm,
+  // ContactForm,
   StyledExternal,
   TextList,
 } from '../components';
@@ -59,24 +59,24 @@ const Contact = () => (
             </Text>
           </FlexRow>
           <br />
-          <Title color="#872f35" text="Grundet travlhed kan jeg desværre ikke tage nye kunder ind!" />
+          <Title color="#872f35" text="Svanes Dyr holder midlertidigt lukket for nye kunder!" />
           <Text>
-            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før februar 2025 igen.
+            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før <b>maj 2025</b> igen.
           </Text>
           <Text>
             I stedet vil jeg anbefale at tage kontakt til en af mine dygtige kollegaer, som har samme belønningsbaseret tilgang som jeg:
           </Text>
           <TextList texts={Colleagues} />
           <br />
-          <TitleColor text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!" />
+          {/* <TitleColor text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!" />
           <Text>
             Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.
             <br />
             Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
-          </Text>
+          </Text> */}
           <br />
           {/* <Title color="#872f35" text="Jeg har kontortid mandage og torsdage og besvarer dine mails i dette tidsrum" /> */}
-          <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 27. januar!" />
+          {/* <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 27. januar!" /> */}
         </Column>
         <Column>
           <Title text="Firma informationer" showHorizontalRuler />
@@ -102,12 +102,12 @@ const Contact = () => (
           </FlexRow>
         </Column>
       </Row>
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <Title text="Kontakt formular" showHorizontalRuler />
           <ContactForm />
         </Column>
-      </Row>
+      </Row> */}
       {/* <Row marginBottom="25px">
         <LoadScript id="script-loader" googleMapsApiKey={process.env.REACT_APP_GMAP_API_KEY}>
           <GoogleMap
