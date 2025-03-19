@@ -47,12 +47,10 @@ import {
   // DogCoolFriend,
   // DogNoseWork,
   Home,
-  // Horse,
   LawList,
   LawPrivate,
   Lecture,
   MyMethods,
-  OnlineAdvent,
   OnlineCourses,
   OnlineCoursesThanks,
   OnlineEbookCatScratch,
@@ -60,7 +58,6 @@ import {
   OnlineEbookPuppyFive,
   OnlineEbookThanks,
   OnlinePuppy,
-  OnlinePuppyBeany,
   OnlinePuppyThankPage,
   OnlineSoundbookThanks,
   OnlineSoldOut,
@@ -116,20 +113,16 @@ const App = () => {
         {/* <Route path="/hundehold/noseworkintro" element={<DogNoseWork />} /> */}
         <Route path="/hundehold/legestue" element={<DogPlay />} />
         <Route path="/hundehold/hvalpehold" element={<DogPuppy />} />
-        <Route path="/hundehold/hvalpehold/tusindtak" element={<DogPuppyJanuary />} />
-        <Route path="/hundehold/hvalpehold/tak" element={<DogPuppyMarch />} />
         {/* <Route path="/hundehold/indkald" element={<DogRecall />} /> */}
         <Route path="/hundehold/socialisering" element={<DogSocial />} />
         <Route path="/spotkurser" element={<DogSpot />} />
         <Route path="/hundehold/tryghundepleje" element={<DogStylist />} />
         <Route path="/sommerhund" element={<DogSummer />} />
         <Route path="/" exact element={<Home />} />
-        {/* <Route path="/hestetraening" exact element={<Horse />} /> */}
         <Route path="/onlinehandelsbetingelser" element={<LawList />} />
         <Route path="/privatlivspolitik" element={<LawPrivate />} />
         <Route path="/foredrag" exact element={<Lecture />} />
         <Route path="/minemetoder" exact element={<MyMethods />} />
-        <Route path="/adventkurser" exact element={<OnlineAdvent />} />
         <Route path="/onlinekurser" exact element={<OnlineCourses />} />
         <Route path="/takkesideonlinekurser" exact element={<OnlineCoursesThanks />} />
         <Route path="/kattekradsekursus" exact element={<OnlineEbookCatScratch />} />
@@ -137,7 +130,6 @@ const App = () => {
         <Route path="/hvalpmedsucces" exact element={<OnlineEbookPuppyFive />} />
         <Route path="/eboginvestering" exact element={<OnlineEbookThanks />} />
         <Route path="/onlinehvalp" exact element={<OnlinePuppy />} />
-        <Route path="/hvalpeopdragelse" exact element={<OnlinePuppyBeany />} />
         <Route path="/dinhvalpsigertak" exact element={<OnlinePuppyThankPage />} />
         <Route path="/lydboginvestering" exact element={<OnlineSoundbookThanks />} />
         <Route path="/udsolgt" exact element={<OnlineSoldOut />} />
