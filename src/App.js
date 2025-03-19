@@ -72,7 +72,7 @@ import {
   OnlineWebinarThankCool,
   OnlineWebinarThankPage,
   Snackshop,
-  PartyThanks,
+  Prices,
 } from './pages';
 import { ScrollToTop } from './components';
 
@@ -149,7 +149,7 @@ const App = () => {
         <Route path="/webinarreaktivtiltak" exact element={<OnlineWebinarThankCool />} />
         <Route path="/webinartak" exact element={<OnlineWebinarThankPage />} />
         <Route path="/snackshoppen" exact element={<Snackshop />} />
-        <Route path="/afskedsfest" exact element={<PartyThanks />} />
+        <Route path="/prisoversigt" exact element={<Prices />} />
       </Routes>
     </BrowserRouter>
   );

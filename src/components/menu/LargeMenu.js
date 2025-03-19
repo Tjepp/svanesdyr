@@ -9,6 +9,7 @@ const LargeMenu = () => (
     <LargeMenuItem url="/hundetraening" text="Hund" />
     {/* <LargeMenuItem url="/hestetraening" text="Hest" /> */}
     <LargeMenuItem url="/kattetraening" text="Kat" />
+    <LargeMenuItem url="/prisoversigt" text="Priser" />
     <LargeMenuItem url="/foredrag" text="Foredrag" />
     <LargeMenuItem url="/dyreadfaerdskonsulent" text="Om Mig" />
     <LargeMenuItem url="/minemetoder" text="Mine metoder" />

@@ -13,6 +13,8 @@ import {
   // ContactForm,
   StyledExternal,
   TextList,
+  StyledLink,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -38,7 +40,12 @@ const Contact = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
+          <TitleColor text="Jeg takserer for både telefonsamtaler og mail korrespondance" />
           <Text>
+            Se mere om dette under <StyledLink to="/hundehold"> Priser</StyledLink>.
+            <br />
+          </Text>
+          <Text bold>
             Har du spørgsmål vedrørende din hund eller kat og ønsker at høre om jeg kan hjælpe?
           </Text>
           <FlexRow>
@@ -68,38 +75,9 @@ const Contact = () => (
           </Text>
           <TextList texts={Colleagues} />
           <br />
-          {/* <TitleColor text="Eventuelt afbud til aftale skal meldes senest 24 timer før aftalt tidspunkt!" />
-          <Text>
-            Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.
-            <br />
-            Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
-          </Text> */}
           <br />
           {/* <Title color="#872f35" text="Jeg har kontortid mandage og torsdage og besvarer dine mails i dette tidsrum" /> */}
           {/* <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 27. januar!" /> */}
-        </Column>
-        <Column>
-          <Title text="Firma informationer" showHorizontalRuler />
-          <FlexRow>
-            <Text bold>Firmaadresse:</Text>
-            <Text whiteSpace> Horsensvej 31, Nim, 8740 </Text>
-          </FlexRow>
-          <FlexRow>
-            <Text bold>Telefon:</Text>
-            <Text whiteSpace> 93 960 500</Text>
-          </FlexRow>
-          <FlexRow>
-            <Text bold>Email:</Text>
-            <Text whiteSpace> info@svanesdyr.dk</Text>
-          </FlexRow>
-          <FlexRow>
-            <Text bold>Kontortid:</Text>
-            <Text whiteSpace> Mandage og torsdage</Text>
-          </FlexRow>
-          <FlexRow>
-            <Text bold>CVR-nr.:</Text>
-            <Text whiteSpace> 35903100</Text>
-          </FlexRow>
         </Column>
       </Row>
       {/* <Row>

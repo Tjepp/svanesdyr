@@ -74,7 +74,6 @@ export { default as LPHeadlineWalk } from './LPHeadlineWalk';
 export { default as LPHeadlinePuppy } from './LPHeadlinePuppy';
 export { default as LPHeadlineWebinar } from './LPHeadlineWebinar';
 export { default as MapsInfoMarker } from './MapsInfoMarker';
-export { default as Prices } from './Prices';
 export { default as ScrollToTop } from './ScrollToTop';
 export { default as Text } from './Text';
 export { default as TextCenter } from './TextCenter';

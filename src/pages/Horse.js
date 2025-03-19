@@ -14,7 +14,6 @@ import {
   TextList,
   Row,
   StyledLink,
-  Prices,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { horseOne, horseTwo, horseThree } from '../assets';
@@ -45,7 +44,7 @@ const Horse = () => (
     </Banner>
     <Background>
       <Row marginTop="25px">
-        <Column widthPercentage="65%">
+        <Column widthPercentage="100%">
           <Title text="Konsultation ved hesteadfærdsterapeut" showHorizontalRuler />
           <Text>
             Belønningsbaseret hestetræning er til gavn for alle heste, uanset alder og race, og
@@ -71,10 +70,6 @@ const Horse = () => (
             text="Kontakt mig gerne og hør om din problemstilling kræver en privattime eller en konsultation."
             smallTitle
           />
-        </Column>
-        <Column>
-          <Title text="Priser for hestetræning" showHorizontalRuler />
-          <Prices />
         </Column>
       </Row>
       <Row>

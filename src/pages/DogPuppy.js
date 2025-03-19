@@ -117,7 +117,7 @@ const DogPuppy = () => {
             </Text>
             <br />
             <Title text="Holdstart for Hvalpeholdet" showHorizontalRuler />
-            <TitleColor text="Din investering: 1395 kr." />
+            <TitleColor text="Din investering: 1495 kr." />
             <Text>
               i at få en rolig, imødekommende og selvsikker familiehund, der elsker at træne sammen
               med dig!

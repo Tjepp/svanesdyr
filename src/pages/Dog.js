@@ -14,7 +14,6 @@ import {
   TextList,
   Row,
   StyledLink,
-  Prices,
   ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -61,7 +60,7 @@ const Dog = () => (
     </Banner>
     <Background>
       <Row marginTop="25px">
-        <Column widthPercentage="65%">
+        <Column widthPercentage="100%">
           <Title text="Konsultation ved hundeadfærdsbehandler" showHorizontalRuler />
           <Text>
             Står du med en hund, som har dårlige vaner der er svære at bryde, såsom at trække i
@@ -100,10 +99,6 @@ const Dog = () => (
             Læs mere om de problemstillinger jeg kan hjælpe med længere ned på siden, og er du det mindste i tvivl om din hunds udfordring hører under mit speciale, er du selvfølgelig altid velkommen til
             <StyledLink to="/kontakt"> at kontakte mig</StyledLink> for at høre nærmere.
           </Text>
-        </Column>
-        <Column>
-          <Title text="Priser for hundetræning" showHorizontalRuler />
-          <Prices />
         </Column>
       </Row>
       <Row>

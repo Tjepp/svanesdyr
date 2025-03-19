@@ -111,7 +111,7 @@ const DogSocial = () => {
             </Text>
             <br />
             <Title text="Holdstart for Socialiseringsholdet" showHorizontalRuler />
-            <TitleColor text="Din investering: 695 kr." />
+            <TitleColor text="Din investering: 745 kr." />
             <Text>
               i at få en imødekommende og selvsikker familiehund, der snildt kan finde ro blandt
               andre snuder!

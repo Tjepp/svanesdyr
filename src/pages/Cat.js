@@ -13,7 +13,6 @@ import {
   TextList,
   Row,
   StyledLink,
-  Prices,
   ButtonOnline,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -48,7 +47,7 @@ const Cat = () => (
     </Banner>
     <Background>
       <Row marginTop="25px">
-        <Column widthPercentage="65%">
+        <Column widthPercentage="100%">
           <Title text="Konsultation ved katteadfærdsspecialist" showHorizontalRuler />
           <Text>
             Katte bliver desværre overset når det kommer til behandling af problemadfærd. Men
@@ -72,10 +71,6 @@ const Cat = () => (
             <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
             hos Sabrina Svane.
           </Text>
-        </Column>
-        <Column>
-          <Title text="Priser for kattetræning" showHorizontalRuler />
-          <Prices />
         </Column>
       </Row>
       <Row>

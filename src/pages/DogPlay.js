@@ -132,7 +132,7 @@ const DogPlay = () => {
 
             <br />
             <Title text="Datoer for legestuer" showHorizontalRuler />
-            <TitleColor text="Din investering: 100 kr." />
+            <TitleColor text="Din investering: 110 kr." />
             {/* <TitleColor text="Sommerlegestuerne varer dobbelt så lang tid og her vil din investering blive: 175 kr." /> */}
             <Text>i at få en hyggelig stund i positivt samspil med andre hunde!</Text>
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
