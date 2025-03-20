@@ -88,10 +88,10 @@ const Lecture = () => (
             <b>Timepris</b>
             <br />
             Hverdage man-fre:
-            <b> 1.450,- kr/time</b>
+            <b> 1.600,- kr/time</b>
             <br />
             Weekend lør-søn:
-            <b> 1.750,- kr/time</b>
+            <b> 1.950,- kr/time</b>
           </Text>
           <Text>Inklusiv forberedelsestillæg og udprint.</Text>
           <Text>Alle foredrag tilbydes også som webinar.</Text>
