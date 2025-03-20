@@ -221,7 +221,7 @@ const DogConsultAggression = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter text="Din investering i din helt egen garanti for mindre stressfyldte og langt mere afslappede gåture med din hund, er:" />
-          <TitleCenter bold color="#1cb8b8" text="Kun 950 kr. pr. time + kørsel" />
+          <TitleCenter bold color="#1cb8b8" text="Kun 1.100 kr. pr. time + kørsel" />
           <TextCenter>
             Det svarer nogenlunde til prisen på et hundehold, som kan give en overflod af øvelser og
             information uden at du får konkrete værktøjer til lige dét du søger hjælp til.
