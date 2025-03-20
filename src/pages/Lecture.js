@@ -88,7 +88,7 @@ const Lecture = () => (
             <b>Timepris</b>
             <br />
             Hverdage man-fre:
-            <b> 1.600,- kr/time</b>
+            <b> 1.550,- kr/time</b>
             <br />
             Weekend lør-søn:
             <b> 1.950,- kr/time</b>
