@@ -53,6 +53,7 @@ export { default as LectureTableHead } from './table/LectureTableHead';
 export { default as DogCoolTestimonials } from './testimonials/DogCoolTestimonials';
 export { default as DogOnlinePuppy } from './testimonials/DogOnlinePuppy';
 export { default as DogPuppyTestimonials } from './testimonials/DogPuppyTestimonials';
+export { default as DogReactiveTestimonials } from './testimonials/DogReactiveTestimonials';
 export { default as TextList } from './textlist/TextList';
 export { default as TextListArrow } from './textlist/TextListArrow';
 export { default as TextListMark } from './textlist/TextListMark';
