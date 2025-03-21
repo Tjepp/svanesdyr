@@ -23,7 +23,7 @@ export { default as MetaDogContinued } from './meta/MetaDogContinued';
 export { default as MetaDogCool } from './meta/MetaDogCool';
 export { default as MetaDogCoolContinued } from './meta/MetaDogCoolContinued';
 export { default as MetaDogCoolEnvironment } from './meta/MetaDogCoolEnvironment';
-export { default as MetaDogCoolFriend } from './meta/MetaDogCoolFriend';
+export { default as MetaDogCoolReactive } from './meta/MetaDogCoolReactive';
 export { default as MetaDogCourse } from './meta/MetaDogCourse';
 export { default as MetaDogMorning } from './meta/MetaDogMorning';
 export { default as MetaDogNailClip } from './meta/MetaDogNailClip';

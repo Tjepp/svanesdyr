@@ -6,7 +6,7 @@ import {
   Page,
   Banner,
   Column,
-  MetaDogCool,
+  MetaDogCoolReactive,
   Title,
   TitleColor,
   Text,
@@ -46,7 +46,7 @@ const ReactiveBenefits = [
 
 const DogReactive = () => (
   <Page>
-    <MetaDogCool />
+    <MetaDogCoolReactive />
     <Banner text="Hundehold i Nim, nær Horsens">
       <BreadCrumps currentPage="Reaktiv til Ro" />
     </Banner>

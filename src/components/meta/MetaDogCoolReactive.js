@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import MetaTags from 'react-meta-tags';
 
-const MetaDogCoolFriend = ({ title, description, keywords }) => (
+const MetaDogCoolReactive = ({ title, description, keywords }) => (
   <>
     <MetaTags>
       <title>{title}</title>
       <meta property="og:title" content={title} />
-      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/venligvovse" />
-      <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/venligvovse" />
+      <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/reaktivtilro" />
+      <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/reaktivtilro" />
 
       <meta property="og:locale" content="da_DK" />
       <meta property="og:type" content="website" />
@@ -23,21 +23,21 @@ const MetaDogCoolFriend = ({ title, description, keywords }) => (
 );
 
 const defaultTitle =
-  'Hjælp til aggressiv hund | Hundehold i Nim, nær Horsens | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Fra Frådig Fido til Venlig Vovse hundehold';
+  'Reaktiv til Ro | Hundehold i Nim, nær Horsens | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Fra Reaktiv til Ro kursus';
 const defaultKeywords = `hund rolig gåtur, hund gåtur, hund gør andre hunde, hunde gør, hund aggressiv, hund knurrer, hund bange andre hunde,
   hund trækker andre hunde, hund trækker gåtur, hund ikke gø, venlig vovse, negativ reaktion hund, problem hund, problemhund, positiv oplevelse hund,
   frygter andre hunde, frygt hund, selvtillid hund`;
-MetaDogCoolFriend.propTypes = {
+  MetaDogCoolReactive.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
 };
 
-MetaDogCoolFriend.defaultProps = {
+MetaDogCoolReactive.defaultProps = {
   title: defaultTitle,
   description: defaultDescription,
   keywords: defaultKeywords,
 };
 
-export default MetaDogCoolFriend;
+export default MetaDogCoolReactive;
