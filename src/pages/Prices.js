@@ -125,7 +125,7 @@ const Prices = () => (
                 <b> 1.550,- kr./time</b>
                 <br />
                 Weekend lør-søn:
-                <b> 375,- kr./time</b>
+                <b> 1.950,- kr./time</b>
               </Text>
               <Text>
                 <b> + Kørsel</b>
