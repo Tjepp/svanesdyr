@@ -8,7 +8,6 @@ import {
   Column,
   Meta,
   Title,
-  TitleColor,
   Text,
   Image,
   BreadCrumps,
@@ -57,14 +56,8 @@ const Lecture = () => (
     </Banner>
     <Background>
       <Row marginTop="25px">
-        <Column widthPercentage="65%">
+        <Column widthPercentage="100%">
           <Title text="Foredrag med Sabrina Svane" showHorizontalRuler />
-          {/* <Text>
-            Jeg underviser ugentligt mange hundeejere i at blive klogere på deres hunde, ikke blot
-            med hvordan de indlærer basal lydighed, men ligesåmeget i at forstå hundens sprog, vide
-            hvordan hjernen fungerer på deres firbenede familiemedlem og hvor opmærksom de skal være
-            på stress og dens negative følger, så de får hverdagen til at fungere.
-          </Text> */}
           <Text>
             Min passion er at give ejere en hverdag i harmoni med deres dyr. Alle mine foredrag
             tager udgangspunkt i at give en god sum baggrundsviden, som fx i hvad stress er, hvordan
@@ -80,27 +73,11 @@ const Lecture = () => (
             <StyledLink to="/kontakt"> kontakte mig</StyledLink> for at høre mere. Jeg tilbyder
             foredrag for både hunde- og kattejere, samt fagfolk indenfor træningsverdenen.
           </Text>
-        </Column>
-        <Column>
-          <Title text="Priser for foredrag" showHorizontalRuler />
-          <TitleColor text="Alle priser er inkl. moms" />
           <Text>
-            <b>Timepris</b>
-            <br />
-            Hverdage man-fre:
-            <b> 1.550,- kr/time</b>
-            <br />
-            Weekend lør-søn:
-            <b> 1.950,- kr/time</b>
+            Alle foredrag tilbydes også som webinar.
           </Text>
-          <Text>Inklusiv forberedelsestillæg og udprint.</Text>
-          <Text>Alle foredrag tilbydes også som webinar.</Text>
           <Text>
-            <b>Kørsel</b>
-            <br />
-            Tillæg efter statens takster.
-            <br />
-            Evt. Broafgift tillægges også.
+            Jeg takserer efter timepris efter foredragets oplyste varighed. <StyledLink to="/prisoversigt">Se mere her</StyledLink>.
           </Text>
         </Column>
       </Row>
