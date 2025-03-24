@@ -80,7 +80,7 @@ const Prices = () => (
                 <br />
                 Fri opfølgning på telefon eller mail i 6 mdr.
                 <br />
-                Dette inkluderer også telefonsamtaler eller mail korrespondance inden besøget (som normaltvist takseres).
+                Dette inkluderer også telefonsamtaler eller mail korrespondance inden konsultationen (som normaltvist takseres).
                 <br />
                 Skriftlig opsummering på tiltag tilsendes på mail efter konsultation.
               </Text>
@@ -109,9 +109,8 @@ const Prices = () => (
                 <i>Ved booking af konsultation takseres der ikke for pågældende mail-samtale.</i>
               </Text>
           <Title text="Afbud til konsultation" />
+          <TitleColor text="Skal meldes senest 24 timer før aftalt tidspunkt!" />
               <Text>
-                Skal meldes <b>senest 24 timer</b> før aftalt tidspunkt!
-                <br />
                 Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.
                 Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
                 <br />
