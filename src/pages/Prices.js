@@ -64,6 +64,26 @@ const Prices = () => (
                 <br />
                 Skriftlig opsummering på tiltag tilsendes på mail efter konsultation.
               </Text>
+          <Title text="Online Video-konsultation" />
+              <Text>
+                Takseres til almindelig konsultationspris per påbegyndt kvarter:
+                <br />
+                Hverdage man-fre før kl. 18.00:
+                <b> 275,- kr.</b> pr. 15 min.
+                <br />
+                Hverdage man-tors efter kl. 18.00:
+                <b> 375,- kr.</b> pr. 15 min.
+                <br />
+              </Text>
+              <Text>
+                <b>Prisen inkluderer</b>
+                <br />
+                Fri opfølgning på telefon eller mail i 6 mdr.
+                <br />
+                Dette inkluderer også telefonsamtaler eller mail korrespondance inden besøget (som normaltvist takseres).
+                <br />
+                Skriftlig opsummering på tiltag tilsendes på mail efter konsultation.
+              </Text>
           <Title text="Telefon samtaler" />
               <Text>
                 Takseres til almindelig konsultationspris:
@@ -74,7 +94,7 @@ const Prices = () => (
               <Text>
                 Der takseres per påbegyndt kvarter.
                 <br />
-                Faktura tilsendes på mail efter samtale. Du har mulighed for at mobilepay.
+                Faktura tilsendes på mail efter samtale. Eller du har mulighed for at mobilepay.
                 <br />
                 <i>Ved booking af konsultation takseres der ikke for pågældende samtale.</i>
               </Text>
@@ -95,6 +115,29 @@ const Prices = () => (
                 Ved for sent afbud afregnes gebyr på 50 % af den afsatte konsultationstid.
                 Ved forgæves kørsel afregnes kørselstillæg efter statens takster.
                 <br />
+              </Text>
+          <Title text="Foredrag og Webinar" />
+              <Text>
+                Der takseres efter foredragets planlagte varighed.
+              </Text>
+              <Text>
+                Hverdage man-fre:
+                <b> 1.550,- kr./time</b>
+                <br />
+                Weekend lør-søn:
+                <b> 375,- kr./time</b>
+              </Text>
+              <Text>
+                <b> + Kørsel</b>
+                <br />
+                Efter statens takster 3,81 kr/km begge veje ved besøg i hjemmet.
+                <br />
+                Evt. Broafgift tillægges også.
+              </Text>
+              <Text>
+                <b>Prisen inkluderer</b>
+                <br />
+                Forberedelsestillæg og udprint til deltagere.
               </Text>
         </Column>
       </Row>
