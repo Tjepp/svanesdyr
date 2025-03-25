@@ -49,6 +49,9 @@ const Prices = () => (
                 <b> Lukket </b>
               </Text>
               <Text>
+                En konsultation varer typisk mellem 1 - 1,5 time.
+              </Text>
+              <Text>
                 <b> + Kørsel</b>
                 <br />
                 Efter statens takster 3,81 kr/km begge veje ved besøg i hjemmet.
@@ -74,6 +77,9 @@ const Prices = () => (
                 Hverdage man-tors efter kl. 18.00:
                 <b> 375,- kr.</b> pr. 15 min.
                 <br />
+              </Text>
+              <Text>
+                En konsultation varer typisk mellem 1 - 1,5 time.
               </Text>
               <Text>
                 <b>Prisen inkluderer</b>
