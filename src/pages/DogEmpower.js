@@ -100,12 +100,14 @@ const DogEmpower = () => (
           <EasyMeList src="https://ezme.io/x/x1S/WXZW" />
           <br />
           <Title color="#872f35" text="Næste holdstart er sensommeren 2025" />
-          <Title text="Ønsker du en plads? Så smid mig en mail og jeg noterer dig straks på ventelisten:" />
-          {/* <Text>
+          <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
-            jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
-            dit holdønske her:
-          </Text> */}
+            jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min venteliste. 
+            Kursister der allerede går hos mig har førsteprioritet til en plads. Derefter åbner jeg op for ventelisten.
+          </Text>
+          <Text>
+            Vil du skrives op til næste opstart, så smid mig en besked om dit holdønske her:
+          </Text>
           {/* <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 18. september. Du får hurtigst muligt svar herefter." /> */}
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
           {/* <Title text="Hold startes op på efterspørgsel." />
