@@ -104,15 +104,15 @@ const Prices = () => (
                 <br />
                 <i>Ved booking af konsultation takseres der ikke for pågældende samtale.</i>
               </Text>
-          <Title text="Mail konsultation" />
+          <Title text="Skriftlig konsultation" />
               <Text>
-                Alle spørgsmål velkommen. Gode råd og tiltag gives gerne pr. mail, hvis der ikke er behov for konsultation.
+                Alle spørgsmål velkommen. Gode råd og tiltag gives gerne pr. mail eller facebook beskeder, hvis der ikke er behov for konsultation.
                 <br />
-                Mail korrespondance: <b> 200,- kr.</b>
+                Skriftlig korrespondance: <b> 200,- kr.</b>
                 <br />
                 Faktura tilsendes på mail ved besvarelse.
                 <br />
-                <i>Ved booking af konsultation takseres der ikke for pågældende mail-samtale.</i>
+                <i>Ved booking af konsultation takseres der ikke for pågældende mail-samtale eller facebook-samtale.</i>
               </Text>
           <Title text="Afbud til konsultation" />
           <TitleColor text="Skal meldes senest 24 timer før aftalt tidspunkt!" />

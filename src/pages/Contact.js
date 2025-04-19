@@ -68,7 +68,7 @@ const Contact = () => (
           <br />
           <Title color="#872f35" text="Svanes Dyr holder midlertidigt lukket for nye kunder!" />
           <Text>
-            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd før <b>maj 2025</b> igen.
+            Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd i øjeblikket. Jeg annoncerer her på siden når jeg har åbent for tilgang igen.
           </Text>
           <Text>
             I stedet vil jeg anbefale at tage kontakt til en af mine dygtige kollegaer, som har samme belønningsbaseret tilgang som jeg:
