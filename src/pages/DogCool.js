@@ -97,7 +97,7 @@ const DogCool = () => (
             fælles hverdag. Derfor er første mødegang en privat session varende op til 30 minutter,
             hvor det kun er dig og din hund på banen. Privatlektionen giver dig mulighed for at få
             svar på dine spørgsmål og jeg kan komme med konkret feedback til dig og din hund inden i
-            starter i holdsammenhæng (værdi 475,- kr.).
+            starter i holdsammenhæng (værdi 550,- kr.).
           </Text>
           <Text>I løbet af vores 7 uger sammen vil vi komme igennem følgende:</Text>
           <TextList texts={CoolProgram} />

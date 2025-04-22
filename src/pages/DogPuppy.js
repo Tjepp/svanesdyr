@@ -97,7 +97,7 @@ const DogPuppy = () => {
               og ro i nyt miljø.
             </Text>
             <Text>
-              Tilmelding til hvalpeholdet inkluderer én fribillet til <StyledLink to="/hundehold/legestue"> Hundelegestue</StyledLink>, med ekstra mulighed for kontrolleret socialisering (værdi 100,- kr.). 
+              Tilmelding til hvalpeholdet inkluderer én fribillet til <StyledLink to="/hundehold/legestue"> Hundelegestue</StyledLink>, med ekstra mulighed for kontrolleret socialisering (værdi 110,- kr.). 
               Tilmelding til en af de månedlige legestuer sker efter aftale med Sabrina.
             </Text>
             <Text>
