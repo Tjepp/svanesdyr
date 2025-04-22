@@ -40,7 +40,7 @@ const Contact = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
-          <TitleColor text="Jeg takserer for både telefonsamtaler og mail korrespondance" />
+          <TitleColor text="Jeg takserer for både telefonsamtaler og skriftlig korrespondance på mail/facebook" />
           <Text>
             Se mere om dette under <StyledLink to="/hundehold"> Priser</StyledLink>.
             <br />
