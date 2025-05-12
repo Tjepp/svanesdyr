@@ -25,12 +25,12 @@ import {
   RecallOne,
   TricksOne,
   CoolThree,
-  NailClipSix,
+  // NailClipSix,
   // CoolAgainOne,
   // PuppySeven,
   // PuppyContinuedOne,
   TricksTwo,
-  // NWGary,
+  NWGary,
   PuppySix,
   CoolSix,
 } from '../assets';
@@ -44,12 +44,6 @@ const Spotliste = [
   'Alle sommerkurser afholdes af Dyreadfærdskonsulent Sabrina Svane',
 ];
 
-// const Flerdagesliste = [
-//   'Hvert kursus varer op til 4 dage',
-//   'Hver dag mødes vi i op til 90 minutter',
-//   'Der serveres både lunt og koldt at drikke, som kakao, kaffe, te og juice som er med i prisen',
-//   'Kurserne er for alle hunde i alle aldre',
-// ];
 
 const PlayTypes = [
   'Små racer: Max skulderhøjde 30 cm.',
@@ -63,6 +57,15 @@ const PlayRoom = [
   'Store racer: Max 6 hunde',
 ];
 
+const NW = [
+  'Et glas med 50 olie-kontaminerede emner',
+  '10 ml lavendelhydrolat',
+  'En pakke med filtdutter',
+  'Forskellige centrifugerør',
+  'En metaldåse med magnet, så du kan arbejde korrekt videre med duften hjemme uden at smitte hele huset',
+
+];
+
 const DogSummer = () => (
   <LandingpageOnline>
     <MetaDogSummer />
@@ -73,7 +76,7 @@ const DogSummer = () => (
           <br />
           <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene i uge 30 eller 31 sammen med din hund" />
           <TextCenter>
-            Kom med og brug nogle af de solrige sommerdage i Horsens i godt selskab med andre
+            Kom med og brug nogle af de solrige sommerdage i Nim i godt selskab med andre
             hundesnuder. Tag både din bedre halvdel og børnene med til en hyggelig stund - alle er
             velkomne!
           </TextCenter>
@@ -83,9 +86,6 @@ const DogSummer = () => (
           <TextCenter>Fælles for alle sommerkurser er:
           <TextListMark texts={Spotliste} />
           </TextCenter>
-          {/* <TextCenter>Fælles for alle FLERDAGES-kurser er:
-          <TextListMark texts={Flerdagesliste} />
-          </TextCenter> */}
           <TextCenter>
             Alle sommerens kurser foregår på træningspladsen Horsensvej 31, Nim, 8740 Brædstrup.
           </TextCenter>
@@ -95,14 +95,6 @@ const DogSummer = () => (
             Så smid mig en mail på hvilket kursus du gerne vil på venteliste på (og ved rigelig efterspørgsel starter jeg ekstra hold op!):
           </TextCenter>
           <ContactPopUp text="TILMELDING til sommerkursus venteliste" />
-          {/* <TitleCenter text="Ønsker du at tilmelde dig flere sommerkurser på én gang?" />
-          <TextCenter>
-            Finder du flere end 3 forskellige kurser i kataloget spændende?
-            <br />
-            Slip for at tilmelde dig hvert kursus én ad gangen, og book alle de hold du ønsker at
-            deltage på ved at sende en mail direkte til Sabrina, hvor du oplyser hvad du vil med på:
-          </TextCenter>
-          <ContactPopUp text="TILMELDING til flere sommerkurser på én gang" /> */}
         </Column>
       </Row>
       <br />
@@ -110,7 +102,7 @@ const DogSummer = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <LPHeadlineWalk text="Udbud af sommerens sommerkurser" />
+          <LPHeadlineWalk text="Udbud af sommerkurser" />
         </Column>
       </Row>
 
@@ -138,16 +130,18 @@ const DogSummer = () => (
                 er spændende ting at give sig til, så er det stadig FEDT at komme når du kalder!
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <b>Deltagelse pr. snude: 295,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
+                <br />
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Indkaldskursus:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/o8e1" />
+          <EasyMeList src="https://ezme.io/x/x1S/CUEH" />
         </Column>
       </Row>
 
@@ -171,16 +165,18 @@ const DogSummer = () => (
                 hundens selvtillid. Alle hunde i alle aldre kan deltage.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <b>Deltagelse pr. snude: 295,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
+                <br />
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Fitness for Alle:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/o8rD" />
+          <EasyMeList src="https://ezme.io/x/x1S/dmM1" />
         </Column>
       </Row>
 
@@ -201,16 +197,18 @@ const DogSummer = () => (
                 styrke jeres fælles samarbejde.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <b>Deltagelse pr. snude: 295,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
+                <br />
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Rolige Gåture:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/o8e6" />
+          <EasyMeList src="https://ezme.io/x/x1S/CU9F" />
         </Column>
       </Row>
 
@@ -232,21 +230,23 @@ const DogSummer = () => (
                 Du vil gå fra dagen med gode teknikker til at lære din hund at finde roen i forbindelse med social kontakt med andre.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <b>Deltagelse pr. snude: 295,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
+                <br />
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Hilse pænt:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/o8kD" />
+          <EasyMeList src="https://ezme.io/x/x1S/CU9P" />
         </Column>
       </Row>
 
       {/* HÅNDTERING */}
-      <Row>
+      {/* <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Introduktion til frivillig håndtering" />
           <FlexedRow>
@@ -262,9 +262,11 @@ const DogSummer = () => (
                 start/slut signaler.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <b>Deltagelse pr. snude: 295,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
+                <br />
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
@@ -273,7 +275,7 @@ const DogSummer = () => (
           <Text bold>Tilmelding til Intro til Frivillig Håndtering:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/o8eg" />
         </Column>
-      </Row>
+      </Row> */}
 
       {/* BLIV */}
       {/* <Row>
@@ -325,16 +327,18 @@ const DogSummer = () => (
                 du lærer din hund Zig-zag mellem ben, kravle og snurre-rundt.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <b>Deltagelse pr. snude: 295,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
+                <br />
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Tricks og Sjov:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/o8rn" />
+          <EasyMeList src="https://ezme.io/x/x1S/dmMn" />
         </Column>
       </Row>
 
@@ -353,16 +357,18 @@ const DogSummer = () => (
                 Ikke mindst gennemgår vi aktiveringsopgaver til de dage hvor det skal gå hurtigt, hvor hunden kan underholde sig selv mens du får klaret andre gøremål.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 245,- kr.</b>
+                <b>Deltagelse pr. snude: 295,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
+                <br />
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Inspiration til hverdagsaktivering:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/o8kr" />
+          <EasyMeList src="https://ezme.io/x/x1S/CUEu" />
         </Column>
       </Row>
 
@@ -431,7 +437,7 @@ const DogSummer = () => (
               <TextList texts={PlayRoom} />
             </Text>
               <Text>
-                <b>Deltagelse pr. snude: 125,- kr.</b>
+                <b>Deltagelse pr. snude: 145,- kr.</b>
                 <br />
                 for 60 minutters legestue, uanset antal tobenede der er med
               </Text>
@@ -442,11 +448,6 @@ const DogSummer = () => (
           <EasyMeList src="https://ezme.io/x/x1S/o8LW" />
           <br />
           <br />
-          <TitleCenter text="Er sommerkurset du vil med på fyldt??" />
-          <TextCenter>
-            Så smid mig en mail på hvilket kursus du gerne vil på venteliste på (og ved rigelig efterspørgsel starter jeg ekstra hold op!):
-          </TextCenter>
-          <ContactPopUp text="TILMELDING til sommerkursus venteliste" />
         </Column>
       </Row>
 
@@ -540,48 +541,59 @@ const DogSummer = () => (
 
 
       {/* NOSE WORK MED ANJA */}
-      {/* <Row>
+      <br />
+      <br />
+      <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Nose Work med Anja Nielsen" />
+          <LPHeadlineWalk text="Nose Work med Anja Nielsen" />
+        </Column>
+      </Row>
+
+      <Row>
+        <Column widthPercentage="100%">
+          <TitleCenter text="4 timers intensiv introduktion til Nose Work - Lad jagten på duften begynde!" />
           <FlexedRow>
             <Image src={NWGary} width="300px" height="200px" />
             <TextContainer>
             <Text>
-                <b>Introduktion til Nose Work (Begynder)</b>
+                <b>Med Hundetræner og Nose Work Instruktør Anja Nielsen fra Anja&Hund</b>
                 <br />
-                <i>Underviser: Hundetræner og Nose Work Instruktør Anja Nielsen fra Anja&Hund</i>
-                <br />
-                  Nu har du muligheden for at få en grundig introduktion til en sportsgren, der giver din hund empowerment - selvtillid, kontrol og velvære.
-                  Nose Work er næsearbejde sat i system. Det udspringer af professionelt specialsøg, som vi bl.a. kender det fra narkohundes arbejde,
-                  men Nose Work er for ALLE hunde (alle racer og aldre er velkomne). De vigtigste egenskaber for en god Nose Work hund er: Selvstændighed og stor glæde ved det at søge.
-                  Dét er fokus at skabe på begynderholdet, hvor vi starter med at søge efter godbidder i kasser og derefter i miljø.
+                Nu har du muligheden for at få en grundig introduktion til en sportsgren, der giver din hund empowerment - selvtillid, kontrol og velvære.
+                Nose Work er næsearbejde sat i system. Det udspringer af professionelt specialsøg, som vi bl.a. kender det fra narkohundes arbejde. 
               </Text>
               <Text>
-                <b>Sjove udfordringer til den øvede Nose Work hund (Nørderi med lavendelsøg)</b>
-                <br />
-                <i>Underviser: Hundetræner og Nose Work Instruktør Anja Nielsen fra Anja&Hund</i>
-                <br />
-                Nu er det nørdetid! På dette kursus kigger vi på de mere avancerede søg som høje søg, tærskelsøg og detaljesøg. 
-                I det omfang der er interesse for det, vil vi også kigge på konkurrenceregler.
-                Vi træner på de 4 momenter i Nose Work: Indendørssøg, Udendørssøg, Køretøjssøg og Beholdersøg.
-                Vi ser på søgemønstre og arbejder med fastholdelse ved kilde.
+                Nose Work er en sjov leg for alle hunde uanset alder, race og øvrige træningsbaggrund. Her er plads til alle. 
+                Nose Work er også for reaktive hunde, da der altid kun er én hund, der arbejder, mens resten venter i bilerne.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 945,- kr.</b>
+                Kurset er ment som en lyn-introduktion til legen og sporten og vil være en blanding af teori og praksis.
+                Efter kurset har du redskaberne til at kunne arbejde hjemme med de forskellige trin, du bliver præsenteret for på introen.
                 <br />
-                <i>Bemærk din hund skal være tryg ved at sidde og vente i bilen.</i>
+                I praksisdelen vil du arbejde med papkassesøg og simpelt indendørssøg. Du får en grundig introduktion til sporten, og kan med din egen hund prøve de første søg. 
+                Det gælder om at få et godt fundamentet for det at søge. Du vil lære at forstærke hundens naturlige søgeadfærd, og du vil lære at læse din hunds signaler (naturlige markeringsadfærd).
+              </Text>
+              <Text>
+                Da Nose Work går ud på at lære din hund at finde specifikke dufte overalt - i alle miljøer - vil du på kurset også lære, hvordan du håndterer de forskellige dufte korrekt. I Nose Work arbejder man med 3 forskellige dufte: Lavendel, eukalyptus og anis. Lavendel er den første duft (iflg. konkurrenceprogrammet), og derfor den duft, vi vil koncentrere os om.
+                Du vil blive præsenteret for lavendelduften både som æterisk olie og som hydrolat. Du lærer, hvordan du med olie kontaminerer (smitter) emner med duft. Det er vigtigt, at dette gøres korrekt, da du ellers kan spolere meget for dig selv og din hund. Og du lærer, hvordan du kan arbejde med hydrolater.
+                Du og din hund får også lov at lave et enkelt søg eller to med parringer (godbid + duft).
+              </Text>
+              <Text>
+                Alle deltagere på kurset vil få udleveret et startkit til videre træning hjemme. Startkittet består af:
+                <TextListMark texts={NW} />
+                Kurset har plads til max 4 hunde, så der er god tid til hver.
+              </Text>
+              <Text>
+                <b>Deltagelse pr. hund: 1.095,- kr.</b>
                 <br />
-                Max 5 snuder pr. hold.<br />
-                Kurset strækker sig over 3 dage med op til 90 minutters undervisning hver dag.
-                Kurset henvender sig til hunde i alle aldre
+                <i>Bemærk din hund skal være tryg ved at sidde og vente i bilen, da hundene er på én ad gangen!</i>                
               </Text>
             </TextContainer>
           </FlexedRow>
           <br />
-          <Text bold>Tilmelding til Nose Work for øvede:</Text>
+          <Text bold>Tilmelding til Introduktion til Nose Work:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/WvWr" />
         </Column>
-      </Row> */}
+      </Row>
 
       <br />
       <br />

@@ -78,7 +78,7 @@ const DogSpot = () => (
                 Ikke mindst gennemgår vi aktiveringsopgaver til de dage hvor det skal gå hurtigt, hvor hunden kan underholde sig selv mens du får klaret andre gøremål.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 190,- kr.</b>
+                <b>Deltagelse pr. snude: 225,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
@@ -139,7 +139,7 @@ const DogSpot = () => (
                 Du vil gå fra dagen med gode teknikker til at lære din hund at finde roen i forbindelse med social kontakt med andre.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 190,- kr.</b>
+                <b>Deltagelse pr. snude: 225,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
@@ -169,7 +169,7 @@ const DogSpot = () => (
                 styrke jeres fælles samarbejde.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 190,- kr.</b>
+                <b>Deltagelse pr. snude: 225,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
@@ -199,7 +199,7 @@ const DogSpot = () => (
                 start/slut signaler.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 190,- kr.</b>
+                <b>Deltagelse pr. snude: 225,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
@@ -229,7 +229,7 @@ const DogSpot = () => (
                 Vi kigger på konceptet selv med forstyrrelser i brug!
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 190,- kr.</b>
+                <b>Deltagelse pr. snude: 225,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
               </Text>
