@@ -40,23 +40,13 @@ const Contact = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
-          <TitleColor text="Jeg takserer for både telefonsamtaler og skriftlig korrespondance på mail/facebook" />
-          <Text>
-            Se mere om dette under <StyledLink to="/hundehold"> Priser</StyledLink>.
-            <br />
-          </Text>
-          <Text bold>
-            Har du spørgsmål vedrørende din hund eller kat og ønsker at høre om jeg kan hjælpe?
-          </Text>
-          <FlexRow>
+          <Title text="Har du spørgsmål vedrørende din hund eller kat og ønsker at høre om jeg kan hjælpe?" />
             <Text>
               Så send mig en mail på:
               <StyledExternal href="mailto:info@svanesdyr.dk"> info@svanesdyr.dk</StyledExternal>
               <br />
               Jeg har kontortid mandage og torsdage og besvarer dine mails i dette tidsrum
             </Text>
-          </FlexRow>
-          <FlexRow>
             <Text>
               Du kan sende en sms eller giv mig et kald på:
               <br />
@@ -64,7 +54,12 @@ const Contact = () => (
               <br />
               Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket.
             </Text>
-          </FlexRow>
+            <TitleColor text="Jeg takserer for min rådgivning på hhv. telefon og skriftlig korrespondance på mail/facebook" />
+            <Text>
+              Se mere om dette under <StyledLink to="/prisoversigt"> Priser</StyledLink>.
+              <br />
+              Det er selvfølgelig gratis at spørge om din problemstilling er noget jeg kan hjælpe med eller hvis du ønsker at høre hvad jeg kan tilbyde.
+            </Text>
           <br />
           <Title color="#872f35" text="Svanes Dyr holder midlertidigt lukket for nye kunder!" />
           <Text>
@@ -125,10 +120,10 @@ const Background = styled.div`
   `}
 `;
 
-const FlexRow = styled.div`
-  display: flex;
-  flex-direction: row;
-  ${Responsive.media.tablet`
-    flex-direction: column;
-  `}
-`;
+// const FlexRow = styled.div`
+//   display: flex;
+//   flex-direction: row;
+//   ${Responsive.media.tablet`
+//     flex-direction: column;
+//   `}
+// `;

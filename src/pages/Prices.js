@@ -40,10 +40,10 @@ const Prices = () => (
               </Text>
               <Text>
                 Hverdage man-tors før kl. 18.00:
-                <b> 275,- kr.</b> pr. 15 min.
+                <b> 1.100,- kr.</b> pr. time
                 <br />
                 Hverdage man-tors efter kl. 18.00:
-                <b> 375,- kr.</b> pr. 15 min.
+                <b> 1.500,- kr.</b> pr. time
                 <br />
                 Fredage, lørdage, samt søndage og helligdage:
                 <b> Lukket </b>
@@ -72,10 +72,10 @@ const Prices = () => (
                 Takseres til almindelig konsultationspris per påbegyndt kvarter:
                 <br />
                 Hverdage man-fre før kl. 18.00:
-                <b> 275,- kr.</b> pr. 15 min.
+                <b> 1.100,- kr.</b> pr. time
                 <br />
                 Hverdage man-tors efter kl. 18.00:
-                <b> 375,- kr.</b> pr. 15 min.
+                <b> 1.500,- kr.</b> pr. time
                 <br />
               </Text>
               <Text>
@@ -95,7 +95,7 @@ const Prices = () => (
                 Takseres til almindelig konsultationspris:
                 <br />
                 Hverdage man-fre før kl. 18.00:
-                <b> 275,- kr.</b> pr. 15 min.
+                <b> 1.100,- kr.</b> pr. time
               </Text>
               <Text>
                 Der takseres per påbegyndt kvarter.
@@ -103,6 +103,9 @@ const Prices = () => (
                 Faktura tilsendes på mail efter samtale. Eller du har mulighed for at mobilepay.
                 <br />
                 <i>Ved booking af konsultation takseres der ikke for pågældende samtale.</i>
+              </Text>
+              <Text>
+                Det er selvfølgelig gratis at ringe og spørge om din problemstilling er noget jeg kan hjælpe med eller hvis du ønsker at høre hvad jeg kan tilbyde.
               </Text>
           <Title text="Skriftlig konsultation" />
               <Text>
@@ -113,6 +116,9 @@ const Prices = () => (
                 Faktura tilsendes på mail ved besvarelse.
                 <br />
                 <i>Ved booking af konsultation takseres der ikke for pågældende mail-samtale eller facebook-samtale.</i>
+              </Text>
+              <Text>
+                Det er selvfølgelig gratis at skrive og spørge om din problemstilling er noget jeg kan hjælpe med eller hvis du ønsker at høre hvad jeg kan tilbyde.
               </Text>
           <Title text="Afbud til konsultation" />
           <TitleColor text="Skal meldes senest 24 timer før aftalt tidspunkt!" />
