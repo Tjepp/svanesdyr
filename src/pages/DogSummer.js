@@ -192,9 +192,10 @@ const DogSummer = () => (
                 <br />
                 Til dig der ønsker at få mere afslappede gåture, med en hund der kan finde ro og gå
                 pænt i snor uden at hive armen af dig. Holdet henvender sig til alle hunde i alle
-                aldre, som har tendens til at stresse op på en gåtur. Du får redskaberne til at
+                aldre, som har tendens til at stresse op på en gåtur og får "travlt". Du får redskaberne til at
                 skabe en kontaktsøgende og rolig hund, gennem forskellige øvelser, der også vil
-                styrke jeres fælles samarbejde.
+                styrke jeres fælles samarbejde.<br />
+                Holdet henvender sig ikke til hunde der reagerer negativt på andre hunde og mennesker.
               </Text>
               <Text>
                 <b>Deltagelse pr. snude: 275,- kr.</b>
