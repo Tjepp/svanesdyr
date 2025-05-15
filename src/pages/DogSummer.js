@@ -130,7 +130,7 @@ const DogSummer = () => (
                 er spændende ting at give sig til, så er det stadig FEDT at komme når du kalder!
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 295,- kr.</b>
+                <b>Deltagelse pr. snude: 275,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
                 <br />
@@ -165,7 +165,7 @@ const DogSummer = () => (
                 hundens selvtillid. Alle hunde i alle aldre kan deltage.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 295,- kr.</b>
+                <b>Deltagelse pr. snude: 275,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
                 <br />
@@ -197,7 +197,7 @@ const DogSummer = () => (
                 styrke jeres fælles samarbejde.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 295,- kr.</b>
+                <b>Deltagelse pr. snude: 275,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
                 <br />
@@ -230,7 +230,7 @@ const DogSummer = () => (
                 Du vil gå fra dagen med gode teknikker til at lære din hund at finde roen i forbindelse med social kontakt med andre.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 295,- kr.</b>
+                <b>Deltagelse pr. snude: 275,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
                 <br />
@@ -327,7 +327,7 @@ const DogSummer = () => (
                 du lærer din hund Zig-zag mellem ben, kravle og snurre-rundt.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 295,- kr.</b>
+                <b>Deltagelse pr. snude: 275,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
                 <br />
@@ -357,7 +357,7 @@ const DogSummer = () => (
                 Ikke mindst gennemgår vi aktiveringsopgaver til de dage hvor det skal gå hurtigt, hvor hunden kan underholde sig selv mens du får klaret andre gøremål.
               </Text>
               <Text>
-                <b>Deltagelse pr. snude: 295,- kr.</b>
+                <b>Deltagelse pr. snude: 275,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
                 <br />
@@ -445,7 +445,7 @@ const DogSummer = () => (
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til legestue:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/o8LW" />
+          <EasyMeList src="https://ezme.io/x/x1S/dI00" />
           <br />
           <br />
         </Column>
@@ -591,7 +591,7 @@ const DogSummer = () => (
           </FlexedRow>
           <br />
           <Text bold>Tilmelding til Introduktion til Nose Work:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/WvWr" />
+          <EasyMeList src="https://ezme.io/x/x1S/dI0y" />
         </Column>
       </Row>
 
