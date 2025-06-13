@@ -121,7 +121,7 @@ const DogSocial = () => {
             <Title text="Kommende hold:" />
             <EasyMeList src="https://ezme.io/x/x1S/k3z0" />
             <br />
-            <Title color="#872f35" text="Næste holdstart er sensommeren 2025" />
+            <Title color="#872f35" text="Næste holdstart er September 2025" />
             {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver

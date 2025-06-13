@@ -10,9 +10,9 @@ import {
   Text,
   BreadCrumps,
   Row,
-  // ContactForm,
+  ContactForm,
   StyledExternal,
-  TextList,
+  // TextList,
   StyledLink,
   TitleColor,
 } from '../components';
@@ -22,13 +22,13 @@ import '../components/table/TableCss.css';
 // const SvanesDyrLocation = { lat: 55.980569, lng: 9.613036 };
 // const SvanesDyrTrainingCourseLocation = { lat: 55.890248, lng: 9.813864 };
 
-const Colleagues = [
-   'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
-   'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
-   'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
-   'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
-   'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
- ];
+// const Colleagues = [
+//    'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
+//    'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
+//    'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
+//    'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
+//    'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
+//  ];
 
 const Contact = () => (
   <Page>
@@ -45,7 +45,7 @@ const Contact = () => (
               Så send mig en mail på:
               <StyledExternal href="mailto:info@svanesdyr.dk"> info@svanesdyr.dk</StyledExternal>
               <br />
-              Jeg har kontortid mandage og torsdage og besvarer dine mails i dette tidsrum
+              Jeg har kontortid mandage og torsdage kl. 10.00 - 16.00 og besvarer dine mails i dette tidsrum
             </Text>
             <Text>
               Du kan sende en sms eller giv mig et kald på:
@@ -61,7 +61,7 @@ const Contact = () => (
               Det er selvfølgelig gratis at spørge om din problemstilling er noget jeg kan hjælpe med eller hvis du ønsker at høre hvad jeg kan tilbyde.
             </Text>
           <br />
-          <Title color="#872f35" text="Svanes Dyr holder midlertidigt lukket for nye kunder!" />
+          {/* <Title color="#872f35" text="Svanes Dyr holder midlertidigt lukket for nye kunder!" />
           <Text>
             Derfor kan jeg desværre ikke tilbyde rådgivning og hjemmebesøg til problemadfærd i øjeblikket. Jeg annoncerer her på siden når jeg har åbent for tilgang igen.
           </Text>
@@ -69,18 +69,18 @@ const Contact = () => (
             I stedet vil jeg anbefale at tage kontakt til en af mine dygtige kollegaer, som har samme belønningsbaseret tilgang som jeg:
           </Text>
           <TextList texts={Colleagues} />
+          <br /> */}
           <br />
-          <br />
-          {/* <Title color="#872f35" text="Jeg har kontortid mandage og torsdage og besvarer dine mails i dette tidsrum" /> */}
+          <Title color="#872f35" text="Jeg har få ledige tider tilbage i Juli 2025. Næste ledige tider jeg kan tilbyde bliver efter sommerferien fra September." />
           {/* <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 27. januar!" /> */}
         </Column>
       </Row>
-      {/* <Row>
+      <Row>
         <Column widthPercentage="100%">
           <Title text="Kontakt formular" showHorizontalRuler />
           <ContactForm />
         </Column>
-      </Row> */}
+      </Row>
       {/* <Row marginBottom="25px">
         <LoadScript id="script-loader" googleMapsApiKey={process.env.REACT_APP_GMAP_API_KEY}>
           <GoogleMap
