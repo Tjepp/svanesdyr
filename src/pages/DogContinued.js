@@ -42,7 +42,7 @@ const ContinuedProgram = [
 const PuppyBenefits = [
   'Gode muligheder for socialisering og leg under kontrollerede forhold',
   'Personlig sparring omkring din hund og jeres hverdag sammen',
-  'Hele 7 ugers træning med ugentligt møde',
+  'Hele 7 lektioners træning med ugentligt møde',
   'Max 4 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -92,7 +92,7 @@ const DogContinued = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 7 uger sammen vil vi komme igennem følgende:
+            <br />I løbet af vores 7 mødegange sammen vil vi komme igennem følgende:
           </Text>
           <TextList texts={ContinuedProgram} />
           {/* <Text>

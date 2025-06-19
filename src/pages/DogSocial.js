@@ -93,7 +93,7 @@ const DogSocial = () => {
             </Text>
             <Text>
               <b>Program for holdet</b>
-              <br />I løbet af vores 4 møder sammen vil vi komme igennem følgende:
+              <br />I løbet af vores 4 mødegange sammen vil vi komme igennem følgende:
             </Text>
             <TextList texts={SocialProgram} />
             <Text>

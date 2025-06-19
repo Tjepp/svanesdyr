@@ -38,7 +38,7 @@ const ReactiveBenefits = [
   '30 minutters privatlektion inkluderet, med fokus på din hund og dine behov',
   'Personlig sparring omkring din hund og jeres hverdag sammen til timerne',
   'Gode råd og tips til optimal aktivering af hunden',
-  'Hele 6 ugers træning med ugentligt holdmøde',
+  'Hele 6 lektioners træning med ugentligt holdmøde',
   'Max 3 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -106,7 +106,7 @@ const DogReactive = () => (
             svar på dine spørgsmål og jeg kan komme med konkret feedback til dig og din hund inden i
             starter i holdsammenhæng (værdi 550,- kr.).
           </Text>
-          <Text>I løbet af vores 7 uger sammen vil vi komme igennem følgende:</Text>
+          <Text>I løbet af vores 7 mødegange sammen vil vi komme igennem følgende:</Text>
           <TextList texts={ReactiveProgram} />
           <Text>
             <b>Hvad kan du forvente at få med?</b>

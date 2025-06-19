@@ -45,7 +45,7 @@ const DogCourse = () => (
           <Text>
             <b>Små hold med tid til dig og din hund</b>
             <br />
-            Jeg afholder intime hold med <b>max 5 hunde</b> og kun 4 hunde på mit Helt-Cool kursus,
+            Jeg afholder intime hold med <b>max 5 hunde</b> på alle standardhold, og max 4 hunde på Reaktiv til Ro og Helt-Cool kurset,
             da jeg værdsætter tid til en individuel snak med dig omkring samarbejdet og træningen
             med din hund. Målet er, at uanset niveau og alder så skal alle deltagere have udbytte af
             timen. Træningen er familievenlig, så tag gerne børn og den bedre halvdel med til en
@@ -57,7 +57,7 @@ const DogCourse = () => (
           <Text>
             <b>Vi ses én gang om ugen</b>
             <br />
-            Hvalpeholdene varer 8 uger og alle andre hold varer 7 uger, hvor vi mødes til træning i <b>45 min. per uge</b>. Socialiseringsholdet og miljøholdet afholdes over 4 mødegange og varer 60 min. pr. lektion, grundet holdenes formål.
+            Alle hold afholdes over 7 mødegange, hvor vi mødes til træning i <b>45 min. per mødegang</b>. Socialiseringsholdet og miljøholdet afholdes over 4 mødegange og varer 60 min. pr. lektion, grundet holdenes formål.
           </Text>
           <Text>
             Der tilsendes link til et online bibliotek, hvor du kan

@@ -48,7 +48,7 @@ const PuppyBenefits = [
   'Gode muligheder for socialisering og leg under kontrollerede forhold',
   'Personlig sparring omkring din hvalp og jeres hverdag sammen',
   'Gode råd og tips til optimal aktivering af hvalpen',
-  'Hele 8 ugers træning med ugentligt møde',
+  'Hele 7 lektioners træning med ugentligt møde',
   'Max 4 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -89,7 +89,7 @@ const DogPuppy = () => {
             </Text>
             <Text>
               <b>Træningsprogram for holdet</b>
-              <br />I løbet af vores 8 uger sammen vil vi komme igennem følgende:
+              <br />I løbet af vores 7 mødegange sammen vil vi komme igennem følgende:
             </Text>
             <TextList texts={PuppyProgram} />
             <Text>
@@ -101,7 +101,7 @@ const DogPuppy = () => {
               Tilmelding til en af de månedlige legestuer sker efter aftale med Sabrina.
             </Text>
             <Text>
-              Første lektion varer 60 minutter. Derefter varer hver lektion 45 minutter. Jeg tager udgangspunkt i din hvalp og dens behov,
+              Første og anden lektion varer op til 60 minutter. Derefter varer hver lektion 45 minutter. Jeg tager udgangspunkt i din hvalp og dens behov,
               så forvent at du til tider kan opleve at blive afsluttet tidligere end de andre
               hvalpe.
             </Text>

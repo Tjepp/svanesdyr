@@ -33,7 +33,7 @@ const FitProgram = [
 
 const FitBenefits = [
   'Personlig sparring omkring din hund og hjælp til øvelser',
-  'Hele 7 ugers træning med ugentligt møde',
+  'Hele 7 lektioners træning med ugentligt møde',
   'Max 4 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -79,7 +79,7 @@ const DogEmpower = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 7 uger sammen vil vi komme omkring øvelser, som har fokus på
+            <br />I løbet af vores 7 mødegange sammen vil vi komme omkring øvelser, som har fokus på
             følgende:
           </Text>
           <TextList texts={FitProgram} />
