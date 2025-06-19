@@ -13,8 +13,8 @@ import {
   ContactForm,
   StyledExternal,
   // TextList,
-  StyledLink,
-  TitleColor,
+  // StyledLink,
+  // TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -54,12 +54,12 @@ const Contact = () => (
               <br />
               Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket.
             </Text>
-            <TitleColor text="Jeg takserer for min rådgivning på hhv. telefon og skriftlig korrespondance på mail/facebook" />
+            {/* <TitleColor text="Jeg takserer for min rådgivning på hhv. telefon og skriftlig korrespondance på mail/facebook" />
             <Text>
               Se mere om dette under <StyledLink to="/prisoversigt"> Priser</StyledLink>.
               <br />
               Det er selvfølgelig gratis at spørge om din problemstilling er noget jeg kan hjælpe med eller hvis du ønsker at høre hvad jeg kan tilbyde.
-            </Text>
+            </Text> */}
           <br />
           {/* <Title color="#872f35" text="Svanes Dyr holder midlertidigt lukket for nye kunder!" />
           <Text>

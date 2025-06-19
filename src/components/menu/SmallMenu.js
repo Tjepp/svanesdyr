@@ -10,6 +10,7 @@ const SmallMenu = ({ onClick, showSidebar }) => (
       <FontAwesomeIcon icon="bars" color="#fff" size="1x" />
     </MenuButton>
     <CollapsibleMenu showSidebar={showSidebar}>
+      <SmallMenuItem url="/kontakt" text="Kontakt" />
       <SmallMenuItem url="/hundehold" text="Hundehold" />
       <SmallMenuItem url="/onlinekurser" text="Onlinekurser" />
       <SmallMenuItem url="/hundetraening" text="Hund" />
@@ -19,7 +20,6 @@ const SmallMenu = ({ onClick, showSidebar }) => (
       <SmallMenuItem url="/foredrag" text="Foredrag" />
       <SmallMenuItem url="/dyreadfaerdskonsulent" text="Om Mig " />
       <SmallMenuItem url="/minemetoder" text="Mine metoder" />
-      <SmallMenuItem url="/kontakt" text="Kontakt" />
     </CollapsibleMenu>
   </>
 );
@@ -32,7 +32,7 @@ SmallMenu.propTypes = {
 export default SmallMenu;
 
 const CollapsibleMenu = styled.div`
-  height: ${(props) => (props.showSidebar ? '336px' : '0')};
+  height: ${(props) => (props.showSidebar ? '395px' : '0')};
   width: 100%;
   overflow: hidden;
   transition: all 0.5s ease-out;
