@@ -12,6 +12,8 @@ import {
   TestiCoolSeven,
   TestiCoolEight,
   TestiCoolNine,
+  TestiCoolTen,
+  TestiCoolEleven,
 } from '../../assets';
 
 const DogCoolTestimonials = () => (
@@ -37,8 +39,23 @@ const DogCoolTestimonials = () => (
         </Text>
         <Text>
           Det var været et rigtigt godt træningsforløb, hvor der også var tid til at spørge om de udfordringer, som vi stod med.
-          Jeg oplevede at Sabrina så hvad Otto havde brug for, det gav også en ro til mig.</Text>
+          Jeg oplevede at Sabrina så hvad Otto havde brug for, det gav også en ro til mig.
+          </Text>
         <Text>Trine og Otto</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiCoolTen} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Jeg har været så glad for den måde som du, Sabrina, underviser på. Du får mig til at føle mig set og tilretter dine øvelser til hver enkelt hund. ” " />
+        <Text>
+          Det bedste ved kurset har været de mange forskellige øvelser der bliver stillet, og der har været plads til at give de variationer hver hund har brug for.
+        </Text>
+        <Text>
+          Selvom prisen var høj, har det været det hele værd. Jeg har fået større kontakt med min hund og Elwis finder meget mere ro her hjemme og er blevet bedre til at gå forbi andre hunde. 
+        </Text>
+        <Text>Tina og Elwis</Text>
       </TextContainer>
     </FlexedRow>
 
@@ -58,6 +75,23 @@ const DogCoolTestimonials = () => (
           de fleste kan være med på.
         </Text>
         <Text>Jeanette Schouborg og Kenzo</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiCoolEleven} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”I starten virkede mad eller legetøj ikke nær andre hunde, men jeg fik nogle bedre metoder til at få kontakt til Zeus, så gåture er blevet super nemme nu!” " />
+        <Text>
+          Jeg vil klart anbefale kurset til alle som har hunde, som er svære at træne. Dem som ikke vil tage imod legetøj eller mad, når der f.eks er andre hunde. Og hunde som i det hele taget har svært ved at finde ro.
+        </Text>
+        <Text>
+          Jeg har lært min hund at være helt ligeglad med mennesker, bedre bliv og indkald og fået metoder til at krydse andre hunde. Det var vildt fedt at se så dygtig som Zeus blev fra uge til uge. 
+        </Text>
+        <Text>
+          Jeg var spændt på hvordan Zeus ville tage det, da han var begyndt at blive "irriterende", inden vi startede på kurset. Men det hjalp ham rigtig meget, og han er en helt anden hund nu. 
+        </Text>
+        <Text>Simone og Zeus</Text>
       </TextContainer>
     </FlexedRow>
 

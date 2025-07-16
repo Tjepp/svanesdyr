@@ -17,6 +17,7 @@ import {
   TestiPupTen,
   TestiPupEleven,
   TestiPupTwelve,
+  TestiPupThirteen,
 } from '../../assets';
 
 const DogPuppyTestimonials = () => (
@@ -39,6 +40,24 @@ const DogPuppyTestimonials = () => (
           Jeg har ikke haft hund tidligere, så det er en stor ny verden der har åbnet sig for mig.
         </Text>
         <Text>Annette og Mickie</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <Image src={TestiPupThirteen} width="200px" height="300px" />
+      <TextContainer>
+        <TitleColor text=" ”Jeg var nervøs for at jeg ikke ville få indført træningen i hverdagen, men det har kun gjort det nemmere at være hvalpeejer og træningen bliver brugt flere gange om dagen” " />
+        <Text>
+          Vi er fan af mindre hold og gør at træningen nok har gjort det nemmere at føle man får noget ud af det. Man har samtidig følt man kunne spørge dig til råds om andre ting og kun fået gode svar som har hjulpet. 
+        </Text>
+        <Text>
+          Jeg har fået gode råd til at ændre uønsket adfærd - gode råd man nemt kan indføre i hverdagen. Jeg har fået “Ro” i en hverdag med en hvalp gr. 
+          Tips til uønsket adfærd, viden om opførsel bl.a. ift overstimulering og bedre og mere rolige gåture med råd fra erfaren træner. Man ved hvordan man skal arbejde/ håndtere det med tips fra dig.
+        </Text>
+        <Text>
+          Har allerede anbefalet dig til en og har kun snakket godt om dine hold. Du virker engageret, og Karlo elsker at komme ude ved dig.
+        </Text>
+        <Text>Cecilie Iversen, Karlo</Text>
       </TextContainer>
     </FlexedRow>
 
