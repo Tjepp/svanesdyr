@@ -5,7 +5,7 @@ import { StyledMenuLinkWithIcon } from '..';
 const DogMenu = () => (
   <MenuContainer>
     <StyledMenuLinkWithIcon link="/hundehold/" text="Praktisk info om hold" />
-    <StyledMenuLinkWithIcon link="/sommerhund" text="Sommerkurser 2025" /> 
+    {/* <StyledMenuLinkWithIcon link="/sommerhund" text="Sommerkurser 2025" />  */}
     {/* <StyledMenuLinkWithIcon link="/spotkurser" text="Spotkurser 2025" /> */}
     <StyledMenuLinkWithIcon link="/hundehold/legestue" text="Hundelegestue" />
     <StyledMenuLinkWithIcon link="/hundehold/hvalpehold" text="Hvalpehold" />
