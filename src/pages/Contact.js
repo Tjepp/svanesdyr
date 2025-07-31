@@ -71,8 +71,8 @@ const Contact = () => (
           <TextList texts={Colleagues} />
           <br /> */}
           <br />
-          <Title color="#872f35" text="Jeg har få ledige tider tilbage i Juli 2025. Næste ledige tider jeg kan tilbyde bliver efter sommerferien fra September." />
-          {/* <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 27. januar!" /> */}
+          {/* <Title color="#872f35" text="Jeg har få ledige tider tilbage i Juli 2025. Næste ledige tider jeg kan tilbyde bliver efter sommerferien fra September." /> */}
+          <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 27. august!" />
         </Column>
       </Row>
       <Row>
