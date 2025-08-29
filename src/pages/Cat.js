@@ -71,7 +71,7 @@ const Cat = () => (
             <StyledLink to="/kontakt"> bestille en konsultation </StyledLink>
             hos Sabrina Svane.
           </Text>
-          <TitleColor text="Jeg afholder i øjeblikket ferie og kan først tilbyde konsultation igen fra September." />
+          {/* <TitleColor text="Jeg afholder i øjeblikket ferie og kan først tilbyde konsultation igen fra September." /> */}
         </Column>
       </Row>
       <Row>

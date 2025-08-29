@@ -99,7 +99,7 @@ const Dog = () => (
             Læs mere om de problemstillinger jeg kan hjælpe med længere ned på siden, og er du det mindste i tvivl om din hunds udfordring hører under mit speciale, er du selvfølgelig altid velkommen til
             <StyledLink to="/kontakt"> at kontakte mig</StyledLink> for at høre nærmere.
           </Text>
-          <TitleColor text="Jeg afholder i øjeblikket ferie og kan først tilbyde konsultation igen fra September." />
+          {/* <TitleColor text="Jeg afholder i øjeblikket ferie og kan først tilbyde konsultation igen fra September." /> */}
         </Column>
       </Row>
       <Row>
