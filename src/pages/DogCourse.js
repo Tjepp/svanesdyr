@@ -57,8 +57,11 @@ const DogCourse = () => (
           <Text>
             <b>Vi ses én gang om ugen</b>
             <br />
-            Alle hold afholdes over 7 mødegange, hvor vi mødes til træning i <b>45 min. per mødegang</b>. Socialiseringsholdet og miljøholdet afholdes over 4 mødegange og varer 60 min. pr. lektion, grundet holdenes formål.
+            Alle hold afholdes som hovedregel over 6 mødegange, hvor vi mødes til træning i <b>45-50 min. per mødegang</b>.<br />
+            Hvalpeholdet har en ekstra lektion til gåtur i Bygholm Park, udover de 6 lektioner på banen.
+            Specialkurserne Reaktiv til Ro og Helt-Cool har privat sparring inkluderet og har derfor også en ekstra mødegang inkluderet.
           </Text>
+          <Text>Socialiseringsholdet og miljøholdet afholdes over 4 mødegange og varer 60 min. pr. lektion, grundet holdenes formål.</Text>
           <Text>
             Der tilsendes link til et online bibliotek, hvor du kan
             downloade skriftlige guides på kursets øvelser, så det er let at træne videre hjemme. Du
