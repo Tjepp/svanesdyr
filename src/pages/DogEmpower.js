@@ -33,7 +33,7 @@ const FitProgram = [
 
 const FitBenefits = [
   'Personlig sparring omkring din hund og hjælp til øvelser',
-  'Hele 7 lektioners træning med ugentligt møde',
+  'Hele 6 lektioners træning med ugentligt møde',
   'Max 4 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -79,7 +79,7 @@ const DogEmpower = () => (
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores 7 mødegange sammen vil vi komme omkring øvelser, som har fokus på
+            <br />I løbet af vores 6 mødegange sammen vil vi komme omkring øvelser, som har fokus på
             følgende:
           </Text>
           <TextList texts={FitProgram} />
@@ -92,14 +92,14 @@ const DogEmpower = () => (
           <br />
 
           <Title text="Holdstart for Fit Empowerment" showHorizontalRuler />
-          <TitleColor text="Din investering: 1295 kr." />
+          <TitleColor text="Din investering: 1095 kr." />
           <Text>i at få en selvsikker og kreativ hund, som synes al træning med dig er FEDT.</Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/WXZW" />
           <br />
-          <Title color="#872f35" text="Næste holdstart er November 2025" />
+          <Title color="#872f35" text="Næste holdstart er Februar 2026" />
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
             jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min venteliste. 
