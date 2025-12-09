@@ -38,7 +38,7 @@ const ReactiveBenefits = [
   '30 minutters privatlektion inkluderet, med fokus på din hund og dine behov',
   'Personlig sparring omkring din hund og jeres hverdag sammen til timerne',
   'Gode råd og tips til optimal aktivering af hunden',
-  'Hele 6 lektioners træning med ugentligt holdmøde',
+  'Hele 5 lektioners træning med ugentligt holdmøde',
   'Max 3 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -84,7 +84,7 @@ const DogReactive = () => (
             <b>Passer kurset til din hund?</b>
             <br />
             Kurset henvender sig til hunde der udviser nervøsitet eller ængstelse for andre hunde eller reagerer aggressivt i mødet med dem.
-            Din hund skal være ok med andre hunde indenfor en afstand på 50 meter.
+            Din hund skal være ok med andre hunde indenfor en afstand på 30 meter.
             Kan din hund ikke tåle blot synet af en anden hund - og reagerer uanset afstanden - så vil jeg anbefale dig 
             at <StyledLink to="/kontakt"> booke tid </StyledLink> til en <StyledLink to="/hundetraening"> konsultation</StyledLink>, hvor du kan få personlig
             vejledning og redskaber til at hjælpe din hund.
@@ -106,7 +106,7 @@ const DogReactive = () => (
             svar på dine spørgsmål og jeg kan komme med konkret feedback til dig og din hund inden i
             starter i holdsammenhæng (værdi 550,- kr.).
           </Text>
-          <Text>I løbet af vores 7 mødegange sammen vil vi komme igennem følgende:</Text>
+          <Text>I løbet af vores 6 mødegange sammen vil vi komme igennem følgende:</Text>
           <TextList texts={ReactiveProgram} />
           <Text>
             <b>Hvad kan du forvente at få med?</b>
@@ -130,7 +130,7 @@ const DogReactive = () => (
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/dflH" />
           <br />
-          <Title color="#872f35" text="Næste holdstart er Februar 2026" />
+          <Title color="#872f35" text="Næste holdstart er Marts 2026" />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
