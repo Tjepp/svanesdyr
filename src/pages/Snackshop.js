@@ -20,12 +20,12 @@ const Snackshop = () => (
         <Column widthPercentage="100%">
           <Image src={SnackshopCover} />
           <br />
-          <TitleCenter text="Snackshoppen åbner fredag den 7. november kl. 12.00 - 17.00" />
-          <TitleCenter text="På adressen Horsensvej 31, Nim, 8740 Brædstrup" />
+          <TitleCenter text="Snackshoppen kan besøges på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
           <Text>
             Snackshoppen er en lille, intim gårdbutik i udkanten af Nim, med et stort udvalg af naturlige, tørrede snacks og godbidder til din bedste ven
           </Text>
-          <TitleCenter text="Snackshoppens åbningstider er den første fredag i måneden kl. 12.00 - 17.00" />
+          {/* <TitleCenter text="Snackshoppens åbningstider er den første fredag i måneden kl. 12.00 - 17.00" /> */}
+          <TitleCenter text="Snackshoppen holder JULE-Åbent hver fredag frem til jul fra kl. 12.00 - 17.00. Besøg os den 5. dec, 12. dec og 19. dec" />
         </Column>
       </Row>
 
