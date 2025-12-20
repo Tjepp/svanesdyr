@@ -39,10 +39,6 @@ const DogCourse = () => (
             i styrker jeres fælles samarbejde.
           </Text>
           <Text>
-            Nøgleord for træningen er derfor{' '}
-            <StyledLink to="/minemetoder"> samarbejde, tillid og succes</StyledLink>.
-          </Text>
-          <Text>
             <b>Små hold med tid til dig og din hund</b>
             <br />
             Jeg afholder intime hold med <b>max 5 hunde</b> på alle standardhold, og max 4 hunde på Reaktiv til Ro og Helt-Cool kurset,

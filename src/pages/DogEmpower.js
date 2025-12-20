@@ -81,14 +81,21 @@ const DogEmpower = () => (
             <b>Træningsprogram for holdet</b>
             <br />I løbet af vores 6 mødegange sammen vil vi komme omkring øvelser, som har fokus på
             følgende:
-          </Text>
           <TextList texts={FitProgram} />
+          </Text>
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Fit Empowerment får du:
-          </Text>
           <TextList texts={FitBenefits} />
+          </Text>
+          <Text>
+            <b>Træningsplads</b>
+            <br />
+            Jeg afholder træning på følgende adresse: Horsensvej 31, Nim, 8740 Brædstrup
+            <br />
+            Træningen foregår som udgangspunkt udendørs, men ved slem vind, regn eller frost går vi indendørs.
+          </Text>
           <br />
 
           <Title text="Holdstart for Fit Empowerment" showHorizontalRuler />
@@ -100,11 +107,11 @@ const DogEmpower = () => (
           <EasyMeList src="https://ezme.io/x/x1S/WXZW" />
           <br />
           <Title color="#872f35" text="Næste holdstart er Marts 2026" />
-          <Text>
+          {/* <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
             jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min venteliste. 
             Kursister der allerede går hos mig har førsteprioritet til en plads. Derefter åbner jeg op for ventelisten.
-          </Text>
+          </Text> */}
           <Text>
             Vil du skrives op til næste opstart, så smid mig en besked om dit holdønske her:
           </Text>

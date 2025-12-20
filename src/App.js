@@ -35,10 +35,8 @@ import {
   DogCool,
   DogCoolContinued,
   DogCoolEnvironment,
-  // DogRecall,
   DogSocial,
   DogEmpower,
-  // DogMorning,
   DogCircle,
   DogStylist,
   DogSpot,
@@ -105,13 +103,11 @@ const App = () => {
         <Route path="/hundehold" element={<DogCourse />} />
         <Route path="/hundehold/tusindtak" element={<DogCourseThanks />} />
         <Route path="/hundehold/empowerment" element={<DogEmpower />} />
-        {/* <Route path="/hundehold/formiddagshold" element={<DogMorning />} /> */}
         {/* <Route path="/hundehold/negleklipkursus" element={<DogNailClip />} /> */}
         {/* <Route path="/hundehold/noseworkintro" element={<DogNoseWork />} /> */}
-        <Route path="/hundehold/legestue" element={<DogPlay />} />
+        <Route path="/legestue" element={<DogPlay />} />
         <Route path="/hundehold/hvalpehold" element={<DogPuppy />} />
         <Route path="/hundehold/reaktivtilro" element={<DogReactive />} />
-        {/* <Route path="/hundehold/indkald" element={<DogRecall />} /> */}
         <Route path="/hundehold/socialisering" element={<DogSocial />} />
         <Route path="/spotkurser" element={<DogSpot />} />
         <Route path="/hundehold/tryghundepleje" element={<DogStylist />} />

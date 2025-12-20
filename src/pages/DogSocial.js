@@ -94,20 +94,27 @@ const DogSocial = () => {
             <Text>
               <b>Program for holdet</b>
               <br />I løbet af vores 4 mødegange sammen vil vi komme igennem følgende:
-            </Text>
             <TextList texts={SocialProgram} />
+            </Text>
             <Text>
               <b>Hvad kan du forvente at få med?</b>
               <br />
               Ved deltagelse på Socialiseringsholdet får du:
-            </Text>
             <TextList texts={SocialBenefits} />
+            </Text>
             <Text>
               Al træning foregår med{' '}
               <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor
               vi bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med
               mad. Hvis din hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere
               letforståelig. Alle bliver sat op til succes.
+            </Text>
+            <Text>
+              <b>Træningsplads</b>
+              <br />
+              Jeg afholder træning på følgende adresse: Horsensvej 31, Nim, 8740 Brædstrup
+              <br />
+              Træningen foregår udendørs.
             </Text>
             <br />
             <Title text="Holdstart for Socialiseringsholdet" showHorizontalRuler />

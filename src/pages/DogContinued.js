@@ -48,16 +48,6 @@ const PuppyBenefits = [
   'Udleveret en klikker til valgfrit brug i træningen',
 ];
 
-// const ContinuedTwoProgram = [
-//   'Doggie-zen, ro omkring flere spændende sager',
-//   'Øvelser i kropskontrol og kropsbevidsthed',
-//   'Empowermentøvelse: Targettræning med poter',
-//   'Hverdagsgåture med kontakt og ro',
-//   'Træning af indkald med fristelser',
-//   'Træning af at blive i position',
-//   'Træning af ejer med klikkertiming og belønningsleveringer',
-// ];
-
 const DogContinued = () => (
   <Page>
     <MetaDogContinued />
@@ -93,21 +83,25 @@ const DogContinued = () => (
           <Text>
             <b>Træningsprogram for holdet</b>
             <br />I løbet af vores 6 mødegange sammen vil vi komme igennem følgende:
-          </Text>
           <TextList texts={ContinuedProgram} />
-          {/* <Text>
-            Programmet inkluderer en lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt og
-            ro i nyt miljø.
-          </Text> */}
+          </Text>
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Hvalpe-fortsætterholdet får du:
-          </Text>
           <TextList texts={PuppyBenefits} />
+          </Text>
           <Text>
-            Der er afsat tid til <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> til
-            timerne.
+            Der er afsat tid til kontrolleret leg til timerne, hvilket giver mulighed for at tage hensyn til den enkelte hund.
+            Her får du indsigt i hvad der er passende leg mellem hundene og hvilke signaler
+            der gives, når din eller en anden hund siger stop. Du lærer at kontrollere legen på hundenes præmisser.
+          </Text>
+          <Text>
+            <b>Træningsplads</b>
+            <br />
+            Jeg afholder træning på følgende adresse: Horsensvej 31, Nim, 8740 Brædstrup
+            <br />
+            Træningen foregår som udgangspunkt udendørs, men ved slem vind, regn eller frost går vi indendørs.
           </Text>
           <br />
 
@@ -136,24 +130,6 @@ const DogContinued = () => (
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
           <br />
           <br />
-
-          {/* <Title text="Fortsætterhold Trin2+" showHorizontalRuler />
-          <Text>
-            Ved efterspørgsel udbydes der fortsætterhold for kursister, som har deltaget på
-            tidligere hvalpe-fortsætterhold. Trin 2 bygger videre på tidligere indlærte øvelser og
-            giver mere udfordring til både hund og ejer i shaping, kropskontrol og tricks.
-          </Text>
-          <Text>
-            <b>Træningsprogram for Fortsætter-holdet</b>
-          </Text>
-          <TextList texts={ContinuedTwoProgram} />
-          <Text italic>Ingen kommende opstart planlagt i øjeblikket</Text>
-
-          <TitleColor text="Hold startes op på efterspørgsel." />
-          <Text>
-            <StyledLink to="/kontakt">Kontakt mig ved interesse.</StyledLink>
-          </Text>
-          <br /> */}
 
           <Title text="Stemningsbilleder fra fortsætterhold" showHorizontalRuler />
           <Row>

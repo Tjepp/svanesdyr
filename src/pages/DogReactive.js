@@ -106,17 +106,25 @@ const DogReactive = () => (
             svar på dine spørgsmål og jeg kan komme med konkret feedback til dig og din hund inden i
             starter i holdsammenhæng (værdi 550,- kr.).
           </Text>
-          <Text>I løbet af vores 6 mødegange sammen vil vi komme igennem følgende:</Text>
+          <Text>I løbet af vores 6 mødegange sammen vil vi komme igennem følgende:
           <TextList texts={ReactiveProgram} />
+          </Text>
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Reaktiv til Ro kurset får du:
-          </Text>
           <TextList texts={ReactiveBenefits} />
+          </Text>
           <Text>
             Der tages hensyn til at holdet er for de sensitive hunde og derfor praktiseres der god afstand før, under og efter
             timerne.
+          </Text>
+          <Text>
+            <b>Træningsplads</b>
+            <br />
+            Jeg afholder træning på følgende adresse: Horsensvej 31, Nim, 8740 Brædstrup
+            <br />
+            Træningen foregår udendørs.
           </Text>
           <br />
 

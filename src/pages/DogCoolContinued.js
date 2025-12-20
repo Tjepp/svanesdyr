@@ -35,7 +35,7 @@ const CoolContinuedBenefits = [
   'Personlig sparring omkring din hund og jeres hverdag sammen til timerne',
   'Vejledning i at passere fremmede hunde og mennesker i ro',
   'Hele 5 lektioners træning med ugentligt holdmøde',
-  'Max 4 andre holdkammerater, så der er god tid til dig',
+  'Max 3 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
 ];
 
@@ -76,16 +76,22 @@ const DogCoolContinued = () => (
           <Text>
             <b>Træningsprogram for holdet</b>
             <br />I løbet af vores 5 mødegange sammen vil vi komme igennem følgende:
-          </Text>
           <TextList texts={ContinuedCoolProgram} />
+          </Text>
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Fortsat Helt-Cool får du:
-          </Text>
           <TextList texts={CoolContinuedBenefits} />
-          <Text>Der tages hensyn til sensitive hunde og praktiseres god afstand. Til de legeglade hunde er der mulighed for lidt{' '}
-            <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> i lektionen.</Text>
+            Der er mulighed for lidt kontrolleret leg i slutningen af lektionen, efter ønske.
+          </Text>
+          <Text>
+            <b>Træningsplads</b>
+            <br />
+            Jeg afholder træning på følgende adresse: Horsensvej 31, Nim, 8740 Brædstrup
+            <br />
+            Træningen foregår udendørs.
+          </Text>
           <br />
 
           <Title text="Holdstart for Fortsat Helt-Cool" showHorizontalRuler />

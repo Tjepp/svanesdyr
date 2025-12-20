@@ -5,9 +5,9 @@ import styled from 'styled-components';
 const LargeMenu = () => (
   <Container>
     <LargeMenuItem url="/hundehold" text="Hundehold" />
+    <LargeMenuItem url="/legestue" text="Legestue " />
     <LargeMenuItem url="/onlinekurser" text="Onlinekurser " />
     <LargeMenuItem url="/hundetraening" text="Hund" />
-    {/* <LargeMenuItem url="/hestetraening" text="Hest" /> */}
     <LargeMenuItem url="/kattetraening" text="Kat" />
     <LargeMenuItem url="/prisoversigt" text="Priser" />
     <LargeMenuItem url="/foredrag" text="Foredrag" />

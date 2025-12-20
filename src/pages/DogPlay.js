@@ -18,7 +18,6 @@ import {
   StyledLink,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import DogMenu from '../components/menu/DogMenu';
 import {
   PlayOne,
   PlayTwo,
@@ -55,16 +54,12 @@ const DogPlay = () => {
   return (
     <Page>
       <MetaDogPlay />
-      <Banner text="Hundehold i Nim, nær Horsens">
+      <Banner text="Legestue for hunde i Nim, nær Horsens">
         <BreadCrumps currentPage="Legestue" />
       </Banner>
       <Background>
         <Row marginTop="25px" marginBottom="45px">
-          <Column widthPercentage="20%">
-            <Title text="Udbud af hundehold" showHorizontalRuler />
-            <DogMenu />
-          </Column>
-          <Column widthPercentage="75%">
+          <Column widthPercentage="100%">
             <Title text="Hundelegestue i Nim, nær Horsens" showHorizontalRuler />
             <Text>
               Ønsker du positive oplevelser i samvær med andre hunde, for din hvalp, unghund eller
@@ -106,8 +101,8 @@ const DogPlay = () => {
               <b>Hvad kan du forvente at få med?</b>
               <br />
               Ved deltagelse til en legestue får du:
+              <TextList texts={PlayBenefits} />
             </Text>
-            <TextList texts={PlayBenefits} />
 
             <Text>
               <b>Inddeling af racer</b>

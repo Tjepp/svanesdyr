@@ -89,9 +89,9 @@ const DogPuppy = () => {
             </Text>
             <Text>
               <b>Træningsprogram for holdet</b>
-              <br />I løbet af vores 7 mødegange sammen vil vi komme igennem følgende:
-            </Text>
+              <br />I løbet af vores 7 mødegange sammen vil vi komme igennem følgende:            
             <TextList texts={PuppyProgram} />
+            </Text>
             <Text>
               Programmet inkluderer en lektion hvor vi mødes et helt andet sted i Horsens for indlæring af kontakt
               og ro i nyt miljø.
@@ -109,11 +109,19 @@ const DogPuppy = () => {
               <b>Hvad kan du forvente at få med?</b>
               <br />
               Ved deltagelse på Hvalpeholdet får du:
-            </Text>
             <TextList texts={PuppyBenefits} />
+            </Text>
             <Text>
-              Der er afsat tid til <StyledLink to="/hundehold"> kontrolleret leg</StyledLink> til
-              timerne.
+              Der er afsat tid til kontrolleret leg til timerne, hvilket giver mulighed for at tage hensyn til den enkelte hund.
+              Her får du indsigt i hvad der er passende leg mellem hundene og hvilke signaler
+              der gives, når din eller en anden hund siger stop. Du lærer at kontrollere legen på hundenes præmisser.
+            </Text>
+            <Text>
+              <b>Træningsplads</b>
+              <br />
+              Jeg afholder træning på følgende adresse: Horsensvej 31, Nim, 8740 Brædstrup
+              <br />
+              Træningen foregår som udgangspunkt udendørs, men ved slem vind, regn eller frost går vi indendørs.
             </Text>
             <br />
             <Title text="Holdstart for Hvalpeholdet" showHorizontalRuler />

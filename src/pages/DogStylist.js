@@ -163,7 +163,13 @@ const DogStylist = () => (
             På <b>Alt-Inklusivt</b> får du dog også:
             <TextList texts={StylistBenefitsXtra} />
           </Text>
-
+          <Text>
+            <b>Træningsplads</b>
+            <br />
+            Jeg afholder træning på følgende adresse: Horsensvej 31, Nim, 8740 Brædstrup
+            <br />
+            Træningen foregår som udgangspunkt udendørs, men ved slem vind, regn eller frost går vi indendørs.
+          </Text>
           <br />
 
           <Title text="Holdstart for Tryg Frisørtid" showHorizontalRuler />
