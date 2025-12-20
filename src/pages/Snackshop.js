@@ -8,10 +8,35 @@ import {
   Image,
   Row,
   Text,
+  TextList,
+  TextListMark,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { SnackshopCover } from '../assets';
 import '../components/table/TableCss.css';
+
+const AllDogs = [
+  'Velegnet til hvalpen og hvalpetænderne',
+  'Med god tyggetid til den voksne hund ',
+  'Eller de ekstra robuste, til de heftige gnavere der savner ekstra lang tyggetid',
+];
+
+const Allergy = [
+  'Lam',
+  'Kanin',
+  'Hest',
+];
+
+const Snacks = [
+  'Buffalo',
+  'Okse',
+  'Ged',
+  'Hjort og Rådyr',
+  'Vildsvin',
+  'Gris',
+  'Kamel',
+  'Kylling',
+];
 
 const Snackshop = () => (
   <LandingpageOnline>
@@ -22,10 +47,20 @@ const Snackshop = () => (
           <br />
           <TitleCenter text="Snackshoppen kan besøges på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
           <Text>
-            Snackshoppen er en lille, intim gårdbutik i udkanten af Nim, med et stort udvalg af naturlige, tørrede snacks og godbidder til din bedste ven
+            Snackshoppen er en lille, intim gårdbutik i udkanten af Nim, med et stort udvalg af naturlige, tørrede snacks og godbidder til din bedste ven.
+            <br />
+            Du finder over 85 forskellige typer af snacks, hvor du blandt udvalget sagtens kan finde tyggesager der er:
+            <TextListMark texts={AllDogs} />
+            Find desuden lige den smagsvariant din hund er fan af eller bedst kan tåle!
+            <br />
+            Udvalget består både af allergivenlige snacks i form af:
+            <TextList texts={Allergy} />
+            Og et større udvalg af:
+            <TextList texts={Snacks} />
+            Snackposerne kommer desuden med tydelig EU-mærkat og markering, så du kan se hvor i verden godterne kommer fra og kan shoppe løs med ro i maven.
           </Text>
           {/* <TitleCenter text="Snackshoppens åbningstider er den første fredag i måneden kl. 12.00 - 17.00" /> */}
-          <TitleCenter text="Snackshoppen holder JULE-Åbent hver fredag frem til jul fra kl. 12.00 - 17.00. Besøg os den 5. dec, 12. dec og 19. dec" />
+          <TitleCenter text="Snackshoppens næste åbningsdag er: fredag den 2. januar 2026" />
         </Column>
       </Row>
 
