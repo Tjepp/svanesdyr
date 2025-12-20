@@ -45,8 +45,7 @@ class FacebookColumn extends PureComponent {
       <ColumnContainer ref={this.myContainer}>
         <Title> Facebook </Title>
         <div>
-          Følg mig på facebook, hvis du ønsker at få søde hvalpebilleder, gode artikler og
-          træningsinput i din nyhedsstrøm.
+          Følg mig på facebook, hvis du ønsker at få gode tips til at gøre hverdagen lettere for dig og din hund.
         </div>
         <MarginBottom> </MarginBottom>
         <div

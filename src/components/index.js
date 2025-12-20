@@ -68,7 +68,6 @@ export { default as FooterBottom } from './FooterBottom';
 export { default as FooterTop } from './FooterTop';
 export { default as Header } from './Header';
 export { default as Image } from './Image';
-export { default as InfoDogCourses } from './InfoDogCourses';
 export { default as LandingpageCallMe } from './LandingpageCallMe';
 export { default as LandingpageHeadline } from './LandingpageHeadline';
 export { default as LPHeadlineWalk } from './LPHeadlineWalk';

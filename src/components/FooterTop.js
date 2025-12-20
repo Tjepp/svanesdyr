@@ -23,7 +23,7 @@ const ShortAboutMe = () => (
     <div>
       Svanes Dyr drives af Sabrina Svane, som er certificeret Dyreadfærdskonsulent (BSc ABT). Jeg
       specialiserer mig i løsning af problemadfærd hos henholdsvis hunde og katte og kommer gerne på
-      hjemmebesøg. Jeg anvender belønningsbaserede træningsmetoder og tilbyder holdtræning i Nim nær Horsens
+      hjemmebesøg. Mit speciale er hvalpe, aggression og stress. Jeg anvender belønningsbaserede træningsmetoder og tilbyder holdtræning i Nim nær Horsens
       for familiehunde.
     </div>
   </ColumnContainer>
