@@ -60,7 +60,7 @@ const Snackshop = () => (
             Snackposerne kommer desuden med tydelig EU-mærkat og markering, så du kan se hvor i verden godterne kommer fra og kan shoppe løs med ro i maven.
           </Text>
           {/* <TitleCenter text="Snackshoppens åbningstider er den første fredag i måneden kl. 12.00 - 17.00" /> */}
-          <TitleCenter text="Snackshoppens næste åbningsdag er: fredag den 2. januar 2026 fra kl. 12.00 - 17.00" />
+          <TitleCenter text="Snackshoppens næste åbningsdag er: fredag den 6. februar 2026 fra kl. 12.00 - 17.00" />
         </Column>
       </Row>
 
