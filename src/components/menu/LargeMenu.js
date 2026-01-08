@@ -11,6 +11,7 @@ const LargeMenu = () => (
     <LargeMenuItem url="/kattetraening" text="Kat" />
     <LargeMenuItem url="/prisoversigt" text="Priser" />
     <LargeMenuItem url="/foredrag" text="Foredrag" />
+    <LargeMenuItem url="/snackshoppen" text="Butik" />
     <LargeMenuItem url="/dyreadfaerdskonsulent" text="Om Mig" />
     <LargeMenuItem url="/minemetoder" text="Mine metoder" />
     <LargeMenuItem url="/kontakt" text="Kontakt" />

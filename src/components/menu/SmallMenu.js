@@ -18,6 +18,7 @@ const SmallMenu = ({ onClick, showSidebar }) => (
       <SmallMenuItem url="/kattetraening" text="Kat" />
       <SmallMenuItem url="/prisoversigt" text="Priser" />
       <SmallMenuItem url="/foredrag" text="Foredrag" />
+      <SmallMenuItem url="/snackshoppen" text="Butik" />
       <SmallMenuItem url="/dyreadfaerdskonsulent" text="Om Mig " />
       <SmallMenuItem url="/minemetoder" text="Mine metoder" />
     </CollapsibleMenu>
