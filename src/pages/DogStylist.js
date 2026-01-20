@@ -58,7 +58,7 @@ const StylistBenefits = [
 
 const StylistBenefitsXtra = [
   'Hele 3 fysiske mødegange med individuel rådgivning i jeres træning',
-  'Max 3 andre holdkammerater til møderne på træningspladsen, så der er god tid til dig og din hund',
+  'Max 3 andre hundekammerater til møderne på træningspladsen, så der er god tid til dig og din hund',
   '10 % rabat på ét frisørbesøg til hunden med alt inklusiv i bad, føn og klip hos Hundefrisør Torsten Nielsen',
 ];
 
@@ -117,8 +117,9 @@ const DogStylist = () => (
           </Text>
           <Text>
             <b>Program for holdet</b>
-            <br />Forløbet består af 3 fysiske mødegange, som afholdes med tre ugers mellemrum, så der er tid til at gå i dybden og træne mellem mødegangene,
-            samt adgang til en lukket facebookgruppe for personlig sparring mellem mødegangene.
+            <br />Forløbet består af 3 fysiske mødegange, som afholdes med 14 dages mellemrum, så der er tid til at gå i dybden og træne mellem mødegangene. 
+            To uger inden første mødegang, vil du få  
+            adgang til en lukket facebookgruppe, hvor du kan finde videomateriale på øvelserne og få personlig sparring med dine undervisere.
           </Text>
           <Text>I forløbet vil hundefrisør Torsten Nielsen dække følgende emner:
             <TextList texts={StylistProgram} />
@@ -127,18 +128,22 @@ const DogStylist = () => (
             <TextList texts={TrainerProgram} />
           </Text>
           <Text>
-            Udover det fysiske fremmøde på træningspladsen, vil du få adgang til en lukket facebookgruppe
-            en uge før vi mødes første gang. Her kan du ubegrænset stille spørgsmål til din hund og
-            jeres træning hjemme under forløbets samlede 8 ugers varighed, og lægge skriftlige spørgsmål og videoer op for personlig feedback.
+            Udover det fysiske fremmøde på træningspladsen, vil du få adgang til en lukket facebookgruppe. Her kan du ubegrænset stille spørgsmål til din hund og
+            jeres træning hjemme under forløbets samlede varighed.
             Denne gruppe har du fortsat fri adgang til når holdet afsluttes. Du vil altså stadig kunne tilgå materialet i gruppen
             efter afslutning og fortsat få sparring med de andre holddeltagere, men ikke længere få feedback fra dine undervisere.
+            Sparring med underviserne slutter 8 uger efter startdato.
           </Text>
 
           <Text>
-            <b>Alt-Inklusivt eller kun Onlinedeltagelse?</b>
-            <br />Forløbet i Tryg Frisørtid er delt op, så du kan vælge mellem <b>Alt-Inklusivt</b> med fysiske fremmøde sammen med dine to undervisere og andre holddeltagere,
-            eller kun <b>Onlinedeltagelse</b>. Forskellen på disse to valgmuligheder er, at du på Alt-Inklusivt kan få ansigt-til-ansigt sparring med dine undervisere 3 gange under forløbet,
-            hvorimod Onlinedeltagelse kun inkluderer online sparring og undervisning.
+            <b>Fysisk fremmøde eller ren Onlinedeltagelse?</b>
+            <br />Forløbet i Tryg Frisørtid er delt op, så du kan vælge hvad der passer dig bedst for deltagelse.
+            <br />Du kan vælge mellem <b>Alt-Inklusivt</b> eller <b>Observatør</b>, hvor begge inkluderer fysisk fremmøde hos Svanes Dyr, sammen med dine to undervisere og andre holddeltagere. 
+            Observatør er uden deltagelse med hunden, hvor du kan observere de andres træning og selvfølgelig stadig stille spørgsmål.
+          </Text>
+          <Text>
+            Du kan også vælge ren <b>Onlinedeltagelse</b>. Forskellen på disse valgmuligheder er, at du på Alt-Inklusivt og Observatør kan få ansigt-til-ansigt sparring med dine undervisere 3 gange under forløbet,
+            hvorimod Onlinedeltagelse kun inkluderer online sparring og undervisning. Onlinedeltagelse giver dig mulighed for at deltage på forløbet, selvom du bor langt fra Svanes Dyrs træningsplads.
           </Text>
           <Text>
             <b>Dine undervisere</b>
@@ -158,7 +163,7 @@ const DogStylist = () => (
             <br />
             Ved deltagelse på Tryg Frisørtid får du:
             <TextList texts={StylistBenefits} />
-            Ovenstående gælder uanset om du vælger Alt-Inklusivt eller kun Onlinedeltagelse.
+            Ovenstående gælder uanset om du vælger Fysisk fremmøde eller ren Onlinedeltagelse.
             <br />
             På <b>Alt-Inklusivt</b> får du dog også:
             <TextList texts={StylistBenefitsXtra} />
@@ -174,11 +179,10 @@ const DogStylist = () => (
 
           <Title text="Holdstart for Tryg Frisørtid" showHorizontalRuler />
           <Text>
-            Din investering i at kunne pleje din hunds pels og negle <u>selv</u> eller sende den til hundefrisøren
-            uden bekymring, da det bliver ren kvalitetstid fremfor overgreb:
+            Din investering i at kunne pleje din hunds pels og negle <u>selv</u>, uden bekymring, da det bliver ren kvalitetstid fremfor overgreb:
           </Text>
-          <TitleColor text="Alt-inklusivt 1795 kr. eller Onlinedeltagelse 1195 kr." />
-          <TitleColor text=" - som du kan vælge at betale over 3 måneder" />
+          <TitleColor text="Alt-inklusivt 1795 kr." />
+          <TitleColor text="Observatør eller Onlinedeltagelse 1295 kr." />
           <Text italic>
             Bemærk betaling er bindende og beløb refunderes ikke. Du kan vælge at betale i 3 rater
             over 3 måneder.
