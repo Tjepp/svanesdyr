@@ -16,7 +16,7 @@ import {
   Image,
   StyledLink,
   ContactPopUp,
-  // EasyMeList,
+  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
@@ -104,8 +104,8 @@ const DogStylist = () => (
           </Text>
           <Text>
             Da vi øver frivillig håndtering er der god mulighed for at øve andre områder af den
-            daglige pleje, som tandbørstning, dryp med øjen- eller øredråber mv. <b>Vi sætter fokus på
-            dig og din hund og jeres behov!</b>
+            daglige pleje, som tandbørstning, dryp med øjen- eller øredråber mv.{' '}
+            <b>Vi sætter fokus på dig og din hund og jeres behov!</b>
           </Text>
           <Text>
             Al træning foregår med{' '}
@@ -117,33 +117,46 @@ const DogStylist = () => (
           </Text>
           <Text>
             <b>Program for holdet</b>
-            <br />Forløbet består af 3 fysiske mødegange, som afholdes med 14 dages mellemrum, så der er tid til at gå i dybden og træne mellem mødegangene. 
-            To uger inden første mødegang, vil du få  
-            adgang til en lukket facebookgruppe, hvor du kan finde videomateriale på øvelserne og få personlig sparring med dine undervisere.
+            <br />
+            Forløbet består af 3 fysiske mødegange, som afholdes med 14 dages mellemrum, så der er
+            tid til at gå i dybden og træne mellem mødegangene. To uger inden første mødegang, vil
+            du få adgang til en lukket facebookgruppe, hvor du kan finde videomateriale på øvelserne
+            og få personlig sparring med dine undervisere.
           </Text>
-          <Text>I forløbet vil hundefrisør Torsten Nielsen dække følgende emner:
+          <Text>
+            I forløbet vil hundefrisør Torsten Nielsen dække følgende emner:
             <TextList texts={StylistProgram} />
           </Text>
-          <Text>Din adfærdsbehandler Sabrina Svane vil desuden dække følgende emner:
+          <Text>
+            Din adfærdsbehandler Sabrina Svane vil desuden dække følgende emner:
             <TextList texts={TrainerProgram} />
           </Text>
           <Text>
-            Udover det fysiske fremmøde på træningspladsen, vil du få adgang til en lukket facebookgruppe. Her kan du ubegrænset stille spørgsmål til din hund og
-            jeres træning hjemme under forløbets samlede varighed.
-            Denne gruppe har du fortsat fri adgang til når holdet afsluttes. Du vil altså stadig kunne tilgå materialet i gruppen
-            efter afslutning og fortsat få sparring med de andre holddeltagere, men ikke længere få feedback fra dine undervisere.
-            Sparring med underviserne slutter 8 uger efter startdato.
+            Udover det fysiske fremmøde på træningspladsen, vil du få adgang til en lukket
+            facebookgruppe. Her kan du ubegrænset stille spørgsmål til din hund og jeres træning
+            hjemme under forløbets samlede varighed. Denne gruppe har du fortsat fri adgang til når
+            holdet afsluttes. Du vil altså stadig kunne tilgå materialet i gruppen efter afslutning
+            og fortsat få sparring med de andre holddeltagere, men ikke længere få feedback fra dine
+            undervisere. Sparring med underviserne slutter 8 uger efter startdato.
           </Text>
 
           <Text>
             <b>Fysisk fremmøde eller ren Onlinedeltagelse?</b>
-            <br />Forløbet i Tryg Frisørtid er delt op, så du kan vælge hvad der passer dig bedst for deltagelse.
-            <br />Du kan vælge mellem <b>Alt-Inklusivt</b> eller <b>Observatør</b>, hvor begge inkluderer fysisk fremmøde hos Svanes Dyr, sammen med dine to undervisere og andre holddeltagere. 
-            Observatør er uden deltagelse med hunden, hvor du kan observere de andres træning og selvfølgelig stadig stille spørgsmål.
+            <br />
+            Forløbet i Tryg Frisørtid er delt op, så du kan vælge hvad der passer dig bedst for
+            deltagelse.
+            <br />
+            Du kan vælge mellem <b>Alt-Inklusivt</b> eller <b>Observatør</b>, hvor begge inkluderer
+            fysisk fremmøde hos Svanes Dyr, sammen med dine to undervisere og andre holddeltagere.
+            Observatør er uden deltagelse med hunden, hvor du kan observere de andres træning og
+            selvfølgelig stadig stille spørgsmål.
           </Text>
           <Text>
-            Du kan også vælge ren <b>Onlinedeltagelse</b>. Forskellen på disse valgmuligheder er, at du på Alt-Inklusivt og Observatør kan få ansigt-til-ansigt sparring med dine undervisere 3 gange under forløbet,
-            hvorimod Onlinedeltagelse kun inkluderer online sparring og undervisning. Onlinedeltagelse giver dig mulighed for at deltage på forløbet, selvom du bor langt fra Svanes Dyrs træningsplads.
+            Du kan også vælge ren <b>Onlinedeltagelse</b>. Forskellen på disse valgmuligheder er, at
+            du på Alt-Inklusivt og Observatør kan få ansigt-til-ansigt sparring med dine undervisere
+            3 gange under forløbet, hvorimod Onlinedeltagelse kun inkluderer online sparring og
+            undervisning. Onlinedeltagelse giver dig mulighed for at deltage på forløbet, selvom du
+            bor langt fra Svanes Dyrs træningsplads.
           </Text>
           <Text>
             <b>Dine undervisere</b>
@@ -173,13 +186,15 @@ const DogStylist = () => (
             <br />
             Jeg afholder træning på følgende adresse: Horsensvej 31, Nim, 8740 Brædstrup
             <br />
-            Træningen foregår som udgangspunkt udendørs, men ved slem vind, regn eller frost går vi indendørs.
+            Træningen foregår som udgangspunkt udendørs, men ved slem vind, regn eller frost går vi
+            indendørs.
           </Text>
           <br />
 
           <Title text="Holdstart for Tryg Frisørtid" showHorizontalRuler />
           <Text>
-            Din investering i at kunne pleje din hunds pels og negle <u>selv</u>, uden bekymring, da det bliver ren kvalitetstid fremfor overgreb:
+            Din investering i at kunne pleje din hunds pels og negle <u>selv</u>, uden bekymring, da
+            det bliver ren kvalitetstid fremfor overgreb:
           </Text>
           <TitleColor text="Alt-inklusivt 1795 kr." />
           <TitleColor text="Observatør eller Onlinedeltagelse 1295 kr." />
@@ -189,15 +204,16 @@ const DogStylist = () => (
           </Text>
           <br />
           <Title text="Kommende hold:" />
-          {/* <EasyMeList src="https://ezme.io/x/x1S/k37A" /> */}
+          <EasyMeList src="https://ezme.io/x/x1S/k37A" />
           <br />
           <Title color="#872f35" text="Næste holdstart er April 2026!" />
-          <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" />
-          {/* <Text>
-            Hold startes op på efterspørgsel Ønsker du at deltage på forløbet?
+          {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
+          <Text>
+            Hold startes op på efterspørgsel! Ønsker du at deltage på forløbet?
             <br />
-            Smid en mail med du er interesseret, så starter vi forløbet op når der er minimum 3 klar til at starte!
-          </Text> */}
+            Smid en mail med du er interesseret, så starter vi et nyt forløb op når der er minimum 3
+            klar til at starte!
+          </Text>
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
           <br />
           <br />
