@@ -131,6 +131,7 @@ export { default as ConsultPupThree } from './SalgssideHvalp3.jpg';
 export { default as SnackshopCover } from './Snackshop.png';
 export { default as TestiOnlineWalkOne } from './TestiOnlineWalk1.png';
 export { default as TestiOnlineWalkTwo } from './TestiOnlineWalk2.jpg';
+export { default as TestiOnlineWalkThree } from './TestiOnlineWalk3.jpg';
 export { default as TestiCoolOne } from './TestiCool1.jpg';
 export { default as TestiCoolTwo } from './TestiCool2.JPG';
 export { default as TestiCoolThree } from './TestiCool3.jpg';

@@ -8,7 +8,7 @@ import {
   TextCenter,
   Image,
   Row,
-  ButtonOnline,
+  // ButtonOnline,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { OnlineCoverCool } from '../assets';
@@ -34,8 +34,7 @@ const OnlineWebinarThankCool = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          {/* <TitleCenter text="Du får lige straks en mail med bekræftelse på dit køb og adgang til den lukkede facebookgruppe hvor webinaret afholdes" /> */}
-          <TitleCenter text="Du får lige straks en mail med bekræftelse på dit køb og adgang til den lukkede facebookgruppe hvor webinaret blev afholdt" />
+          <TitleCenter text="Du får lige straks en mail med bekræftelse på din tilmelding!" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -48,10 +47,10 @@ const OnlineWebinarThankCool = () => (
         </Column>
       </Row>
 
-      <ButtonOnline
+      {/* <ButtonOnline
         text="Jeg er SÅ klar! Før mig straks ind til den lukkede facebookgruppe"
         onClick={() => window.open('https://www.facebook.com/groups/frareaktivtilro2024', '_blank')}
-      ></ButtonOnline>
+      ></ButtonOnline> */}
       <br />
       <br />
     </Background>
