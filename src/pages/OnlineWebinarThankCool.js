@@ -8,7 +8,7 @@ import {
   TextCenter,
   Image,
   Row,
-  // ButtonOnline,
+  ButtonOnline,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { OnlineCoverCool } from '../assets';
@@ -47,10 +47,10 @@ const OnlineWebinarThankCool = () => (
         </Column>
       </Row>
 
-      {/* <ButtonOnline
-        text="Jeg er SÅ klar! Før mig straks ind til den lukkede facebookgruppe"
-        onClick={() => window.open('https://www.facebook.com/groups/frareaktivtilro2024', '_blank')}
-      ></ButtonOnline> */}
+      <ButtonOnline
+        text="Lad mig se hvad du ellers tilbyder af onlinekurser! Tag mig til hjemmesiden"
+        onClick={() => window.open('https://www.svanesdyr.dk/onlinekurser', '_blank')}
+      ></ButtonOnline>
       <br />
       <br />
     </Background>
