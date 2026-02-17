@@ -252,7 +252,7 @@ const OnlineWebinarCool = () => (
             Der er i øjeblikket ingen ny dato for næste webinar afholdelse.
           </TextCenter> */}
           <TextCenter bold>
-            Webinaret bliver afholdt tirsdag den 3. marts 2026 fra kl. 19.00 - 21.30.
+            Webinaret bliver afholdt tirsdag den 14. arpil 2026 fra kl. 19.00 - 21.30.
           </TextCenter>
           {/* <TextCenter>
             Jeg var LIVE på denne dato, derfor vil du i webinarets forløb også opleve at jeg svarer på spørgsmål fra deltagerne på dagen.<br />
