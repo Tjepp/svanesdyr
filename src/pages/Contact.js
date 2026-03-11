@@ -41,19 +41,20 @@ const Contact = () => (
         <Column widthPercentage="100%">
           <Title text="Kontakt Sabrina Svane" showHorizontalRuler />
           <Title text="Har du spørgsmål vedrørende din hund eller kat og ønsker at høre om jeg kan hjælpe?" />
-            <Text>
-              Så send mig en mail på:
-              <StyledExternal href="mailto:info@svanesdyr.dk"> info@svanesdyr.dk</StyledExternal>
-              <br />
-              Jeg har kontortid mandage og torsdage kl. 10.00 - 16.00 og besvarer dine mails i dette tidsrum
-            </Text>
-            <Text>
-              Du kan sende en sms eller giv mig et kald på:
-              <br />
-              <StyledExternal href="tel: 93960500"> 93 960 500</StyledExternal>
-              <br />
-              Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket.
-            </Text>
+          <Text>
+            Så send mig en mail på:
+            <StyledExternal href="mailto:info@svanesdyr.dk"> info@svanesdyr.dk</StyledExternal>
+            <br />
+            Jeg har kontortid mandage og torsdage kl. 10.00 - 16.00 og besvarer dine mails i dette
+            tidsrum
+          </Text>
+          <Text>
+            Du kan sende en sms eller giv mig et kald på:
+            <br />
+            <StyledExternal href="tel: 93960500"> 93 960 500</StyledExternal>
+            <br />
+            Jeg besvarer opkald når det er muligt. I weekenden er telefonen lukket.
+          </Text>
           <br />
           {/* <Title color="#872f35" text="Svanes Dyr holder midlertidigt lukket for nye kunder!" />
           <Text>
@@ -66,7 +67,7 @@ const Contact = () => (
           <br /> */}
           <br />
           {/* <Title color="#872f35" text="Jeg har få ledige tider tilbage i September 2025." /> */}
-          <Title color="#872f35" text="Jeg afholder i øjeblikket juleferie og er tilbage på kontoret igen den 2. januar 2026!" />
+          {/* <Title color="#872f35" text="Jeg afholder i øjeblikket juleferie og er tilbage på kontoret igen den 2. januar 2026!" /> */}
         </Column>
       </Row>
       <Row>
