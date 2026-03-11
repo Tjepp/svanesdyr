@@ -29,6 +29,7 @@ import {
   Education2023,
   Education2024,
   Education2025,
+  Education2026,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { sabrinaNew, petbc } from '../assets';
@@ -49,9 +50,9 @@ const About = () => (
             <TextContainer>
               <Text>
                 Jeg hedder Sabrina Svane og er certificeret Dyreadfærdskonsulent (BSc ABT) ved
-                Center for Dyreterapi i Hirtshals. Jeg bor i Nim nær Horsens, sammen med min
-                mand Thor, vores dejlige huskat Lily, samt seniorhunden Gary, der er en Welsh Corgi Pembroke
-                og speedy-hunden Zoey der er en Volpino Italiano.
+                Center for Dyreterapi i Hirtshals. Jeg bor i Nim nær Horsens, sammen med min mand
+                Thor, vores dejlige huskat Lily, samt seniorhunden Gary, der er en Welsh Corgi
+                Pembroke og speedy-hunden Zoey der er en Volpino Italiano.
               </Text>
               <Text>
                 Jeg er opvokset på en gård udenfor Horsens by og har hele livet været omgivet af
@@ -117,8 +118,12 @@ const About = () => (
           <Title text="Om uddannelsesstedet" showHorizontalRuler />
           <Text>
             Mine uddannelser er taget ved Center for Dyreterapi i Hirtshals, som er den eneste i
-            Danmark der er godkendt af den fælles europæiske organisation 
-            <StyledExternal href="https://www.petbc.org.uk/"> PetBc (Pet Education, Training and Behaviour Council) </StyledExternal>.
+            Danmark der er godkendt af den fælles europæiske organisation
+            <StyledExternal href="https://www.petbc.org.uk/">
+              {' '}
+              PetBc (Pet Education, Training and Behaviour Council){' '}
+            </StyledExternal>
+            .
           </Text>
           <Text>
             Organisationen er dannet af eksperter, som kun godkender uddannelser, der har et højt
@@ -142,6 +147,7 @@ const About = () => (
             <br />
             Du kan se nedenfor hvad jeg har deltaget i.
           </Text>
+          <Education2026 />
           <Education2025 />
           <Education2024 />
           <Education2023 />
