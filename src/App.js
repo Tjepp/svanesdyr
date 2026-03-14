@@ -41,6 +41,7 @@ import {
   DogStylist,
   DogSpot,
   DogSummer,
+  DogSundayPlay,
   // DogNoseWork,
   Home,
   LawList,
@@ -112,6 +113,7 @@ const App = () => {
         <Route path="/spotkurser" element={<DogSpot />} />
         <Route path="/hundehold/tryghundepleje" element={<DogStylist />} />
         <Route path="/sommerhund" element={<DogSummer />} />
+        <Route path="/hyggedage" element={<DogSundayPlay />} />
         <Route path="/" exact element={<Home />} />
         <Route path="/onlinehandelsbetingelser" element={<LawList />} />
         <Route path="/privatlivspolitik" element={<LawPrivate />} />

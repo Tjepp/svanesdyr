@@ -33,6 +33,7 @@ export { default as MetaDogRecall } from './meta/MetaDogRecall';
 export { default as MetaDogSpot } from './meta/MetaDogSpot';
 export { default as MetaDogStylist } from './meta/MetaDogStylist';
 export { default as MetaDogSummer } from './meta/MetaDogSummer';
+export { default as MetaDogSundayPlay } from './meta/MetaDogSundayPlay';
 export { default as MetaDogTricks } from './meta/MetaDogTricks';
 export { default as MetaLaw } from './meta/MetaLaw';
 export { default as MetaLawPrivate } from './meta/MetaLawPrivate';

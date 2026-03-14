@@ -13,9 +13,10 @@ const SmallMenu = ({ onClick, showSidebar }) => (
       <SmallMenuItem url="/kontakt" text="Kontakt" />
       <SmallMenuItem url="/hundehold" text="Hundehold" />
       <SmallMenuItem url="/legestue" text="Legestue" />
-      <SmallMenuItem url="/onlinekurser" text="Onlinekurser" />
+      <SmallMenuItem url="/hyggedage" text="Søndagshygge" />
       <SmallMenuItem url="/hundetraening" text="Hund" />
       <SmallMenuItem url="/kattetraening" text="Kat" />
+      <SmallMenuItem url="/onlinekurser" text="Onlinekurser" />
       <SmallMenuItem url="/prisoversigt" text="Priser" />
       <SmallMenuItem url="/foredrag" text="Foredrag" />
       <SmallMenuItem url="/snackshoppen" text="Butik" />

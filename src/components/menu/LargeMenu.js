@@ -6,9 +6,10 @@ const LargeMenu = () => (
   <Container>
     <LargeMenuItem url="/hundehold" text="Hundehold" />
     <LargeMenuItem url="/legestue" text="Legestue " />
-    <LargeMenuItem url="/onlinekurser" text="Onlinekurser " />
+    <LargeMenuItem url="/hyggedage" text="Søndagshygge " />
     <LargeMenuItem url="/hundetraening" text="Hund" />
     <LargeMenuItem url="/kattetraening" text="Kat" />
+    <LargeMenuItem url="/onlinekurser" text="Onlinekurser " />
     <LargeMenuItem url="/prisoversigt" text="Priser" />
     <LargeMenuItem url="/foredrag" text="Foredrag" />
     <LargeMenuItem url="/snackshoppen" text="Butik" />
