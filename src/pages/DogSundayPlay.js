@@ -85,9 +85,9 @@ const DogSundayPlay = () => {
               <br />
               Eller kig blot forbi i en enkelt time, hvis du skal videre. Hvad end der passer dig!
               <br />
-              Venner, familie, nabo med egen hund er velkommen til at deltage som ledsager til dig,
+              Venner eller familie med egen hund er velkommen til at deltage som ledsager til dig,
               selvom de ikke har været hos mig før. Jeg forventer du har forståelse for at informere
-              om forholdsreglerne på gården til din ledsager.
+              om forholdsreglerne på gården og tager ansvaret for din ledsager.
             </Text>
             <Text>
               <b>Antal pladser til Søndagshygge</b>
