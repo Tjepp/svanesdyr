@@ -90,6 +90,18 @@ const DogSundayPlay = () => {
               om forholdsreglerne på gården og tager ansvaret for din ledsager.
             </Text>
             <Text>
+              <b>Respekt for den Gule Vest</b>
+              <br />
+              Har du en sensitiv hund der har brug for ekstra afstand, men gerne vil komme og øve at
+              kigge på andre, så byder arrangementet på denne mulighed.
+              <br />
+              Der kan nemlig lånes gule veste på dagen, som signalerer til de andre deltagere, at
+              ekstra afstand skal respekteres og at hunden ikke skal løbe frit med andre.
+              <br />
+              Tæver der er tilmeldt, men render ind i løbetid på dagen er også stadig velkomne. Den
+              gule vest giver jer den nødvendige afstand til andre.
+            </Text>
+            <Text>
               <b>Antal pladser til Søndagshygge</b>
               <br />
               Der er 12 pladser til rådighed, grundet begrænset antal p-pladser på gården.
