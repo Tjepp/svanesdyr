@@ -114,7 +114,7 @@ const DogSundayPlay = () => {
 
             <br />
             <Title text="Datoer for Søndagshygge" showHorizontalRuler />
-            <TitleColor text="Din investering: 125 kr." />
+            <TitleColor text="Din investering: 125 kr. pr. bil" />
             <Text>i at få en hyggelig stund i positivt samspil med andre hunde!</Text>
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
             <br />
