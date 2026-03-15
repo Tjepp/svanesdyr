@@ -51,7 +51,7 @@ const DogSundayPlay = () => {
               Søndagshygge er KUN for tidligere og nuværende kursister. Du skal som <i>
                 minimum
               </i>{' '}
-              have deltaget på 2 legestuer hos mig, for at kunne tilmelde dig denne begivenhed.
+              have deltaget på 2 legestuer hos mig, for at kunne tilmelde dig dette arrangement.
               <br />
               <b>OBS:</b> Kender jeg ikke navnet ved tilmelding, forbeholder jeg mig ret til at
               refundere tilmeldingen.
