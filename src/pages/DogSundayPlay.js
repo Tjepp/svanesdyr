@@ -23,7 +23,7 @@ const SundayBenefits = [
   'Større motorikbane til sjov og trættende underholdning for hunden',
   'Tunnel-Mania med masser af tunneltyper at øve på (når vinden tillader at sætte dem op)',
   'Mulighed for leg hundene imellem på træningspladsens indhegnede arealer (kontrolleret, men på eget ansvar)',
-  'Fritløbs-pladsen, hvor du kan tage snoren af og lade hunden rende rundt for sig selv på de 1500 kvm',
+  'Fritløbs-pladsen, hvor du kan tage snoren af og lade hunden rende rundt for sig selv på de indhegnet 1500 kvm',
   'Snackshoppen er åben med naturlige, tørrede hundesnacks',
   'og der serveres også lidt lunt at drikke til de tobenede',
 ];
