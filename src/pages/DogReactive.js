@@ -59,40 +59,48 @@ const DogReactive = () => (
         <Column widthPercentage="75%">
           <Title text="Reaktiv til Ro kursus i Nim, nær Horsens" showHorizontalRuler />
           <Text>
-            Oplever du din hund knurrer, gør eller farer ud overfor andre hunde, så er din hund nødvendigvis ikke aggressiv. 
-            For selvom hunden lyder og ser aggressiv ud, er det meget sjældent at årsagen er aggression, men derimod dårlige oplevelser, mistillid til andre, ren usikkerhed eller angst, som skal arbejdes med.
+            Oplever du din hund knurrer, gør eller farer ud overfor andre hunde, så er din hund
+            nødvendigvis ikke aggressiv. For selvom hunden lyder og ser aggressiv ud, er det meget
+            sjældent at årsagen er aggression, men derimod dårlige oplevelser, mistillid til andre,
+            ren usikkerhed eller angst, som skal arbejdes med.
           </Text>
           <Text>
-            Ønsker du at kunne nyde gåturene med en hund der kan finde ro, selv i mødet med andre hunde
-             - så er du kommet til rette sted!
+            Ønsker du at kunne nyde gåturene med en hund der kan finde ro, selv i mødet med andre
+            hunde - så er du kommet til rette sted!
           </Text>
           <Text>
             Reaktiv til Ro kurset henvender sig til alle hunde i alle aldre, som har tendens til at
-            reagere negativt på mødet med andre hunde. Mit fokus med dette kursus er at give dig redskaberne til hvordan du sætter din hund op til succes, 
-            så i kan få flere og flere dejlige gåture sammen. Dette gør vi gennem forskellige øvelser, der også vil styrke jeres fælles
-            samarbejde.
+            reagere negativt på mødet med andre hunde. Mit fokus med dette kursus er at give dig
+            redskaberne til hvordan du sætter din hund op til succes, så i kan få flere og flere
+            dejlige gåture sammen. Dette gør vi gennem forskellige øvelser, der også vil styrke
+            jeres fælles samarbejde.
           </Text>
           <Text>
             Al træning foregår med{' '}
             <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi
             bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad
-            og leg. Målet er at gøre din hund tryg ved nærværet af andre, så den ikke føler behov for at reagere negativt. Trygheden kommer ved at give goder som mad og leg.
-            Hvis din hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere
-            letforståelig. Alle bliver sat op til succes.
+            og leg. Målet er at gøre din hund tryg ved nærværet af andre, så den ikke føler behov
+            for at reagere negativt. Trygheden kommer ved at give goder som mad og leg. Hvis din
+            hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere letforståelig. Alle
+            bliver sat op til succes.
           </Text>
           <Text>
             <b>Passer kurset til din hund?</b>
             <br />
-            Kurset henvender sig til hunde der udviser nervøsitet eller ængstelse for andre hunde eller reagerer aggressivt i mødet med dem.
-            Din hund skal være ok med andre hunde indenfor en afstand på 30 meter.
-            Kan din hund ikke tåle blot synet af en anden hund - og reagerer uanset afstanden - så vil jeg anbefale dig 
-            at <StyledLink to="/kontakt"> booke tid </StyledLink> til en <StyledLink to="/hundetraening"> konsultation</StyledLink>, hvor du kan få personlig
+            Kurset henvender sig til hunde der udviser nervøsitet eller ængstelse for andre hunde
+            eller reagerer aggressivt i mødet med dem. Din hund skal være ok med andre hunde
+            indenfor en afstand på 30 meter. Kan din hund ikke tåle blot synet af en anden hund - og
+            reagerer uanset afstanden - så vil jeg anbefale dig at{' '}
+            <StyledLink to="/kontakt"> booke tid </StyledLink> til en{' '}
+            <StyledLink to="/hundetraening"> konsultation</StyledLink>, hvor du kan få personlig
             vejledning og redskaber til at hjælpe din hund.
           </Text>
           <Text>
-            Føler du din hund bliver ustyrlig <b>glad</b> ved mødet med andre, så er dette hold <b>ikke</b> det rette for jer! 
-            Står du med denne problemstilling anbefaler jeg at du deltager på mit 
-            <StyledLink to="/hundehold/coolhold"> Helt-Cool kursus</StyledLink>, hvor du kan få de rette redskaber til at hjælpe din overglade hund.
+            Føler du din hund bliver ustyrlig <b>glad</b> ved mødet med andre, så er dette hold{' '}
+            <b>ikke</b> det rette for jer! Står du med denne problemstilling anbefaler jeg at du
+            deltager på mit
+            <StyledLink to="/hundehold/coolhold"> Helt-Cool kursus</StyledLink>, hvor du kan få de
+            rette redskaber til at hjælpe din overglade hund.
           </Text>
           <Text>
             <StyledLink to="/kontakt"> Kontakt mig </StyledLink> endelig hvis du er i tvivl.
@@ -106,18 +114,19 @@ const DogReactive = () => (
             svar på dine spørgsmål og jeg kan komme med konkret feedback til dig og din hund inden i
             starter i holdsammenhæng (værdi 550,- kr.).
           </Text>
-          <Text>I løbet af vores 6 mødegange sammen vil vi komme igennem følgende:
-          <TextList texts={ReactiveProgram} />
+          <Text>
+            I løbet af vores 6 mødegange sammen vil vi komme igennem følgende:
+            <TextList texts={ReactiveProgram} />
           </Text>
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Reaktiv til Ro kurset får du:
-          <TextList texts={ReactiveBenefits} />
+            <TextList texts={ReactiveBenefits} />
           </Text>
           <Text>
-            Der tages hensyn til at holdet er for de sensitive hunde og derfor praktiseres der god afstand før, under og efter
-            timerne.
+            Der tages hensyn til at holdet er for de sensitive hunde og derfor praktiseres der god
+            afstand før, under og efter timerne.
           </Text>
           <Text>
             <b>Træningsplads</b>
@@ -131,29 +140,45 @@ const DogReactive = () => (
           <Title text="Holdstart for Reaktiv til Ro kurset" showHorizontalRuler />
           <TitleColor text="Din investering: 1795 kr." />
           <Text>
-            i at kunne nyde jeres daglige gåture, med en hund der er rolig og kontaktbar omkring andre.
+            i at kunne nyde jeres daglige gåture, med en hund der er rolig og kontaktbar omkring
+            andre.
           </Text>
+          <br />
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-            <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/dflH" />
-          <br />
           <Title color="#872f35" text="Næste holdstart efter ovenstående er Maj 2026" />
-          {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
+          <br />
+
+          <Title text="Fortsætte træningen med nye hundekammerater?" showHorizontalRuler />
+          <TitleColor text="Din investering: 1295 kr." />
+          <Text>
+            i at kunne generalisere roen og kontakttræningen ud blandt nye hunde, under
+            kontrollerede forhold på træningspladsen.
+            <br />
+            <b>Bemærk!</b> Fortsætterhold startes op på efterspørgsel. Så husk at giv besked hvis du
+            ønsker at fortsætte træningen.
+          </Text>
+          <br />
+          <Title text="Kommende hold:" />
+          <EasyMeList src="https://ezme.io/x/x1S/fQBQ" />
+
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
             jeg dig hjertens gerne på venteliste til næste ledige plads. Blot smid mig en besked om
             dit holdønske her:
           </Text>
-          {/* <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 18. september. Du får hurtigst muligt svar herefter." /> */}
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
           <br />
           <br />
-          <Title text="Dette siger kursisterne efter deltagelse på Reaktiv til Ro" showHorizontalRuler />
+          <Title
+            text="Dette siger kursisterne efter deltagelse på Reaktiv til Ro"
+            showHorizontalRuler
+          />
           <br />
           <DogReactiveTestimonials></DogReactiveTestimonials>
           <br />
-{/* 
+          {/* 
           <Title text="Stemningsbilleder fra Reaktiv til Ro kurset" showHorizontalRuler />
           <Row>
             <Column>

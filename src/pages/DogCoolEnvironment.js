@@ -33,13 +33,12 @@ import {
 } from '../assets';
 
 const ContinuedCoolProgram = [
-  'Indlæring af at finde ro og slappe af, når i skal lave ”ingenting” sammen',
   'Rolige gåture: Øvelse i at gå væk fra andre hunde',
   'Rolige gåture: Øvelse i fortovspassager med andre hunde',
   'Rolige gåture: Øvelse i stop-op og hilsemøder med andre',
   'Hverdagsgåture med kontakt og ro i nye miljøer',
   'Ro og kontakt nær flere forstyrrelser på én gang',
-  'Afventende ro omkring spændende sager i bevægelse',
+  'Afventende ro omkring andre hunde, mennesker, trafik i bevægelse',
   'Placering af hunden: Indlæring af bliv',
 ];
 
@@ -47,7 +46,8 @@ const CoolEnvironmentBenefits = [
   'Personlig sparring på at finde ro i nye områder',
   'Vejledning i at passere fremmede hunde og mennesker i ro',
   'Hele 4 mødegange på en ny lokation hver gang i Horsens og omegn',
-  'Max 4 andre holdkammerater, så der er god tid til dig',
+  'Max 4 andre holdkammerater på Helt-Cool Miljøholdet, så der er god tid til dig',
+  'Max 3 andre holdkammerater på Reaktiv til Ro Miljøholdet, så der er plads til alle',
 ];
 
 const DogCoolEnvironment = () => (
@@ -66,15 +66,7 @@ const DogCoolEnvironment = () => (
           <Title text="Miljøhold i Horsens" showHorizontalRuler />
           <Text>
             På miljøholdet fokuseres der på mine kendte Cool-principper med kontakt og ro, som
-            udøves i <u>nye miljøer</u> over 4 lektioner af op til 60 min. pr. lektion. Holdet
-            udbydes i to udgaver, hvor du kan vælge at have mødegang hver uge eller hver 14. dag.
-            Dog altid på en ny lokation i Horsens og omegn til hver lektion.
-          </Text>
-          <Text>
-            Holdets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de
-            rolige gåture praktiseres i stor stil. Du får en mere afslappet hverdag, med en hund der
-            selv kan finde ro når du er i ro og som kan gå pænt i snor uden at hive armen af dig.
-            Kurset henvender sig til alle hunde i alle aldre.
+            udøves i <u>nye miljøer</u> over 4 lektioner af op til 60 min. pr. lektion.
           </Text>
           <Text>
             Al træning foregår med{' '}
@@ -84,21 +76,42 @@ const DogCoolEnvironment = () => (
             letforståelig. Alle bliver sat op til succes.
           </Text>
           <Text>
-            <b>Træningsprogram for holdet</b>
-            <br />I løbet af vores uger sammen vil vi komme igennem følgende:
+            <b>Helt-Cool Miljøhold</b>
+            <br />
+            Holdets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de
+            rolige gåture praktiseres i stor stil. Du får en mere afslappet hverdag, med en hund der
+            selv kan finde ro når du er i ro og som kan gå pænt i snor uden at hive armen af dig.
+            Kurset henvender sig til alle hunde i alle aldre.
           </Text>
-          <TextList texts={ContinuedCoolProgram} />
+          <Text>
+            <b>Reaktiv til Ro Miljøhold</b>
+            <br />
+            På dette holdforløb vil vi tage værktøjerne fra træningspladsen og overføre til nye
+            miljøer. Så du får redskaberne til at lære din hund ro, kontakt og abstrahere for andre,
+            selv i nye miljøer. Vi starter i miljøer hvor der kan udøves god afstand til hinanden og
+            andre, så hundene får succes.
+          </Text>
+          <Text>
+            <b>Krav for deltagelse</b>
+            <br />
+            Miljøhold er KUN for tidligere og nuværende kursister. Skriv til mig hvis du er i tvivl.
+          </Text>
+          <Text>
+            <b>Træningsprogram for holdet</b>
+            <br />I løbet af vores lektioner sammen vil vi komme igennem følgende:
+            <TextList texts={ContinuedCoolProgram} />
+          </Text>
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Miljøholdet får du:
+            <TextList texts={CoolEnvironmentBenefits} />
           </Text>
-          <TextList texts={CoolEnvironmentBenefits} />
           <Text>Der tages hensyn til sensitive hunde og praktiseres god afstand.</Text>
           <br />
 
           <Title text="Holdstart for Miljøholdet" showHorizontalRuler />
-          <TitleColor text="Din investering: 895 kr." />
+          <TitleColor text="Din investering i Helt-Cool Miljøholdet: 895 kr." />
           <Text>
             i at kunne nyde jeres daglige gåture, med en hund der kan finde ro og holde kontakt,
             selv når i kommer nye steder.
@@ -108,17 +121,24 @@ const DogCoolEnvironment = () => (
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k3zy" />
           <br />
+          <TitleColor text="Din investering i Reaktiv til Ro Miljøholdet: 1095 kr." />
+          <Text>
+            i at kunne nyde jeres daglige gåture, med en hund der kan finde ro og holde kontakt,
+            selv når der er andre fremmede hunde og mennesker i nærheden.
+          </Text>
+          <br />
+          <Title text="Kommende hold:" />
+          <EasyMeList src="https://ezme.io/x/x1S/fQoZ" />
+          <br />
           <Title color="#872f35" text="Næste holdstart er Foråret 2026" />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
-            jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min venteliste. 
-            Kursister der allerede går hos mig har førsteprioritet til en plads. Derefter åbner jeg op for ventelisten.
+            jeg dig hjertens gerne på venteliste til næste ledige plads.
           </Text>
           <Text>
             Vil du skrives op til næste opstart, så smid mig en besked om dit holdønske her:
           </Text>
-          {/* <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 18. september. Du får hurtigst muligt svar herefter." /> */}
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
           <br />
           <br />
