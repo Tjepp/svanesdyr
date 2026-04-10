@@ -83,25 +83,27 @@ const DogContinued = () => (
           <Text>
             <b>Træningsprogram for holdet</b>
             <br />I løbet af vores 6 mødegange sammen vil vi komme igennem følgende:
-          <TextList texts={ContinuedProgram} />
+            <TextList texts={ContinuedProgram} />
           </Text>
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Hvalpe-fortsætterholdet får du:
-          <TextList texts={PuppyBenefits} />
+            <TextList texts={PuppyBenefits} />
           </Text>
           <Text>
-            Der er afsat tid til kontrolleret leg til timerne, hvilket giver mulighed for at tage hensyn til den enkelte hund.
-            Her får du indsigt i hvad der er passende leg mellem hundene og hvilke signaler
-            der gives, når din eller en anden hund siger stop. Du lærer at kontrollere legen på hundenes præmisser.
+            Der er afsat tid til kontrolleret leg til timerne, hvilket giver mulighed for at tage
+            hensyn til den enkelte hund. Her får du indsigt i hvad der er passende leg mellem
+            hundene og hvilke signaler der gives, når din eller en anden hund siger stop. Du lærer
+            at kontrollere legen på hundenes præmisser.
           </Text>
           <Text>
             <b>Træningsplads</b>
             <br />
             Jeg afholder træning på følgende adresse: Horsensvej 31, Nim, 8740 Brædstrup
             <br />
-            Træningen foregår som udgangspunkt udendørs, men ved slem vind, regn eller frost går vi indendørs.
+            Træningen foregår som udgangspunkt udendørs, men ved slem vind, regn eller frost går vi
+            indendørs.
           </Text>
           <br />
 
@@ -116,12 +118,14 @@ const DogContinued = () => (
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k3z3" />
           <br />
-          <Title color="#872f35" text="Næste holdstart efter ovenstående er Maj 2026" />
+          <Title color="#872f35" text="Næste holdstart efter ovenstående er efteråret 2026" />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
-            jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min venteliste. 
-            Kursister der allerede går hos mig har førsteprioritet til en plads. Derefter åbner jeg op for ventelisten.
+            jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg{' '}
+            <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min
+            venteliste. Kursister der allerede går hos mig har førsteprioritet til en plads.
+            Derefter åbner jeg op for ventelisten.
           </Text>
           <Text>
             Vil du skrives op til næste opstart, så smid mig en besked om dit holdønske her:

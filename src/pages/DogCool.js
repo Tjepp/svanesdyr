@@ -81,8 +81,9 @@ const DogCool = () => (
             Føler du din hund er lidt af et "damp"-barn eller bliver ustyrligt glad ved mødet med
             andre, så er dette hold det rette for jer! Kurset henvender sig <b>ikke</b> til hunde
             der er bange for andre hunde eller reagerer aggressivt ved synet af andre. Står du med
-            denne problemstilling anbefaler jeg at du kigger på mit 
-            <StyledLink to="/hundehold/reaktivtilro"> Reaktiv til Ro </StyledLink> kursus i stedet for.
+            denne problemstilling anbefaler jeg at du kigger på mit
+            <StyledLink to="/hundehold/reaktivtilro"> Reaktiv til Ro </StyledLink> kursus i stedet
+            for.
             {/* Eller tjek om
             <StyledLink to="/hundehold/venligvovse"> Venlig-Vovse </StyledLink> holdet er noget for
             jer. */}
@@ -99,14 +100,15 @@ const DogCool = () => (
             svar på dine spørgsmål og jeg kan komme med konkret feedback til dig og din hund inden i
             starter i holdsammenhæng (værdi 550,- kr.).
           </Text>
-          <Text>I løbet af vores 7 mødegange sammen vil vi komme igennem følgende:
-          <TextList texts={CoolProgram} />
+          <Text>
+            I løbet af vores 7 mødegange sammen vil vi komme igennem følgende:
+            <TextList texts={CoolProgram} />
           </Text>
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Helt-Cool kurset får du:
-          <TextList texts={CoolBenefits} />
+            <TextList texts={CoolBenefits} />
           </Text>
           <Text>
             Efter aftale er der mulighed for lidt kontrolleret leg i slutningen af lektionen.
@@ -127,16 +129,18 @@ const DogCool = () => (
             omkring andre.
           </Text>
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
-            <br />
+          <br />
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k3zd" />
           <br />
-          <Title color="#872f35" text="Næste holdstart efter ovenstående er Maj 2026" />
+          <Title color="#872f35" text="Næste holdstart efter ovenstående er efteråret 2026" />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
-            jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min venteliste. 
-            Kursister der allerede går hos mig har førsteprioritet til en plads. Derefter åbner jeg op for ventelisten.
+            jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg{' '}
+            <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min
+            venteliste. Kursister der allerede går hos mig har førsteprioritet til en plads.
+            Derefter åbner jeg op for ventelisten.
           </Text>
           <Text>
             Vil du skrives op til næste opstart, så smid mig en besked om dit holdønske her:
