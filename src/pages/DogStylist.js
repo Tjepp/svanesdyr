@@ -206,7 +206,7 @@ const DogStylist = () => (
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k37A" />
           <br />
-          <Title color="#872f35" text="Næste holdstart er April 2026!" />
+          <Title color="#872f35" text="Næste holdstart oprettes på efterspørgsel." />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Hold startes op på efterspørgsel! Ønsker du at deltage på forløbet?
