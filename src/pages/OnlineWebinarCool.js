@@ -72,7 +72,7 @@ const OnlineWebinarCool = () => (
 
       <ButtonOnline
         text="Jeg er klar! Tag mig til tilmeldingssiden"
-        onClick={() => window.open('https://ezme.io/c/x1S/OVO7', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/CVW0', '_blank')}
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -222,7 +222,7 @@ const OnlineWebinarCool = () => (
 
       <ButtonOnline
         text="Jeg er klar på at få mere ro på gåturen!"
-        onClick={() => window.open('https://ezme.io/c/x1S/OVO7', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/CVW0', '_blank')}
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -235,30 +235,38 @@ const OnlineWebinarCool = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <LPHeadlineWebinar text="Sådan foregår webinaret" />
-          {/* <LPHeadlineWebinar text="Sådan får du adgang til webinaret" /> */}
+          {/* <LPHeadlineWebinar text="Sådan foregår webinaret" /> */}
+          <LPHeadlineWebinar text="Sådan får du adgang til Replay af webinaret" />
           <br />
           <br />
-          <TitleCenter text="LIVE webinar på Zoom!" />
-          {/* <TitleCenter text="Webinaret ligger optaget i en lukket facebookgruppe med adgang ÅRET UD!" /> */}
+          {/* <TitleCenter text="LIVE webinar på Zoom!" /> */}
+          <TitleCenter text="Webinaret ligger optaget på Zoom med adgang til og med den 14.07.2026!" />
           <TextCenter>
+            Straks efter køb vil du få tilsendt en mail med bekræftelse på dit køb.
+            <br />I denne mail får du et link til Zoom, hvor du kan se Replay af det optagede
+            webinar. Du vil også modtage slides fra webinarets fremvisning, som du kan downloade og
+            printe ud efter ønske. Disse slides har du til evigt eje efter download.
+          </TextCenter>
+          {/* <TextCenter>
             Straks efter køb vil du få tilsendt en mail med bekræftelse på din tilmelding.
             <br />
             Få dage før vi skal ses vil du modtage en ny mail, med link til Zoom, hvor webinaret
             afholdes. I denne mail vil du også modtage slides fra webinarets fremvisning, som du kan
             downloade og printe ud efter ønske. Disse slides har du til evigt eje efter download.
-          </TextCenter>
+          </TextCenter> */}
           {/* <TextCenter bold>
             Der er i øjeblikket ingen ny dato for næste webinar afholdelse.
           </TextCenter> */}
           <TextCenter bold>
-            Webinaret bliver afholdt tirsdag den 14. arpil 2026 fra kl. 19.00 - 21.30.
+            Webinaret blev afholdt tirsdag den 14. april 2026 fra kl. 19.00 - 21.30.
+          </TextCenter>
+          <TextCenter>
+            Jeg var LIVE på denne dato, derfor vil du i webinarets forløb også opleve at jeg svarer
+            på spørgsmål fra deltagerne på dagen.
+            <br />
+            Du får derfor ekstra fif og gode råd med i mine svar på spørgsmålene.
           </TextCenter>
           {/* <TextCenter>
-            Jeg var LIVE på denne dato, derfor vil du i webinarets forløb også opleve at jeg svarer på spørgsmål fra deltagerne på dagen.<br />
-            Du får derfor ekstra fif og gode råd med i mine svar på spørgsmålene.
-          </TextCenter> */}
-          <TextCenter>
             Der er afsat 2 timer til gennemgang af webinarets materiale, hvor der vil være billeder
             og videoer undervejs så du får et godt indblik i metoderne du skal praktisere hjemme.
             <br />
@@ -273,17 +281,17 @@ const OnlineWebinarCool = () => (
             Fortvivl ikke!
             <br />
             Webinaret optages og bliver sendt ud til dig efterfølgende!
-          </TextCenter>
-          {/* <TextCenter bold>
-            Du har adgang til frit at se eller gense webinaret frem til og med den 31. december 2024.
           </TextCenter> */}
+          <TextCenter bold>
+            Du har adgang til frit at se eller gense webinaret frem til og med den 14. juli 2026.
+          </TextCenter>
         </Column>
       </Row>
       <br />
 
       <ButtonOnline
         text="Ja tak! Jeg skal med!"
-        onClick={() => window.open('https://ezme.io/c/x1S/OVO7', '_blank')}
+        onClick={() => window.open('https://ezme.io/c/x1S/CVW0', '_blank')}
       ></ButtonOnline>
       <br />
       <br />
