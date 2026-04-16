@@ -147,7 +147,7 @@ const DogReactive = () => (
           <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/dflH" />
-          <Title color="#872f35" text="Næste holdstart efter ovenstående er Maj 2026" />
+          <Title color="#872f35" text="Næste holdstart efter ovenstående er efteråret 2026" />
           <br />
 
           <Title text="Fortsætte træningen med nye hundekammerater?" showHorizontalRuler />
