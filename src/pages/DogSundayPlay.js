@@ -119,7 +119,7 @@ const DogSundayPlay = () => {
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
             <br />
             <Title text="Kommende datoer for Søndagshygge:" />
-            <EasyMeList src="https://ezme.io/x/x1S/OM5Q" />
+            <EasyMeList src="https://ezme.io/x/x1S/fFzy" />
 
             <br />
             <Title text="Stemningsbilleder fra Søndagshygge" showHorizontalRuler />
