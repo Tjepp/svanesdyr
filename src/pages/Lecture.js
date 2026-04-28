@@ -19,6 +19,7 @@ import {
   TextContainer,
   TextListArrow,
   TextListMark,
+  ButtonOnline,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { lectureDogLanguage, PlayFive, dogOne } from '../assets';
@@ -66,18 +67,17 @@ const Lecture = () => (
             forebygge eller ændre en uønsket adfærd.
           </Text>
           <Text>
-            Jeg udbyder ofte foredrag i de populære emner omkring hundens sprog, god leg mellem hunde og
-            reaktioner på andre på gåture, som du kan læse mere om længere nede på siden. Er du fra en
-            hundeklub, et dyrlægehus eller er privatperson og ønsker du et andet fokusemne, så tøv
-            ikke med at
+            Jeg udbyder ofte foredrag i de populære emner omkring hundens sprog, god leg mellem
+            hunde og reaktioner på andre på gåture, som du kan læse mere om længere nede på siden.
+            Er du fra en hundeklub, et dyrlægehus eller er privatperson og ønsker du et andet
+            fokusemne, så tøv ikke med at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink> for at høre mere. Jeg tilbyder
             foredrag for både hunde- og kattejere, samt fagfolk indenfor træningsverdenen.
           </Text>
+          <Text>Alle foredrag tilbydes også som webinar.</Text>
           <Text>
-            Alle foredrag tilbydes også som webinar.
-          </Text>
-          <Text>
-            Jeg takserer efter timepris efter foredragets oplyste varighed. <StyledLink to="/prisoversigt">Se mere her</StyledLink>.
+            Jeg takserer efter timepris efter foredragets oplyste varighed.{' '}
+            <StyledLink to="/prisoversigt">Se mere her</StyledLink>.
           </Text>
         </Column>
       </Row>
@@ -94,22 +94,31 @@ const Lecture = () => (
       </Row>
       <Row>
         <Column widthPercentage="100%">
-        <TitleCenter text="Hundens Sprog - Adfærd, Stress og Håndtering" />
+          <TitleCenter text="Hundens Sprog - Adfærd, Stress og Håndtering" />
           <FlexedRow>
             <Image src={lectureDogLanguage} width="300px" height="200px" />
             <TextContainer>
-              <Text bold>3 timers foredrag inkl. to pauser af 10 minutter og tid til spørgsmål</Text>
+              <Text bold>
+                3 timers foredrag inkl. to pauser af 10 minutter og tid til spørgsmål
+              </Text>
               <Text>
-                  Ønsker du at kunne aflæse din hund, så du ved hvornår den føler sig tryg eller utryg?<br />
-                  Vil du vide hvordan du kan hjælpe din hund hvis den viser tegn på stress?<br />
-                  Så book tre inspirationsrige timer i selskab med Dyreadfærdskonsulent Sabrina Svane, der vil give dig redskaberne til at aflæse positive og negative situationer 
-                  - og fortælle dig hvordan du håndterer en stressfuld situation, så du kan hjælpe din hund på bedste vis.<br />
-                  Foredraget inkluderer gennemgang af:
-                  <TextListArrow texts={HundeSprog} />
-                  Du vil gå hjem med en bedre forståelse for din hund og dens adfærd, og ikke mindst en grundig viden om hvordan du undgår stressede situationer. 
-                  Sådan en indsigt kan forebygge adfærdsproblemer som angst og aggression.
-                  <br />
-                  <br />
+                Ønsker du at kunne aflæse din hund, så du ved hvornår den føler sig tryg eller
+                utryg?
+                <br />
+                Vil du vide hvordan du kan hjælpe din hund hvis den viser tegn på stress?
+                <br />
+                Så book tre inspirationsrige timer i selskab med Dyreadfærdskonsulent Sabrina Svane,
+                der vil give dig redskaberne til at aflæse positive og negative situationer - og
+                fortælle dig hvordan du håndterer en stressfuld situation, så du kan hjælpe din hund
+                på bedste vis.
+                <br />
+                Foredraget inkluderer gennemgang af:
+                <TextListArrow texts={HundeSprog} />
+                Du vil gå hjem med en bedre forståelse for din hund og dens adfærd, og ikke mindst
+                en grundig viden om hvordan du undgår stressede situationer. Sådan en indsigt kan
+                forebygge adfærdsproblemer som angst og aggression.
+                <br />
+                <br />
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -118,20 +127,33 @@ const Lecture = () => (
           <FlexedRow>
             <Image src={PlayFive} width="300px" height="200px" />
             <TextContainer>
-              <Text bold>2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål</Text>
-              <Text>
-                  Det er en myte, at hundene skal kunne klare sig selv, når det kommer til at sætte grænser overfor andre hunde! 
-                  Hvis du overlader hundene til sig selv, så opstår der meget ofte en situation, hvor grænserne ikke respekteres. 
-                  Der bliver simpelthen ikke lyttet. Når din hund ikke føler sig lyttet til, vil den begynde at råbe højere og adfærden eskalerer. 
-                  I sidste ende kan du stå med en hund, der udviser angst eller aggression pga. dårlige oplevelser med andre hunde.
+              <Text bold>
+                2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål
               </Text>
               <Text>
-                  At overlade hundene til selv at finde ud af det, svarer til at overlade børnene i skolegården til sig selv, hvilket enhver forælder vil finde uacceptabelt. 
-                  Der skal være en voksen, ansvarlig til stede, som kan afbryde når nok er nok og sørge for, at alle har en god stund sammen.<br />
-                  I dette foredrag får du svaret på:
-                  <TextListArrow texts={Play} />
-                  <br />
-                  <br />
+                Det er en myte, at hundene skal kunne klare sig selv, når det kommer til at sætte
+                grænser overfor andre hunde! Hvis du overlader hundene til sig selv, så opstår der
+                meget ofte en situation, hvor grænserne ikke respekteres. Der bliver simpelthen ikke
+                lyttet. Når din hund ikke føler sig lyttet til, vil den begynde at råbe højere og
+                adfærden eskalerer. I sidste ende kan du stå med en hund, der udviser angst eller
+                aggression pga. dårlige oplevelser med andre hunde.
+              </Text>
+              <Text>
+                At overlade hundene til selv at finde ud af det, svarer til at overlade børnene i
+                skolegården til sig selv, hvilket enhver forælder vil finde uacceptabelt. Der skal
+                være en voksen, ansvarlig til stede, som kan afbryde når nok er nok og sørge for, at
+                alle har en god stund sammen.
+                <br />
+                I dette foredrag får du svaret på:
+                <TextListArrow texts={Play} />
+                <ButtonOnline
+                  text="Find aktuelle foredrag om den gode hundeleg her"
+                  onClick={() =>
+                    window.open('https://www.svanesdyr.dk/webinardengodehundeleg', '_blank')
+                  }
+                ></ButtonOnline>
+                <br />
+                <br />
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -140,28 +162,44 @@ const Lecture = () => (
           <FlexedRow>
             <Image src={dogOne} width="300px" height="200px" />
             <TextContainer>
-              <Text bold>2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål</Text>
-              <Text>
-                  Oplever du din hund "kortslutter" på gåtur i mødet med andre hunde og er ikke til at komme i kontakt med?<br />
-                  Bliver gåturen sammen hurtigt mere frustrerende end givende?<br />
-                  Ville du ønske du havde konkrete redskaber til at få din hund til at finde ro i mødet med andre?<br />
-                  Så giver Dyreadfærdskonsulent Sabrina Svane dig opskriften til den rolige gåtur i dette foredrag! 
+              <Text bold>
+                2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål
               </Text>
               <Text>
-                  Jeg afholder flere gange årligt mit populære Helt-Cool forløb som har skabt succes for hundredvis af hunde og deres ejere, med at få mere ro på gåturen.
-                  Uanset om det har været den overivrige, hilseglade vovse eller den sensitive, udadreagerede snude, så har jeg fulgt en fast opskrift på at skabe et solidt fundament af kontakt og ro i mødet med andre. 
-                  Det er denne opskrift og min ekspertviden om adfærd jeg ønsker at give dig med i dette foredrag.<br />
-                  Du vil lære hvordan du:
-                  <TextListMark texts={Calm} />
-                  <br />
-                  <br />
+                Oplever du din hund "kortslutter" på gåtur i mødet med andre hunde og er ikke til at
+                komme i kontakt med?
+                <br />
+                Bliver gåturen sammen hurtigt mere frustrerende end givende?
+                <br />
+                Ville du ønske du havde konkrete redskaber til at få din hund til at finde ro i
+                mødet med andre?
+                <br />
+                Så giver Dyreadfærdskonsulent Sabrina Svane dig opskriften til den rolige gåtur i
+                dette foredrag!
+              </Text>
+              <Text>
+                Jeg afholder flere gange årligt mit populære Helt-Cool forløb som har skabt succes
+                for hundredvis af hunde og deres ejere, med at få mere ro på gåturen. Uanset om det
+                har været den overivrige, hilseglade vovse eller den sensitive, udadreagerede snude,
+                så har jeg fulgt en fast opskrift på at skabe et solidt fundament af kontakt og ro i
+                mødet med andre. Det er denne opskrift og min ekspertviden om adfærd jeg ønsker at
+                give dig med i dette foredrag.
+                <br />
+                Du vil lære hvordan du:
+                <TextListMark texts={Calm} />
+                <ButtonOnline
+                  text="Find aktuelle foredrag af Reaktiv til Ro her"
+                  onClick={() =>
+                    window.open('https://www.svanesdyr.dk/webinarreaktivtilro', '_blank')
+                  }
+                ></ButtonOnline>
+                <br />
+                <br />
               </Text>
             </TextContainer>
           </FlexedRow>
-
         </Column>
       </Row>
-
     </Background>
   </Page>
 );

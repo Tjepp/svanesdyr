@@ -34,7 +34,7 @@ const OnlineWebinarThankPage = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en mail med bekræftelse på dit køb og adgang til den lukkede facebookgruppe hvor webinaret afholdes" />
+          <TitleCenter text="Du får lige straks en mail med bekræftelse på din tilmelding" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -48,8 +48,8 @@ const OnlineWebinarThankPage = () => (
       </Row>
 
       <ButtonOnline
-        text="Jeg er SÅ klar! Før mig straks ind til den lukkede facebookgruppe"
-        onClick={() => window.open('https://www.facebook.com/groups/dengodehundeleg20042023', '_blank')}
+        text="Lad mig se hvad du ellers tilbyder af onlinekurser! Tag mig til hjemmesiden"
+        onClick={() => window.open('https://www.svanesdyr.dk/onlinekurser', '_blank')}
       ></ButtonOnline>
       <br />
       <br />
