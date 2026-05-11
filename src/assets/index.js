@@ -159,5 +159,7 @@ export { default as TestiPupTen } from './TestiPup10.jpg';
 export { default as TestiPupEleven } from './TestiPup11.jpg';
 export { default as TestiPupTwelve } from './TestiPup12.jpg';
 export { default as TestiPupThirteen } from './TestiPup13.jpg';
+export { default as TestiReactiveOne } from './TestiReactive1.jpg';
+export { default as TestiReactiveTwo } from './TestiReactive2.jpg';
 export { default as TestiRecallOne } from './TestiRecall1.jpg';
 export { default as Party } from './OnlineCoverFest.png';
