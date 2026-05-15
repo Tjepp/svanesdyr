@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
 import { TitleColor, Text, TextContainer, FlexedRow, Image } from '..';
-import { TestiCoolTwo, TestiCoolSix, TestiReactive1, TestiReactive2 } from '../../assets';
+import { TestiCoolTwo, TestiCoolSix, TestiReactiveOne, TestiReactiveTwo } from '../../assets';
 
 const DogReactiveTestimonials = () => (
   <Carousel
@@ -17,7 +17,7 @@ const DogReactiveTestimonials = () => (
     swipeScrollTolerance={30}
   >
     <FlexedRow>
-      <Image src={TestiReactive1} width="200px" height="300px" />
+      <Image src={TestiReactiveOne} width="200px" height="300px" />
       <TextContainer>
         <TitleColor text=" ”Jeg er blevet mere rolig og kan læse Riley bedre. Jeg lægger meget mere mærke til de små fremskridt og det, der går godt, i stedet for kun at fokusere på udfordringerne. Det har gjort en stor forskel for både Riley og jeg.” " />
         <Text>
@@ -44,7 +44,7 @@ const DogReactiveTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiReactive2} width="200px" height="300px" />
+      <Image src={TestiReactiveTwo} width="200px" height="300px" />
       <TextContainer>
         <TitleColor text=" ”Jeg kan mærke forskel på min hund! Bella er mere rolig, tager mere kontakt til os og jeg har fået flere redskaber med hjem til at få mere ro på” " />
         <Text>
