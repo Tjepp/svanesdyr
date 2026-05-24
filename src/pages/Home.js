@@ -32,7 +32,7 @@ const Home = () => {
       <Background>
         <Container>
           <Column>
-            <Image src={ClubCover} />
+            <Image src={ClubCover} alt="Hundesprogsklubben - fællesskab for hundeejere med Sabrina Svane" />
             <Title color="000" text="Gratis fællesskab til hundeejere!" />
             <StyledB color="#000" href="https://www.facebook.com/groups/hundesprogsklub">
               Vil du blive klogere på hvad din hund fortæller dig? Så kom GRATIS med i
@@ -41,7 +41,7 @@ const Home = () => {
             </StyledB>
           </Column>
           <Column>
-            <Image src={FrontNoOne} />
+            <Image src={FrontNoOne} alt="Sabrina træner hund på stranden med positive metoder" />
             <Title color="000" text="Positive træningsmetoder" />
             <Text
               onClick={() => {
@@ -54,7 +54,7 @@ const Home = () => {
             </Text>
           </Column>
           <Column>
-            <Image src={sabrinaAndBarney} />
+            <Image src={sabrinaAndBarney} alt="Sabrina og katten Barney giver high five i haven" />
             <Title color="000" text="Katteadfærdsspecialist" />
             <Text
               onClick={() => {

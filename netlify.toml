@@ -1,0 +1,15 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+
+# Image CDN rewrite - MUST be before SPA fallback
+[[redirects]]
+  from = "/img/*"
+  to = "/.netlify/images?url=/images/:splat"
+  status = 200
+
+# SPA fallback - must be last
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
