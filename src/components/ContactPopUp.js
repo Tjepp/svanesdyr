@@ -16,7 +16,7 @@ const ContactPopUp = ({ text }) => {
     <div>
       <ButtonContainer>
         <StyledButton onClick={toggleContactForm}>
-          <Text>{text}</Text>
+          <ButtonText>{text}</ButtonText>
         </StyledButton>
       </ButtonContainer>
       {showContactForm && <ContactFormModal onClick={toggleContactForm} />}
@@ -30,10 +30,15 @@ ContactPopUp.propTypes = {
 
 const ContactFormModal = ({ onClick }) => {
   return (
-    <StyledModal className="modal">
-      <ContactForm />
-      <FontAwesomeIcon icon="times" onClick={onClick} style={{ cursor: 'pointer' }} />
-    </StyledModal>
+    <>
+      <Backdrop onClick={onClick} />
+      <StyledModal>
+        <CloseButton onClick={onClick} aria-label="Luk">
+          <FontAwesomeIcon icon="times" />
+        </CloseButton>
+        <ContactForm />
+      </StyledModal>
+    </>
   );
 };
 
@@ -41,25 +46,96 @@ ContactFormModal.propTypes = {
   onClick: PropTypes.func.isRequired,
 };
 
-const StyledModal = styled.div`
-  position: absolute;
-  background: white;
-  display: flex;
-  justify-content: center;
-  z-index: 9999;
-  border: 1px solid #ccc;
+const Backdrop = styled.div`
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 2rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+  animation: fadeIn 0.3s ease-out;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+`;
+
+const CloseButton = styled.button`
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: #333;
+  z-index: 10000;
+
+  &:hover {
+    color: #000;
+  }
+
   ${Responsive.media.tablet`
-    width: 100%;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 2rem;
     padding: 1rem;
   `}
 `;
 
-export default ContactPopUp;
+const StyledModal = styled.div`
+  position: fixed;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+  border: 1px solid #ccc;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  padding-top: 3rem;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 8px;
+  box-sizing: border-box;
+  animation: fadeIn 0.3s ease-out;
+
+  ${Responsive.media.tablet`
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: none;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1rem;
+    padding-top: 4rem;
+    border: none;
+    border-radius: 0;
+  `}
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+`;
 
 const StyledButton = styled.a`
   background: linear-gradient(#379683, #1cb8b8);
@@ -80,6 +156,8 @@ const ButtonContainer = styled.div`
   justify-content: center;
 `;
 
-const Text = styled.div`
+const ButtonText = styled.div`
   color: #fff;
 `;
+
+export default ContactPopUp;

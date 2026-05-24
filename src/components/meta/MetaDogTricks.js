@@ -1,11 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import MetaTags from 'react-meta-tags';
 
-const MetaDogTricks = ({ title, description, keywords }) => (
+const defaultTitle =
+  'Fit Empowerment | Fokus på selvtillid | Hundetræning Nim | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Tricks & Motorik hundehold i Nim, nær Horsens';
+const defaultKeywords = `Empowerment, empowerment hund, tricks hund, motorik hund, kropskontrol hund, kreativ hundetræning, klikkertræning hund, 
+  targettræning, target hund, targettræning hund, target træning hund, dog parkour, kropsbevidsthed hund, selvtillid hund, dog fitness, doggy fitness, 
+  nervøs hund, usikker hund, selvsikker hund`;
+
+const MetaDogTricks = ({
+  title = defaultTitle,
+  description = defaultDescription,
+  keywords = defaultKeywords,
+}) => (
   <>
-    <MetaTags>
-      <title>{title}</title>
+    <title>{title}</title>
       <meta property="og:title" content={title} />
       <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/empowerment" />
       <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/empowerment" />
@@ -18,26 +27,13 @@ const MetaDogTricks = ({ title, description, keywords }) => (
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta property="og:description" content={description} />
-    </MetaTags>
   </>
 );
 
-const defaultTitle =
-  'Fit Empowerment | Fokus på selvtillid | Hundetræning Nim | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Tricks & Motorik hundehold i Nim, nær Horsens';
-const defaultKeywords = `Empowerment, empowerment hund, tricks hund, motorik hund, kropskontrol hund, kreativ hundetræning, klikkertræning hund, 
-  targettræning, target hund, targettræning hund, target træning hund, dog parkour, kropsbevidsthed hund, selvtillid hund, dog fitness, doggy fitness, 
-  nervøs hund, usikker hund, selvsikker hund`;
 MetaDogTricks.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
-};
-
-MetaDogTricks.defaultProps = {
-  title: defaultTitle,
-  description: defaultDescription,
-  keywords: defaultKeywords,
 };
 
 export default MetaDogTricks;

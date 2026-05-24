@@ -4,7 +4,7 @@ import Responsive from './Responsive';
 import PropTypes from 'prop-types';
 
 const Row = ({ children, marginTop, marginBottom }) => (
-  <StyledRow marginBottom={marginBottom} marginTop={marginTop}>
+  <StyledRow $marginBottom={marginBottom} $marginTop={marginTop}>
     {children}
   </StyledRow>
 );
@@ -26,8 +26,8 @@ const StyledRow = styled.div`
     flex-direction: column;
     align-items: center;
   `}
-  margin-top: ${(props) => props.marginTop};
-  margin-bottom: ${(props) => props.marginBottom};
+  margin-top: ${(props) => props.$marginTop};
+  margin-bottom: ${(props) => props.$marginBottom};
 `;
 
 export default Row;

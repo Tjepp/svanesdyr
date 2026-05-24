@@ -1,45 +1,38 @@
 import styled from 'styled-components';
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import LazyLoad from 'react-lazyload';
 import Responsive from './layout/Responsive';
 
-export default class Image extends React.Component {
-  state = { isOpen: false };
+const Image = ({ src, width = '100%', height = '100%' }) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-  handleShowDialog = () => {
+  const handleShowDialog = () => {
     const isDesktop = window.innerWidth >= Responsive.sizes.desktop;
 
     if (isDesktop) {
-      const { isOpen } = this.state;
-      this.setState({ isOpen: !isOpen });
-
+      setIsOpen((prev) => !prev);
       document.body.style.overflow = isOpen ? 'auto' : 'hidden';
     }
   };
 
-  render() {
-    const { src, width, height } = this.props;
-    const { isOpen } = this.state;
-
-    return (
-      <>
-        <LazyLoad height="250">
-          <ImageContainer src={src} width={width}>
-            <StyledImage src={src} width={width} height={height} onClick={this.handleShowDialog} />
+  return (
+    <>
+      <LazyLoad height="250">
+        <ImageContainer src={src} width={width}>
+          <StyledImage src={src} width={width} height={height} onClick={handleShowDialog} />
+        </ImageContainer>
+      </LazyLoad>
+      {isOpen && (
+        <StyledModal className="modal" onClick={handleShowDialog}>
+          <ImageContainer>
+            <StyledImage src={src} />
           </ImageContainer>
-        </LazyLoad>
-        {isOpen && (
-          <StyledModal className="modal" onClick={this.handleShowDialog}>
-            <ImageContainer>
-              <StyledImage src={src} />
-            </ImageContainer>
-          </StyledModal>
-        )}
-      </>
-    );
-  }
-}
+        </StyledModal>
+      )}
+    </>
+  );
+};
 
 Image.propTypes = {
   src: PropTypes.string.isRequired,
@@ -47,10 +40,7 @@ Image.propTypes = {
   height: PropTypes.string,
 };
 
-Image.defaultProps = {
-  width: '100%',
-  height: '100%',
-};
+export default Image;
 
 const ImageContainer = styled.div`
   transition: transform 3000ms ease-in-out;

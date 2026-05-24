@@ -1,11 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import MetaTags from 'react-meta-tags';
 
-const MetaDogCool = ({ title, description, keywords }) => (
+const defaultTitle =
+  'Helt-Cool i Nim | Hundelydighed | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Helt-Cool kursus for hunde i Nim, nær Horsens';
+const defaultKeywords = `Hundehold Horsens, Hundetræning Horsens, hund trækker, hund gå pænt, hund hopper op, hund hopper gæster, hund gæster, hund hilse pænt,
+  hund lydighed, lydighedshold, hundelydighed, lydighed, cool hund, helt cool hund, helt cool, helt-cool, hund rolig gåtur, hund gåtur,
+  selvkontrol hund, impulskontrol hund, doggie zen, belønning hund`;
+
+const MetaDogCool = ({
+  title = defaultTitle,
+  description = defaultDescription,
+  keywords = defaultKeywords,
+}) => (
   <>
-    <MetaTags>
-      <title>{title}</title>
+    <title>{title}</title>
       <meta property="og:title" content={title} />
       <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/coolhold" />
       <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/coolhold" />
@@ -18,26 +27,13 @@ const MetaDogCool = ({ title, description, keywords }) => (
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta property="og:description" content={description} />
-    </MetaTags>
   </>
 );
 
-const defaultTitle =
-  'Helt-Cool i Nim | Hundelydighed | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Helt-Cool kursus for hunde i Nim, nær Horsens';
-const defaultKeywords = `Hundehold Horsens, Hundetræning Horsens, hund trækker, hund gå pænt, hund hopper op, hund hopper gæster, hund gæster, hund hilse pænt,
-  hund lydighed, lydighedshold, hundelydighed, lydighed, cool hund, helt cool hund, helt cool, helt-cool, hund rolig gåtur, hund gåtur,
-  selvkontrol hund, impulskontrol hund, doggie zen, belønning hund`;
 MetaDogCool.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
-};
-
-MetaDogCool.defaultProps = {
-  title: defaultTitle,
-  description: defaultDescription,
-  keywords: defaultKeywords,
 };
 
 export default MetaDogCool;

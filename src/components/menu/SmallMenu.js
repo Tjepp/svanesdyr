@@ -9,7 +9,7 @@ const SmallMenu = ({ onClick, showSidebar }) => (
     <MenuButton onClick={onClick}>
       <FontAwesomeIcon icon="bars" color="#fff" size="1x" />
     </MenuButton>
-    <CollapsibleMenu showSidebar={showSidebar}>
+    <CollapsibleMenu $showSidebar={showSidebar}>
       <SmallMenuItem url="/kontakt" text="Kontakt" />
       <SmallMenuItem url="/hundehold" text="Hundehold" />
       <SmallMenuItem url="/legestue" text="Legestue" />
@@ -34,7 +34,7 @@ SmallMenu.propTypes = {
 export default SmallMenu;
 
 const CollapsibleMenu = styled.div`
-  height: ${(props) => (props.showSidebar ? '395px' : '0')};
+  height: ${(props) => (props.$showSidebar ? '395px' : '0')};
   width: 100%;
   overflow: hidden;
   transition: all 0.5s ease-out;

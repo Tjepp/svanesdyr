@@ -6,21 +6,23 @@ const EasyMeList = ({ src }) => {
   useEffect(() => {
     window.$ = window.jQuery = $;
 
-    const script = document.createElement('script');
+    // Check if script already exists
+    if (document.getElementById('easyme-connect-kMj1RCBSOhIGq2lrpNHy')) {
+      return;
+    }
 
+    const script = document.createElement('script');
     script.src = 'https://secure.easyme.biz/connect/v3/client.js';
     script.async = true;
     script.id = 'easyme-connect-kMj1RCBSOhIGq2lrpNHy';
 
     document.head.appendChild(script);
 
-    return () => {
-      document.head.removeChild(script);
-    };
-  });
+    // Don't remove on unmount - let it stay loaded
+  }, []);
 
   return (
-    <React.Fragment>
+    <>
       <link rel="stylesheet" href="https://secure.easyme.biz/connect/v2/loader.css"></link>
       <section className="ezme-loader">
         <div className="ezme-loader__title">
@@ -43,13 +45,12 @@ const EasyMeList = ({ src }) => {
           />
         </a>
       </section>
-    </React.Fragment>
+    </>
   );
 };
 
 EasyMeList.propTypes = {
-  link: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
 };
 
 export default EasyMeList;

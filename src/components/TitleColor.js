@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { titleHr } from '../assets';
 
-const Title = ({ text, color, showHorizontalRuler, smallTitle }) => (
-  <StyledTitle color={color} showHorizontalRuler={showHorizontalRuler} smallTitle={smallTitle}>
+const Title = ({ text, color = '#1cb8b8', showHorizontalRuler = false, smallTitle = false }) => (
+  <StyledTitle color={color} $showHorizontalRuler={showHorizontalRuler} $smallTitle={smallTitle}>
     {text}
   </StyledTitle>
 );
@@ -12,7 +12,7 @@ const Title = ({ text, color, showHorizontalRuler, smallTitle }) => (
 const StyledTitle = styled.h4`
   color: ${(props) => props.color};
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
-  font-size: ${(props) => (props.smallTitle ? '18px' : '22px')};
+  font-size: ${(props) => (props.$smallTitle ? '18px' : '22px')};
   margin: 10px 0 10px 0;
   width: 100%;
   &:after {
@@ -21,7 +21,7 @@ const StyledTitle = styled.h4`
     margin-left: 0px;
     width: -webkit-fill-available;
     content: '';
-    display: ${(props) => (props.showHorizontalRuler ? 'block' : 'none')};
+    display: ${(props) => (props.$showHorizontalRuler ? 'block' : 'none')};
   }
   font-weight: normal;
 `;
@@ -31,13 +31,6 @@ Title.propTypes = {
   color: PropTypes.string,
   showHorizontalRuler: PropTypes.bool,
   smallTitle: PropTypes.bool,
-};
-
-Title.defaultProps = {
-  color: '#1cb8b8',
-  showHorizontalRuler: false,
-  smallTitle: false,
-  bold: true,
 };
 
 export default Title;

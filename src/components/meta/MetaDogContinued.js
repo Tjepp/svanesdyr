@@ -1,11 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import MetaTags from 'react-meta-tags';
 
-const MetaDogContinued = ({ title, description, keywords }) => (
+const defaultTitle =
+  'Hvalpe Fortsætterhold i Nim | Unghundetræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Hvalpe-Fortsætterhold for unghunde i Nim, nær Horsens';
+const defaultKeywords = `Unghundehold Horsens, unghundetræning Horsens, unghundetræning midtjylland, unghundehold midtjylland, unghund hold, unghundehold, unghund træning, stor hvalp træning,
+  hund teenager træning, indkald hvalp, hvalp trækker, hvalp gå pænt, hvalp hopper op, hvalp hopper gæster, hvalp gæster, hvalp hilse pænt, lineføring, indkald, selvkontrol hund,
+  unghund lydighed, hund lydighed, hvalp fortsætter hold, hvalp fortsætterhold, hvalpe-fortsætterhold, hvalpefortsætterhold, samarbejde hund, samarbejde hvalp`;
+
+const MetaDogContinued = ({
+  title = defaultTitle,
+  description = defaultDescription,
+  keywords = defaultKeywords,
+}) => (
   <>
-    <MetaTags>
-      <title>{title}</title>
+    <title>{title}</title>
       <meta property="og:title" content={title} />
       <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/hvalpfortsat" />
       <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/hvalpfortsat" />
@@ -18,26 +27,13 @@ const MetaDogContinued = ({ title, description, keywords }) => (
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta property="og:description" content={description} />
-    </MetaTags>
   </>
 );
 
-const defaultTitle =
-  'Hvalpe Fortsætterhold i Nim | Unghundetræning | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Hvalpe-Fortsætterhold for unghunde i Nim, nær Horsens';
-const defaultKeywords = `Unghundehold Horsens, unghundetræning Horsens, unghundetræning midtjylland, unghundehold midtjylland, unghund hold, unghundehold, unghund træning, stor hvalp træning,
-  hund teenager træning, indkald hvalp, hvalp trækker, hvalp gå pænt, hvalp hopper op, hvalp hopper gæster, hvalp gæster, hvalp hilse pænt, lineføring, indkald, selvkontrol hund,
-  unghund lydighed, hund lydighed, hvalp fortsætter hold, hvalp fortsætterhold, hvalpe-fortsætterhold, hvalpefortsætterhold, samarbejde hund, samarbejde hvalp`;
 MetaDogContinued.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
-};
-
-MetaDogContinued.defaultProps = {
-  title: defaultTitle,
-  description: defaultDescription,
-  keywords: defaultKeywords,
 };
 
 export default MetaDogContinued;

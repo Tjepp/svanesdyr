@@ -1,11 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import MetaTags from 'react-meta-tags';
 
-const MetaLawPrivate = ({ title, description, keywords }) => (
+const defaultTitle = 'Privatlivspolitik | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Privatlivspolitik';
+const defaultKeywords = `Svaens Dyr privatlivspolitik,`;
+
+const MetaLawPrivate = ({
+  title = defaultTitle,
+  description = defaultDescription,
+  keywords = defaultKeywords,
+}) => (
   <>
-    <MetaTags>
-      <title>{title}</title>
+    <title>{title}</title>
       <meta property="og:title" content={title} />
       <link rel="canonical" href="https://www.svanesdyr.dk/privatlivspolitik" />
       <meta property="og:url" content="https://www.svanesdyr.dk/privatlivspolitik" />
@@ -18,24 +24,13 @@ const MetaLawPrivate = ({ title, description, keywords }) => (
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta property="og:description" content={description} />
-    </MetaTags>
   </>
 );
-
-const defaultTitle = 'Privatlivspolitik | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Privatlivspolitik';
-const defaultKeywords = `Svaens Dyr privatlivspolitik,`;
 
 MetaLawPrivate.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
-};
-
-MetaLawPrivate.defaultProps = {
-  title: defaultTitle,
-  description: defaultDescription,
-  keywords: defaultKeywords,
 };
 
 export default MetaLawPrivate;

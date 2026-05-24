@@ -5,10 +5,6 @@ import CallMe from './CallMe';
 import EmailMe from './EmailMe';
 import Responsive from './layout/Responsive';
 
-function navigateTo(url) {
-  window.open(url, '_blank');
-}
-
 const TopBar = () => (
   <Background>
     <Bar>
@@ -17,14 +13,9 @@ const TopBar = () => (
         <EmailMe />
       </Column>
       <Column>
-        <Button
-          type="button"
-          onClick={() => {
-            navigateTo('https://www.facebook.com/SvanesDyr');
-          }}
-        >
-          <FontAwesomeIcon color="#fff" icon={['fab', 'facebook-f']} style={{ padding: '6 12' }} />
-        </Button>
+        <IconLink href="https://www.facebook.com/SvanesDyr" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={['fab', 'facebook-f']} color="#fff" />
+        </IconLink>
       </Column>
     </Bar>
   </Background>
@@ -32,14 +23,12 @@ const TopBar = () => (
 
 export default TopBar;
 
-const Button = styled.button` {
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  border: none;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
-  `;
+const IconLink = styled.a`
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  cursor: pointer;
+`;
 
 const Background = styled.div`
   height: 3rem;

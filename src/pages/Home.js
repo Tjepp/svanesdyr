@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import MediaQuery from 'react-responsive';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import { Page, Banner, Button, Meta, Column, Title, Text, Image, StyledB } from '../components';
 import Responsive from '../components/layout/Responsive';
 import { ClubCover, sabrinaAndBarney, FrontNoOne } from '../assets';

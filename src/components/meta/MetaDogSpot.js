@@ -1,11 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import MetaTags from 'react-meta-tags';
 
-const MetaDogSpot = ({ title, description, keywords }) => (
+const defaultTitle =
+  'Spotkurser | Dyreadfærdskonsulent | Svanes Dyr ';
+const defaultDescription = 'Svanes Dyr - Spotkurser i Nim, nær Horsens';
+const defaultKeywords = `familievenlig hundetræning, familie hundetræning, ikke hoppe op, hilse pænt hund, gåtur hund, gå pænt hund, ikke trække hund, trækker i snoren,`;
+
+const MetaDogSpot = ({
+  title = defaultTitle,
+  description = defaultDescription,
+  keywords = defaultKeywords,
+}) => (
   <>
-    <MetaTags>
-      <title>{title}</title>
+    <title>{title}</title>
       <meta property="og:title" content={title} />
       <link rel="canonical" href="https://www.svanesdyr.dk/spotkurser" />
       <meta property="og:url" content="https://www.svanesdyr.dk/spotkurser" />
@@ -18,25 +25,13 @@ const MetaDogSpot = ({ title, description, keywords }) => (
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta property="og:description" content={description} />
-    </MetaTags>
   </>
 );
-
-const defaultTitle =
-  'Spotkurser | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Spotkurser i Nim, nær Horsens';
-const defaultKeywords = `familievenlig hundetræning, familie hundetræning, ikke hoppe op, hilse pænt hund, gåtur hund, gå pænt hund, ikke trække hund, trækker i snoren,`;
 
 MetaDogSpot.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
-};
-
-MetaDogSpot.defaultProps = {
-  title: defaultTitle,
-  description: defaultDescription,
-  keywords: defaultKeywords,
 };
 
 export default MetaDogSpot;

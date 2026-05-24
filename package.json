@@ -3,37 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "6.1.1",
-    "@fortawesome/free-brands-svg-icons": "6.1.1",
-    "@fortawesome/free-solid-svg-icons": "6.1.1",
-    "@fortawesome/react-fontawesome": "^0.1.18",
-    "@react-google-maps/api": "^2.11.8",
-    "axios": "0.27.2",
-    "babel-plugin-styled-components": "2.0.7",
+    "@fortawesome/fontawesome-svg-core": "^6.7.0",
+    "@fortawesome/free-brands-svg-icons": "^6.7.0",
+    "@fortawesome/free-solid-svg-icons": "^6.7.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@react-google-maps/api": "^2.20.0",
+    "axios": "^1.7.0",
     "jquery": "^3.7.1",
     "prop-types": "^15.8.1",
-    "react": "18.1.0",
-    "react-cookie-consent": "7.4.1",
-    "react-dom": "18.1.0",
+    "react": "^19.0.0",
+    "react-cookie-consent": "^9.0.0",
+    "react-dom": "^19.0.0",
     "react-lazyload": "^3.2.0",
-    "react-meta-tags": "^1.0.1",
-    "react-responsive": "9.0.0-beta.8",
-    "react-responsive-carousel": "3.2.23",
-    "react-router-dom": "6.3.0",
-    "react-router-prop-types": "^1.0.5",
+    "react-responsive": "^10.0.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router": "^7.0.0",
     "react-scripts": "5.0.1",
-    "react-super-responsive-table": "^5.2.0",
-    "styled-components": "5.3.5"
+    "react-super-responsive-table": "^6.0.0",
+    "styled-components": "^6.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:fix": "eslint --fix --ext .jsx --ext .js src/"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "lint:fix": "eslint --fix src/"
   },
   "browserslist": [
     ">0.2%",
@@ -42,15 +36,15 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint": "8.16.0",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-config-react-app": "7.0.1",
-    "eslint-plugin-flowtype": "8.0.3",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.30.0",
-    "prettier": "2.6.2"
-  }
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.37.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.0.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

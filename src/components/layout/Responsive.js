@@ -16,7 +16,6 @@ const media = Object.keys(sizes).reduce((acc, label) => {
   return acc;
 }, {});
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   media,
   sizes,

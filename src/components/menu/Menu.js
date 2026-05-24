@@ -1,46 +1,39 @@
 import styled from 'styled-components';
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
 import Responsive from '../layout/Responsive';
 import { LogoUpdate } from '../../assets';
 import LargeMenu from './LargeMenu';
 import SmallMenu from './SmallMenu';
 
-class Menu extends Component {
-  state = {
-    showSidebar: false,
+const Menu = () => {
+  const [showSidebar, setShowSidebar] = useState(false);
+
+  const toggleShowSideBar = () => {
+    setShowSidebar((prev) => !prev);
   };
 
-  toggleShowSideBar = () => {
-    const { showSidebar } = this.state;
-
-    this.setState({ showSidebar: !showSidebar });
-  };
-
-  render() {
-    const { showSidebar } = this.state;
-    return (
-      <Background>
-        <Bar>
-          <CenteredA href="/">
-            <Img src={LogoUpdate} alt="logo" />
-          </CenteredA>
-          <MenuItemContainer>
-            <MediaQuery minWidth={Responsive.sizes.tablet}>
-              {(matches) =>
-                matches ? (
-                  <LargeMenu />
-                ) : (
-                  <SmallMenu onClick={this.toggleShowSideBar} showSidebar={showSidebar} />
-                )
-              }
-            </MediaQuery>
-          </MenuItemContainer>
-        </Bar>
-      </Background>
-    );
-  }
-}
+  return (
+    <Background>
+      <Bar>
+        <CenteredA href="/">
+          <Img src={LogoUpdate} alt="logo" />
+        </CenteredA>
+        <MenuItemContainer>
+          <MediaQuery minWidth={Responsive.sizes.tablet}>
+            {(matches) =>
+              matches ? (
+                <LargeMenu />
+              ) : (
+                <SmallMenu onClick={toggleShowSideBar} showSidebar={showSidebar} />
+              )
+            }
+          </MediaQuery>
+        </MenuItemContainer>
+      </Bar>
+    </Background>
+  );
+};
 
 export default Menu;
 
