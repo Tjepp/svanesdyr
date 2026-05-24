@@ -19,7 +19,7 @@ const OnlineSummerThanks = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverSummer} />
+          <Image src={OnlineCoverSummer} alt="Coverbillede for sommerkursus med hund" />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>

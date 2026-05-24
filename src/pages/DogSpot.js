@@ -39,7 +39,7 @@ const DogSpot = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverSpot} />
+          <Image src={OnlineCoverSpot} alt="Spotkurser hos Svanes Dyr med hundeejere og hunde på træningsplads" />
           <br />
           <TitleCenter text="Kommende spotkurser hos Svanes Dyr i Nim, nær Horsens" />
           <TextCenter>
@@ -68,7 +68,7 @@ const DogSpot = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Inspiration til hverdagsaktivering" />
           <FlexedRow>
-            <Image src={PuppySix} width="300px" height="200px" />
+            <Image src={PuppySix} width="300px" height="200px" alt="Hvid hvalp balancerer på blå træningspodier under hverdagsaktivering" />
             <TextContainer>
               <Text>
                 <b>Få velstimulerende opgaver der giver en glad og træt hund</b>
@@ -126,7 +126,7 @@ const DogSpot = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Hilse pænt" />
           <FlexedRow>
-            <Image src={CoolSix} width="300px" height="200px" />
+            <Image src={CoolSix} width="300px" height="200px" alt="Cavalier King Charles spaniel ligger afslappet på tæppe under ro øvelse" />
             <TextContainer>
               <Text>
                 <b>Fokus på at øve ikke-hoppe-op og hilse roligt</b>
@@ -157,7 +157,7 @@ const DogSpot = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Rolige gåture" />
           <FlexedRow>
-            <Image src={CoolThree} width="300px" height="200px" />
+            <Image src={CoolThree} width="300px" height="200px" alt="Brun labrador øver gå pænt i snor på træningspladsen" />
             <TextContainer>
               <Text>
                 <b>Med fokus på gå-pænt-teknikker og selvkontrol</b>

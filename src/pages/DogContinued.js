@@ -138,24 +138,24 @@ const DogContinued = () => (
           <Title text="Stemningsbilleder fra fortsætterhold" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={PuppyContinuedOne} />
+              <Image src={PuppyContinuedOne} alt="Lagotto romagnolo unghund ligger roligt på tæppe under fortsætterhold" />
             </Column>
             <Column>
-              <Image src={PuppyContinuedTwo} />
+              <Image src={PuppyContinuedTwo} alt="Lille hvid malteser hvalp står på podium og giver kontakt" />
             </Column>
             <Column>
-              <Image src={PuppyContinuedThree} />
+              <Image src={PuppyContinuedThree} alt="Cairn terrier hvalp balancerer på træningsvippe under motorik" />
             </Column>
           </Row>
           <Row>
             <Column>
-              <Image src={PuppyContinuedFour} />
+              <Image src={PuppyContinuedFour} alt="Kursister står spredt på træningsplads under hvalpetræning" />
             </Column>
             <Column>
-              <Image src={PuppyContinuedFive} />
+              <Image src={PuppyContinuedFive} alt="To hunde leger sammen på græsset under legestue" />
             </Column>
             <Column>
-              <Image src={PuppyContinuedSix} />
+              <Image src={PuppyContinuedSix} alt="Kooikerhondje unghund giver opmærksom kontakt under indkaldstræning" />
             </Column>
           </Row>
         </Column>

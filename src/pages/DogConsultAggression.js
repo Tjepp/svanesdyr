@@ -81,7 +81,7 @@ const DogConsultAggression = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="Du får professionel rådgivning og en skræddersyet handlingsplan til dig og din hund" />
           <FlexedRow>
-            <Image src={sabrinaNew} width="225px" height="300px" />
+            <Image src={sabrinaNew} width="225px" height="300px" alt="Dyreadfærdskonsulent Sabrina Svane portræt" />
             <TextContainer>
             <Text>
                 Jeg hedder Sabrina Svane og har specialiseret mig i at hjælpe aggressive, udfarende hunde uanset årsag.
@@ -147,7 +147,7 @@ const DogConsultAggression = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Vi har fået et nyt syn på en problemstilling, hvor vi tidligere var kørt fast, og en ny tro på tingene” " />
           <FlexedRow>
-            <Image src={ConsultAggOne} width="300px" height="200px" />
+            <Image src={ConsultAggOne} width="300px" height="200px" alt="Nicklas og Anna med deres hund Freddie efter konsultation" />
             <TextContainer>
               <Text>
                 Som studerende var den eneste lille overvejelse på økonomien, men der var intet at snakke om.
@@ -169,7 +169,7 @@ const DogConsultAggression = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" Opfølgende samtale 3 måneder efter konsultationen hos Freddie; " />
           <FlexedRow>
-            <Image src={ConsultAggTwo} width="200px" height="300px" />
+            <Image src={ConsultAggTwo} width="200px" height="300px" alt="Freddie der nu er mere selvsikker og rolig på gåture" />
             <TextContainer>
               <Text>
                 Du har hjulpet os rigtig godt med Freddie især, og hans selvtillid! 

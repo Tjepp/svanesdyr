@@ -126,24 +126,24 @@ const DogEmpower = () => (
           <Title text="Billeder fra Fit Empowerment" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={TricksOne} />
+              <Image src={TricksOne} alt="Schæferhund træner nose work med godbidsleg på græsplæne" />
             </Column>
             <Column>
-              <Image src={TricksTwo} />
+              <Image src={TricksTwo} alt="Border collie balancerer på fitness bold under empowerment træning" />
             </Column>
             <Column>
-              <Image src={TricksThree} />
+              <Image src={TricksThree} alt="Sort labrador giver opmærksom kontakt til ejer under lydighed" />
             </Column>
           </Row>
           <Row>
             <Column>
-              <Image src={TricksFour} />
+              <Image src={TricksFour} alt="Corgi balancerer på to fitness bolde under styrketræning" />
             </Column>
             <Column>
-              <Image src={TricksFive} />
+              <Image src={TricksFive} alt="Hvid hund sidder på podium og giver kontakt under kropskontrol" />
             </Column>
             <Column>
-              <Image src={TricksSix} />
+              <Image src={TricksSix} alt="Golden retriever med forpoter på balancepude under fitness træning" />
             </Column>
           </Row>
         </Column>

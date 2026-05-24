@@ -72,7 +72,7 @@ const DogSummer = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverSummer} />
+          <Image src={OnlineCoverSummer} alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser 2025" />
           <br />
           <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene i uge 30 eller 31 sammen med din hund" />
           <TextCenter>
@@ -111,7 +111,7 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Indkald begynder og øvet" />
           <FlexedRow>
-            <Image src={RecallOne} width="300px" height="200px" />
+            <Image src={RecallOne} alt="Hundetræner giver godbid til lille hund der ligger på græsset" width="300px" height="200px" />
             <TextContainer>
               <Text>
                 <b>Indkald Basis</b>
@@ -150,7 +150,7 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Fitness for alle" />
           <FlexedRow>
-            <Image src={TricksOne} width="300px" height="200px" />
+            <Image src={TricksOne} alt="Hund balancerer med forpoter og bagpoter på balancepuder under træning" width="300px" height="200px" />
             <TextContainer>
               <Text>
                 <b>Fokus på god kropskontrol og kropsbevidsthed</b>
@@ -185,7 +185,7 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Rolige gåture" />
           <FlexedRow>
-            <Image src={CoolThree} width="300px" height="200px" />
+            <Image src={CoolThree} alt="To hundeejere går med deres hunde på træningsplads under rolige gåture kursus" width="300px" height="200px" />
             <TextContainer>
               <Text>
                 <b>Med fokus på gå-pænt-teknikker og selvkontrol</b>
@@ -218,7 +218,7 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Hilse pænt" />
           <FlexedRow>
-            <Image src={CoolSix} width="300px" height="200px" />
+            <Image src={CoolSix} alt="Kvinde bøjer sig ned mod glad labrador der kigger op under hilse pænt træning" width="300px" height="200px" />
             <TextContainer>
               <Text>
                 <b>Fokus på at øve ikke-hoppe-op og hilse roligt</b>
@@ -313,7 +313,7 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Tricks og Sjov!" />
           <FlexedRow>
-            <Image src={TricksTwo} width="300px" height="200px" />
+            <Image src={TricksTwo} alt="Hvid terrier ligger på skateboard under tricks og sjov træning" width="300px" height="200px" />
             <TextContainer>
               <Text>
                 <b>Det perfekte kursus til barn og hund sammen</b>
@@ -348,7 +348,7 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Inspiration til hverdagsaktivering" />
           <FlexedRow>
-            <Image src={PuppySix} width="300px" height="200px" />
+            <Image src={PuppySix} alt="Hvid hvalp balancerer på blå træningspodier under hverdagsaktivering" width="300px" height="200px" />
             <TextContainer>
               <Text>
                 <b>Få velstimulerende opgaver der giver en glad og træt hund</b>
@@ -378,7 +378,7 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Nose Work Momentsøg" />
           <FlexedRow>
-            <Image src={NWGary} width="300px" height="200px" />
+            <Image src={NWGary} alt="Corgi snuser ved campingvogn under Nose Work træning" width="300px" height="200px" />
             <TextContainer>
               <Text>
                 <b>Til hunden der selvsikkert søger på lavendelduft</b>
@@ -415,7 +415,7 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Legestue opdelt efter størrelse" />
           <FlexedRow>
-            <Image src={PuppyContinuedFive} width="300px" height="200px" />
+            <Image src={PuppyContinuedFive} alt="To hunde leger sammen på græsset under legestue" width="300px" height="200px" />
             <TextContainer>
               <Text>
                 <b>God socialisering under kontrollerede forhold!</b>
@@ -554,7 +554,7 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="4 timers intensiv introduktion til Nose Work - Lad jagten på duften begynde!" />
           <FlexedRow>
-            <Image src={NWGary} width="300px" height="200px" />
+            <Image src={NWGary} alt="Corgi snuser ved campingvogn under Nose Work træning" width="300px" height="200px" />
             <TextContainer>
             <Text>
                 <b>Med Hundetræner og Nose Work Instruktør Anja Nielsen fra Anja&Hund</b>

@@ -113,24 +113,24 @@ const DogCircle = () => (
           <Title text="Stemningsbilleder fra holdene" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={PuppyContinuedThree} />
+              <Image src={PuppyContinuedThree} alt="Cairn terrier hvalp balancerer på træningsvippe under motorik" />
             </Column>
             <Column>
-              <Image src={TricksTwo} />
+              <Image src={TricksTwo} alt="Border collie balancerer på fitness bold under empowerment træning" />
             </Column>
             <Column>
-              <Image src={TricksThree} />
+              <Image src={TricksThree} alt="Sort labrador giver opmærksom kontakt til ejer under lydighed" />
             </Column>
           </Row>
           <Row>
             <Column>
-              <Image src={TricksFour} />
+              <Image src={TricksFour} alt="Corgi balancerer på to fitness bolde under styrketræning" />
             </Column>
             <Column>
-              <Image src={CoolAgainSix} />
+              <Image src={CoolAgainSix} alt="Cavalier King Charles spaniel ligger afslappet på tæppe under ro øvelse" />
             </Column>
             <Column>
-              <Image src={TricksSix} />
+              <Image src={TricksSix} alt="Golden retriever med forpoter på balancepude under fitness træning" />
             </Column>
           </Row>
         </Column>

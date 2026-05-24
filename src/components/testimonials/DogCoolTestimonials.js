@@ -3,7 +3,8 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
-import { TitleColor, Text, TextContainer, FlexedRow, Image } from '../../components';
+import { TitleColor, Text, TextContainer, FlexedRow } from '../../components';
+import TestimonialImage from './TestimonialImage';
 import {
   TestiCoolOne,
   TestiCoolThree,
@@ -27,7 +28,7 @@ const DogCoolTestimonials = () => (
     swipeScrollTolerance={30}
   >
       <FlexedRow>
-      <Image src={TestiCoolNine} width="200px" height="300px" />
+      <TestimonialImage src={TestiCoolNine} alt="Billede fra kunde til udtalelse om Hold Helt Cool" />
       <TextContainer>
         <TitleColor text=" ”De redskaber man får virker rent faktisk, og det ses hurtigt!” " />
         <Text>
@@ -46,7 +47,7 @@ const DogCoolTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiCoolTen} width="200px" height="300px" />
+      <TestimonialImage src={TestiCoolTen} alt="Billede fra kunde til udtalelse om Hold Helt Cool" />
       <TextContainer>
         <TitleColor text=" ”Jeg har været så glad for den måde som du, Sabrina, underviser på. Du får mig til at føle mig set og tilretter dine øvelser til hver enkelt hund. ” " />
         <Text>
@@ -60,7 +61,7 @@ const DogCoolTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiCoolThree} width="200px" height="300px" />
+      <TestimonialImage src={TestiCoolThree} alt="Billede fra kunde til udtalelse om Hold Helt Cool" />
       <TextContainer>
         <TitleColor text=" ”Jeg var lidt imod at vi skulle bruge klikker. Men for pokker hvor det virker!” " />
         <Text>
@@ -79,7 +80,7 @@ const DogCoolTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiCoolEleven} width="200px" height="300px" />
+      <TestimonialImage src={TestiCoolEleven} alt="Billede fra kunde til udtalelse om Hold Helt Cool" />
       <TextContainer>
         <TitleColor text=" ”I starten virkede mad eller legetøj ikke nær andre hunde, men jeg fik nogle bedre metoder til at få kontakt til Zeus, så gåture er blevet super nemme nu!” " />
         <Text>
@@ -96,7 +97,7 @@ const DogCoolTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiCoolFive} width="200px" height="300px" />
+      <TestimonialImage src={TestiCoolFive} alt="Billede fra kunde til udtalelse om Hold Helt Cool" />
       <TextContainer>
         <TitleColor text=" ”Det er ikke første gang vi går til træning og jeg var lidt spændt på om det ville give pote den her gang. Nu tænker jeg; ØV jeg ikke fandt det her sted først. Det er fantastisk!” " />
         <Text>
@@ -118,7 +119,7 @@ const DogCoolTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiCoolFour} width="200px" height="300px" />
+      <TestimonialImage src={TestiCoolFour} alt="Billede fra kunde til udtalelse om Hold Helt Cool" />
       <TextContainer>
         <TitleColor text=" ”Vi frygtede vi ikke ville lære noget nyt, men vi tog fejl” " />
         <Text>
@@ -141,7 +142,7 @@ const DogCoolTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiCoolEight} width="200px" height="300px" />
+      <TestimonialImage src={TestiCoolEight} alt="Billede fra kunde til udtalelse om Hold Helt Cool" />
       <TextContainer>
         <TitleColor text=" ”Jeg var bekymret for at der ikke var nogen mærkbar virkning af træningen, men fandt ud af at selv en lille indsats har virkning!” " />
         <Text>
@@ -155,7 +156,7 @@ const DogCoolTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiCoolOne} width="200px" height="300px" />
+      <TestimonialImage src={TestiCoolOne} alt="Billede fra kunde til udtalelse om Hold Helt Cool" />
       <TextContainer>
         <TitleColor text=" ”Vi var bekymret for om vores hund kunne lærer det vi ønskede, men vi blev overrasket” " />
         <Text>
@@ -171,7 +172,7 @@ const DogCoolTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiCoolSeven} width="200px" height="300px" />
+      <TestimonialImage src={TestiCoolSeven} alt="Billede fra kunde til udtalelse om Hold Helt Cool" />
       <TextContainer>
         <TitleColor text=" ”Vi har fået gode redskaber til at hjælpe vores hund med at slappe mere af i situationer hvor hun bliver overgearet” " />
         <Text>

@@ -107,7 +107,7 @@ const Dog = () => (
       </Row>
       <Row marginBottom="25px">
         <Column>
-          <Image src={dogThree} />
+          <Image src={dogThree} alt="Glad hvalp kigger op mod kameraet under træning" />
           <TitleColor text="Hvalpevisit" smallTitle />
           <Text>
             Har du netop fået hvalp og ønsker at få den bedste start på jeres fremtidige liv sammen,
@@ -122,7 +122,7 @@ const Dog = () => (
           <TextList texts={puppyVisitTexts} /> */}
         </Column>
         <Column>
-          <Image src={dogTwo} />
+          <Image src={dogTwo} alt="Hund der øver ro og impulskontrol på træningspladsen" />
           <TitleColor text="Stressrelateret problemadfærd" smallTitle />
           <Text>
             Føler du din hund har ADHD eller omtales den som værende lidt af et "damp"-barn, så er der hjælp at hente 
@@ -143,7 +143,7 @@ const Dog = () => (
           </Text> */}
         </Column>
         <Column>
-          <Image src={dogOne} />
+          <Image src={dogOne} alt="Hund på gåtur der øver ro i mødet med andre" />
           <TitleColor text="Aggression og udfarende adfærd" smallTitle />
           <Text>
             Oplever du din hund knurrer, gør eller farer ud overfor dig, andre mennesker eller hunde, så er din hund nødvendigvis ikke aggressiv.

@@ -83,7 +83,7 @@ const DogConsultPuppy = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="Du får professionel rådgivning og en skræddersyet handlingsplan til dig og din hvalp" />
           <FlexedRow>
-            <Image src={ConsultPupThree} width="200px" height="200px" />
+            <Image src={ConsultPupThree} width="200px" height="200px" alt="Sabrina Svane sidder med hvalp under konsultation" />
             <TextContainer>
               <Text>
                 Jeg hedder Sabrina Svane har siden 2012 haft ugentlige hvalpehold og hundredvis af
@@ -149,7 +149,7 @@ const DogConsultPuppy = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Vi troede ikke et hvalpevisit ville være pengene værd. Vi tog fejl.” " />
           <FlexedRow>
-            <Image src={ConsultPupOne} width="200px" height="300px" />
+            <Image src={ConsultPupOne} width="200px" height="300px" alt="Sheila og Daniel med deres hvalp efter vellykket hvalpevisit" />
             <TextContainer>
               <Text>
                 Dit besøg har givet os mere ro og selvtillid. Vi er som førstegangsejere meget mere
@@ -171,7 +171,7 @@ const DogConsultPuppy = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Vi er virkelig godt klædt på og meget mere selvsikre i forhold til hvilken retning for opdragelsen, der er rigtig for os og Loui” " />
           <FlexedRow>
-            <Image src={ConsultPupTwo} width="200px" height="300px" />
+            <Image src={ConsultPupTwo} width="200px" height="300px" alt="Jane med hvalpen Loui der har lært at finde ro" />
             <TextContainer>
               <Text>
                 Det tager tid at omvende dårlige vaner. Men det har allerede hjulpet rigtig meget.

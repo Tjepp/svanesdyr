@@ -19,7 +19,7 @@ const OnlineThankPage = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverBeany} />
+          <Image src={OnlineCoverBeany} alt="Coverbillede for hvalpekursus med Beany" />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>

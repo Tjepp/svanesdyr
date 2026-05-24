@@ -127,25 +127,25 @@ const DogNailClip = () => (
           <Title text="Billeder af neglekliplegen i aktion" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={NailClipOne} />
+              <Image src={NailClipOne} alt="Chokoladebrun labrador kigger på godbidsglas under bucket game træning" />
             </Column>
             <Column>
-              <Image src={NailClipTwo} />
+              <Image src={NailClipTwo} alt="Nærbillede af hundepoter med pænt klippede negle" />
             </Column>
             <Column>
-              <Image src={NailClipThree} />
+              <Image src={NailClipThree} alt="Sheltie står på måtte ved siden af negleklipper og godbidskål" />
             </Column>
           </Row>
 
           <Row>
             <Column>
-              <Image src={NailClipFour} />
+              <Image src={NailClipFour} alt="Sort hund ligger afslappet mens ejer øver potehåndtering med godbidder" />
             </Column>
             <Column>
-              <Image src={NailClipFive} />
+              <Image src={NailClipFive} alt="Kvinde klipper negle på sort pudel der ligger roligt på tæppe" />
             </Column>
             <Column>
-              <Image src={NailClipSix} />
+              <Image src={NailClipSix} alt="Kvinde øver tryg potehåndtering med sin hund i sofaen" />
             </Column>
           </Row>
         </Column>

@@ -125,13 +125,13 @@ const DogSundayPlay = () => {
             <Title text="Stemningsbilleder fra Søndagshygge" showHorizontalRuler />
             <Row>
               <Column>
-                <Image src={Sunday1} />
+                <Image src={Sunday1} alt="Lille pomeranian står på græsplæne med agilityringe i baggrunden til søndagshygge" />
               </Column>
               <Column>
-                <Image src={Sunday2} />
+                <Image src={Sunday2} alt="Træningsplads med flere blå tunneller opsat til tunnel-mania aktivitet" />
               </Column>
               <Column>
-                <Image src={Sunday3} />
+                <Image src={Sunday3} alt="Motorikbane med farverige kegler og træningsudstyr på græsplæne" />
               </Column>
             </Row>
             {/* <Row>

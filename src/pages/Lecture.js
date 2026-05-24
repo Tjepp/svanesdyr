@@ -96,7 +96,7 @@ const Lecture = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Hundens Sprog - Adfærd, Stress og Håndtering" />
           <FlexedRow>
-            <Image src={lectureDogLanguage} width="300px" height="200px" />
+            <Image src={lectureDogLanguage} width="300px" height="200px" alt="Foredrag om hundens sprog med billede af hund der giver signal" />
             <TextContainer>
               <Text bold>
                 3 timers foredrag inkl. to pauser af 10 minutter og tid til spørgsmål
@@ -125,7 +125,7 @@ const Lecture = () => (
 
           <TitleCenter text="Sådan kontrollerer du leg mellem hunde - og giver alle en god oplevelse" />
           <FlexedRow>
-            <Image src={PlayFive} width="300px" height="200px" />
+            <Image src={PlayFive} width="300px" height="200px" alt="To store hunde leger og brydes på græsplænen" />
             <TextContainer>
               <Text bold>
                 2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål
@@ -160,7 +160,7 @@ const Lecture = () => (
 
           <TitleCenter text="Fra Reaktiv til Ro i mødet med andre hunde - opskriften til dig der ønsker rolige gåture" />
           <FlexedRow>
-            <Image src={dogOne} width="300px" height="200px" />
+            <Image src={dogOne} width="300px" height="200px" alt="Hund på gåtur der øver ro i mødet med andre" />
             <TextContainer>
               <Text bold>
                 2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål

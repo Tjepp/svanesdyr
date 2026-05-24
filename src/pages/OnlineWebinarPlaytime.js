@@ -42,7 +42,7 @@ const OnlineWebinarPlaytime = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverDogPlay} />
+          <Image src={OnlineCoverDogPlay} alt="Coverbillede for webinar om kontrolleret hundeleg" />
           <br />
           <TitleCenter text="Et online webinar til dig der ønsket en grundig viden om hvornår leg er godt og hvornår det skal stoppes" />
           <TextCenter>Hvornår er hundeleg "rigtig" og "forkert"?</TextCenter>
@@ -108,7 +108,7 @@ const OnlineWebinarPlaytime = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="Undervisningen leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
-            <Image src={FrontNoOne} width="300px" height="200px" />
+            <Image src={FrontNoOne} width="300px" height="200px" alt="Sabrina Svane med sin hund udendørs" />
             <TextContainer>
               <Text bold>Sabrina Svane</Text>
               <Text>

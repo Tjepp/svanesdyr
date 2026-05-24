@@ -139,35 +139,35 @@ const DogPlay = () => {
             <Title text="Stemningsbilleder fra legestuerne" showHorizontalRuler />
             <Row>
               <Column>
-                <Image src={PlayOne} />
+                <Image src={PlayOne} alt="Gruppe af hunde leger sammen på græsplæne under legestue" />
               </Column>
               <Column>
-                <Image src={PlayTwo} />
+                <Image src={PlayTwo} alt="Tre hunde sidder roligt i skyggen sammen med ejere under pause" />
               </Column>
               <Column>
-                <Image src={PlayThree} />
-              </Column>
-            </Row>
-            <Row>
-              <Column>
-                <Image src={PlayFour} />
-              </Column>
-              <Column>
-                <Image src={PlayFive} />
-              </Column>
-              <Column>
-                <Image src={PuppyContinuedFive} />
+                <Image src={PlayThree} alt="To hunde i legeposition på græsset under kontrolleret leg" />
               </Column>
             </Row>
             <Row>
               <Column>
-                <Image src={PlaySeven} />
+                <Image src={PlayFour} alt="To hunde ligger sammen i højt græs og slapper af" />
               </Column>
               <Column>
-                <Image src={PlayEight} />
+                <Image src={PlayFive} alt="To store hunde leger og brydes på græsplænen" />
               </Column>
               <Column>
-                <Image src={PlayNine} />
+                <Image src={PuppyContinuedFive} alt="To hunde leger sammen på græsset under legestue" />
+              </Column>
+            </Row>
+            <Row>
+              <Column>
+                <Image src={PlaySeven} alt="Hunde hilser på hinanden gennem hegn under kontrolleret socialisering" />
+              </Column>
+              <Column>
+                <Image src={PlayEight} alt="Gruppe af hvalpe sidder sammen i sandkasse under socialisering" />
+              </Column>
+              <Column>
+                <Image src={PlayNine} alt="Hvid og sort hund leger sammen på græsplæne" />
               </Column>
             </Row>
           </Column>

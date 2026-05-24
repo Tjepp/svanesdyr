@@ -19,7 +19,7 @@ const OnlineEbookThanks = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverPuppyFive} />
+          <Image src={OnlineCoverPuppyFive} alt="Coverbillede for e-bog om hvalpeopdragelse" />
           <br />
           <TitleCenter text="Wooohoooo! Det lykkedes!" />
           <TextCenter>

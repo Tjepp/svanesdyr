@@ -157,24 +157,24 @@ const DogCool = () => (
           <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={CoolOne} />
+              <Image src={CoolOne} alt="Sort hund springer glad op til ejer under hilse pænt træning" />
             </Column>
             <Column>
-              <Image src={CoolTwo} />
+              <Image src={CoolTwo} alt="Sort labrador giver rolig kontakt til ejer i snor" />
             </Column>
             <Column>
-              <Image src={CoolThree} />
+              <Image src={CoolThree} alt="Brun labrador øver gå pænt i snor på træningspladsen" />
             </Column>
           </Row>
           <Row>
             <Column>
-              <Image src={CoolFour} />
+              <Image src={CoolFour} alt="Berner sennen sidder roligt og giver kontakt til ejer" />
             </Column>
             <Column>
-              <Image src={CoolFive} />
+              <Image src={CoolFive} alt="Corgi i snor giver glad kontakt til ejer under træning" />
             </Column>
             <Column>
-              <Image src={CoolSix} />
+              <Image src={CoolSix} alt="Cavalier King Charles spaniel ligger afslappet på tæppe under ro øvelse" />
             </Column>
           </Row>
         </Column>

@@ -19,8 +19,9 @@ import {
   DogOnlinePuppy,
   MetaOnlinePuppy,
 } from '../components';
+import TestimonialImage from '../components/testimonials/TestimonialImage';
 import Responsive from '../components/layout/Responsive';
-import { FrontNoOne, OnlineCoverPuppy, OnlinePuppyBook } from '../assets';
+import { FrontNoOne, OnlineCoverPuppy, OnlinePuppyBook, TestiPupOne, TestiPupFour } from '../assets';
 import '../components/table/TableCss.css';
 
 const LPstep3 = [
@@ -83,7 +84,7 @@ const OnlinePuppy = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverPuppy} />
+          <Image src={OnlineCoverPuppy} alt="Online hvalpekursus forside med glad border collie hvalp" />
           <br />
           <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!" />
           <TextCenter>Dette 6 ugers forløb er til dig, der:</TextCenter>
@@ -185,7 +186,7 @@ const OnlinePuppy = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Vi har fået virkelig gode øvelser som vi kan bruge i hverdagen” " />
           <FlexedRow>
-            <Image src={TestiPupOne} width="200px" height="300px" />
+            <TestimonialImage src={TestiPupOne} alt="Billede fra kunde til udtalelse om online hvalpekursus" />
             <TextContainer>
               <Text>
                 Vi vil anbefale alle der skal have hvalp at deltage på Sabrinas hold, ikke bare for
@@ -208,7 +209,7 @@ const OnlinePuppy = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Massiv usikkerhed er ændret til positiv udvikling, da jeg har bedre forståelse for min hund og noget konstruktivt at arbejde videre med hjemme” " />
           <FlexedRow>
-            <Image src={TestiPupFour} width="200px" height="300px" />
+            <TestimonialImage src={TestiPupFour} alt="Billede fra kunde til udtalelse om online hvalpekursus" />
             <TextContainer>
               <Text>
                 Jeg vidste intet om moderne hunde-opdragelse med den positive tilgang, men vidste
@@ -243,7 +244,7 @@ const OnlinePuppy = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="Undervisningen leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
-            <Image src={FrontNoOne} width="300px" height="200px" />
+            <Image src={FrontNoOne} width="300px" height="200px" alt="Dyreadfærdskonsulent Sabrina Svane med hund" />
             <TextContainer>
               <Text bold>Sabrina Svane</Text>
               <Text>
@@ -300,7 +301,7 @@ const OnlinePuppy = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="Når du har investeret i forløbet får du med det samme denne e-bog tilsendt til din mail!" />
           <FlexedRow>
-          <Image src={OnlinePuppyBook} width="350px" height="300px" />
+          <Image src={OnlinePuppyBook} width="350px" height="300px" alt="E-bog om hvalpetræning med sider fra bogen vist" />
             <TextContainer>
               <Text bold>Metoden til konfliktfri opdragelse</Text>
               <Text>

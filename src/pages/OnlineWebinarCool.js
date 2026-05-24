@@ -48,7 +48,7 @@ const OnlineWebinarCool = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverCool} />
+          <Image src={OnlineCoverCool} alt="Forside til webinar om rolige gåture med hund" />
           <br />
           <TitleCenter text="Et online webinar til dig der ønsket en afslappet hund, der kan nyde gåturen sammen med dig" />
           <TextCenter>
@@ -128,7 +128,7 @@ const OnlineWebinarCool = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="”Mange af de ting, du har sagt, har været en kæmpe øjenåbner. Nogle ting var jeg klar over, men aldrig tillagt så stor betydning, og andre ting var helt nye (som det at omgivelser er så vigtige)”" />
           <FlexedRow>
-            <Image src={TestiOnlineWalkOne} width="200px" height="300px" />
+            <Image src={TestiOnlineWalkOne} width="200px" height="300px" alt="Sanne og hendes hund Karla der har fået succes med gåturene" />
             <TextContainer>
               <Text>
                 Mest bed jeg mærke i, at hunden skal <b>guides</b> til den ønskede adfærd, og dermed
@@ -157,7 +157,7 @@ const OnlineWebinarCool = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”For en måned siden var jeg på webinar med Svanes Dyr, og i dag virker hun allerede meget gladere og mere afslappet.” " />
           <FlexedRow>
-            <Image src={TestiOnlineWalkThree} width="200px" height="300px" />
+            <Image src={TestiOnlineWalkThree} width="200px" height="300px" alt="Katrine og hendes hund der er blevet mere afslappet på gåture" />
             <TextContainer>
               <Text>
                 Jeg har to hunde, som jeg nok har forsømt lidt i træning, så begge har fået nogle
@@ -189,7 +189,7 @@ const OnlineWebinarCool = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="Undervisningen leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
-            <Image src={FrontNoOne} width="300px" height="200px" />
+            <Image src={FrontNoOne} width="300px" height="200px" alt="Dyreadfærdskonsulent Sabrina Svane med hund" />
             <TextContainer>
               <Text bold>Sabrina Svane</Text>
               <Text>

@@ -79,7 +79,7 @@ const Cat = () => (
       </Row>
       <Row marginBottom="25px">
       <Column>
-          <Image src={catFour} />
+          <Image src={catFour} alt="Kat ved kradsetræ illustrerer e-bog om kradsevaner" />
           <TitleColor text="E-bog til katteejeren: 3 simple trin, der holder kløerne af møblerne" smallTitle />
           <Text>
             En E-bog til dig der ønsker en konfliktfri hverdag med en kat der elsker sit kradsetræ, så du kan unndgå flere ødelagte sofahjørner!
@@ -88,7 +88,7 @@ const Cat = () => (
           <br />
         </Column>
         <Column>
-          <Image src={catTwo} />
+          <Image src={catTwo} alt="Kat der kigger nysgerrigt mod kameraet" />
           <TitleColor text="Konsultation ved problemadfærd" smallTitle />
           <Text>
             En konsultation varer op til 2 timer hjemme hos jer. Her vil vi snakke adfærdsproblemet
@@ -104,7 +104,7 @@ const Cat = () => (
           </Text>
         </Column>
         <Column>
-          <Image src={catThree} />
+          <Image src={catThree} alt="Kat der ligger afslappet og viser tillid" />
           <TitleColor text="Privattime" smallTitle />
           <Text>
             En privattime er til dig der ønsker at skabe en tryg hverdag for din kat og forebygge

@@ -46,7 +46,7 @@ const About = () => (
         <Column widthPercentage="65%">
           <Title text="Om Sabrina Svane" showHorizontalRuler />
           <FlexedRow>
-            <Image src={sabrinaNew} width="210px" height="270px" />
+            <Image src={sabrinaNew} width="210px" height="270px" alt="Portræt af Sabrina Svane, certificeret dyreadfærdskonsulent" />
             <TextContainer>
               <Text>
                 Jeg hedder Sabrina Svane og er certificeret Dyreadfærdskonsulent (BSc ABT) ved
@@ -135,7 +135,7 @@ const About = () => (
             er opbygget på baggrund af videnskabelige undersøgelser og indlæringspsykologiske
             principper.
           </Text>
-          <Image src={petbc} width="100px" height="78px" />
+          <Image src={petbc} width="100px" height="78px" alt="PetBC logo - Pet Education, Training and Behaviour Council" />
         </Column>
       </Row>
       <Row marginBottom="25px">

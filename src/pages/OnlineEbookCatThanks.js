@@ -19,7 +19,7 @@ const OnlineEbookCatThanks = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverCatScratch} />
+          <Image src={OnlineCoverCatScratch} alt="Coverbillede for e-bog om kattekradsetræning" />
           <br />
           <TitleCenter text="Wooohoooo! Det lykkedes!" />
           <TextCenter>

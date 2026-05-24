@@ -185,7 +185,7 @@ const OnlineCourses = () => (
       </Row>
       <Row marginBottom="25px">
         <Column>
-          <Image src={OnlineRecall} />
+          <Image src={OnlineRecall} alt="Glad hund løber gennem vand med teksten Opskriften på det stærke indkald" />
           <TitleColor text="Opskriften på det stærke indkald" smallTitle />
           <Text>
             Kommer din hund første gang du kalder? <br />
@@ -209,7 +209,7 @@ const OnlineCourses = () => (
         </Column>
 
         <Column >
-        <Image src={OnlineStress} />
+        <Image src={OnlineStress} alt="Hund klør sig selv på græsplæne med teksten Stress forebyggelse og lindring" />
         <TitleColor text="Stress forebyggelse og -lindring" smallTitle />
               <Text>
                 <b>Hvordan ser det ud når din hund er stresset? </b>
@@ -237,7 +237,7 @@ const OnlineCourses = () => (
         </Column>
 
         <Column>
-          <Image src={OnlinePlay} />
+          <Image src={OnlinePlay} alt="Sort og gul labrador leger sammen på græs med teksten 4 tegn på den gode hundeleg" />
           <TitleColor text="4 tegn på den gode hundeleg" smallTitle />
           <Text>
             Synes du hundeleg kan se bidsk ud og lyde voldsomt? <br />
@@ -261,7 +261,7 @@ const OnlineCourses = () => (
 
       <Row marginBottom="25px">
         <Column>
-          <Image src={OnlinePlayFull} />
+          <Image src={OnlinePlayFull} alt="Hvid samojed og berner sennenhund leger på græs med teksten Sådan kontrollerer du leg mellem hunde" />
           <TitleColor text="Sådan kontrollerer du leg mellem hunde - og giver alle en god oplevelse" smallTitle />
           <Text>
             Det er en myte, at hundene skal kunne klare sig selv, når det kommer til at sætte grænser overfor andre hunde!
@@ -286,7 +286,7 @@ const OnlineCourses = () => (
         </Column>
 
         <Column>
-          <Image src={OnlineConfident} />
+          <Image src={OnlineConfident} alt="Cavalier King Charles Spaniel med tungen ud på græsplæne med teksten Sådan gør du den usikre hund mere selvsikker" />
           <TitleColor text="Sådan gør du den usikre hund mere selvsikker" smallTitle />
               <Text>
                 <b>Hvordan kan du helt lavpraktisk øve din usikre hund i at have mere gåpåmod og selvtillid?</b>
@@ -311,7 +311,7 @@ const OnlineCourses = () => (
         </Column>
 
         <Column>
-          <Image src={OnlineBookpuppy} width="400px" height="256px" />
+          <Image src={OnlineBookpuppy} alt="Golden retriever hvalp kigger op på ejer med teksten 5 vigtigste råd til træning af din hvalp" width="400px" height="256px" />
           <TitleColor text="Adfærdsbehandlerens 5 vigtigste råd til træning af din hvalp" smallTitle />
           <Text>
             En E-bog til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!
@@ -323,7 +323,7 @@ const OnlineCourses = () => (
 
       <Row marginBottom="25px">
         <Column>
-          <Image src={OnlineNail} />
+          <Image src={OnlineNail} alt="Kvinde giver godbid til hund på sofa og nærbillede af hundepote med teksten Sådan gør du din hund tryg ved negleklipning" />
           <TitleColor text="Sådan gør du din hund tryg ved negleklipning" smallTitle />
           <Text>
             Kan din hund bestemt ikke lide at få klippet negle? <br />
@@ -346,7 +346,7 @@ const OnlineCourses = () => (
         </Column>
 
         <Column>
-          <Image src={OnlineGarden} />
+          <Image src={OnlineGarden} alt="Mastiff sidder i haven med teksten Stop gøende adfærd i haven" />
           <TitleColor text="Stop gøende adfærd i haven" smallTitle />
           <Text>
             Gør din hund i haven? <br />
@@ -370,7 +370,7 @@ const OnlineCourses = () => (
         </Column>
 
         <Column>
-          <Image src={OnlinePulling} />
+          <Image src={OnlinePulling} alt="Kvinde i lyserød jakke går med hund i snelandskab med teksten Opskriften på at lære hunden at gå pænt uden at trække" />
           <TitleColor text="Opskriften på at lære hunden at gå pænt, uden at trække" smallTitle />
           <Text>
             Trækker din hund i snoren? <br />
@@ -396,7 +396,7 @@ const OnlineCourses = () => (
 
       <Row marginBottom="25px">
       <Column>
-          <Image src={OnlineVisit} />
+          <Image src={OnlineVisit} alt="Beagle hilser på person udendørs med teksten Første trin til at få ro på når der kommer gæster" />
           <TitleColor text="Første trin til at få ro på, når der kommer gæster" smallTitle />
           <Text>
             Hopper din hund op ad dine gæster? <br />
@@ -419,7 +419,7 @@ const OnlineCourses = () => (
         </Column>
 
         <Column>
-          <Image src={OnlineGuests} />
+          <Image src={OnlineGuests} alt="Corgi ligger afslappet i sin kurv med teksten Metoden til ro med gæster i huset" />
           <TitleColor text="Metoden til ro med gæster i huset" smallTitle />
           <Text>
             Har din hund svært ved at finde ro mens i har gæster på besøg? <br />
@@ -441,7 +441,7 @@ const OnlineCourses = () => (
         </Column>
 
         <Column>
-          <Image src={OnlineRelax} />
+          <Image src={OnlineRelax} alt="Whippet hviler hovedet på ejerens ben i sofaen med teksten Lær hunden at finde ro til hverdag" />
           <TitleColor text="Lær hunden at finde ro til hverdag" smallTitle />
           <Text>
             Kræver din hund din opmærksomhed når du er optaget af andet? <br />
@@ -466,7 +466,7 @@ const OnlineCourses = () => (
 
       <Row marginBottom="25px">
       <Column>
-          <Image src={OnlineSound} />
+          <Image src={OnlineSound} alt="Hund kigger på fyrværkeri gennem vindue med teksten 3 tips til behandling af lydangst" />
           <TitleColor text="3 tips til behandling af lydangst" smallTitle />
           <Text>
             Gør din hund af bestemte lyde? <br />
@@ -490,7 +490,7 @@ const OnlineCourses = () => (
         </Column>
 
         <Column>
-          <Image src={OnlineLook} />
+          <Image src={OnlineLook} alt="Sort hund kigger på ænder ved vandet med teksten Teknikken til at kigge på andre dyr uden at jage" />
           <TitleColor text="Teknikken til at kigge på andre dyr, uden at jage" smallTitle />
           <Text>
             Jager din hund andre dyr? <br />

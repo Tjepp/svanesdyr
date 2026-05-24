@@ -3,7 +3,8 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
-import { TitleColor, Text, TextContainer, FlexedRow, Image } from '../../components';
+import { TitleColor, Text, TextContainer, FlexedRow } from '../../components';
+import TestimonialImage from './TestimonialImage';
 import {
   TestiPupOne,
   TestiPupTwo,
@@ -31,7 +32,7 @@ const DogPuppyTestimonials = () => (
     swipeScrollTolerance={30}
   >
     <FlexedRow>
-      <Image src={TestiPupTen} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupTen} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Jeg elsker, at vi ikke er flere på holdet. Det giver tid til hjælp og støtte til den enkelte og mig ro i forhold til at min hund er i trygge rammer” " />
         <Text>
@@ -44,7 +45,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupThirteen} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupThirteen} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Jeg var nervøs for at jeg ikke ville få indført træningen i hverdagen, men det har kun gjort det nemmere at være hvalpeejer og træningen bliver brugt flere gange om dagen” " />
         <Text>
@@ -62,7 +63,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupEleven} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupEleven} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Vi har virkelig følt os set, og har fået en masse gode værktøjer vi har taget med os” " />
         <Text>
@@ -78,7 +79,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupTwelve} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupTwelve} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Jeg syntes det har været super rart med det flotte tilsendte materiale, så man kan være forberedt inden træningsaften!” " />
         <Text>
@@ -95,7 +96,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupThree} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupThree} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Det har været den bedste investering i samarbejdet med vores hund” " />
         <Text>
@@ -113,7 +114,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupFour} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupFour} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Massiv usikkerhed er ændret til positiv udvikling, da jeg har bedre forståelse for min hund og noget konstruktivt at arbejde videre med hjemme” " />
         <Text>
@@ -133,7 +134,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupFive} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupFive} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Min eneste indvending var prisen for holdstart, dette var et af de dyreste steder jeg stødte på, men den må jeg sige virkelig har ændret sig! Kvalitet og pris går hånd i hånd” " />
         <Text>
@@ -149,7 +150,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupSix} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupSix} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Jeg blev overrasket over tilgangen til at have hund. Klikker og ros. Der er overhovedet ingen råb eller skældud” " />
         <Text>
@@ -167,7 +168,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupNine} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupNine} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Jeg frygtede at vi til træning lukkede alle hundene sammen i en pærevælling, men der er rigtig godt styr på hundenes leg!” " />
         <Text>
@@ -181,7 +182,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupEight} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupEight} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Vi har haft god sparring og en livline i træneren!” " />
         <Text>
@@ -196,7 +197,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupSeven} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupSeven} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Jeg fik øjnene op for hvor simpelt det kan være at træne, at det ikke behøves at være kompliceret” " />
         <Text>
@@ -213,7 +214,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupOne} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupOne} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Vi har fået virkelig gode øvelser som vi kan bruge i hverdagen” " />
         <Text>
@@ -232,7 +233,7 @@ const DogPuppyTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupTwo} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupTwo} alt="Billede fra kunde til udtalelse om hvalpehold" />
       <TextContainer>
         <TitleColor text=" ”Det mest fantastiske var at der var tid til leg med andre hvalpe” " />
         <Text>

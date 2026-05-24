@@ -76,7 +76,7 @@ const OnlineEbookCatScratch = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverCatScratch} />
+          <Image src={OnlineCoverCatScratch} alt="Forside til e-bog om kattekradsning med kat ved kradsetræ" />
           <br />
           <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at undgå ødelagte sofahjørner og få en kat der elsker sit kradsetræ!" />
           <TextCenter>Denne bog er til dig, der:</TextCenter>
@@ -134,11 +134,11 @@ const OnlineEbookCatScratch = () => (
           <TextListMark texts={LPstep8} />
           <TextCenter>Fordelt over 3 letlæselige og appetitlige kapitler:</TextCenter>
           <FlexedRow>
-            <Image src={OnlineCatsOne} width="300px" height="400px" />
+            <Image src={OnlineCatsOne} width="300px" height="400px" alt="Kapitel 1 om kattens kradsebehov og præferencer" />
             <br />
-            <Image src={OnlineCatsTwo} width="300px" height="400px" />
+            <Image src={OnlineCatsTwo} width="300px" height="400px" alt="Kapitel 2 om at gøre kradsetræet attraktivt" />
             <br />
-            <Image src={OnlineCatsThree} width="300px" height="400px" />
+            <Image src={OnlineCatsThree} width="300px" height="400px" alt="Kapitel 3 om at holde kløerne fra møblerne" />
           </FlexedRow>
         </Column>
       </Row>
@@ -147,7 +147,7 @@ const OnlineEbookCatScratch = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="E-bogen leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
-            <Image src={catOne} width="300px" height="200px" />
+            <Image src={catOne} width="300px" height="200px" alt="Kat ligger afslappet og kigger op mod kameraet" />
             <TextContainer>
               <Text bold>Sabrina Svane</Text>
               <Text>

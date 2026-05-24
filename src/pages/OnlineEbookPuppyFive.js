@@ -82,7 +82,7 @@ const OnlineEbookPuppyFive = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverPuppyFive} />
+          <Image src={OnlineCoverPuppyFive} alt="Forside til e-bog om hvalpetræning med glad border collie hvalp" />
           <br />
           <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!" />
           <TextCenter>Denne bog er til dig, der:</TextCenter>
@@ -182,15 +182,15 @@ const OnlineEbookPuppyFive = () => (
           <TextListMark texts={LPstep8} />
           <TextCenter>Fordelt over 4 letlæselige og appetitlige lektioner:</TextCenter>
           <FlexedRow>
-            <Image src={OnlinePupTwo} width="400px" height="300px" />
+            <Image src={OnlinePupTwo} width="400px" height="300px" alt="Lektion 1 om metoden til konfliktfri opdragelse" />
             <br />
-            <Image src={OnlinePupThree} width="400px" height="300px" />
+            <Image src={OnlinePupThree} width="400px" height="300px" alt="Lektion 2 om miljøtræning uden stress" />
           </FlexedRow>
           <FlexedRow>
             <br />
-            <Image src={OnlinePupFour} width="400px" height="300px" />
+            <Image src={OnlinePupFour} width="400px" height="300px" alt="Lektion 3 om metoderne til ro på gåturene" />
             <br />
-            <Image src={OnlinePupFive} width="400px" height="300px" />
+            <Image src={OnlinePupFive} width="400px" height="300px" alt="Lektion 4 om opskriften på ro i hjemmet" />
           </FlexedRow>
         </Column>
       </Row>
@@ -199,7 +199,7 @@ const OnlineEbookPuppyFive = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="E-bogen leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
-            <Image src={FrontNoOne} width="300px" height="200px" />
+            <Image src={FrontNoOne} width="300px" height="200px" alt="Dyreadfærdskonsulent Sabrina Svane med hund" />
             <TextContainer>
               <Text bold>Sabrina Svane</Text>
               <Text>

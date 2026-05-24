@@ -146,35 +146,35 @@ const DogCoolEnvironment = () => (
           <Title text="Stemningsbilleder fra Miljøholdene" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={CoolAgainOne} />
+              <Image src={CoolAgainOne} alt="Hundeejere med hunde ved sø øver rolige gåture og kontakt" />
             </Column>
             <Column>
-              <Image src={CoolAgainTwo} />
+              <Image src={CoolAgainTwo} alt="To hundeejere går med hunde på fortov i villakvarter under fortovspassage øvelse" />
             </Column>
             <Column>
-              <Image src={CoolAgainThree} />
-            </Column>
-          </Row>
-          <Row>
-            <Column>
-              <Image src={CoolAgainFour} />
-            </Column>
-            <Column>
-              <Image src={CoolAgainFive} />
-            </Column>
-            <Column>
-              <Image src={CoolAgainSix} />
+              <Image src={CoolAgainThree} alt="Kvinde og sort hund øver kontakt og ro på åben mark" />
             </Column>
           </Row>
           <Row>
             <Column>
-              <Image src={CoolAgainSeven} />
+              <Image src={CoolAgainFour} alt="Hunde ved springvand i bymiljø under miljøtræning i Horsens" />
             </Column>
             <Column>
-              <Image src={CoolAgainEight} />
+              <Image src={CoolAgainFive} alt="To hundeejere går med hunde langs sø i efterårsfarver" />
             </Column>
             <Column>
-              <Image src={CoolAgainNine} />
+              <Image src={CoolAgainSix} alt="Cavalier King Charles spaniel ligger afslappet på tæppe under ro øvelse" />
+            </Column>
+          </Row>
+          <Row>
+            <Column>
+              <Image src={CoolAgainSeven} alt="Hundeejere går med hunde på gågade i Horsens om aftenen med julelys" />
+            </Column>
+            <Column>
+              <Image src={CoolAgainEight} alt="Golden retriever går roligt i snor på sti mellem hække" />
+            </Column>
+            <Column>
+              <Image src={CoolAgainNine} alt="Par går med hunde på grøn skovsti under rolig gåtur" />
             </Column>
           </Row>
         </Column>

@@ -19,7 +19,7 @@ const OnlineCoursesThanks = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverCourses} />
+          <Image src={OnlineCoverCourses} alt="Coverbillede for onlinekurser med hundetræning" />
           <br />
           <TitleCenter text="Wooohoooo! Du har fået adgang til dit onlinekursus!" />
           <TextCenter>

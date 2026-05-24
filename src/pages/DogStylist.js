@@ -220,25 +220,25 @@ const DogStylist = () => (
           <Title text="Stemningsbilleder fra tryg håndtering" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={NailClipFour} />
+              <Image src={NailClipFour} alt="Sort hund ligger afslappet mens ejer øver potehåndtering med godbidder" />
             </Column>
             <Column>
-              <Image src={NailClipEight} />
+              <Image src={NailClipEight} alt="Hvid pomeranian på trimmebord hos hundefrisør Torsten" />
             </Column>
             <Column>
-              <Image src={NailClipSix} />
+              <Image src={NailClipSix} alt="Kvinde øver tryg potehåndtering med sin hund i sofaen" />
             </Column>
           </Row>
 
           <Row>
             <Column>
-              <Image src={NailClipSeven} />
+              <Image src={NailClipSeven} alt="Ejer og træner øver frivillig håndtering med pudel på træningsplads" />
             </Column>
             <Column>
-              <Image src={NailClipFive} />
+              <Image src={NailClipFive} alt="Kvinde klipper negle på sort pudel der ligger roligt på tæppe" />
             </Column>
             <Column>
-              <Image src={NailClipNine} />
+              <Image src={NailClipNine} alt="Hundefrisør Torsten bader berner sennen i hundesalon" />
             </Column>
           </Row>
         </Column>

@@ -3,7 +3,8 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
-import { TitleColor, Text, TextContainer, FlexedRow, Image } from '..';
+import { TitleColor, Text, TextContainer, FlexedRow } from '..';
+import TestimonialImage from './TestimonialImage';
 import { TestiPupOne, ConsultPupTwo } from '../../assets';
 
 const DogOnlinePuppy = () => (
@@ -17,7 +18,7 @@ const DogOnlinePuppy = () => (
     swipeScrollTolerance={30}
   >
     <FlexedRow>
-      <Image src={ConsultPupTwo} width="200px" height="300px" />
+      <TestimonialImage src={ConsultPupTwo} alt="Billede fra kunde til udtalelse om online hvalpekursus" />
       <TextContainer>
         <TitleColor text=" ”Vi er virkelig godt klædt på og meget mere selvsikre i forhold til hvilken retning for opdragelsen, der er rigtig for os og Loui” " />
         <Text>
@@ -44,7 +45,7 @@ const DogOnlinePuppy = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <Image src={TestiPupOne} width="200px" height="300px" />
+      <TestimonialImage src={TestiPupOne} alt="Billede fra kunde til udtalelse om online hvalpekursus" />
       <TextContainer>
         <TitleColor text=" ”Vi har fået virkelig gode øvelser som vi kan bruge i hverdagen” " />
         <Text>
