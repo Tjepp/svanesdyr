@@ -1,0 +1,64 @@
+.ezme-loader {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e5e7eb;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+@keyframes spin {
+  to {
+    stroke-dashoffset: -264;
+  }
+}
+
+.ezme-loader__title {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #6a7380;
+}
+
+.ezme-loader__subtitle {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 0.5rem;
+  color: #6b7280;
+}
+
+.ezme-loader__svg {
+  margin-right: 0.5rem;
+}
+
+.ezme-loader__link {
+  color: inherit;
+}
+
+.ezme-loader__svg circle {
+  fill: none;
+  stroke: #6a7380;
+  stroke-width: 12;
+  stroke-linecap: round;
+  stroke-dasharray: 0, 0, 70, 194;
+  stroke-dashoffset: 0;
+  animation: spin 0.75s linear infinite;
+}
+
+.ezme-loader__brand {
+  width: 75px;
+  height: 20px;
+  color: #bfbfbf;
+  fill: currentColor;
+  box-shadow: none;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}

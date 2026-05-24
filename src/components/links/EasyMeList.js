@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import $ from 'jquery';
+import './EasyMe.css';
 
 const EasyMeList = ({ src }) => {
   useEffect(() => {
@@ -22,9 +23,7 @@ const EasyMeList = ({ src }) => {
   }, []);
 
   return (
-    <>
-      <link rel="stylesheet" href="https://secure.easyme.biz/connect/v2/loader.css"></link>
-      <section className="ezme-loader">
+    <section className="ezme-loader">
         <div className="ezme-loader__title">
           <svg className="ezme-loader__svg" viewBox="0 0 100 100" width="20" height="20">
             <circle cx="50" cy="50" r="42" transform="rotate(-90,50,50)" />
@@ -43,9 +42,8 @@ const EasyMeList = ({ src }) => {
             className="ezme-loader__brand"
             alt=""
           />
-        </a>
-      </section>
-    </>
+      </a>
+    </section>
   );
 };
 
