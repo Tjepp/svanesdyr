@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import MediaQuery from 'react-responsive';
+import MediaQuery, { useMediaQuery } from 'react-responsive';
 import { useNavigate } from 'react-router';
 import { Page, Banner, Button, Meta, Column, Title, Text, Image, StyledB } from '../components';
 import Responsive from '../components/layout/Responsive';
@@ -8,6 +8,7 @@ import { ClubCover, sabrinaAndBarney, FrontNoOne } from '../assets';
 
 const Home = () => {
   const navigate = useNavigate();
+  const isDesktop = useMediaQuery({ minWidth: Responsive.sizes.tablet });
 
   const onClick = (path) => {
     navigate(`/${path}`);
@@ -32,7 +33,7 @@ const Home = () => {
       <Background>
         <Container>
           <Column>
-            <Image src={ClubCover} alt="Hundesprogsklubben - fællesskab for hundeejere med Sabrina Svane" />
+            <Image src={ClubCover} alt="Hundesprogsklubben - fællesskab for hundeejere med Sabrina Svane" priority />
             <Title color="000" text="Gratis fællesskab til hundeejere!" />
             <StyledB color="#000" href="https://www.facebook.com/groups/hundesprogsklub">
               Vil du blive klogere på hvad din hund fortæller dig? Så kom GRATIS med i
@@ -41,7 +42,7 @@ const Home = () => {
             </StyledB>
           </Column>
           <Column>
-            <Image src={FrontNoOne} alt="Sabrina træner hund på stranden med positive metoder" />
+            <Image src={FrontNoOne} alt="Sabrina træner hund på stranden med positive metoder" priority={isDesktop} />
             <Title color="000" text="Positive træningsmetoder" />
             <Text
               onClick={() => {
@@ -54,7 +55,7 @@ const Home = () => {
             </Text>
           </Column>
           <Column>
-            <Image src={sabrinaAndBarney} alt="Sabrina og katten Barney giver high five i haven" />
+            <Image src={sabrinaAndBarney} alt="Sabrina og katten Barney giver high five i haven" priority={isDesktop} />
             <Title color="000" text="Katteadfærdsspecialist" />
             <Text
               onClick={() => {

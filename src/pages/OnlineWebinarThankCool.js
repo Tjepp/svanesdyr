@@ -19,7 +19,7 @@ const OnlineWebinarThankCool = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverCool} alt="Coverbillede for webinar om at holde hunden cool" />
+          <Image src={OnlineCoverCool} alt="Coverbillede for webinar om at holde hunden cool" priority />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>

@@ -84,7 +84,7 @@ const OnlinePuppy = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverPuppy} alt="Online hvalpekursus forside med glad border collie hvalp" />
+          <Image src={OnlineCoverPuppy} alt="Online hvalpekursus forside med glad border collie hvalp" priority />
           <br />
           <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!" />
           <TextCenter>Dette 6 ugers forløb er til dig, der:</TextCenter>

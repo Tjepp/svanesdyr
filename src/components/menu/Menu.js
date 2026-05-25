@@ -17,7 +17,7 @@ const Menu = () => {
     <Background>
       <Bar>
         <CenteredA href="/">
-          <Img src={LogoUpdate} alt="logo" />
+          <Img src={LogoUpdate} alt="Svanes Dyr logo" fetchPriority="high" />
         </CenteredA>
         <MenuItemContainer>
           <MediaQuery minWidth={Responsive.sizes.tablet}>

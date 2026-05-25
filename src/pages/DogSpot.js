@@ -39,7 +39,7 @@ const DogSpot = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverSpot} alt="Spotkurser hos Svanes Dyr med hundeejere og hunde på træningsplads" />
+          <Image src={OnlineCoverSpot} alt="Spotkurser hos Svanes Dyr med hundeejere og hunde på træningsplads" priority />
           <br />
           <TitleCenter text="Kommende spotkurser hos Svanes Dyr i Nim, nær Horsens" />
           <TextCenter>

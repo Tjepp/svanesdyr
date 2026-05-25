@@ -62,7 +62,7 @@ const OnlineWalk = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverWalk} alt="Forside til online kursus om rolige gåture med hund" />
+          <Image src={OnlineCoverWalk} alt="Forside til online kursus om rolige gåture med hund" priority />
           <br />
           <TitleCenter
             text="Til dig der ønsker en afslappet og kontaktsøgende hund, der kan nyde gåturen sammen med

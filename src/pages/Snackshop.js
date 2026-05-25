@@ -30,7 +30,7 @@ const Snackshop = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={SnackshopCover} alt="Velkomstskilt til Snackshoppen hos Svanes Dyr" />
+          <Image src={SnackshopCover} alt="Velkomstskilt til Snackshoppen hos Svanes Dyr" priority />
           <br />
           <TitleCenter text="Snackshoppen kan besøges på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
           <Text>

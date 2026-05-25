@@ -82,7 +82,7 @@ const OnlineEbookPuppyFive = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverPuppyFive} alt="Forside til e-bog om hvalpetræning med glad border collie hvalp" />
+          <Image src={OnlineCoverPuppyFive} alt="Forside til e-bog om hvalpetræning med glad border collie hvalp" priority />
           <br />
           <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!" />
           <TextCenter>Denne bog er til dig, der:</TextCenter>

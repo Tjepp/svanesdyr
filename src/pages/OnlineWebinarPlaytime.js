@@ -42,7 +42,7 @@ const OnlineWebinarPlaytime = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverDogPlay} alt="Coverbillede for webinar om kontrolleret hundeleg" />
+          <Image src={OnlineCoverDogPlay} alt="Coverbillede for webinar om kontrolleret hundeleg" priority />
           <br />
           <TitleCenter text="Et online webinar til dig der ønsket en grundig viden om hvornår leg er godt og hvornår det skal stoppes" />
           <TextCenter>Hvornår er hundeleg "rigtig" og "forkert"?</TextCenter>

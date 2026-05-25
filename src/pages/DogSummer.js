@@ -72,7 +72,7 @@ const DogSummer = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverSummer} alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser 2025" />
+          <Image src={OnlineCoverSummer} alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser 2025" priority />
           <br />
           <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene i uge 30 eller 31 sammen med din hund" />
           <TextCenter>

@@ -46,7 +46,7 @@ const About = () => (
         <Column widthPercentage="65%">
           <Title text="Om Sabrina Svane" showHorizontalRuler />
           <FlexedRow>
-            <Image src={sabrinaNew} width="210px" height="270px" alt="Portræt af Sabrina Svane, certificeret dyreadfærdskonsulent" />
+            <Image src={sabrinaNew} priority width="210px" height="270px" alt="Portræt af Sabrina Svane, certificeret dyreadfærdskonsulent" />
             <TextContainer>
               <Text>
                 Jeg hedder Sabrina Svane og er certificeret Dyreadfærdskonsulent (BSc ABT) ved

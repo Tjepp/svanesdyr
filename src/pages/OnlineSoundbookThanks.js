@@ -11,7 +11,7 @@ const OnlineSoundbookThanks = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={LogoUpdateBlack} alt="Svanes Dyr logo" />
+          <Image src={LogoUpdateBlack} alt="Svanes Dyr logo" priority />
           <br />
           <TitleCenter text="Wooohoooo! Det lykkedes!" />
           <TextCenter>

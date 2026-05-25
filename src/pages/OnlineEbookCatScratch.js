@@ -76,7 +76,7 @@ const OnlineEbookCatScratch = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverCatScratch} alt="Forside til e-bog om kattekradsning med kat ved kradsetræ" />
+          <Image src={OnlineCoverCatScratch} alt="Forside til e-bog om kattekradsning med kat ved kradsetræ" priority />
           <br />
           <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at undgå ødelagte sofahjørner og få en kat der elsker sit kradsetræ!" />
           <TextCenter>Denne bog er til dig, der:</TextCenter>

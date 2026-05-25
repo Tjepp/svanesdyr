@@ -19,7 +19,7 @@ const OnlineWebinarThankPage = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverDogPlay} alt="Coverbillede for webinar om kontrolleret hundeleg" />
+          <Image src={OnlineCoverDogPlay} alt="Coverbillede for webinar om kontrolleret hundeleg" priority />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>

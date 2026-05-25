@@ -9,6 +9,7 @@ const Image = ({
   sizes = '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px',
   width = '100%',
   height = '100%',
+  priority = false,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -48,7 +49,8 @@ const Image = ({
           srcSet={srcSet}
           sizes={isCdnPath ? sizes : undefined}
           alt={alt}
-          loading="lazy"
+          loading={priority ? undefined : 'lazy'}
+          fetchPriority={priority ? 'high' : undefined}
           $width={width}
           $height={height}
           onClick={handleShowDialog}
@@ -69,6 +71,7 @@ Image.propTypes = {
   sizes: PropTypes.string,
   width: PropTypes.string,
   height: PropTypes.string,
+  priority: PropTypes.bool,
 };
 
 export default Image;
