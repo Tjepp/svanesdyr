@@ -99,7 +99,7 @@ const OnlinePuppy = () => (
 
       <ButtonOnline
         text="Ja tak! Jeg er klar på at få en tillidsfuld og rolig hvalp"
-        onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
+        href="https://ezme.io/c/x1S/Lv6l"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -283,7 +283,7 @@ const OnlinePuppy = () => (
 
       <ButtonOnline
         text="Ja tak! Lad mig komme med!"
-        onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
+        href="https://ezme.io/c/x1S/Lv6l"
       ></ButtonOnline>
 
       <Row>
@@ -364,7 +364,7 @@ const OnlinePuppy = () => (
 
       <ButtonOnline
         text="Jeg er klar til at få succesoplevelser med min hvalp!"
-        onClick={() => window.open('https://ezme.io/c/x1S/Lv6l', '_blank')}
+        href="https://ezme.io/c/x1S/Lv6l"
       ></ButtonOnline>
       <br />
       <br />

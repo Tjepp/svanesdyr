@@ -148,9 +148,7 @@ const Lecture = () => (
                 <TextListArrow texts={Play} />
                 <ButtonOnline
                   text="Find aktuelle foredrag om den gode hundeleg her"
-                  onClick={() =>
-                    window.open('https://www.svanesdyr.dk/webinardengodehundeleg', '_blank')
-                  }
+                  href="https://www.svanesdyr.dk/webinardengodehundeleg"
                 ></ButtonOnline>
                 <br />
                 <br />
@@ -189,9 +187,7 @@ const Lecture = () => (
                 <TextListMark texts={Calm} />
                 <ButtonOnline
                   text="Find aktuelle foredrag af Reaktiv til Ro her"
-                  onClick={() =>
-                    window.open('https://www.svanesdyr.dk/webinarreaktivtilro', '_blank')
-                  }
+                  href="https://www.svanesdyr.dk/webinarreaktivtilro"
                 ></ButtonOnline>
                 <br />
                 <br />

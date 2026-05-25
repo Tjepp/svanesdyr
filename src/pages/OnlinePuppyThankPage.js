@@ -52,9 +52,7 @@ const OnlineThankPage = () => (
 
       <ButtonOnline
         text="Ja tak, før mig straks ind til den lukkede facebookgruppe!"
-        onClick={() =>
-          window.open('https://www.facebook.com/groups/konfliktfrihvalpeopdragelse2025', '_blank')
-        }
+        href="https://www.facebook.com/groups/konfliktfrihvalpeopdragelse2025"
       ></ButtonOnline>
 
       <Row>

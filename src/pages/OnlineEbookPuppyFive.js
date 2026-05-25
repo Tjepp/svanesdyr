@@ -97,7 +97,7 @@ const OnlineEbookPuppyFive = () => (
 
       <ButtonOnline
         text="Ja tak! Jeg er klar på at få en tillidsfuld og rolig hvalp"
-        onClick={() => window.open('https://ezme.io/c/x1S/okHo', '_blank')}
+        href="https://ezme.io/c/x1S/okHo"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -242,7 +242,7 @@ const OnlineEbookPuppyFive = () => (
 
       <ButtonOnline
         text="Ja tak! Lad mig fluks få bogen i min indbakke!"
-        onClick={() => window.open('https://ezme.io/c/x1S/okHo', '_blank')}
+        href="https://ezme.io/c/x1S/okHo"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -275,7 +275,7 @@ const OnlineEbookPuppyFive = () => (
 
       <ButtonOnline
         text="Jeg er klar til at få succesoplevelser med min hvalp!"
-        onClick={() => window.open('https://ezme.io/c/x1S/okHo', '_blank')}
+        href="https://ezme.io/c/x1S/okHo"
       ></ButtonOnline>
       <br />
       <br />

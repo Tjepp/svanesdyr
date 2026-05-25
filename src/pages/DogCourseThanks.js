@@ -48,7 +48,7 @@ const DogCourseThanks = () => (
 
       <ButtonOnline
         text="Lad mig se hvad du ellers tilbyder af holdforløb! Tag mig til hjemmesiden"
-        onClick={() => window.open('https://www.svanesdyr.dk/hundehold', '_blank')}
+        href="https://www.svanesdyr.dk/hundehold"
       ></ButtonOnline>
       <br />
       <br />

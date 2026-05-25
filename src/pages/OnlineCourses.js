@@ -204,7 +204,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i at skabe det indkald du drømmer om; <b>189,- kr.</b>
           </Text>
-          <ButtonOnline text="Jeg er klar på at skabe et stærkt indkald!" onClick={() => window.open('https://ezme.io/c/x1S/okib', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Jeg er klar på at skabe et stærkt indkald!" href="https://ezme.io/c/x1S/okib"></ButtonOnline>
           <br />
         </Column>
 
@@ -232,7 +232,7 @@ const OnlineCourses = () => (
           <br />
           <ButtonOnline
             text="Ja tak! Til en mere afslappet hund!"
-            onClick={() => window.open('https://ezme.io/c/x1S/3feM', '_blank')}
+            href="https://ezme.io/c/x1S/3feM"
           ></ButtonOnline>
         </Column>
 
@@ -254,7 +254,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i at kunne spotte forskellen mellem leg og alvor; <b>129,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak! Lad mig fluks få adgang" onClick={() => window.open('https://ezme.io/c/x1S/oLpk', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Ja tak! Lad mig fluks få adgang" href="https://ezme.io/c/x1S/oLpk"></ButtonOnline>
           <br />
         </Column>
       </Row>
@@ -281,7 +281,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i at kunne kontrollere legen mellem hunde, og sikre dig alle får en god oplevelse; <b>199,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak til opskriften på god hundeleg!" onClick={() => window.open('https://ezme.io/c/x1S/okiW', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Ja tak til opskriften på god hundeleg!" href="https://ezme.io/c/x1S/okiW"></ButtonOnline>
           <br />
         </Column>
 
@@ -306,7 +306,7 @@ const OnlineCourses = () => (
           <br />
           <ButtonOnline
             text="Jeg er klar på at give min hund mere selvtillid!"
-            onClick={() => window.open('https://ezme.io/c/x1S/3fzd', '_blank')}
+            href="https://ezme.io/c/x1S/3fzd"
           ></ButtonOnline>
         </Column>
 
@@ -316,7 +316,7 @@ const OnlineCourses = () => (
           <Text>
             En E-bog til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!
           </Text>
-          <ButtonOnline text="Læs mere her" onClick={() => window.open('https://www.svanesdyr.dk/hvalpmedsucces', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Læs mere her" href="https://www.svanesdyr.dk/hvalpmedsucces"></ButtonOnline>
           <br />
         </Column>
       </Row>
@@ -341,7 +341,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i at negleklipning bliver kvalitetstid fremfor overgreb; <b>199,- kr.</b>
           </Text>
-          <ButtonOnline text="Jeg er klar på mere tryg negleklipning!" onClick={() => window.open('https://ezme.io/c/x1S/ok5D', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Jeg er klar på mere tryg negleklipning!" href="https://ezme.io/c/x1S/ok5D"></ButtonOnline>
           <br />
         </Column>
 
@@ -365,7 +365,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i trygt at kunne lukke din hund i haven: <b>99,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak, til mere ro i haven!" onClick={() => window.open('https://ezme.io/c/x1S/ok51', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Ja tak, til mere ro i haven!" href="https://ezme.io/c/x1S/ok51"></ButtonOnline>
           <br />
         </Column>
 
@@ -389,7 +389,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i løs line og mere ro på gåturene; <b>119,- kr.</b>
           </Text>
-          <ButtonOnline text="Giv mig succes til min næste gåtur!" onClick={() => window.open('https://ezme.io/c/x1S/ok5c', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Giv mig succes til min næste gåtur!" href="https://ezme.io/c/x1S/ok5c"></ButtonOnline>
           <br />
         </Column>
       </Row>
@@ -414,7 +414,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i mere ro og poterne plantet på gulvet, allerede næste gang du får besøg; <b>119,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak til rolig hilsen på gæster!" onClick={() => window.open('https://ezme.io/c/x1S/ok5H', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Ja tak til rolig hilsen på gæster!" href="https://ezme.io/c/x1S/ok5H"></ButtonOnline>
           <br />
         </Column>
 
@@ -436,7 +436,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i mere ro og nærvær overfor dine gæster, allerede næste gang du får besøg; <b>149,- kr.</b>
           </Text>
-          <ButtonOnline text="Jeg er klar på at få ro med mine gæster!" onClick={() => window.open('https://ezme.io/c/x1S/okMX', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Jeg er klar på at få ro med mine gæster!" href="https://ezme.io/c/x1S/okMX"></ButtonOnline>
           <br />
         </Column>
 
@@ -458,7 +458,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i at lære din hund at være rolig, selvom det er ”kedeligt”; <b>119,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak! Til en mere afslappet hund!" onClick={() => window.open('https://ezme.io/c/x1S/okM0', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Ja tak! Til en mere afslappet hund!" href="https://ezme.io/c/x1S/okM0"></ButtonOnline>
           <br />
         </Column>
 
@@ -485,7 +485,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i mere ro og tryghed for din hund omkring lyde: <b>149,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak! Til hjælp til min hunds lydangst" onClick={() => window.open('https://ezme.io/c/x1S/okMZ', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Ja tak! Til hjælp til min hunds lydangst" href="https://ezme.io/c/x1S/okMZ"></ButtonOnline>
           <br />
         </Column>
 
@@ -509,7 +509,7 @@ const OnlineCourses = () => (
           <Text>
             Din investering i en rolig hund omkring andre dyr: <b>99,- kr.</b>
           </Text>
-          <ButtonOnline text="Jeg er klar til at øve ro omkring andre dyr!" onClick={() => window.open('https://ezme.io/c/x1S/okMG', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Jeg er klar til at øve ro omkring andre dyr!" href="https://ezme.io/c/x1S/okMG"></ButtonOnline>
           <br />
         </Column>
       </Row>

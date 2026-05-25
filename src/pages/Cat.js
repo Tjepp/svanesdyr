@@ -84,7 +84,7 @@ const Cat = () => (
           <Text>
             En E-bog til dig der ønsker en konfliktfri hverdag med en kat der elsker sit kradsetræ, så du kan unndgå flere ødelagte sofahjørner!
           </Text>
-          <ButtonOnline text="Læs mere her" onClick={() => window.open('https://www.svanesdyr.dk/kattekradsekursus', '_blank')}></ButtonOnline>
+          <ButtonOnline text="Læs mere her" href="https://www.svanesdyr.dk/kattekradsekursus"></ButtonOnline>
           <br />
         </Column>
         <Column>

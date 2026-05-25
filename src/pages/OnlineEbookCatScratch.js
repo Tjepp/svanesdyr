@@ -90,7 +90,7 @@ const OnlineEbookCatScratch = () => (
 
       <ButtonOnline
         text="Ja tak! Jeg er klar på at få kradsefri møbler!"
-        onClick={() => window.open('https://ezme.io/c/x1S/38gA', '_blank')}
+        href="https://ezme.io/c/x1S/38gA"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -180,7 +180,7 @@ const OnlineEbookCatScratch = () => (
 
       <ButtonOnline
         text="Ja tak! Lad mig fluks få bogen i min indbakke!"
-        onClick={() => window.open('https://ezme.io/c/x1S/38gA', '_blank')}
+        href="https://ezme.io/c/x1S/38gA"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -216,7 +216,7 @@ const OnlineEbookCatScratch = () => (
 
       <ButtonOnline
         text="Jeg er klar til at få succes med min kats kradsevaner!"
-        onClick={() => window.open('https://ezme.io/c/x1S/38gA', '_blank')}
+        href="https://ezme.io/c/x1S/38gA"
       ></ButtonOnline>
       <br />
       <br />

@@ -46,7 +46,7 @@ const OnlineEbookThanks = () => (
 
       <ButtonOnline
         text="Lad mig se hvad du ellers tilbyder af onlinekurser! Tag mig tilbage til hjemmesiden"
-        onClick={() => window.open('https://www.svanesdyr.dk/onlinekurser', '_blank')}
+        href="https://www.svanesdyr.dk/onlinekurser"
       ></ButtonOnline>
 
       <br />

@@ -79,7 +79,7 @@ const OnlineWalk = () => (
 
       <ButtonOnline
         text="Jeg er klar på at få gåturen jeg drømmer om!"
-        onClick={() => window.open('https://ezme.io/c/x1S/z16r', '_blank')}
+        href="https://ezme.io/c/x1S/z16r"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -260,7 +260,7 @@ const OnlineWalk = () => (
 
       <ButtonOnline
         text="Ja tak! Lad mig få den fede rabat"
-        onClick={() => window.open('https://ezme.io/c/x1S/z16r', '_blank')}
+        href="https://ezme.io/c/x1S/z16r"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -317,7 +317,7 @@ const OnlineWalk = () => (
 
       <ButtonOnline
         text="Jeg er klar til at få succesoplevelser med min hund!"
-        onClick={() => window.open('https://ezme.io/c/x1S/z16r', '_blank')}
+        href="https://ezme.io/c/x1S/z16r"
       ></ButtonOnline>
       <br />
       <br />

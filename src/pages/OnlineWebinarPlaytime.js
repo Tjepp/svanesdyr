@@ -59,7 +59,7 @@ const OnlineWebinarPlaytime = () => (
 
       <ButtonOnline
         text="Jeg er klar! Tag mig til tilmeldingssiden"
-        onClick={() => window.open('https://ezme.io/c/x1S/flCv', '_blank')}
+        href="https://ezme.io/c/x1S/flCv"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -142,7 +142,7 @@ const OnlineWebinarPlaytime = () => (
 
       <ButtonOnline
         text="Jeg er klar til at få succes med kontrolleret leg!"
-        onClick={() => window.open('https://ezme.io/c/x1S/flCv', '_blank')}
+        href="https://ezme.io/c/x1S/flCv"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -209,7 +209,7 @@ const OnlineWebinarPlaytime = () => (
 
       <ButtonOnline
         text="Ja tak! Jeg skal med!"
-        onClick={() => window.open('https://ezme.io/c/x1S/flCv', '_blank')}
+        href="https://ezme.io/c/x1S/flCv"
       ></ButtonOnline>
       <br />
       <br />

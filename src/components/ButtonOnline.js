@@ -2,9 +2,9 @@ import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Button = ({ text, onClick }) => (
+const Button = ({ text, href }) => (
   <ButtonContainer>
-    <StyledButton onClick={onClick}>
+    <StyledButton href={href} target="_blank" rel="noopener noreferrer">
       <Text>{text}</Text>
     </StyledButton>
   </ButtonContainer>
@@ -12,7 +12,7 @@ const Button = ({ text, onClick }) => (
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired,
+  href: PropTypes.string.isRequired,
 };
 
 export default Button;

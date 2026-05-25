@@ -48,9 +48,7 @@ const OnlineThankPage = () => (
 
       <ButtonOnline
         text="Jeg er SÅ klar! Før mig straks ind til den lukkede facebookgruppe"
-        onClick={() =>
-          window.open('https://www.facebook.com/groups/drommegaaturenmarts2022', '_blank')
-        }
+        href="https://www.facebook.com/groups/drommegaaturenmarts2022"
       ></ButtonOnline>
       <br />
       <br />
