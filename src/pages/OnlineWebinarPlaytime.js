@@ -42,7 +42,11 @@ const OnlineWebinarPlaytime = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverDogPlay} alt="Coverbillede for webinar om kontrolleret hundeleg" priority />
+          <Image
+            src={OnlineCoverDogPlay}
+            alt="Coverbillede for webinar om kontrolleret hundeleg"
+            priority
+          />
           <br />
           <TitleCenter text="Et online webinar til dig der ønsket en grundig viden om hvornår leg er godt og hvornår det skal stoppes" />
           <TextCenter>Hvornår er hundeleg "rigtig" og "forkert"?</TextCenter>
@@ -59,7 +63,7 @@ const OnlineWebinarPlaytime = () => (
 
       <ButtonOnline
         text="Jeg er klar! Tag mig til tilmeldingssiden"
-        href="https://ezme.io/c/x1S/flCv"
+        href="https://ezme.io/c/x1S/fqgV"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -108,7 +112,12 @@ const OnlineWebinarPlaytime = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="Undervisningen leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
-            <Image src={FrontNoOne} width="300px" height="200px" alt="Sabrina Svane med sin hund udendørs" />
+            <Image
+              src={FrontNoOne}
+              width="300px"
+              height="200px"
+              alt="Sabrina Svane med sin hund udendørs"
+            />
             <TextContainer>
               <Text bold>Sabrina Svane</Text>
               <Text>
@@ -142,7 +151,7 @@ const OnlineWebinarPlaytime = () => (
 
       <ButtonOnline
         text="Jeg er klar til at få succes med kontrolleret leg!"
-        href="https://ezme.io/c/x1S/flCv"
+        href="https://ezme.io/c/x1S/fqgV"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -155,35 +164,35 @@ const OnlineWebinarPlaytime = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <LPHeadlineWebinar text="Sådan foregår webinaret" />
-          {/* <LPHeadlineWebinar text="Sådan får du adgang til Replay af webinaret" /> */}
+          {/* <LPHeadlineWebinar text="Sådan foregår webinaret" /> */}
+          <LPHeadlineWebinar text="Sådan får du adgang til Replay af webinaret" />
           <br />
           <br />
-          <TitleCenter text="LIVE webinar på Zoom!" />
-          {/* <TitleCenter text="Webinaret ligger optaget på Zoom med adgang til og med den 26.08.2026!" /> */}
-          {/* <TextCenter>
+          {/* <TitleCenter text="LIVE webinar på Zoom!" /> */}
+          <TitleCenter text="Webinaret ligger optaget på Zoom med adgang til og med den 26.08.2026!" />
+          <TextCenter>
             Straks efter køb vil du få tilsendt en mail med bekræftelse på dit køb.
             <br />I denne mail får du et link til Zoom, hvor du kan se Replay af det optagede
             webinar. Du vil også modtage slides fra webinarets fremvisning, som du kan downloade og
             printe ud efter ønske. Disse slides har du til evigt eje efter download.
-          </TextCenter> */}
-          <TextCenter>
+          </TextCenter>
+          {/* <TextCenter>
             Straks efter køb vil du få tilsendt en mail med bekræftelse på din tilmelding.
             <br />
             Få dage før vi skal ses vil du modtage en ny mail, med link til Zoom, hvor webinaret
             afholdes. I denne mail vil du også modtage slides fra webinarets fremvisning, som du kan
             downloade og printe ud efter ønske. Disse slides har du til evigt eje efter download.
-          </TextCenter>
+          </TextCenter> */}
           <TextCenter bold>
-            Webinaret afholdes tirsdag den 26. maj 2026 fra kl. 19.00 - 21.00.
+            Webinaret blev afholdt tirsdag den 26. maj 2026 fra kl. 19.00 - 21.00.
           </TextCenter>
-          {/* <TextCenter>
+          <TextCenter>
             Jeg var LIVE på denne dato, derfor vil du i webinarets forløb også opleve at jeg svarer
             på spørgsmål fra deltagerne på dagen.
             <br />
             Du får derfor ekstra fif og gode råd med i mine svar på spørgsmålene.
-          </TextCenter> */}
-          <TextCenter>
+          </TextCenter>
+          {/* <TextCenter>
             Der er afsat 1,5 timer til gennemgang af webinarets materiale, hvor der vil være
             billeder og videoer undervejs så du fik et godt indblik i hundenes kommunikation.
             <br />
@@ -202,14 +211,14 @@ const OnlineWebinarPlaytime = () => (
           <TextCenter bold>
             Du har adgang til frit at se eller gense webinaret i 3 måneder efter afholdelse, frem
             til og med den 26. august 2026.
-          </TextCenter>
+          </TextCenter> */}
         </Column>
       </Row>
       <br />
 
       <ButtonOnline
-        text="Ja tak! Jeg skal med!"
-        href="https://ezme.io/c/x1S/flCv"
+        text="Ja tak! Jeg skal se med!"
+        href="https://ezme.io/c/x1S/fqgV"
       ></ButtonOnline>
       <br />
       <br />

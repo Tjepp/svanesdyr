@@ -37,12 +37,10 @@ import {
   DogCoolEnvironment,
   DogSocial,
   DogEmpower,
-  DogCircle,
   DogStylist,
   DogSpot,
   DogSummer,
   DogSundayPlay,
-  // DogNoseWork,
   Home,
   LawList,
   LawPrivate,
@@ -55,9 +53,7 @@ import {
   OnlineEbookPuppyFive,
   OnlineEbookThanks,
   OnlinePuppy,
-  OnlinePuppyThankPage,
   OnlineSoundbookThanks,
-  OnlineSoldOut,
   OnlineSummerThanks,
   OnlineThankPage,
   OnlineWalk,
@@ -94,7 +90,6 @@ const App = () => {
         <Route path="/kattetraening" exact element={<Cat />} />
         <Route path="/kontakt" exact element={<Contact />} />
         <Route path="/hundetraening" exact element={<Dog />} />
-        <Route path="/hundehold/tricks" element={<DogCircle />} />
         <Route path="/aggression" exact element={<DogConsultAggression />} />
         <Route path="/hvalpevisit" exact element={<DogConsultPuppy />} />
         <Route path="/hundehold/hvalpfortsat" element={<DogContinued />} />
@@ -105,12 +100,10 @@ const App = () => {
         <Route path="/hundehold/tusindtak" element={<DogCourseThanks />} />
         <Route path="/hundehold/empowerment" element={<DogEmpower />} />
         {/* <Route path="/hundehold/negleklipkursus" element={<DogNailClip />} /> */}
-        {/* <Route path="/hundehold/noseworkintro" element={<DogNoseWork />} /> */}
         <Route path="/legestue" element={<DogPlay />} />
         <Route path="/hundehold/hvalpehold" element={<DogPuppy />} />
         <Route path="/hundehold/reaktivtilro" element={<DogReactive />} />
         <Route path="/hundehold/socialisering" element={<DogSocial />} />
-        <Route path="/spotkurser" element={<DogSpot />} />
         <Route path="/hundehold/tryghundepleje" element={<DogStylist />} />
         <Route path="/sommerhund" element={<DogSummer />} />
         <Route path="/hyggedage" element={<DogSundayPlay />} />
@@ -125,10 +118,7 @@ const App = () => {
         <Route path="/kattensebog" exact element={<OnlineEbookCatThanks />} />
         <Route path="/hvalpmedsucces" exact element={<OnlineEbookPuppyFive />} />
         <Route path="/eboginvestering" exact element={<OnlineEbookThanks />} />
-        <Route path="/onlinehvalp" exact element={<OnlinePuppy />} />
-        <Route path="/dinhvalpsigertak" exact element={<OnlinePuppyThankPage />} />
         <Route path="/lydboginvestering" exact element={<OnlineSoundbookThanks />} />
-        <Route path="/udsolgt" exact element={<OnlineSoldOut />} />
         <Route path="/sommertak" exact element={<OnlineSummerThanks />} />
         <Route path="/tusindtak" exact element={<OnlineThankPage />} />
         <Route path="/gaatur" exact element={<OnlineWalk />} />
