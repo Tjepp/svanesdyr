@@ -4,6 +4,7 @@ import {
   Column,
   Image,
   LandingpageOnline,
+  MetaSnackshop,
   Row,
   Text,
   TextList,
@@ -25,6 +26,7 @@ const Snacks = ['Buffalo', 'Okse', 'Ged', 'Hjort og Rådyr', 'Vildsvin', 'Gris',
 
 const Snackshop = () => (
   <LandingpageOnline>
+    <MetaSnackshop />
     <Background>
       <Row>
         <Column widthPercentage="100%">

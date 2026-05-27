@@ -13,7 +13,7 @@ import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 
 const OnlineWebinarThankPage = () => (
-  <LandingpageOnline>
+  <LandingpageOnline noindex>
     <Background>
       <Row>
         <Column widthPercentage="100%">

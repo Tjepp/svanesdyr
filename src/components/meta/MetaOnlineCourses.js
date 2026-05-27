@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 
 const defaultTitle = 'Onlinekurser | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Onlinekurser med Dyreadfærdskonsulent Sabrina Svane';
+const defaultDescription =
+  'Onlinekurser med dyreadfærdskonsulent Sabrina Svane. 10+ kurser om gåtur, hundeleg, negleklipning, lydangst, gøen og hvalpetræning. Fra 99 kr.';
 const defaultKeywords = `Onlinekursus gåtur, onlinekursus hund, stærk indkald hund, stærk indkald, god hundeleg, hundeleg, kontrolleret hundeleg, nelgeklipning hund, tryg negleklipning hund, frivillig håndtering hund, hund gæster, 
 hund ro gæster, hund adhd, hund damp, gå pænt hund, trækker i snor hund, trækker i snoren, hund ikke slappe af, få hund til at slappe af, lydangst hund, nytårsangst hund, hund gør i haven, gøende hund, hunden gør, hund jager kat, hund jager fugle,`;
 

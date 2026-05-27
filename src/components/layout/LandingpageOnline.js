@@ -3,8 +3,9 @@ import CookieConsent from 'react-cookie-consent';
 import styled from 'styled-components';
 import { StyledLinkOnline, TextContainer } from '..';
 
-const LandingpageOnline = ({ children }) => (
+const LandingpageOnline = ({ children, noindex = false }) => (
   <Container>
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     {children}
     <TextContainer>
       © Copyright 2018 by SvanesDyr. All Rights Reserved.
@@ -18,6 +19,7 @@ const LandingpageOnline = ({ children }) => (
 
 LandingpageOnline.propTypes = {
   children: PropTypes.node.isRequired,
+  noindex: PropTypes.bool,
 };
 
 export default LandingpageOnline;

@@ -52,7 +52,7 @@ const aggression = [
 
 const Dog = () => (
   <Page>
-    <Meta />
+    <Meta url="https://www.svanesdyr.dk/hundetraening" description="Hundetræning i Midtjylland nær Horsens. Speciale i hvalpe, stressrelateret adfærd og aggression. Belønningsbaserede metoder, hvalpevisit og hold i Nim." />
     <Banner text="Hundetræning Midtjylland">
       <BreadCrumps currentPage="Hund" />
     </Banner>

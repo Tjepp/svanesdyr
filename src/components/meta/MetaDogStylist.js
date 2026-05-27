@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const defaultTitle =
-  'Tryg Frisørtid m/Hundefrisør Torsten | Nim | Frivillig Håndtering | Dyreadfærdskonsulent | Svanes Dyr ';
+  'Tryg Frisørtid med Hundefrisør | Frivillig Håndtering | Svanes Dyr';
 const defaultDescription = 'Svanes Dyr - Tryg Frisørtid kursus for hunde i Nim, nær Horsens';
 const defaultKeywords = `Negleklip hund, klippe negle hund, klip negl hund, håndtering hund, frivillig håndtering, frivillig håndtering hund, hund bange negleklip,
    negleklip hvalp, klippe negle hvalp, klip negl hvalp, håndtering hvalp, frivillig håndtering hvalp, hvalp bange negleklip, hundebad, blower hund, bad hund, 

@@ -13,12 +13,13 @@ const Meta = ({
   title = defaultTitle,
   description = defaultDescription,
   keywords = defaultKeywords,
+  url,
 }) => (
   <>
     <title>{title}</title>
     <meta property="og:title" content={title} />
-    <link rel="canonical" href="https://www.svanesdyr.dk/" />
-    <meta property="og:url" content="https://www.svanesdyr.dk/" />
+    <link rel="canonical" href={url} />
+    <meta property="og:url" content={url} />
 
     <meta property="og:locale" content="da_DK" />
     <meta property="og:type" content="website" />
@@ -35,6 +36,7 @@ Meta.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,
+  url: PropTypes.string.isRequired,
 };
 
 export default Meta;

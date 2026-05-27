@@ -31,7 +31,7 @@ import '../components/table/TableCss.css';
 
 const Contact = () => (
   <Page>
-    <Meta />
+    <Meta url="https://www.svanesdyr.dk/kontakt" description="Kontakt Svanes Dyr – tlf. 93 96 05 00 (mandag og torsdag kl. 10–16), e-mail info@svanesdyr.dk. Send en besked via kontaktformularen." />
     <Banner text="Kontakt Svanes Dyr v/Sabrina Svane">
       <BreadCrumps currentPage="Kontakt" />
     </Banner>

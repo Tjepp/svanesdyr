@@ -2,7 +2,8 @@ import PropTypes from 'prop-types';
 
 const defaultTitle =
   'Socialiseringshold i Nim | Kontrolleret leg | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Socialiseringshold i Nim, nær Horsens';
+const defaultDescription =
+  'Socialiseringshold i Nim nær Horsens – 4 mødegange med kontrollerede hilsemøder og leg to-og-to. For alle hunde i alle aldre.';
 const defaultKeywords = `hundehold midtjylland, klikkertræning hvalp, Svanes dyr, positiv hundetræning, 
   hjælp hvalp, hvalpetræning, socialisering hvalp, miljøtræning hvalp, tillid hvalp, samarbejde hvalp, kontrolleret leg hvalp`;
 

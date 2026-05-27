@@ -35,7 +35,7 @@ import '../components/table/TableCss.css';
 
 const About = () => (
   <Page>
-    <Meta />
+    <Meta url="https://www.svanesdyr.dk/dyreadfaerdskonsulent" description="Certificeret Dyreadfærdskonsulent (BSc ABT) i Nim nær Horsens. Speciale i stress og aggression hos hunde og katte." />
     <Banner text="Om Svanes Dyr v/Sabrina Svane">
       <BreadCrumps currentPage="Om mig" />
     </Banner>

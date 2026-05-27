@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const defaultTitle =
-  'Negleklipkursus Hund i Nim | Frivillig Håndtering | Klikkertræning | Dyreadfærdskonsulent | Svanes Dyr ';
+  'Negleklipkursus Hund i Nim | Frivillig Håndtering | Svanes Dyr';
 const defaultDescription = 'Svanes Dyr - Negleklipkursus for hunde i Nim, nær Horsens';
 const defaultKeywords = `Negleklip hund, klippe negle hund, klip negl hund, håndtering hund, frivillig håndtering, frivillig håndtering hund, hund bange negleklip,
    negleklip hvalp, klippe negle hvalp, klip negl hvalp, håndtering hvalp, frivillig håndtering hvalp, hvalp bange negleklip`;

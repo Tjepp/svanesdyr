@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 
 const defaultTitle = 'Søndagshygge i Nim, nær Horsens | Dyreadfærdskonsulent | Svanes Dyr ';
-const defaultDescription = 'Svanes Dyr - Søndagshygge for nuværende og tidligere kursister';
+const defaultDescription =
+  'Søndagshygge i Nim – 2 timers åbent hus for nuværende og tidligere kursister. Motorikbane, fritløbsplads på 1500 kvm, Tunnel-Mania og Snackshop.';
 const defaultKeywords = `hundehold midtjylland, Svanes dyr, positiv hundetræning, legestue, hundelegestue, hundelegestue horsens, legestue horsens,
   hjælp hvalp, hvalpetræning, socialisering hvalp, miljøtræning hvalp, tillid hvalp, samarbejde hvalp, kontrolleret leg hvalp, legestue hund horsens, legestue hvalp horsens,`;
 
@@ -13,8 +14,8 @@ const MetaDogSundayPlay = ({
   <>
     <title>{title}</title>
     <meta property="og:title" content={title} />
-    <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/hyggedage" />
-    <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/hyggedage" />
+    <link rel="canonical" href="https://www.svanesdyr.dk/hyggedage" />
+    <meta property="og:url" content="https://www.svanesdyr.dk/hyggedage" />
 
     <meta property="og:locale" content="da_DK" />
     <meta property="og:type" content="website" />

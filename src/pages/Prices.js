@@ -17,7 +17,7 @@ import '../components/table/TableCss.css';
 
 const Prices = () => (
   <Page>
-    <Meta />
+    <Meta url="https://www.svanesdyr.dk/prisoversigt" description="Prisoversigt for Svanes Dyr. Foredrag, onlinekurser og holdtræning. Alle priser inkl. fri opfølgning i 6 måneder." />
     <Banner text="Adfærdsspecialist til hund og kat Midtjylland">
       <BreadCrumps currentPage="Hund" />
     </Banner>

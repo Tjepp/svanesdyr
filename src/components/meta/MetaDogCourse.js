@@ -17,8 +17,8 @@ const MetaDogCourse = ({
   <>
     <title>{title}</title>
     <meta property="og:title" content={title} />
-    <link rel="canonical" href="https://www.svanesdyr.dk/hundehold/" />
-    <meta property="og:url" content="https://www.svanesdyr.dk/hundehold/" />
+    <link rel="canonical" href="https://www.svanesdyr.dk/hundehold" />
+    <meta property="og:url" content="https://www.svanesdyr.dk/hundehold" />
 
     <meta property="og:locale" content="da_DK" />
     <meta property="og:type" content="website" />

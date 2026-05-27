@@ -1,3 +1,4 @@
-# global
 User-agent: *
 Allow: /
+
+Sitemap: https://svanesdyr.dk/sitemap.xml

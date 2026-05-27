@@ -40,7 +40,7 @@ const consultation = [
 
 const Cat = () => (
   <Page>
-    <Meta />
+    <Meta url="https://www.svanesdyr.dk/kattetraening" description="Kattetræning og adfærdskonsultation i Midtjylland. Op til 2 timers konsultation hjemme, inkl. 6 mdrs fri opfølgning. Katteadfærdsspecialist Sabrina Svane." />
     <Banner text="Kattetræning Midtjylland">
       <BreadCrumps currentPage="Kat" />
     </Banner>

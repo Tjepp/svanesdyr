@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <Page>
-      <Meta />
+      <Meta url="https://www.svanesdyr.dk/" />
       <MediaQuery minWidth={Responsive.sizes.tablet}>
         {(matches) =>
           matches ? (

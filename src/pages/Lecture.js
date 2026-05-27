@@ -48,7 +48,7 @@ const Calm = [
 
 const Lecture = () => (
   <Page>
-    <Meta />
+    <Meta url="https://www.svanesdyr.dk/foredrag" description="Foredrag om hundeadfærd og katteadfærd til klubber, dyrlægeklinikker og private. Tilbydes også som webinar. Emner: hundens sprog, hundeleg, reaktive hunde." />
     <Banner text="Foredrag hos Svanes Dyr">
       <BreadCrumps currentPage="Foredrag" />
     </Banner>

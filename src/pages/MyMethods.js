@@ -18,7 +18,7 @@ import { methodOne, methodTwo, sabrinaAndBarney } from '../assets';
 
 const MyMethods = () => (
   <Page>
-    <Meta />
+    <Meta url="https://www.svanesdyr.dk/minemetoder" description="Belønningsbaserede træningsmetoder – ingen straf eller tvang. Klikkertræning, shaping og positiv forstærkning." />
     <Banner text="Træningsmetoder ved Svanes Dyr">
       <BreadCrumps currentPage="Mine Metoder" />
     </Banner>

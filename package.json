@@ -33,7 +33,8 @@
     "eject": "react-scripts eject",
     "lint": "biome check src/",
     "lint:fix": "biome check --write src/",
-    "format": "biome format --write src/"
+    "format": "biome format --write src/",
+    "sitemap": "node scripts/generate-sitemap.js"
   },
   "browserslist": [
     ">0.2%",
