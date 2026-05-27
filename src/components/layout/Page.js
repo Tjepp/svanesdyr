@@ -18,8 +18,10 @@ const Page = ({ children }) => {
       <Header />
       <Menu />
       {children}
+      <footer>
       <FooterTop />
       <FooterBottom />
+      </footer>
       <CookieConsent>This website uses cookies to enhance the user experience. </CookieConsent>
     </Container>
   );
@@ -31,7 +33,7 @@ Page.propTypes = {
 
 export default Page;
 
-const Container = styled.div`
+const Container = styled.main`
   display: flex;
   flex-direction: column;
   align: center;

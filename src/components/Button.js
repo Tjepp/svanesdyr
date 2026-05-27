@@ -2,15 +2,15 @@ import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Button = ({ text, onClick }) => (
-  <StyledButton onClick={onClick}>
+const Button = ({ text, href }) => (
+  <StyledButton href={href} >
     <Text>{text}</Text>
   </StyledButton>
 );
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired,
+  href: PropTypes.string.isRequired,
 };
 
 export default Button;
@@ -25,6 +25,7 @@ const StyledButton = styled.a`
   outline: none;
   padding: 15px 30px;
   border-radius: 4px;
+  text-decoration: none;
 `;
 
 const Text = styled.div`

@@ -6,7 +6,7 @@ import SmallMenuItem from './SmallMenuItem';
 
 const SmallMenu = ({ onClick, showSidebar }) => (
   <>
-    <MenuButton onClick={onClick}>
+    <MenuButton onClick={onClick} role="button" aria-label="Toggle menu">
       <FontAwesomeIcon icon="bars" color="#fff" size="1x" />
     </MenuButton>
     <CollapsibleMenu $showSidebar={showSidebar}>

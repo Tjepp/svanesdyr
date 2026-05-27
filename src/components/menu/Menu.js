@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
 import Responsive from '../layout/Responsive';
-import { LogoUpdate } from '../../assets';
 import LargeMenu from './LargeMenu';
 import SmallMenu from './SmallMenu';
 
@@ -17,7 +16,13 @@ const Menu = () => {
     <Background>
       <Bar>
         <CenteredA href="/">
-          <Img src={LogoUpdate} alt="Svanes Dyr logo" fetchPriority="high" />
+          <Img
+            src="/img/LogoUpdate.png?w=800"
+            srcSet="/img/LogoUpdate.png?w=400 400w, /img/LogoUpdate.png?w=800 800w"
+            sizes="(max-width: 768px) 100vw, 400px"
+            alt="Svanes Dyr logo"
+            fetchPriority="high"
+          />
         </CenteredA>
         <MenuItemContainer>
           <MediaQuery minWidth={Responsive.sizes.tablet}>

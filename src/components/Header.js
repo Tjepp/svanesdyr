@@ -13,7 +13,7 @@ const TopBar = () => (
         <EmailMe />
       </Column>
       <Column>
-        <IconLink href="https://www.facebook.com/SvanesDyr" target="_blank" rel="noopener noreferrer">
+        <IconLink href="https://www.facebook.com/SvanesDyr" target="_blank" aria-label="Besøg SvanesDyr på Facebook">
           <FontAwesomeIcon icon={['fab', 'facebook-f']} color="#fff" />
         </IconLink>
       </Column>
