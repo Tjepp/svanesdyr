@@ -1,33 +1,30 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
 import {
-  Page,
+  PuppyContinuedFive,
+  PuppyContinuedFour,
+  PuppyContinuedOne,
+  PuppyContinuedSix,
+  PuppyContinuedThree,
+  PuppyContinuedTwo,
+} from '../assets';
+import {
   Banner,
-  Column,
-  MetaDogContinued,
-  Title,
-  TitleColor,
-  Text,
   BreadCrumps,
-  Row,
-  TextList,
-  Image,
-  StyledLink,
+  Column,
   ContactPopUp,
   EasyMeList,
+  Image,
+  MetaDogContinued,
+  Page,
+  Row,
+  StyledLink,
+  Text,
+  TextList,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import {
-  PuppyContinuedOne,
-  PuppyContinuedTwo,
-  PuppyContinuedThree,
-  PuppyContinuedFour,
-  PuppyContinuedFive,
-  PuppyContinuedSix,
-} from '../assets';
 
 const ContinuedProgram = [
   'Det stærke indkald',
@@ -138,24 +135,42 @@ const DogContinued = () => (
           <Title text="Stemningsbilleder fra fortsætterhold" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={PuppyContinuedOne} alt="Lagotto romagnolo unghund ligger roligt på tæppe under fortsætterhold" />
+              <Image
+                src={PuppyContinuedOne}
+                alt="Lagotto romagnolo unghund ligger roligt på tæppe under fortsætterhold"
+              />
             </Column>
             <Column>
-              <Image src={PuppyContinuedTwo} alt="Lille hvid malteser hvalp står på podium og giver kontakt" />
+              <Image
+                src={PuppyContinuedTwo}
+                alt="Lille hvid malteser hvalp står på podium og giver kontakt"
+              />
             </Column>
             <Column>
-              <Image src={PuppyContinuedThree} alt="Cairn terrier hvalp balancerer på træningsvippe under motorik" />
+              <Image
+                src={PuppyContinuedThree}
+                alt="Cairn terrier hvalp balancerer på træningsvippe under motorik"
+              />
             </Column>
           </Row>
           <Row>
             <Column>
-              <Image src={PuppyContinuedFour} alt="Kursister står spredt på træningsplads under hvalpetræning" />
+              <Image
+                src={PuppyContinuedFour}
+                alt="Kursister står spredt på træningsplads under hvalpetræning"
+              />
             </Column>
             <Column>
-              <Image src={PuppyContinuedFive} alt="To hunde leger sammen på græsset under legestue" />
+              <Image
+                src={PuppyContinuedFive}
+                alt="To hunde leger sammen på græsset under legestue"
+              />
             </Column>
             <Column>
-              <Image src={PuppyContinuedSix} alt="Kooikerhondje unghund giver opmærksom kontakt under indkaldstræning" />
+              <Image
+                src={PuppyContinuedSix}
+                alt="Kooikerhondje unghund giver opmærksom kontakt under indkaldstræning"
+              />
             </Column>
           </Row>
         </Column>

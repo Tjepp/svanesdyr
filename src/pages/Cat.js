@@ -1,22 +1,21 @@
-import React from 'react';
 import styled from 'styled-components';
+import { catFour, catThree, catTwo } from '../assets';
 import {
-  Page,
   Banner,
-  Column,
-  Meta,
-  Title,
-  TitleColor,
-  Text,
-  Image,
   BreadCrumps,
-  TextList,
+  ButtonOnline,
+  Column,
+  Image,
+  Meta,
+  Page,
   Row,
   StyledLink,
-  ButtonOnline,
+  Text,
+  TextList,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { catFour, catTwo, catThree } from '../assets';
 import '../components/table/TableCss.css';
 
 const privateHour = [
@@ -78,13 +77,20 @@ const Cat = () => (
         <Title text="Udbud af kattetræning i Midtjylland" showHorizontalRuler />
       </Row>
       <Row marginBottom="25px">
-      <Column>
+        <Column>
           <Image src={catFour} alt="Kat ved kradsetræ illustrerer e-bog om kradsevaner" />
-          <TitleColor text="E-bog til katteejeren: 3 simple trin, der holder kløerne af møblerne" smallTitle />
+          <TitleColor
+            text="E-bog til katteejeren: 3 simple trin, der holder kløerne af møblerne"
+            smallTitle
+          />
           <Text>
-            En E-bog til dig der ønsker en konfliktfri hverdag med en kat der elsker sit kradsetræ, så du kan unndgå flere ødelagte sofahjørner!
+            En E-bog til dig der ønsker en konfliktfri hverdag med en kat der elsker sit kradsetræ,
+            så du kan unndgå flere ødelagte sofahjørner!
           </Text>
-          <ButtonOnline text="Læs mere her" href="https://www.svanesdyr.dk/kattekradsekursus"></ButtonOnline>
+          <ButtonOnline
+            text="Læs mere her"
+            href="https://www.svanesdyr.dk/kattekradsekursus"
+          ></ButtonOnline>
           <br />
         </Column>
         <Column>

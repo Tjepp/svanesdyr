@@ -1,16 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
-
-// ESLint disabled because:
-// The list and items are static–they are not computed and do not change;
-// The items in the list have no ids;
-// The list is never reordered or filtered.
+import styled from 'styled-components';
 
 const TextList = ({ texts }) => (
   <StyledList>
     {texts.map((text, key) => (
-      // eslint-disable-next-line react/no-array-index-key
+      // biome-ignore lint/suspicious/noArrayIndexKey: Static list - items have no ids and are never reordered
       <ListItem key={key}>{text}</ListItem>
     ))}
   </StyledList>

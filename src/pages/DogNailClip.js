@@ -1,32 +1,29 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
 import {
-  Page,
+  NailClipFive,
+  NailClipFour,
+  NailClipOne,
+  NailClipSix,
+  NailClipThree,
+  NailClipTwo,
+} from '../assets';
+import {
   Banner,
+  BreadCrumps,
   Column,
+  ContactPopUp,
+  Image,
   MetaDogNailClip,
+  Page,
+  Row,
+  StyledLink,
+  Text,
+  TextList,
   Title,
   TitleColor,
-  Text,
-  BreadCrumps,
-  Row,
-  TextList,
-  Image,
-  StyledLink,
-  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import {
-  NailClipOne,
-  NailClipTwo,
-  NailClipThree,
-  NailClipFour,
-  NailClipFive,
-  NailClipSix,
-} from '../assets';
 
 const NailClipProgram = [
   'Chirag Patels "The Bucket Game"',
@@ -127,25 +124,40 @@ const DogNailClip = () => (
           <Title text="Billeder af neglekliplegen i aktion" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={NailClipOne} alt="Chokoladebrun labrador kigger på godbidsglas under bucket game træning" />
+              <Image
+                src={NailClipOne}
+                alt="Chokoladebrun labrador kigger på godbidsglas under bucket game træning"
+              />
             </Column>
             <Column>
               <Image src={NailClipTwo} alt="Nærbillede af hundepoter med pænt klippede negle" />
             </Column>
             <Column>
-              <Image src={NailClipThree} alt="Sheltie står på måtte ved siden af negleklipper og godbidskål" />
+              <Image
+                src={NailClipThree}
+                alt="Sheltie står på måtte ved siden af negleklipper og godbidskål"
+              />
             </Column>
           </Row>
 
           <Row>
             <Column>
-              <Image src={NailClipFour} alt="Sort hund ligger afslappet mens ejer øver potehåndtering med godbidder" />
+              <Image
+                src={NailClipFour}
+                alt="Sort hund ligger afslappet mens ejer øver potehåndtering med godbidder"
+              />
             </Column>
             <Column>
-              <Image src={NailClipFive} alt="Kvinde klipper negle på sort pudel der ligger roligt på tæppe" />
+              <Image
+                src={NailClipFive}
+                alt="Kvinde klipper negle på sort pudel der ligger roligt på tæppe"
+              />
             </Column>
             <Column>
-              <Image src={NailClipSix} alt="Kvinde øver tryg potehåndtering med sin hund i sofaen" />
+              <Image
+                src={NailClipSix}
+                alt="Kvinde øver tryg potehåndtering med sin hund i sofaen"
+              />
             </Column>
           </Row>
         </Column>

@@ -1,34 +1,31 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
 import {
-  Page,
+  PlayEight,
+  PlayFive,
+  PlayFour,
+  PlayNine,
+  PlayOne,
+  PlaySeven,
+  PlayThree,
+  PlayTwo,
+  PuppyContinuedFive,
+} from '../assets';
+import {
   Banner,
+  BreadCrumps,
   Column,
+  EasyMeList,
+  Image,
   MetaDogPlay,
+  Page,
+  Row,
+  StyledLink,
+  Text,
+  TextList,
   Title,
   TitleColor,
-  Text,
-  BreadCrumps,
-  Row,
-  TextList,
-  Image,
-  EasyMeList,
-  StyledLink,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import {
-  PlayOne,
-  PlayTwo,
-  PlayThree,
-  PlayFour,
-  PlayFive,
-  PuppyContinuedFive,
-  PlaySeven,
-  PlayEight,
-  PlayNine,
-} from '../assets';
 
 const PlayBenefits = [
   'Indsigt i hvad der er passende leg',
@@ -120,10 +117,10 @@ const DogPlay = () => {
             <Text>
               <b>Antal pladser til legestuerne</b>
               <br />
-              For at forholdene er kontrollerede er der begrænsning på hvor mange pladser hver legestue har til rådighed pr. gang:
+              For at forholdene er kontrollerede er der begrænsning på hvor mange pladser hver
+              legestue har til rådighed pr. gang:
               <TextList texts={PlayRoom} />
             </Text>
-            
 
             <br />
             <Title text="Datoer for legestuer" showHorizontalRuler />
@@ -139,13 +136,22 @@ const DogPlay = () => {
             <Title text="Stemningsbilleder fra legestuerne" showHorizontalRuler />
             <Row>
               <Column>
-                <Image src={PlayOne} alt="Gruppe af hunde leger sammen på græsplæne under legestue" />
+                <Image
+                  src={PlayOne}
+                  alt="Gruppe af hunde leger sammen på græsplæne under legestue"
+                />
               </Column>
               <Column>
-                <Image src={PlayTwo} alt="Tre hunde sidder roligt i skyggen sammen med ejere under pause" />
+                <Image
+                  src={PlayTwo}
+                  alt="Tre hunde sidder roligt i skyggen sammen med ejere under pause"
+                />
               </Column>
               <Column>
-                <Image src={PlayThree} alt="To hunde i legeposition på græsset under kontrolleret leg" />
+                <Image
+                  src={PlayThree}
+                  alt="To hunde i legeposition på græsset under kontrolleret leg"
+                />
               </Column>
             </Row>
             <Row>
@@ -156,15 +162,24 @@ const DogPlay = () => {
                 <Image src={PlayFive} alt="To store hunde leger og brydes på græsplænen" />
               </Column>
               <Column>
-                <Image src={PuppyContinuedFive} alt="To hunde leger sammen på græsset under legestue" />
+                <Image
+                  src={PuppyContinuedFive}
+                  alt="To hunde leger sammen på græsset under legestue"
+                />
               </Column>
             </Row>
             <Row>
               <Column>
-                <Image src={PlaySeven} alt="Hunde hilser på hinanden gennem hegn under kontrolleret socialisering" />
+                <Image
+                  src={PlaySeven}
+                  alt="Hunde hilser på hinanden gennem hegn under kontrolleret socialisering"
+                />
               </Column>
               <Column>
-                <Image src={PlayEight} alt="Gruppe af hvalpe sidder sammen i sandkasse under socialisering" />
+                <Image
+                  src={PlayEight}
+                  alt="Gruppe af hvalpe sidder sammen i sandkasse under socialisering"
+                />
               </Column>
               <Column>
                 <Image src={PlayNine} alt="Hvid og sort hund leger sammen på græsplæne" />

@@ -1,35 +1,32 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
 import {
-  Page,
+  PlayEight,
+  PlayFive,
+  PlayFour,
+  PlayNine,
+  PlayOne,
+  PlaySeven,
+  PlayThree,
+  PlayTwo,
+  PuppyContinuedFive,
+} from '../assets';
+import {
   Banner,
-  Column,
-  Title,
-  TitleColor,
-  Text,
   BreadCrumps,
-  Row,
-  TextList,
-  Image,
-  StyledLink,
+  Column,
   ContactPopUp,
   EasyMeList,
+  Image,
+  Page,
+  Row,
+  StyledLink,
+  Text,
+  TextList,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import {
-  PlayOne,
-  PlayTwo,
-  PlayThree,
-  PlayFour,
-  PlayFive,
-  PuppyContinuedFive,
-  PlaySeven,
-  PlayEight,
-  PlayNine,
-} from '../assets';
 import MetaDogSocial from '../components/meta/MetaDogSocial';
 
 const SocialProgram = [
@@ -146,10 +143,16 @@ const DogSocial = () => {
             <Title text="Billeder fra Socialiseringshold" showHorizontalRuler />
             <Row>
               <Column>
-                <Image src={PlaySeven} alt="Hunde hilser på hinanden gennem hegn under kontrolleret socialisering" />
+                <Image
+                  src={PlaySeven}
+                  alt="Hunde hilser på hinanden gennem hegn under kontrolleret socialisering"
+                />
               </Column>
               <Column>
-                <Image src={PlayEight} alt="Gruppe af hvalpe sidder sammen i sandkasse under socialisering" />
+                <Image
+                  src={PlayEight}
+                  alt="Gruppe af hvalpe sidder sammen i sandkasse under socialisering"
+                />
               </Column>
               <Column>
                 <Image src={PlayNine} alt="Hvid og sort hund leger sammen på græsplæne" />
@@ -157,13 +160,22 @@ const DogSocial = () => {
             </Row>
             <Row>
               <Column>
-                <Image src={PlayOne} alt="Gruppe af hunde leger sammen på græsplæne under legestue" />
+                <Image
+                  src={PlayOne}
+                  alt="Gruppe af hunde leger sammen på græsplæne under legestue"
+                />
               </Column>
               <Column>
-                <Image src={PlayTwo} alt="Tre hunde sidder roligt i skyggen sammen med ejere under pause" />
+                <Image
+                  src={PlayTwo}
+                  alt="Tre hunde sidder roligt i skyggen sammen med ejere under pause"
+                />
               </Column>
               <Column>
-                <Image src={PlayThree} alt="To hunde i legeposition på græsset under kontrolleret leg" />
+                <Image
+                  src={PlayThree}
+                  alt="To hunde i legeposition på græsset under kontrolleret leg"
+                />
               </Column>
             </Row>
             <Row>
@@ -174,7 +186,10 @@ const DogSocial = () => {
                 <Image src={PlayFive} alt="To store hunde leger og brydes på græsplænen" />
               </Column>
               <Column>
-                <Image src={PuppyContinuedFive} alt="To hunde leger sammen på græsset under legestue" />
+                <Image
+                  src={PuppyContinuedFive}
+                  alt="To hunde leger sammen på græsset under legestue"
+                />
               </Column>
             </Row>
           </Column>

@@ -1,17 +1,15 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
 
 import {
-  Page,
   Banner,
+  BreadCrumps,
   Column,
   MetaDogCourse,
-  Title,
-  Text,
-  BreadCrumps,
+  Page,
   Row,
   StyledLink,
+  Text,
+  Title,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
@@ -41,34 +39,39 @@ const DogCourse = () => (
           <Text>
             <b>Små hold med tid til dig og din hund</b>
             <br />
-            Jeg afholder intime hold med <b>max 5 hunde</b> på alle standardhold, og max 4 hunde på Reaktiv til Ro og Helt-Cool kurset,
-            da jeg værdsætter tid til en individuel snak med dig omkring samarbejdet og træningen
-            med din hund. Målet er, at uanset niveau og alder så skal alle deltagere have udbytte af
-            timen. Træningen er familievenlig, så tag gerne børn og den bedre halvdel med til en
-            hyggelig time.
+            Jeg afholder intime hold med <b>max 5 hunde</b> på alle standardhold, og max 4 hunde på
+            Reaktiv til Ro og Helt-Cool kurset, da jeg værdsætter tid til en individuel snak med dig
+            omkring samarbejdet og træningen med din hund. Målet er, at uanset niveau og alder så
+            skal alle deltagere have udbytte af timen. Træningen er familievenlig, så tag gerne børn
+            og den bedre halvdel med til en hyggelig time.
           </Text>
           <Text>
-            Socialiseringsholdet differentierer sig fra det normale holdsetup, da vi grundet holdets formål er op til 6 hunde på holdet.
+            Socialiseringsholdet differentierer sig fra det normale holdsetup, da vi grundet holdets
+            formål er op til 6 hunde på holdet.
           </Text>
           <Text>
             <b>Vi ses én gang om ugen</b>
             <br />
-            Alle hold afholdes som hovedregel over 6 mødegange, hvor vi mødes til træning i <b>45-50 min. per mødegang</b>.<br />
-            Hvalpeholdet har en ekstra lektion til gåtur i Bygholm Park, udover de 6 lektioner på banen.
-            Specialkurserne Reaktiv til Ro og Helt-Cool har privat sparring inkluderet og har derfor også en ekstra mødegang inkluderet.
+            Alle hold afholdes som hovedregel over 6 mødegange, hvor vi mødes til træning i{' '}
+            <b>45-50 min. per mødegang</b>.<br />
+            Hvalpeholdet har en ekstra lektion til gåtur i Bygholm Park, udover de 6 lektioner på
+            banen. Specialkurserne Reaktiv til Ro og Helt-Cool har privat sparring inkluderet og har
+            derfor også en ekstra mødegang inkluderet.
           </Text>
-          <Text>Socialiseringsholdet og miljøholdet afholdes over 4 mødegange og varer 60 min. pr. lektion, grundet holdenes formål.</Text>
           <Text>
-            Der tilsendes link til et online bibliotek, hvor du kan
-            downloade skriftlige guides på kursets øvelser, så det er let at træne videre hjemme. Du
-            vil blive introduceret til klikkertræning og konceptet med at bruge mad, leg og ros til
-            hverdagens opdragelse. Det er ikke et krav du bruger klikker.
+            Socialiseringsholdet og miljøholdet afholdes over 4 mødegange og varer 60 min. pr.
+            lektion, grundet holdenes formål.
+          </Text>
+          <Text>
+            Der tilsendes link til et online bibliotek, hvor du kan downloade skriftlige guides på
+            kursets øvelser, så det er let at træne videre hjemme. Du vil blive introduceret til
+            klikkertræning og konceptet med at bruge mad, leg og ros til hverdagens opdragelse. Det
+            er ikke et krav du bruger klikker.
           </Text>
           <Text>
             <b>Træningsbane</b>
             <br />
-            Jeg afholder træning på følgende adresse:
-            Horsensvej 31, Nim, 8740 Brædstrup
+            Jeg afholder træning på følgende adresse: Horsensvej 31, Nim, 8740 Brædstrup
           </Text>
           <Text>
             <b>Bemærk!</b>

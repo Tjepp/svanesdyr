@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import MediaQuery from 'react-responsive';
+import styled from 'styled-components';
 import Responsive from '../layout/Responsive';
 import LargeMenu from './LargeMenu';
 import SmallMenu from './SmallMenu';

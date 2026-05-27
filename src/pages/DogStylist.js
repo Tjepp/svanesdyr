@@ -1,33 +1,30 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
 import {
-  Page,
+  NailClipEight,
+  NailClipFive,
+  NailClipFour,
+  NailClipNine,
+  NailClipSeven,
+  NailClipSix,
+} from '../assets';
+import {
   Banner,
-  Column,
-  MetaDogStylist,
-  Title,
-  TitleColor,
-  Text,
   BreadCrumps,
-  Row,
-  TextList,
-  Image,
-  StyledLink,
+  Column,
   ContactPopUp,
   EasyMeList,
+  Image,
+  MetaDogStylist,
+  Page,
+  Row,
+  StyledLink,
+  Text,
+  TextList,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import {
-  NailClipSeven,
-  NailClipEight,
-  NailClipNine,
-  NailClipFour,
-  NailClipFive,
-  NailClipSix,
-} from '../assets';
 
 const StylistProgram = [
   'Undervisning i forskellige pelstypers krav til pleje',
@@ -220,25 +217,43 @@ const DogStylist = () => (
           <Title text="Stemningsbilleder fra tryg håndtering" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={NailClipFour} alt="Sort hund ligger afslappet mens ejer øver potehåndtering med godbidder" />
+              <Image
+                src={NailClipFour}
+                alt="Sort hund ligger afslappet mens ejer øver potehåndtering med godbidder"
+              />
             </Column>
             <Column>
-              <Image src={NailClipEight} alt="Hvid pomeranian på trimmebord hos hundefrisør Torsten" />
+              <Image
+                src={NailClipEight}
+                alt="Hvid pomeranian på trimmebord hos hundefrisør Torsten"
+              />
             </Column>
             <Column>
-              <Image src={NailClipSix} alt="Kvinde øver tryg potehåndtering med sin hund i sofaen" />
+              <Image
+                src={NailClipSix}
+                alt="Kvinde øver tryg potehåndtering med sin hund i sofaen"
+              />
             </Column>
           </Row>
 
           <Row>
             <Column>
-              <Image src={NailClipSeven} alt="Ejer og træner øver frivillig håndtering med pudel på træningsplads" />
+              <Image
+                src={NailClipSeven}
+                alt="Ejer og træner øver frivillig håndtering med pudel på træningsplads"
+              />
             </Column>
             <Column>
-              <Image src={NailClipFive} alt="Kvinde klipper negle på sort pudel der ligger roligt på tæppe" />
+              <Image
+                src={NailClipFive}
+                alt="Kvinde klipper negle på sort pudel der ligger roligt på tæppe"
+              />
             </Column>
             <Column>
-              <Image src={NailClipNine} alt="Hundefrisør Torsten bader berner sennen i hundesalon" />
+              <Image
+                src={NailClipNine}
+                alt="Hundefrisør Torsten bader berner sennen i hundesalon"
+              />
             </Column>
           </Row>
         </Column>

@@ -1,17 +1,16 @@
-import React from 'react';
 import styled from 'styled-components';
 import {
-  Page,
   Banner,
+  BreadCrumps,
   Column,
+  ContactForm,
   Meta,
-  Title,
+  Page,
+  Row,
+  StyledExternal,
   // TitleColor,
   Text,
-  BreadCrumps,
-  Row,
-  ContactForm,
-  StyledExternal,
+  Title,
   // TextList,
   // StyledLink,
   // TitleColor,

@@ -1,37 +1,34 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
 import {
-  Page,
+  PuppyEight,
+  PuppyFive,
+  PuppyFour,
+  PuppyNine,
+  PuppyOne,
+  PuppySeven,
+  PuppySix,
+  PuppyThree,
+  PuppyTwo,
+} from '../assets';
+import {
   Banner,
+  BreadCrumps,
   Column,
+  ContactPopUp,
+  DogPuppyTestimonials,
+  EasyMeList,
+  Image,
   MetaDogPuppy,
+  Page,
+  Row,
+  StyledLink,
+  Text,
+  TextList,
   Title,
   TitleColor,
-  Text,
-  BreadCrumps,
-  Row,
-  TextList,
-  Image,
-  StyledLink,
-  DogPuppyTestimonials,
-  ContactPopUp,
-  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import {
-  PuppyOne,
-  PuppyTwo,
-  PuppyThree,
-  PuppyFour,
-  PuppyFive,
-  PuppySix,
-  PuppySeven,
-  PuppyEight,
-  PuppyNine,
-} from '../assets';
 
 const PuppyProgram = [
   'Fornøjelige gåture, uden at trække i snoren',
@@ -160,35 +157,62 @@ const DogPuppy = () => {
             <Title text="Stemningsbilleder fra hvalpeholdene" showHorizontalRuler />
             <Row>
               <Column>
-                <Image src={PuppyOne} alt="Træner giver godbid til hvid hvalp der sidder i tunnelrør under miljøtræning" />
+                <Image
+                  src={PuppyOne}
+                  alt="Træner giver godbid til hvid hvalp der sidder i tunnelrør under miljøtræning"
+                />
               </Column>
               <Column>
-                <Image src={PuppyTwo} alt="Brun hvalp balancerer på træplanke under motoriktræning" />
+                <Image
+                  src={PuppyTwo}
+                  alt="Brun hvalp balancerer på træplanke under motoriktræning"
+                />
               </Column>
               <Column>
-                <Image src={PuppyThree} alt="Kursister sidder på græsset med mops hvalp der øver ro og afslapning" />
-              </Column>
-            </Row>
-            <Row>
-              <Column>
-                <Image src={PuppyFour} alt="Whippet hvalp står på skateboard under tricks træning" />
-              </Column>
-              <Column>
-                <Image src={PuppyFive} alt="Stor Sankt Bernhard hvalp ligger afslappet med godbidskål ved siden" />
-              </Column>
-              <Column>
-                <Image src={PuppySix} alt="Hvid hvalp balancerer på blå træningspodier under hverdagsaktivering" />
+                <Image
+                  src={PuppyThree}
+                  alt="Kursister sidder på græsset med mops hvalp der øver ro og afslapning"
+                />
               </Column>
             </Row>
             <Row>
               <Column>
-                <Image src={PuppySeven} alt="Schæferhvalp ligger afslappet på græsset under hvalpeholdet" />
+                <Image
+                  src={PuppyFour}
+                  alt="Whippet hvalp står på skateboard under tricks træning"
+                />
               </Column>
               <Column>
-                <Image src={PuppyEight} alt="Amstaff hvalp med jakke på står på vippe under miljøtræning" />
+                <Image
+                  src={PuppyFive}
+                  alt="Stor Sankt Bernhard hvalp ligger afslappet med godbidskål ved siden"
+                />
               </Column>
               <Column>
-                <Image src={PuppyNine} alt="Hvalp udforsker stort bildæk under motorik og miljøtræning" />
+                <Image
+                  src={PuppySix}
+                  alt="Hvid hvalp balancerer på blå træningspodier under hverdagsaktivering"
+                />
+              </Column>
+            </Row>
+            <Row>
+              <Column>
+                <Image
+                  src={PuppySeven}
+                  alt="Schæferhvalp ligger afslappet på græsset under hvalpeholdet"
+                />
+              </Column>
+              <Column>
+                <Image
+                  src={PuppyEight}
+                  alt="Amstaff hvalp med jakke på står på vippe under miljøtræning"
+                />
+              </Column>
+              <Column>
+                <Image
+                  src={PuppyNine}
+                  alt="Hvalp udforsker stort bildæk under motorik og miljøtræning"
+                />
               </Column>
             </Row>
           </Column>

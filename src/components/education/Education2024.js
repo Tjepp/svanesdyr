@@ -1,19 +1,16 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
-import Text from '../Text';
 import { TitleColor } from '..';
+import Text from '../Text';
 
 const Education2024 = () => (
   <>
     <TitleColor text="Kurser 2024" smallTitle />
     <Text>
       <b>Racekendskab til Professionel AdfærdsInstruktør</b>
-      <br />
-      6 måneders efteruddannelse hos Lone Enghave:
+      <br />6 måneders efteruddannelse hos Lone Enghave:
       <br />
       <i>
-        Hundens historie og racernes udvikling gennem tiden.
-        Racernes oprindelige arbejdsopgaver, brugsformål og adfærdskarakteristika.
+        Hundens historie og racernes udvikling gennem tiden. Racernes oprindelige arbejdsopgaver,
+        brugsformål og adfærdskarakteristika.
       </i>
     </Text>
     <Text>

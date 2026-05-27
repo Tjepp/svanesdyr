@@ -1,25 +1,24 @@
-import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
-import { TitleColor, Text, TextContainer, FlexedRow } from '../../components';
-import TestimonialImage from './TestimonialImage';
 import {
-  TestiPupOne,
-  TestiPupTwo,
-  TestiPupThree,
-  TestiPupFour,
-  TestiPupFive,
-  TestiPupSix,
-  TestiPupSeven,
   TestiPupEight,
-  TestiPupNine,
-  TestiPupTen,
   TestiPupEleven,
-  TestiPupTwelve,
+  TestiPupFive,
+  TestiPupFour,
+  TestiPupNine,
+  TestiPupOne,
+  TestiPupSeven,
+  TestiPupSix,
+  TestiPupTen,
   TestiPupThirteen,
+  TestiPupThree,
+  TestiPupTwelve,
+  TestiPupTwo,
 } from '../../assets';
+import { FlexedRow, Text, TextContainer, TitleColor } from '../../components';
+import TestimonialImage from './TestimonialImage';
 
 const DogPuppyTestimonials = () => (
   <Carousel
@@ -36,27 +35,37 @@ const DogPuppyTestimonials = () => (
       <TextContainer>
         <TitleColor text=" ”Jeg elsker, at vi ikke er flere på holdet. Det giver tid til hjælp og støtte til den enkelte og mig ro i forhold til at min hund er i trygge rammer” " />
         <Text>
-          Jeg har lært utroligt meget om, hvordan hunde reagerer/tænker, takket være et fantastisk hold med en fantastisk engageret underviser, 
-          der med masser af kærlighed til hundene hjælper os alle på vej. Især samspillet mellem hvalpene, at se hvordan min hund på kun få gange gik fra at være bange overfor de andre hunde til at være aktivt opsøgende. 
-          Jeg har ikke haft hund tidligere, så det er en stor ny verden der har åbnet sig for mig.
+          Jeg har lært utroligt meget om, hvordan hunde reagerer/tænker, takket være et fantastisk
+          hold med en fantastisk engageret underviser, der med masser af kærlighed til hundene
+          hjælper os alle på vej. Især samspillet mellem hvalpene, at se hvordan min hund på kun få
+          gange gik fra at være bange overfor de andre hunde til at være aktivt opsøgende. Jeg har
+          ikke haft hund tidligere, så det er en stor ny verden der har åbnet sig for mig.
         </Text>
         <Text>Annette og Mickie</Text>
       </TextContainer>
     </FlexedRow>
 
     <FlexedRow>
-      <TestimonialImage src={TestiPupThirteen} alt="Billede fra kunde til udtalelse om hvalpehold" />
+      <TestimonialImage
+        src={TestiPupThirteen}
+        alt="Billede fra kunde til udtalelse om hvalpehold"
+      />
       <TextContainer>
         <TitleColor text=" ”Jeg var nervøs for at jeg ikke ville få indført træningen i hverdagen, men det har kun gjort det nemmere at være hvalpeejer og træningen bliver brugt flere gange om dagen” " />
         <Text>
-          Vi er fan af mindre hold og gør at træningen nok har gjort det nemmere at føle man får noget ud af det. Man har samtidig følt man kunne spørge dig til råds om andre ting og kun fået gode svar som har hjulpet. 
+          Vi er fan af mindre hold og gør at træningen nok har gjort det nemmere at føle man får
+          noget ud af det. Man har samtidig følt man kunne spørge dig til råds om andre ting og kun
+          fået gode svar som har hjulpet.
         </Text>
         <Text>
-          Jeg har fået gode råd til at ændre uønsket adfærd - gode råd man nemt kan indføre i hverdagen. Jeg har fået “Ro” i en hverdag med en hvalp gr. 
-          Tips til uønsket adfærd, viden om opførsel bl.a. ift overstimulering og bedre og mere rolige gåture med råd fra erfaren træner. Man ved hvordan man skal arbejde/ håndtere det med tips fra dig.
+          Jeg har fået gode råd til at ændre uønsket adfærd - gode råd man nemt kan indføre i
+          hverdagen. Jeg har fået “Ro” i en hverdag med en hvalp gr. Tips til uønsket adfærd, viden
+          om opførsel bl.a. ift overstimulering og bedre og mere rolige gåture med råd fra erfaren
+          træner. Man ved hvordan man skal arbejde/ håndtere det med tips fra dig.
         </Text>
         <Text>
-          Har allerede anbefalet dig til en og har kun snakket godt om dine hold. Du virker engageret, og Karlo elsker at komme ude ved dig.
+          Har allerede anbefalet dig til en og har kun snakket godt om dine hold. Du virker
+          engageret, og Karlo elsker at komme ude ved dig.
         </Text>
         <Text>Cecilie Iversen, Karlo</Text>
       </TextContainer>
@@ -67,12 +76,15 @@ const DogPuppyTestimonials = () => (
       <TextContainer>
         <TitleColor text=" ”Vi har virkelig følt os set, og har fået en masse gode værktøjer vi har taget med os” " />
         <Text>
-          Vi havde tidligere været på et hold ved en anden træner i byen, hvor der ikke var tid til den enkelte hund og hvor vores hvalp blev fejlbedømt fra starten. 
-          Ved deltagelse hos svanes dyr oplevede vi god tid til hver enkel hvalp, og øvelserne blev tilpasset til vores hvalp så hun kunne være godt med hele tiden.
+          Vi havde tidligere været på et hold ved en anden træner i byen, hvor der ikke var tid til
+          den enkelte hund og hvor vores hvalp blev fejlbedømt fra starten. Ved deltagelse hos
+          svanes dyr oplevede vi god tid til hver enkel hvalp, og øvelserne blev tilpasset til vores
+          hvalp så hun kunne være godt med hele tiden.
         </Text>
         <Text>
-          Vi har fået en roligere hund og bedre kontakt med hunden. 
-          At se vores hund kunne trives med andre hunde har været fantastisk, og at lære at kunne aflæse hendes signaler i leg. Vi har kun en masse ros herfra.
+          Vi har fået en roligere hund og bedre kontakt med hunden. At se vores hund kunne trives
+          med andre hunde har været fantastisk, og at lære at kunne aflæse hendes signaler i leg. Vi
+          har kun en masse ros herfra.
         </Text>
         <Text>Dennis og Kirstine og Carla</Text>
       </TextContainer>
@@ -83,13 +95,19 @@ const DogPuppyTestimonials = () => (
       <TextContainer>
         <TitleColor text=" ”Jeg syntes det har været super rart med det flotte tilsendte materiale, så man kan være forberedt inden træningsaften!” " />
         <Text>
-          Der er mange ting, som har været fantastisk ved at deltage. Du kommer med små fif til os, som passer til hver enkel hund. 
-          Du er super god til at forklare og vise, hvordan vi skal gøre øvelserne og hvad vi skal opnå med dem. Men også at bruge øvelsespapirerne og især videoerne til træning herhjemme.
+          Der er mange ting, som har været fantastisk ved at deltage. Du kommer med små fif til os,
+          som passer til hver enkel hund. Du er super god til at forklare og vise, hvordan vi skal
+          gøre øvelserne og hvad vi skal opnå med dem. Men også at bruge øvelsespapirerne og især
+          videoerne til træning herhjemme.
         </Text>
         <Text>
-          Jeg er gået fra at få et helt lille ny væsen og en ny race, som man ikke kender, til i dag at have fået hans fortrolighed og lært ham meget bedre at kende. 
-          Jeg kan hjælpe ham med ikke at blive overgearet og stresset. Og ved hvor vigtig, det er at give Aslan ro helst inden han kører helt op i gear, så han ikke bliver en stresset hund.
-          At det er ok, at give ham pauser (i hans tilfælde er det ved at blive lukket for sig selv uden at jeg får dårlig samvittighed eller snuse aktiviteter). Hvis jeg ikke havde gået på dit kursus, så var han blevet aktiveret for meget...
+          Jeg er gået fra at få et helt lille ny væsen og en ny race, som man ikke kender, til i dag
+          at have fået hans fortrolighed og lært ham meget bedre at kende. Jeg kan hjælpe ham med
+          ikke at blive overgearet og stresset. Og ved hvor vigtig, det er at give Aslan ro helst
+          inden han kører helt op i gear, så han ikke bliver en stresset hund. At det er ok, at give
+          ham pauser (i hans tilfælde er det ved at blive lukket for sig selv uden at jeg får dårlig
+          samvittighed eller snuse aktiviteter). Hvis jeg ikke havde gået på dit kursus, så var han
+          blevet aktiveret for meget...
         </Text>
         <Text>Susanne Klein og Aslan</Text>
       </TextContainer>
@@ -172,10 +190,14 @@ const DogPuppyTestimonials = () => (
       <TextContainer>
         <TitleColor text=" ”Jeg frygtede at vi til træning lukkede alle hundene sammen i en pærevælling, men der er rigtig godt styr på hundenes leg!” " />
         <Text>
-          Jeg gik tidligere på et hold med 10 hvalpe, og jeg synes helt klart det er en fordel at vi kun var 4 her. Det har jeg fået meget mere ud af.
+          Jeg gik tidligere på et hold med 10 hvalpe, og jeg synes helt klart det er en fordel at vi
+          kun var 4 her. Det har jeg fået meget mere ud af.
         </Text>
         <Text>
-          Det bedste er at der er rigtig godt styr på hundenes leg og der ikke er mange hunde der leger på en gang. Jeg synes det er så meget bedre end det andet sted jeg gik. Det er meget mere personligt, jeg har fået god sparring med Sabrina, også om vores anden hund derhjemme.
+          Det bedste er at der er rigtig godt styr på hundenes leg og der ikke er mange hunde der
+          leger på en gang. Jeg synes det er så meget bedre end det andet sted jeg gik. Det er meget
+          mere personligt, jeg har fået god sparring med Sabrina, også om vores anden hund
+          derhjemme.
         </Text>
         <Text>Mathilde og Karla</Text>
       </TextContainer>
@@ -186,12 +208,17 @@ const DogPuppyTestimonials = () => (
       <TextContainer>
         <TitleColor text=" ”Vi har haft god sparring og en livline i træneren!” " />
         <Text>
-          Vi gik til hvalpetræning et andet sted med vores forrige hund og det var ikke særlig godt. Men allerede efter første gang hvalpetræning vidste vi, at vi var i de bedste hænder.
+          Vi gik til hvalpetræning et andet sted med vores forrige hund og det var ikke særlig godt.
+          Men allerede efter første gang hvalpetræning vidste vi, at vi var i de bedste hænder.
         </Text>
         <Text>
-          Vi har fået god kontakt til vores hund og har fået et fantastisk samarbejde med Ludwig. Ikke mindst ved vi, hvordan vi får hans opmærksomhed ved forstyrrelser.. 
+          Vi har fået god kontakt til vores hund og har fået et fantastisk samarbejde med Ludwig.
+          Ikke mindst ved vi, hvordan vi får hans opmærksomhed ved forstyrrelser..
         </Text>
-        <Text>Det har været helt fantastisk og vi har glædet os hver gang. Vi anbefaler stedet til alle vi møder, som har hvalp.</Text>
+        <Text>
+          Det har været helt fantastisk og vi har glædet os hver gang. Vi anbefaler stedet til alle
+          vi møder, som har hvalp.
+        </Text>
         <Text>Heidi Mønster og Ludwig</Text>
       </TextContainer>
     </FlexedRow>
@@ -248,7 +275,6 @@ const DogPuppyTestimonials = () => (
         <Text>Rikke og Santa’s</Text>
       </TextContainer>
     </FlexedRow>
-
   </Carousel>
 );
 

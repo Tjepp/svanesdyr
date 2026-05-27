@@ -1,6 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
 import { useNavigate } from 'react-router';
+import styled from 'styled-components';
 
 const BreadCrumps = ({ currentPage }) => {
   const navigate = useNavigate();

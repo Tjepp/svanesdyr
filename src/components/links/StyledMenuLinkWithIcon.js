@@ -1,8 +1,7 @@
-import styled from 'styled-components';
-import { Link } from 'react-router';
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router';
+import styled from 'styled-components';
 
 const StyledMenuLinkWithIcon = ({ link, text }) => (
   <StyledMenuItem>

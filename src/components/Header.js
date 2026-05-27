@@ -1,6 +1,5 @@
-import styled from 'styled-components';
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styled from 'styled-components';
 import CallMe from './CallMe';
 import EmailMe from './EmailMe';
 import Responsive from './layout/Responsive';
@@ -13,7 +12,11 @@ const TopBar = () => (
         <EmailMe />
       </Column>
       <Column>
-        <IconLink href="https://www.facebook.com/SvanesDyr" target="_blank" aria-label="Besøg SvanesDyr på Facebook">
+        <IconLink
+          href="https://www.facebook.com/SvanesDyr"
+          target="_blank"
+          aria-label="Besøg SvanesDyr på Facebook"
+        >
           <FontAwesomeIcon icon={['fab', 'facebook-f']} color="#fff" />
         </IconLink>
       </Column>

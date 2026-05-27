@@ -1,5 +1,4 @@
-import React from 'react';
-import { Thead, Tr, Th } from 'react-super-responsive-table';
+import { Th, Thead, Tr } from 'react-super-responsive-table';
 
 const DogCourseYearShift = () => (
   <Thead>

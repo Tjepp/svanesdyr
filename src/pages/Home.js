@@ -1,10 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
-import { NavLink } from "react-router";
-import { Page, Banner, Button, Meta, Column, Title, Text, Image, StyledB } from '../components';
+import { NavLink } from 'react-router';
+import styled from 'styled-components';
+import { ClubCover, FrontNoOne, sabrinaAndBarney } from '../assets';
+import { Banner, Button, Column, Image, Meta, Page, Text, Title } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { ClubCover, sabrinaAndBarney, FrontNoOne } from '../assets';
 
 const Home = () => {
   const isDesktop = useMediaQuery({ minWidth: Responsive.sizes.tablet });
@@ -28,37 +27,50 @@ const Home = () => {
       <Background>
         <Container>
           <Column>
-            <Image src={ClubCover} alt="Hundesprogsklubben - fællesskab for hundeejere med Sabrina Svane" priority />
+            <Image
+              src={ClubCover}
+              alt="Hundesprogsklubben - fællesskab for hundeejere med Sabrina Svane"
+              priority
+            />
             <Title color="000" text="Gratis fællesskab til hundeejere!" />
             <Text>
               Vil du blive klogere på hvad din hund fortæller dig? Så kom GRATIS med i
               Hundesprogsklubben på Facebook. Et fællesskab for alle hundeejere, der ønsker at
               forstå deres bedste ven bedre!
             </Text>
-            <NavLink to={"https://www.facebook.com/groups/hundesprogsklub" } target="_blank" rel="noreferrer">
-                Kom med i Hundesprogsklubben
+            <NavLink
+              to={'https://www.facebook.com/groups/hundesprogsklub'}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Kom med i Hundesprogsklubben
             </NavLink>
           </Column>
           <Column>
-            <Image src={FrontNoOne} alt="Sabrina træner hund på stranden med positive metoder" priority={isDesktop} />
+            <Image
+              src={FrontNoOne}
+              alt="Sabrina træner hund på stranden med positive metoder"
+              priority={isDesktop}
+            />
             <Title color="000" text="Positive træningsmetoder" />
-            <Text
-            >
+            <Text>
               Jeg anvender belønningsbaserede træningsmetoder fra de indlæringspsykologiske
               principper. Mine nøgleord i al omgang med dyr er samarbejde, succes og tillid.
             </Text>
-            <NavLink to={{ pathname: "/minemetoder" }}>
-                Læs mere om mine træningsmetoder
-            </NavLink>
+            <NavLink to={{ pathname: '/minemetoder' }}>Læs mere om mine træningsmetoder</NavLink>
           </Column>
           <Column>
-            <Image src={sabrinaAndBarney} alt="Sabrina og katten Barney giver high five i haven" priority={isDesktop} />
+            <Image
+              src={sabrinaAndBarney}
+              alt="Sabrina og katten Barney giver high five i haven"
+              priority={isDesktop}
+            />
             <Title color="000" text="Katteadfærdsspecialist" />
-            <Text>Jeg har specialiseret mig i katteadfærd og kan tilbyde dig professionel rådgivning og
-              hjælp, hvis du oplever problemadfærd hos din kat.</Text>
-            <NavLink
-              to={{ pathname: "/kattetraening" }}
-            >
+            <Text>
+              Jeg har specialiseret mig i katteadfærd og kan tilbyde dig professionel rådgivning og
+              hjælp, hvis du oplever problemadfærd hos din kat.
+            </Text>
+            <NavLink to={{ pathname: '/kattetraening' }}>
               Læs mere om katteadfærd og katteproblemer
             </NavLink>
           </Column>

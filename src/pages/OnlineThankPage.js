@@ -1,17 +1,15 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { OnlineCoverWalk } from '../assets';
 import {
-  LandingpageOnline,
-  Column,
-  TitleCenter,
-  TextCenter,
-  Image,
-  Row,
   ButtonOnline,
+  Column,
+  Image,
+  LandingpageOnline,
+  Row,
+  TextCenter,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { OnlineCoverWalk } from '../assets';
 import '../components/table/TableCss.css';
 
 const OnlineThankPage = () => (
@@ -19,7 +17,11 @@ const OnlineThankPage = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverWalk} alt="Coverbillede for onlinekursus om gåture med hund" priority />
+          <Image
+            src={OnlineCoverWalk}
+            alt="Coverbillede for onlinekursus om gåture med hund"
+            priority
+          />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>

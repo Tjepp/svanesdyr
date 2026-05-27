@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react';
-import Text from '../Text';
 import { TitleColor } from '..';
+import Text from '../Text';
 
 const Education2015 = () => (
   <>

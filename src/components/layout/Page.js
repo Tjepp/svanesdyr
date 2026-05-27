@@ -1,11 +1,11 @@
-import styled from 'styled-components';
-import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useEffect } from 'react';
 import CookieConsent from 'react-cookie-consent';
-import Header from '../Header';
-import Menu from '../menu/Menu';
+import styled from 'styled-components';
 import FooterBottom from '../FooterBottom';
 import FooterTop from '../FooterTop';
+import Header from '../Header';
+import Menu from '../menu/Menu';
 
 const Page = ({ children }) => {
   useEffect(() => {
@@ -19,8 +19,8 @@ const Page = ({ children }) => {
       <Menu />
       {children}
       <footer>
-      <FooterTop />
-      <FooterBottom />
+        <FooterTop />
+        <FooterBottom />
       </footer>
       <CookieConsent>This website uses cookies to enhance the user experience. </CookieConsent>
     </Container>

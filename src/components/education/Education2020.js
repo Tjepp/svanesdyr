@@ -1,7 +1,5 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
-import Text from '../Text';
 import { TitleColor } from '..';
+import Text from '../Text';
 
 const Education2020 = () => (
   <>

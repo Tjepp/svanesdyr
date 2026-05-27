@@ -1,7 +1,5 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
-import Text from '../Text';
 import { TitleColor } from '..';
+import Text from '../Text';
 
 const Education2017 = () => (
   <>
@@ -23,7 +21,8 @@ const Education2017 = () => (
       Udarbejdet en håndbog omkring træning og aktivering af sælerne, til nytilkomne på stedet.
     </Text>
     <Text>
-      <b>Jan Østergaard</b><br />
+      <b>Jan Østergaard</b>
+      <br />
       Kursus den 22. juli: "Fri ved fod".
       <br />
       Weekendkursus den 25.-26. marts: Fortsætterkursus med "Klikkertræning, shaping, target,

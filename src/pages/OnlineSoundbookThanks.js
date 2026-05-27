@@ -1,9 +1,7 @@
-import React from 'react';
 import styled from 'styled-components';
-
-import { LandingpageOnline, Column, TitleCenter, TextCenter, Image, Row } from '../components';
-import Responsive from '../components/layout/Responsive';
 import { LogoUpdateBlack } from '../assets';
+import { Column, Image, LandingpageOnline, Row, TextCenter, TitleCenter } from '../components';
+import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 
 const OnlineSoundbookThanks = () => (

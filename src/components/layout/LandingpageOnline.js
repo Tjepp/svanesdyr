@@ -1,8 +1,7 @@
-import styled from 'styled-components';
-import React from 'react';
 import PropTypes from 'prop-types';
 import CookieConsent from 'react-cookie-consent';
-import { TextContainer, StyledLinkOnline } from '..';
+import styled from 'styled-components';
+import { StyledLinkOnline, TextContainer } from '..';
 
 const LandingpageOnline = ({ children }) => (
   <Container>

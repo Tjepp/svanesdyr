@@ -1,26 +1,24 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { ConsultPupOne, ConsultPupThree, ConsultPupTwo } from '../assets';
 import {
-  Landingpage,
   Column,
+  ContactPopUp,
+  FlexedRow,
+  Image,
+  Landingpage,
+  LandingpageCallMe,
+  LandingpageHeadline,
   MetaConsultPuppy,
-  TitleCenter,
+  Row,
   Text,
   TextCenter,
   TextContainer,
-  Image,
-  Row,
-  FlexedRow,
-  LandingpageHeadline,
   TextList,
-  TextListMark,
   TextListArrow,
-  ContactPopUp,
-  LandingpageCallMe,
+  TextListMark,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { ConsultPupOne, ConsultPupTwo, ConsultPupThree } from '../assets';
 import '../components/table/TableCss.css';
 
 const ConsultPupAnnoyance = [
@@ -83,7 +81,12 @@ const DogConsultPuppy = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="Du får professionel rådgivning og en skræddersyet handlingsplan til dig og din hvalp" />
           <FlexedRow>
-            <Image src={ConsultPupThree} width="200px" height="200px" alt="Sabrina Svane sidder med hvalp under konsultation" />
+            <Image
+              src={ConsultPupThree}
+              width="200px"
+              height="200px"
+              alt="Sabrina Svane sidder med hvalp under konsultation"
+            />
             <TextContainer>
               <Text>
                 Jeg hedder Sabrina Svane har siden 2012 haft ugentlige hvalpehold og hundredvis af
@@ -149,7 +152,12 @@ const DogConsultPuppy = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Vi troede ikke et hvalpevisit ville være pengene værd. Vi tog fejl.” " />
           <FlexedRow>
-            <Image src={ConsultPupOne} width="200px" height="300px" alt="Sheila og Daniel med deres hvalp efter vellykket hvalpevisit" />
+            <Image
+              src={ConsultPupOne}
+              width="200px"
+              height="300px"
+              alt="Sheila og Daniel med deres hvalp efter vellykket hvalpevisit"
+            />
             <TextContainer>
               <Text>
                 Dit besøg har givet os mere ro og selvtillid. Vi er som førstegangsejere meget mere
@@ -171,7 +179,12 @@ const DogConsultPuppy = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Vi er virkelig godt klædt på og meget mere selvsikre i forhold til hvilken retning for opdragelsen, der er rigtig for os og Loui” " />
           <FlexedRow>
-            <Image src={ConsultPupTwo} width="200px" height="300px" alt="Jane med hvalpen Loui der har lært at finde ro" />
+            <Image
+              src={ConsultPupTwo}
+              width="200px"
+              height="300px"
+              alt="Jane med hvalpen Loui der har lært at finde ro"
+            />
             <TextContainer>
               <Text>
                 Det tager tid at omvende dårlige vaner. Men det har allerede hjulpet rigtig meget.
@@ -231,8 +244,8 @@ const DogConsultPuppy = () => (
           <TitleCenter text="Din investering i din helt egen garanti for en mindre stressfyldt og langt mere afslappet hverdag med din hvalp, er:" />
           <TitleCenter bold color="#1cb8b8" text="Kun 1.650 kr. + kørsel" />
           <TextCenter>
-            Det svarer nogenlunde til prisen på et hvalpehold, som kan give en overflod af øvelser og
-            information uden at du får konkrete værktøjer til lige dét du søger hjælp til.
+            Det svarer nogenlunde til prisen på et hvalpehold, som kan give en overflod af øvelser
+            og information uden at du får konkrete værktøjer til lige dét du søger hjælp til.
           </TextCenter>
           <br />
           <ContactPopUp text="Send en mail og få en tid til et værdifuldt besøg" />
@@ -241,10 +254,7 @@ const DogConsultPuppy = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TitleCenter
-            color="#1cb8b8"
-            text="Sådan foregår et hvalpevisit"
-          />
+          <TitleCenter color="#1cb8b8" text="Sådan foregår et hvalpevisit" />
           <TextCenter>
             Et hvalpevisit foregår i hjemmet hos dig og din hvalp og gerne med familien samlet til
             deltagelse.

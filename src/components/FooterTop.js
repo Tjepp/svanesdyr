@@ -1,9 +1,8 @@
-import styled from 'styled-components';
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Responsive from './layout/Responsive';
+import styled from 'styled-components';
 import { contactMap } from '../assets';
 import FacebookColumn from './FacebookColumn';
+import Responsive from './layout/Responsive';
 
 const FooterTop = () => (
   <Background>
@@ -23,8 +22,8 @@ const ShortAboutMe = () => (
     <div>
       Svanes Dyr drives af Sabrina Svane, som er certificeret Dyreadfærdskonsulent (BSc ABT). Jeg
       specialiserer mig i løsning af problemadfærd hos henholdsvis hunde og katte og kommer gerne på
-      hjemmebesøg. Mit speciale er hvalpe, aggression og stress. Jeg anvender belønningsbaserede træningsmetoder og tilbyder holdtræning i Nim nær Horsens
-      for familiehunde.
+      hjemmebesøg. Mit speciale er hvalpe, aggression og stress. Jeg anvender belønningsbaserede
+      træningsmetoder og tilbyder holdtræning i Nim nær Horsens for familiehunde.
     </div>
   </ColumnContainer>
 );

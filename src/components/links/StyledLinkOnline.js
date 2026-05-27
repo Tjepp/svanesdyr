@@ -1,5 +1,5 @@
-import styled from 'styled-components';
 import { Link } from 'react-router';
+import styled from 'styled-components';
 
 const StyledLinkOnline = styled(Link)`
   color: #004aad;

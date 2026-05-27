@@ -1,17 +1,15 @@
-import React from 'react';
 import styled from 'styled-components';
-
-import { 
-  LandingpageOnline, 
-  Column, 
-  TitleCenter, 
-  TextCenter, 
-  Image, 
-  Row,
-  ButtonOnline,
- } from '../components';
-import Responsive from '../components/layout/Responsive';
 import { OnlineCoverCatScratch } from '../assets';
+import {
+  ButtonOnline,
+  Column,
+  Image,
+  LandingpageOnline,
+  Row,
+  TextCenter,
+  TitleCenter,
+} from '../components';
+import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 
 const OnlineEbookCatThanks = () => (
@@ -19,7 +17,11 @@ const OnlineEbookCatThanks = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverCatScratch} alt="Coverbillede for e-bog om kattekradsetræning" priority />
+          <Image
+            src={OnlineCoverCatScratch}
+            alt="Coverbillede for e-bog om kattekradsetræning"
+            priority
+          />
           <br />
           <TitleCenter text="Wooohoooo! Det lykkedes!" />
           <TextCenter>

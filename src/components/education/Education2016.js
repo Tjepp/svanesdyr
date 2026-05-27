@@ -1,8 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
+import { TitleColor } from '..';
 import Text from '../Text';
 import TextList from '../textlist/TextList';
-import { TitleColor } from '..';
 
 const expoOne = [
   'Chirag Patel med "Give training back to the Animals - Husbandry is my agility" ',
@@ -59,7 +57,6 @@ const Education2016 = () => (
       Gennemgåede emner for dagene:
       <TextList texts={susanFriedman} />
     </Text>
-
   </>
 );
 

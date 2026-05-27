@@ -1,12 +1,11 @@
-import styled from 'styled-components';
-import React from 'react';
 import PropTypes from 'prop-types';
 import CookieConsent from 'react-cookie-consent';
-import Responsive from './Responsive';
+import styled from 'styled-components';
 import { LogoUpdate } from '../../assets';
-import Header from '../Header';
-import FooterBottom from '../FooterBottom';
 import ContactPopUp from '../ContactPopUp';
+import FooterBottom from '../FooterBottom';
+import Header from '../Header';
+import Responsive from './Responsive';
 
 const Landingpage = ({ children }) => (
   <Container>

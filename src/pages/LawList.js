@@ -1,13 +1,12 @@
-import React from 'react';
 import styled from 'styled-components';
 
 import {
-  OnlineLaw,
   Column,
-  MetaLaw,
-  TextCenter,
-  Row,
   LandingpageHeadline,
+  MetaLaw,
+  OnlineLaw,
+  Row,
+  TextCenter,
   TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';

@@ -1,26 +1,23 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
+import { TricksFive, TricksFour, TricksOne, TricksSix, TricksThree, TricksTwo } from '../assets';
 import {
-  Page,
   Banner,
-  Column,
-  MetaDogTricks,
-  Title,
-  TitleColor,
-  Text,
   BreadCrumps,
-  Row,
-  TextList,
-  Image,
-  StyledLink,
+  Column,
   ContactPopUp,
   EasyMeList,
+  Image,
+  MetaDogTricks,
+  Page,
+  Row,
+  StyledLink,
+  Text,
+  TextList,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { TricksOne, TricksTwo, TricksThree, TricksFour, TricksFive, TricksSix } from '../assets';
 
 const FitProgram = [
   'Udstrækning og styrkeøvelser',
@@ -126,24 +123,42 @@ const DogEmpower = () => (
           <Title text="Billeder fra Fit Empowerment" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={TricksOne} alt="Schæferhund træner nose work med godbidsleg på græsplæne" />
+              <Image
+                src={TricksOne}
+                alt="Schæferhund træner nose work med godbidsleg på græsplæne"
+              />
             </Column>
             <Column>
-              <Image src={TricksTwo} alt="Border collie balancerer på fitness bold under empowerment træning" />
+              <Image
+                src={TricksTwo}
+                alt="Border collie balancerer på fitness bold under empowerment træning"
+              />
             </Column>
             <Column>
-              <Image src={TricksThree} alt="Sort labrador giver opmærksom kontakt til ejer under lydighed" />
+              <Image
+                src={TricksThree}
+                alt="Sort labrador giver opmærksom kontakt til ejer under lydighed"
+              />
             </Column>
           </Row>
           <Row>
             <Column>
-              <Image src={TricksFour} alt="Corgi balancerer på to fitness bolde under styrketræning" />
+              <Image
+                src={TricksFour}
+                alt="Corgi balancerer på to fitness bolde under styrketræning"
+              />
             </Column>
             <Column>
-              <Image src={TricksFive} alt="Hvid hund sidder på podium og giver kontakt under kropskontrol" />
+              <Image
+                src={TricksFive}
+                alt="Hvid hund sidder på podium og giver kontakt under kropskontrol"
+              />
             </Column>
             <Column>
-              <Image src={TricksSix} alt="Golden retriever med forpoter på balancepude under fitness træning" />
+              <Image
+                src={TricksSix}
+                alt="Golden retriever med forpoter på balancepude under fitness træning"
+              />
             </Column>
           </Row>
         </Column>

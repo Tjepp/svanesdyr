@@ -1,26 +1,25 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
 
 import {
-  Page,
   Banner,
-  Column,
-  MetaDogCoolReactive,
-  Title,
-  TitleColor,
-  Text,
   BreadCrumps,
-  Row,
-  TextList,
-  // Image,
-  StyledLink,
+  Column,
+  ContactPopUp,
   DogReactiveTestimonials,
   EasyMeList,
-  ContactPopUp,
+  MetaDogCoolReactive,
+  Page,
+  Row,
+  // Image,
+  StyledLink,
+  Text,
+  TextList,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
+
 // import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolFive, CoolSix } from '../assets';
 
 const ReactiveProgram = [

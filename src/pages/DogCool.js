@@ -1,27 +1,24 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
+import { CoolFive, CoolFour, CoolOne, CoolSix, CoolThree, CoolTwo } from '../assets';
 import {
-  Page,
   Banner,
-  Column,
-  MetaDogCool,
-  Title,
-  TitleColor,
-  Text,
   BreadCrumps,
-  Row,
-  TextList,
-  Image,
-  StyledLink,
+  Column,
+  ContactPopUp,
   DogCoolTestimonials,
   EasyMeList,
-  ContactPopUp,
+  Image,
+  MetaDogCool,
+  Page,
+  Row,
+  StyledLink,
+  Text,
+  TextList,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import { CoolOne, CoolTwo, CoolThree, CoolFour, CoolFive, CoolSix } from '../assets';
 
 const CoolProgram = [
   'Fornøjelige gåture, uden at trække i snoren',
@@ -157,7 +154,10 @@ const DogCool = () => (
           <Title text="Stemningsbilleder fra Helt-Cool kursus" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={CoolOne} alt="Sort hund springer glad op til ejer under hilse pænt træning" />
+              <Image
+                src={CoolOne}
+                alt="Sort hund springer glad op til ejer under hilse pænt træning"
+              />
             </Column>
             <Column>
               <Image src={CoolTwo} alt="Sort labrador giver rolig kontakt til ejer i snor" />
@@ -174,7 +174,10 @@ const DogCool = () => (
               <Image src={CoolFive} alt="Corgi i snor giver glad kontakt til ejer under træning" />
             </Column>
             <Column>
-              <Image src={CoolSix} alt="Cavalier King Charles spaniel ligger afslappet på tæppe under ro øvelse" />
+              <Image
+                src={CoolSix}
+                alt="Cavalier King Charles spaniel ligger afslappet på tæppe under ro øvelse"
+              />
             </Column>
           </Row>
         </Column>

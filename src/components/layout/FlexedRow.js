@@ -1,7 +1,6 @@
-import styled from 'styled-components';
-import React from 'react';
-import Responsive from './Responsive';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import Responsive from './Responsive';
 
 const FlexedRow = ({ children }) => <FlexRow>{children}</FlexRow>;
 

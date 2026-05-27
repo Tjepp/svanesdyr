@@ -1,37 +1,36 @@
-import React from 'react';
 import styled from 'styled-components';
 import {
-  Page,
+  OnlineBookpuppy,
+  OnlineConfident,
+  OnlineGarden,
+  OnlineGuests,
+  OnlineLook,
+  OnlineNail,
+  OnlinePlay,
+  OnlinePlayFull,
+  OnlinePulling,
+  OnlineRecall,
+  OnlineRelax,
+  OnlineSound,
+  OnlineStress,
+  OnlineVisit,
+} from '../assets';
+import {
   Banner,
-  Column,
-  MetaOnlineCourses,
-  Title,
-  TitleColor,
-  Text,
-  Image,
   BreadCrumps,
+  ButtonOnline,
+  Column,
+  Image,
+  MetaOnlineCourses,
+  Page,
   Row,
+  Text,
   TextList,
   TextListMark,
-  ButtonOnline,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { 
-  OnlinePlayFull, 
-  OnlineLook, 
-  OnlineGarden, 
-  OnlinePulling, 
-  OnlineRelax, 
-  OnlineSound, 
-  OnlineVisit, 
-  OnlineBookpuppy,
-  OnlineRecall,
-  OnlinePlay,
-  OnlineGuests,
-  OnlineNail,
-  OnlineConfident,
-  OnlineStress,
- } from '../assets';
 import '../components/table/TableCss.css';
 
 const recall = [
@@ -157,25 +156,36 @@ const OnlineCourses = () => (
         <Column widthPercentage="100%">
           <Title text="Onlinekurser med Dyreadfærdskonsulent Sabrina Svane" showHorizontalRuler />
           <Text>
-            Ønsker du guidet hjælp til en specifik problemadfærd eller mere viden omkring hundens kommunikation, så er du kommet til rette sted!<br />
-            Her på siden finder du forskellige onlinekurser i formatet som længerevarende webinars eller appetitlige minikurser. Du kan finde svar på nogle af dine træningsspørgsmål som fx indkald, negleklipning eller gå pænt i snor.
-            Fokus i disse guides er at skabe en stærk relation mellem dig og din hund, hvor du får teknikkerne til at anvende belønningsbaserede metoder med succes, og udføre træningen på hundens præmisser.
+            Ønsker du guidet hjælp til en specifik problemadfærd eller mere viden omkring hundens
+            kommunikation, så er du kommet til rette sted!
+            <br />
+            Her på siden finder du forskellige onlinekurser i formatet som længerevarende webinars
+            eller appetitlige minikurser. Du kan finde svar på nogle af dine træningsspørgsmål som
+            fx indkald, negleklipning eller gå pænt i snor. Fokus i disse guides er at skabe en
+            stærk relation mellem dig og din hund, hvor du får teknikkerne til at anvende
+            belønningsbaserede metoder med succes, og udføre træningen på hundens præmisser.
           </Text>
           <Text>
-            Du vil også kunne finde forskellige webinarer med fokus på hundens kommunikation, herunder bl.a. den gode hundeleg og hvordan du kontrollerer legen mellem hundene.
+            Du vil også kunne finde forskellige webinarer med fokus på hundens kommunikation,
+            herunder bl.a. den gode hundeleg og hvordan du kontrollerer legen mellem hundene.
           </Text>
           <Text>
-            <b>Sådan får du adgang til dit onlinekursus</b><br />
-            Efter betaling får du straks tilsendt en mail, hvori du finder et personligt link til Sabrina Svanes online bibliotek på Onedrive.
-            I dette bibliotek vil dit webinar eller minikursus ligge klar til afspilning med det samme.
-            Du kan også vælge at downloade dit onlinekursus til din computer, tablet eller mobil - så du ikke behøver at finde linket i din mail hver gang, og kan se det lige når du har lyst.
+            <b>Sådan får du adgang til dit onlinekursus</b>
+            <br />
+            Efter betaling får du straks tilsendt en mail, hvori du finder et personligt link til
+            Sabrina Svanes online bibliotek på Onedrive. I dette bibliotek vil dit webinar eller
+            minikursus ligge klar til afspilning med det samme. Du kan også vælge at downloade dit
+            onlinekursus til din computer, tablet eller mobil - så du ikke behøver at finde linket i
+            din mail hver gang, og kan se det lige når du har lyst.
           </Text>
+          <Text>Ovenstående adgangsmetode er gældende for alle onlinekurser her på siden.</Text>
           <Text>
-            Ovenstående adgangsmetode er gældende for alle onlinekurser her på siden.
-          </Text>
-          <Text>
-            <b>Din investering giver dig adgang til privat brug</b><br />
-            Jeg skal gøre opmærksom på at adgang til onlinekurset er kun til personligt brug. Alle onlinekurser her på siden er under Copyright Sabrina Svane, Svanes Dyr. Det må derfor <b>ikke</b> kopieres, sælges, uddeles eller anvendes derudover uden skriftlig tilladelse fra Sabrina Svane.
+            <b>Din investering giver dig adgang til privat brug</b>
+            <br />
+            Jeg skal gøre opmærksom på at adgang til onlinekurset er kun til personligt brug. Alle
+            onlinekurser her på siden er under Copyright Sabrina Svane, Svanes Dyr. Det må derfor{' '}
+            <b>ikke</b> kopieres, sælges, uddeles eller anvendes derudover uden skriftlig tilladelse
+            fra Sabrina Svane.
           </Text>
         </Column>
       </Row>
@@ -185,15 +195,19 @@ const OnlineCourses = () => (
       </Row>
       <Row marginBottom="25px">
         <Column>
-          <Image src={OnlineRecall} alt="Glad hund løber gennem vand med teksten Opskriften på det stærke indkald" />
+          <Image
+            src={OnlineRecall}
+            alt="Glad hund løber gennem vand med teksten Opskriften på det stærke indkald"
+          />
           <TitleColor text="Opskriften på det stærke indkald" smallTitle />
           <Text>
             Kommer din hund første gang du kalder? <br />
             Ville det ikke være drømmescenariet? <br />
-            At din hund synes du er mere spændende end alt andet?  
+            At din hund synes du er mere spændende end alt andet?
           </Text>
           <Text>
-            Så få ingredienserne til at skabe det stabile drømme-indkald her i webinaret: Opskriften på det stærke indkald 
+            Så få ingredienserne til at skabe det stabile drømme-indkald her i webinaret: Opskriften
+            på det stærke indkald
           </Text>
           <Text>
             <b>I dette webinar får du svaret på:</b>
@@ -204,31 +218,39 @@ const OnlineCourses = () => (
           <Text>
             Din investering i at skabe det indkald du drømmer om; <b>189,- kr.</b>
           </Text>
-          <ButtonOnline text="Jeg er klar på at skabe et stærkt indkald!" href="https://ezme.io/c/x1S/okib"></ButtonOnline>
+          <ButtonOnline
+            text="Jeg er klar på at skabe et stærkt indkald!"
+            href="https://ezme.io/c/x1S/okib"
+          ></ButtonOnline>
           <br />
         </Column>
 
-        <Column >
-        <Image src={OnlineStress} alt="Hund klør sig selv på græsplæne med teksten Stress forebyggelse og lindring" />
-        <TitleColor text="Stress forebyggelse og -lindring" smallTitle />
-              <Text>
-                <b>Hvordan ser det ud når din hund er stresset? </b>
-                <br />
-                Er du i tvivl om hvordan du kan hjælpe din hund med at geare ned og finde mere ro?
-              </Text>
-              <Text>
-                Så fjern tvivlen og få svaret af Dyreadfærdskonsulent Sabrina Svane her i webinaret om Stress, forebyggelse og -lindring!
-              </Text>
-              <Text>
-                <b>I dette webinar får du svaret på:</b>
-                <TextListMark texts={Stress} />
-                Vi snakker om helt konkrete tiltag du kan foretage for at undgå stress til hverdag!
-              </Text>
-              <Text>
-                <b>Ikke mindst får du:</b>
-                <TextList texts={StressXtra} />
-                Din investering i at hjælpe din hund til mere ro og mindre stress i hverdagen; <b>199,- kr.</b> 
-              </Text>
+        <Column>
+          <Image
+            src={OnlineStress}
+            alt="Hund klør sig selv på græsplæne med teksten Stress forebyggelse og lindring"
+          />
+          <TitleColor text="Stress forebyggelse og -lindring" smallTitle />
+          <Text>
+            <b>Hvordan ser det ud når din hund er stresset? </b>
+            <br />
+            Er du i tvivl om hvordan du kan hjælpe din hund med at geare ned og finde mere ro?
+          </Text>
+          <Text>
+            Så fjern tvivlen og få svaret af Dyreadfærdskonsulent Sabrina Svane her i webinaret om
+            Stress, forebyggelse og -lindring!
+          </Text>
+          <Text>
+            <b>I dette webinar får du svaret på:</b>
+            <TextListMark texts={Stress} />
+            Vi snakker om helt konkrete tiltag du kan foretage for at undgå stress til hverdag!
+          </Text>
+          <Text>
+            <b>Ikke mindst får du:</b>
+            <TextList texts={StressXtra} />
+            Din investering i at hjælpe din hund til mere ro og mindre stress i hverdagen;{' '}
+            <b>199,- kr.</b>
+          </Text>
           <br />
           <ButtonOnline
             text="Ja tak! Til en mere afslappet hund!"
@@ -237,11 +259,14 @@ const OnlineCourses = () => (
         </Column>
 
         <Column>
-          <Image src={OnlinePlay} alt="Sort og gul labrador leger sammen på græs med teksten 4 tegn på den gode hundeleg" />
+          <Image
+            src={OnlinePlay}
+            alt="Sort og gul labrador leger sammen på græs med teksten 4 tegn på den gode hundeleg"
+          />
           <TitleColor text="4 tegn på den gode hundeleg" smallTitle />
           <Text>
             Synes du hundeleg kan se bidsk ud og lyde voldsomt? <br />
-            Bliver du i tvivl om hvornår legen egentlig er god mellem hundene? 
+            Bliver du i tvivl om hvornår legen egentlig er god mellem hundene?
           </Text>
           <Text>
             Så fjern tvivlen og få svaret her i webinaret om de 4 tegn på den gode hundeleg!
@@ -254,55 +279,79 @@ const OnlineCourses = () => (
           <Text>
             Din investering i at kunne spotte forskellen mellem leg og alvor; <b>129,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak! Lad mig fluks få adgang" href="https://ezme.io/c/x1S/oLpk"></ButtonOnline>
+          <ButtonOnline
+            text="Ja tak! Lad mig fluks få adgang"
+            href="https://ezme.io/c/x1S/oLpk"
+          ></ButtonOnline>
           <br />
         </Column>
       </Row>
 
       <Row marginBottom="25px">
         <Column>
-          <Image src={OnlinePlayFull} alt="Hvid samojed og berner sennenhund leger på græs med teksten Sådan kontrollerer du leg mellem hunde" />
-          <TitleColor text="Sådan kontrollerer du leg mellem hunde - og giver alle en god oplevelse" smallTitle />
+          <Image
+            src={OnlinePlayFull}
+            alt="Hvid samojed og berner sennenhund leger på græs med teksten Sådan kontrollerer du leg mellem hunde"
+          />
+          <TitleColor
+            text="Sådan kontrollerer du leg mellem hunde - og giver alle en god oplevelse"
+            smallTitle
+          />
           <Text>
-            Det er en myte, at hundene skal kunne klare sig selv, når det kommer til at sætte grænser overfor andre hunde!
-            Hvis du overlader hundene til sig selv, så opstår der meget ofte en situation, hvor grænserne ikke respekteres.
-            Der bliver simpelthen ikke lyttet. 
-            Når din hund ikke føler sig lyttet til, vil den begynde at råbe højere og adfærden eskalerer.
-            I sidste ende kan du stå med en hund, der udviser angst eller aggression pga. dårlige  oplevelser med andre hunde.
+            Det er en myte, at hundene skal kunne klare sig selv, når det kommer til at sætte
+            grænser overfor andre hunde! Hvis du overlader hundene til sig selv, så opstår der meget
+            ofte en situation, hvor grænserne ikke respekteres. Der bliver simpelthen ikke lyttet.
+            Når din hund ikke føler sig lyttet til, vil den begynde at råbe højere og adfærden
+            eskalerer. I sidste ende kan du stå med en hund, der udviser angst eller aggression pga.
+            dårlige oplevelser med andre hunde.
           </Text>
           <Text>
-            At overlade hundene til selv at finde ud af det, svarer til at overlade børnene i skolegården til sig selv, hvilket enhver forælder vil finde uacceptabelt.
-            Der skal være en voksen, ansvarlig til stede, som kan afbryde når nok er nok og sørge for, at alle har en god stund sammen. 
+            At overlade hundene til selv at finde ud af det, svarer til at overlade børnene i
+            skolegården til sig selv, hvilket enhver forælder vil finde uacceptabelt. Der skal være
+            en voksen, ansvarlig til stede, som kan afbryde når nok er nok og sørge for, at alle har
+            en god stund sammen.
           </Text>
           <Text>
             <b>I dette webinar får du svaret på:</b>
             <TextListMark texts={play} />
           </Text>
           <Text>
-            Din investering i at kunne kontrollere legen mellem hunde, og sikre dig alle får en god oplevelse; <b>199,- kr.</b>
+            Din investering i at kunne kontrollere legen mellem hunde, og sikre dig alle får en god
+            oplevelse; <b>199,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak til opskriften på god hundeleg!" href="https://ezme.io/c/x1S/okiW"></ButtonOnline>
+          <ButtonOnline
+            text="Ja tak til opskriften på god hundeleg!"
+            href="https://ezme.io/c/x1S/okiW"
+          ></ButtonOnline>
           <br />
         </Column>
 
         <Column>
-          <Image src={OnlineConfident} alt="Cavalier King Charles Spaniel med tungen ud på græsplæne med teksten Sådan gør du den usikre hund mere selvsikker" />
+          <Image
+            src={OnlineConfident}
+            alt="Cavalier King Charles Spaniel med tungen ud på græsplæne med teksten Sådan gør du den usikre hund mere selvsikker"
+          />
           <TitleColor text="Sådan gør du den usikre hund mere selvsikker" smallTitle />
-              <Text>
-                <b>Hvordan kan du helt lavpraktisk øve din usikre hund i at have mere gåpåmod og selvtillid?</b>
-              </Text>
-              <Text>
-                Få svaret af Dyreadfærdskonsulent Sabrina Svane her i minikurset ”Sådan gør du den usikre hund mere selvsikker”!
-              </Text>
-              <Text>
-                <b>I dette minikursus får du svaret på:</b>
-              <TextListMark texts={Selvsikker} />
-              </Text>
-              <Text>
-                <b>Ikke mindst får du:</b>
-                <TextList texts={SelvsikkerVideo} />
-                Din invstering i at hjælpe din usikre hund med at tage mødet med nyt med løftet pande; <b>149,- kr.</b> 
-              </Text>
+          <Text>
+            <b>
+              Hvordan kan du helt lavpraktisk øve din usikre hund i at have mere gåpåmod og
+              selvtillid?
+            </b>
+          </Text>
+          <Text>
+            Få svaret af Dyreadfærdskonsulent Sabrina Svane her i minikurset ”Sådan gør du den
+            usikre hund mere selvsikker”!
+          </Text>
+          <Text>
+            <b>I dette minikursus får du svaret på:</b>
+            <TextListMark texts={Selvsikker} />
+          </Text>
+          <Text>
+            <b>Ikke mindst får du:</b>
+            <TextList texts={SelvsikkerVideo} />
+            Din invstering i at hjælpe din usikre hund med at tage mødet med nyt med løftet pande;{' '}
+            <b>149,- kr.</b>
+          </Text>
           <br />
           <ButtonOnline
             text="Jeg er klar på at give min hund mere selvtillid!"
@@ -311,26 +360,42 @@ const OnlineCourses = () => (
         </Column>
 
         <Column>
-          <Image src={OnlineBookpuppy} alt="Golden retriever hvalp kigger op på ejer med teksten 5 vigtigste råd til træning af din hvalp" width="400px" height="256px" />
-          <TitleColor text="Adfærdsbehandlerens 5 vigtigste råd til træning af din hvalp" smallTitle />
+          <Image
+            src={OnlineBookpuppy}
+            alt="Golden retriever hvalp kigger op på ejer med teksten 5 vigtigste råd til træning af din hvalp"
+            width="400px"
+            height="256px"
+          />
+          <TitleColor
+            text="Adfærdsbehandlerens 5 vigtigste råd til træning af din hvalp"
+            smallTitle
+          />
           <Text>
-            En E-bog til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!
+            En E-bog til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld
+            hvalp, som synes du er det bedste i verden!
           </Text>
-          <ButtonOnline text="Læs mere her" href="https://www.svanesdyr.dk/hvalpmedsucces"></ButtonOnline>
+          <ButtonOnline
+            text="Læs mere her"
+            href="https://www.svanesdyr.dk/hvalpmedsucces"
+          ></ButtonOnline>
           <br />
         </Column>
       </Row>
 
       <Row marginBottom="25px">
         <Column>
-          <Image src={OnlineNail} alt="Kvinde giver godbid til hund på sofa og nærbillede af hundepote med teksten Sådan gør du din hund tryg ved negleklipning" />
+          <Image
+            src={OnlineNail}
+            alt="Kvinde giver godbid til hund på sofa og nærbillede af hundepote med teksten Sådan gør du din hund tryg ved negleklipning"
+          />
           <TitleColor text="Sådan gør du din hund tryg ved negleklipning" smallTitle />
           <Text>
             Kan din hund bestemt ikke lide at få klippet negle? <br />
-            Måske flygter den blot ved synet af negleklipperen? 
+            Måske flygter den blot ved synet af negleklipperen?
           </Text>
           <Text>
-            Så få opskriften på at gøre negleklipning til kvalitetstid fremfor skræmmescenarie her i webinaret!
+            Så få opskriften på at gøre negleklipning til kvalitetstid fremfor skræmmescenarie her i
+            webinaret!
           </Text>
           <Text>
             <b>I dette webinar får du svaret på:</b>
@@ -339,14 +404,21 @@ const OnlineCourses = () => (
             <TextList texts={nail} />
           </Text>
           <Text>
-            Din investering i at negleklipning bliver kvalitetstid fremfor overgreb; <b>199,- kr.</b>
+            Din investering i at negleklipning bliver kvalitetstid fremfor overgreb;{' '}
+            <b>199,- kr.</b>
           </Text>
-          <ButtonOnline text="Jeg er klar på mere tryg negleklipning!" href="https://ezme.io/c/x1S/ok5D"></ButtonOnline>
+          <ButtonOnline
+            text="Jeg er klar på mere tryg negleklipning!"
+            href="https://ezme.io/c/x1S/ok5D"
+          ></ButtonOnline>
           <br />
         </Column>
 
         <Column>
-          <Image src={OnlineGarden} alt="Mastiff sidder i haven med teksten Stop gøende adfærd i haven" />
+          <Image
+            src={OnlineGarden}
+            alt="Mastiff sidder i haven med teksten Stop gøende adfærd i haven"
+          />
           <TitleColor text="Stop gøende adfærd i haven" smallTitle />
           <Text>
             Gør din hund i haven? <br />
@@ -354,7 +426,8 @@ const OnlineCourses = () => (
             Kunne du tænke dig at have en hund der er stille når den bliver lukket ud i haven?
           </Text>
           <Text>
-            Så giver Dyreadfærdskonsulent Sabrina Svane dig her et minikursus i Stop gøende adfærd i haven!
+            Så giver Dyreadfærdskonsulent Sabrina Svane dig her et minikursus i Stop gøende adfærd i
+            haven!
           </Text>
           <Text>
             <b>I dette minikursus får du:</b>
@@ -365,12 +438,18 @@ const OnlineCourses = () => (
           <Text>
             Din investering i trygt at kunne lukke din hund i haven: <b>99,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak, til mere ro i haven!" href="https://ezme.io/c/x1S/ok51"></ButtonOnline>
+          <ButtonOnline
+            text="Ja tak, til mere ro i haven!"
+            href="https://ezme.io/c/x1S/ok51"
+          ></ButtonOnline>
           <br />
         </Column>
 
         <Column>
-          <Image src={OnlinePulling} alt="Kvinde i lyserød jakke går med hund i snelandskab med teksten Opskriften på at lære hunden at gå pænt uden at trække" />
+          <Image
+            src={OnlinePulling}
+            alt="Kvinde i lyserød jakke går med hund i snelandskab med teksten Opskriften på at lære hunden at gå pænt uden at trække"
+          />
           <TitleColor text="Opskriften på at lære hunden at gå pænt, uden at trække" smallTitle />
           <Text>
             Trækker din hund i snoren? <br />
@@ -389,14 +468,20 @@ const OnlineCourses = () => (
           <Text>
             Din investering i løs line og mere ro på gåturene; <b>119,- kr.</b>
           </Text>
-          <ButtonOnline text="Giv mig succes til min næste gåtur!" href="https://ezme.io/c/x1S/ok5c"></ButtonOnline>
+          <ButtonOnline
+            text="Giv mig succes til min næste gåtur!"
+            href="https://ezme.io/c/x1S/ok5c"
+          ></ButtonOnline>
           <br />
         </Column>
       </Row>
 
       <Row marginBottom="25px">
-      <Column>
-          <Image src={OnlineVisit} alt="Beagle hilser på person udendørs med teksten Første trin til at få ro på når der kommer gæster" />
+        <Column>
+          <Image
+            src={OnlineVisit}
+            alt="Beagle hilser på person udendørs med teksten Første trin til at få ro på når der kommer gæster"
+          />
           <TitleColor text="Første trin til at få ro på, når der kommer gæster" smallTitle />
           <Text>
             Hopper din hund op ad dine gæster? <br />
@@ -404,69 +489,90 @@ const OnlineCourses = () => (
             Ville du ønske din hund kunne finde ro når gæsterne kommer ind ad døren?
           </Text>
           <Text>
-            Så får du her mit minikursus der giver dig Første trin til at få ro på, når der kommer gæster!
+            Så får du her mit minikursus der giver dig Første trin til at få ro på, når der kommer
+            gæster!
           </Text>
           <Text>
             <b>I dette minikursus får du:</b>
             <TextListMark texts={guests} />
-            Ikke mindst får du: Videoeksempel på metoden i brug, første gang en kursist øver det med sine gæster.
+            Ikke mindst får du: Videoeksempel på metoden i brug, første gang en kursist øver det med
+            sine gæster.
           </Text>
           <Text>
-            Din investering i mere ro og poterne plantet på gulvet, allerede næste gang du får besøg; <b>119,- kr.</b>
+            Din investering i mere ro og poterne plantet på gulvet, allerede næste gang du får
+            besøg; <b>119,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak til rolig hilsen på gæster!" href="https://ezme.io/c/x1S/ok5H"></ButtonOnline>
+          <ButtonOnline
+            text="Ja tak til rolig hilsen på gæster!"
+            href="https://ezme.io/c/x1S/ok5H"
+          ></ButtonOnline>
           <br />
         </Column>
 
         <Column>
-          <Image src={OnlineGuests} alt="Corgi ligger afslappet i sin kurv med teksten Metoden til ro med gæster i huset" />
+          <Image
+            src={OnlineGuests}
+            alt="Corgi ligger afslappet i sin kurv med teksten Metoden til ro med gæster i huset"
+          />
           <TitleColor text="Metoden til ro med gæster i huset" smallTitle />
           <Text>
             Har din hund svært ved at finde ro mens i har gæster på besøg? <br />
             Er du i tvivl om hvordan du lærer din hund at være knap så opmærksomhedskrævende?
           </Text>
           <Text>
-            Så fjern tvivlen og få svaret her i webinaret: Metoden til ro med gæster i huset! 
+            Så fjern tvivlen og få svaret her i webinaret: Metoden til ro med gæster i huset!
           </Text>
           <Text>
             <b>I dette webinar får du:</b>
             <TextListMark texts={guest} />
-            Ikke mindst får du: Trin-for-trin videoguide på hvordan du lærer din hund en stabil Bliv!
+            Ikke mindst får du: Trin-for-trin videoguide på hvordan du lærer din hund en stabil
+            Bliv!
           </Text>
           <Text>
-            Din investering i mere ro og nærvær overfor dine gæster, allerede næste gang du får besøg; <b>149,- kr.</b>
+            Din investering i mere ro og nærvær overfor dine gæster, allerede næste gang du får
+            besøg; <b>149,- kr.</b>
           </Text>
-          <ButtonOnline text="Jeg er klar på at få ro med mine gæster!" href="https://ezme.io/c/x1S/okMX"></ButtonOnline>
+          <ButtonOnline
+            text="Jeg er klar på at få ro med mine gæster!"
+            href="https://ezme.io/c/x1S/okMX"
+          ></ButtonOnline>
           <br />
         </Column>
 
         <Column>
-          <Image src={OnlineRelax} alt="Whippet hviler hovedet på ejerens ben i sofaen med teksten Lær hunden at finde ro til hverdag" />
+          <Image
+            src={OnlineRelax}
+            alt="Whippet hviler hovedet på ejerens ben i sofaen med teksten Lær hunden at finde ro til hverdag"
+          />
           <TitleColor text="Lær hunden at finde ro til hverdag" smallTitle />
           <Text>
             Kræver din hund din opmærksomhed når du er optaget af andet? <br />
             Bliver sofatid til mere uro end afslapning? <br />
             Ville du ønske din hund kunne finde ro sammen med dig når der sker ”ingenting”?
           </Text>
-          <Text>
-            Så kig med her i minikurset hvor du kan Lære hunden at finde ro til hverdag!
-          </Text>
+          <Text>Så kig med her i minikurset hvor du kan Lære hunden at finde ro til hverdag!</Text>
           <Text>
             <b>I dette minikursus får du:</b>
             <TextListMark texts={quiet} />
           </Text>
           <Text>
-            Din investering i at lære din hund at være rolig, selvom det er ”kedeligt”; <b>119,- kr.</b>
+            Din investering i at lære din hund at være rolig, selvom det er ”kedeligt”;{' '}
+            <b>119,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak! Til en mere afslappet hund!" href="https://ezme.io/c/x1S/okM0"></ButtonOnline>
+          <ButtonOnline
+            text="Ja tak! Til en mere afslappet hund!"
+            href="https://ezme.io/c/x1S/okM0"
+          ></ButtonOnline>
           <br />
         </Column>
-
       </Row>
 
       <Row marginBottom="25px">
-      <Column>
-          <Image src={OnlineSound} alt="Hund kigger på fyrværkeri gennem vindue med teksten 3 tips til behandling af lydangst" />
+        <Column>
+          <Image
+            src={OnlineSound}
+            alt="Hund kigger på fyrværkeri gennem vindue med teksten 3 tips til behandling af lydangst"
+          />
           <TitleColor text="3 tips til behandling af lydangst" smallTitle />
           <Text>
             Gør din hund af bestemte lyde? <br />
@@ -474,7 +580,8 @@ const OnlineCourses = () => (
             Ville du ønske din hund generelt ikke blev bange for lyde?
           </Text>
           <Text>
-            Så kig med her i minikurset hvor Dyreadfærdskonsulent Sabrina Svane giver dig 3 tips til behandling af lydangst!
+            Så kig med her i minikurset hvor Dyreadfærdskonsulent Sabrina Svane giver dig 3 tips til
+            behandling af lydangst!
           </Text>
           <Text>
             <b>I dette minikursus får du:</b>
@@ -485,12 +592,18 @@ const OnlineCourses = () => (
           <Text>
             Din investering i mere ro og tryghed for din hund omkring lyde: <b>149,- kr.</b>
           </Text>
-          <ButtonOnline text="Ja tak! Til hjælp til min hunds lydangst" href="https://ezme.io/c/x1S/okMZ"></ButtonOnline>
+          <ButtonOnline
+            text="Ja tak! Til hjælp til min hunds lydangst"
+            href="https://ezme.io/c/x1S/okMZ"
+          ></ButtonOnline>
           <br />
         </Column>
 
         <Column>
-          <Image src={OnlineLook} alt="Sort hund kigger på ænder ved vandet med teksten Teknikken til at kigge på andre dyr uden at jage" />
+          <Image
+            src={OnlineLook}
+            alt="Sort hund kigger på ænder ved vandet med teksten Teknikken til at kigge på andre dyr uden at jage"
+          />
           <TitleColor text="Teknikken til at kigge på andre dyr, uden at jage" smallTitle />
           <Text>
             Jager din hund andre dyr? <br />
@@ -498,7 +611,8 @@ const OnlineCourses = () => (
             Eller lade naboens katte være i fred på gåturene, fremfor at slæbe dig hen til dem?
           </Text>
           <Text>
-            Så giver Dyreadfærdskonsulent Sabrina Svane dig her Teknikken til at lære din hund at kigge på andre dyr, uden at jage!
+            Så giver Dyreadfærdskonsulent Sabrina Svane dig her Teknikken til at lære din hund at
+            kigge på andre dyr, uden at jage!
           </Text>
           <Text>
             <b>I dette minikursus får du:</b>
@@ -509,11 +623,13 @@ const OnlineCourses = () => (
           <Text>
             Din investering i en rolig hund omkring andre dyr: <b>99,- kr.</b>
           </Text>
-          <ButtonOnline text="Jeg er klar til at øve ro omkring andre dyr!" href="https://ezme.io/c/x1S/okMG"></ButtonOnline>
+          <ButtonOnline
+            text="Jeg er klar til at øve ro omkring andre dyr!"
+            href="https://ezme.io/c/x1S/okMG"
+          ></ButtonOnline>
           <br />
         </Column>
       </Row>
-
     </Background>
   </Page>
 );

@@ -1,18 +1,16 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { SnackshopCover } from '../assets';
 import {
-  LandingpageOnline,
   Column,
-  TitleCenter,
   Image,
+  LandingpageOnline,
   Row,
   Text,
   TextList,
   TextListMark,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { SnackshopCover } from '../assets';
 import '../components/table/TableCss.css';
 
 const AllDogs = [
@@ -30,7 +28,11 @@ const Snackshop = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={SnackshopCover} alt="Velkomstskilt til Snackshoppen hos Svanes Dyr" priority />
+          <Image
+            src={SnackshopCover}
+            alt="Velkomstskilt til Snackshoppen hos Svanes Dyr"
+            priority
+          />
           <br />
           <TitleCenter text="Snackshoppen kan besøges på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
           <Text>

@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import PropTypes from 'prop-types';
+import { useState } from 'react';
+import styled from 'styled-components';
 import ContactForm from './ContactForm';
 import Responsive from './layout/Responsive';
 

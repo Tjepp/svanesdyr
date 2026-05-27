@@ -1,17 +1,15 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { OnlineCoverCourse } from '../assets';
 import {
-  LandingpageOnline,
-  Column,
-  TitleCenter,
-  TextCenter,
-  Image,
-  Row,
   ButtonOnline,
+  Column,
+  Image,
+  LandingpageOnline,
+  Row,
+  TextCenter,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { OnlineCoverCourse } from '../assets';
 import '../components/table/TableCss.css';
 
 const DogCourseThanks = () => (
@@ -19,7 +17,11 @@ const DogCourseThanks = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverCourse} alt="Coverbillede for fysisk holdtræning med hund" priority />
+          <Image
+            src={OnlineCoverCourse}
+            alt="Coverbillede for fysisk holdtræning med hund"
+            priority
+          />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>

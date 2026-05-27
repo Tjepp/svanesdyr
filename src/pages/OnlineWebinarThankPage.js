@@ -1,17 +1,15 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { OnlineCoverDogPlay } from '../assets';
 import {
-  LandingpageOnline,
-  Column,
-  TitleCenter,
-  TextCenter,
-  Image,
-  Row,
   ButtonOnline,
+  Column,
+  Image,
+  LandingpageOnline,
+  Row,
+  TextCenter,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { OnlineCoverDogPlay } from '../assets';
 import '../components/table/TableCss.css';
 
 const OnlineWebinarThankPage = () => (
@@ -19,7 +17,11 @@ const OnlineWebinarThankPage = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverDogPlay} alt="Coverbillede for webinar om kontrolleret hundeleg" priority />
+          <Image
+            src={OnlineCoverDogPlay}
+            alt="Coverbillede for webinar om kontrolleret hundeleg"
+            priority
+          />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>

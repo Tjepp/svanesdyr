@@ -1,6 +1,5 @@
-import React from 'react';
-import LargeMenuItem from './LargeMenuItem';
 import styled from 'styled-components';
+import LargeMenuItem from './LargeMenuItem';
 
 const LargeMenu = () => (
   <Container>

@@ -1,17 +1,15 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { OnlineCoverSummer } from '../assets';
 import {
-  LandingpageOnline,
-  Column,
-  TitleCenter,
-  TextCenter,
-  Image,
-  Row,
   ButtonOnline,
+  Column,
+  Image,
+  LandingpageOnline,
+  Row,
+  TextCenter,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { OnlineCoverSummer } from '../assets';
 import '../components/table/TableCss.css';
 
 const OnlineSummerThanks = () => (

@@ -1,31 +1,29 @@
-import React from 'react';
 import styled from 'styled-components';
-
 import {
-  LandingpageOnline,
+  catOne,
+  OnlineCatsOne,
+  OnlineCatsThree,
+  OnlineCatsTwo,
+  OnlineCoverCatScratch,
+} from '../assets';
+import {
+  ButtonOnline,
   Column,
+  FlexedRow,
+  Image,
+  LandingpageOnline,
+  LPHeadlinePuppy,
   MetaOnlineEbookCatScratch,
-  TitleCenter,
+  Row,
   Text,
   TextCenter,
   TextContainer,
-  Image,
-  Row,
-  FlexedRow,
   TextList,
-  TextListMark,
   TextListArrow,
-  LPHeadlinePuppy,
-  ButtonOnline,
+  TextListMark,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import {
-  catOne,
-  OnlineCoverCatScratch,
-  OnlineCatsOne,
-  OnlineCatsTwo,
-  OnlineCatsThree,
-} from '../assets';
 import '../components/table/TableCss.css';
 
 const LPstep3 = [
@@ -76,14 +74,19 @@ const OnlineEbookCatScratch = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverCatScratch} alt="Forside til e-bog om kattekradsning med kat ved kradsetræ" priority />
+          <Image
+            src={OnlineCoverCatScratch}
+            alt="Forside til e-bog om kattekradsning med kat ved kradsetræ"
+            priority
+          />
           <br />
           <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at undgå ødelagte sofahjørner og få en kat der elsker sit kradsetræ!" />
           <TextCenter>Denne bog er til dig, der:</TextCenter>
           <TextListMark texts={LPstep7} />
           <TextCenter>
-            Uanset om du lige har fået din første kat, eller du allerede er en garvet katteejer, så får du
-            her opskriften på at holde kløerme af møblerne og få katten til at elske at bruge sit kradsetræ - via 3 simple trin.
+            Uanset om du lige har fået din første kat, eller du allerede er en garvet katteejer, så
+            får du her opskriften på at holde kløerme af møblerne og få katten til at elske at bruge
+            sit kradsetræ - via 3 simple trin.
           </TextCenter>
         </Column>
       </Row>
@@ -116,7 +119,8 @@ const OnlineEbookCatScratch = () => (
           </TextCenter>
           <TextCenter>
             Et scenarie du sagtens kan få til at blive til virkelighed i dag.. og igen i morgen.. og
-            dagen efter.. og dagen efter igen.. og sådan kan du fortsætte - resten af kattens levetid!
+            dagen efter.. og dagen efter igen.. og sådan kan du fortsætte - resten af kattens
+            levetid!
           </TextCenter>
         </Column>
       </Row>
@@ -134,11 +138,26 @@ const OnlineEbookCatScratch = () => (
           <TextListMark texts={LPstep8} />
           <TextCenter>Fordelt over 3 letlæselige og appetitlige kapitler:</TextCenter>
           <FlexedRow>
-            <Image src={OnlineCatsOne} width="300px" height="400px" alt="Kapitel 1 om kattens kradsebehov og præferencer" />
+            <Image
+              src={OnlineCatsOne}
+              width="300px"
+              height="400px"
+              alt="Kapitel 1 om kattens kradsebehov og præferencer"
+            />
             <br />
-            <Image src={OnlineCatsTwo} width="300px" height="400px" alt="Kapitel 2 om at gøre kradsetræet attraktivt" />
+            <Image
+              src={OnlineCatsTwo}
+              width="300px"
+              height="400px"
+              alt="Kapitel 2 om at gøre kradsetræet attraktivt"
+            />
             <br />
-            <Image src={OnlineCatsThree} width="300px" height="400px" alt="Kapitel 3 om at holde kløerne fra møblerne" />
+            <Image
+              src={OnlineCatsThree}
+              width="300px"
+              height="400px"
+              alt="Kapitel 3 om at holde kløerne fra møblerne"
+            />
           </FlexedRow>
         </Column>
       </Row>
@@ -147,16 +166,23 @@ const OnlineEbookCatScratch = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="E-bogen leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
-            <Image src={catOne} width="300px" height="200px" alt="Kat ligger afslappet og kigger op mod kameraet" />
+            <Image
+              src={catOne}
+              width="300px"
+              height="200px"
+              alt="Kat ligger afslappet og kigger op mod kameraet"
+            />
             <TextContainer>
               <Text bold>Sabrina Svane</Text>
               <Text>
                 Jeg er indehaver af Svanes Dyr og er jævnligt på besøg hos katteejere, hvor de samme
-                spørgsmål ofte opstår omkring kattens uhensigtsmæssige opførsel. Herunder at kradse i ting, der helst ikke skal kradses i.
+                spørgsmål ofte opstår omkring kattens uhensigtsmæssige opførsel. Herunder at kradse
+                i ting, der helst ikke skal kradses i.
               </Text>
               <Text>
-                Alle katteejere ønsker at gøre sit bedste for deres kat og undgå konflikter, men samtidig også skåne deres møbler og gardiner, og spare nogle kroner og øre. 
-                Det er herfra inspirationen til bogen er opstået.
+                Alle katteejere ønsker at gøre sit bedste for deres kat og undgå konflikter, men
+                samtidig også skåne deres møbler og gardiner, og spare nogle kroner og øre. Det er
+                herfra inspirationen til bogen er opstået.
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -170,10 +196,12 @@ const OnlineEbookCatScratch = () => (
           <TextCenter>
             En investering der kan spare dig frustration, tid og penge!
             <br />
-            Bogen giver dig konkrete værktøjer til at få succes med at få din kat til aktivt at vælge sit kradsetræ, fremfor at sætte kløerne i andet i hjemmet.
+            Bogen giver dig konkrete værktøjer til at få succes med at få din kat til aktivt at
+            vælge sit kradsetræ, fremfor at sætte kløerne i andet i hjemmet.
           </TextCenter>
           <TextCenter>
-            Du sparer altså flere hundrede kroner, når du med bogen i hånden kan undgå flere ødelagte sofahjørner og få succes med at hjælpe din kat!
+            Du sparer altså flere hundrede kroner, når du med bogen i hånden kan undgå flere
+            ødelagte sofahjørner og få succes med at hjælpe din kat!
           </TextCenter>
         </Column>
       </Row>
@@ -190,19 +218,20 @@ const OnlineEbookCatScratch = () => (
           <br />
           <TitleCenter text="PDF-format leveret direkte til din mail adresse!" />
           <TextCenter>
-            Straks efter betaling får du din e-bog tilsendt på mail, som er en skriftlig guide på 3 kapitler i PDF format.
-            <br />
-            3 kapitler der giver dig de 3 simple trin til at holde kløerne af møblerne!
+            Straks efter betaling får du din e-bog tilsendt på mail, som er en skriftlig guide på 3
+            kapitler i PDF format.
+            <br />3 kapitler der giver dig de 3 simple trin til at holde kløerne af møblerne!
           </TextCenter>
           <TextCenter>
-            Via filen i din mail kan du downloade bogen og gemme den på din computer, tablet eller mobil.
-            Læs den direkte på skærmen, eller print den ud og sid med den i hånden, mens du drikker
-            en god kop kaffe.
+            Via filen i din mail kan du downloade bogen og gemme den på din computer, tablet eller
+            mobil. Læs den direkte på skærmen, eller print den ud og sid med den i hånden, mens du
+            drikker en god kop kaffe.
           </TextCenter>
           <TextCenter>
             Bogen er din til evigt eje og brug! Læs den lige når det passer dig - om det bliver
             hjemme i sofaen eller på busturen til arbejde. Find den frem når du har behov for at
-            genopfriske metoderne eller når du engang i fremtiden får ny kat eller nye møbler i hjemmet igen!
+            genopfriske metoderne eller når du engang i fremtiden får ny kat eller nye møbler i
+            hjemmet igen!
           </TextCenter>
         </Column>
       </Row>

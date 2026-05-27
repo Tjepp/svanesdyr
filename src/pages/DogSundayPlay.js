@@ -1,23 +1,20 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
+import { Sunday1, Sunday2, Sunday3 } from '../assets';
 import {
-  Page,
   Banner,
+  BreadCrumps,
   Column,
+  EasyMeList,
+  Image,
   MetaDogSundayPlay,
+  Page,
+  Row,
+  Text,
+  TextList,
   Title,
   TitleColor,
-  Text,
-  BreadCrumps,
-  Row,
-  TextList,
-  Image,
-  EasyMeList,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { Sunday1, Sunday2, Sunday3 } from '../assets';
 
 const SundayBenefits = [
   'Større motorikbane til sjov og trættende underholdning for hunden',
@@ -33,7 +30,7 @@ const DogSundayPlay = () => {
     <Page>
       <MetaDogSundayPlay />
       <Banner text="Søndagshygge i Nim, nær Horsens">
-        <BreadCrumps currentPage="Legestue" />
+        <BreadCrumps currentPage="Søndagshygge" />
       </Banner>
       <Background>
         <Row marginTop="25px" marginBottom="45px">
@@ -48,9 +45,7 @@ const DogSundayPlay = () => {
             <Text>
               <b>Krav for deltagelse</b>
               <br />
-              Søndagshygge er KUN for tidligere og nuværende kursister. Du skal som <i>
-                minimum
-              </i>{' '}
+              Søndagshygge er KUN for tidligere og nuværende kursister. Du skal som <i>minimum</i>{' '}
               have deltaget på 2 legestuer hos mig, for at kunne tilmelde dig dette arrangement.
               <br />
               <b>OBS:</b> Kender jeg ikke navnet ved tilmelding, forbeholder jeg mig ret til at
@@ -125,13 +120,22 @@ const DogSundayPlay = () => {
             <Title text="Stemningsbilleder fra Søndagshygge" showHorizontalRuler />
             <Row>
               <Column>
-                <Image src={Sunday1} alt="Lille pomeranian står på græsplæne med agilityringe i baggrunden til søndagshygge" />
+                <Image
+                  src={Sunday1}
+                  alt="Lille pomeranian står på græsplæne med agilityringe i baggrunden til søndagshygge"
+                />
               </Column>
               <Column>
-                <Image src={Sunday2} alt="Træningsplads med flere blå tunneller opsat til tunnel-mania aktivitet" />
+                <Image
+                  src={Sunday2}
+                  alt="Træningsplads med flere blå tunneller opsat til tunnel-mania aktivitet"
+                />
               </Column>
               <Column>
-                <Image src={Sunday3} alt="Motorikbane med farverige kegler og træningsudstyr på græsplæne" />
+                <Image
+                  src={Sunday3}
+                  alt="Motorikbane med farverige kegler og træningsudstyr på græsplæne"
+                />
               </Column>
             </Row>
             {/* <Row>

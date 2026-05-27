@@ -1,25 +1,22 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
 
 import {
-  Page,
   Banner,
+  BreadCrumps,
   Column,
+  ContactPopUp,
+  EasyMeList,
   MetaDogCoolContinued,
+  Page,
+  Row,
+  StyledLink,
+  Text,
+  TextList,
   Title,
   TitleColor,
-  Text,
-  BreadCrumps,
-  Row,
-  TextList,
-  StyledLink,
-  EasyMeList,
-  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-
 
 const ContinuedCoolProgram = [
   'Indlæring af at finde ro og slappe af, når i skal lave ”ingenting” sammen',
@@ -54,11 +51,15 @@ const DogCoolContinued = () => (
         <Column widthPercentage="75%">
           <Title text="Fortsat Helt-Cool i Nim for tidligere kursister" showHorizontalRuler />
           <Text>
-            Ønsker du at styrke din hunds kontakt og ro blandt andre hunde, selv når de kommer helt tæt på eller leger vildt i nærheden, så er fortsætterholdet det rette hold for dig!
+            Ønsker du at styrke din hunds kontakt og ro blandt andre hunde, selv når de kommer helt
+            tæt på eller leger vildt i nærheden, så er fortsætterholdet det rette hold for dig!
           </Text>
           <Text>
-            Fortsat Helt-Cool henvender sig til dig der allerede har deltaget på Helt-Cool kurset eller Hvalpe-Fortsætterholdet, da jeg tager udgangspunkt i indlærte principper.
-            Vi vil på dette hold skrue op for udfordringerne og kræve gradvist mere af din hund, så du stadig kan opnå ro, selv når andre hunde kommer tæt på eller omgivelserne bliver ekstra forstyrrende.
+            Fortsat Helt-Cool henvender sig til dig der allerede har deltaget på Helt-Cool kurset
+            eller Hvalpe-Fortsætterholdet, da jeg tager udgangspunkt i indlærte principper. Vi vil
+            på dette hold skrue op for udfordringerne og kræve gradvist mere af din hund, så du
+            stadig kan opnå ro, selv når andre hunde kommer tæt på eller omgivelserne bliver ekstra
+            forstyrrende.
           </Text>
           <Text>
             Holdets primære fokus er at give din hund det sorte bælte i god impulskontrol! Hvor de
@@ -76,13 +77,13 @@ const DogCoolContinued = () => (
           <Text>
             <b>Træningsprogram for holdet</b>
             <br />I løbet af vores 5 mødegange sammen vil vi komme igennem følgende:
-          <TextList texts={ContinuedCoolProgram} />
+            <TextList texts={ContinuedCoolProgram} />
           </Text>
           <Text>
             <b>Hvad kan du forvente at få med?</b>
             <br />
             Ved deltagelse på Fortsat Helt-Cool får du:
-          <TextList texts={CoolContinuedBenefits} />
+            <TextList texts={CoolContinuedBenefits} />
             Der er mulighed for lidt kontrolleret leg i slutningen af lektionen, efter ønske.
           </Text>
           <Text>
@@ -109,8 +110,10 @@ const DogCoolContinued = () => (
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
-            jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min venteliste. 
-            Kursister der allerede går hos mig har førsteprioritet til en plads. Derefter åbner jeg op for ventelisten.
+            jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg{' '}
+            <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min
+            venteliste. Kursister der allerede går hos mig har førsteprioritet til en plads.
+            Derefter åbner jeg op for ventelisten.
           </Text>
           <Text>
             Vil du skrives op til næste opstart, så smid mig en besked om dit holdønske her:
@@ -133,7 +136,6 @@ const DogCoolContinued = () => (
             til at
             <StyledLink to="/kontakt"> kontakte mig</StyledLink>.
           </Text> */}
-
         </Column>
       </Row>
     </Background>

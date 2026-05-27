@@ -1,6 +1,6 @@
-import React, { memo } from 'react';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import { memo } from 'react';
+import styled from 'styled-components';
 
 const Text = memo(function Text({
   bold = false,

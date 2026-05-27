@@ -1,17 +1,16 @@
-import React from 'react';
 import styled from 'styled-components';
 
 import {
-  Page,
   Banner,
+  BreadCrumps,
   Column,
   Meta,
-  Title,
-  BreadCrumps,
+  Page,
   Row,
-  TitleColor,
-  Text,
   StyledLink,
+  Text,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';

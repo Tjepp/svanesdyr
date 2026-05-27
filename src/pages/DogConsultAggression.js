@@ -1,26 +1,24 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { ConsultAggOne, ConsultAggTwo, sabrinaNew } from '../assets';
 import {
-  Landingpage,
   Column,
+  ContactPopUp,
+  FlexedRow,
+  Image,
+  Landingpage,
+  LandingpageCallMe,
+  LandingpageHeadline,
   MetaConsultAggression,
-  TitleCenter,
+  Row,
   Text,
   TextCenter,
   TextContainer,
-  Image,
-  Row,
-  FlexedRow,
-  LandingpageHeadline,
   TextList,
-  TextListMark,
   TextListArrow,
-  ContactPopUp,
-  LandingpageCallMe,
+  TextListMark,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { ConsultAggOne, ConsultAggTwo, sabrinaNew } from '../assets';
 import '../components/table/TableCss.css';
 
 const ConsultAgg3 = [
@@ -62,16 +60,18 @@ const DogConsultAggression = () => (
             showHorizontalRuler
           />
           <TextCenter>
-            Oplever du din hund "kortslutter" på gåtur i mødet med andre hunde og er ikke til at komme i kontakt med?
+            Oplever du din hund "kortslutter" på gåtur i mødet med andre hunde og er ikke til at
+            komme i kontakt med?
             <br />
             Bliver gåturen sammen hurtigt mere frustrerende end givende?
             <br />
-            Ville du ønske du havde konkrete redskaber til at få din hund til at finde ro i mødet med andre?
+            Ville du ønske du havde konkrete redskaber til at få din hund til at finde ro i mødet
+            med andre?
           </TextCenter>
           <TextCenter>
-            Så bestil en tid til en adfærdskonsultation, hvor du får de redskaber du skal bruge for at skabe
-            en lydig, kontaktsøgende hund, som kan finde ro i mødet med andre hunde og dermed gør jeres
-            gåture sammen mere overskuelig og hyggelig.
+            Så bestil en tid til en adfærdskonsultation, hvor du får de redskaber du skal bruge for
+            at skabe en lydig, kontaktsøgende hund, som kan finde ro i mødet med andre hunde og
+            dermed gør jeres gåture sammen mere overskuelig og hyggelig.
           </TextCenter>
           <LandingpageCallMe />
         </Column>
@@ -81,23 +81,31 @@ const DogConsultAggression = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="Du får professionel rådgivning og en skræddersyet handlingsplan til dig og din hund" />
           <FlexedRow>
-            <Image src={sabrinaNew} width="225px" height="300px" alt="Dyreadfærdskonsulent Sabrina Svane portræt" />
+            <Image
+              src={sabrinaNew}
+              width="225px"
+              height="300px"
+              alt="Dyreadfærdskonsulent Sabrina Svane portræt"
+            />
             <TextContainer>
-            <Text>
-                Jeg hedder Sabrina Svane og har specialiseret mig i at hjælpe aggressive, udfarende hunde uanset årsag.
-                Udover at tilbyde adfærdsbehandling i hjemmet, afholder jeg også flere gange årligt mit populære Helt-Cool forløb
-                som har skabt succes for hundredvis af hunde og deres ejere, med at få mere ro på gåturen.
+              <Text>
+                Jeg hedder Sabrina Svane og har specialiseret mig i at hjælpe aggressive, udfarende
+                hunde uanset årsag. Udover at tilbyde adfærdsbehandling i hjemmet, afholder jeg også
+                flere gange årligt mit populære Helt-Cool forløb som har skabt succes for hundredvis
+                af hunde og deres ejere, med at få mere ro på gåturen.
               </Text>
               <Text>
-                Jeg har gennem tiden haft mange forskellige racer mellem hænderne, og
-                møder altid hunden hvor den er, da hver hund har deres egen personlighed og erfaring at tage
-                hensyn til. For selvom hunden ser aggressiv ud, er det meget sjældent at årsagen er aggression, men derimod
-                dårlige oplevelser, mistillid til andre, ren usikkerhed eller angst, som skal arbejdes med.
+                Jeg har gennem tiden haft mange forskellige racer mellem hænderne, og møder altid
+                hunden hvor den er, da hver hund har deres egen personlighed og erfaring at tage
+                hensyn til. For selvom hunden ser aggressiv ud, er det meget sjældent at årsagen er
+                aggression, men derimod dårlige oplevelser, mistillid til andre, ren usikkerhed
+                eller angst, som skal arbejdes med.
               </Text>
               <Text>
                 Du får altså besøg af en uddannet Dyreadfærdskonsulent, der har reel, praktisk
-                erfaring med at hjælpe hunde og deres ejere med at skabe mere harmoniske gåture, og kan hurtigt sætte dig ind i hvad der
-                virker og ikke virker, når hunden skal have succes med at finde ro i mødet med andre.
+                erfaring med at hjælpe hunde og deres ejere med at skabe mere harmoniske gåture, og
+                kan hurtigt sætte dig ind i hvad der virker og ikke virker, når hunden skal have
+                succes med at finde ro i mødet med andre.
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -114,10 +122,7 @@ const DogConsultAggression = () => (
 
       <Row marginBottom="25px">
         <Column widthPercentage="100%">
-          <TitleCenter
-            color="#1cb8b8"
-            text="Så har jeg både en god og en dårlig nyhed til dig.."
-          />
+          <TitleCenter color="#1cb8b8" text="Så har jeg både en god og en dårlig nyhed til dig.." />
           <TextCenter>
             .. Den dårlige nyhed er, at din hund reagerer på andre hunde, fordi du fortsat smider
             den i situationer den ikke kan overskue. Det er desværre et smertefuldt faktum, at mange
@@ -129,8 +134,8 @@ const DogConsultAggression = () => (
             .. Den gode nyhed er, at
             <b> DU </b>
             kan lære hvordan du skaber succes for din hund, så den føler sig set og vejledt! Med de
-            enkelte, afgørende metoder du får til en adfærdskonsultation, kan du undgå frustration og
-            stress for jer begge og lykkedes med at holde din hunds lytteklapper ude, så i kan få
+            enkelte, afgørende metoder du får til en adfærdskonsultation, kan du undgå frustration
+            og stress for jer begge og lykkedes med at holde din hunds lytteklapper ude, så i kan få
             den rolige gåtur du drømmer om!
           </TextCenter>
 
@@ -147,19 +152,31 @@ const DogConsultAggression = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Vi har fået et nyt syn på en problemstilling, hvor vi tidligere var kørt fast, og en ny tro på tingene” " />
           <FlexedRow>
-            <Image src={ConsultAggOne} width="300px" height="200px" alt="Nicklas og Anna med deres hund Freddie efter konsultation" />
+            <Image
+              src={ConsultAggOne}
+              width="300px"
+              height="200px"
+              alt="Nicklas og Anna med deres hund Freddie efter konsultation"
+            />
             <TextContainer>
               <Text>
-                Som studerende var den eneste lille overvejelse på økonomien, men der var intet at snakke om.
-                Det var en rigtig god pris for alt det, man får med i bagagen!
-                Vi har fået en meget mere selvsikker hund, der nu tør udføre opgaver, hvor han før var usikker.
-                Han hviler meget mere i sig selv og stoler på, at vi tager de rigtige beslutninger, så han ikke selv behøver reagere, for der er styr på det hele.
+                Som studerende var den eneste lille overvejelse på økonomien, men der var intet at
+                snakke om. Det var en rigtig god pris for alt det, man får med i bagagen! Vi har
+                fået en meget mere selvsikker hund, der nu tør udføre opgaver, hvor han før var
+                usikker. Han hviler meget mere i sig selv og stoler på, at vi tager de rigtige
+                beslutninger, så han ikke selv behøver reagere, for der er styr på det hele.
               </Text>
               <Text>
-                Vi har fået en meget større indsigt i vores eget kropssprog omkring Freddie, men også lillebror Elton, fordi det er helt tydeligt, at de reagerer meget på det.
-                Selvom vi altid har vist, det var en faktor, var det fedt, at du kunne hjælpe os mere konkret med, hvordan vi kan arbejde med det, så Freddie får de bedste forudsætninger i hans videre træning! 
+                Vi har fået en meget større indsigt i vores eget kropssprog omkring Freddie, men
+                også lillebror Elton, fordi det er helt tydeligt, at de reagerer meget på det.
+                Selvom vi altid har vist, det var en faktor, var det fedt, at du kunne hjælpe os
+                mere konkret med, hvordan vi kan arbejde med det, så Freddie får de bedste
+                forudsætninger i hans videre træning!
               </Text>
-              <Text>Det var dejligt, konstruktivt, inspirerende og rigtig hyggeligt at have dig på besøg!</Text>
+              <Text>
+                Det var dejligt, konstruktivt, inspirerende og rigtig hyggeligt at have dig på
+                besøg!
+              </Text>
               <Text>Nicklas og Anna</Text>
             </TextContainer>
           </FlexedRow>
@@ -169,23 +186,33 @@ const DogConsultAggression = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" Opfølgende samtale 3 måneder efter konsultationen hos Freddie; " />
           <FlexedRow>
-            <Image src={ConsultAggTwo} width="200px" height="300px" alt="Freddie der nu er mere selvsikker og rolig på gåture" />
+            <Image
+              src={ConsultAggTwo}
+              width="200px"
+              height="300px"
+              alt="Freddie der nu er mere selvsikker og rolig på gåture"
+            />
             <TextContainer>
-              <Text>
-                Du har hjulpet os rigtig godt med Freddie især, og hans selvtillid! 
-             </Text>
+              <Text>Du har hjulpet os rigtig godt med Freddie især, og hans selvtillid!</Text>
               <Text>
                 Ville lige dele en fed succeshistorie fra morgenturen.
                 <br />
-                Vi mødte først en sort labrador direkte mod os, skiftede side og da de er lige over for hinanden gør den af Freddie - 
-                Freddie stopper blot op og kigger, og kommer derefter selv mod mig for kontakt og vi går videre i afslappet tempo.
-                Kort derefter ser vi en lille hvid hund, som normalt er hans svaghed. 
-                Med det samme den får øje på Freddie, gør den intenst og ejeren har svært ved at få kontakt. 
-                Freddie kigger igen på hunden og overvejer hvad han skal gøre, søger selv mig og går roligt med videre. 
-                I begge tilfælde var vi altså på modsatte fortov, men i tilfælde hvor Freddie før uden tøven var gået i selvsving når de gøede ad ham. 
+                Vi mødte først en sort labrador direkte mod os, skiftede side og da de er lige over
+                for hinanden gør den af Freddie - Freddie stopper blot op og kigger, og kommer
+                derefter selv mod mig for kontakt og vi går videre i afslappet tempo. Kort derefter
+                ser vi en lille hvid hund, som normalt er hans svaghed. Med det samme den får øje på
+                Freddie, gør den intenst og ejeren har svært ved at få kontakt. Freddie kigger igen
+                på hunden og overvejer hvad han skal gøre, søger selv mig og går roligt med videre.
+                I begge tilfælde var vi altså på modsatte fortov, men i tilfælde hvor Freddie før
+                uden tøven var gået i selvsving når de gøede ad ham.
               </Text>
-              <Text>Oveni hatten regnede og blæste det, ikke lige noget for ham - så han var endda ekstra udfordret.</Text>
-              <Text>Vi er SÅ glade for at se hans udvikling, og mærke effekten af din træning!</Text>
+              <Text>
+                Oveni hatten regnede og blæste det, ikke lige noget for ham - så han var endda
+                ekstra udfordret.
+              </Text>
+              <Text>
+                Vi er SÅ glade for at se hans udvikling, og mærke effekten af din træning!
+              </Text>
               <Text>Nicklas og Anna</Text>
             </TextContainer>
           </FlexedRow>
@@ -198,10 +225,14 @@ const DogConsultAggression = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter color="#1cb8b8" text="En konsultation er altså til dig der vil lære hvordan du:" />
+          <TitleCenter
+            color="#1cb8b8"
+            text="En konsultation er altså til dig der vil lære hvordan du:"
+          />
           <TextList texts={ConsultAggForYou} />
           <TextCenter>
-            og selvfølgelig får du helt konkrete værktøjer du hurtigt og let kan tage i brug til hverdagens gåture!
+            og selvfølgelig får du helt konkrete værktøjer du hurtigt og let kan tage i brug til
+            hverdagens gåture!
           </TextCenter>
           <LandingpageCallMe />
         </Column>
@@ -212,8 +243,8 @@ const DogConsultAggression = () => (
           <TitleCenter text="Jeg kan med glæde fortælle dig, at efter en konsultation på max 2 timer, vil du være i stand til:" />
           <TextListMark texts={ConsultAggHour} />
           <TextCenter>
-            Det tager kun et par timer af din tid at sikre dig mere overskuelige gåture og en
-            mere rolig hverdag!
+            Det tager kun et par timer af din tid at sikre dig mere overskuelige gåture og en mere
+            rolig hverdag!
           </TextCenter>
         </Column>
       </Row>
@@ -233,30 +264,28 @@ const DogConsultAggression = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          <TitleCenter
-            color="#1cb8b8"
-            text="Sådan foregår en konsultation til dig og din hund:"
-          />
+          <TitleCenter color="#1cb8b8" text="Sådan foregår en konsultation til dig og din hund:" />
           <TextCenter>
-            En adfærdskonsultation foregår i hjemmet hos dig og din hund og gerne med familien samlet til
-            deltagelse.
+            En adfærdskonsultation foregår i hjemmet hos dig og din hund og gerne med familien
+            samlet til deltagelse.
           </TextCenter>
           <TextCenter>
-            Du skal forvente at bruge mellem 1,5 - 2 timer på besøget, hvor du får mulighed for at stille alle
-            de spørgsmål du har brug for at få besvaret. Jeg vil også stille spørgsmål ind til jeres
-            hverdag sammen, for at blive klogere på jeres indbyrdes forhold, hundens hverdag og
-            problemstillinger i oplever.
+            Du skal forvente at bruge mellem 1,5 - 2 timer på besøget, hvor du får mulighed for at
+            stille alle de spørgsmål du har brug for at få besvaret. Jeg vil også stille spørgsmål
+            ind til jeres hverdag sammen, for at blive klogere på jeres indbyrdes forhold, hundens
+            hverdag og problemstillinger i oplever.
           </TextCenter>
           <TextCenter>
             Jeg gennemgår forskellige øvelser, der vil styrke dig og din hunds samarbejde og øge
             tilliden imellem jer. Øvelserne vil jeg først vise med hunden, så du ser det i aktion,
-            og bagefter lader jeg dig om at udføre dem. Derefter går vi udenfor og kigger på en hund jeg medbringer.
-            Her giver jeg dig redskaberne til hvordan du fremadrettet tackler mødet med en anden hund,
-            så du bibeholder kontakten til din egen hund og kan fortsætte turen i ro og mag.
+            og bagefter lader jeg dig om at udføre dem. Derefter går vi udenfor og kigger på en hund
+            jeg medbringer. Her giver jeg dig redskaberne til hvordan du fremadrettet tackler mødet
+            med en anden hund, så du bibeholder kontakten til din egen hund og kan fortsætte turen i
+            ro og mag.
           </TextCenter>
           <TextCenter>
-            Efter mit besøg har du mulighed for at ringe og skrive ved spørgsmål. Jeg vil også selv følge
-            op via mail flere gange efter mit besøg.
+            Efter mit besøg har du mulighed for at ringe og skrive ved spørgsmål. Jeg vil også selv
+            følge op via mail flere gange efter mit besøg.
           </TextCenter>
         </Column>
       </Row>

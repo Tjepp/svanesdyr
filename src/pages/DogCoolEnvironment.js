@@ -1,36 +1,33 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
 import {
-  Page,
+  CoolAgainEight,
+  CoolAgainFive,
+  CoolAgainFour,
+  CoolAgainNine,
+  CoolAgainOne,
+  CoolAgainSeven,
+  CoolAgainSix,
+  CoolAgainThree,
+  CoolAgainTwo,
+} from '../assets';
+import {
   Banner,
+  BreadCrumps,
   Column,
+  ContactPopUp,
+  EasyMeList,
+  Image,
   MetaDogCoolEnvironment,
+  Page,
+  Row,
+  StyledLink,
+  Text,
+  TextList,
   Title,
   TitleColor,
-  Text,
-  BreadCrumps,
-  Row,
-  TextList,
-  Image,
-  StyledLink,
-  EasyMeList,
-  ContactPopUp,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import DogMenu from '../components/menu/DogMenu';
-import {
-  CoolAgainOne,
-  CoolAgainTwo,
-  CoolAgainThree,
-  CoolAgainFour,
-  CoolAgainFive,
-  CoolAgainSix,
-  CoolAgainSeven,
-  CoolAgainEight,
-  CoolAgainNine,
-} from '../assets';
 
 const ContinuedCoolProgram = [
   'Rolige gåture: Øvelse i at gå væk fra andre hunde',
@@ -146,35 +143,62 @@ const DogCoolEnvironment = () => (
           <Title text="Stemningsbilleder fra Miljøholdene" showHorizontalRuler />
           <Row>
             <Column>
-              <Image src={CoolAgainOne} alt="Hundeejere med hunde ved sø øver rolige gåture og kontakt" />
+              <Image
+                src={CoolAgainOne}
+                alt="Hundeejere med hunde ved sø øver rolige gåture og kontakt"
+              />
             </Column>
             <Column>
-              <Image src={CoolAgainTwo} alt="To hundeejere går med hunde på fortov i villakvarter under fortovspassage øvelse" />
+              <Image
+                src={CoolAgainTwo}
+                alt="To hundeejere går med hunde på fortov i villakvarter under fortovspassage øvelse"
+              />
             </Column>
             <Column>
-              <Image src={CoolAgainThree} alt="Kvinde og sort hund øver kontakt og ro på åben mark" />
-            </Column>
-          </Row>
-          <Row>
-            <Column>
-              <Image src={CoolAgainFour} alt="Hunde ved springvand i bymiljø under miljøtræning i Horsens" />
-            </Column>
-            <Column>
-              <Image src={CoolAgainFive} alt="To hundeejere går med hunde langs sø i efterårsfarver" />
-            </Column>
-            <Column>
-              <Image src={CoolAgainSix} alt="Cavalier King Charles spaniel ligger afslappet på tæppe under ro øvelse" />
+              <Image
+                src={CoolAgainThree}
+                alt="Kvinde og sort hund øver kontakt og ro på åben mark"
+              />
             </Column>
           </Row>
           <Row>
             <Column>
-              <Image src={CoolAgainSeven} alt="Hundeejere går med hunde på gågade i Horsens om aftenen med julelys" />
+              <Image
+                src={CoolAgainFour}
+                alt="Hunde ved springvand i bymiljø under miljøtræning i Horsens"
+              />
             </Column>
             <Column>
-              <Image src={CoolAgainEight} alt="Golden retriever går roligt i snor på sti mellem hække" />
+              <Image
+                src={CoolAgainFive}
+                alt="To hundeejere går med hunde langs sø i efterårsfarver"
+              />
             </Column>
             <Column>
-              <Image src={CoolAgainNine} alt="Par går med hunde på grøn skovsti under rolig gåtur" />
+              <Image
+                src={CoolAgainSix}
+                alt="Cavalier King Charles spaniel ligger afslappet på tæppe under ro øvelse"
+              />
+            </Column>
+          </Row>
+          <Row>
+            <Column>
+              <Image
+                src={CoolAgainSeven}
+                alt="Hundeejere går med hunde på gågade i Horsens om aftenen med julelys"
+              />
+            </Column>
+            <Column>
+              <Image
+                src={CoolAgainEight}
+                alt="Golden retriever går roligt i snor på sti mellem hække"
+              />
+            </Column>
+            <Column>
+              <Image
+                src={CoolAgainNine}
+                alt="Par går med hunde på grøn skovsti under rolig gåtur"
+              />
             </Column>
           </Row>
         </Column>

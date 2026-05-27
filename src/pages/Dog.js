@@ -1,34 +1,32 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { dogOne, dogThree, dogTwo } from '../assets';
 import {
-  Page,
   Banner,
-  Column,
-  Meta,
-  Title,
-  TitleColor,
-  Text,
-  Image,
   BreadCrumps,
-  TextList,
+  Column,
+  ContactPopUp,
+  Image,
+  Meta,
+  Page,
   Row,
   StyledLink,
-  ContactPopUp,
+  Text,
+  TextList,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { dogOne, dogTwo, dogThree } from '../assets';
 import '../components/table/TableCss.css';
 
 const Colleagues = [
-   'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
-   'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
-   'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
-   'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
-   'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
- ];
+  'HORSENS: Maja Bruus, Horsens Hundecenter, www.hundecoach.dk',
+  'SILKEBORG: Christine Løwe, Løwe & Hund, www.løweoghund.dk',
+  'GIVSKUD: Lone Enghave, Enghave & Hund, www.enghaveoghund.dk',
+  'HERNING: Jan Vestergaard, Egely Hunde, www.egelyhunde.dk',
+  'ÅRHUS: Camilla Bruhn, Dyrecoach, www.dyrecoach.dk',
+];
 
- const stress = [
+const stress = [
   'Hunden virker generelt rastløs / hvileløs',
   'Hunden hviler ikke når i slapper af',
   'Hunden har "travlt" på gåtur, trækker i snoren og kan være ukontaktbar',
@@ -71,9 +69,9 @@ const Dog = () => (
           <Text>
             Oplever du problemadfærd hos din hund, så husk på at din hund ikke prøver på at gøre
             livet surt for dig. Den har det selv svært, enten ved at forstå hvad du forventer fra
-            den eller ved at kontrollere sine følelser når den bliver smidt i en presset
-            situation. Uanset hvad du oplever kan du hjælpe din hund, så i begge får en mere rolig
-            og harmonisk hverdag sammen.
+            den eller ved at kontrollere sine følelser når den bliver smidt i en presset situation.
+            Uanset hvad du oplever kan du hjælpe din hund, så i begge får en mere rolig og harmonisk
+            hverdag sammen.
           </Text>
           <Text>
             Du er allerede på rette vej når du læser denne linie! For det betyder at du er på udkig
@@ -82,10 +80,15 @@ const Dog = () => (
           </Text>
           <Title text="Jeg specialiserer mig i hvalpe, stressrelateret problemadfærd og aggression - læs meget mere om dette længere nede på siden." />
           <br />
-          <Title color="#872f35" text="Står du med en anden problemstilling end mit speciale, henviser jeg til mine kollegaer!" smallTitle />
+          <Title
+            color="#872f35"
+            text="Står du med en anden problemstilling end mit speciale, henviser jeg til mine kollegaer!"
+            smallTitle
+          />
           <Text>
-            Jeg tilbyder desværre ikke rådgivning og hjemmebesøg til andet end mine specialeområder, så står du med hund der har fx alene-hjemme problemer eller lydangst
-            henviser jeg til mine dygtige, belønningsbaserede kollegaer:
+            Jeg tilbyder desværre ikke rådgivning og hjemmebesøg til andet end mine specialeområder,
+            så står du med hund der har fx alene-hjemme problemer eller lydangst henviser jeg til
+            mine dygtige, belønningsbaserede kollegaer:
           </Text>
           {/* <Title color="#872f35" text="Svanes Dyr holder midlertidigt lukket for nye kunder!" />
           <Text>
@@ -96,7 +99,9 @@ const Dog = () => (
           </Text> */}
           <TextList texts={Colleagues} />
           <Text>
-            Læs mere om de problemstillinger jeg kan hjælpe med længere ned på siden, og er du det mindste i tvivl om din hunds udfordring hører under mit speciale, er du selvfølgelig altid velkommen til
+            Læs mere om de problemstillinger jeg kan hjælpe med længere ned på siden, og er du det
+            mindste i tvivl om din hunds udfordring hører under mit speciale, er du selvfølgelig
+            altid velkommen til
             <StyledLink to="/kontakt"> at kontakte mig</StyledLink> for at høre nærmere.
           </Text>
           {/* <TitleColor text="Jeg afholder i øjeblikket ferie og kan først tilbyde konsultation igen fra September." /> */}
@@ -125,15 +130,17 @@ const Dog = () => (
           <Image src={dogTwo} alt="Hund der øver ro og impulskontrol på træningspladsen" />
           <TitleColor text="Stressrelateret problemadfærd" smallTitle />
           <Text>
-            Føler du din hund har ADHD eller omtales den som værende lidt af et "damp"-barn, så er der hjælp at hente 
-            for der findes konkrete tiltag, der kan lære din hund at finde ro i hverdagen og hvile mere i sig selv.
+            Føler du din hund har ADHD eller omtales den som værende lidt af et "damp"-barn, så er
+            der hjælp at hente for der findes konkrete tiltag, der kan lære din hund at finde ro i
+            hverdagen og hvile mere i sig selv.
           </Text>
           <Text>
             <b>Eksempler på stressrelateret problemadfærd:</b>
-          <TextList texts={stress} />
+            <TextList texts={stress} />
           </Text>
           <Text>
-            Ønsker du professionel rådgivning og en skræddersyet handlingsplan til at få mere ro på din hund, så er det mit speciale.
+            Ønsker du professionel rådgivning og en skræddersyet handlingsplan til at få mere ro på
+            din hund, så er det mit speciale.
           </Text>
           <ContactPopUp text="Send mig en mail og hør mere" />
           <br />
@@ -146,20 +153,24 @@ const Dog = () => (
           <Image src={dogOne} alt="Hund på gåtur der øver ro i mødet med andre" />
           <TitleColor text="Aggression og udfarende adfærd" smallTitle />
           <Text>
-            Oplever du din hund knurrer, gør eller farer ud overfor dig, andre mennesker eller hunde, så er din hund nødvendigvis ikke aggressiv.
-            For selvom hunden lyder og ser aggressiv ud, er det meget sjældent at årsagen er aggression, men derimod dårlige oplevelser, mistillid til andre, ren usikkerhed eller angst, som skal arbejdes med.
+            Oplever du din hund knurrer, gør eller farer ud overfor dig, andre mennesker eller
+            hunde, så er din hund nødvendigvis ikke aggressiv. For selvom hunden lyder og ser
+            aggressiv ud, er det meget sjældent at årsagen er aggression, men derimod dårlige
+            oplevelser, mistillid til andre, ren usikkerhed eller angst, som skal arbejdes med.
           </Text>
           <Text>
             <b>Eksempler på aggressiv og udfarende adfærd:</b>
             <TextList texts={aggression} />
           </Text>
           <Text>
-            Uanset hvad du oplever hos din hund af uhensigtmæssig aggressionslignende opførsel, så står jeg til rådighed.
+            Uanset hvad du oplever hos din hund af uhensigtmæssig aggressionslignende opførsel, så
+            står jeg til rådighed.
           </Text>
           <ContactPopUp text="Send mig en mail og hør mere" />
           <br />
           <Text>
-            Ønsker du specifikt hjælp til udfarende adfærd på gåtur i mødet med andre hunde, så <StyledLink to="/aggression"> Læs mere her</StyledLink>
+            Ønsker du specifikt hjælp til udfarende adfærd på gåtur i mødet med andre hunde, så{' '}
+            <StyledLink to="/aggression"> Læs mere her</StyledLink>
           </Text>
         </Column>
       </Row>

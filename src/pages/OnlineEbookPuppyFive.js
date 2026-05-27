@@ -1,24 +1,4 @@
-import React from 'react';
 import styled from 'styled-components';
-
-import {
-  LandingpageOnline,
-  Column,
-  MetaOnlineEbookPuppyFive,
-  TitleCenter,
-  Text,
-  TextCenter,
-  TextContainer,
-  Image,
-  Row,
-  FlexedRow,
-  TextList,
-  TextListMark,
-  TextListArrow,
-  LPHeadlinePuppy,
-  ButtonOnline,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
 import {
   FrontNoOne,
   OnlineCoverPuppyFive,
@@ -27,6 +7,24 @@ import {
   OnlinePupThree,
   OnlinePupTwo,
 } from '../assets';
+import {
+  ButtonOnline,
+  Column,
+  FlexedRow,
+  Image,
+  LandingpageOnline,
+  LPHeadlinePuppy,
+  MetaOnlineEbookPuppyFive,
+  Row,
+  Text,
+  TextCenter,
+  TextContainer,
+  TextList,
+  TextListArrow,
+  TextListMark,
+  TitleCenter,
+} from '../components';
+import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 
 const LPstep3 = [
@@ -82,7 +80,11 @@ const OnlineEbookPuppyFive = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverPuppyFive} alt="Forside til e-bog om hvalpetræning med glad border collie hvalp" priority />
+          <Image
+            src={OnlineCoverPuppyFive}
+            alt="Forside til e-bog om hvalpetræning med glad border collie hvalp"
+            priority
+          />
           <br />
           <TitleCenter text="Til dig der ønsker en konfliktfri hverdag med fokus på at skabe en tillidsfuld hvalp, som synes du er det bedste i verden!" />
           <TextCenter>Denne bog er til dig, der:</TextCenter>
@@ -182,15 +184,35 @@ const OnlineEbookPuppyFive = () => (
           <TextListMark texts={LPstep8} />
           <TextCenter>Fordelt over 4 letlæselige og appetitlige lektioner:</TextCenter>
           <FlexedRow>
-            <Image src={OnlinePupTwo} width="400px" height="300px" alt="Lektion 1 om metoden til konfliktfri opdragelse" />
+            <Image
+              src={OnlinePupTwo}
+              width="400px"
+              height="300px"
+              alt="Lektion 1 om metoden til konfliktfri opdragelse"
+            />
             <br />
-            <Image src={OnlinePupThree} width="400px" height="300px" alt="Lektion 2 om miljøtræning uden stress" />
+            <Image
+              src={OnlinePupThree}
+              width="400px"
+              height="300px"
+              alt="Lektion 2 om miljøtræning uden stress"
+            />
           </FlexedRow>
           <FlexedRow>
             <br />
-            <Image src={OnlinePupFour} width="400px" height="300px" alt="Lektion 3 om metoderne til ro på gåturene" />
+            <Image
+              src={OnlinePupFour}
+              width="400px"
+              height="300px"
+              alt="Lektion 3 om metoderne til ro på gåturene"
+            />
             <br />
-            <Image src={OnlinePupFive} width="400px" height="300px" alt="Lektion 4 om opskriften på ro i hjemmet" />
+            <Image
+              src={OnlinePupFive}
+              width="400px"
+              height="300px"
+              alt="Lektion 4 om opskriften på ro i hjemmet"
+            />
           </FlexedRow>
         </Column>
       </Row>
@@ -199,7 +221,12 @@ const OnlineEbookPuppyFive = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="E-bogen leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
-            <Image src={FrontNoOne} width="300px" height="200px" alt="Dyreadfærdskonsulent Sabrina Svane med hund" />
+            <Image
+              src={FrontNoOne}
+              width="300px"
+              height="200px"
+              alt="Dyreadfærdskonsulent Sabrina Svane med hund"
+            />
             <TextContainer>
               <Text bold>Sabrina Svane</Text>
               <Text>
@@ -252,11 +279,12 @@ const OnlineEbookPuppyFive = () => (
           <br />
           <TitleCenter text="PDF-format leveret direkte til din mail adresse!" />
           <TextCenter>
-            Straks efter betaling får du din e-bog tilsendt på mail, som er en skriftlig guide på 4 lektioner i PDF format.
+            Straks efter betaling får du din e-bog tilsendt på mail, som er en skriftlig guide på 4
+            lektioner i PDF format.
             <br />
-            Via filen i din mail kan du downloade bogen og gemme den på din computer, tablet eller mobil.
-            Læs den direkte på skærmen, eller print den ud og sid med den i hånden, mens du drikker
-            en god kop kaffe.
+            Via filen i din mail kan du downloade bogen og gemme den på din computer, tablet eller
+            mobil. Læs den direkte på skærmen, eller print den ud og sid med den i hånden, mens du
+            drikker en god kop kaffe.
           </TextCenter>
           <TextCenter>
             Bogen er din til evigt eje og brug! Læs den lige når det passer dig - om det bliver

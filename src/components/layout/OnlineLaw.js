@@ -1,10 +1,9 @@
-import styled from 'styled-components';
-import React from 'react';
 import PropTypes from 'prop-types';
 import CookieConsent from 'react-cookie-consent';
-import Responsive from './Responsive';
+import styled from 'styled-components';
 import { logoLightGrey } from '../../assets';
 import FooterBottom from '../FooterBottom';
+import Responsive from './Responsive';
 
 const OnlineLaw = ({ children }) => (
   <Container>

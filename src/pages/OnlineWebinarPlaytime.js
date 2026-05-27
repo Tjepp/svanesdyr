@@ -1,24 +1,22 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { FrontNoOne, OnlineCoverDogPlay } from '../assets';
 import {
-  LandingpageOnline,
+  ButtonOnline,
   Column,
-  TitleCenter,
+  FlexedRow,
+  Image,
+  LandingpageOnline,
+  LPHeadlineWebinar,
+  MetaOnlineWebinarPlayTime,
+  Row,
   Text,
   TextCenter,
   TextContainer,
-  Image,
-  Row,
-  FlexedRow,
   TextList,
   TextListMark,
-  LPHeadlineWebinar,
-  ButtonOnline,
-  MetaOnlineWebinarPlayTime,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { OnlineCoverDogPlay, FrontNoOne } from '../assets';
 import '../components/table/TableCss.css';
 
 const LPstep5 = [

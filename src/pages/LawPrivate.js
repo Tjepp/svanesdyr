@@ -1,15 +1,14 @@
-import React from 'react';
 import styled from 'styled-components';
 
 import {
-  OnlineLaw,
   Column,
-  MetaLawPrivate,
-  TextCenter,
-  Row,
   LandingpageHeadline,
-  TitleCenter,
+  MetaLawPrivate,
+  OnlineLaw,
+  Row,
   StyledLink,
+  TextCenter,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';

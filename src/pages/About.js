@@ -1,20 +1,9 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
+import { petbc, sabrinaNew } from '../assets';
 import {
-  Page,
   Banner,
-  Column,
-  Meta,
-  Title,
-  TitleColor,
-  Text,
   BreadCrumps,
-  Row,
-  Image,
-  StyledExternal,
-  FlexedRow,
-  TextContainer,
+  Column,
   Education2012,
   Education2013,
   Education2014,
@@ -30,9 +19,18 @@ import {
   Education2024,
   Education2025,
   Education2026,
+  FlexedRow,
+  Image,
+  Meta,
+  Page,
+  Row,
+  StyledExternal,
+  Text,
+  TextContainer,
+  Title,
+  TitleColor,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { sabrinaNew, petbc } from '../assets';
 import '../components/table/TableCss.css';
 
 const About = () => (
@@ -46,7 +44,13 @@ const About = () => (
         <Column widthPercentage="65%">
           <Title text="Om Sabrina Svane" showHorizontalRuler />
           <FlexedRow>
-            <Image src={sabrinaNew} priority width="210px" height="270px" alt="Portræt af Sabrina Svane, certificeret dyreadfærdskonsulent" />
+            <Image
+              src={sabrinaNew}
+              priority
+              width="210px"
+              height="270px"
+              alt="Portræt af Sabrina Svane, certificeret dyreadfærdskonsulent"
+            />
             <TextContainer>
               <Text>
                 Jeg hedder Sabrina Svane og er certificeret Dyreadfærdskonsulent (BSc ABT) ved
@@ -135,7 +139,12 @@ const About = () => (
             er opbygget på baggrund af videnskabelige undersøgelser og indlæringspsykologiske
             principper.
           </Text>
-          <Image src={petbc} width="100px" height="78px" alt="PetBC logo - Pet Education, Training and Behaviour Council" />
+          <Image
+            src={petbc}
+            width="100px"
+            height="78px"
+            alt="PetBC logo - Pet Education, Training and Behaviour Council"
+          />
         </Column>
       </Row>
       <Row marginBottom="25px">

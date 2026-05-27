@@ -1,7 +1,6 @@
-/* eslint-disable linebreak-style */
-import React, { memo } from 'react';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import { memo } from 'react';
+import styled from 'styled-components';
 import Responsive from './layout/Responsive';
 
 const TextCenter = memo(function TextCenter({

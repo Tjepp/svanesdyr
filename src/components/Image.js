@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { useState } from 'react';
+import styled from 'styled-components';
 import Responsive from './layout/Responsive';
 
 const Image = ({

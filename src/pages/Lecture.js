@@ -1,28 +1,25 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
-
+import { dogOne, lectureDogLanguage, PlayFive } from '../assets';
 import {
-  Page,
   Banner,
-  Column,
-  Meta,
-  Title,
-  Text,
-  Image,
   BreadCrumps,
-  Row,
-  StyledLink,
+  ButtonOnline,
+  Column,
   // EasyMeList,
   FlexedRow,
-  TitleCenter,
+  Image,
+  Meta,
+  Page,
+  Row,
+  StyledLink,
+  Text,
   TextContainer,
   TextListArrow,
   TextListMark,
-  ButtonOnline,
+  Title,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { lectureDogLanguage, PlayFive, dogOne } from '../assets';
 import '../components/table/TableCss.css';
 
 const HundeSprog = [
@@ -96,7 +93,12 @@ const Lecture = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Hundens Sprog - Adfærd, Stress og Håndtering" />
           <FlexedRow>
-            <Image src={lectureDogLanguage} width="300px" height="200px" alt="Foredrag om hundens sprog med billede af hund der giver signal" />
+            <Image
+              src={lectureDogLanguage}
+              width="300px"
+              height="200px"
+              alt="Foredrag om hundens sprog med billede af hund der giver signal"
+            />
             <TextContainer>
               <Text bold>
                 3 timers foredrag inkl. to pauser af 10 minutter og tid til spørgsmål
@@ -125,7 +127,12 @@ const Lecture = () => (
 
           <TitleCenter text="Sådan kontrollerer du leg mellem hunde - og giver alle en god oplevelse" />
           <FlexedRow>
-            <Image src={PlayFive} width="300px" height="200px" alt="To store hunde leger og brydes på græsplænen" />
+            <Image
+              src={PlayFive}
+              width="300px"
+              height="200px"
+              alt="To store hunde leger og brydes på græsplænen"
+            />
             <TextContainer>
               <Text bold>
                 2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål
@@ -143,8 +150,7 @@ const Lecture = () => (
                 skolegården til sig selv, hvilket enhver forælder vil finde uacceptabelt. Der skal
                 være en voksen, ansvarlig til stede, som kan afbryde når nok er nok og sørge for, at
                 alle har en god stund sammen.
-                <br />
-                I dette foredrag får du svaret på:
+                <br />I dette foredrag får du svaret på:
                 <TextListArrow texts={Play} />
                 <ButtonOnline
                   text="Find aktuelle foredrag om den gode hundeleg her"
@@ -158,7 +164,12 @@ const Lecture = () => (
 
           <TitleCenter text="Fra Reaktiv til Ro i mødet med andre hunde - opskriften til dig der ønsker rolige gåture" />
           <FlexedRow>
-            <Image src={dogOne} width="300px" height="200px" alt="Hund på gåtur der øver ro i mødet med andre" />
+            <Image
+              src={dogOne}
+              width="300px"
+              height="200px"
+              alt="Hund på gåtur der øver ro i mødet med andre"
+            />
             <TextContainer>
               <Text bold>
                 2,5 timers foredrag inkl. én pause af 10 min og 30 min tid til spørgsmål

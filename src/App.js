@@ -1,23 +1,22 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
-  faEnvelope,
-  faPhone,
-  faBars,
-  faMapMarkerAlt,
-  faInfoCircle,
-  faChevronRight,
-  faTimes,
-} from '@fortawesome/free-solid-svg-icons';
-import {
-  faFacebookF,
-  faLinkedinIn,
   faApple,
+  faFacebookF,
   faGoogle,
+  faLinkedinIn,
   faMicrosoft,
 } from '@fortawesome/free-brands-svg-icons';
+import {
+  faBars,
+  faChevronRight,
+  faEnvelope,
+  faInfoCircle,
+  faMapMarkerAlt,
+  faPhone,
+  faTimes,
+} from '@fortawesome/free-solid-svg-icons';
+import { BrowserRouter, Route, Routes } from 'react-router';
+import { ScrollToTop } from './components';
 import {
   About,
   Cat,
@@ -25,20 +24,18 @@ import {
   Dog,
   DogConsultAggression,
   DogConsultPuppy,
-  DogCourse,
-  DogCourseThanks,
-  // DogNailClip,
-  DogPlay,
-  DogPuppy,
-  DogReactive,
   DogContinued,
   DogCool,
   DogCoolContinued,
   DogCoolEnvironment,
-  DogSocial,
+  DogCourse,
+  DogCourseThanks,
   DogEmpower,
+  DogPlay,
+  DogPuppy,
+  DogReactive,
+  DogSocial,
   DogStylist,
-  DogSpot,
   DogSummer,
   DogSundayPlay,
   Home,
@@ -52,7 +49,6 @@ import {
   OnlineEbookCatThanks,
   OnlineEbookPuppyFive,
   OnlineEbookThanks,
-  OnlinePuppy,
   OnlineSoundbookThanks,
   OnlineSummerThanks,
   OnlineThankPage,
@@ -61,10 +57,9 @@ import {
   OnlineWebinarPlaytime,
   OnlineWebinarThankCool,
   OnlineWebinarThankPage,
-  Snackshop,
   Prices,
+  Snackshop,
 } from './pages';
-import { ScrollToTop } from './components';
 
 library.add(
   faEnvelope,
@@ -78,7 +73,7 @@ library.add(
   faMicrosoft,
   faInfoCircle,
   faChevronRight,
-  faTimes
+  faTimes,
 );
 
 const App = () => {
@@ -99,7 +94,6 @@ const App = () => {
         <Route path="/hundehold" element={<DogCourse />} />
         <Route path="/hundehold/tusindtak" element={<DogCourseThanks />} />
         <Route path="/hundehold/empowerment" element={<DogEmpower />} />
-        {/* <Route path="/hundehold/negleklipkursus" element={<DogNailClip />} /> */}
         <Route path="/legestue" element={<DogPlay />} />
         <Route path="/hundehold/hvalpehold" element={<DogPuppy />} />
         <Route path="/hundehold/reaktivtilro" element={<DogReactive />} />

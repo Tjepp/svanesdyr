@@ -1,6 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import { titleHr } from '../assets';
 
 const Title = ({ text, color = '#000', showHorizontalRuler = false, smallTitle = false }) => (

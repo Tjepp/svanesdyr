@@ -1,39 +1,37 @@
-import React from 'react';
 import styled from 'styled-components';
-
 import {
-  LandingpageOnline,
-  Column,
-  TitleCenter,
-  Text,
-  TextCenter,
-  TextContainer,
-  TextList,
-  Image,
-  Row,
-  FlexedRow,
-  TextListMark,
-  LPHeadlineWalk,
-  MetaDogSummer,
-  ContactPopUp,
-  EasyMeList,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import {
+  CoolSix,
+  CoolThree,
+  NWGary,
   OnlineCoverSummer,
   PuppyContinuedFive,
+  PuppySix,
   RecallOne,
   TricksOne,
-  CoolThree,
   // NailClipSix,
   // CoolAgainOne,
   // PuppySeven,
   // PuppyContinuedOne,
   TricksTwo,
-  NWGary,
-  PuppySix,
-  CoolSix,
 } from '../assets';
+import {
+  Column,
+  ContactPopUp,
+  EasyMeList,
+  FlexedRow,
+  Image,
+  LandingpageOnline,
+  LPHeadlineWalk,
+  MetaDogSummer,
+  Row,
+  Text,
+  TextCenter,
+  TextContainer,
+  TextList,
+  TextListMark,
+  TitleCenter,
+} from '../components';
+import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
 
 const Spotliste = [
@@ -43,7 +41,6 @@ const Spotliste = [
   'Kurserne er for alle hunde i alle aldre',
   'Alle sommerkurser afholdes af Dyreadfærdskonsulent Sabrina Svane',
 ];
-
 
 const PlayTypes = [
   'Små racer: Max skulderhøjde 30 cm.',
@@ -63,7 +60,6 @@ const NW = [
   'En pakke med filtdutter',
   'Forskellige centrifugerør',
   'En metaldåse med magnet, så du kan arbejde korrekt videre med duften hjemme uden at smitte hele huset',
-
 ];
 
 const DogSummer = () => (
@@ -72,7 +68,11 @@ const DogSummer = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverSummer} alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser 2025" priority />
+          <Image
+            src={OnlineCoverSummer}
+            alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser 2025"
+            priority
+          />
           <br />
           <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene i uge 30 eller 31 sammen med din hund" />
           <TextCenter>
@@ -80,11 +80,10 @@ const DogSummer = () => (
             hundesnuder. Tag både din bedre halvdel og børnene med til en hyggelig stund - alle er
             velkomne!
           </TextCenter>
-          <TextCenter bold>
-            Der udbydes igen i år de populære sommerkurser!
-          </TextCenter>
-          <TextCenter>Fælles for alle sommerkurser er:
-          <TextListMark texts={Spotliste} />
+          <TextCenter bold>Der udbydes igen i år de populære sommerkurser!</TextCenter>
+          <TextCenter>
+            Fælles for alle sommerkurser er:
+            <TextListMark texts={Spotliste} />
           </TextCenter>
           <TextCenter>
             Alle sommerens kurser foregår på træningspladsen Horsensvej 31, Nim, 8740 Brædstrup.
@@ -92,7 +91,8 @@ const DogSummer = () => (
           <br />
           <TitleCenter text="Er sommerkurset du vil med på fyldt??" />
           <TextCenter>
-            Så smid mig en mail på hvilket kursus du gerne vil på venteliste på (og ved rigelig efterspørgsel starter jeg ekstra hold op!):
+            Så smid mig en mail på hvilket kursus du gerne vil på venteliste på (og ved rigelig
+            efterspørgsel starter jeg ekstra hold op!):
           </TextCenter>
           <ContactPopUp text="TILMELDING til sommerkursus venteliste" />
         </Column>
@@ -111,7 +111,12 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Indkald begynder og øvet" />
           <FlexedRow>
-            <Image src={RecallOne} alt="Hundetræner giver godbid til lille hund der ligger på græsset" width="300px" height="200px" />
+            <Image
+              src={RecallOne}
+              alt="Hundetræner giver godbid til lille hund der ligger på græsset"
+              width="300px"
+              height="200px"
+            />
             <TextContainer>
               <Text>
                 <b>Indkald Basis</b>
@@ -134,7 +139,8 @@ const DogSummer = () => (
                 <br />
                 uanset antal tobenede der er med
                 <br />
-                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning
+                derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
@@ -150,7 +156,12 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Fitness for alle" />
           <FlexedRow>
-            <Image src={TricksOne} alt="Hund balancerer med forpoter og bagpoter på balancepuder under træning" width="300px" height="200px" />
+            <Image
+              src={TricksOne}
+              alt="Hund balancerer med forpoter og bagpoter på balancepuder under træning"
+              width="300px"
+              height="200px"
+            />
             <TextContainer>
               <Text>
                 <b>Fokus på god kropskontrol og kropsbevidsthed</b>
@@ -169,7 +180,8 @@ const DogSummer = () => (
                 <br />
                 uanset antal tobenede der er med
                 <br />
-                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning
+                derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
@@ -185,24 +197,32 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Rolige gåture" />
           <FlexedRow>
-            <Image src={CoolThree} alt="To hundeejere går med deres hunde på træningsplads under rolige gåture kursus" width="300px" height="200px" />
+            <Image
+              src={CoolThree}
+              alt="To hundeejere går med deres hunde på træningsplads under rolige gåture kursus"
+              width="300px"
+              height="200px"
+            />
             <TextContainer>
               <Text>
                 <b>Med fokus på gå-pænt-teknikker og selvkontrol</b>
                 <br />
                 Til dig der ønsker at få mere afslappede gåture, med en hund der kan finde ro og gå
                 pænt i snor uden at hive armen af dig. Holdet henvender sig til alle hunde i alle
-                aldre, som har tendens til at stresse op på en gåtur og får "travlt". Du får redskaberne til at
-                skabe en kontaktsøgende og rolig hund, gennem forskellige øvelser, der også vil
-                styrke jeres fælles samarbejde.<br />
-                Holdet henvender sig ikke til hunde der reagerer negativt på andre hunde og mennesker.
+                aldre, som har tendens til at stresse op på en gåtur og får "travlt". Du får
+                redskaberne til at skabe en kontaktsøgende og rolig hund, gennem forskellige
+                øvelser, der også vil styrke jeres fælles samarbejde.
+                <br />
+                Holdet henvender sig ikke til hunde der reagerer negativt på andre hunde og
+                mennesker.
               </Text>
               <Text>
                 <b>Deltagelse pr. snude: 275,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
                 <br />
-                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning
+                derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
@@ -218,7 +238,12 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Hilse pænt" />
           <FlexedRow>
-            <Image src={CoolSix} alt="Kvinde bøjer sig ned mod glad labrador der kigger op under hilse pænt træning" width="300px" height="200px" />
+            <Image
+              src={CoolSix}
+              alt="Kvinde bøjer sig ned mod glad labrador der kigger op under hilse pænt træning"
+              width="300px"
+              height="200px"
+            />
             <TextContainer>
               <Text>
                 <b>Fokus på at øve ikke-hoppe-op og hilse roligt</b>
@@ -226,16 +251,19 @@ const DogSummer = () => (
                 Til dig der har en ivrig hund, som bare eeeelsker at hilse på andre.
               </Text>
               <Text>
-                Vi gennemgår teknikker til at lære hunden at blive på jorden med alle 4 poter, når der skal hilses på mennesker. 
-                Derudover kigger vi også på, hvordan vi tillærer hunden at hilse roligt på andre hunde - uden at bruse fremad med stram line.
-                Du vil gå fra dagen med gode teknikker til at lære din hund at finde roen i forbindelse med social kontakt med andre.
+                Vi gennemgår teknikker til at lære hunden at blive på jorden med alle 4 poter, når
+                der skal hilses på mennesker. Derudover kigger vi også på, hvordan vi tillærer
+                hunden at hilse roligt på andre hunde - uden at bruse fremad med stram line. Du vil
+                gå fra dagen med gode teknikker til at lære din hund at finde roen i forbindelse med
+                social kontakt med andre.
               </Text>
               <Text>
                 <b>Deltagelse pr. snude: 275,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
                 <br />
-                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning
+                derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
@@ -313,7 +341,12 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Tricks og Sjov!" />
           <FlexedRow>
-            <Image src={TricksTwo} alt="Hvid terrier ligger på skateboard under tricks og sjov træning" width="300px" height="200px" />
+            <Image
+              src={TricksTwo}
+              alt="Hvid terrier ligger på skateboard under tricks og sjov træning"
+              width="300px"
+              height="200px"
+            />
             <TextContainer>
               <Text>
                 <b>Det perfekte kursus til barn og hund sammen</b>
@@ -332,7 +365,8 @@ const DogSummer = () => (
                 <br />
                 uanset antal tobenede der er med
                 <br />
-                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning
+                derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
@@ -348,21 +382,29 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="Inspiration til hverdagsaktivering" />
           <FlexedRow>
-            <Image src={PuppySix} alt="Hvid hvalp balancerer på blå træningspodier under hverdagsaktivering" width="300px" height="200px" />
+            <Image
+              src={PuppySix}
+              alt="Hvid hvalp balancerer på blå træningspodier under hverdagsaktivering"
+              width="300px"
+              height="200px"
+            />
             <TextContainer>
               <Text>
                 <b>Få velstimulerende opgaver der giver en glad og træt hund</b>
                 <br />
-                Inspiration til hverdagens aktiviteter, der kan trætte din hund godt i hovedet og undgå den finder på unoder.
-                Vi kigger på aktivering, som i kan være fælles om, der oveni styrker jeres samarbejde.
-                Ikke mindst gennemgår vi aktiveringsopgaver til de dage hvor det skal gå hurtigt, hvor hunden kan underholde sig selv mens du får klaret andre gøremål.
+                Inspiration til hverdagens aktiviteter, der kan trætte din hund godt i hovedet og
+                undgå den finder på unoder. Vi kigger på aktivering, som i kan være fælles om, der
+                oveni styrker jeres samarbejde. Ikke mindst gennemgår vi aktiveringsopgaver til de
+                dage hvor det skal gå hurtigt, hvor hunden kan underholde sig selv mens du får
+                klaret andre gøremål.
               </Text>
               <Text>
                 <b>Deltagelse pr. snude: 275,- kr.</b>
                 <br />
                 uanset antal tobenede der er med
                 <br />
-                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning derhjemme.
+                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning
+                derhjemme.
               </Text>
               <Text>Max 5 snuder pr. hold.</Text>
             </TextContainer>
@@ -409,13 +451,17 @@ const DogSummer = () => (
         </Column>
       </Row>
 
-
       {/* LEGESTUE */}
       <Row>
         <Column widthPercentage="100%">
           <TitleCenter text="Legestue opdelt efter størrelse" />
           <FlexedRow>
-            <Image src={PuppyContinuedFive} alt="To hunde leger sammen på græsset under legestue" width="300px" height="200px" />
+            <Image
+              src={PuppyContinuedFive}
+              alt="To hunde leger sammen på græsset under legestue"
+              width="300px"
+              height="200px"
+            />
             <TextContainer>
               <Text>
                 <b>God socialisering under kontrollerede forhold!</b>
@@ -423,20 +469,21 @@ const DogSummer = () => (
                 Alle får en god oplevelse med hjem, da der tages hensyn til den enkelte hund. Oftest
                 startes legen ud med at to hunde lukkes sammen ad gangen, så de kan få lov til at se
                 hinanden an. Det gør det nemt at afbryde legen, hvis det bliver for meget for den
-                ene hund, eller de har brug for en pause. Din hund har sin egen præference for leg. Nogle kan godt
-                lide at løbe og jage, andre elsker at bryde og være vild. Derfor sættes legetimen
-                op, så vi kan se hvilke hunde der passer bedst sammen i legestil.
+                ene hund, eller de har brug for en pause. Din hund har sin egen præference for leg.
+                Nogle kan godt lide at løbe og jage, andre elsker at bryde og være vild. Derfor
+                sættes legetimen op, så vi kan se hvilke hunde der passer bedst sammen i legestil.
               </Text>
               <Text>
-              <b>Legestuerne inddeles i 3 typer:</b>
-              <TextList texts={PlayTypes} />
-            </Text>
-            <Text>
-              <b>Antal pladser til legestuerne</b>
-              <br />
-              For at forholdene er kontrollerede er der begrænsning på hvor mange pladser hver legestue har til rådighed pr. gang:
-              <TextList texts={PlayRoom} />
-            </Text>
+                <b>Legestuerne inddeles i 3 typer:</b>
+                <TextList texts={PlayTypes} />
+              </Text>
+              <Text>
+                <b>Antal pladser til legestuerne</b>
+                <br />
+                For at forholdene er kontrollerede er der begrænsning på hvor mange pladser hver
+                legestue har til rådighed pr. gang:
+                <TextList texts={PlayRoom} />
+              </Text>
               <Text>
                 <b>Deltagelse pr. snude: 145,- kr.</b>
                 <br />
@@ -479,7 +526,7 @@ const DogSummer = () => (
                 Derefter har vi 30 minutter til spørgsmål og opfølgning, hvor hundene hviler i bilerne. Kurset henvender sig til hunde i alle aldre. 
               </Text>
             </TextContainer> */}
-            {/* <TextContainer>
+      {/* <TextContainer>
               <Text>
                 <b>Få kyndig vejledning i at lære din hund at lystre i nye miljøer</b>
                 <br />
@@ -502,13 +549,13 @@ const DogSummer = () => (
                 <i>Lunden</i>, 8700 Horsens med gratis parkering ved siden af Horsens Kunstmuseum
               </Text>
             </TextContainer> */}
-          {/* </FlexedRow>
+      {/* </FlexedRow>
           <br />
           <Text bold>Tilmelding til Fra Reaktiv til RO:</Text>
           <EasyMeList src="https://ezme.io/x/x1S/WvWW" />
         </Column>
       </Row> */}
-      
+
       {/* INTENSIV HVALPEKURSUS */}
       {/* <Row>
         <Column widthPercentage="100%">
@@ -540,7 +587,6 @@ const DogSummer = () => (
         </Column>
       </Row> */}
 
-
       {/* NOSE WORK MED ANJA */}
       <br />
       <br />
@@ -554,39 +600,61 @@ const DogSummer = () => (
         <Column widthPercentage="100%">
           <TitleCenter text="4 timers intensiv introduktion til Nose Work - Lad jagten på duften begynde!" />
           <FlexedRow>
-            <Image src={NWGary} alt="Corgi snuser ved campingvogn under Nose Work træning" width="300px" height="200px" />
+            <Image
+              src={NWGary}
+              alt="Corgi snuser ved campingvogn under Nose Work træning"
+              width="300px"
+              height="200px"
+            />
             <TextContainer>
-            <Text>
+              <Text>
                 <b>Med Hundetræner og Nose Work Instruktør Anja Nielsen fra Anja&Hund</b>
                 <br />
-                Nu har du muligheden for at få en grundig introduktion til en sportsgren, der giver din hund empowerment - selvtillid, kontrol og velvære.
-                Nose Work er næsearbejde sat i system. Det udspringer af professionelt specialsøg, som vi bl.a. kender det fra narkohundes arbejde. 
+                Nu har du muligheden for at få en grundig introduktion til en sportsgren, der giver
+                din hund empowerment - selvtillid, kontrol og velvære. Nose Work er næsearbejde sat
+                i system. Det udspringer af professionelt specialsøg, som vi bl.a. kender det fra
+                narkohundes arbejde.
               </Text>
               <Text>
-                Nose Work er en sjov leg for alle hunde uanset alder, race og øvrige træningsbaggrund. Her er plads til alle. 
-                Nose Work er også for reaktive hunde, da der altid kun er én hund, der arbejder, mens resten venter i bilerne.
+                Nose Work er en sjov leg for alle hunde uanset alder, race og øvrige
+                træningsbaggrund. Her er plads til alle. Nose Work er også for reaktive hunde, da
+                der altid kun er én hund, der arbejder, mens resten venter i bilerne.
               </Text>
               <Text>
-                Kurset er ment som en lyn-introduktion til legen og sporten og vil være en blanding af teori og praksis.
-                Efter kurset har du redskaberne til at kunne arbejde hjemme med de forskellige trin, du bliver præsenteret for på introen.
-                <br />
-                I praksisdelen vil du arbejde med papkassesøg og simpelt indendørssøg. Du får en grundig introduktion til sporten, og kan med din egen hund prøve de første søg. 
-                Det gælder om at få et godt fundamentet for det at søge. Du vil lære at forstærke hundens naturlige søgeadfærd, og du vil lære at læse din hunds signaler (naturlige markeringsadfærd).
+                Kurset er ment som en lyn-introduktion til legen og sporten og vil være en blanding
+                af teori og praksis. Efter kurset har du redskaberne til at kunne arbejde hjemme med
+                de forskellige trin, du bliver præsenteret for på introen.
+                <br />I praksisdelen vil du arbejde med papkassesøg og simpelt indendørssøg. Du får
+                en grundig introduktion til sporten, og kan med din egen hund prøve de første søg.
+                Det gælder om at få et godt fundamentet for det at søge. Du vil lære at forstærke
+                hundens naturlige søgeadfærd, og du vil lære at læse din hunds signaler (naturlige
+                markeringsadfærd).
               </Text>
               <Text>
-                Da Nose Work går ud på at lære din hund at finde specifikke dufte overalt - i alle miljøer - vil du på kurset også lære, hvordan du håndterer de forskellige dufte korrekt. I Nose Work arbejder man med 3 forskellige dufte: Lavendel, eukalyptus og anis. Lavendel er den første duft (iflg. konkurrenceprogrammet), og derfor den duft, vi vil koncentrere os om.
-                Du vil blive præsenteret for lavendelduften både som æterisk olie og som hydrolat. Du lærer, hvordan du med olie kontaminerer (smitter) emner med duft. Det er vigtigt, at dette gøres korrekt, da du ellers kan spolere meget for dig selv og din hund. Og du lærer, hvordan du kan arbejde med hydrolater.
-                Du og din hund får også lov at lave et enkelt søg eller to med parringer (godbid + duft).
+                Da Nose Work går ud på at lære din hund at finde specifikke dufte overalt - i alle
+                miljøer - vil du på kurset også lære, hvordan du håndterer de forskellige dufte
+                korrekt. I Nose Work arbejder man med 3 forskellige dufte: Lavendel, eukalyptus og
+                anis. Lavendel er den første duft (iflg. konkurrenceprogrammet), og derfor den duft,
+                vi vil koncentrere os om. Du vil blive præsenteret for lavendelduften både som
+                æterisk olie og som hydrolat. Du lærer, hvordan du med olie kontaminerer (smitter)
+                emner med duft. Det er vigtigt, at dette gøres korrekt, da du ellers kan spolere
+                meget for dig selv og din hund. Og du lærer, hvordan du kan arbejde med hydrolater.
+                Du og din hund får også lov at lave et enkelt søg eller to med parringer (godbid +
+                duft).
               </Text>
               <Text>
-                Alle deltagere på kurset vil få udleveret et startkit til videre træning hjemme. Startkittet består af:
+                Alle deltagere på kurset vil få udleveret et startkit til videre træning hjemme.
+                Startkittet består af:
                 <TextListMark texts={NW} />
                 Kurset har plads til max 4 hunde, så der er god tid til hver.
               </Text>
               <Text>
                 <b>Deltagelse pr. hund: 1.095,- kr.</b>
                 <br />
-                <i>Bemærk din hund skal være tryg ved at sidde og vente i bilen, da hundene er på én ad gangen!</i>                
+                <i>
+                  Bemærk din hund skal være tryg ved at sidde og vente i bilen, da hundene er på én
+                  ad gangen!
+                </i>
               </Text>
             </TextContainer>
           </FlexedRow>

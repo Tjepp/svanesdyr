@@ -1,17 +1,15 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { OnlineCoverCool } from '../assets';
 import {
-  LandingpageOnline,
-  Column,
-  TitleCenter,
-  TextCenter,
-  Image,
-  Row,
   ButtonOnline,
+  Column,
+  Image,
+  LandingpageOnline,
+  Row,
+  TextCenter,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { OnlineCoverCool } from '../assets';
 import '../components/table/TableCss.css';
 
 const OnlineWebinarThankCool = () => (
@@ -19,7 +17,11 @@ const OnlineWebinarThankCool = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverCool} alt="Coverbillede for webinar om at holde hunden cool" priority />
+          <Image
+            src={OnlineCoverCool}
+            alt="Coverbillede for webinar om at holde hunden cool"
+            priority
+          />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>

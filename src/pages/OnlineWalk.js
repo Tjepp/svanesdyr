@@ -1,25 +1,23 @@
-import React from 'react';
 import styled from 'styled-components';
-
+import { FrontNoOne, OnlineCoverWalk, TestiOnlineWalkOne, TestiOnlineWalkTwo } from '../assets';
 import {
-  LandingpageOnline,
+  ButtonOnline,
   Column,
+  FlexedRow,
+  Image,
+  LandingpageOnline,
+  LPHeadlineWalk,
   MetaOnlineWalk,
-  TitleCenter,
+  Row,
   Text,
   TextCenter,
   TextContainer,
-  Image,
-  Row,
-  FlexedRow,
   TextList,
-  TextListMark,
   TextListArrow,
-  LPHeadlineWalk,
-  ButtonOnline,
+  TextListMark,
+  TitleCenter,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
-import { FrontNoOne, OnlineCoverWalk, TestiOnlineWalkOne, TestiOnlineWalkTwo } from '../assets';
 import '../components/table/TableCss.css';
 
 const LPstep3 = [
@@ -62,7 +60,11 @@ const OnlineWalk = () => (
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverWalk} alt="Forside til online kursus om rolige gåture med hund" priority />
+          <Image
+            src={OnlineCoverWalk}
+            alt="Forside til online kursus om rolige gåture med hund"
+            priority
+          />
           <br />
           <TitleCenter
             text="Til dig der ønsker en afslappet og kontaktsøgende hund, der kan nyde gåturen sammen med
@@ -139,7 +141,12 @@ const OnlineWalk = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="”Mange af de ting, du har sagt, har været en kæmpe øjenåbner. Nogle ting var jeg klar over, men aldrig tillagt så stor betydning, og andre ting var helt nye (som det at omgivelser er så vigtige)”" />
           <FlexedRow>
-            <Image src={TestiOnlineWalkOne} width="200px" height="300px" alt="Sanne og hendes hund Karla der har fået succes med gåturene" />
+            <Image
+              src={TestiOnlineWalkOne}
+              width="200px"
+              height="300px"
+              alt="Sanne og hendes hund Karla der har fået succes med gåturene"
+            />
             <TextContainer>
               <Text>
                 Mest bed jeg mærke i, at hunden skal <b>guides</b> til den ønskede adfærd, og dermed
@@ -168,7 +175,12 @@ const OnlineWalk = () => (
         <Column widthPercentage="80%">
           <TitleCenter text=" ”Min store succesoplevelse var ved synet af en ”farlig” hund 50 meter fremme reagerede Marley med at sætte sig ned foran mig og kigge op på mig. Han fik masser af godbidder mens hunden passerede. Masser af ros. Og jeg var stolt som en pave!” " />
           <FlexedRow>
-            <Image src={TestiOnlineWalkTwo} width="200px" height="300px" alt="Katrine og hendes hund Marley der nu søger kontakt på gåture" />
+            <Image
+              src={TestiOnlineWalkTwo}
+              width="200px"
+              height="300px"
+              alt="Katrine og hendes hund Marley der nu søger kontakt på gåture"
+            />
             <TextContainer>
               <Text>
                 Jeg har tidligere oplevet store problemer med at overføre lærte teknikker fra
@@ -216,7 +228,12 @@ const OnlineWalk = () => (
         <Column widthPercentage="80%">
           <TitleCenter text="Undervisningen leveres af din erfarne Dyreadfærdskonsulent" />
           <FlexedRow>
-            <Image src={FrontNoOne} width="300px" height="200px" alt="Dyreadfærdskonsulent Sabrina Svane med hund" />
+            <Image
+              src={FrontNoOne}
+              width="300px"
+              height="200px"
+              alt="Dyreadfærdskonsulent Sabrina Svane med hund"
+            />
             <TextContainer>
               <Text bold>Sabrina Svane</Text>
               <Text>

@@ -1,9 +1,9 @@
-import React, { useState, useCallback } from 'react';
 import axios from 'axios';
+import { useCallback, useState } from 'react';
 import styled from 'styled-components';
 import Responsive from './layout/Responsive';
-import Text from './Text';
 import StyledA from './links/StyledExternal';
+import Text from './Text';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -45,15 +45,15 @@ const ContactForm = () => {
     axios
       .post(
         'https://formcarry.com/s/WFZnCcWzbDe',
-        { 
-          name: formData.name, 
-          phoneNo: formData.phoneNo, 
-          email: formData.email, 
-          message: formData.message 
+        {
+          name: formData.name,
+          phoneNo: formData.phoneNo,
+          email: formData.email,
+          message: formData.message,
         },
         {
           headers: { Accept: 'application/json' },
-        }
+        },
       )
       .then(() => {
         setSent(true);

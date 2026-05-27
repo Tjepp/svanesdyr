@@ -1,22 +1,20 @@
-/* eslint-disable react/no-unescaped-entities */
-import React from 'react';
 import styled from 'styled-components';
 
 import {
-  Page,
   Banner,
+  BreadCrumps,
   Column,
+  Image,
   Meta,
+  Page,
+  Row,
+  Text,
   Title,
   TitleColor,
-  Text,
-  BreadCrumps,
-  Row,
-  Image,
 } from '../components';
 import Responsive from '../components/layout/Responsive';
 import '../components/table/TableCss.css';
-import { sabrinaAndBarney, methodOne, methodTwo } from '../assets';
+import { methodOne, methodTwo, sabrinaAndBarney } from '../assets';
 
 const MyMethods = () => (
   <Page>
@@ -80,7 +78,10 @@ const MyMethods = () => (
       </Row>
       <Row marginBottom="25px">
         <Column>
-          <Image src={methodOne} alt="Diagram over forskellige indlæringsmetoder til hundetræning" />
+          <Image
+            src={methodOne}
+            alt="Diagram over forskellige indlæringsmetoder til hundetræning"
+          />
           <TitleColor text="Forskel på indlæringsmetoder" smallTitle />
           <Text>
             Billedet ovenfor viser de fem forskellige konsekvenser, som følger adfærd (her vist med
@@ -115,7 +116,10 @@ const MyMethods = () => (
           </Text>
         </Column>
         <Column>
-          <Image src={methodTwo} alt="Illustration af shaping metoden som trappe til at forme adfærd" />
+          <Image
+            src={methodTwo}
+            alt="Illustration af shaping metoden som trappe til at forme adfærd"
+          />
           <TitleColor text="Shaping: Form adfærd du kan lide" smallTitle />
           <Text>
             Shaping er formning af adfærd via trinvise tilnærmelser til denne adfærd. Man kan
@@ -131,7 +135,10 @@ const MyMethods = () => (
           </Text>
         </Column>
         <Column>
-          <Image src={sabrinaAndBarney} alt="Sabrina Svane træner med sin corgi Barney ved hjælp af klikker" />
+          <Image
+            src={sabrinaAndBarney}
+            alt="Sabrina Svane træner med sin corgi Barney ved hjælp af klikker"
+          />
           <TitleColor text="Markér korrekt adfærd!" smallTitle />
           <Text>
             For at træningen og hverdagens opdragelse skal være succesfuld og give fremskridt, så er

@@ -1,11 +1,10 @@
-import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
-import { TitleColor, Text, TextContainer, FlexedRow } from '..';
+import { TestiCoolSix, TestiCoolTwo, TestiReactiveOne, TestiReactiveTwo } from '../../assets';
+import { FlexedRow, Text, TextContainer, TitleColor } from '..';
 import TestimonialImage from './TestimonialImage';
-import { TestiCoolTwo, TestiCoolSix, TestiReactiveOne, TestiReactiveTwo } from '../../assets';
 
 const DogReactiveTestimonials = () => (
   <Carousel
@@ -18,7 +17,10 @@ const DogReactiveTestimonials = () => (
     swipeScrollTolerance={30}
   >
     <FlexedRow>
-      <TestimonialImage src={TestiReactiveOne} alt="Billede fra kunde til udtalelse om reaktiv hundetræning" />
+      <TestimonialImage
+        src={TestiReactiveOne}
+        alt="Billede fra kunde til udtalelse om reaktiv hundetræning"
+      />
       <TextContainer>
         <TitleColor text=" ”Jeg er blevet mere rolig og kan læse Riley bedre. Jeg lægger meget mere mærke til de små fremskridt og det, der går godt, i stedet for kun at fokusere på udfordringerne. Det har gjort en stor forskel for både Riley og jeg.” " />
         <Text>
@@ -45,7 +47,10 @@ const DogReactiveTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <TestimonialImage src={TestiReactiveTwo} alt="Billede fra kunde til udtalelse om reaktiv hundetræning" />
+      <TestimonialImage
+        src={TestiReactiveTwo}
+        alt="Billede fra kunde til udtalelse om reaktiv hundetræning"
+      />
       <TextContainer>
         <TitleColor text=" ”Jeg kan mærke forskel på min hund! Bella er mere rolig, tager mere kontakt til os og jeg har fået flere redskaber med hjem til at få mere ro på” " />
         <Text>
@@ -70,7 +75,10 @@ const DogReactiveTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <TestimonialImage src={TestiCoolSix} alt="Billede fra kunde til udtalelse om reaktiv hundetræning" />
+      <TestimonialImage
+        src={TestiCoolSix}
+        alt="Billede fra kunde til udtalelse om reaktiv hundetræning"
+      />
       <TextContainer>
         <TitleColor text=" ”Vi har fået mere tro på, at vores mål kan lykkes og vi fået værktøjer, vi kan bruge fremadrettet” " />
         <Text>
@@ -111,7 +119,10 @@ const DogReactiveTestimonials = () => (
     </FlexedRow>
 
     <FlexedRow>
-      <TestimonialImage src={TestiCoolTwo} alt="Billede fra kunde til udtalelse om reaktiv hundetræning" />
+      <TestimonialImage
+        src={TestiCoolTwo}
+        alt="Billede fra kunde til udtalelse om reaktiv hundetræning"
+      />
       <TextContainer>
         <TitleColor text=" ”Vi fik øjnene op for at selv angste hunde godt kan med andre” " />
         <Text>

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import React from 'react';
 import Responsive from './layout/Responsive';
 
 const FacebookColumn = () => {
@@ -7,7 +6,8 @@ const FacebookColumn = () => {
     <ColumnContainer>
       <Title> Facebook </Title>
       <div>
-        Følg mig på facebook, hvis du ønsker at få gode tips til at gøre hverdagen lettere for dig og din hund.
+        Følg mig på facebook, hvis du ønsker at få gode tips til at gøre hverdagen lettere for dig
+        og din hund.
       </div>
       <MarginBottom />
       <IframeContainer>

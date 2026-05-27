@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
 import { InfoWindow, Marker } from '@react-google-maps/api';
 import PropTypes from 'prop-types';
+import { useState } from 'react';
 
 const MapsInfoMarker = ({ position, text }) => {
   const [isOpen, setIsOpen] = useState(false);
