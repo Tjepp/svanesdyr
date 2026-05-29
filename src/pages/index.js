@@ -24,6 +24,7 @@ export { default as LawList } from './LawList';
 export { default as LawPrivate } from './LawPrivate';
 export { default as Lecture } from './Lecture';
 export { default as MyMethods } from './MyMethods';
+export { default as NotFound } from './NotFound';
 export { default as OnlineCourses } from './OnlineCourses';
 export { default as OnlineCoursesThanks } from './OnlineCoursesThanks';
 export { default as OnlineEbookCatScratch } from './OnlineEbookCatScratch';

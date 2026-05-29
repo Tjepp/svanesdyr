@@ -43,6 +43,7 @@ import {
   LawPrivate,
   Lecture,
   MyMethods,
+  NotFound,
   OnlineCourses,
   OnlineCoursesThanks,
   OnlineEbookCatScratch,
@@ -122,6 +123,7 @@ const App = () => {
         <Route path="/webinartak" exact element={<OnlineWebinarThankPage />} />
         <Route path="/snackshoppen" exact element={<Snackshop />} />
         <Route path="/prisoversigt" exact element={<Prices />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
