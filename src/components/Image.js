@@ -8,7 +8,7 @@ const Image = ({
   alt = '',
   sizes = '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px',
   width = '100%',
-  height = '100%',
+  aspectRatio = '4 / 3',
   priority = false,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,7 +52,7 @@ const Image = ({
           loading={priority ? undefined : 'lazy'}
           fetchPriority={priority ? 'high' : undefined}
           $width={width}
-          $height={height}
+          $aspectRatio={aspectRatio}
           onClick={handleShowDialog}
         />
       </ImageContainer>
@@ -70,7 +70,7 @@ Image.propTypes = {
   alt: PropTypes.string,
   sizes: PropTypes.string,
   width: PropTypes.string,
-  height: PropTypes.string,
+  aspectRatio: PropTypes.string,
   priority: PropTypes.bool,
 };
 
@@ -87,8 +87,9 @@ const ImageContainer = styled.div`
 `;
 
 const StyledImage = styled.img`
-  height: ${(props) => props.$height};
   width: ${(props) => props.$width};
+  aspect-ratio: ${(props) => props.$aspectRatio};
+  object-fit: cover;
   display: block;
 `;
 

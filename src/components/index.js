@@ -30,7 +30,6 @@ export { default as StyledExternal } from './links/StyledExternal';
 export { default as StyledLink } from './links/StyledLink';
 export { default as StyledLinkOnline } from './links/StyledLinkOnline';
 export { default as StyledMenuLinkWithIcon } from './links/StyledMenuLinkWithIcon';
-export { default as MapsInfoMarker } from './MapsInfoMarker';
 export { default as Menu } from './menu/Menu';
 export { default as Meta } from './meta/Meta';
 export { default as MetaConsultAggression } from './meta/MetaConsultAggression';

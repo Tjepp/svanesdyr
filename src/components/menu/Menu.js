@@ -80,9 +80,11 @@ const Img = styled.img`
   border: 0;
   width: 400px;
   height: 100px;
+  aspect-ratio: 4 / 1;
   ${Responsive.media.tablet`
     align-self: center;
     width: 100%;
+    height: auto;
   `}
   margin-bottom: 5px;
   margin-top: 5px;

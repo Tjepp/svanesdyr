@@ -12,6 +12,13 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Preload critical images for LCP -->
+    <link rel="preload" as="image" href="/img/Hundesprogsklubben.png?w=400" 
+          imagesrcset="/img/Hundesprogsklubben.png?w=400 400w, /img/Hundesprogsklubben.png?w=800 800w"
+          imagesizes="(max-width: 768px) 100vw, 400px">
+    <link rel="preload" as="image" href="/img/LogoUpdate.png?w=400"
+          imagesrcset="/img/LogoUpdate.png?w=400 400w, /img/LogoUpdate.png?w=800 800w"
+          imagesizes="(max-width: 768px) 100vw, 400px">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -22,16 +29,22 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 
-    <!-- Global site tag (gtag.js) - Google Ads: 964571159 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-964571159"></script>
+    <!-- Google Ads - deferred for performance -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'AW-964571159');
+      window.addEventListener('load', function() {
+        var script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-964571159';
+        script.async = true;
+        document.head.appendChild(script);
+        
+        script.onload = function() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          window.gtag = gtag;
+          gtag('js', new Date());
+          gtag('config', 'AW-964571159');
+        };
+      });
     </script>
 
     <title>Svanesdyr</title>
