@@ -20,6 +20,7 @@ const OnlineEbookThanks = () => (
           <Image
             src={OnlineCoverPuppyFive}
             alt="Coverbillede for e-bog om hvalpeopdragelse"
+            aspectRatio="1140 / 470"
             priority
           />
           <br />

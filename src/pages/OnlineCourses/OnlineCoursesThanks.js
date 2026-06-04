@@ -20,6 +20,7 @@ const OnlineCoursesThanks = () => (
           <Image
             src={OnlineCoverCourses}
             alt="Coverbillede for onlinekurser med hundetræning"
+            aspectRatio="1140 / 470"
             priority
           />
           <br />

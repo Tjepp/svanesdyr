@@ -77,6 +77,7 @@ const OnlineEbookCatScratch = () => (
           <Image
             src={OnlineCoverCatScratch}
             alt="Forside til e-bog om kattekradsning med kat ved kradsetræ"
+            aspectRatio="1140 / 470"
             priority
           />
           <br />
@@ -137,21 +138,19 @@ const OnlineEbookCatScratch = () => (
           <TitleCenter text="Udover alt dette får du også disse helt konkrete værktøjer:" />
           <TextListMark texts={LPstep8} />
           <TextCenter>Fordelt over 3 letlæselige og appetitlige kapitler:</TextCenter>
-          <FlexedRow>
+          <FlexedRow justifyContent="space-evenly">
             <Image
               src={OnlineCatsOne}
               width="300px"
               height="400px"
               alt="Kapitel 1 om kattens kradsebehov og præferencer"
             />
-            <br />
             <Image
               src={OnlineCatsTwo}
               width="300px"
               height="400px"
               alt="Kapitel 2 om at gøre kradsetræet attraktivt"
             />
-            <br />
             <Image
               src={OnlineCatsThree}
               width="300px"

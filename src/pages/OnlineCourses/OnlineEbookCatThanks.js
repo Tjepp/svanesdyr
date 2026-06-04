@@ -20,6 +20,7 @@ const OnlineEbookCatThanks = () => (
           <Image
             src={OnlineCoverCatScratch}
             alt="Coverbillede for e-bog om kattekradsetræning"
+            aspectRatio="1140 / 470"
             priority
           />
           <br />

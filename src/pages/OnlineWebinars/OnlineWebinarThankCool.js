@@ -20,6 +20,7 @@ const OnlineWebinarThankCool = () => (
           <Image
             src={OnlineCoverCool}
             alt="Coverbillede for webinar om at holde hunden cool"
+            aspectRatio="1140 / 470"
             priority
           />
           <br />

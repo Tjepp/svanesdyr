@@ -20,6 +20,7 @@ const OnlineWebinarThankPage = () => (
           <Image
             src={OnlineCoverDogPlay}
             alt="Coverbillede for webinar om kontrolleret hundeleg"
+            aspectRatio="1140 / 470"
             priority
           />
           <br />

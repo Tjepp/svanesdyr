@@ -83,6 +83,7 @@ const OnlineEbookPuppyFive = () => (
           <Image
             src={OnlineCoverPuppyFive}
             alt="Forside til e-bog om hvalpetræning med glad border collie hvalp"
+            aspectRatio="1140 / 470"
             priority
           />
           <br />

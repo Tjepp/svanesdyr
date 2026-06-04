@@ -63,6 +63,7 @@ const DogSummer = () => (
     <Image
       src={OnlineCoverSummer}
       alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser 2026"
+      aspectRatio="1140 / 470"
       priority
     />
 
