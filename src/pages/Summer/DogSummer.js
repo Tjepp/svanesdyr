@@ -6,14 +6,8 @@ import {
   OnlineCoverSummer,
   PuppyContinuedFive,
   PuppySix,
-  RecallOne,
-  TricksOne,
-  // NailClipSix,
-  // CoolAgainOne,
-  // PuppySeven,
-  // PuppyContinuedOne,
   TricksTwo,
-} from '../assets';
+} from '../../assets';
 import {
   Column,
   ContactPopUp,
@@ -29,10 +23,11 @@ import {
   TextContainer,
   TextList,
   TextListMark,
+  Title,
   TitleCenter,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+} from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import SummerMenu from '../../components/menu/SummerMenu';
 
 const Spotliste = [
   'Hvert kursus varer op til 90 minutter',
@@ -65,28 +60,32 @@ const NW = [
 const DogSummer = () => (
   <LandingpageOnline>
     <MetaDogSummer />
+    <Image
+      src={OnlineCoverSummer}
+      alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser 2026"
+      priority
+    />
+
     <Background>
       <Row>
-        <Column widthPercentage="100%">
-          <Image
-            src={OnlineCoverSummer}
-            alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser 2025"
-            priority
-          />
-          <br />
+        <Column widthPercentage="20%">
+          <Title text="Udbud af sommerkurser" showHorizontalRuler />
+          <SummerMenu />
+        </Column>
+        <Column widthPercentage="75%">
           <TitleCenter text="Til dig der ønsker at tilbringe sommerdagene i uge 30 eller 31 sammen med din hund" />
           <TextCenter>
-            Kom med og brug nogle af de solrige sommerdage i Nim i godt selskab med andre
-            hundesnuder. Tag både din bedre halvdel og børnene med til en hyggelig stund - alle er
-            velkomne!
+            Kom med og brug nogle af de solrige sommerdage i Nim, nær Horsens og Brædstrup i godt
+            selskab med andre hundesnuder. Tag både din bedre halvdel og børnene med til en hyggelig
+            hundetræning stund - alle er velkomne!
           </TextCenter>
-          <TextCenter bold>Der udbydes igen i år de populære sommerkurser!</TextCenter>
+          <TextCenter bold>Der udbydes igen i år de populære sommerkurser for hunde!</TextCenter>
           <TextCenter>
             Fælles for alle sommerkurser er:
             <TextListMark texts={Spotliste} />
           </TextCenter>
           <TextCenter>
-            Alle sommerens kurser foregår på træningspladsen Horsensvej 31, Nim, 8740 Brædstrup.
+            Alle sommerens hundehold foregår på træningspladsen Horsensvej 31, Nim, 8740 Brædstrup.
           </TextCenter>
           <br />
           <TitleCenter text="Er sommerkurset du vil med på fyldt??" />
@@ -103,92 +102,6 @@ const DogSummer = () => (
       <Row>
         <Column widthPercentage="100%">
           <LPHeadlineWalk text="Udbud af sommerkurser" />
-        </Column>
-      </Row>
-
-      {/* INDKALD */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Indkald begynder og øvet" />
-          <FlexedRow>
-            <Image
-              src={RecallOne}
-              alt="Hundetræner giver godbid til lille hund der ligger på græsset"
-              width="300px"
-              height="200px"
-            />
-            <TextContainer>
-              <Text>
-                <b>Indkald Basis</b>
-                <br />
-                Basisholdet henvender sig til alle hunde i alle aldre, der har brug for et sikkert
-                indkald. Du vil lære at skabe stor motivation i din hund ved at bruge effektive
-                belønningsteknikker, så din hund får en høj forventning til dit fantastiske indkald.
-                Vi vil gennemgå lette og sjove lege, som får din hund til at synes at indkald er en
-                FEST.
-              </Text>
-              <Text>
-                <b>Indkald Øvet</b>
-                <br />
-                Føler du din hund kommer 9/10 gange? Men nogle gange ignorerer dig når du kalder? På
-                øvet gennemgår vi forskellige forstyrrelseslege, som lærer din hund, at selvom der
-                er spændende ting at give sig til, så er det stadig FEDT at komme når du kalder!
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 275,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-                <br />
-                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning
-                derhjemme.
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Indkaldskursus:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/CUEH" />
-        </Column>
-      </Row>
-
-      {/* FITNESS */}
-      <Row>
-        <Column widthPercentage="100%">
-          <TitleCenter text="Fitness for alle" />
-          <FlexedRow>
-            <Image
-              src={TricksOne}
-              alt="Hund balancerer med forpoter og bagpoter på balancepuder under træning"
-              width="300px"
-              height="200px"
-            />
-            <TextContainer>
-              <Text>
-                <b>Fokus på god kropskontrol og kropsbevidsthed</b>
-                <br />
-                Til dig der ønsker at styrke din hunds bevidsthed om sin egen krop! Vi vil gennemgå
-                øvelser der fokuserer på kontrol af alle fire poter, forparts- og bagpartskontrol og
-                styrke- / balanceopgaver.
-              </Text>
-              <Text>
-                Holdet henvender sig især også til dig der ønsker nye måder at trætte hunden på
-                mentalt, gennem små, sjove opgaver, som styrker jeres samarbejde og ikke mindst
-                hundens selvtillid. Alle hunde i alle aldre kan deltage.
-              </Text>
-              <Text>
-                <b>Deltagelse pr. snude: 275,- kr.</b>
-                <br />
-                uanset antal tobenede der er med
-                <br />
-                Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning
-                derhjemme.
-              </Text>
-              <Text>Max 5 snuder pr. hold.</Text>
-            </TextContainer>
-          </FlexedRow>
-          <br />
-          <Text bold>Tilmelding til Fitness for Alle:</Text>
-          <EasyMeList src="https://ezme.io/x/x1S/dmM1" />
         </Column>
       </Row>
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { OnlineCoverCourses } from '../assets';
+import { OnlineCoverDogPlay } from '../../assets';
 import {
   ButtonOnline,
   Column,
@@ -8,24 +8,27 @@ import {
   Row,
   TextCenter,
   TitleCenter,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+} from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import '../../components/table/TableCss.css';
 
-const OnlineCoursesThanks = () => (
+const OnlineWebinarThankPage = () => (
   <LandingpageOnline noindex>
     <Background>
       <Row>
         <Column widthPercentage="100%">
           <Image
-            src={OnlineCoverCourses}
-            alt="Coverbillede for onlinekurser med hundetræning"
+            src={OnlineCoverDogPlay}
+            alt="Coverbillede for webinar om kontrolleret hundeleg"
             priority
           />
           <br />
-          <TitleCenter text="Wooohoooo! Du har fået adgang til dit onlinekursus!" />
+          <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>
-            Tusind tak for din investering i din hund og jeres fremtid sammen!
+            Tusind tak for din investering i din hund og din tiltro til mig!
+            <br />
+            Jeg glææææder mig til at nørde adfærd i et par timer og give dig redskaberne til at
+            spotte forskellen mellem god og dårlig hundeleg!
             <br />
           </TextCenter>
         </Column>
@@ -33,7 +36,7 @@ const OnlineCoursesThanks = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en bekræftelse på mail med et link til dit onlinekursus" />
+          <TitleCenter text="Du får lige straks en mail med bekræftelse på din tilmelding" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -42,12 +45,12 @@ const OnlineCoursesThanks = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter color="#872f35" text="God fornøjelse!" />
+          <TitleCenter color="#872f35" text="Vi ses inden længe!" />
         </Column>
       </Row>
 
       <ButtonOnline
-        text="Lad mig se hvad du ellers tilbyder af onlinekurser! Tag mig tilbage til hjemmesiden"
+        text="Lad mig se hvad du ellers tilbyder af onlinekurser! Tag mig til hjemmesiden"
         href="https://www.svanesdyr.dk/onlinekurser"
       ></ButtonOnline>
       <br />
@@ -56,7 +59,7 @@ const OnlineCoursesThanks = () => (
   </LandingpageOnline>
 );
 
-export default OnlineCoursesThanks;
+export default OnlineWebinarThankPage;
 
 const Background = styled.div`
   background: #fff;

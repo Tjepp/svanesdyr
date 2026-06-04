@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { OnlineCoverWalk } from '../assets';
+import { OnlineCoverCool } from '../../assets';
 import {
   ButtonOnline,
   Column,
@@ -8,18 +8,18 @@ import {
   Row,
   TextCenter,
   TitleCenter,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+} from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import '../../components/table/TableCss.css';
 
-const OnlineThankPage = () => (
+const OnlineWebinarThankCool = () => (
   <LandingpageOnline noindex>
     <Background>
       <Row>
         <Column widthPercentage="100%">
           <Image
-            src={OnlineCoverWalk}
-            alt="Coverbillede for onlinekursus om gåture med hund"
+            src={OnlineCoverCool}
+            alt="Coverbillede for webinar om at holde hunden cool"
             priority
           />
           <br />
@@ -27,7 +27,8 @@ const OnlineThankPage = () => (
           <TextCenter>
             Tusind tak for din investering i din hund og din tiltro til mig!
             <br />
-            Jeg glææææder mig til at hjælpe både dig og din hund med at få mere succes på gåturen!.
+            Jeg glææææder mig til at nørde adfærd i et par timer og give dig redskaberne til at
+            skabe mere ro i mødet med andre hunde på gåturene!
             <br />
           </TextCenter>
         </Column>
@@ -35,7 +36,7 @@ const OnlineThankPage = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en velkomstmail med oplysninger om dit kursus og adgang til den lukkede facebookgruppe" />
+          <TitleCenter text="Du får lige straks en mail med bekræftelse på din tilmelding!" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -44,13 +45,13 @@ const OnlineThankPage = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter color="#872f35" text="Vi ses inden længe!" />
+          <TitleCenter color="#872f35" text="Vi ses online!" />
         </Column>
       </Row>
 
       <ButtonOnline
-        text="Jeg er SÅ klar! Før mig straks ind til den lukkede facebookgruppe"
-        href="https://www.facebook.com/groups/drommegaaturenmarts2022"
+        text="Lad mig se hvad du ellers tilbyder af onlinekurser! Tag mig til hjemmesiden"
+        href="https://www.svanesdyr.dk/onlinekurser"
       ></ButtonOnline>
       <br />
       <br />
@@ -58,7 +59,7 @@ const OnlineThankPage = () => (
   </LandingpageOnline>
 );
 
-export default OnlineThankPage;
+export default OnlineWebinarThankCool;
 
 const Background = styled.div`
   background: #fff;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { OnlineCoverDogPlay } from '../assets';
+import { OnlineCoverSummer } from '../../assets';
 import {
   ButtonOnline,
   Column,
@@ -8,27 +8,22 @@ import {
   Row,
   TextCenter,
   TitleCenter,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+} from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import '../../components/table/TableCss.css';
 
-const OnlineWebinarThankPage = () => (
+const SummerThanks = () => (
   <LandingpageOnline noindex>
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image
-            src={OnlineCoverDogPlay}
-            alt="Coverbillede for webinar om kontrolleret hundeleg"
-            priority
-          />
+          <Image src={OnlineCoverSummer} alt="Coverbillede for sommerkursus med hund" priority />
           <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>
-            Tusind tak for din investering i din hund og din tiltro til mig!
+            Tusind tak for din investering i din hund og jeres sommerferie sammen!
             <br />
-            Jeg glææææder mig til at nørde adfærd i et par timer og give dig redskaberne til at
-            spotte forskellen mellem god og dårlig hundeleg!
+            Jeg glææææder mig til at se både dig og din hund til nogle dejlige sommerdage!
             <br />
           </TextCenter>
         </Column>
@@ -36,7 +31,7 @@ const OnlineWebinarThankPage = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en mail med bekræftelse på din tilmelding" />
+          <TitleCenter text="Du får lige straks en bekræftelse på mail med oplysninger om dit sommerkursus" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -50,8 +45,8 @@ const OnlineWebinarThankPage = () => (
       </Row>
 
       <ButtonOnline
-        text="Lad mig se hvad du ellers tilbyder af onlinekurser! Tag mig til hjemmesiden"
-        href="https://www.svanesdyr.dk/onlinekurser"
+        text="Jeg skal booke flere sommerkurser! Tag mig retur til katalogets side"
+        href="https://www.svanesdyr.dk/sommerhund"
       ></ButtonOnline>
       <br />
       <br />
@@ -59,7 +54,7 @@ const OnlineWebinarThankPage = () => (
   </LandingpageOnline>
 );
 
-export default OnlineWebinarThankPage;
+export default SummerThanks;
 
 const Background = styled.div`
   background: #fff;

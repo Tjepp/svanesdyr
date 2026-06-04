@@ -14,12 +14,12 @@ const Home = () => {
       <MediaQuery minWidth={Responsive.sizes.tablet}>
         {(matches) =>
           matches ? (
-            <Banner text="Information om kommende hundehold, se her:">
-              <Button text="HUNDEHOLD" href="/hundehold" />
+            <Banner text="Hundetræning og hvalpehold i Nim, nær Horsens og Brædstrup:">
+              <Button text="FIND HUNDEHOLD" href="/hundehold" />
             </Banner>
           ) : (
             <ButtonContainer>
-              <Button text="HUNDEHOLD" href="/hundehold" />
+              <Button text="FIND HUNDEHOLD" href="/hundehold" />
             </ButtonContainer>
           )
         }

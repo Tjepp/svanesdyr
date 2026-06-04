@@ -1,31 +1,19 @@
 import styled from 'styled-components';
-import { OnlineCoverPuppyFive } from '../assets';
-import {
-  ButtonOnline,
-  Column,
-  Image,
-  LandingpageOnline,
-  Row,
-  TextCenter,
-  TitleCenter,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+import { LogoUpdateBlack } from '../../assets';
+import { Column, Image, LandingpageOnline, Row, TextCenter, TitleCenter } from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import '../../components/table/TableCss.css';
 
-const OnlineEbookThanks = () => (
+const OnlineSoundbookThanks = () => (
   <LandingpageOnline noindex>
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image
-            src={OnlineCoverPuppyFive}
-            alt="Coverbillede for e-bog om hvalpeopdragelse"
-            priority
-          />
+          <Image src={LogoUpdateBlack} alt="Svanes Dyr logo" priority />
           <br />
           <TitleCenter text="Wooohoooo! Det lykkedes!" />
           <TextCenter>
-            Tusind tak for din investering i din hvalp og din tiltro til mig!
+            Tusind tak for din investering i din hund og din tiltro til mig!
             <br />
           </TextCenter>
         </Column>
@@ -33,7 +21,7 @@ const OnlineEbookThanks = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en mail med din E-bog vedhæftet til direkte download!" />
+          <TitleCenter text="Du får lige straks en mail med dit link til at hente din Lydbog direkte" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -46,18 +34,13 @@ const OnlineEbookThanks = () => (
         </Column>
       </Row>
 
-      <ButtonOnline
-        text="Lad mig se hvad du ellers tilbyder af onlinekurser! Tag mig tilbage til hjemmesiden"
-        href="https://www.svanesdyr.dk/onlinekurser"
-      ></ButtonOnline>
-
       <br />
       <br />
     </Background>
   </LandingpageOnline>
 );
 
-export default OnlineEbookThanks;
+export default OnlineSoundbookThanks;
 
 const Background = styled.div`
   background: #fff;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { OnlineCoverSummer } from '../assets';
+import { OnlineCoverPuppyFive } from '../../assets';
 import {
   ButtonOnline,
   Column,
@@ -8,22 +8,24 @@ import {
   Row,
   TextCenter,
   TitleCenter,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+} from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import '../../components/table/TableCss.css';
 
-const OnlineSummerThanks = () => (
+const OnlineEbookThanks = () => (
   <LandingpageOnline noindex>
     <Background>
       <Row>
         <Column widthPercentage="100%">
-          <Image src={OnlineCoverSummer} alt="Coverbillede for sommerkursus med hund" priority />
+          <Image
+            src={OnlineCoverPuppyFive}
+            alt="Coverbillede for e-bog om hvalpeopdragelse"
+            priority
+          />
           <br />
-          <TitleCenter text="Wooohoooo! Du er med!" />
+          <TitleCenter text="Wooohoooo! Det lykkedes!" />
           <TextCenter>
-            Tusind tak for din investering i din hund og jeres sommerferie sammen!
-            <br />
-            Jeg glææææder mig til at se både dig og din hund til nogle dejlige sommerdage!
+            Tusind tak for din investering i din hvalp og din tiltro til mig!
             <br />
           </TextCenter>
         </Column>
@@ -31,7 +33,7 @@ const OnlineSummerThanks = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter text="Du får lige straks en bekræftelse på mail med oplysninger om dit sommerkursus" />
+          <TitleCenter text="Du får lige straks en mail med din E-bog vedhæftet til direkte download!" />
           <TextCenter>
             Føler du dig snydt, så tjek din spam mappe - måske putter jeg mig der.
           </TextCenter>
@@ -40,21 +42,22 @@ const OnlineSummerThanks = () => (
 
       <Row>
         <Column widthPercentage="100%">
-          <TitleCenter color="#872f35" text="Vi ses inden længe!" />
+          <TitleCenter color="#872f35" text="Rigtig god fornøjelse!" />
         </Column>
       </Row>
 
       <ButtonOnline
-        text="Jeg skal booke flere sommerkurser! Tag mig retur til katalogets side"
-        href="https://www.svanesdyr.dk/sommerhund"
+        text="Lad mig se hvad du ellers tilbyder af onlinekurser! Tag mig tilbage til hjemmesiden"
+        href="https://www.svanesdyr.dk/onlinekurser"
       ></ButtonOnline>
+
       <br />
       <br />
     </Background>
   </LandingpageOnline>
 );
 
-export default OnlineSummerThanks;
+export default OnlineEbookThanks;
 
 const Background = styled.div`
   background: #fff;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { OnlineCoverCatScratch } from '../assets';
+import { OnlineCoverCatScratch } from '../../assets';
 import {
   ButtonOnline,
   Column,
@@ -8,9 +8,9 @@ import {
   Row,
   TextCenter,
   TitleCenter,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+} from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import '../../components/table/TableCss.css';
 
 const OnlineEbookCatThanks = () => (
   <LandingpageOnline noindex>

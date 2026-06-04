@@ -42,27 +42,27 @@ const DogPuppy = lazy(() => import('./pages/DogPuppy'));
 const DogReactive = lazy(() => import('./pages/DogReactive'));
 const DogSocial = lazy(() => import('./pages/DogSocial'));
 const DogStylist = lazy(() => import('./pages/DogStylist'));
-const DogSummer = lazy(() => import('./pages/DogSummer'));
+const DogSummer = lazy(() => import('./pages/Summer/DogSummer'));
+const DogSummerFitness = lazy(() => import('./pages/Summer/DogSummerFitness'));
+const DogSummerRecall = lazy(() => import('./pages/Summer/DogSummerRecall'));
 const DogSundayPlay = lazy(() => import('./pages/DogSundayPlay'));
 const LawList = lazy(() => import('./pages/LawList'));
 const LawPrivate = lazy(() => import('./pages/LawPrivate'));
 const Lecture = lazy(() => import('./pages/Lecture'));
 const MyMethods = lazy(() => import('./pages/MyMethods'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-const OnlineCourses = lazy(() => import('./pages/OnlineCourses'));
-const OnlineCoursesThanks = lazy(() => import('./pages/OnlineCoursesThanks'));
-const OnlineEbookCatScratch = lazy(() => import('./pages/OnlineEbookCatScratch'));
-const OnlineEbookCatThanks = lazy(() => import('./pages/OnlineEbookCatThanks'));
-const OnlineEbookPuppyFive = lazy(() => import('./pages/OnlineEbookPuppyFive'));
-const OnlineEbookThanks = lazy(() => import('./pages/OnlineEbookThanks'));
-const OnlineSoundbookThanks = lazy(() => import('./pages/OnlineSoundbookThanks'));
-const OnlineSummerThanks = lazy(() => import('./pages/OnlineSummerThanks'));
-const OnlineThankPage = lazy(() => import('./pages/OnlineThankPage'));
-const OnlineWalk = lazy(() => import('./pages/OnlineWalk'));
-const OnlineWebinarCool = lazy(() => import('./pages/OnlineWebinarCool'));
-const OnlineWebinarPlaytime = lazy(() => import('./pages/OnlineWebinarPlaytime'));
-const OnlineWebinarThankCool = lazy(() => import('./pages/OnlineWebinarThankCool'));
-const OnlineWebinarThankPage = lazy(() => import('./pages/OnlineWebinarThankPage'));
+const OnlineCourses = lazy(() => import('./pages/OnlineCourses/OnlineCourses'));
+const OnlineCoursesThanks = lazy(() => import('./pages/OnlineCourses/OnlineCoursesThanks'));
+const OnlineEbookCatScratch = lazy(() => import('./pages/OnlineCourses/OnlineEbookCatScratch'));
+const OnlineEbookCatThanks = lazy(() => import('./pages/OnlineCourses/OnlineEbookCatThanks'));
+const OnlineEbookPuppyFive = lazy(() => import('./pages/OnlineCourses/OnlineEbookPuppyFive'));
+const OnlineEbookThanks = lazy(() => import('./pages/OnlineCourses/OnlineEbookThanks'));
+const OnlineSoundbookThanks = lazy(() => import('./pages/OnlineCourses/OnlineSoundbookThanks'));
+const OnlineSummerThanks = lazy(() => import('./pages/Summer/SummerThanks'));
+const OnlineWebinarCool = lazy(() => import('./pages/OnlineWebinars/OnlineWebinarCool'));
+const OnlineWebinarPlaytime = lazy(() => import('./pages/OnlineWebinars/OnlineWebinarPlaytime'));
+const OnlineWebinarThankCool = lazy(() => import('./pages/OnlineWebinars/OnlineWebinarThankCool'));
+const OnlineWebinarThankPage = lazy(() => import('./pages/OnlineWebinars/OnlineWebinarThankPage'));
 const Prices = lazy(() => import('./pages/Prices'));
 const Snackshop = lazy(() => import('./pages/Snackshop'));
 
@@ -135,6 +135,8 @@ const App = () => {
           <Route path="/hundehold/socialisering" element={<DogSocial />} />
           <Route path="/hundehold/tryghundepleje" element={<DogStylist />} />
           <Route path="/sommerhund" element={<DogSummer />} />
+          <Route path="/sommerhund/fitness" element={<DogSummerFitness />} />
+          <Route path="/sommerhund/indkald" element={<DogSummerRecall />} />
           <Route path="/hyggedage" element={<DogSundayPlay />} />
           <Route path="/onlinehandelsbetingelser" element={<LawList />} />
           <Route path="/privatlivspolitik" element={<LawPrivate />} />
@@ -148,8 +150,6 @@ const App = () => {
           <Route path="/eboginvestering" exact element={<OnlineEbookThanks />} />
           <Route path="/lydboginvestering" exact element={<OnlineSoundbookThanks />} />
           <Route path="/sommertak" exact element={<OnlineSummerThanks />} />
-          <Route path="/tusindtak" exact element={<OnlineThankPage />} />
-          <Route path="/gaatur" exact element={<OnlineWalk />} />
           <Route path="/webinarreaktivtilro" exact element={<OnlineWebinarCool />} />
           <Route path="/webinardengodehundeleg" exact element={<OnlineWebinarPlaytime />} />
           <Route path="/webinarreaktivtiltak" exact element={<OnlineWebinarThankCool />} />

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { FrontNoOne, OnlineCoverDogPlay } from '../assets';
+import { FrontNoOne, OnlineCoverDogPlay } from '../../assets';
 import {
   ButtonOnline,
   Column,
@@ -15,9 +15,9 @@ import {
   TextList,
   TextListMark,
   TitleCenter,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+} from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import '../../components/table/TableCss.css';
 
 const LPstep5 = [
   'aflæser hundens dæmpende og afstandssøgende signaler, så du lettere kan se hvad der er leg og alvor',

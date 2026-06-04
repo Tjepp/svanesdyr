@@ -14,7 +14,7 @@ import {
   OnlineSound,
   OnlineStress,
   OnlineVisit,
-} from '../assets';
+} from '../../assets';
 import {
   Banner,
   BreadCrumps,
@@ -29,9 +29,9 @@ import {
   TextListMark,
   Title,
   TitleColor,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+} from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import '../../components/table/TableCss.css';
 
 const recall = [
   'Hvorfor du ikke (kun) skal bruge hundens navn til indkald',

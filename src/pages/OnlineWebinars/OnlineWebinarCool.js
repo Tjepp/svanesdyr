@@ -1,5 +1,10 @@
 import styled from 'styled-components';
-import { FrontNoOne, OnlineCoverCool, TestiOnlineWalkOne, TestiOnlineWalkThree } from '../assets';
+import {
+  FrontNoOne,
+  OnlineCoverCool,
+  TestiOnlineWalkOne,
+  TestiOnlineWalkThree,
+} from '../../assets';
 import {
   ButtonOnline,
   Column,
@@ -16,9 +21,9 @@ import {
   TextListArrow,
   TextListMark,
   TitleCenter,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+} from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import '../../components/table/TableCss.css';
 
 const LPstep3 = [
   'Du er træt af din hund skal kommentere alle i møder?',

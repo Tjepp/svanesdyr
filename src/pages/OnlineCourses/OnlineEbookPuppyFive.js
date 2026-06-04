@@ -6,7 +6,7 @@ import {
   OnlinePupFour,
   OnlinePupThree,
   OnlinePupTwo,
-} from '../assets';
+} from '../../assets';
 import {
   ButtonOnline,
   Column,
@@ -23,9 +23,9 @@ import {
   TextListArrow,
   TextListMark,
   TitleCenter,
-} from '../components';
-import Responsive from '../components/layout/Responsive';
-import '../components/table/TableCss.css';
+} from '../../components';
+import Responsive from '../../components/layout/Responsive';
+import '../../components/table/TableCss.css';
 
 const LPstep3 = [
   'Du sætter dig på sofaen, for at lade op efter dagens opgaver',
