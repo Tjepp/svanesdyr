@@ -105,7 +105,7 @@ const DogSummerNW = () => (
           <br />
 
           <TitleCenter text="Tilmelding til Introduktion til Nose Work:" />
-          <EasyMeList src="https://ezme.io/x/x1S/dI0y" />
+          <EasyMeList src="https://ezme.io/x/x1S/fm6D" />
         </Column>
       </Row>
 
