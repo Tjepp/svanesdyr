@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { create } = require('xmlbuilder2');
 
-const BASE_URL = 'https://svanesdyr.dk';
+const BASE_URL = 'https://www.svanesdyr.dk';
 const APP_JS_PATH = path.join(__dirname, '..', 'src', 'App.js');
 const OUTPUT_PATH = path.join(__dirname, '..', 'public', 'sitemap.xml');
 
@@ -30,7 +30,7 @@ function extractRoutes(appJsContent) {
 
   while ((match = routeRegex.exec(appJsContent)) !== null) {
     const routePath = match[1];
-    if (!isExcluded(routePath)) {
+    if (routePath.startsWith('/') && !isExcluded(routePath)) {
       routes.push(routePath);
     }
   }
