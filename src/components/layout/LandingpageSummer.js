@@ -13,7 +13,15 @@ const LandingpageSummer = ({ children }) => (
     <Header />
     <Background>
       <Bar>
-        <Img src={LogoUpdate} alt="logo" />
+        <CenteredA href="/">
+          <Img
+            src="/img/LogoUpdate.png?w=800"
+            srcSet="/img/LogoUpdate.png?w=400 400w, /img/LogoUpdate.png?w=800 800w"
+            sizes="(max-width: 768px) 100vw, 400px"
+            alt="Svanes Dyr logo"
+            fetchPriority="high"
+          />
+        </CenteredA>
       </Bar>
     </Background>
     <Row>
@@ -86,3 +94,5 @@ const Img = styled.img`
   margin-bottom: 10px;
   margin-top: 10px;
 `;
+
+const CenteredA = styled.a``;

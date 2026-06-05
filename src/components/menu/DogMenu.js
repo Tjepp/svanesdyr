@@ -3,7 +3,7 @@ import { StyledMenuLinkWithIcon } from '..';
 
 const DogMenu = () => (
   <MenuContainer>
-    {/* <StyledMenuLinkWithIcon link="/sommerhund" text="Sommerkurser 2026" /> */}
+    <StyledMenuLinkWithIcon link="/sommerhund" text="Sommerkurser 2026" />
     <StyledMenuLinkWithIcon link="/hundehold/hvalpehold" text="Hvalpehold" />
     <StyledMenuLinkWithIcon link="/hundehold/hvalpfortsat" text="Fortsætterhold" />
     <StyledMenuLinkWithIcon link="/hundehold/reaktivtilro" text="Reaktiv til Ro" />

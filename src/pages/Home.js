@@ -11,19 +11,9 @@ const Home = () => {
   return (
     <Page>
       <Meta url="https://www.svanesdyr.dk/" />
-      <MediaQuery minWidth={Responsive.sizes.tablet}>
-        {(matches) =>
-          matches ? (
-            <Banner text="Hundetræning og hvalpehold i Nim, nær Horsens og Brædstrup:">
-              <Button text="FIND HUNDEHOLD" href="/hundehold" />
-            </Banner>
-          ) : (
-            <ButtonContainer>
-              <Button text="FIND HUNDEHOLD" href="/hundehold" />
-            </ButtonContainer>
-          )
-        }
-      </MediaQuery>
+      <Banner text="Hundetræning og hvalpehold i Nim, nær Horsens og Brædstrup:">
+        <Button text="FIND HUNDEHOLD" href="/hundehold" />
+      </Banner>
       <Background>
         <Container>
           <Column>
