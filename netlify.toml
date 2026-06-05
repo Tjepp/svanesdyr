@@ -8,6 +8,13 @@
   to = "/.netlify/images?url=/images/:splat"
   status = 200
 
+# Redirect non-www to www
+[[redirects]]
+  from = "https://svanesdyr.dk/*"
+  to = "https://www.svanesdyr.dk/:splat"
+  status = 301
+  force = true
+
 # SPA fallback - must be last
 [[redirects]]
   from = "/*"
