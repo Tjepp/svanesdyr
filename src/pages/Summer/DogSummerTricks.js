@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SummerCover, TricksOne } from '../../assets';
+import { SummerCover, TricksTwo } from '../../assets';
 import {
   Column,
   EasyMeList,
@@ -17,7 +17,7 @@ import {
 import Responsive from '../../components/layout/Responsive';
 import SummerMenu from '../../components/menu/SummerMenu';
 
-const DogSummerFitness = () => (
+const DogSummerTricks = () => (
   <LandingpageOnline>
     <MetaDogSummer />
     <Background>
@@ -34,26 +34,26 @@ const DogSummerFitness = () => (
           <SummerMenu />
         </Column>
         <Column widthPercentage="75%">
-          <TitleCenter text="Fitness for alle" />
+          <TitleCenter text="Tricks og Sjov" />
           <FlexedRow>
             <Image
-              src={TricksOne}
-              alt="Hund balancerer med forpoter og bagpoter på balancepuder under træning"
+              src={TricksTwo}
+              alt="Hvid terrier ligger på skateboard under tricks og sjov træning"
               width="300px"
               height="200px"
             />
             <TextContainer>
               <Text>
-                <b>Fokus på god kropskontrol og kropsbevidsthed</b>
+                <b>Det perfekte kursus til barn og hund sammen</b>
                 <br />
-                Til dig der ønsker at styrke din hunds bevidsthed om sin egen krop! Vi vil gennemgå
-                øvelser der fokuserer på kontrol af alle fire poter, forparts- og bagpartskontrol og
-                styrke- / balanceopgaver.
+                Og ikke mindst til dig, som nyder at lære nyt med din hund. Tricks og Sjov lægger
+                vægt på Empowerment principperne, hvor hunden selv skal tage <u>initiativ</u> til
+                adfærd, være <u>kreativ</u> og have nok <u>gåpåmod</u> til at fortsætte.
               </Text>
               <Text>
-                Holdet henvender sig især også til dig der ønsker nye måder at trætte hunden på
-                mentalt, gennem små, sjove opgaver, som styrker jeres samarbejde og ikke mindst
-                hundens selvtillid. Alle hunde i alle aldre kan deltage.
+                Vi gennemgår flere tricks og øvelser, som giver succes, samarbejdsglæde og ikke
+                mindst et smil på læben til dig der holder snoren. Du vil blandt andet lære hvordan
+                du lærer din hund Zig-zag mellem ben, kravle og snurre-rundt.
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -71,8 +71,8 @@ const DogSummerFitness = () => (
           </TextCenter>
           <br />
 
-          <TitleCenter text="Tilmelding til Fitness for alle:" />
-          <EasyMeList src="https://ezme.io/x/x1S/dmM1" />
+          <TitleCenter text="Tilmelding til Tricks og Sjov:" />
+          <EasyMeList src="https://ezme.io/x/x1S/dmMn" />
         </Column>
       </Row>
 
@@ -82,7 +82,7 @@ const DogSummerFitness = () => (
   </LandingpageOnline>
 );
 
-export default DogSummerFitness;
+export default DogSummerTricks;
 
 const Background = styled.div`
   background: #fff;

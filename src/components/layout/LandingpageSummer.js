@@ -1,28 +1,47 @@
 import PropTypes from 'prop-types';
 import CookieConsent from 'react-cookie-consent';
 import styled from 'styled-components';
-import { LogoUpdate } from '../../assets';
+import { LogoUpdate, OnlineSummer } from '../../assets';
+import { Column, Image, Row } from '../../components';
+import ContactPopUp from '../ContactPopUp';
 import FooterBottom from '../FooterBottom';
+import Header from '../Header';
 import Responsive from './Responsive';
 
-const OnlineLaw = ({ children }) => (
+const LandingpageSummer = ({ children }) => (
   <Container>
+    <Header />
     <Background>
       <Bar>
         <Img src={LogoUpdate} alt="logo" />
       </Bar>
     </Background>
+    <Row>
+      <Column widthPercentage="100%">
+        <Image
+          src={OnlineSummer}
+          alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser uge 30 og 31"
+          aspectRatio="1140 / 470"
+          priority
+        />
+      </Column>
+    </Row>
     {children}
+    <Background>
+      <Bar>
+        <ContactPopUp text="Tilmelding til sommerkursus venteliste" />
+      </Bar>
+    </Background>
     <FooterBottom />
     <CookieConsent>This website uses cookies to enhance the user experience. </CookieConsent>
   </Container>
 );
 
-OnlineLaw.propTypes = {
+LandingpageSummer.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default OnlineLaw;
+export default LandingpageSummer;
 
 const Container = styled.div`
   display: flex;
@@ -60,7 +79,7 @@ const Img = styled.img`
   vertical-align: middle;
   border: 0;
   width: 400px;
-  height: 110px;
+  height: 100px;
   ${Responsive.media.tablet`
     align-self: center;
   `}

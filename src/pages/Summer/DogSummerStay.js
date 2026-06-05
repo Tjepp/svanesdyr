@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SummerCover, TricksOne } from '../../assets';
+import { PuppyContinuedOne, SummerCover } from '../../assets';
 import {
   Column,
   EasyMeList,
@@ -17,7 +17,7 @@ import {
 import Responsive from '../../components/layout/Responsive';
 import SummerMenu from '../../components/menu/SummerMenu';
 
-const DogSummerFitness = () => (
+const DogSummerStay = () => (
   <LandingpageOnline>
     <MetaDogSummer />
     <Background>
@@ -34,26 +34,23 @@ const DogSummerFitness = () => (
           <SummerMenu />
         </Column>
         <Column widthPercentage="75%">
-          <TitleCenter text="Fitness for alle" />
+          <TitleCenter text="Bliv" />
           <FlexedRow>
             <Image
-              src={TricksOne}
-              alt="Hund balancerer med forpoter og bagpoter på balancepuder under træning"
+              src={PuppyContinuedOne}
+              alt="Hund ligger afslappet på et tæppe med løs line og kigger"
               width="300px"
               height="200px"
             />
             <TextContainer>
               <Text>
-                <b>Fokus på god kropskontrol og kropsbevidsthed</b>
+                <b>Bliv i sit og dæk SELV med forstyrrelser</b>
                 <br />
-                Til dig der ønsker at styrke din hunds bevidsthed om sin egen krop! Vi vil gennemgå
-                øvelser der fokuserer på kontrol af alle fire poter, forparts- og bagpartskontrol og
-                styrke- / balanceopgaver.
-              </Text>
-              <Text>
-                Holdet henvender sig især også til dig der ønsker nye måder at trætte hunden på
-                mentalt, gennem små, sjove opgaver, som styrker jeres samarbejde og ikke mindst
-                hundens selvtillid. Alle hunde i alle aldre kan deltage.
+                Ønsker du at få en stensikker placering fra din hund, når du beder den om at sætte
+                sig eller lægge sig? Måske har du en drøm om at kunne få den til at blive liggende i
+                sin kurv, selvom der er gæster på besøg? Dette kursus giver dig redskaberne til at
+                få fjederen ud af hundens ben og en god bliv, uanset om du beder om sit eller dæk.
+                Vi kigger på konceptet selv med forstyrrelser i brug!
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -71,8 +68,8 @@ const DogSummerFitness = () => (
           </TextCenter>
           <br />
 
-          <TitleCenter text="Tilmelding til Fitness for alle:" />
-          <EasyMeList src="https://ezme.io/x/x1S/dmM1" />
+          <TitleCenter text="Tilmelding til Bliv:" />
+          <EasyMeList src="https://ezme.io/x/x1S/o8zC" />
         </Column>
       </Row>
 
@@ -82,7 +79,7 @@ const DogSummerFitness = () => (
   </LandingpageOnline>
 );
 
-export default DogSummerFitness;
+export default DogSummerStay;
 
 const Background = styled.div`
   background: #fff;

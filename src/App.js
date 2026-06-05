@@ -43,8 +43,16 @@ const DogReactive = lazy(() => import('./pages/DogReactive'));
 const DogSocial = lazy(() => import('./pages/DogSocial'));
 const DogStylist = lazy(() => import('./pages/DogStylist'));
 const DogSummer = lazy(() => import('./pages/Summer/DogSummer'));
+const DogSummerActive = lazy(() => import('./pages/Summer/DogSummerActive'));
+const DogSummerFH = lazy(() => import('./pages/Summer/DogSummerFH'));
 const DogSummerFitness = lazy(() => import('./pages/Summer/DogSummerFitness'));
+const DogSummerJump = lazy(() => import('./pages/Summer/DogSummerJump'));
+const DogSummerNW = lazy(() => import('./pages/Summer/DogSummerNW'));
+const DogSummerPlay = lazy(() => import('./pages/Summer/DogSummerPlay'));
 const DogSummerRecall = lazy(() => import('./pages/Summer/DogSummerRecall'));
+const DogSummerStay = lazy(() => import('./pages/Summer/DogSummerStay'));
+const DogSummerTricks = lazy(() => import('./pages/Summer/DogSummerTricks'));
+const DogSummerWalk = lazy(() => import('./pages/Summer/DogSummerWalk'));
 const DogSundayPlay = lazy(() => import('./pages/DogSundayPlay'));
 const LawList = lazy(() => import('./pages/LawList'));
 const LawPrivate = lazy(() => import('./pages/LawPrivate'));
@@ -135,8 +143,16 @@ const App = () => {
           <Route path="/hundehold/socialisering" element={<DogSocial />} />
           <Route path="/hundehold/tryghundepleje" element={<DogStylist />} />
           <Route path="/sommerhund" element={<DogSummer />} />
+          <Route path="/sommerhund/aktivering" element={<DogSummerActive />} />
+          <Route path="/sommerhund/frivillig" element={<DogSummerFH />} />
           <Route path="/sommerhund/fitness" element={<DogSummerFitness />} />
+          <Route path="/sommerhund/hilseroligt" element={<DogSummerJump />} />
+          <Route path="/sommerhund/nosework" element={<DogSummerNW />} />
+          <Route path="/sommerhund/sommerleg" element={<DogSummerPlay />} />
           <Route path="/sommerhund/indkald" element={<DogSummerRecall />} />
+          <Route path="/sommerhund/bliv" element={<DogSummerStay />} />
+          <Route path="/sommerhund/tricks" element={<DogSummerTricks />} />
+          <Route path="/sommerhund/roligeture" element={<DogSummerWalk />} />
           <Route path="/hyggedage" element={<DogSundayPlay />} />
           <Route path="/onlinehandelsbetingelser" element={<LawList />} />
           <Route path="/privatlivspolitik" element={<LawPrivate />} />

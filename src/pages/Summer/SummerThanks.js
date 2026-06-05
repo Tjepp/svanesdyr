@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { OnlineCoverSummer } from '../../assets';
+import { SummerCover } from '../../assets';
 import {
   ButtonOnline,
   Column,
@@ -18,7 +18,7 @@ const SummerThanks = () => (
       <Row>
         <Column widthPercentage="100%">
           <Image
-            src={OnlineCoverSummer}
+            src={SummerCover}
             alt="Coverbillede for sommerkursus med hund"
             aspectRatio="1140 / 470"
             priority

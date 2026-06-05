@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SummerCover, TricksOne } from '../../assets';
+import { CoolSix, SummerCover } from '../../assets';
 import {
   Column,
   EasyMeList,
@@ -17,7 +17,7 @@ import {
 import Responsive from '../../components/layout/Responsive';
 import SummerMenu from '../../components/menu/SummerMenu';
 
-const DogSummerFitness = () => (
+const DogSummerJump = () => (
   <LandingpageOnline>
     <MetaDogSummer />
     <Background>
@@ -34,26 +34,26 @@ const DogSummerFitness = () => (
           <SummerMenu />
         </Column>
         <Column widthPercentage="75%">
-          <TitleCenter text="Fitness for alle" />
+          <TitleCenter text="Hilse Pænt" />
           <FlexedRow>
             <Image
-              src={TricksOne}
-              alt="Hund balancerer med forpoter og bagpoter på balancepuder under træning"
+              src={CoolSix}
+              alt="Kvinde bøjer sig ned mod glad labrador der kigger op under hilse pænt træning"
               width="300px"
               height="200px"
             />
             <TextContainer>
               <Text>
-                <b>Fokus på god kropskontrol og kropsbevidsthed</b>
+                <b>Fokus på at øve ikke-hoppe-op og hilse roligt</b>
                 <br />
-                Til dig der ønsker at styrke din hunds bevidsthed om sin egen krop! Vi vil gennemgå
-                øvelser der fokuserer på kontrol af alle fire poter, forparts- og bagpartskontrol og
-                styrke- / balanceopgaver.
+                Til dig der har en ivrig hund, som bare eeeelsker at hilse på andre.
               </Text>
               <Text>
-                Holdet henvender sig især også til dig der ønsker nye måder at trætte hunden på
-                mentalt, gennem små, sjove opgaver, som styrker jeres samarbejde og ikke mindst
-                hundens selvtillid. Alle hunde i alle aldre kan deltage.
+                Vi gennemgår teknikker til at lære hunden at blive på jorden med alle 4 poter, når
+                der skal hilses på mennesker. Derudover kigger vi også på, hvordan vi tillærer
+                hunden at hilse roligt på andre hunde - uden at bruse fremad med stram line. Du vil
+                gå fra dagen med gode teknikker til at lære din hund at finde roen i forbindelse med
+                social kontakt med andre.
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -71,8 +71,8 @@ const DogSummerFitness = () => (
           </TextCenter>
           <br />
 
-          <TitleCenter text="Tilmelding til Fitness for alle:" />
-          <EasyMeList src="https://ezme.io/x/x1S/dmM1" />
+          <TitleCenter text="Tilmelding til Hilse Pænt:" />
+          <EasyMeList src="https://ezme.io/x/x1S/CU9P" />
         </Column>
       </Row>
 
@@ -82,7 +82,7 @@ const DogSummerFitness = () => (
   </LandingpageOnline>
 );
 
-export default DogSummerFitness;
+export default DogSummerJump;
 
 const Background = styled.div`
   background: #fff;

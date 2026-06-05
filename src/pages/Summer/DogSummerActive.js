@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SummerCover, TricksOne } from '../../assets';
+import { PuppySix, SummerCover } from '../../assets';
 import {
   Column,
   EasyMeList,
@@ -17,7 +17,7 @@ import {
 import Responsive from '../../components/layout/Responsive';
 import SummerMenu from '../../components/menu/SummerMenu';
 
-const DogSummerFitness = () => (
+const DogSummerActive = () => (
   <LandingpageOnline>
     <MetaDogSummer />
     <Background>
@@ -34,26 +34,23 @@ const DogSummerFitness = () => (
           <SummerMenu />
         </Column>
         <Column widthPercentage="75%">
-          <TitleCenter text="Fitness for alle" />
+          <TitleCenter text="Inspiration til Hverdagsaktivering" />
           <FlexedRow>
             <Image
-              src={TricksOne}
-              alt="Hund balancerer med forpoter og bagpoter på balancepuder under træning"
+              src={PuppySix}
+              alt="Hvid hvalp balancerer på blå træningspodier under hverdagsaktivering"
               width="300px"
               height="200px"
             />
             <TextContainer>
               <Text>
-                <b>Fokus på god kropskontrol og kropsbevidsthed</b>
+                <b>Få velstimulerende opgaver der giver en glad og træt hund</b>
                 <br />
-                Til dig der ønsker at styrke din hunds bevidsthed om sin egen krop! Vi vil gennemgå
-                øvelser der fokuserer på kontrol af alle fire poter, forparts- og bagpartskontrol og
-                styrke- / balanceopgaver.
-              </Text>
-              <Text>
-                Holdet henvender sig især også til dig der ønsker nye måder at trætte hunden på
-                mentalt, gennem små, sjove opgaver, som styrker jeres samarbejde og ikke mindst
-                hundens selvtillid. Alle hunde i alle aldre kan deltage.
+                Inspiration til hverdagens aktiviteter, der kan trætte din hund godt i hovedet og
+                undgå den finder på unoder. Vi kigger på aktivering, som i kan være fælles om, der
+                oveni styrker jeres samarbejde. Ikke mindst gennemgår vi aktiveringsopgaver til de
+                dage hvor det skal gå hurtigt, hvor hunden kan underholde sig selv mens du får
+                klaret andre gøremål.
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -71,8 +68,8 @@ const DogSummerFitness = () => (
           </TextCenter>
           <br />
 
-          <TitleCenter text="Tilmelding til Fitness for alle:" />
-          <EasyMeList src="https://ezme.io/x/x1S/dmM1" />
+          <TitleCenter text="Tilmelding til Inspiration til Hverdagsaktivering:" />
+          <EasyMeList src="https://ezme.io/x/x1S/CUEH" />
         </Column>
       </Row>
 
@@ -82,7 +79,7 @@ const DogSummerFitness = () => (
   </LandingpageOnline>
 );
 
-export default DogSummerFitness;
+export default DogSummerActive;
 
 const Background = styled.div`
   background: #fff;

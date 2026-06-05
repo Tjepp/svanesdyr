@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { OnlineCoverSummer, RecallOne } from '../../assets';
+import { RecallOne, SummerCover } from '../../assets';
 import {
   Column,
   EasyMeList,
@@ -20,13 +20,14 @@ import SummerMenu from '../../components/menu/SummerMenu';
 const DogSummerRecall = () => (
   <LandingpageOnline>
     <MetaDogSummer />
-    <Image
-      src={OnlineCoverSummer}
-      alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser 2026"
-      priority
-    />
-
     <Background>
+      <Row>
+        <Image
+          src={SummerCover}
+          alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser"
+          priority
+        />
+      </Row>
       <Row>
         <Column widthPercentage="20%">
           <Title text="Udbud af sommerkurser" showHorizontalRuler />
@@ -70,7 +71,7 @@ const DogSummerRecall = () => (
               Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning
               derhjemme.
             </Text>
-            <Text>Max 5 snuder pr. hold.</Text>
+            <Text>Max 5 hunde pr. hold.</Text>
           </TextCenter>
           <br />
 

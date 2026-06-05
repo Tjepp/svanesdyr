@@ -1,4 +1,12 @@
 export { default as DogSummer } from './DogSummer';
+export { default as DogSummerActive } from './DogSummerActive';
+export { default as DogSummerFH } from './DogSummerFH';
 export { default as DogSummerFitness } from './DogSummerFitness';
+export { default as DogSummerJump } from './DogSummerJump';
+export { default as DogSummerNW } from './DogSummerNW';
+export { default as DogSummerPlay } from './DogSummerPlay';
 export { default as DogSummerRecall } from './DogSummerRecall';
+export { default as DogSummerStay } from './DogSummerStay';
+export { default as DogSummerTricks } from './DogSummerTricks';
+export { default as DogSummerWalk } from './DogSummerWalk';
 export { default as SummerThanks } from './SummerThanks';

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SummerCover, TricksOne } from '../../assets';
+import { NailClipSix, SummerCover } from '../../assets';
 import {
   Column,
   EasyMeList,
@@ -17,7 +17,7 @@ import {
 import Responsive from '../../components/layout/Responsive';
 import SummerMenu from '../../components/menu/SummerMenu';
 
-const DogSummerFitness = () => (
+const DogSummerFH = () => (
   <LandingpageOnline>
     <MetaDogSummer />
     <Background>
@@ -34,26 +34,23 @@ const DogSummerFitness = () => (
           <SummerMenu />
         </Column>
         <Column widthPercentage="75%">
-          <TitleCenter text="Fitness for alle" />
+          <TitleCenter text="Intro til Frivillig Håndtering" />
           <FlexedRow>
             <Image
-              src={TricksOne}
-              alt="Hund balancerer med forpoter og bagpoter på balancepuder under træning"
+              src={NailClipSix}
+              alt="Hundetræner klipper negle på hund der ligger afslappet på siden i en sofa"
               width="300px"
               height="200px"
             />
             <TextContainer>
               <Text>
-                <b>Fokus på god kropskontrol og kropsbevidsthed</b>
+                <b>Få samtykke til den daglige pleje</b>
                 <br />
-                Til dig der ønsker at styrke din hunds bevidsthed om sin egen krop! Vi vil gennemgå
-                øvelser der fokuserer på kontrol af alle fire poter, forparts- og bagpartskontrol og
-                styrke- / balanceopgaver.
-              </Text>
-              <Text>
-                Holdet henvender sig især også til dig der ønsker nye måder at trætte hunden på
-                mentalt, gennem små, sjove opgaver, som styrker jeres samarbejde og ikke mindst
-                hundens selvtillid. Alle hunde i alle aldre kan deltage.
+                Du får redskaberne til hvordan du træner frivillig adfærd i hunden, som skal være
+                startsignalet til hvornår håndtering kan begynde. Din hund lærer altså at sige ”jeg
+                er klar” og ”pause, tak” under håndtering, og du lærer at aflæse hvornår din hund er
+                tryg og utryg. Vi gennemgår Chirag Patels The Bucket Game og hvordan du indlære
+                start/slut signaler.
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -71,8 +68,8 @@ const DogSummerFitness = () => (
           </TextCenter>
           <br />
 
-          <TitleCenter text="Tilmelding til Fitness for alle:" />
-          <EasyMeList src="https://ezme.io/x/x1S/dmM1" />
+          <TitleCenter text="Tilmelding til Intro til Frivillig Håndtering:" />
+          <EasyMeList src="https://ezme.io/x/x1S/o8eg" />
         </Column>
       </Row>
 
@@ -82,7 +79,7 @@ const DogSummerFitness = () => (
   </LandingpageOnline>
 );
 
-export default DogSummerFitness;
+export default DogSummerFH;
 
 const Background = styled.div`
   background: #fff;

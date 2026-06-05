@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SummerCover, TricksOne } from '../../assets';
+import { CoolThree, SummerCover } from '../../assets';
 import {
   Column,
   EasyMeList,
@@ -17,7 +17,7 @@ import {
 import Responsive from '../../components/layout/Responsive';
 import SummerMenu from '../../components/menu/SummerMenu';
 
-const DogSummerFitness = () => (
+const DogSummerWalk = () => (
   <LandingpageOnline>
     <MetaDogSummer />
     <Background>
@@ -34,26 +34,27 @@ const DogSummerFitness = () => (
           <SummerMenu />
         </Column>
         <Column widthPercentage="75%">
-          <TitleCenter text="Fitness for alle" />
+          <TitleCenter text="Rolige Gåture" />
           <FlexedRow>
             <Image
-              src={TricksOne}
-              alt="Hund balancerer med forpoter og bagpoter på balancepuder under træning"
+              src={CoolThree}
+              alt="To hundeejere går med deres hunde på træningsplads under rolige gåture kursus"
               width="300px"
               height="200px"
             />
             <TextContainer>
               <Text>
-                <b>Fokus på god kropskontrol og kropsbevidsthed</b>
+                <b>Med fokus på gå-pænt-teknikker og selvkontrol</b>
                 <br />
-                Til dig der ønsker at styrke din hunds bevidsthed om sin egen krop! Vi vil gennemgå
-                øvelser der fokuserer på kontrol af alle fire poter, forparts- og bagpartskontrol og
-                styrke- / balanceopgaver.
+                Til dig der ønsker at få mere afslappede gåture, med en hund der kan finde ro og gå
+                pænt i snor uden at hive armen af dig. Holdet henvender sig til alle hunde i alle
+                aldre, som har tendens til at stresse op på en gåtur og får "travlt". Du får
+                redskaberne til at skabe en kontaktsøgende og rolig hund, gennem forskellige
+                øvelser, der også vil styrke jeres fælles samarbejde.
               </Text>
               <Text>
-                Holdet henvender sig især også til dig der ønsker nye måder at trætte hunden på
-                mentalt, gennem små, sjove opgaver, som styrker jeres samarbejde og ikke mindst
-                hundens selvtillid. Alle hunde i alle aldre kan deltage.
+                Holdet henvender sig ikke til hunde der reagerer negativt på andre hunde og
+                mennesker.
               </Text>
             </TextContainer>
           </FlexedRow>
@@ -71,8 +72,8 @@ const DogSummerFitness = () => (
           </TextCenter>
           <br />
 
-          <TitleCenter text="Tilmelding til Fitness for alle:" />
-          <EasyMeList src="https://ezme.io/x/x1S/dmM1" />
+          <TitleCenter text="Tilmelding til Rolige Gåture:" />
+          <EasyMeList src="https://ezme.io/x/x1S/CU9F" />
         </Column>
       </Row>
 
@@ -82,7 +83,7 @@ const DogSummerFitness = () => (
   </LandingpageOnline>
 );
 
-export default DogSummerFitness;
+export default DogSummerWalk;
 
 const Background = styled.div`
   background: #fff;

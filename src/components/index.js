@@ -20,6 +20,7 @@ export { default as FlexedColumn } from './layout/FlexedColumn';
 export { default as FlexedRow } from './layout/FlexedRow';
 export { default as Landingpage } from './layout/Landingpage';
 export { default as LandingpageOnline } from './layout/LandingpageOnline';
+export { default as LandingpageSummer } from './layout/LandingpageSummer';
 export { default as OnlineLaw } from './layout/OnlineLaw';
 export { default as Page } from './layout/Page';
 export { default as Row } from './layout/Row';
