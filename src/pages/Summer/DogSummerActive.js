@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-import { PuppySix, SummerCover } from '../../assets';
+import { PuppySix } from '../../assets';
 import {
   Column,
   EasyMeList,
   FlexedRow,
   Image,
-  LandingpageOnline,
+  LandingpageSummer,
   MetaDogSummer,
   Row,
   Text,
@@ -18,16 +18,9 @@ import Responsive from '../../components/layout/Responsive';
 import SummerMenu from '../../components/menu/SummerMenu';
 
 const DogSummerActive = () => (
-  <LandingpageOnline>
+  <LandingpageSummer>
     <MetaDogSummer />
     <Background>
-      <Row>
-        <Image
-          src={SummerCover}
-          alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser"
-          priority
-        />
-      </Row>
       <Row>
         <Column widthPercentage="20%">
           <Title text="Udbud af sommerkurser" showHorizontalRuler />
@@ -76,7 +69,7 @@ const DogSummerActive = () => (
       <br />
       <br />
     </Background>
-  </LandingpageOnline>
+  </LandingpageSummer>
 );
 
 export default DogSummerActive;

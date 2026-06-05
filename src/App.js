@@ -66,7 +66,7 @@ const OnlineEbookCatThanks = lazy(() => import('./pages/OnlineCourses/OnlineEboo
 const OnlineEbookPuppyFive = lazy(() => import('./pages/OnlineCourses/OnlineEbookPuppyFive'));
 const OnlineEbookThanks = lazy(() => import('./pages/OnlineCourses/OnlineEbookThanks'));
 const OnlineSoundbookThanks = lazy(() => import('./pages/OnlineCourses/OnlineSoundbookThanks'));
-const OnlineSummerThanks = lazy(() => import('./pages/Summer/SummerThanks'));
+const SummerThanks = lazy(() => import('./pages/Summer/SummerThanks'));
 const OnlineWebinarCool = lazy(() => import('./pages/OnlineWebinars/OnlineWebinarCool'));
 const OnlineWebinarPlaytime = lazy(() => import('./pages/OnlineWebinars/OnlineWebinarPlaytime'));
 const OnlineWebinarThankCool = lazy(() => import('./pages/OnlineWebinars/OnlineWebinarThankCool'));
@@ -153,6 +153,7 @@ const App = () => {
           <Route path="/sommerhund/bliv" element={<DogSummerStay />} />
           <Route path="/sommerhund/tricks" element={<DogSummerTricks />} />
           <Route path="/sommerhund/roligeture" element={<DogSummerWalk />} />
+          <Route path="/sommertak" exact element={<SummerThanks />} />
           <Route path="/hyggedage" element={<DogSundayPlay />} />
           <Route path="/onlinehandelsbetingelser" element={<LawList />} />
           <Route path="/privatlivspolitik" element={<LawPrivate />} />
@@ -165,7 +166,6 @@ const App = () => {
           <Route path="/hvalpmedsucces" exact element={<OnlineEbookPuppyFive />} />
           <Route path="/eboginvestering" exact element={<OnlineEbookThanks />} />
           <Route path="/lydboginvestering" exact element={<OnlineSoundbookThanks />} />
-          <Route path="/sommertak" exact element={<OnlineSummerThanks />} />
           <Route path="/webinarreaktivtilro" exact element={<OnlineWebinarCool />} />
           <Route path="/webinardengodehundeleg" exact element={<OnlineWebinarPlaytime />} />
           <Route path="/webinarreaktivtiltak" exact element={<OnlineWebinarThankCool />} />

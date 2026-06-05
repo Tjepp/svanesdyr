@@ -122,7 +122,6 @@ export const ConsultPupOne = '/images/SalgssideHvalp1.jpg';
 export const ConsultPupTwo = '/images/SalgssideHvalp2.jpg';
 export const ConsultPupThree = '/images/SalgssideHvalp3.jpg';
 export const SnackshopCover = '/images/Snackshop.png';
-export const SummerCover = '/images/SummerCover.png';
 export const TestiOnlineWalkOne = '/images/TestiOnlineWalk1.png';
 export const TestiOnlineWalkTwo = '/images/TestiOnlineWalk2.jpg';
 export const TestiOnlineWalkThree = '/images/TestiOnlineWalk3.jpg';

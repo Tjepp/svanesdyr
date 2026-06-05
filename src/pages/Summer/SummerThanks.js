@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SummerCover } from '../../assets';
+import { OnlineSummer } from '../../assets';
 import {
   ButtonOnline,
   Column,
@@ -13,17 +13,16 @@ import Responsive from '../../components/layout/Responsive';
 import '../../components/table/TableCss.css';
 
 const SummerThanks = () => (
-  <LandingpageOnline noindex>
+  <LandingpageOnline>
     <Background>
       <Row>
         <Column widthPercentage="100%">
           <Image
-            src={SummerCover}
-            alt="Coverbillede for sommerkursus med hund"
+            src={OnlineSummer}
+            alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser uge 30 og 31"
             aspectRatio="1140 / 470"
             priority
           />
-          <br />
           <TitleCenter text="Wooohoooo! Du er med!" />
           <TextCenter>
             Tusind tak for din investering i din hund og jeres sommerferie sammen!
