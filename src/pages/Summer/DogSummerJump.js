@@ -22,13 +22,6 @@ const DogSummerJump = () => (
     <MetaDogSummer />
     <Background>
       <Row>
-        <Image
-          src={SummerCover}
-          alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser"
-          priority
-        />
-      </Row>
-      <Row>
         <Column widthPercentage="20%">
           <Title text="Udbud af sommerkurser" showHorizontalRuler />
           <SummerMenu />
