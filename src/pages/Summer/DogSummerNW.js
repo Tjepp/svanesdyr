@@ -84,8 +84,8 @@ const DogSummerNW = () => (
               får også lov at lave et enkelt søg eller to med parringer (godbid + duft).
             </Text>
             <Text>
-              Alle deltagere på kurset vil få udleveret et startkit til videre træning hjemme.
-              Startkittet består af:
+              Alle deltagere med hund på kurset vil få udleveret et startkit til videre træning
+              hjemme. Startkittet består af:
               <TextListMark texts={NW} />
             </Text>
             <Text>
