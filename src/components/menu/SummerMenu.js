@@ -3,7 +3,7 @@ import { StyledMenuLinkWithIcon } from '..';
 
 const SummerMenu = () => (
   <MenuContainer>
-    <StyledMenuLinkWithIcon link="/sommerhund" text="Sommerkurser forside" />
+    <StyledMenuLinkWithIcon link="/sommerhund" text="Praktisk info" />
     <StyledMenuLinkWithIcon link="/sommerhund/aktivering" text="Hverdagsaktivering" />
     <StyledMenuLinkWithIcon link="/sommerhund/frivillig" text="Frivillig Håndtering" />
     <StyledMenuLinkWithIcon link="/sommerhund/fitness" text="Fitness for alle" />
