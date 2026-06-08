@@ -11,6 +11,7 @@ const SummerMenu = () => (
     <StyledMenuLinkWithIcon link="/sommerhund/frivillig" text="Frivillig Håndtering" />
     <StyledMenuLinkWithIcon link="/sommerhund/indkald" text="Indkald" />
     <StyledMenuLinkWithIcon link="/sommerhund/bliv" text="Bliv" />
+    <StyledMenuLinkWithIcon link="/sommerhund/plads" text="Plads position" />
     <StyledMenuLinkWithIcon link="/sommerhund/tricks" text="Tricks og Sjov" />
     <StyledMenuLinkWithIcon link="/sommerhund/roligeture" text="Rolige Gåture" />
     <StyledMenuLinkWithIcon link="/sommerhund/sommerleg" text="Sommerlegestuer" />

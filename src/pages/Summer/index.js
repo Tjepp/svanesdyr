@@ -2,6 +2,7 @@ export { default as DogSummer } from './DogSummer';
 export { default as DogSummerActive } from './DogSummerActive';
 export { default as DogSummerFH } from './DogSummerFH';
 export { default as DogSummerFitness } from './DogSummerFitness';
+export { default as DogSummerHeel } from './DogSummerHeel';
 export { default as DogSummerJump } from './DogSummerJump';
 export { default as DogSummerNW } from './DogSummerNW';
 export { default as DogSummerPlay } from './DogSummerPlay';
