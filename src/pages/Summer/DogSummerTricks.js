@@ -65,7 +65,7 @@ const DogSummerTricks = () => (
           <br />
 
           <TitleCenter text="Tilmelding til Tricks og Sjov:" />
-          <EasyMeList src="https://ezme.io/x/x1S/dmMn" />
+          <EasyMeList src="https://ezme.io/x/x1S/fmtu" />
         </Column>
       </Row>
 

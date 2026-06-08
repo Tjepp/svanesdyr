@@ -83,7 +83,7 @@ const DogSummerPlay = () => (
           <br />
 
           <TitleCenter text="Tilmelding til Sommerlegestuer:" />
-          <EasyMeList src="https://ezme.io/x/x1S/dI00" />
+          <EasyMeList src="https://ezme.io/x/x1S/knhZ" />
         </Column>
       </Row>
 

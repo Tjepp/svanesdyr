@@ -62,7 +62,7 @@ const DogSummerFH = () => (
           <br />
 
           <TitleCenter text="Tilmelding til Intro til Frivillig Håndtering:" />
-          <EasyMeList src="https://ezme.io/x/x1S/o8eg" />
+          <EasyMeList src="https://ezme.io/x/x1S/fm8I" />
         </Column>
       </Row>
 
