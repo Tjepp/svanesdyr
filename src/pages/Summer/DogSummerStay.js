@@ -62,7 +62,7 @@ const DogSummerStay = () => (
           <br />
 
           <TitleCenter text="Tilmelding til Bliv:" />
-          <EasyMeList src="https://ezme.io/x/x1S/o8zC" />
+          <EasyMeList src="https://ezme.io/x/x1S/fmtL" />
         </Column>
       </Row>
 
