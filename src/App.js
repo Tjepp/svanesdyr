@@ -50,6 +50,7 @@ const DogSummerHeel = lazy(() => import('./pages/Summer/DogSummerHeel'));
 const DogSummerJump = lazy(() => import('./pages/Summer/DogSummerJump'));
 const DogSummerNW = lazy(() => import('./pages/Summer/DogSummerNW'));
 const DogSummerPlay = lazy(() => import('./pages/Summer/DogSummerPlay'));
+const DogSummerReactive = lazy(() => import('./pages/Summer/DogSummerReactive'));
 const DogSummerRecall = lazy(() => import('./pages/Summer/DogSummerRecall'));
 const DogSummerStay = lazy(() => import('./pages/Summer/DogSummerStay'));
 const DogSummerTricks = lazy(() => import('./pages/Summer/DogSummerTricks'));
@@ -152,6 +153,7 @@ const App = () => {
           <Route path="/sommerhund/hilseroligt" element={<DogSummerJump />} />
           <Route path="/sommerhund/nosework" element={<DogSummerNW />} />
           <Route path="/sommerhund/sommerleg" element={<DogSummerPlay />} />
+          <Route path="/sommerhund/sommerreaktiv" element={<DogSummerReactive />} />
           <Route path="/sommerhund/indkald" element={<DogSummerRecall />} />
           <Route path="/sommerhund/bliv" element={<DogSummerStay />} />
           <Route path="/sommerhund/tricks" element={<DogSummerTricks />} />

@@ -6,6 +6,7 @@ export { default as DogSummerHeel } from './DogSummerHeel';
 export { default as DogSummerJump } from './DogSummerJump';
 export { default as DogSummerNW } from './DogSummerNW';
 export { default as DogSummerPlay } from './DogSummerPlay';
+export { default as DogSummerReactive } from './DogSummerReactive';
 export { default as DogSummerRecall } from './DogSummerRecall';
 export { default as DogSummerStay } from './DogSummerStay';
 export { default as DogSummerTricks } from './DogSummerTricks';
