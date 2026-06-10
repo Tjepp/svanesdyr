@@ -62,6 +62,8 @@ const DogSummerReactive = () => (
               uanset antal tobenede der er med
             </Text>
             <Text>Max 4 hunde pr. møde.</Text>
+            <br />
+            <i>Mødet afholdes ved minimum 3 tilmeldte</i>
           </TextCenter>
           <br />
 

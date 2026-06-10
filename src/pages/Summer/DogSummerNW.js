@@ -100,6 +100,8 @@ const DogSummerNW = () => (
             </Text>
             <Text>
               <b>Deltagelse uden hund (observatør): 550,- kr.</b>
+              <br />
+              <i>Startkit kan tilkøbes efter aftale med Anja, såfremt det ønskes</i>
             </Text>
           </TextCenter>
           <br />

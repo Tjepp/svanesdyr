@@ -62,6 +62,8 @@ const DogSummerWalk = () => (
               derhjemme.
             </Text>
             <Text>Max 5 hunde pr. hold.</Text>
+            <br />
+            <i>Kurset afholdes ved minimum 3 tilmeldte</i>
           </TextCenter>
           <br />
 
