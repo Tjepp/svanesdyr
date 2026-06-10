@@ -57,9 +57,11 @@ const DogSummerFH = () => (
               Prisen inkluderer en skriftlig opsummering på dagens øvelser, til let videretræning
               derhjemme.
             </Text>
-            <Text>Max 5 hunde pr. hold.</Text>
-            <br />
-            <i>Kurset afholdes ved minimum 3 tilmeldte</i>
+            <Text>
+              Max 5 hunde pr. hold.
+              <br />
+              <i>Kurset afholdes ved minimum 3 tilmeldte</i>
+            </Text>
           </TextCenter>
           <br />
 
