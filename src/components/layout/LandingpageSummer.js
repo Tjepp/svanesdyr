@@ -9,11 +9,6 @@ import Header from '../Header';
 import Responsive from './Responsive';
 
 const LandingpageSummer = ({ children }) => {
-  useEffect(() => {
-    const easyMeAlreadyLoaded = document.getElementById('easyme-connect-alpine');
-    if (easyMeAlreadyLoaded) window.location.reload();
-  }, []);
-
   return (
     <Container>
       <Header />
