@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
+import { useEffect } from 'react';
 import CookieConsent from 'react-cookie-consent';
 import styled from 'styled-components';
-import { LogoUpdate, OnlineSummer } from '../../assets';
+import { OnlineSummer } from '../../assets';
 import { Column, Image, Row } from '../../components';
 import ContactPopUp from '../ContactPopUp';
 import FooterBottom from '../FooterBottom';
@@ -9,6 +10,11 @@ import Header from '../Header';
 import Responsive from './Responsive';
 
 const LandingpageSummer = ({ children }) => {
+  useEffect(() => {
+    const easyMeAlreadyLoaded = document.getElementById('easyme-connect-alpine');
+    if (easyMeAlreadyLoaded) window.location.reload();
+  }, []);
+
   return (
     <Container>
       <Header />
