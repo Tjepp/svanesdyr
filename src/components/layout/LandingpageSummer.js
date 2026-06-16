@@ -8,42 +8,49 @@ import FooterBottom from '../FooterBottom';
 import Header from '../Header';
 import Responsive from './Responsive';
 
-const LandingpageSummer = ({ children }) => (
-  <Container>
-    <Header />
-    <Background>
-      <Bar>
-        <CenteredA href="/">
-          <Img
-            src="/img/LogoUpdate.png?w=800"
-            srcSet="/img/LogoUpdate.png?w=400 400w, /img/LogoUpdate.png?w=800 800w"
-            sizes="(max-width: 768px) 100vw, 400px"
-            alt="Svanes Dyr logo"
-            fetchPriority="high"
+const LandingpageSummer = ({ children }) => {
+  useEffect(() => {
+    const easyMeAlreadyLoaded = document.getElementById('easyme-connect-alpine');
+    if (easyMeAlreadyLoaded) window.location.reload();
+  }, []);
+
+  return (
+    <Container>
+      <Header />
+      <Background>
+        <Bar>
+          <CenteredA href="/">
+            <Img
+              src="/img/LogoUpdate.png?w=800"
+              srcSet="/img/LogoUpdate.png?w=400 400w, /img/LogoUpdate.png?w=800 800w"
+              sizes="(max-width: 768px) 100vw, 400px"
+              alt="Svanes Dyr logo"
+              fetchPriority="high"
+            />
+          </CenteredA>
+        </Bar>
+      </Background>
+      <Row>
+        <Column widthPercentage="100%">
+          <Image
+            src={OnlineSummer}
+            alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser uge 30 og 31"
+            aspectRatio="1140 / 470"
+            priority
           />
-        </CenteredA>
-      </Bar>
-    </Background>
-    <Row>
-      <Column widthPercentage="100%">
-        <Image
-          src={OnlineSummer}
-          alt="Gruppe af hundeejere med deres hunde på træningsplads med teksten Sommerkurser uge 30 og 31"
-          aspectRatio="1140 / 470"
-          priority
-        />
-      </Column>
-    </Row>
-    {children}
-    <Background>
-      <Bar>
-        <ContactPopUp text="Tilmelding til sommerkursus venteliste" />
-      </Bar>
-    </Background>
-    <FooterBottom />
-    <CookieConsent>This website uses cookies to enhance the user experience. </CookieConsent>
-  </Container>
-);
+        </Column>
+      </Row>
+      {children}
+      <Background>
+        <Bar>
+          <ContactPopUp text="Tilmelding til sommerkursus venteliste" />
+        </Bar>
+      </Background>
+      <FooterBottom />
+      <CookieConsent>This website uses cookies to enhance the user experience. </CookieConsent>
+    </Container>
+  );
+};
 
 LandingpageSummer.propTypes = {
   children: PropTypes.node.isRequired,
