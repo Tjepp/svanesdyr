@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { useEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import CookieConsent from 'react-cookie-consent';
 import styled from 'styled-components';
 import { OnlineSummer } from '../../assets';
@@ -10,7 +10,7 @@ import Header from '../Header';
 import Responsive from './Responsive';
 
 const LandingpageSummer = ({ children }) => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     const easyMeAlreadyLoaded = document.getElementById('easyme-connect-alpine');
     if (easyMeAlreadyLoaded) window.location.reload();
   }, []);

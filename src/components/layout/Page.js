@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { useEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import CookieConsent from 'react-cookie-consent';
 import styled from 'styled-components';
 import FooterBottom from '../FooterBottom';
@@ -8,7 +8,7 @@ import Header from '../Header';
 import Menu from '../menu/Menu';
 
 const Page = ({ children }) => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     const easyMeAlreadyLoaded = document.getElementById('easyme-connect-alpine');
     if (easyMeAlreadyLoaded) window.location.reload();
   }, []);
