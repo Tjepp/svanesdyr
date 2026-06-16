@@ -9,8 +9,14 @@ import Menu from '../menu/Menu';
 
 const Page = ({ children }) => {
   useLayoutEffect(() => {
-    const easyMeAlreadyLoaded = document.getElementById('easyme-connect-alpine');
-    if (easyMeAlreadyLoaded) window.location.reload();
+    // EasyMe's widget scans the DOM once on script load and has no MutationObserver,
+    // so SPA navigation leaves new booking placeholders un-hydrated.
+    const easyMe = window.easymeConnect;
+    if (easyMe?.triggerExpansions) {
+      easyMe.triggerExpansions();
+    } else if (document.getElementById('easyme-connect-alpine')) {
+      window.location.reload();
+    }
   }, []);
 
   return (
