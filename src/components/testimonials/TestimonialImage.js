@@ -5,7 +5,7 @@ import Responsive from '../layout/Responsive';
 
 const TestimonialImage = ({ src, alt = '' }) => (
   <TestimonialImageWrapper>
-    <Image src={src} alt={alt} width="100%" height="300px" />
+    <Image src={src} alt={alt} width="100%" />
   </TestimonialImageWrapper>
 );
 
