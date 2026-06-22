@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { useEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import CookieConsent from 'react-cookie-consent';
 import styled from 'styled-components';
 import FooterBottom from '../FooterBottom';
@@ -8,9 +8,15 @@ import Header from '../Header';
 import Menu from '../menu/Menu';
 
 const Page = ({ children }) => {
-  useEffect(() => {
-    const easyMeAlreadyLoaded = document.getElementById('easyme-connect-alpine');
-    if (easyMeAlreadyLoaded) window.location.reload();
+  useLayoutEffect(() => {
+    // EasyMe's widget scans the DOM once on script load and has no MutationObserver,
+    // so SPA navigation leaves new booking placeholders un-hydrated.
+    const easyMe = window.easymeConnect;
+    if (easyMe?.triggerExpansions) {
+      easyMe.triggerExpansions();
+    } else if (document.getElementById('easyme-connect-alpine')) {
+      window.location.reload();
+    }
   }, []);
 
   return (
