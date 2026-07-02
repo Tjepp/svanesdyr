@@ -20,7 +20,6 @@ import {
   MetaDogCoolEnvironment,
   Page,
   Row,
-  StyledLink,
   Text,
   TextList,
   Title,
@@ -60,17 +59,18 @@ const DogCoolEnvironment = () => (
           <DogMenu />
         </Column>
         <Column widthPercentage="75%">
-          <Title text="Miljøhold i Horsens" showHorizontalRuler />
+          <Title
+            text="Miljøhold i Horsens for nuværende og tidligere kursister"
+            showHorizontalRuler
+          />
           <Text>
-            På miljøholdet fokuseres der på mine kendte Cool-principper med kontakt og ro, som
-            udøves i <u>nye miljøer</u> over 4 lektioner af op til 60 min. pr. lektion.
+            På miljøholdet fokuseres der på at skabe kontakt og ro, i <u>nye miljøer</u> over 4
+            lektioner af op til 60 min. pr. lektion.
           </Text>
           <Text>
-            Al træning foregår med{' '}
-            <StyledLink to="/minemetoder"> belønningsbaserede træningsmetoder</StyledLink>, hvor vi
-            bruger klikker eller "dygtig" til at markere korrekt adfærd og belønner hunden med mad
-            og leg. Hvis din hund laver fejl hjælper vi den ved at gøre opgaven nemmere og mere
-            letforståelig. Alle bliver sat op til succes.
+            <b>Krav for deltagelse</b>
+            <br />
+            Miljøhold er KUN for tidligere og nuværende kursister. Skriv til mig hvis du er i tvivl.
           </Text>
           <Text>
             <b>Helt-Cool Miljøhold</b>
@@ -87,11 +87,6 @@ const DogCoolEnvironment = () => (
             miljøer. Så du får redskaberne til at lære din hund ro, kontakt og abstrahere for andre,
             selv i nye miljøer. Vi starter i miljøer hvor der kan udøves god afstand til hinanden og
             andre, så hundene får succes.
-          </Text>
-          <Text>
-            <b>Krav for deltagelse</b>
-            <br />
-            Miljøhold er KUN for tidligere og nuværende kursister. Skriv til mig hvis du er i tvivl.
           </Text>
           <Text>
             <b>Træningsprogram for holdet</b>
@@ -118,7 +113,10 @@ const DogCoolEnvironment = () => (
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k3zy" />
           <br />
-          <TitleColor text="Din investering i Reaktiv til Ro Miljøholdet: 1095 kr." />
+          <TitleColor
+            text="Din investering i Reaktiv til Ro Miljøholdet: 1095 kr."
+            showHorizontalRuler
+          />
           <Text>
             i at kunne nyde jeres daglige gåture, med en hund der kan finde ro og holde kontakt,
             selv når der er andre fremmede hunde og mennesker i nærheden.
@@ -127,7 +125,7 @@ const DogCoolEnvironment = () => (
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/fQoZ" />
           <br />
-          <Title color="#872f35" text="Næste holdstart efter ovenstående er sensommer 2026" />
+          <Title color="#872f35" text="Næste holdstart efter ovenstående er september 2026" />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver

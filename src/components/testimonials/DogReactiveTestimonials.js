@@ -2,7 +2,13 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../../overrides.css';
 
-import { TestiCoolSix, TestiCoolTwo, TestiReactiveOne, TestiReactiveTwo } from '../../assets';
+import {
+  TestiCoolSix,
+  TestiCoolTwo,
+  TestiReactiveOne,
+  TestiReactiveThree,
+  TestiReactiveTwo,
+} from '../../assets';
 import { FlexedRow, Text, TextContainer, TitleColor } from '..';
 import TestimonialImage from './TestimonialImage';
 
@@ -43,6 +49,36 @@ const DogReactiveTestimonials = () => (
           virkelig hjælper både hund og ejer.
         </Text>
         <Text>Pernille og Riley</Text>
+      </TextContainer>
+    </FlexedRow>
+
+    <FlexedRow>
+      <TestimonialImage
+        src={TestiReactiveThree}
+        alt="Billede fra kunde til udtalelse om reaktiv hundetræning"
+      />
+      <TextContainer>
+        <TitleColor
+          text=" ”Det har ikke bare hjulpet vores hund, men også givet mig mere ro, glæde og overskud i
+          hverdagen” "
+        />
+        <Text>
+          Jeg kan kun give vores varmeste anbefalinger. Forløbet “Reaktiv til Ro” har gjort en kæmpe
+          forskel for både vores hund og os. Vi er kommet så langt, og det bedste er, at man lærer
+          at se og værdsætte de små sejre i hverdagen. Pludselig kommer de store gennembrud, som man
+          næsten ikke turde håbe på.
+        </Text>
+        <Text>
+          Vores hundetræner har været utrolig dygtig, tålmodig og støttende gennem hele forløbet.
+          Jeg har følt mig mødt med forståelse, konkrete redskaber og masser af opbakning, og det
+          har givet os troen på, at udvikling er mulig – også når det føles svært.
+        </Text>
+        <Text>
+          Hvis man ønsker et trygt og positivt træningsforløb, kan vi kun anbefale “Reaktiv til Ro”.
+          Det har ikke bare hjulpet vores hund, men også givet mig mere ro, glæde og overskud i
+          hverdagen.
+        </Text>
+        <Text>Cecilie og Karlo</Text>
       </TextContainer>
     </FlexedRow>
 
