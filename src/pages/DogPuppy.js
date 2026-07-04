@@ -35,7 +35,7 @@ const PuppyProgram = [
   'Pauseknappen, så hvalpen kan falde til ro, når du er i ro',
   'Kontaktøvelser, som sikrer dig, at DU altid er interessant',
   'Det sikre indkald hvor hvalpen kommer hver gang der kaldes',
-  'Positiv miljøtræning, så nye og skræmmende ting kan mødes med selvtillid - selv i helt nyt miljø',
+  'Positiv miljøtræning, så nye og skræmmende ting kan mødes med selvtillid',
   'Øvelse i byttelege, så hvalpen lærer at aflevere og spytte ud, fremfor at stikke af med sager',
   'Frivillig håndtering, hvor du gør det til en leg at få tjekket tænder, ører, klippet negle m.v.',
   'God impulskontrol så dagligdagens små glæder bliver lettere med en hvalp, der har lært at have ro',
@@ -45,7 +45,7 @@ const PuppyBenefits = [
   'Gode muligheder for socialisering og leg under kontrollerede forhold',
   'Personlig sparring omkring din hvalp og jeres hverdag sammen',
   'Gode råd og tips til optimal aktivering af hvalpen',
-  'Hele 7 lektioners træning med ugentligt møde',
+  'Hele 6 lektioners træning fordelt over 3 uger',
   'Max 4 andre holdkammerater, så der er god tid til dig',
   'Adgang til online bibilotek med skriftlige trin-for-trin guides, så det er let at øve hjemme',
   'Udleveret en klikker til valgfrit brug i træningen',
@@ -85,13 +85,21 @@ const DogPuppy = () => {
               mere letforståelig. Alle bliver sat op til succes.
             </Text>
             <Text>
-              <b>Træningsprogram for holdet</b>
-              <br />I løbet af vores 7 mødegange sammen vil vi komme igennem følgende:
-              <TextList texts={PuppyProgram} />
+              <b>Mødegang 2 x ugentligt</b>
+              <br />
+              Hvalpeholdets lektioner afholdes to gange om ugen, da jeg værdsætter at kunne rådgive
+              og støtte dig og din hvalp de første vigtige uger af jeres liv sammen. De regelmæssige
+              møder betyder at vi oftere ses, så du ikke føler du skal stå alene med en evt.
+              problemstilling, men kan få rådgivning og hjælp inden det fastsætter sig som en dårlig
+              vane.
+              <br /> Derfor afvikles hvalpeholdet med to ugentlige mødegange over 3 uger. Så du kan
+              få den sparring du har behov for i den første vigtige tid, mens din hvalp er ekstra
+              modtagelig for læring og nye input. Inden vi rammer ind i teenagealderen.
             </Text>
             <Text>
-              Programmet inkluderer en lektion hvor vi mødes et helt andet sted i Horsens for
-              indlæring af kontakt og ro i nyt miljø.
+              <b>Træningsprogram for holdet</b>
+              <br />I løbet af vores 6 mødegange sammen vil vi komme igennem følgende:
+              <TextList texts={PuppyProgram} />
             </Text>
             <Text>
               Tilmelding til hvalpeholdet inkluderer én fribillet til{' '}
@@ -100,9 +108,8 @@ const DogPuppy = () => {
               legestuer sker efter aftale med Sabrina.
             </Text>
             <Text>
-              Første og anden lektion varer op til 60 minutter. Derefter varer hver lektion 45
-              minutter. Jeg tager udgangspunkt i din hvalp og dens behov, så forvent at du til tider
-              kan opleve at blive afsluttet tidligere end de andre hvalpe.
+              Hver lektion varer op til 60 minutter. Jeg tager udgangspunkt i din hvalp og dens
+              behov, så forvent at du kan opleve at blive afsluttet tidligere end de andre hvalpe.
             </Text>
             <Text>
               <b>Hvad kan du forvente at få med?</b>
