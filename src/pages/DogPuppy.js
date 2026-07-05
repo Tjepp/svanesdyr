@@ -92,9 +92,10 @@ const DogPuppy = () => {
               møder betyder at vi oftere ses, så du ikke føler du skal stå alene med en evt.
               problemstilling, men kan få rådgivning og hjælp inden det fastsætter sig som en dårlig
               vane.
-              <br /> Derfor afvikles hvalpeholdet med to ugentlige mødegange over 3 uger. Så du kan
-              få den sparring du har behov for i den første vigtige tid, mens din hvalp er ekstra
-              modtagelig for læring og nye input. Inden vi rammer ind i teenagealderen.
+              <br /> Derfor afvikles hvalpeholdet med to ugentlige mødegange over 3 uger. Dermed får
+              du over kort tid de vigtige redskaber til jeres hverdag sammen, mens din hvalp er
+              ekstra modtagelig for læring og nye input. Så du kan få skabt gode rutiner og ønsket
+              adfærd, inden vi rammer ind i teenagealderen, hvor fokus pludselig kan skifte.
             </Text>
             <Text>
               <b>Træningsprogram for holdet</b>
@@ -110,6 +111,9 @@ const DogPuppy = () => {
             <Text>
               Hver lektion varer op til 60 minutter. Jeg tager udgangspunkt i din hvalp og dens
               behov, så forvent at du kan opleve at blive afsluttet tidligere end de andre hvalpe.
+              <br />
+              Udover 60 minutters aktiv undervisning vil der være afsat 15 minutter efter hver
+              lektion, hvor du kan stille spørgsmål til din hvalp og jeres hverdag sammen.
             </Text>
             <Text>
               <b>Hvad kan du forvente at få med?</b>
