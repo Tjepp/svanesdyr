@@ -63,7 +63,7 @@ const LPstep7 = [
 const LPstep8 = [
   'Flyt-Fokus strategien til konfliktfri opdragelse',
   'Formlen på miljøtræning uden stress',
-  'Trin-for-trin guide med konkrete øvelser, der lærer din hvalp kontakt og ro på gåturene',
+  'Konkrete øvelser, der lærer din hvalp kontakt og ro på gåturene',
   'Opskriften på ro i hjemmet med stationstræning',
 ];
 
