@@ -109,13 +109,6 @@ const DogCoolContinued = () => (
           <Title color="#872f35" text="Næste holdstart oprettes på efterspørgsel." />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
-            Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
-            jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg{' '}
-            <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min
-            venteliste. Kursister der allerede går hos mig har førsteprioritet til en plads.
-            Derefter åbner jeg op for ventelisten.
-          </Text>
-          <Text>
             Vil du skrives op til næste opstart, så smid mig en besked om dit holdønske her:
           </Text>
           <br />
