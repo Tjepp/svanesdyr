@@ -130,7 +130,7 @@ const DogCool = () => (
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/k3zd" />
           <br />
-          {/* <Title color="#872f35" text="Næste holdstart efter ovenstående er efteråret 2026" /> */}
+          <Title color="#872f35" text="Næste holdstart efter ovenstående er 2027" />
           {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
           <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
@@ -142,7 +142,10 @@ const DogCool = () => (
           <Text>
             Vil du skrives op til næste opstart, så smid mig en besked om dit holdønske her:
           </Text>
-          {/* <Title color="#872f35" text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 18. september. Du får hurtigst muligt svar herefter." /> */}
+          <Title
+            color="#872f35"
+            text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 31. august. Du får hurtigst muligt svar herefter."
+          />
           <ContactPopUp text="Ja tak! Skriv mig på venteliste" />
           <br />
           <br />
