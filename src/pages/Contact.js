@@ -31,7 +31,10 @@ import '../components/table/TableCss.css';
 
 const Contact = () => (
   <Page>
-    <Meta url="https://www.svanesdyr.dk/kontakt" description="Kontakt Svanes Dyr – tlf. 93 96 05 00 (mandag og torsdag kl. 10–16), e-mail info@svanesdyr.dk. Send en besked via kontaktformularen." />
+    <Meta
+      url="https://www.svanesdyr.dk/kontakt"
+      description="Kontakt Svanes Dyr – tlf. 93 96 05 00 (mandag og torsdag kl. 10–16), e-mail info@svanesdyr.dk. Send en besked via kontaktformularen."
+    />
     <Banner text="Kontakt Svanes Dyr v/Sabrina Svane">
       <BreadCrumps currentPage="Kontakt" />
     </Banner>
@@ -66,7 +69,10 @@ const Contact = () => (
           <br /> */}
           <br />
           {/* <Title color="#872f35" text="Jeg har få ledige tider tilbage i September 2025." /> */}
-          {/* <Title color="#872f35" text="Jeg afholder i øjeblikket juleferie og er tilbage på kontoret igen den 2. januar 2026!" /> */}
+          <Title
+            color="#872f35"
+            text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 31. august!"
+          />
         </Column>
       </Row>
       <Row>
