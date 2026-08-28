@@ -69,10 +69,10 @@ const Contact = () => (
           <br /> */}
           <br />
           {/* <Title color="#872f35" text="Jeg har få ledige tider tilbage i September 2025." /> */}
-          <Title
+          {/* <Title
             color="#872f35"
             text="Jeg afholder i øjeblikket ferie og er tilbage på kontoret igen den 31. august!"
-          />
+          /> */}
         </Column>
       </Row>
       <Row>

@@ -95,7 +95,7 @@ const ContactForm = () => {
       ) : null}
       {sent ? (
         <MessageSentContainer>
-          <Text>{`Jeg afholder ferie. Tak for din besked ${formData.name}! Jeg er tilbage på kontoret igen den 31. august.`}</Text>
+          <Text>{`Tak for din besked ${formData.name}! Jeg besvarer mails mandage og torsdage i tidsrummet kl. 10.00 - 16.00.`}</Text>
         </MessageSentContainer>
       ) : (
         <Form onSubmit={handleForm}>
