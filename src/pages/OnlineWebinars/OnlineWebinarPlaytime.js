@@ -62,7 +62,7 @@ const OnlineWebinarPlaytime = () => (
 
       <ButtonOnline
         text="Jeg er klar! Tag mig til tilmeldingssiden"
-        href="https://ezme.io/c/x1S/fqgV"
+        href="https://ezme.io/c/x1S/flCv"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -150,7 +150,7 @@ const OnlineWebinarPlaytime = () => (
 
       <ButtonOnline
         text="Jeg er klar til at få succes med kontrolleret leg!"
-        href="https://ezme.io/c/x1S/fqgV"
+        href="https://ezme.io/c/x1S/flCv"
       ></ButtonOnline>
 
       <Row marginTop="25px">
@@ -163,26 +163,29 @@ const OnlineWebinarPlaytime = () => (
 
       <Row marginTop="25px">
         <Column widthPercentage="100%">
-          {/* <LPHeadlineWebinar text="Sådan foregår webinaret" /> */}
-          <LPHeadlineWebinar text="Sådan får du adgang til Replay af webinaret" />
+          <LPHeadlineWebinar text="Sådan foregår webinaret" />
+          {/* <LPHeadlineWebinar text="Sådan får du adgang til Replay af webinaret" /> */}
           <br />
           <br />
-          {/* <TitleCenter text="LIVE webinar på Zoom!" /> */}
-          <TitleCenter text="Webinaret ligger optaget på Zoom med adgang til og med den 26.08.2026!" />
+          <TitleCenter text="LIVE webinar på Zoom!" />
+          {/* <TitleCenter text="Webinaret ligger optaget på Zoom med adgang til og med den 26.08.2026!" />
           <TextCenter>
             Straks efter køb vil du få tilsendt en mail med bekræftelse på dit køb.
             <br />I denne mail får du et link til Zoom, hvor du kan se Replay af det optagede
             webinar. Du vil også modtage slides fra webinarets fremvisning, som du kan downloade og
             printe ud efter ønske. Disse slides har du til evigt eje efter download.
-          </TextCenter>
-          {/* <TextCenter>
+          </TextCenter> */}
+          <TextCenter>
             Straks efter køb vil du få tilsendt en mail med bekræftelse på din tilmelding.
             <br />
             Få dage før vi skal ses vil du modtage en ny mail, med link til Zoom, hvor webinaret
             afholdes. I denne mail vil du også modtage slides fra webinarets fremvisning, som du kan
             downloade og printe ud efter ønske. Disse slides har du til evigt eje efter download.
-          </TextCenter> */}
+          </TextCenter>
           <TextCenter bold>
+            Der er i øjeblikket ingen ny dato for næste webinar afholdelse.
+          </TextCenter>
+          {/* <TextCenter bold>
             Webinaret blev afholdt tirsdag den 26. maj 2026 fra kl. 19.00 - 21.00.
           </TextCenter>
           <TextCenter>
@@ -190,8 +193,8 @@ const OnlineWebinarPlaytime = () => (
             på spørgsmål fra deltagerne på dagen.
             <br />
             Du får derfor ekstra fif og gode råd med i mine svar på spørgsmålene.
-          </TextCenter>
-          {/* <TextCenter>
+          </TextCenter> */}
+          <TextCenter>
             Der er afsat 1,5 timer til gennemgang af webinarets materiale, hvor der vil være
             billeder og videoer undervejs så du fik et godt indblik i hundenes kommunikation.
             <br />
@@ -207,7 +210,7 @@ const OnlineWebinarPlaytime = () => (
             <br />
             Webinaret optages og bliver sendt ud til dig efterfølgende!
           </TextCenter>
-          <TextCenter bold>
+          {/* <TextCenter bold>
             Du har adgang til frit at se eller gense webinaret i 3 måneder efter afholdelse, frem
             til og med den 26. august 2026.
           </TextCenter> */}
@@ -217,7 +220,7 @@ const OnlineWebinarPlaytime = () => (
 
       <ButtonOnline
         text="Ja tak! Jeg skal se med!"
-        href="https://ezme.io/c/x1S/fqgV"
+        href="https://ezme.io/c/x1S/flCv"
       ></ButtonOnline>
       <br />
       <br />
