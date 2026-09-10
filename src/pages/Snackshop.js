@@ -56,7 +56,7 @@ const Snackshop = () => (
           </Text>
           <Text bold>Du kan betale med kontant, mobilepay eller dankort i butikken.</Text>
 
-          <TitleCenter text="Snackshoppens næste åbningsdag er: weekenden 4, 5, 6. september" />
+          <TitleCenter text="Snackshoppens næste åbningsdag er: weekenden 2., 3., 4. oktober" />
         </Column>
       </Row>
 
