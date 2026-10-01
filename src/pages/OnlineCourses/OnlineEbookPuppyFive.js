@@ -250,7 +250,7 @@ const OnlineEbookPuppyFive = () => (
       <Row marginTop="25px">
         <Column widthPercentage="100%">
           <TitleCenter text="Din investering i opskriften på at få den rolige familiehund du drømmer om" />
-          <TitleCenter color="#008037" text="Kun 349,- kr. inkl. moms" />
+          <TitleCenter color="#008037" text="Kun 249,- kr. inkl. moms" />
           <TextCenter>
             En investering der kan spare dig frustration, tid og penge!
             <br />
