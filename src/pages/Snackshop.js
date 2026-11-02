@@ -37,7 +37,6 @@ const Snackshop = () => (
           />
           <br />
           <TitleCenter text="Snackshoppen kan besøges på adressen Horsensvej 31, Nim, 8740 Brædstrup" />
-          <TitleCenter text="OBS! Ikke åbnet i august grundet ferie" />
           <Text>
             Snackshoppen er en lille, intim gårdbutik i udkanten af Nim, med et stort udvalg af
             naturlige, tørrede snacks og godbidder til din bedste ven.
@@ -56,7 +55,7 @@ const Snackshop = () => (
           </Text>
           <Text bold>Du kan betale med kontant, mobilepay eller dankort i butikken.</Text>
 
-          <TitleCenter text="Snackshoppens næste åbningsdag er: weekenden 2., 3., 4. oktober" />
+          <TitleCenter text="Snackshoppens næste åbningsdag er: weekenden 6., 7., 8. november" />
         </Column>
       </Row>
 
