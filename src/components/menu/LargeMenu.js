@@ -5,7 +5,7 @@ const LargeMenu = () => (
   <Container>
     <LargeMenuItem url="/hundehold" text="Hundehold" />
     <LargeMenuItem url="/legestue" text="Legestue " />
-    <LargeMenuItem url="/hyggedage" text="Søndagshygge " />
+    <LargeMenuItem url="/hyggedage" text="Gårdhygge " />
     <LargeMenuItem url="/hundetraening" text="Hund" />
     <LargeMenuItem url="/kattetraening" text="Kat" />
     <LargeMenuItem url="/onlinekurser" text="Onlinekurser " />

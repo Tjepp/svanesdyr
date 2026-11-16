@@ -12,7 +12,7 @@ const SmallMenu = ({ onClick, showSidebar }) => (
       <SmallMenuItem url="/kontakt" text="Kontakt" />
       <SmallMenuItem url="/hundehold" text="Hundehold" />
       <SmallMenuItem url="/legestue" text="Legestue" />
-      <SmallMenuItem url="/hyggedage" text="Søndagshygge" />
+      <SmallMenuItem url="/hyggedage" text="Gårdhygge" />
       <SmallMenuItem url="/hundetraening" text="Hund" />
       <SmallMenuItem url="/kattetraening" text="Kat" />
       <SmallMenuItem url="/onlinekurser" text="Onlinekurser" />

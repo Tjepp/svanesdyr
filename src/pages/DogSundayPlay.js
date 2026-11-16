@@ -1,5 +1,15 @@
 import styled from 'styled-components';
-import { Sunday1, Sunday2, Sunday3 } from '../assets';
+import {
+  Sunday1,
+  Sunday2,
+  Sunday3,
+  Sunday4,
+  Sunday5,
+  Sunday6,
+  Sunday7,
+  Sunday8,
+  Sunday9,
+} from '../assets';
 import {
   Banner,
   BreadCrumps,
@@ -17,12 +27,12 @@ import {
 import Responsive from '../components/layout/Responsive';
 
 const SundayBenefits = [
-  'Større motorikbane til sjov og trættende underholdning for hunden',
-  'Tunnel-Mania med masser af tunneltyper at øve på (når vinden tillader at sætte dem op)',
-  'Mulighed for leg hundene imellem på træningspladsens indhegnede arealer (kontrolleret, men på eget ansvar)',
-  'Fritløbs-pladsen, hvor du kan tage snoren af og lade hunden rende rundt for sig selv på de indhegnet 1500 kvm',
-  'Snackshoppen er åben med naturlige, tørrede hundesnacks',
-  'og der serveres også lidt lunt at drikke til de tobenede',
+  'Styrke kontakten og roen – øve at din hund kan koncentrere sig om dig, selvom der er andre hunde omkring jer',
+  'Give din sensitive hund gode oplevelser – træne i nærheden af andre hunde, uden at nogen kommer uinviteret hen og hilser',
+  'Øve gode hundemøder – hjælpe din hund med at hilse og kommunikere på en rolig og høflig måde',
+  'Finde en ny legekammerat – måske møder I lige den hund, som din egen klikker fantastisk med, og som den kan få en god leg med',
+  'Give hunden frihed uden snor – lade den undersøge og løbe frit i et afgrænset område uden andre hunde.',
+  'Udfordre både krop og hjerne – gå på opdagelse på dagens opstillede motorikbaner og lave sjove samarbejdsøvelser',
 ];
 
 const DogSundayPlay = () => {
@@ -30,71 +40,60 @@ const DogSundayPlay = () => {
     <Page>
       <MetaDogSundayPlay />
       <Banner text="Søndagshygge i Nim, nær Horsens">
-        <BreadCrumps currentPage="Søndagshygge" />
+        <BreadCrumps currentPage="Gårdhygge" />
       </Banner>
       <Background>
         <Row marginTop="25px" marginBottom="45px">
           <Column widthPercentage="100%">
-            <Title text="Søndagshygge, for nuværende og tidligere kursister" showHorizontalRuler />
+            <Title text="Gårdhygge, for nuværende og tidligere kursister" showHorizontalRuler />
             <Text>
-              Til Søndagshygge åbnes gården for besøg i et tidsrum på 2 timer.
-              <br />
-              Med mulighed for at socialisere, lege, træne og være i kontrolleret samrum med andre
-              hunde og mennesker.
+              Savner du et sted, hvor din hund kan træne, snuse, lege og være social - uden at du
+              skal bekymre dig om uønskede hundemøder?
             </Text>
             <Text>
-              <b>Krav for deltagelse</b>
+              Til Gårdhygge åbner jeg gården i to timer for tidligere kursister og
+              legestuedeltagere, der har lyst til en hyggelig formiddag med deres hund.
               <br />
-              Søndagshygge er KUN for tidligere og nuværende kursister. Du skal som <i>minimum</i>{' '}
-              have deltaget på 2 legestuer hos mig, for at kunne tilmelde dig dette arrangement.
-              <br />
-              <b>OBS:</b> Kender jeg ikke navnet ved tilmelding, forbeholder jeg mig ret til at
-              refundere tilmeldingen.
+              Her er der plads til både den sociale festabe, den nysgerrige snude og hunden, der
+              helst vil betragte verden lidt på afstand.
             </Text>
             <Text>
-              Krav til tidligere deltagelse hos Svanes Dyr skyldes, at søndagshygge skal være et
-              trygt forum for alle at deltage i. Derfor skal du kende til forholdsreglerne hos mig
-              for at færdes på gården blandt andre, og have forståelse for hvordan leg mellem hunde
-              kontrolleres og håndteres (som jeg bl.a. gennemgår til legestuen).
-            </Text>
-            <Text>
-              Således sikrer jeg mig, at alle der deltagere på dagen har forståelse for hundenes
-              sprog, afbryde samvær når det er nødvendigt og generelt holder respektabel afstand. Så
-              både den legeglade, såvel som den lidt sensitive hund, kan deltage og få en god
-              oplevelse.
-            </Text>
-            <Text>
-              <b>Hvad kan du forvente at få med?</b>
+              <b>
+                For det bedste ved Gårdhygge er, at du selv kan vælge, hvad din hund skal have ud af
+                dagen!
+              </b>
               <br />
-              På dagen til Søndagshygge tilbyder jeg:
+              Måske vil du:
               <TextList texts={SundayBenefits} />
             </Text>
             <Text>
-              Jeg vil ofte gå rundt med en af mine egne hunde på dagen og socialisere sammen med
-              jer. Derfor vil der også være mulighed for at sparre med mig.
+              <b>Og ved du, hvad det allerbedste er?</b>
+              <br />
+              Du er omgivet af andre hundeejere, der ligesom dig har forståelse for, at god
+              socialisering handler om at respektere hinandens grænser.
+              <br />
+              Her er der ingen forventning om, at alle hunde skal hilse på hinanden.
+              <br />
+              Ingen hunde, der bare får lov til at løbe hen til fremmede hunde.
+              <br />
+              Og ingen grund til at undskylde, hvis din hund har brug for lidt ekstra afstand.
+              <br />
+              Her er der plads til at tage hensyn – og stadig få en fantastisk oplevelse sammen!
             </Text>
             <Text>
-              <b>Tidsrum på 2 timer for deltagelse</b>
-              <br />
-              Du er velkommen med hele familien i <b>hele</b> tidsrummet!
-              <br />
-              Eller kig blot forbi i en enkelt time, hvis du skal videre. Hvad end der passer dig!
-              <br />
-              Venner eller familie med egen hund er velkommen til at deltage som ledsager til dig,
-              selvom de ikke har været hos mig før. Jeg forventer du har forståelse for at informere
-              om forholdsreglerne på gården og tager ansvaret for din ledsager.
+              Jeg står selvfølgelig til rådighed undervejs og vil ofte gå rundt med en af mine egne
+              hunde på dagen, hvis du har spørgsmål eller gerne vil have lidt sparring. Og mens
+              hundene får stimuleret både sanser, krop og hjerne, sørger jeg for lidt varmt at
+              drikke til de tobenede. For det er altså ikke kun hundene, der skal have mulighed for
+              at hygge og være sociale!
             </Text>
             <Text>
-              <b>Respekt for den Gule Vest</b>
+              <b>Hvem kan deltage?</b>
               <br />
-              Har du en sensitiv hund der har brug for ekstra afstand, men gerne vil komme og øve at
-              kigge på andre, så byder arrangementet på denne mulighed.
-              <br />
-              Der kan nemlig lånes gule veste på dagen, som signalerer til de andre deltagere, at
-              ekstra afstand skal respekteres og at hunden ikke skal løbe frit med andre.
-              <br />
-              Tæver der er tilmeldt, men render ind i løbetid på dagen er også stadig velkomne. Den
-              gule vest giver jer den nødvendige afstand til andre.
+              Gårdhygge er for dig, der tidligere har deltaget på enten et holdforløb eller 2
+              legestuer hos mig. Det sikrer, at alle kender principperne for den gode hundeleg,
+              respekterer hinandens afstand og hjælper med at skabe et trygt miljø for både hunde og
+              mennesker.
             </Text>
             <Text>
               <b>Antal pladser til Søndagshygge</b>
@@ -110,19 +109,56 @@ const DogSundayPlay = () => {
             <br />
             <Title text="Tilmelding til Søndagshygge" showHorizontalRuler />
             <TitleColor text="Din investering: 125 kr. pr. bil" />
-            <Text>i at få en hyggelig stund i positivt samspil med andre hunde!</Text>
+            <Text>
+              To timers hundehygge, gode oplevelser, nye indtryk og mulighed for at tage en dejligt
+              stimuleret hund med hjem!
+            </Text>
             <Text italic>Bemærk betaling er bindende og beløb refunderes ikke.</Text>
             <br />
             <Title text="Kommende datoer for Søndagshygge:" />
             <EasyMeList src="https://ezme.io/x/x1S/fFzy" />
 
             <br />
-            <Title text="Stemningsbilleder fra Søndagshygge" showHorizontalRuler />
+            <Title text="Stemningsbilleder fra Gårdhygge" showHorizontalRuler />
+            <Row>
+              <Column>
+                <Image
+                  src={Sunday9}
+                  alt="Oversigt over gårdens faciliteter med indtegnet arealer markeret i farver"
+                />
+              </Column>
+              <Column>
+                <Image src={Sunday4} alt="Gravhund står på balancebræt og kigger op på ejer" />
+              </Column>
+              <Column>
+                <Image
+                  src={Sunday8}
+                  alt="To hunde leger og kigger spændt på hinanden inden de sætter i løb"
+                />
+              </Column>
+            </Row>
             <Row>
               <Column>
                 <Image
                   src={Sunday1}
-                  alt="Lille pomeranian står på græsplæne med agilityringe i baggrunden til søndagshygge"
+                  alt="Lille pomeranian står på græsplæne med agilityringe i baggrunden til gårdhygge"
+                />
+              </Column>
+              <Column>
+                <Image src={Sunday5} alt="Brun hund snuser i badebassin efter godbidder" />
+              </Column>
+              <Column>
+                <Image
+                  src={Sunday3}
+                  alt="Motorikbane med farverige kegler og træningsudstyr på græsplæne"
+                />
+              </Column>
+            </Row>
+            <Row>
+              <Column>
+                <Image
+                  src={Sunday6}
+                  alt="En springer spaniel sidder og balancerer på vippe og venter på en godbid"
                 />
               </Column>
               <Column>
@@ -133,33 +169,11 @@ const DogSundayPlay = () => {
               </Column>
               <Column>
                 <Image
-                  src={Sunday3}
-                  alt="Motorikbane med farverige kegler og træningsudstyr på græsplæne"
+                  src={Sunday7}
+                  alt="3 hunde står på hver sin side af et hegn og kigger interesseret på hinanden"
                 />
               </Column>
             </Row>
-            {/* <Row>
-              <Column>
-                <Image src={PlayFour} />
-              </Column>
-              <Column>
-                <Image src={PlayFive} />
-              </Column>
-              <Column>
-                <Image src={PuppyContinuedFive} />
-              </Column>
-            </Row>
-            <Row>
-              <Column>
-                <Image src={PlaySeven} />
-              </Column>
-              <Column>
-                <Image src={PlayEight} />
-              </Column>
-              <Column>
-                <Image src={PlayNine} />
-              </Column>
-            </Row> */}
           </Column>
         </Row>
       </Background>
