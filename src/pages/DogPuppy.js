@@ -147,7 +147,10 @@ const DogPuppy = () => {
             <Title text="Kommende hold:" />
             <EasyMeList src="https://ezme.io/x/x1S/kCl5" />
             <br />
-            <Title color="#872f35" text="Næste holdstart efter ovenstående er 2027" />
+            <Title
+              color="#872f35"
+              text="Næste holdstart efter ovenstående er 2028, da Svanes Dyr holder midlertidigt lukket resten af 2027"
+            />
             {/* <Title text="Ønsker du en plads? Så smid mig en mail og få fortrinsret til tilmelding:" /> */}
             <Text>
               Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver

@@ -104,7 +104,11 @@ const DogEmpower = () => (
           <Title text="Kommende hold:" />
           <EasyMeList src="https://ezme.io/x/x1S/WXZW" />
           <br />
-          <Title color="#872f35" text="Næste holdstart oprettes på efterspørgsel." />
+          <Title
+            color="#872f35"
+            text="Næste holdstart efter ovenstående er 2028, da Svanes Dyr holder midlertidigt lukket resten af 2027"
+          />
+          {/* <Title color="#872f35" text="Næste holdstart oprettes på efterspørgsel." /> */}
           {/* <Text>
             Oplever du holdene er fyldt op, eller søger du holdstart på et andet tidspunkt skriver
             jeg dig hjertens gerne på venteliste til næste ledige plads. <b>Bemærk</b> at jeg <i>ikke</i> kan garantere dig en plads til næste opstart, selvom du noteres på min venteliste. 
