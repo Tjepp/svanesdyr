@@ -42,7 +42,7 @@ const CoolEnvironmentBenefits = [
   'Personlig sparring på at finde ro i nye områder',
   'Vejledning i at passere fremmede hunde og mennesker i ro',
   'Hele 4 mødegange på en ny lokation hver gang i Horsens og omegn',
-  'Max 4 andre holdkammerater på Helt-Cool Miljøholdet, så der er god tid til dig',
+  'Max 3 andre holdkammerater på Helt-Cool Miljøholdet, så der er god tid til dig',
   'Max 3 andre holdkammerater på Reaktiv til Ro Miljøholdet, så der er plads til alle',
 ];
 

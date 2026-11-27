@@ -256,7 +256,7 @@ const OnlineEbookPuppyFive = () => (
             <br />
             Bogen giver dig konkrete værktøjer til at skabe en positiv relation med gensidig tillid
             mellem dig og din hvalp. Værktøjer jeg dækker på et hvalpevisit i hjemmet til en værdi
-            af 1.425,- kr. + kørsel - og som du får leveret direkte i din indbakke!
+            af 1.650,- kr. + kørsel - og som du får leveret direkte i din indbakke!
           </TextCenter>
           <TextCenter>
             Du sparer altså snildt over tusind kroner når du med bogen i hånden ikke får brug for et
