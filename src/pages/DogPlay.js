@@ -72,7 +72,7 @@ const DogPlay = () => {
               Legestuen henvender sig til hunde der er glade for andre hunde, eller måske lidt
               forsigtige og lige skal se an før de tør op. Hunde der reagerer med at gø, knurre
               eller være udfarende overfor andre hunde passer ikke ind i legestuen, men er velkommen
-              på <StyledLink to="/hundehold/socialisering"> socialiseringsholdet</StyledLink> i
+              på <StyledLink to="/hundehold/reaktivtilro"> Reaktiv til Ro holdet</StyledLink> i
               stedet.
             </Text>
             <Text>
